@@ -246,137 +246,137 @@
 // Medic
 "Tip_5_Count"	"16"
 // Generic
-"Tip_5_1"		"As a Medic, teammates who haven't recently taken damage will be healed much faster!"
-"Tip_5_2"		"As a Medic, you gain ÜberCharge faster by healing teammates who are more hurt."
-"Tip_5_3"		"As a Medic, you gain ÜberCharge much faster during setup time."
-"Tip_5_4"		"As a Medic, fill your ÜberCharge meter by healing teammates, then press %attack2% to deploy an ÜberCharge."
-"Tip_5_5"		"As a Medic, stay alert for teammates calling for your help. Use the cross speech bubbles onscreen to find them."
-"Tip_5_6"		"As a Medic, you and your patients cannot capture Control Points or pick up the Intelligence briefcase while invulnerable."
+"Tip_5_1"		"Come Medico, teammates who haven't recently taken damage will be healed much faster!"
+"Tip_5_2"		"Come Medico, you gain ÜberCharge faster by healing teammates who are more hurt."
+"Tip_5_3"		"Come Medico, you gain ÜberCharge much faster during setup time."
+"Tip_5_4"		"Come Medico, fill your ÜberCharge meter by healing teammates, then press %attack2% to deploy an ÜberCharge."
+"Tip_5_5"		"Come Medico, stay alert for teammates calling for your help. Use the cross speech bubbles onscreen to find them."
+"Tip_5_6"		"Come Medico, you and your patients cannot capture Control Points or pick up the Intelligence briefcase while invulnerable."
 // Stock
-"Tip_5_7"		"As a Medic, remember that syringes shoot in arcs and have a travel time. Lead your shots to land successful hits."
-"Tip_5_8"		"As a Medic, use your Medi Gun to heal injured teammates, and overheal them up to a temporary 150%% of their normal health."
-"Tip_5_9"		"As a Medic, your Medi Gun's ÜberCharge makes both you and your patient invulnerable for a short time."
-"Tip_5_10"		"As a Medic, your Bonesaw can be used in defensive situations when you are separated from your teammates."
+"Tip_5_7"		"Come Medico, remember that syringes shoot in arcs and have a travel time. Lead your shots to land successful hits."
+"Tip_5_8"		"Come Medico, use your Medi Gun to heal injured teammates, and overheal them up to a temporary 150%% of their normal health."
+"Tip_5_9"		"Come Medico, your Medi Gun's ÜberCharge makes both you and your patient invulnerable for a short time."
+"Tip_5_10"		"Come Medico, your Bonesaw can be used in defensive situations when you are separated from your teammates."
 // Death & Taxes
-"Tip_5_11"		"As a Medic, the Kritzkrieg temporarily gives your patient guaranteed crits. Use it in on powerful classes, and in areas with lots of enemies."
-"Tip_5_12"		"As a Medic, when using the Überspritze, be sure to watch your health. You have 10 less maximum health when equipped with it."
-"Tip_5_13"		"As a Medic, the Shock Therapy will deal more damage the more charged it is. The charge will be depleted when landing hits on enemies."
-"Tip_5_14"		"As a Medic, the Shock Therapy can be used to fully heal a teammate at full charge, in exchange for overall heal rate."
+"Tip_5_11"		"Come Medico, the Kritzkrieg temporarily gives your patient guaranteed crits. Use it in on powerful classes, and in areas with lots of enemies."
+"Tip_5_12"		"Come Medico, when using the Überspritze, be sure to watch your health. You have 10 less maximum health when equipped with it."
+"Tip_5_13"		"Come Medico, the Shock Therapy will deal more damage the more charged it is. The charge will be depleted when landing hits on enemies."
+"Tip_5_14"		"Come Medico, the Shock Therapy can be used to fully heal a teammate at full charge, in exchange for overall heal rate."
 // Double Down
-"Tip_5_15"		"As a Medic, the Rejuvenator is extremely useful for healing large groups of teammates. Aim for direct hits for an increased heal and ÜberCharge bonus."
-"Tip_5_16"		"As a Medic, the Rejuvenator's ÜberCharge deploys a temporary shield of invulnerability, making any teammate who enters it immune to all damage."
+"Tip_5_15"		"Come Medico, the Rejuvenator is extremely useful for healing large groups of teammates. Aim for direct hits for an increased heal and ÜberCharge bonus."
+"Tip_5_16"		"Come Medico, the Rejuvenator's ÜberCharge deploys a temporary shield of invulnerability, making any teammate who enters it immune to all damage."
 
 // Heavy
 "Tip_6_Count"	"17"
 // Generic
 "Tip_6_1"		"Press %voicemenu 0 0% to call for a Medic if you get hurt. Nearby Medics will be notified of your need."
-"Tip_6_2"		"As a Heavy, you have more maximum health than any other class. Don't be afraid to head big offensive pushes!"
-"Tip_6_3"		"As a Heavy, you're much slower than other classes. Stay mindful when picking fights with more mobile enemies."
-"Tip_6_4"		"As a Heavy, you're a great Medic buddy. Keep a clear line of sight to your Medic so you can be healed."
-"Tip_6_5"		"As a Heavy, you're a prime target for Spies. Use your arsenal to keep them at bay, and look behind yourself often."
-"Tip_6_6"		"As a Heavy, hold %attack2% to spin up your Minigun or Anti-Aircraft Cannon. Be ready for approaching enemies!"
+"Tip_6_2"		"Come Grosso, you have more maximum health than any other class. Don't be afraid to head big offensive pushes!"
+"Tip_6_3"		"Come Grosso, you're much slower than other classes. Stay mindful when picking fights with more mobile enemies."
+"Tip_6_4"		"Come Grosso, you're a great Medic buddy. Keep a clear line of sight to your Medic so you can be healed."
+"Tip_6_5"		"Come Grosso, you're a prime target for Spies. Use your arsenal to keep them at bay, and look behind yourself often."
+"Tip_6_6"		"Come Grosso, hold %attack2% to spin up your Minigun or Anti-Aircraft Cannon. Be ready for approaching enemies!"
 // Stock
-"Tip_6_7"		"As a Heavy, your Minigun chews up a lot of ammo. Pick up ammo packs and fallen weapons to refill your supply."
-"Tip_6_8"		"As a Heavy, you don't lose momentum while spinning up your Minigun in the air. Surprise your enemies by leaping around corners!"
-"Tip_6_9"		"As a Heavy, your Shotgun can deal high burst damage, and allows you to move faster while attacking compared to spinning your Minigun."
-"Tip_6_10"		"As a Heavy, your high health allows you to win most melee fights. Don't be afraid to use your Fists!"
+"Tip_6_7"		"Come Grosso, your Minigun chews up a lot of ammo. Pick up ammo packs and fallen weapons to refill your supply."
+"Tip_6_8"		"Come Grosso, you don't lose momentum while spinning up your Minigun in the air. Surprise your enemies by leaping around corners!"
+"Tip_6_9"		"Come Grosso, your Shotgun can deal high burst damage, and allows you to move faster while attacking compared to spinning your Minigun."
+"Tip_6_10"		"Come Grosso, your high health allows you to win most melee fights. Don't be afraid to use your Fists!"
 // Death & Taxes
-"Tip_6_11"		"As a Heavy, be sure to find a safe place to eat your Sandvich, otherwise you may be rudely interrupted."
-"Tip_6_12"		"As a Heavy, you can take as many bites as you'd like out of your Sandvich to heal. However, pressing %attack2% to share it with a friend will put it on cooldown."
-"Tip_6_13"		"As a Heavy, be careful where you throw your Sandvich. Both teammates and enemies can pick it up to heal 50%% of their health!"
+"Tip_6_11"		"Come Grosso, be sure to find a safe place to eat your Sandvich, otherwise you may be rudely interrupted."
+"Tip_6_12"		"Come Grosso, you can take as many bites as you'd like out of your Sandvich to heal. However, pressing %attack2% to share it with a friend will put it on cooldown."
+"Tip_6_13"		"Come Grosso, be careful where you throw your Sandvich. Both teammates and enemies can pick it up to heal 50%% of their health!"
 // Fight or Flight
-"Tip_6_14"		"As a Heavy, your Anti-Aircraft Cannon deals high burst damage, and is ideal for handling crowds and enemies behind walls."
-"Tip_6_15"		"As a Heavy, your Anti-Aircraft Cannon deals mini-crits to airborne enemies. Use it to knock down Soldiers or enemies using Jump Pads!"
-"Tip_6_16"		"As a Heavy, the Chekhov's Punch will store one crit for each successful hit, up to 3. You can spend stored crits on any weapon!"
-"Tip_6_17"		"As a Heavy, the Chekhov's Punch will cause you to take guaranteed critical damage from enemy melee attacks. Be cautious during close combat."
+"Tip_6_14"		"Come Grosso, your Anti-Aircraft Cannon deals high burst damage, and is ideal for handling crowds and enemies behind walls."
+"Tip_6_15"		"Come Grosso, your Anti-Aircraft Cannon deals mini-crits to airborne enemies. Use it to knock down Soldiers or enemies using Jump Pads!"
+"Tip_6_16"		"Come Grosso, the Chekhov's Punch will store one crit for each successful hit, up to 3. You can spend stored crits on any weapon!"
+"Tip_6_17"		"Come Grosso, the Chekhov's Punch will cause you to take guaranteed critical damage from enemy melee attacks. Be cautious during close combat."
 
 // Pyro
 "Tip_7_Count"	"15"
 // Generic
-"Tip_7_1"		"As a Pyro, you are mostly immune to burning and fire damage. Use your secondary and melee weapons against enemy Pyros to get a quicker kill."
-"Tip_7_2"		"As a Pyro, you can set enemies on fire and quickly retreat, leaving them to die from afterburn."
+"Tip_7_1"		"Come Piro, you are mostly immune to burning and fire damage. Use your secondary and melee weapons against enemy Pyros to get a quicker kill."
+"Tip_7_2"		"Come Piro, you can set enemies on fire and quickly retreat, leaving them to die from afterburn."
 // Stock
-"Tip_7_3"		"As a Pyro, your Flame Thrower deals more damage the closer you are to the enemy."
-"Tip_7_4"		"As a Pyro, your Flame Thrower chews up a lot of ammo. Pick up ammo packs and fallen weapons to refill your supply."
-"Tip_7_5"		"As a Pyro, ambush enemies to catch them in the short range of your Flame Thrower. Use corners and dropdowns to your advantage."
-"Tip_7_6"		"As a Pyro, your Flame Thrower's compression blast is a very useful tool. Press %attack2% to push enemies (including invulnerable ones) away, or into environmental hazards!"
-"Tip_7_7"		"As a Pyro, your Flame Thrower can extinguish burning teammates with %attack2%."
-"Tip_7_8"		"As a Pyro, switch to your Shotgun if enemies retreat beyond the short range of your Flame Thrower."
-"Tip_7_9"		"As a Pyro, your Fire Axe is a great choice for dealing with retreating enemies in close range."
+"Tip_7_3"		"Come Piro, your Flame Thrower deals more damage the closer you are to the enemy."
+"Tip_7_4"		"Come Piro, your Flame Thrower chews up a lot of ammo. Pick up ammo packs and fallen weapons to refill your supply."
+"Tip_7_5"		"Come Piro, ambush enemies to catch them in the short range of your Flame Thrower. Use corners and dropdowns to your advantage."
+"Tip_7_6"		"Come Piro, your Flame Thrower's compression blast is a very useful tool. Press %attack2% to push enemies (including invulnerable ones) away, or into environmental hazards!"
+"Tip_7_7"		"Come Piro, your Flame Thrower can extinguish burning teammates with %attack2%."
+"Tip_7_8"		"Come Piro, switch to your Shotgun if enemies retreat beyond the short range of your Flame Thrower."
+"Tip_7_9"		"Come Piro, your Fire Axe is a great choice for dealing with retreating enemies in close range."
 // Death & Taxes
-"Tip_7_10"		"As a Pyro, your Flare Gun can set enemies on fire at long range. This works well for picking off far away enemies like Snipers."
-"Tip_7_11"		"As a Pyro, your Flare Gun has a very small window where it can crit burning enemy Pyros."
+"Tip_7_10"		"Come Piro, your Flare Gun can set enemies on fire at long range. This works well for picking off far away enemies like Snipers."
+"Tip_7_11"		"Come Piro, your Flare Gun has a very small window where it can crit burning enemy Pyros."
 // Fight or Flight
-"Tip_7_12"		"As a Pyro, the Twin Barrel can be used to close the gap between you and your target. Propel yourself upward or towards your enemies!"
-"Tip_7_13"		"As a Pyro, the Twin Barrel does not deal damage as reliably as your Shotgun. If you're losing in combat, use it to propel yourself away!"
-"Tip_7_14"		"As a Pyro, the Harvester can build up a guaranteed melee crit, and allows you to heal from your enemies."
-"Tip_7_15"		"As a Pyro, dying with the Harvester equipped will extinguish any enemies you've set on fire."
+"Tip_7_12"		"Come Piro, the Twin Barrel can be used to close the gap between you and your target. Propel yourself upward or towards your enemies!"
+"Tip_7_13"		"Come Piro, the Twin Barrel does not deal damage as reliably as your Shotgun. If you're losing in combat, use it to propel yourself away!"
+"Tip_7_14"		"Come Piro, the Harvester can build up a guaranteed melee crit, and allows you to heal from your enemies."
+"Tip_7_15"		"Come Piro, dying with the Harvester equipped will extinguish any enemies you've set on fire."
 
 // Spy
 "Tip_8_Count"	"15"
 // Generic
-"Tip_8_1"		"As a Spy, you can disguise yourself as an enemy with your Disguise Kit. Beware, as you can still bump into enemies, and attacking will remove your disguise."
-"Tip_8_2"		"As a Spy, call for enemy Medics by pressing %voicemenu 0 0% while disguised."
-"Tip_8_3"		"As a Spy, try to act like an enemy while disguised. Observe where enemy team members are, and disguise as one of them."
-"Tip_8_4"		"As a Spy, pressing %reload% while disguised will make you appear to reload to enemy team members."
-"Tip_8_5"		"As a Spy, press %speed% to move at your normal running speed while disguised as slower classes."
-"Tip_8_6"		"As a Spy, hit %attack2% to cloak and become fully invisible for a short period of time."
-"Tip_8_7"		"As a Spy, use your cloak to get behind enemy lines, and your disguise to move around amongst them."
+"Tip_8_1"		"Come Spia, you can disguise yourself as an enemy with your Disguise Kit. Beware, as you can still bump into enemies, and attacking will remove your disguise."
+"Tip_8_2"		"Come Spia, call for enemy Medics by pressing %voicemenu 0 0% while disguised."
+"Tip_8_3"		"Come Spia, try to act like an enemy while disguised. Observe where enemy team members are, and disguise as one of them."
+"Tip_8_4"		"Come Spia, pressing %reload% while disguised will make you appear to reload to enemy team members."
+"Tip_8_5"		"Come Spia, press %speed% to move at your normal running speed while disguised as slower classes."
+"Tip_8_6"		"Come Spia, hit %attack2% to cloak and become fully invisible for a short period of time."
+"Tip_8_7"		"Come Spia, use your cloak to get behind enemy lines, and your disguise to move around amongst them."
 // Stock
-"Tip_8_8"		"As a Spy, your Revolver is a very useful tool for when a stealth operation doesn't go your way."
-"Tip_8_9"		"As a Spy, place your Sapper on enemy buildings to disable and destroy them. Disguises aren't lost when placing sappers."
-"Tip_8_10"		"As a Spy, your Sapper disables Sentry Guns before destroying them. Sap a Sentry Gun before attacking nearby Engineers."
-"Tip_8_11"		"As a Spy, use your Knife to backstab enemies from behind, killing them instantly."
+"Tip_8_8"		"Come Spia, your Revolver is a very useful tool for when a stealth operation doesn't go your way."
+"Tip_8_9"		"Come Spia, place your Sapper on enemy buildings to disable and destroy them. Disguises aren't lost when placing sappers."
+"Tip_8_10"		"Come Spia, your Sapper disables Sentry Guns before destroying them. Sap a Sentry Gun before attacking nearby Engineers."
+"Tip_8_11"		"Come Spia, use your Knife to backstab enemies from behind, killing them instantly."
 // Death & Taxes
-"Tip_8_12"		"As a Spy, your Tranquilizer Gun slows your target's movement and firing speeds. This helps create an opening for an escape."
-"Tip_8_13"		"As a Spy, the darts from your Tranquilizer Gun cause your target to take guaranteed critical damage from melee attacks. Let your teammates gang up on them, or go for a kill on your own."
+"Tip_8_12"		"Come Spia, your Tranquilizer Gun slows your target's movement and firing speeds. This helps create an opening for an escape."
+"Tip_8_13"		"Come Spia, the darts from your Tranquilizer Gun cause your target to take guaranteed critical damage from melee attacks. Let your teammates gang up on them, or go for a kill on your own."
 // Fight or Flight
-"Tip_8_14"		"As a Spy, L'escampette allows you to move quickly to or from the enemy base. Make quick escapes, or quick infiltrations!"
-"Tip_8_15"		"As a Spy, you lose cloak when taking damage with L'escampette equipped. Stay out of the line of fire."
+"Tip_8_14"		"Come Spia, L'escampette allows you to move quickly to or from the enemy base. Make quick escapes, or quick infiltrations!"
+"Tip_8_15"		"Come Spia, you lose cloak when taking damage with L'escampette equipped. Stay out of the line of fire."
 
 // Engineer
 "Tip_9_Count"	"20"
 // Generic
-"Tip_9_1"		"As an Engineer, you need metal to build, repair, and upgrade your buildings. Collect ammo packs and fallen weapons to get more metal."
-"Tip_9_2"		"As an Engineer, you can do more than just maintain your buildings. Use your Shotgun and your Pistol to assist in fights and defend your buildings."
-"Tip_9_3"		"As an Engineer, keep an eye out for enemy Spies attaching Sappers to your buildings. Use your Wrench to remove Sappers."
-"Tip_9_4"		"As an Engineer, remember to upgrade your buildings. Upgraded buildings can provide big benefits to you and your team!"
-"Tip_9_5"		"As an Engineer, pressing %attack2% while hauling a building will rotate the building placement. Orient Sentry Guns or Teleporters to be more efficient for your team!"
+"Tip_9_1"		"Come Ingegnere, you need metal to build, repair, and upgrade your buildings. Collect ammo packs and fallen weapons to get more metal."
+"Tip_9_2"		"Come Ingegnere, you can do more than just maintain your buildings. Use your Shotgun and your Pistol to assist in fights and defend your buildings."
+"Tip_9_3"		"Come Ingegnere, keep an eye out for enemy Spies attaching Sappers to your buildings. Use your Wrench to remove Sappers."
+"Tip_9_4"		"Come Ingegnere, remember to upgrade your buildings. Upgraded buildings can provide big benefits to you and your team!"
+"Tip_9_5"		"Come Ingegnere, pressing %attack2% while hauling a building will rotate the building placement. Orient Sentry Guns or Teleporters to be more efficient for your team!"
 // Stock
-"Tip_9_6"		"As an Engineer, your Pistol has a lot of reserve ammo. Use it to lead enemies towards you and your Sentry Gun, or go for a more offensive approach."
-"Tip_9_7"		"As an Engineer, you are able to defuse enemy Dynamite Packs by hitting them with your Wrench."
-"Tip_9_8"		"As an Engineer, hitting friendly buildings with your Wrench will repair and upgrade them."
-"Tip_9_9"		"As an Engineer, use the Construction PDA to place Sentry Guns and other supportive buildings."
-"Tip_9_10"		"As an Engineer, your Sentry Guns aren't restricted to just defensive measures. Deploy them quickly in hidden locations in order to aid in an offensive push."
-"Tip_9_11"		"As an Engineer, hit your Sentry Guns with your Wrench to upgrade it with metal. Each level adds more health and firepower."
-"Tip_9_12"		"As an Engineer, build Dispensers to provide your teammates with health and ammo. They also generate metal for you to use."
-"Tip_9_13"		"As an Engineer, upgraded Dispensers will generate more health, ammo, and metal for you and your team!"
-"Tip_9_14"		"As an Engineer, build Teleporters or Jump Pads to help your team reach the front line faster."
-"Tip_9_15"		"As an Engineer, upgraded Teleporters will recharge much faster, allowing your team to keep the pressure on."
-"Tip_9_16"		"As an Engineer, hitting either the entrance or the exit of a Teleporter with your Wrench will repair and upgrade both sides!"
+"Tip_9_6"		"Come Ingegnere, your Pistol has a lot of reserve ammo. Use it to lead enemies towards you and your Sentry Gun, or go for a more offensive approach."
+"Tip_9_7"		"Come Ingegnere, you are able to defuse enemy Dynamite Packs by hitting them with your Wrench."
+"Tip_9_8"		"Come Ingegnere, hitting friendly buildings with your Wrench will repair and upgrade them."
+"Tip_9_9"		"Come Ingegnere, use the Construction PDA to place Sentry Guns and other supportive buildings."
+"Tip_9_10"		"Come Ingegnere, your Sentry Guns aren't restricted to just defensive measures. Deploy them quickly in hidden locations in order to aid in an offensive push."
+"Tip_9_11"		"Come Ingegnere, hit your Sentry Guns with your Wrench to upgrade it with metal. Each level adds more health and firepower."
+"Tip_9_12"		"Come Ingegnere, build Dispensers to provide your teammates with health and ammo. They also generate metal for you to use."
+"Tip_9_13"		"Come Ingegnere, upgraded Dispensers will generate more health, ammo, and metal for you and your team!"
+"Tip_9_14"		"Come Ingegnere, build Teleporters or Jump Pads to help your team reach the front line faster."
+"Tip_9_15"		"Come Ingegnere, upgraded Teleporters will recharge much faster, allowing your team to keep the pressure on."
+"Tip_9_16"		"Come Ingegnere, hitting either the entrance or the exit of a Teleporter with your Wrench will repair and upgrade both sides!"
 // Death & Taxes
-"Tip_9_17"		"As an Engineer, fully charged shots from the Coilgun can ricochet off walls and deal more damage."
-"Tip_9_18"		"As an Engineer, the Coilgun will cause a small explosion if you overcharge it. Use it to reach previously inaccessible areas."
+"Tip_9_17"		"Come Ingegnere, fully charged shots from the Coilgun can ricochet off walls and deal more damage."
+"Tip_9_18"		"Come Ingegnere, the Coilgun will cause a small explosion if you overcharge it. Use it to reach previously inaccessible areas."
 // Fight or Flight
-"Tip_9_19"		"As an Engineer, your Jump Pads allow you and your team to reach high places. Place them to allow less mobile teammates onto ledges and roofs!"
-"Tip_9_20"		"As an Engineer, your Jump Pads allow your teammates to jump forward with a lot of momentum. Deploy them in open areas that allow for quick rollouts."
+"Tip_9_19"		"Come Ingegnere, your Jump Pads allow you and your team to reach high places. Place them to allow less mobile teammates onto ledges and roofs!"
+"Tip_9_20"		"Come Ingegnere, your Jump Pads allow your teammates to jump forward with a lot of momentum. Deploy them in open areas that allow for quick rollouts."
 
 // Civilian
 "Tip_10_Count"	"11"
 // Generic
-"Tip_10_1"		"As a Civilian, you're rather slow. Try your best to keep up with your teammates to have a better chance of survival."
-"Tip_10_2"		"As a Civilian, you are the shortest out of all of your team. This can be useful when hiding behind teammates."
-"Tip_10_3"		"As a Civilian, you are the only one capable of capturing Control Points in the VIP and VIP Race gamemodes."
-"Tip_10_4"		"As a Civilian, be sure to watch out for enemy Snipers and Spies, as they're capable of killing you instantly."
-"Tip_10_5"		"As a Civilian, nearby teammates will be affected by your morale boost, giving them a slight defense boost and healing. Try to keep out of enemy sight lines and stick to your team."
-"Tip_10_6"		"As a Civilian, press %attack2% while looking at a teammate to boost them, giving them a great advantage in battle."
+"Tip_10_1"		"Come Civile, you're rather slow. Try your best to keep up with your teammates to have a better chance of survival."
+"Tip_10_2"		"Come Civile, you are the shortest out of all of your team. This can be useful when hiding behind teammates."
+"Tip_10_3"		"Come Civile, you are the only one capable of capturing Control Points in the VIP and VIP Race gamemodes."
+"Tip_10_4"		"Come Civile, be sure to watch out for enemy Snipers and Spies, as they're capable of killing you instantly."
+"Tip_10_5"		"Come Civile, nearby teammates will be affected by your morale boost, giving them a slight defense boost and healing. Try to keep out of enemy sight lines and stick to your team."
+"Tip_10_6"		"Come Civile, press %attack2% while looking at a teammate to boost them, giving them a great advantage in battle."
 // Stock
-"Tip_10_7"		"As a Civilian, your Umbrella isn't very effective as a weapon, and should only be used in desperation. Let your teammates fight for you."
-"Tip_10_8"		"As a Civilian, your Umbrella grants mini-crits to a teammate of your choosing. Boost classes that are capable of dealing high amounts of damage."
-"Tip_10_9"		"As a Civilian, your Umbrella mini-crit boost will also give Medics increased healing rate and ÜberCharge gain."
+"Tip_10_7"		"Come Civile, your Umbrella isn't very effective as a weapon, and should only be used in desperation. Let your teammates fight for you."
+"Tip_10_8"		"Come Civile, your Umbrella grants mini-crits to a teammate of your choosing. Boost classes that are capable of dealing high amounts of damage."
+"Tip_10_9"		"Come Civile, your Umbrella mini-crit boost will also give Medics increased healing rate and ÜberCharge gain."
 // Double Down
-"Tip_10_10"		"As a Civilian, your Derby Cane can be used to give a teammate a haste boost. This allows them to move and shoot much quicker."
-"Tip_10_11"		"As a Civilian, your Derby Cane boosts the healing rate of Medics and building rate of Engineers."
+"Tip_10_10"		"Come Civile, your Derby Cane can be used to give a teammate a haste boost. This allows them to move and shoot much quicker."
+"Tip_10_11"		"Come Civile, your Derby Cane boosts the healing rate of Medics and building rate of Engineers."
 
 // ----------------------------------------------------------------
 // Stock weapon strings
@@ -748,328 +748,328 @@
 // ----------------------------------------------------------------
 
 // cp_amaranth
-"Amaranth_cap_A"	"the Warehouses"
-"Amaranth_cap_B"	"RED's Shipping Facility"
+"Amaranth_cap_A"	"i Magazzini"
+"Amaranth_cap_B"	"Struttura di Spedizione RED"
 
 // 4dom_hydro
-"Hydro_dom_cap_warehouse"	"A, the Warehouse"
-"Hydro_dom_cap_radar_dish"	"B, the Radar Dish"
-"Hydro_dom_cap_power_plant"	"C, the Power Plant"
-"Hydro_dom_cap_dam"			"D, the Dam"
+"Hydro_dom_cap_warehouse"	"A, il Magazzino"
+"Hydro_dom_cap_radar_dish"	"B, la Parabola"
+"Hydro_dom_cap_power_plant"	"C, la Centrale Elettrica"
+"Hydro_dom_cap_dam"			"D, la Diga"
 
 // vip_mineside
-"vip_mineside_description"	"Objective:
-RED team wins by preventing the VIP from reaching the Escape Zone. BLU team wins by escorting the VIP to the Escape Zone.
+"vip_mineside_description"	"Obiettivo:
+RED vince facendo si che il VIP non raggiunga la Zona di Fuga. BLU vince escortando il VIP alla Zona di Fuga.
 
-Other Notes:
-The Escape Zone can't open until you deliver the Suitcase Device to the Control Room next to the Escape Zones gate.
+Nota Bene:
+La Zona di Fuga non si aprirà fino a quando non consegnerai la Valigetta alla Sala di Controllo affianco ai cancelli della Zona di Fuga.
 
-If BLU delivers the Suitcase Device, the gates timer will count down from 60 seconds before closing again."
+Se BLU consegna la Valigetta, il cancelli aspetteranno 60 secondi prima di chiudersi nuovamente."
 
-"Mineside_setup_goal_red"	"Kill the VIP to stop him from reaching the Escape Zone. Prevent him from grabbing the Device."
-"Mineside_setup_goal_blu"	"Escort the VIP to the Escape Zone. Deliver the Device to the Control Room to open the gate."
+"Mineside_setup_goal_red"	"Uccidi il VIP e non fargli raggiungere la Zona di Fuga. Non fargli raccogliere il Dispositivo."
+"Mineside_setup_goal_blu"	"Scorta il VIP alla Zona di Fuga. Consegna il Dispositivo alla Sala di Controllo per riaprire il cancello."
 
-"Mineside_escape_zone"	"the Escape Tunnel"
+"Mineside_escape_zone"	"il Tunnel di Fuga"
 
 // dom_oilcanyon
-"Oilcanyon_cap_A"	"cap A, the Canyon"
-"Oilcanyon_cap_B"	"cap B, the Laser Gun"
-"Oilcanyon_cap_C"	"cap C, the Refinery"
+"Oilcanyon_cap_A"	"cattura A, il Canyon"
+"Oilcanyon_cap_B"	"cattura B, la Pistola Laser"
+"Oilcanyon_cap_C"	"cattura C, la Raffineria"
 
 // vip_trainyard
-"Trainyard_escape_zone"	"the Escape Vehicle"
+"Trainyard_escape_zone"	"il Veicolo di Fuga"
 
 // vip_harbor
-"Harbor_cap_1"			"the Loading Dock"
-"Harbor_cap_2"			"the Waterfront"
-"Harbor_cap_3"			"the Warehouse"
+"Harbor_cap_1"			"la Banchina di Carico"
+"Harbor_cap_2"			"il Lungomare"
+"Harbor_cap_3"			"il Magazzino"
 
 // 4dom_krepost
-"dom_krepost_description"	"Objective:
-To win, each team must capture and hold the currently active Control Point to gain points.
+"dom_krepost_description"	"Obiettivo:
+Per vincere, ogni squadra deve catturare e difendere il Punto di Controllo attivo per guadagnare punti.
 
-The active Control Point switches to a random team's base every 60 seconds.
+Il Punto di Controllo attivo cambia a quello di una base nemica ogni 60 secondi.
 
-Other Notes:
-Contesting the Control Point stops the enemy from gaining points.
+Nota bene:
+Contendere il Punto di Controllo fa si che il nemico non guadagni punti.
 
-The active Control Point will lock when a new Control Point is chosen.
+Il Punto di Controllo Attivo verrà bloccato quando un nuovo Punto di Controllo viene scelto.
 
-Honorable hand to sword combat only!"
+Qui si lotta solo con la spada o con le mani!"
 
-"Krepost_cap_red"	"RED's castle"
-"Krepost_cap_blu"	"BLU's castle"
-"Krepost_cap_grn"	"GRN's castle"
-"Krepost_cap_ylw"	"YLW's castle"
+"Krepost_cap_red"	"Castello RED"
+"Krepost_cap_blu"	"Castello BLU"
+"Krepost_cap_grn"	"Castello GRN"
+"Krepost_cap_ylw"	"Castello YLW"
 
-"Krepost_attack_red"	"RED's gate is open!"
-"Krepost_attack_blu"	"BLU's gate is open!"
-"Krepost_attack_grn"	"GRN's gate is open!"
-"Krepost_attack_ylw"	"YLW's gate is open!"
+"Krepost_attack_red"	"Il cancello RED è aperto!"
+"Krepost_attack_blu"	"Il cancello BLU è aperto!"
+"Krepost_attack_grn"	"Il cancello GRN è aperto!"
+"Krepost_attack_ylw"	"Il cancello YLW è aperto!"
 
 // td_caper
-"Caper_cap_A"	"cap A, the Laser Tower"
-"Caper_cap_B"	"cap B, the Silos"
-"Caper_cap_C"	"cap C, the Sewer"
+"Caper_cap_A"	"cattura A, la Torre Laser"
+"Caper_cap_B"	"cattura B, i Silo"
+"Caper_cap_C"	"cattura C, la Fogna"
 
 // vipr_2bridge
-"2Bridge_cap_A"	"the RED Bridge"
-"2Bridge_cap_B"	"the BLU Bridge"
+"2Bridge_cap_A"	"il ponte RED"
+"2Bridge_cap_B"	"il ponte BLU"
 
 // vipr_drizzle
-"Drizzle_cap_A"	"the RED Mine Entrance"
-"Drizzle_cap_B"	"the BLU Mine Entrance"
+"Drizzle_cap_A"	"l'entrata della Miniera RED"
+"Drizzle_cap_B"	"l'entrata della Miniera BLU"
 
 // dom_railway
-"Railway_cap_A"	"cap A, the Garage"
-"Railway_cap_B"	"cap B, the Loading Hall"
-"Railway_cap_C"	"cap C, the Stockyard"
+"Railway_cap_A"	"cattura A, il Garage"
+"Railway_cap_B"	"cattura B, la Sala di Carico"
+"Railway_cap_C"	"cattura C, il Recinto"
 
 // dom_sawtooth
-"Sawtooth_cap_A"	"cap A, the Lookout"
-"Sawtooth_cap_B"	"cap B, the Sawmill"
-"Sawtooth_cap_C"	"cap C, the Radio Tower"
+"Sawtooth_cap_A"	"cattura A, l'Osservatorio"
+"Sawtooth_cap_B"	"cattura B, la Segheria"
+"Sawtooth_cap_C"	"cattura C, la Torre Radio"
 
 // td_sunnyside
-"Sunnyside_cap_A"	"cap A, the Barns"
-"Sunnyside_cap_B"	"cap B, the Tanks"
-"Sunnyside_cap_C"	"cap C, the Coops"
+"Sunnyside_cap_A"	"cattura A, i Fienili"
+"Sunnyside_cap_B"	"cattura B, le Vasche"
+"Sunnyside_cap_C"	"cattura C, i Pollai"
 
 // vip_avanti
-"Avanti_red_setup_goal"		"Move downhill and kill the enemy team's VIP to prevent him from reaching the Escape Zone!"
-"Avanti_blue_setup_goal"	"Move uphill and escort the VIP to the Escape Zone!"
-"Avanti_cap_1"				"the Storeroom"
-"Avanti_cap_2"				"the Terrace"
-"Avanti_cap_3"				"the Bell Tower"
-"Avanti_cap_4"				"the Front Gates"
+"Avanti_red_setup_goal"		"Dirigiti in basso ed uccidi il VIP nemico per evitare che raggiunga la Zona di Fuga!"
+"Avanti_blue_setup_goal"	"Dirigiti in alto e scorta il VIP alla Zona di Fuga!"
+"Avanti_cap_1"				"la Cambusa"
+"Avanti_cap_2"				"la Terrazza"
+"Avanti_cap_3"				"il Campanile"
+"Avanti_cap_4"				"i Cancelli d'Ingresso"
 
 // vipr_chopper
-"Chopper_cap_A"				"the RED Radar"
-"Chopper_cap_B"				"the BLU Radar"
+"Chopper_cap_A"				"il Radar RED"
+"Chopper_cap_B"				"il Radar BLU"
 
 // ----------------------------------------------------------------
 // Gamemodes
 // ----------------------------------------------------------------
 
-"Gametype_CTF_Penguin"		"Capture the Penguin" // We have fun here
-"Gametype_Domination"		"Domination"
-"Gametype_MedDomination"	"Domination (Medieval)"
-"Gametype_KOTF"				"King of the Flag"
-"Gametype_TD"				"Territorial Domination"
+"Gametype_CTF_Penguin"		"Cattura il pinguino" // We have fun here
+"Gametype_Domination"		"Dominazione"
+"Gametype_MedDomination"	"Dominazione (Medievale)"
+"Gametype_KOTF"				"Re della Bandiera"
+"Gametype_TD"				"Dominazione Territoriale"
 "Gametype_VIP"				"VIP"
-"Gametype_VIPRace"			"VIP Race"
+"Gametype_VIPRace"			"Corsa VIP"
 
-"Gametype_FourTeam"			"Four-Team"
+"Gametype_FourTeam"			"Quattro Squadre"
 
-"Gametype_Arena_FourTeam"			"Arena (Four-Team)"
-"Gametype_AttackDefense_FourTeam"	"Attack / Defense (Four-Team)"
-"Gametype_CP_FourTeam"				"Control Points (Four-Team)"
-"Gametype_CTF_FourTeam"				"Capture the Flag (Four-Team)"
-"Gametype_Domination_FourTeam"		"Domination (Four-Team)"
-"Gametype_MedDomination_FourTeam"	"Domination (Four-Team Medieval)"
-"Gametype_KOTF_FourTeam"			"King of the Flag (Four-Team)"
-"Gametype_Koth_FourTeam"			"King of the Hill (Four-Team)"
-"Gametype_Escort_FourTeam"			"Payload (Four-Team)"
-"Gametype_EscortRace_FourTeam"		"Payload Race (Four-Team)"
-"Gametype_SD_FourTeam"				"Special Delivery (Four-Team)"
-"Gametype_TD_FourTeam"				"Territorial Domination (Four-Team)"
-"Gametype_Training_FourTeam"		"Training Mode (Four-Team)"
-"Gametype_VIP_FourTeam"				"VIP (Four-Team)"
-"Gametype_VIPRace_FourTeam"			"VIP Race (Four-Team)"
+"Gametype_Arena_FourTeam"			"Arena (Quattro Squadre)"
+"Gametype_AttackDefense_FourTeam"	"Attacco / Difesa (Quattro Squadre)"
+"Gametype_CP_FourTeam"				"Punti di Controllo (Quattro Squadre)"
+"Gametype_CTF_FourTeam"				"Cattura la Bandiera (Quattro Squadre)"
+"Gametype_Domination_FourTeam"		"Dominazione (Quattro Squadre)"
+"Gametype_MedDomination_FourTeam"	"Dominazione (Quattro Squadre Medievale)"
+"Gametype_KOTF_FourTeam"			"Re della Bandiera (Quattro Squadre)"
+"Gametype_Koth_FourTeam"			"Re della Collina (Quattro Squadre)"
+"Gametype_Escort_FourTeam"			"Carrello (Quattro Squadre)"
+"Gametype_EscortRace_FourTeam"		"Corsa dei Carrelli (Quattro Squadre)"
+"Gametype_SD_FourTeam"				"Consegna Speciale (Quattro Squadre)"
+"Gametype_TD_FourTeam"				"Dominazione Territoriale (Quattro Squadre)"
+"Gametype_Training_FourTeam"		"Allenamento (Quattro Squadre)"
+"Gametype_VIP_FourTeam"				"VIP (Quattro Squadre)"
+"Gametype_VIPRace_FourTeam"			"Corsa VIP (Quattro Squadre)"
 
 // Offline practice descriptions
-"TF_GameModeDesc_VIP"			"BLU escorts the Civilian to a control point. RED needs to stop them."
-"TF_GameModeDesc_VIPRace"		"Escort your Civilian to the finish line before the opposing team does."
-"TF_GameModeDesc_Domination"	"Capture points and hold them for as long as possible."
-"TF_GameModeDesc_Arena"			"Eliminate all enemy players or wait for the control point to unlock."
+"TF_GameModeDesc_VIP"			"BLU scorta il Civile ad un punto di controllo. RED deve fermarli."
+"TF_GameModeDesc_VIPRace"		"Scora il tuo Civile fino alla linea d'arrivo prima dell'altra squadra."
+"TF_GameModeDesc_Domination"	"Cattura i punti e difendili per più tempo possibile."
+"TF_GameModeDesc_Arena"			"Elimina tutti i giocatori nemici o aspetta che si sblocchi il punto di controllo."
 
-"TF_GameModeBrief_VIPRace"		"VIP Race - Both teams have VIPs"
+"TF_GameModeBrief_VIPRace"		"Corsa VIP - Entrambe le squadre hanno un VIP"
 
 // ----------------------------------------------------------------
 // Gamemode strings
 // ----------------------------------------------------------------
 
 // Domination
-"default_dom_description"	"Objective:
-To win, each team must capture and hold Control Points to gain points. The more Control Points you own, the faster you gain points.
+"default_dom_description"	"Obiettivo:
+Per vincere, ogni squadra deve catturare e difendere i Punti di Controllo per guadagnare punti. Più Punti di Controllo possiedi, più velocemente accumuli punti.
 
-Other Notes:
-Contesting a Control Point stops the enemy from gaining points using that Control Point.
+Nota Bene:
+Contendere un Punto di Controllo fa si che il nemico non guadagni punti usando quel Punto di Controllo.
 
-If your team is behind, capture all of the Control Points to gain a score bonus."
+Se la tua squadra è rimasta indietro, cattura tutti i Punti di Controllo per ottenere un bonus."
 
-"domination_setup_goal"	"Capture Control Points to gain points over time. Capturing more than one point will increase your chance of success!"
+"domination_setup_goal"	"Cattura i Punti di Controllo per guadagnare punti col tempo. Catturare più di un punto aumenterà la tua possibilità di vincere!"
 
 // VIP
-"default_vip_description"	"Objective:
-BLU team wins by escorting the VIP to the Escape Zone before the time runs out. RED team wins by preventing him from reaching the escape zone.
+"default_vip_description"	"Obiettivo:
+BLU vince scortando il VIP alla Zona di Fuga prima che scada il tempo. RED vince facendo si che il VIP non raggiunga la Zona di Fuga.
 
-Other Notes:
-BLU team can freeze the capture progress of a Control Point if the VIP isn't present."
+Nota Bene:
+BLU può arrestare il progresso di cattura di un Punto di Controllo se il VIP non è presente."
 
-"vip_setup_goal_offense"	"Escort the VIP to the Escape Zone."
-"vip_setup_goal_defense"	"Kill the enemy team's VIP to prevent him from reaching the Escape Zone."
+"vip_setup_goal_offense"	"Scorta il VIP alla Zona di Fuga."
+"vip_setup_goal_defense"	"Uccidi il VIP della squadra nemica per far si che non raggiunga la Zona di Fuga."
 
-"TF_VIP_Assigned"				"%s1 is now the VIP!"
-"TF_VIP_Tutorial_Annotation_2"	"He provides a defensive boost to those around him and\ncan also temporarily buff a member of his team with Mini-Crits!"
-"TF_VIP_Tutorial_Annotation_3"	"But remember, his life is more important than yours, so don't let him die!"
+"TF_VIP_Assigned"				"%s1 è diventato il VIP!"
+"TF_VIP_Tutorial_Annotation_2"	"Garantisce un potenziamento difensivo a chi gli sta vicino e\npuò anche potenziare un membro della sua squadra temporaneamente con dei Mini-Critici!"
+"TF_VIP_Tutorial_Annotation_3"	"Ma ricorda, la sua vita vale molto di più della tua, quindi non lasciarlo morire!"
 
-"Cant_cap_civilian_only"		"Only the VIP can\n capture this point."
-"Cant_cap_civilian_only_frozen"	"Capture Frozen\n Only the VIP can\n capture this point."
+"Cant_cap_civilian_only"		"Solo il VIP può\n catturare questo punto."
+"Cant_cap_civilian_only_frozen"	"Cattura in Stallo\n Solo il VIP può\n catturare questo punto."
 
 // VIP (Lives)
-"vipl_setup_goal_offense"	"Escort the VIP to the Escape Zone. Prevent him from being eliminated."
-"vipl_setup_goal_defense"	"Kill the enemy team's VIP or prevent him from reaching the Escape Zone to win."
+"vipl_setup_goal_offense"	"Scorta il VIP alla Zona di Fuga. Fa si che non venga eliminato."
+"vipl_setup_goal_defense"	"Uccidi il VIP della squadra nemica o fa si che non raggiunga la Zona di Fuga per vincere."
 
 // VIP (Flags)
-"vip_bring_flag_here"	"Bring the device here!"
-"vip_bring_flag"		"Bring the device to the Control Room!"
+"vip_bring_flag_here"	"Porta qui il dispositivo!"
+"vip_bring_flag"		"Porta il dispositivo alla Sala di Controllo!"
 
-"TF_VIP_TakeDeviceToPoint"		"Take the Device to the Control Room!"
-"TF_VIP_TeamDeviceReturned"		"The Device has returned! Go get it!"
-"TF_VIP_EnemyDeviceReturned"	"The Device has returned! Defend the drop site!"
+"TF_VIP_TakeDeviceToPoint"		"Porta il dispositivo alla Sala di Controllo!"
+"TF_VIP_TeamDeviceReturned"		"Il Dispositivo è stato riconsegnato! Corri a prenderlo!"
+"TF_VIP_EnemyDeviceReturned"	"Il Dispositivo è stato riconsegnato! Difendi il punto dove è caduto!"
 
 // VIP Race
-"default_vipr_description"	"Objective:
-Escort your VIP to the Control Points followed by the Escape Zone to win. Kill the enemy VIP to reset any Control Points they have claimed.
+"default_vipr_description"	"Obiettivo:
+Scorta il tuo VIP ai Punti di Controllo seguiti dalla Zona di Fuga per vincere. Uccidi il VIP nemico per ripristinare i punti da lui catturati.
 
-Other Notes:
-If your VIP dies, you lose any Control Points your VIP has captured.
+Nota Bene:
+Se il tuo VIP muore, perderai tutti i Punti di Controllo catturati dal tuo VIP.
 
-Either team can freeze the capture progress of a Control Point if their VIP isn't present.
+Ogni squadra può arrestare la cattura di un Punto di Controllo se il loro VIP non è sul posto.
 
-If Sudden Death occurs, the enemy VIP can be killed to win the round!"
+Se inizia la Morte Improvvisa, il VIP può essere ucciso per vincere il round!"
 
-"vipr_setup_goal"		"Escort your VIP to the Control Points. Stop the enemy VIP from doing the same!"
-"vipr_setup_goal_4team"	"Escort your VIP to the Control Points. Stop the enemy teams from doing the same!"
+"vipr_setup_goal"		"Scorta il tuo VIP ai Punti di Controllo. Ferma il VIP nemico nel fare lo stesso!"
+"vipr_setup_goal_4team"	"Scorta il tuo VIP ai Punti di Controllo. Ferma i VIP nemici nel fare lo stesso!"
 
-"vipr_cap_wrong_vip"	"Capture the ENEMY Control Point, dummy!"
-"vipr_own_civ_death"	"Your VIP has been eliminated! Protect him!"
-"vipr_their_civ_death"	"Good job! Their VIP has been eliminated!"
-"vipr_cap_a_reset"		"Control Point A has been reset!"
-"vipr_cap_b_reset"		"Control Point B has been reset!"
-"vipr_cap_a_reset_vip"	"You died! Control Point A has been reset!"
-"vipr_cap_b_reset_vip"	"You died! Control Point B has been reset!"
+"vipr_cap_wrong_vip"	"Cattura il Punto di Controllo del NEMICO, sciocchino!"
+"vipr_own_civ_death"	"Il tuoi VIP è stato eliminato! Proteggilo"
+"vipr_their_civ_death"	"Ben fatto! Il loro VIP è stato eliminato!"
+"vipr_cap_a_reset"		"Il Punto di Controllo A è stato ripristinato!"
+"vipr_cap_b_reset"		"Il Punto di Controllo B è stato ripristinato!"
+"vipr_cap_a_reset_vip"	"Sei morto! Il Punto di Controllo A è stato ripristinato!"
+"vipr_cap_b_reset_vip"	"Sei morto! Il Punto di Controllo B è stato ripristinato!"
 
-"vipr_central_point"		"the Central Control Point"
-"vipr_cap_mid_reset"		"The Central Control Point has been reset!"
-"vipr_death_cap_mid_reset"	"You died! The Central Control Point has been reset!"
+"vipr_central_point"		"il Punto di Controllo Centrale"
+"vipr_cap_mid_reset"		"Il Punto di Controllo Centrale è stato ripristinato!"
+"vipr_death_cap_mid_reset"	"Sei morto! Il Punto di Controllo Centrale è stato ripristinato!"
 
-"vipr_red_civ_death"	"RED's VIP has been eliminated!"
-"vipr_blu_civ_death"	"BLU's VIP has been eliminated!"
-"vipr_ylw_civ_death"	"YLW's VIP has been eliminated!"
-"vipr_grn_civ_death"	"GRN's VIP has been eliminated!"
+"vipr_red_civ_death"	"Il VIP RED è stato eliminato!"
+"vipr_blu_civ_death"	"Il VIP BLU è stato eliminato!"
+"vipr_ylw_civ_death"	"Il VIP YLW è stato eliminato!"
+"vipr_grn_civ_death"	"Il VIP GRN è stato eliminato!"
 
-"vipr_escape_zone"	"the Escape Zone"
+"vipr_escape_zone"	"la Zona di Fuga"
 
 // Territorial Domination
-"default_td_description"			"Objective:
-To win, each team must own all Control Points.
+"default_td_description"			"Obiettivo:
+Per vincere, ogni squadra deve possedere tutti i Punti di Controllo.
 
-Other Notes:
-You spawn at the Control Points you own.
+Nota Bene:
+Partirai sempre dai Punti di Controllo che possiedi.
 
-Team ownership of Control Points is randomized at the start of each round."
+Le squadre che possiedono i Punti di Controllo iniziali sono scelti casualmente all'inizio del round."
 
-// Payload Race (Four-Team)
-"4plr_goal"	"Move your cart to the end of the track to win!"
+// Payload Race (Quattro Squadre)
+"4plr_goal"	"Muovi il tuo carrello fino alla fine dei binari per vincere!"
 
-"4plr_cap_red"	"RED's Capture Point"
-"4plr_cap_blu"	"BLU's Capture Point"
-"4plr_cap_grn"	"GRN's Capture Point"
-"4plr_cap_ylw"	"YLW's Capture Point"
+"4plr_cap_red"	"Punto di Controllo RED"
+"4plr_cap_blu"	"Punto di Controllo BLU"
+"4plr_cap_grn"	"Punto di Controllo GRN"
+"4plr_cap_ylw"	"Punto di Controllo YLW"
 
 // Useful generic stuff for mappers
-"generic_cap_A"			"Control Point A"
-"generic_cap_B"			"Control Point B"
-"generic_cap_C"			"Control Point C"
-"generic_cap_D"			"Control Point D"
-"generic_cap_E"			"Control Point E"
+"generic_cap_A"			"Punto di Controllo A"
+"generic_cap_B"			"Punto di Controllo B"
+"generic_cap_C"			"Punto di Controllo C"
+"generic_cap_D"			"Punto di Controllo D"
+"generic_cap_E"			"Punto di Controllo E"
 
 // ----------------------------------------------------------------
 // Intro movies
 // ----------------------------------------------------------------
 
 // cp_coldfront
-"TF_IM_Coldfront_Intro"	"Coldfront is a Control Point map"
+"TF_IM_Coldfront_Intro"	"Coldfront è una mappa di Punti di Controllo"
 
 // cp_steel
-"TF_IM_Steel_Intro"	"Steel is an attack and defend map."
-"TF_IM_Steel_BlueWin"	"BLU has to capture point E in order to win the round."
-"TF_IM_Steel_PlotTwist"	"However..."
-"TF_IM_Steel_FinalCap"	"Point E is always in play. BLU can capture it at any time."
-"TF_IM_Steel_Points"	"Capturing points A, B, C, and D will make E easier to take!"
-"TF_IM_Steel_CapA"	"Capturing A opens additional paths to B and E."
-"TF_IM_Steel_CapB"	"Capturing B moves RED's spawnroom and also opens an additional route to C. "
-"TF_IM_Steel_CapC"	"Capturing C extends bridges to E."
-"TF_IM_Steel_CapD"	"Capturing D blocks RED from easily reaching E."
-"TF_IM_Steel_Bridge"	"Without the bridges, E cannot be reached by everyone."
-"TF_IM_Steel_Pit"	"Watch out for the pit!"
+"TF_IM_Steel_Intro"	    "Steel è una mappa di Attacca/Difendi."
+"TF_IM_Steel_BlueWin"	"BLU deve catturare il punto E per vincere il round."
+"TF_IM_Steel_PlotTwist"	"Ma..."
+"TF_IM_Steel_FinalCap"	"Il punto E è sempre in ballo. BLU può catturarlo in qualsiasi momento."
+"TF_IM_Steel_Points"	"Catturare i punti A, B, C, e D renderà E più facile da catturare!"
+"TF_IM_Steel_CapA"	    "Catturare A apre dei percorsi accessori verso B ed E."
+"TF_IM_Steel_CapB"	    "Catturare B muove la sala di spawn di RED ed apre un passaggio secondario per C. "
+"TF_IM_Steel_CapC"	    "Catturare C estende il ponte diretto ad E."
+"TF_IM_Steel_CapD"	    "Catturare D rende l'accesso ad E più difficile per RED."
+"TF_IM_Steel_Bridge"	"Senza i ponti, E non può essere raggiunto da nessuno."
+"TF_IM_Steel_Pit"	    "Occhio alla fossa!"
 
 // VIP Race
-"TF_IM_VIPR_Intro"	"Welcome to the VIP Race game mode"
-"TF_IM_VIPR_ToWin"	"To win, you must help your VIP capture the enemy Control Point..."
-"TF_IM_VIPR_Escape"	"...then escort them to the Escape Zone before the enemy team can do the same!"
-"TF_IM_VIPR_Death"	"If a VIP dies, any points they have captured will be reset"
-"TF_IM_VIPR_HUD"	"The status and progress of both VIPs can be found at the base of your screen"
+"TF_IM_VIPR_Intro"	    "Benvenuto nella modalità Corsa VIP"
+"TF_IM_VIPR_ToWin"	    "Per vincere, devi aiutare il tuo VIP a catturare il Punto di Controllo nemico..."
+"TF_IM_VIPR_Escape"	    "...per poi scortarlo alla Zona di Fuga prima che la squadra nemica possa fare lo stesso!"
+"TF_IM_VIPR_Death"	    "Se un VIP muore, tutti i punti da lui catturati verrano ripristinati"
+"TF_IM_VIPR_HUD"	    "Lo stato ed il progresso di entrambi i VIP si trova alla base del tuo schermo"
 
 // ----------------------------------------------------------------
 // Scoreboard
 // ----------------------------------------------------------------
 
-"TF_ScoreBoard_Player"				"%s1 Player"
-"TF_ScoreBoard_Players"				"%s1 Players"
+"TF_ScoreBoard_Player"				"%s1 Giocatore"
+"TF_ScoreBoard_Players"				"%s1 Giocatori"
 
-"ScoreBoard_Spectator"				"%s1 Spectator: %s2"
-"ScoreBoard_Spectators"				"%s1 Spectators: %s2"
+"ScoreBoard_Spectator"				"%s1 Spettatore: %s2"
+"ScoreBoard_Spectators"				"%s1 Spettatori: %s2"
 
-"TF_ScoreBoard_KillsLabel"			"Kills:"
-"TF_ScoreBoard_AssistsLabel"		"Assists:"
-"TF_ScoreBoard_DeathsLabel"			"Deaths:"
+"TF_ScoreBoard_KillsLabel"			"Uccisioni:"
+"TF_ScoreBoard_AssistsLabel"		"Assist:"
+"TF_ScoreBoard_DeathsLabel"			"Morti:"
 
-"TF_Scoreboard_DamageLabel"			"Damage:"
-"TF_ScoreBoard_HealingLabel"		"Healing:"
-"TF_Scoreboard_SupportLabel"		"Support:"
+"TF_Scoreboard_DamageLabel"			"Danno:"
+"TF_ScoreBoard_HealingLabel"		"Cura:"
+"TF_Scoreboard_SupportLabel"		"Supporto:"
 
-"TF_ScoreBoard_CapturesLabel"		"Captures:"
-"TF_ScoreBoard_DefensesLabel"		"Defenses:"
-"TF_ScoreBoard_DominationsLabel"	"Dominations:"
-"TF_ScoreBoard_RevengesLabel"		"Revenges:"
+"TF_ScoreBoard_CapturesLabel"		"Catture:"
+"TF_ScoreBoard_DefensesLabel"		"Difese:"
+"TF_ScoreBoard_DominationsLabel"	"Dominazioni:"
+"TF_ScoreBoard_RevengesLabel"		"Vendette:"
 "TF_ScoreBoard_BonusLabel"			"Bonus:"
 
-"TF_ScoreBoard_UberchargesLabel"	"ÜberCharges:"
-"TF_ScoreBoard_TransportsLabel"		"Transports:"
-"TF_ScoreBoard_DestructionLabel"	"Destructions:"
-"TF_ScoreBoard_HeadshotsLabel"		"Headshots:"
-"TF_ScoreBoard_BackstabsLabel"		"Backstabs:"
+"TF_ScoreBoard_UberchargesLabel"	"ÜberCariche:"
+"TF_ScoreBoard_TransportsLabel"		"Transporti:"
+"TF_ScoreBoard_DestructionLabel"	"Distruzioni:"
+"TF_ScoreBoard_HeadshotsLabel"		"Colpi alla testa:"
+"TF_ScoreBoard_BackstabsLabel"		"Pugnalate alle spalle:"
 
-"TF_Medal_Developer"				"TF2C Developer"
-"TF_Medal_Contributor"				"TF2C Contributor"
-"TF_Medal_Playtester"				"TF2C Playtester"
+"TF_Medal_Developer"				"Sviluppatore TF2C"
+"TF_Medal_Contributor"				"Contributore TF2C"
+"TF_Medal_Playtester"				"Playtester TF2C"
 
 // ----------------------------------------------------------------
 // Win Panel
 // ----------------------------------------------------------------
 
-"Winpanel_Teams1"	"TEAMS"
-"Winpanel_Teams2"	"Teams"
+"Winpanel_Teams1"	"SQUADRE"
+"Winpanel_Teams2"	"Squadre"
 
-"Winpanel_TeamWins"		"%s1 %s2 WINS!"
-"Winpanel_TeamLost"		"%s1 %s2 LOST!"
-"Winpanel_TeamAdvances"	"%s1 %s2 SEIZES AREA"
-"Winpanel_TeamDefends"	"%s1 %s2 DEFENDS!"
+"Winpanel_TeamWins"		"%s1 %s2 VINCE!"
+"Winpanel_TeamLost"		"%s1 %s2 PERDE!"
+"Winpanel_TeamAdvances"	"%s1 %s2 CATTURA L'AREA"
+"Winpanel_TeamDefends"	"%s1 %s2 DIFENDE!"
 
-"WinPanel_Green_Team_Wins"	"GRN Team Wins"
-"WinPanel_Yellow_Team_Wins"	"YLW Team Wins"
+"WinPanel_Green_Team_Wins"	"La Squadra GRN Vince"
+"WinPanel_Yellow_Team_Wins"	"La Squadra YLW Vince"
 
-"Winpanel_GreenWins"		"GRN TEAM WINS!"
-"Winpanel_GreenAdvances"	"GRN TEAM SEIZES AREA"
-"Winpanel_GreenDefends"		"GRN TEAM DEFENDS!"
-"Winpanel_YellowWins"		"YLW TEAM WINS!"
-"Winpanel_YellowAdvances"	"YLW TEAM SEIZES AREA"
-"Winpanel_YellowDefends"	"YLW TEAM DEFENDS!"
-"Winpanel_GreenMVPs"		"GRN Team MVPs:"
-"Winpanel_YellowMVPs"		"YLW Team MVPs:"
+"Winpanel_GreenWins"		"LA SQUADRA GRN VINCE!"
+"Winpanel_GreenAdvances"	"LA SQUADRA GRN CATTURA L'AREA"
+"Winpanel_GreenDefends"		"LA SQUADRA GRN DIFENDE!"
+"Winpanel_YellowWins"		"LA SQUADRA YLW VINCE!"
+"Winpanel_YellowAdvances"	"LA SQUADRA YLW CATTURA L'AREA"
+"Winpanel_YellowDefends"	"LA SQUADRA YLW DIFENDE!"
+"Winpanel_GreenMVPs"		"I Migliori Giocatori GRN:"
+"Winpanel_YellowMVPs"		"I Migliori Giocatori YLW:"
 
 "Winreason_KOTHPointHeld"		"%s1 held the Control Point until time ran out"
 "Winreason_PayloadPushed"		"%s1 pushed the payload to the final terminus"
@@ -1082,38 +1082,40 @@ Team ownership of Control Points is randomized at the start of each round."
 // Main Menu
 // ----------------------------------------------------------------
 
-"TF_Menu_Welcome"			"Welcome back,"
+"TF_Menu_Welcome"			"Bentornato,"
 
-"TF_Menu_ResumeGame"		"Resume Game"
-"TF_Menu_Mute"				"Mute Players"
-"TF_Menu_Vote"				"Call a Vote"
+"TF_Menu_ResumeGame"		"Riprendi Partita"
+"TF_Menu_Mute"				"Muta Giocatori"
+"TF_Menu_Vote"				"Richiedi Votazione"
 
-"TF_Menu_FindServers"		"Find Servers"
-"TF_Menu_CreateServer"		"Create Server"
-"TF_Menu_OfflineTraining"	"Offline Training"
+"TF_Menu_FindServers"		"Trova Server"
+"TF_Menu_CreateServer"		"Crea Server"
+"TF_Menu_OfflineTraining"	"Allenamento Offline"
 
-"TF_Menu_Loadout"			"Loadout"
+"TF_Menu_Loadout"			"Equipaggiamento"
 
-"TF_Menu_Achievements"		"Achievements"
-"TF_Menu_Stats"				"Stats"
+"TF_Menu_Achievements"		"Achievement"
+"TF_Menu_Stats"				"Statistiche"
 
-"TF_Menu_Options"			"Options"
-"TF_Menu_Addons"			"Addons (Coming Soon!)"
+"TF_Menu_Options"			"Opzioni"
+"TF_Menu_Addons"			"Add-on (In Arrivo!)"
 
-"TF_Menu_Quit"				"Quit"
-"TF_Menu_Disconnect"		"Disconnect"
+"TF_Menu_Quit"				"Esci"
+"TF_Menu_Disconnect"		"Disconnettiti"
 
-"TF_Menu_Blog"				"Official Blog"
+"TF_Menu_Blog"				"Blog Ufficiale"
+"TF_Menu_LatestUpdate"		"Ultimo Aggiornamento"
+"TF_Menu_ReportBug"			"Segnala un Bug"
 
-"TF_Friends_Title"					"Friends (%friend_count%)"
-"TF_Friends_Status_InTF2C"			"Playing TF2C"
-"TF_Friends_Status_Idle_InTF2C"		"Idle in TF2C"
-"TF_Friends_Status_InMod"			"Playing other mod"
-"TF_Friends_Status_Idle_InMod"		"Idle in other mod"
-"TF_Friends_Status_InGame"			"Playing other game"
-"TF_Friends_Status_Idle"			"Idle in other game"
+"TF_Friends_Title"					"Amici (%friend_count%)"
+"TF_Friends_Status_InTF2C"			"Che giocano a  TF2C"
+"TF_Friends_Status_Idle_InTF2C"		"Inattivi su TF2C"
+"TF_Friends_Status_InMod"			"Giocano ad un altra mod"
+"TF_Friends_Status_Idle_InMod"		"Inattivi in un altra mod"
+"TF_Friends_Status_InGame"			"Giocano ad un altro gioco"
+"TF_Friends_Status_Idle"			"Inattivi in un altro gioco"
 "TF_Friends_Status_Online"			"Online"
-"TF_Friends_Status_Away"			"Away"
+"TF_Friends_Status_Away"			"Non al computer"
 "TF_Friends_Status_Offline"			"Offline"
 
 
@@ -1122,13 +1124,13 @@ Team ownership of Control Points is randomized at the start of each round."
 // ----------------------------------------------------------------
 
 // Loadout gamemode indicator
-"TF_Loadout_Modifier_StockItemsOnly"		"Stock Items Only!"
-"TF_Loadout_Modifier_MedievalItemsOnly"		"\"Medieval\" Items Only!"
-"TF_Loadout_Modifier_RandomizerClasses"		"Randomized Classes!"
-"TF_Loadout_Modifier_RandomizerItems"		"Randomized Items!"
-"TF_Loadout_Modifier_RandomizerAttributes"	"Randomized Attributes!"
-"TF_Loadout_Modifier_RandomizerMayhem"		"Randomizer Mayhem!"
-"TF_Loadout_Modifier_CustomWeaponsEnabled"	"Custom Weapons Enabled!"
+"TF_Loadout_Modifier_StockItemsOnly"		"Solo Armi Base!"
+"TF_Loadout_Modifier_MedievalItemsOnly"		"Solo Armi \"Medievali\"!"
+"TF_Loadout_Modifier_RandomizerClasses"		"Classi Randomizzate!"
+"TF_Loadout_Modifier_RandomizerItems"		"Armi Randomizzate!"
+"TF_Loadout_Modifier_RandomizerAttributes"	"Attributi Randomizzati!"
+"TF_Loadout_Modifier_RandomizerMayhem"		"Caos Randomizzato!"
+"TF_Loadout_Modifier_CustomWeaponsEnabled"	"Armi Personalizzate Abilitate!"
 
 // Item slot types
 "TF_Loadout_Slot_Invalid"		"Invalid"
@@ -1189,6 +1191,7 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_Enable"								"Abilita"
 "TF_Disable"							"Disabilita"
 "TF_RightClick_Enable"					"Tasto destro per Abilitare"
+"TF_RightClick_Enable_Mouse"			"Right-Click to Enable Mouse"
 
 // UI options
 "TF_Open_Charinfo"						"Apri Equipaggiamento Personaggio"
@@ -1322,6 +1325,8 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_DeathNoticeMax_Tip"           "Sets the max amount of death notice entries at the same time."
 "TF_DeathNoticeTime"              "Death Notice - Expiry time for entires (in seconds)"
 "TF_DeathNoticeTime_Tip"          "Sets the expiry time for death notice items."
+"TF_GlowEffects"				  "Use glow effects"
+"TF_GlowEffects_Tip" 			  "If set, glow effects will be enabled during the match for objectives like VIPs, Payload carts, and CTF intelligence briefcases."
 
 // ViewModel
 
@@ -1470,34 +1475,34 @@ Team ownership of Control Points is randomized at the start of each round."
 // ----------------------------------------------------------------
 // Server Browser
 // ----------------------------------------------------------------
-"ServerBrowser_PlayerCount" "%s1/%s2"
-"ServerBrowser_LatencyDetail" "Latenza: %s1"
-"ServerBrowser_IPAddressDetail" "Indirizzo IP: %s1"
-"ServerBrowser_PlayerListHeading" "Giocatori (%s1/%s2, %s3 bot):"
-"ServerBrowser_NotFullFilter" "Server non pieno"
-"ServerBrowser_HasPlayersFilter" "Ha dei giocatori"
-"ServerBrowser_NoPasswordFilter" "Senza password"
-"ServerBrowser_HasTagsFilter" "Ha delle etichette"
-"ServerBrowser_MaxLatencyFilter" "Massima latenza"
-"ServerBrowser_MaxPlayersFilter" "Giocatori massimi"
-"ServerBrowser_ServerTypeFilter" "Tipo di server"
-"ServerBrowser_MapNameFilter" "Nome della mappa"
-"ServerBrowser_SortBy" "Filtra per:"
-"ServerBrowser_SortByName" "Nome"
-"ServerBrowser_SortByMap" "Mappa"
-"ServerBrowser_SortByPlayers" "Giocatori"
-"ServerBrowser_SortByLatency" "Latencza"
-"ServerBrowser_SortByLastPlayed" "Giocato di meno"
-"ServerBrowser_UseLegacyBrowser" "Usa browser originale"
-"ServerBrowser_CurrentMapHeading" "Mappa attuale:"
-"ServerBrowser_TagListHeading" "Etichette:"
-"ServerBrowser_OfficialDetail" "Questo server è Ufficiale"
-"ServerBrowser_VerifiedDetail" "Questo server è Verificato"
-"ServerBrowser_Any" "Qualsiasi"
-"ServerBrowser_Official" "Ufficiale"
-"ServerBrowser_Verified" "Verificato"
-"ServerBrowser_OfficialOrVerified" "Ufficiale o Verificato"
-"ServerBrowser_CustomRules"	"Regole Personalizzate"
-"ServerBrowser_CustomWeapons" "Armi Personalizzate"
+"ServerBrowser_PlayerCount"                 "%s1/%s2"
+"ServerBrowser_LatencyDetail"               "Latenza: %s1"
+"ServerBrowser_IPAddressDetail"             "Indirizzo IP: %s1"
+"ServerBrowser_PlayerListHeading"           "Giocatori (%s1/%s2, %s3 bot):"
+"ServerBrowser_NotFullFilter"               "Server non pieno"
+"ServerBrowser_HasPlayersFilter"            "Ha dei giocatori"
+"ServerBrowser_NoPasswordFilter"            "Senza password"
+"ServerBrowser_HasTagsFilter"               "Ha delle etichette"
+"ServerBrowser_MaxLatencyFilter"            "Massima latenza"
+"ServerBrowser_MaxPlayersFilter"            "Giocatori massimi"
+"ServerBrowser_ServerTypeFilter"            "Tipo di server"
+"ServerBrowser_MapNameFilter"               "Nome della mappa"
+"ServerBrowser_SortBy"                      "Filtra per:"
+"ServerBrowser_SortByName"                  "Nome"
+"ServerBrowser_SortByMap"                   "Mappa"
+"ServerBrowser_SortByPlayers"               "Giocatori"
+"ServerBrowser_SortByLatency"               "Latenza"
+"ServerBrowser_SortByLastPlayed"            "Giocato di meno"
+"ServerBrowser_UseLegacyBrowser"            "Usa browser originale"
+"ServerBrowser_CurrentMapHeading"           "Mappa attuale:"
+"ServerBrowser_TagListHeading"              "Etichette:"
+"ServerBrowser_OfficialDetail"              "Questo server è Ufficiale"
+"ServerBrowser_VerifiedDetail"              "Questo server è Verificato"
+"ServerBrowser_Any"                         "Qualsiasi"
+"ServerBrowser_Official"                    "Ufficiale"
+"ServerBrowser_Verified"                    "Verificato"
+"ServerBrowser_OfficialOrVerified"          "Ufficiale o Verificato"
+"ServerBrowser_CustomRules"	                "Regole Personalizzate"
+"ServerBrowser_CustomWeapons"               "Armi Personalizzate"
 }
 }
