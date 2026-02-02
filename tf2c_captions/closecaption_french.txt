@@ -47,7 +47,7 @@
 	"#commentary\tf2-Comment014.wav"  "<len:4>[Jake Nicholson] Pour les Soldiers, nous concevons les espaces avec une attention particulière à la hauteur. <delay:4><len:9>Les Soldiers veulent généralement tirer vers le bas sur leurs adversaires pour maximiser l'effet des dégâts de zone de leurs roquettes. Le toit ici présent leur donne cet avantage. <delay:13><len:11>Il ne peut également être atteint qu'avec le saut propulsé du Soldier, ce qui le rend généralement inaccessible aux autres classes. En raison des dégâts causés par un saut propulsé, les Soldiers doivent échanger de la santé contre cet avantage de hauteur. <delay:24>Ce compromis, couplé à l'absence de packs de santé sur le toit, nous permet d'en faire un avantage puissant sans déséquilibrer la carte, car les Soldiers devront compter sur les Medics en bas pour les maintenir en vie."
 	"#commentary\tf2-Comment015.wav"  "<len:8>[Dave Riller] Pour accommoder la classe du Scout, les cartes ont besoin d'espaces ouverts qui permettent aux Scouts d'utiliser leur Double Jump sur des chemins que les autres classes ne peuvent pas emprunter. <delay:8><len:8>Cette zone présente une variété de toits et de rochers qu'un Scout peut traverser tout en restant au-dessus de tout adversaire n'appartenant pas à sa classe. <delay:16>Les Scouts utilisent souvent leur avantage de vitesse pour battre en retraite et récupérer de la santé. Ici, nous les forçons donc à prendre des risques en plaçant la santé dans une petite zone close, où ils sacrifient une partie de leur liberté de mouvement."
 	"#commentary\tf2-Comment016.wav"  "<len:4>[Matt Boone] Le Spy est conçu pour les joueurs qui veulent l'emporter par la ruse. <delay:4><len:10>À haut niveau, son cycle de jeu consiste à infiltrer l'équipe ennemie, à se déplacer déguisé et à utiliser son poignardage mortel pour éliminer les ennemis clés, généralement les Snipers, les Engineers et les Medics. <delay:14><len:18>Sa montre d'invisibilité est conçue pour l'aider dans deux situations clés. La première est de franchir la ligne de front, là où les joueurs sont les plus vigilants envers les ennemis et les plus suspects envers les amis qui ne se dirigent pas dans la bonne direction. La seconde est de s'échapper face à des ennemis qui ont percé son déguisement alors qu'il se trouve en territoire ennemi. <delay:32>Son saboteur a été conçu pour lui permettre d'éliminer facilement les mitrailleuses ennemies laissées sans surveillance, forçant les Engineers ennemis à surveiller de près leurs constructions."
-	"#commentary\tf2-Comment017.wav"  "<len:6>[Eric Kirchmer] Équilibrer la puissance de la mitrailleuse contrôlée par l'IA de l'Engineer a été l'un des problèmes de conception les plus difficiles dans Team Fortress 2. <delay:6><len:12>Si la tourelle était trop puissante, seuls les joueurs les plus qualifiés pourraient la contrer. Si elle était trop faible, l'Engineer n'aurait aucune chance contre les joueurs expérimentés, éliminant ainsi toute raison de construire quoi que ce soit. <delay:18><len:11>Notre solution a été de rendre la mitrailleuse essentiellement binaire : elle est mortelle pour les adversaires qui ne se mettent pas à l'abri, mais elle ne peut pas gérer intelligemment les ennemis qui surgissent et s'abritent. <delay:29>Cela force l'Engineer à utiliser ses propres compétences avec ses armes secondaires pour compenser la faiblesse de la mitrailleuse dans les angles morts, tout en en faisant un obstacle redoutable pour tout adversaire tentant simplement de passer devant en courant."
+	"#commentary\tf2-Comment017.wav"  "<len:6>[Eric Kirchmer] Équilibrer la puissance de la mitrailleuse contrôlée par l'IA de l'Engineer a été l'un des problèmes de conception les plus difficiles dans Team Fortress 2. <delay:6><len:12>Si la mitrailleuse était trop puissante, seuls les joueurs les plus qualifiés pourraient la contrer. Si elle était trop faible, l'Engineer n'aurait aucune chance contre les joueurs expérimentés, éliminant ainsi toute raison de construire quoi que ce soit. <delay:18><len:11>Notre solution a été de rendre la mitrailleuse essentiellement binaire : elle est mortelle pour les adversaires qui ne se mettent pas à l'abri, mais elle ne peut pas gérer intelligemment les ennemis qui surgissent et s'abritent. <delay:29>Cela force l'Engineer à utiliser ses propres compétences avec ses armes secondaires pour compenser la faiblesse de la mitrailleuse dans les angles morts, tout en en faisant un obstacle redoutable pour tout adversaire tentant simplement de passer devant en courant."
 	"#commentary\tf2-Comment018.wav"  "<len:13>[Andrew Burke] Le Scout est conçu pour les joueurs capables de se déplacer rapidement tout en traquant leur cible. Là où les autres classes de combat comptent sur des dégâts élevés, le Scout mise sur sa grande vitesse de déplacement et son Double Jump pour esquiver les tirs ennemis. <delay:13><len:13>Une grande partie de son style de combat est façonnée par les caractéristiques de son arme principale, le fusil à dispersion. Il inflige beaucoup de dégâts mais a une large dispersion qui le force à s'approcher de l'ennemi pour un effet maximal, là où il court aussi le plus grand risque d'être blessé. <delay:26><len:9>Sa cadence de tir lente l'encourage à marquer une pause pour tirer, puis à esquiver, puis à marquer une autre pause, et ainsi de suite, ce qui donne aux ennemis une meilleure chance de le toucher par intervalles. <delay:35>Enfin, il dispose d'un petit chargeur et d'un temps de rechargement lent pour encourager le Scout à se retirer du combat pour recharger (ce qu'il peut faire facilement grâce à sa vitesse) et permet aux ennemis blessés de s'enfuir avant son retour."
 	"#commentary\tf2-Comment019.wav"  "<len:6>[Dhabih Eng] Le Soldier est une classe de combat centrale offrant une mobilité polyvalente et une formidable capacité de dégâts à longue portée. <delay:6><len:7>Il est conçu pour être à l'aise dans presque toutes les situations de combat et pour être la meilleure classe anti-mitrailleuse à longue distance. <delay:13>Ses principales faiblesses sont intégrées dans son arme principale, le lance-roquettes. Il a une petite taille de chargeur, ce qui force le Soldier à gérer soigneusement ses rechargements, et il tire des projectiles relativement lents, ce qui le rend inefficace au-delà de la courte portée contre tout adversaire qui esquive bien, comme le Scout."
 	"#commentary\tf2-Comment020.wav"  "<len:9>[Charlie Brown] Le fusil de sniper était un autre problème de conception délicat. Pour répondre aux attentes des joueurs, un fusil de sniper doit pouvoir tuer un adversaire d'un seul tir à la tête. <delay:9><len:12>D'un autre côté, nous devons nous assurer qu'il ne puisse pas être utilisé en tir réflexe à la hanche avec le même effet, car alors, entre les mains d'un joueur expérimenté, il deviendrait également l'arme à courte portée la plus meurtrière du jeu, annulant ainsi la principale faiblesse du Sniper. <delay:21><len:8>Pour résoudre ce problème, nous avons implémenté une jauge de dégâts qui ne se charge que lorsque le Sniper zoome. Cette solution a plusieurs effets bénéfiques : <delay:29><len:7>Les faibles dégâts sans zoom et au début du zoom garantissent que les Snipers ne peuvent pas tuer d'adversaires avec des tirs réflexes impromptus. <delay:36><len:10>Le temps de charge signifie que les Snipers peuvent tirer rapidement des coups à faibles dégâts ou des coups très puissants à intervalles lents, ce qui permet aux adversaires de les submerger par un assaut coordonné. <delay:46>Les dégâts élevés à la fin de la charge récompensent les comportements typiques du Sniper, comme trouver un bon point d'observation et prendre des tirs très délibérés."
@@ -55,7 +55,7 @@
 	"#commentary\tf2-Comment022.wav"  "<len:7>[Wade Schin] Le Demoman est la classe de combat la plus polyvalente, capable de passer rapidement de poussées offensives puissantes à l'interdiction de zone défensive. <delay:7><len:10>Il possède la seule capacité de tir indirect du jeu, lui permettant d'éliminer des mitrailleuses dans les angles morts, et ses bombes collantes lui confèrent une capacité de saut explosif similaire aux sauts propulsés du Soldier. <delay:17>Ses bombes collantes peuvent également empêcher les ennemis de franchir les portes, couvrir une retraite et défendre des points de contrôle même lorsque le Demoman se trouve ailleurs."
 	"#commentary\tf2-Comment023.wav"  "<len:8>[Keith Huggins] Avec son large champ de tir, le Minigun du Heavy permet aux joueurs qui n'ont pas de grandes capacités de visée réflexe de se plonger tout de même au cœur du combat. <delay:8>Pour compenser cette réduction de l'importance de la visée, nous avons amplifié l'importance d'autres compétences. Par exemple, le temps de rotation avant le tir et la vitesse réduite du Heavy pendant qu'il tire forcent les joueurs à apprendre à anticiper le début du combat et les attaques ennemies à venir."
 	"#commentary\tf2-Comment024.wav"  "<len:5>[John Morello] Le Medic est la classe de soutien principale. Les classes de soutien que nous avions conçues précédemment présentaient divers problèmes. <delay:5><len:7>Elles ne demandaient pas beaucoup de talent car elles restaient à l'arrière dans des zones protégées, ce qui les tenait également à l'écart des parties les plus amusantes du jeu. <delay:12><len:13>Pire encore, cela signifiait qu'elles n'étaient même pas très utiles car elles n'étaient généralement pas à proximité des joueurs qui avaient le plus besoin de soins. Nous avons conçu le Medic de Team Fortress 2 pour résoudre ces problèmes, principalement en nous attachant à le maintenir au cœur même de la bataille. <delay:25>De plus, nous avons conçu le Medigun pour qu'il soit aussi simple à utiliser que possible, afin que les Medics puissent se concentrer sur leur survie tout en soignant leurs coéquipiers. Pratiquement aucune visée n'est requise, ce qui permet au Medic de se concentrer sur sa cible de soin, laquelle est fortement incitée à protéger son bienfaiteur."
-	"#commentary\tf2-Comment025.wav"  "<len:13>[Aaron Halifax] Notre objectif principal en concevant le Medigun était de construire une relation forte entre le Medic et sa cible de soin. Nous voulions voir ce que nous obtiendrions si nous nous concentrions sur la création d'un lien étroit entre deux joueurs, au lieu de simplement penser à faire coopérer l'équipe entière. <delay:13>La conception du Medigun garantit que le Medic et sa cible sont extrêmement conscients l'un de l'autre, surveillant leur santé and leurs positions respectives, et faisant des choix tactiques avec soin. Nous voulions qu'être une bonne cible de soin demande de l'habileté, afin que les Medics recherchent et s'attachent aux cibles les plus compétentes. Cela favorise la relation que nous recherchions."
+	"#commentary\tf2-Comment025.wav"  "<len:13>[Aaron Halifax] Notre objectif principal en concevant le Medigun était de construire une relation forte entre le Medic et sa cible de soin. Nous voulions voir ce que nous obtiendrions si nous nous concentrions sur la création d'un lien étroit entre deux joueurs, au lieu de simplement penser à faire coopérer l'équipe entière. <delay:13>La conception du Medigun garantit que le Medic et sa cible sont extrêmement conscients l'un de l'autre, surveillant leur santé et leurs positions respectives, et faisant des choix tactiques avec soin. Nous voulions qu'être une bonne cible de soin demande de l'habileté, afin que les Medics recherchent et s'attachent aux cibles les plus compétentes. Cela favorise la relation que nous recherchions."
 	"#commentary\tf2-Comment026.wav"  "<len:9>[Jakob Jungels] L'invulnérabilité ajoute un élément de rythme à l'expérience multijoueur, laquelle a autrement tendance à avoir moins de hauts et de bas émotionnels qu'un jeu solo bien conçu. <delay:9><len:12>Lorsqu'un Medic invulnérable et ses amis arrivent en courant, c'est un moment de tension extrême pour eux. C'est aussi une poussée d'adrénaline pour les défenseurs, qui savent qu'ils doivent tenir pendant 10 secondes jusqu'à ce que l'invulnérabilité disparaisse. <delay:21><len:16>L'invulnérabilité dynamise également le rythme en aidant une équipe à percer une situation de blocage défensive, lorsque l'équipe ennemie se barricade et refuse de sortir de sa base. En l'absence de tirailleurs défensifs, il est plus facile pour l'attaque de charger l'ÜberCharge sans interruption. <delay:37>En outre, l'ÜberCharge est un excellent objectif pour le Medic et le récompense pour son efficacité en tant que soigneur. Nous encourageons ce comportement en augmentant la charge plus rapidement lorsque le Medic soigne des coéquipiers blessés que lorsqu'il soigne ceux qui sont déjà en pleine santé."
 	"#commentary\tf2-Comment027.wav"  "<len:17>[Jeff Lane] Les communautés multijoueurs ont tendance à se concentrer sur un petit groupe de cartes, y jouant encore et encore. Au lieu de produire un grand nombre de cartes, dont la plupart resteraient désertées, nous avons décidé d'essayer de construire une seule carte avec une rejouabilité intrinsèque plus grande que tout ce que nous avions fait auparavant. <delay:17><len:13>Avec la plupart des cartes multijoueurs, vous savez ce que vous allez faire avant même que le chargement ne soit terminé. Dans notre cas, nous voulions une carte où vous ne pourriez pas prédire même un élément aussi basique que votre point de départ, et encore moins ce que vous feriez en y arrivant. <delay:30>Cette carte, Hydro, commence donc par un état initial aléatoire. L'accent mis sur le contrôle de territoires en mutation constante permet à la carte d'être rarement répétitive. Parallèlement, la structure explicite des manches permet aux équipes de rester concentrées et offre des hauts et des bas réguliers à mesure que les équipes gagnent ou perdent du terrain."
 	"#commentary\tf2-Comment028.wav"  "<len:7>[Kerry Davis] Les jeux abordent généralement les statistiques en comparant le joueur à tous les autres dans le monde. Cela n'intéresse réellement que ceux qui sont proches du sommet. <delay:7><len:12>Avec Team Fortress 2, nous avons décidé qu'une meilleure approche consisterait à comparer les statistiques aux succès précédents du joueur, transformant un système de comparaison mondial en un système de motivation personnel. <delay:19><len:13>Le joueur débutant reçoit des encouragements et reconnaît que, s'il n'est pas encore très qualifié, il s'améliore constamment. Les vétérans peuvent voir quand ils ont réussi à s'approcher de leur record précédent, ce qui les encourage à le battre. <delay:32>Le système de statistiques personnelles agit également comme un système de validation. Lorsqu'un joueur a l'impression d'avoir fait une très bonne partie, le système de statistiques apparaît et dit essentiellement : « Tu as raison, c'était une excellente partie »."
@@ -95,10 +95,10 @@
 //------------------------------------------------
 //Scout
 //------------------------------------------------
-	"Scout.Death" "<sfx><norepeat:15><clr:66,242,255>[Scout meurt]"
-	"Scout.CritDeath" "<sfx><norepeat:15><clr:66,242,255>[Scout tombe sous un coup critique]"
-	"Scout.MeleeDeath" "<sfx><norepeat:15><clr:66,242,255>[Scout se fait tuer au corps à corps]"
-	"Scout.ExplosionDeath" "<sfx><norepeat:15><clr:66,242,255>[Scout explose]"
+	"Scout.Death" "<sfx><norepeat:15><clr:66,242,255>[Le Scout meurt]"
+	"Scout.CritDeath" "<sfx><norepeat:15><clr:66,242,255>[Le Scout meurt d'un coup critique]"
+	"Scout.MeleeDeath" "<sfx><norepeat:15><clr:66,242,255>[Le Scout est tué au corps à corps]"
+	"Scout.ExplosionDeath" "<sfx><norepeat:15><clr:66,242,255>[Le Scout explose]"
 
 //sounds/vo
 	"Scout.ActivateCharge01" "<clr:66,242,255>Scout : Envoie la sauce, Doc !"
@@ -508,8 +508,8 @@
 //Soldier
 //------------------------------------------------
 	"Soldier.Death" "<sfx><norepeat:15><clr:142,247,131>[Le Soldier meurt]"
-	"Soldier.CritDeath" "<sfx><norepeat:15><clr:142,247,131>[Le Soldier meurt (Critique)]"
-	"Soldier.MeleeDeath" "<sfx><norepeat:15><clr:142,247,131>[Le Soldier meurt (CàC)]"
+	"Soldier.CritDeath" "<sfx><norepeat:15><clr:142,247,131>[Le Soldier meurt d'un coup critique]"
+	"Soldier.MeleeDeath" "<sfx><norepeat:15><clr:142,247,131>[Le Soldier est tué au corps à corps]"
 	"Soldier.ExplosionDeath" "<sfx><norepeat:15><clr:142,247,131>[Le Soldier explose]"
 
 	"Taunt.TauntChestThumpYell" "<clr:142,247,131>Soldier : Ouaiiiiiiiis !"
@@ -827,8 +827,8 @@
 //------------------------------------------------
 	"Pyro.Death" "<sfx><norepeat:15><clr:255,135,56>[Le Pyro meurt]"
 	"Pyro.CritDeath" "<sfx><norepeat:15><clr:255,135,56>[Le Pyro meurt d'un coup critique]"
-	"Pyro.MeleeDeath" "<sfx><norepeat:15><clr:255,135,56>[Le Pyro meurt au corps à corps]"
-	"Pyro.ExplosionDeath" "<sfx><norepeat:15><clr:255,135,56>[Le Pyro finit en morceaux]"
+	"Pyro.MeleeDeath" "<sfx><norepeat:15><clr:255,135,56>[Le Pyro est tué au corps à corps]"
+	"Pyro.ExplosionDeath" "<sfx><norepeat:15><clr:255,135,56>[Le Pyro explose]"
 
 	"Taunt.Pyro03RockStar" "<clr:255,135,56>Pyro : Vvrnnnrh..."
 	"Taunt.Pyro03RockStarEnd" "<clr:255,135,56>Pyro : Rrrrnh !"
@@ -914,8 +914,8 @@
 //------------------------------------------------
 	"Demoman.Death" "<sfx><norepeat:15><clr:165,255,202>[Le Demoman meurt]"
 	"Demoman.CritDeath" "<sfx><norepeat:15><clr:165,255,202>[Le Demoman meurt d'un coup critique]"
-	"Demoman.MeleeDeath" "<sfx><norepeat:15><clr:165,255,202>[Le Demoman meurt au corps à corps]"
-	"Demoman.ExplosionDeath" "<sfx><norepeat:15><clr:165,255,202>[Le Demoman finit en morceaux]"
+	"Demoman.MeleeDeath" "<sfx><norepeat:15><clr:165,255,202>[Le Demoman est tué au corps à corps]"
+	"Demoman.ExplosionDeath" "<sfx><norepeat:15><clr:165,255,202>[Le Demoman explose]"
 
 	"Player.Burp01" "[Rot !]"
 	"Player.Burp02" "[Rot !]"
@@ -1197,8 +1197,8 @@
 //Heavy
 //------------------------------------------------
 	"Heavy.Death" "<sfx><norepeat:15><clr:232,102,167>[Le Heavy meurt]"
-	"Heavy.CritDeath" "<sfx><norepeat:15><clr:232,102,167>[Le Heavy meurt d'un coup crit]"
-	"Heavy.MeleeDeath" "<sfx><norepeat:15><clr:232,102,167>[Le Heavy meurt au corps à corps]"
+	"Heavy.CritDeath" "<sfx><norepeat:15><clr:232,102,167>[Le Heavy meurt d'un coup critique]"
+	"Heavy.MeleeDeath" "<sfx><norepeat:15><clr:232,102,167>[Le Heavy est tué au corps à corps]"
 	"Heavy.ExplosionDeath" "<sfx><norepeat:15><clr:232,102,167>[Le Heavy explose]"
 
 	"Player.Puff" "[Souffle d'air]"
@@ -1585,10 +1585,10 @@
 //------------------------------------------------
 //Engineer
 //------------------------------------------------
-	"Engineer.Death" "<sfx><norepeat:15><clr:232,242,147>[Mort de l'Engineer]"
-	"Engineer.CritDeath" "<sfx><norepeat:15><clr:232,242,147>[Mort critique de l'Engineer]"
-	"Engineer.MeleeDeath" "<sfx><norepeat:15><clr:232,242,147>[Engineer tué au corps à corps]"
-	"Engineer.ExplosionDeath" "<sfx><norepeat:15><clr:232,242,147>[Engineer démembré]"
+	"Engineer.Death" "<sfx><norepeat:15><clr:232,242,147>[L'Engineer meurt]"
+	"Engineer.CritDeath" "<sfx><norepeat:15><clr:232,242,147>[L'Engineer meurt d'un coup critique]"
+	"Engineer.MeleeDeath" "<sfx><norepeat:15><clr:232,242,147>[L'Engineer est tué au corps à corps]"
+	"Engineer.ExplosionDeath" "<sfx><norepeat:15><clr:232,242,147>[L'Engineer explose]"
 
 	"Building_Sentrygun.Built" "<sfx>[Construction terminée]"
 	"Building_Sentrygun.Alert" "<sfx><norepeat:20>[La mitrailleuse a une cible !]"
@@ -1911,10 +1911,10 @@
 //------------------------------------------------
 //Medic
 //------------------------------------------------
-	"Medic.Death" "<sfx><norepeat:15><clr:255,76,76>[Mort du Medic]"
-	"Medic.CritDeath" "<sfx><norepeat:15><clr:255,76,76>[Mort critique du Medic]"
-	"Medic.MeleeDeath" "<sfx><norepeat:15><clr:255,76,76>[Medic tué au corps à corps]"
-	"Medic.ExplosionDeath" "<sfx><norepeat:15><clr:255,76,76>[Medic démembré]"
+	"Medic.Death" "<sfx><norepeat:15><clr:255,76,76>[Le Medic meurt]"
+	"Medic.CritDeath" "<sfx><norepeat:15><clr:255,76,76>[Le Medic meurt d'un coup critique]"
+	"Medic.MeleeDeath" "<sfx><norepeat:15><clr:255,76,76>[Le Medic est tué au corps à corps]"
+	"Medic.ExplosionDeath" "<sfx><norepeat:15><clr:255,76,76>[Le Medic explose]"
 
 	"Medic.Taunts01_fixed" "<clr:255,76,76>Medic : Ne bougez pas, schweinhund, ce ne sera qu'une petite piqûre."
 	"Medic.TauntsSyringe" "<clr:255,76,76>Medic : Ne bougez pas, schweinhund."
@@ -2145,9 +2145,9 @@
 //Sniper
 //------------------------------------------------
 	"Sniper.Death" "<sfx><norepeat:15><clr:255,207,193>[Le Sniper meurt]"
-	"Sniper.CritDeath" "<sfx><norepeat:15><clr:255,207,193>[Mort par coup critique du Sniper]"
-	"Sniper.MeleeDeath" "<sfx><norepeat:15><clr:255,207,193>[Le Sniper meurt au corps à corps]"
-	"Sniper.ExplosionDeath" "<sfx><norepeat:15><clr:255,207,193>[Le Sniper est démembré]"
+	"Sniper.CritDeath" "<sfx><norepeat:15><clr:255,207,193>[Le Sniper meurt d'un coup critique]"
+	"Sniper.MeleeDeath" "<sfx><norepeat:15><clr:255,207,193>[Le Sniper est tué au corps à corps]"
+	"Sniper.ExplosionDeath" "<sfx><norepeat:15><clr:255,207,193>[Le Sniper explose]"
 
 	"ArrowLight" "<sfx>[Flèche enflammée]"
 
@@ -2642,10 +2642,10 @@
 //------------------------------------------------
 //Spy
 //------------------------------------------------
-	"Spy.Death" "<sfx><norepeat:15><clr:161,79,255>[Spy Dies]"
-	"Spy.CritDeath" "<sfx><norepeat:15><clr:161,79,255>[Spy Crit Death]"
-	"Spy.MeleeDeath" "<sfx><norepeat:15><clr:161,79,255>[Spy Melee'd to Death]"
-	"Spy.ExplosionDeath" "<sfx><norepeat:15><clr:161,79,255>[Spy Gibbed]"
+	"Spy.Death" "<sfx><norepeat:15><clr:161,79,255>[Le Spy meurt]"
+	"Spy.CritDeath" "<sfx><norepeat:15><clr:161,79,255>[Le Spy meurt d'un coup critique]"
+	"Spy.MeleeDeath" "<sfx><norepeat:15><clr:161,79,255>[Le Spy est tué au corps à corps]"
+	"Spy.ExplosionDeath" "<sfx><norepeat:15><clr:161,79,255>[Le Spy explose]"
 
 //sounds/vo
 	"Spy.ActivateCharge01" "<clr:161,79,255>Spy : Activez la charge, Docteur !"
@@ -2734,7 +2734,7 @@
 	"Spy.DominationHeavy03" "<clr:161,79,255>Spy : C'est un régime que j'appelle la <I>mort.<I>"
 	"Spy.DominationHeavy04" "<clr:161,79,255>Spy : Dominé ! Espèce de gros lard stupide et prétencieux !"
 	"Spy.DominationHeavy05" "<clr:161,79,255>Spy : Tu es mort comme tu as vécu : <I>obèse morbide !<I>"
-	"Spy.DominationHeavy06" "<clr:161,79,255>Spy : Ton précieux sandwich ne te sauvera pas <I>maintenant,<I> le gros !"
+	"Spy.DominationHeavy06" "<clr:161,79,255>Spy : Ton précieux Sandvich ne te sauvera pas <I>maintenant,<I> le gros !"
 	"Spy.DominationHeavy07" "<clr:161,79,255>Spy : Ohhhh... dommage que ce n'était pas un <I>concours de mangeurs de tartes !<I>"
 	"Spy.DominationHeavy08" "<clr:161,79,255>Spy : Qu'est-ce qu'il y a, le <I>gras<I> t'a coupé la langue ? <I>Hahahahahaha !<I>"
 	"Spy.DominationMedic01" "<clr:161,79,255>Spy : <I>Le rire est vraiment le meilleur des remèdes ! Hahahahahaha !<I>"
@@ -2962,9 +2962,9 @@
 //Civilian
 //------------------------------------------------
 	"Civilian.Death" "<sfx><norepeat:15><clr:255,255,61>[Le Civilian meurt]"
-	"Civilian.CritDeath" "<sfx><norepeat:15><clr:255,255,61>[Mort critique du Civilian]"
-	"Civilian.MeleeDeath" "<sfx><norepeat:15><clr:255,255,61>[Le Civilian a été tué au corps à corps]"
-	"Civilian.ExplosionDeath" "<sfx><norepeat:15><clr:255,255,61>[Le Civilian a explosé]"
+	"Civilian.CritDeath" "<sfx><norepeat:15><clr:255,255,61>[Le Civilian meurt d'un coup critique]"
+	"Civilian.MeleeDeath" "<sfx><norepeat:15><clr:255,255,61>[Le Civilian est tué au corps à corps]"
+	"Civilian.ExplosionDeath" "<sfx><norepeat:15><clr:255,255,61>[Le Civilian explose]"
 
 	"TFPlayer.VIPDeath" "<sfx>[VIP Tué !]"
 	"TFPlayer.VIPBoost" "<sfx>[Boosté par le VIP !]"
@@ -2983,7 +2983,7 @@
 	"Civilian.AutoCappedIntelligence01" "<clr:255,255,61>Civilian : Oh, c'est comme un <I>jeu<I> amusant, pas vrai ? Et nous sommes en train de gagner !"
 	"Civilian.AutoCappedIntelligence02" "<clr:255,255,61>Civilian : Je savais que M. Parapluie et moi pourrions y arriver !"
 	"Civilian.AutoCappedIntelligence03" "<clr:255,255,61>Civilian : Hah, c'était un long voyage, <I>mais on a réussi.<I>"
-	"Civilian.AutoCappedIntelligence04" "<clr:255,255,61>Civilian : C'était un long voyage, mais on a <I>reussi.<I>"
+	"Civilian.AutoCappedIntelligence04" "<clr:255,255,61>Civilian : C'était un long voyage, mais on a <I>réussi.<I>"
 	"Civilian.AutoDejectedTie01" "<clr:255,255,61>Civilian : <I>Je savais que ça arriverait...<I>"
 	"Civilian.AutoDejectedTie02" "<clr:255,255,61>Civilian : Eh bien, tout cela est parti en <I>cacahuète,<I> n'est-ce pas ?"
 	"Civilian.AutoOnFire01" "<clr:255,255,61>Civilian : Ah-oh-ow, le feu ! Ah, <I>ça brûle, ça brûle !<I>"
@@ -3180,7 +3180,7 @@
 	"Civilian.VIPR_WrongCar01" "<clr:255,255,61>Civilian : <I><B>Excusez-moi !?<B><I> Ce n'est pas <I>ma<I> voiture !"
 	"Civilian.VIPR_WrongCar02" "<clr:255,255,61>Civilian : <I><B>Vous pensez vraiment que je me laisserais voir au volant de ça !?<B><I>"
 	"Civilian.VIPR_WrongCar03" "<clr:255,255,61>Civilian : <I>Je suis insulté et offensé que vous puissiez penser que je conduirais ça.<I>"
-	"Civilian.VIPR_WrongCar04" "<clr:255,255,61>Civilian : <I>C'est la voiture de quelqu'un d'autre.<I> Not mine!"
+	"Civilian.VIPR_WrongCar04" "<clr:255,255,61>Civilian : <I>C'est la voiture de quelqu'un d'autre.<I> Pas la mienne !"
 	"Civilian.VIPR_WrongCar05" "<clr:255,255,61>Civilian : Ugh. La peinture de cette voiture est <I>affreuse !<I>"
 	"Civilian.VIPR_WrongCar06" "<clr:255,255,61>Civilian : Cette voiture est <I>clairement<I> une contrefaçon bon marché ! Emmenez-moi à <I>ma voiture !<I>"
 	"Civilian.VIPR_WrongHeli01" "<clr:255,255,61>Civilian : Quelle machine horrible ! <I><B>Je vais me trouver mal.<B><I>"
@@ -3255,10 +3255,10 @@
 	"Achievement.Earned_Mistake" "<sfx>[Succès déverrouillé ! Félicitations !]"
 
 //Map Objects
-	"Cart.RollStart" "<sfx><norepeat:20>[Le Wagon se déplace]"
-	"Cart.RollStop" "<sfx><norepeat:20>[Le Wagon s'arrête]"
-	"Cart.Warning" "<sfx><norepeat:20>[Attention au Wagon !]"
-	"Cart.WarningSingle" "<sfx><norepeat:20>[Attention au Wagon !]"
+	"Cart.RollStart" "<sfx><norepeat:20>[Le Chariot se déplace]"
+	"Cart.RollStop" "<sfx><norepeat:20>[Le Chariot s'arrête]"
+	"Cart.Warning" "<sfx><norepeat:20>[Attention au Chariot !]"
+	"Cart.WarningSingle" "<sfx><norepeat:20>[Attention au Chariot !]"
 	"SawMill.BladeImpact" "<sfx><norepeat:20>[La lame de scie pulvérise]"
 	"doomsday.alarm" "<sfx><norepeat:20>[Alarme de la fusée !]"
 
