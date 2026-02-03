@@ -1071,12 +1071,12 @@ Le squadre che possiedono i Punti di Controllo iniziali sono scelti casualmente 
 "Winpanel_GreenMVPs"		"I Migliori Giocatori GRN:"
 "Winpanel_YellowMVPs"		"I Migliori Giocatori YLW:"
 
-"Winreason_KOTHPointHeld"		"%s1 held the Control Point until time ran out"
-"Winreason_PayloadPushed"		"%s1 pushed the payload to the final terminus"
-"Winreason_ArenaPointCaptured"	"%s1 captured the Control Point"
-"Winreason_RoundScoreLimit"		"%s1 reached %s2 points"
-"Winreason_VIPEscaped"			"The VIP has escaped"
-"Winreason_VIPKilled"			"The VIP was eliminated"
+"Winreason_KOTHPointHeld"		"%s1 ha difeso il Punto di Controllo fino allo scadere del tempo"
+"Winreason_PayloadPushed"		"%s1 ha spinto il Carrello fino alla zona d'arrivo"
+"Winreason_ArenaPointCaptured"	"%s1 ha catturato il Punto di Controllo"
+"Winreason_RoundScoreLimit"		"%s1 ha raggiunto %s2 punti"
+"Winreason_VIPEscaped"			"Il VIP è riuscito a scappare"
+"Winreason_VIPKilled"			"Il VIP è stato eliminato"
 
 // ----------------------------------------------------------------
 // Main Menu
@@ -1191,7 +1191,7 @@ Le squadre che possiedono i Punti di Controllo iniziali sono scelti casualmente 
 "TF_Enable"								"Abilita"
 "TF_Disable"							"Disabilita"
 "TF_RightClick_Enable"					"Tasto destro per Abilitare"
-"TF_RightClick_Enable_Mouse"			"Right-Click to Enable Mouse"
+"TF_RightClick_Enable_Mouse"			"Tasto destro per Abilitare il Mouse"
 
 // UI options
 "TF_Open_Charinfo"						"Apri Equipaggiamento Personaggio"
@@ -1330,34 +1330,34 @@ Le squadre che possiedono i Punti di Controllo iniziali sono scelti casualmente 
 
 // ViewModel
 
-"TF_ViewModelFOV"				"Viewmodel Field of View"
-"TF_FlipViewModels"				"Flip Viewmodels"
-"TF_InvisibleArms"				"Use Invisible Arm Viewmodels"
-"TF_ViewModelOpacity"			"Viewmodel Opacity"
+"TF_ViewModelFOV"				        "Campo Visivo del Modello in Prima Persona"
+"TF_FlipViewModels"				        "Visuale Mancina"
+"TF_InvisibleArms"				        "Usa i modelli in prima persona invisibili"
+"TF_ViewModelOpacity"			        "Opacità del modello in prima persona"
 
 // Misc
-"TF_ClassAutoKill"					"Force respawn after choosing player class"
-"TF_ClassAutoKill_Tip"				"If set, immediately forces respawn whenever you change class while out in the field.\n\nIf unset, change class on respawn."
-"TF_ClassMenu_Music"				"Class selection menu music"
-"TF_StreamerMode"					"Enable streamer mode"
-"TF_StreamerMode_Tip"				"If set, disables the chat (except for voice chat) and anonymizes everyone in the match"
-"TF_ModelMuzzleFlash"				"Enable beta model muzzleflash"
-"TF_ModelMuzzleFlash_Tip"			"If set, muzzleflashes will use models instead of particles"
+"TF_ClassAutoKill"					    "Morte quando si sceglie un'altra classe"
+"TF_ClassAutoKill_Tip"				    "Se abilitato, morirai immediatamente dopo aver cambiato classe sul campo di battaglia.\n\nSe disabilitato, la classe cambierà una volta che tornerari in gioco."
+"TF_ClassMenu_Music"				    "Musica del Menu Selezione Classe"
+"TF_StreamerMode"					    "Abilita Modalità Streamer"
+"TF_StreamerMode_Tip"				    "Se abilitato, disattiva la chat (tranne la vocale) e rende ogni giocatore anonimo"
+"TF_ModelMuzzleFlash"				    "Abilita versione beta dei bagliori degli spari"
+"TF_ModelMuzzleFlash_Tip"			    "Se abilitato, i bagliori degli spari useranno dei modelli al posto di particelle"
 
 // Voice
-"TF2c_Option_Proximity_Voice_Local"	"Enable Proximity Voice Chat."
+"TF2c_Option_Proximity_Voice_Local"	    "Abilita Chat Vocale in Prossimità"
 // MULTIPLAYER
-"TF_DownloadFilter_Title"			"Permissions for custom files downloaded from servers"
-"GameUI_DownloadFilter_All"			"Allow all custom files"
-"GameUI_DownloadFilter_NoSounds"	"No custom sounds"
-"GameUI_DownloadFilter_MapsOnly"	"Only map files"
-"GameUI_DownloadFilter_None"		"No custom files"
+"TF_DownloadFilter_Title"			    "Permessi per file personalizzati scaricati dai server"
+"GameUI_DownloadFilter_All"			    "Permetti tutti i file personalizzati"
+"GameUI_DownloadFilter_NoSounds"	    "Niente suoni personalizzati"
+"GameUI_DownloadFilter_MapsOnly"	    "Solo file di mappe"
+"GameUI_DownloadFilter_None"		    "Niente file personalizzati"
 
-"TF_Network_Rate"       			"Network update rate"
-"TF_Network_Rate_Tip"       		"Sets network update rate, which inversely sets interpolation amount.\n\nRecommended to try each and see which feels best on your network connection."
+"TF_Network_Rate"       			    "Frequenza di Aggiornamento della Rete"
+"TF_Network_Rate_Tip"       		    "Imposta la frequenza di aggiornamento della rete, che imposta inversamente la quantità di interpolazione.\n\nSi consiglia di provare ognuna e osservare quale abbia le migliori prestazioni con la tua connesione."
 
 // Video
-"TF2c_Option_BloomScale"	"Bloom scale"
+"TF2c_Option_BloomScale"	            "Scala del Bloom"
 
 // ----------------------------------------------------------------
 // Stats
