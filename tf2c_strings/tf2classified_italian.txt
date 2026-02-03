@@ -176,7 +176,7 @@
 "Tip_1_3"		"Come Scout, sei il più veloce di tutti. Attira l'attenzione del nemico e poi dattela a gambe!"
 // Stock
 "Tip_1_4"		"Come Scout, il tuo Fucile a Canne Mozze è letale a distanza ravvicinata. Avvicinati al nemico per infliggere danni molto più significativi."
-"Tip_1_5"		"Come Scout, la tua Pistola è ottima per finire i nemici ormai distanti."
+"Tip_1_5"		"Come Scout, la tua Pistola è ottima per finire di uccidere i nemici ormai distanti."
 "Tip_1_6"		"Come Scout, la tua Mazza fa meno danno rispetto alle altre armi da mischia, ma colpisce molto più rapidamente."
 // Death & Taxes
 "Tip_1_7"		"Come Scout, la tua Sparachiodi infligge ottimi danni anche a distanza. Resta in movimento e calcola l'arcata dei tuoi colpi."
@@ -232,7 +232,7 @@
 "Tip_4_5"		"Come Demolitore, più tempo tieni premuto %attack% con il Mortaio a Bombe Adesive, più lontano verrano lanciate le bombe."
 "Tip_4_6"		"Come Demolitore, lancia le Bombe Adesive dove sono difficili da individuare, come ad esempio muri e soffitti."
 "Tip_4_7"		"Come Demolitore, la tua Bottiglia può essere usata nel combattimento ravvicinato dopo essere atterrato in territorio nemico con un salto esplosivo."
-"Tip_4_8"		"Come Demolitore, la tua Bottiglia infliggerà lo stesso danno che sia rotta o meno."
+"Tip_4_8"		"Come Demolitore, la tua Bottiglia infliggerà lo stesso danno indipendentemente che sia rotta o meno."
 // Death & Taxes
 "Tip_4_9"		"Come Demolitore, lancia il tuo Pacco di Dinamite nei Punti di Controllo affollati per spazzare via i nemici."
 "Tip_4_10"		"Come Demolitore, il tuo Pacco di Dinamite può essere disinnescato dagli Ingegneri nemici. Tienilo a mente quando lo scagli ai nidi di Torrette."
@@ -337,29 +337,29 @@
 // Engineer
 "Tip_9_Count"	"20"
 // Generic
-"Tip_9_1"		"Come Ingegnere, you need metal to build, repair, and upgrade your buildings. Collect ammo packs and fallen weapons to get more metal."
-"Tip_9_2"		"Come Ingegnere, you can do more than just maintain your buildings. Use your Shotgun and your Pistol to assist in fights and defend your buildings."
-"Tip_9_3"		"Come Ingegnere, keep an eye out for enemy Spies attaching Sappers to your buildings. Use your Wrench to remove Sappers."
-"Tip_9_4"		"Come Ingegnere, remember to upgrade your buildings. Upgraded buildings can provide big benefits to you and your team!"
-"Tip_9_5"		"Come Ingegnere, pressing %attack2% while hauling a building will rotate the building placement. Orient Sentry Guns or Teleporters to be more efficient for your team!"
+"Tip_9_1"		"Come Ingegnere, hai bisogno di metallo per costruire, riparare e migliorare le tue costruzioni. Raccogli munizioni e armi cadute per ottenere più metallo."
+"Tip_9_2"		"Come Ingegnere, puoi fare altro oltre tenere d'occhio le tue costruzioni. Usa il Fucile a Pompa e la Pistola per contribuire ai combattimenti e proteggere le tue costruzioni."
+"Tip_9_3"		"Come Ingegnere, tieni d'occhio i Sabotatori piazzati sulle tue costruzioni dalle Spie nemiche. Usa la Chiave Inglese per rimuovere i Sabotatori."
+"Tip_9_4"		"Come Ingegnere, ricorda di migliorare le tue costruzioni. Le costruzioni migliorate posso portare grandi vantaggi a te a alla tua squadra!"
+"Tip_9_5"		"Come Ingegnere, premere %attack2% mentre trasporti una costruzione ruoterà la sua posizione. Orienta le Torrette o i Teletrasporti nel verso corretto per essere più efficente per la tua squadra!"
 // Stock
-"Tip_9_6"		"Come Ingegnere, your Pistol has a lot of reserve ammo. Use it to lead enemies towards you and your Sentry Gun, or go for a more offensive approach."
-"Tip_9_7"		"Come Ingegnere, you are able to defuse enemy Dynamite Packs by hitting them with your Wrench."
-"Tip_9_8"		"Come Ingegnere, hitting friendly buildings with your Wrench will repair and upgrade them."
-"Tip_9_9"		"Come Ingegnere, use the Construction PDA to place Sentry Guns and other supportive buildings."
-"Tip_9_10"		"Come Ingegnere, your Sentry Guns aren't restricted to just defensive measures. Deploy them quickly in hidden locations in order to aid in an offensive push."
-"Tip_9_11"		"Come Ingegnere, hit your Sentry Guns with your Wrench to upgrade it with metal. Each level adds more health and firepower."
-"Tip_9_12"		"Come Ingegnere, build Dispensers to provide your teammates with health and ammo. They also generate metal for you to use."
-"Tip_9_13"		"Come Ingegnere, upgraded Dispensers will generate more health, ammo, and metal for you and your team!"
-"Tip_9_14"		"Come Ingegnere, build Teleporters or Jump Pads to help your team reach the front line faster."
-"Tip_9_15"		"Come Ingegnere, upgraded Teleporters will recharge much faster, allowing your team to keep the pressure on."
-"Tip_9_16"		"Come Ingegnere, hitting either the entrance or the exit of a Teleporter with your Wrench will repair and upgrade both sides!"
+"Tip_9_6"		"Come Ingegnere, la tua Pistola ha moltissime munizioni in riserva. Usala per condurre i tuoi nemici verso te o le tue Torrette, o semplicemente per essere più offensivo."
+"Tip_9_7"		"Come Ingegnere, sei in grado di disinnescare i Pacchetti di Dinamite nemici colpendoli con la tua Chiave Inglese."
+"Tip_9_8"		"Come Ingegnere, puoi colpire le costruzioni dei tuoi compagni con la tua Chiave Inglese per ripararli e migliorarli."
+"Tip_9_9"		"Come Ingegnere, usa il PDA da Costruzione per piazzare Torrette e altre costruzioni di supporto."
+"Tip_9_10"		"Come Ingegnere, le tue Torrette non sono limitate ad un approccio difensivo. Schierale rapidamente in posti nascosti per supportare la tua squadra durante una conquista."
+"Tip_9_11"		"Come Ingegnere, colpisci le tue Torrette con la tua Chiave Inglese per migliorarle usando il metallo. Ogni livello aggiunge più salute e capacità di fuoco."
+"Tip_9_12"		"Come Ingegnere, costruisci Dispenser per rifornire la tua squadra con salute e munizioni. Generano anche metallo che puoi utilizzare."
+"Tip_9_13"		"Come Ingegnere, i Dispenser migliorati genereranno più salute, munizioni e metallo per te e la tua squadra!"
+"Tip_9_14"		"Come Ingegnere, costruisci Teletrasporti o Trampolini per aiutare la tua squadra a raggiungere il fronte di battaglia più rapidamente."
+"Tip_9_15"		"Come Ingegnere, i Teletrasporti migliorati si ricaricheranno molto più velocemente, permettendo alla tua squadra di tenere il ritmo."
+"Tip_9_16"		"Come Ingegnere, colpire sia l'entrata che l'uscita di un Teletrasporto con la tua Chiave Inglese riparerà e migliorerà entrambe le direzioni!"
 // Death & Taxes
-"Tip_9_17"		"Come Ingegnere, fully charged shots from the Coilgun can ricochet off walls and deal more damage."
-"Tip_9_18"		"Come Ingegnere, the Coilgun will cause a small explosion if you overcharge it. Use it to reach previously inaccessible areas."
+"Tip_9_17"		"Come Ingegnere, i colpi caricati a pieni della Pistola a Bobina possono rimbalzare sui muri ed infliggere più danno."
+"Tip_9_18"		"Come Ingegnere, la Pistola a Bobina causerà una piccola esplosione se viene sovraccaricata. Usala per raggiungere aree precedentemente inaccessibili."
 // Fight or Flight
-"Tip_9_19"		"Come Ingegnere, your Jump Pads allow you and your team to reach high places. Place them to allow less mobile teammates onto ledges and roofs!"
-"Tip_9_20"		"Come Ingegnere, your Jump Pads allow your teammates to jump forward with a lot of momentum. Deploy them in open areas that allow for quick rollouts."
+"Tip_9_19"		"Come Ingegnere, i tuoi Trampolini permettono a te ed alla tua squadra di raggiungere altezze mai viste. Posizionali per permettere alle classi meno mobili di raggiungere tetti e sporgenze!"
+"Tip_9_20"		"Come Ingegnere, i tuoi Trampolini permettono alla tua squadra di saltare e slanciarsi in avanti. Schierali in zone aperte per renderli facili mezzi di transporto."
 
 // Civilian
 "Tip_10_Count"	"11"
