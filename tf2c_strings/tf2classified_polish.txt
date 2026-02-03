@@ -116,14 +116,12 @@
 "TF_playerid_teleporter_no_entrance"	"  -  Brak wejścia teleportera"
 "TF_playerid_teleporter_no_exit"		"  -  Brak wyjścia teleportera"
 "TF_playerid_object_recharging"			"  -  Ponowne ładowanie: %s1%"
-"TF_playerid_object_inactive"			"Nieaktywny"
-"TF_playerid_object_ready"				"Gotowy"
 "TF_playerid_object_flooded"			"Zalany"
 "TF_playerid_carrying"					"Przenoszenie: %s1"
 "TF_playerid_carrying_lvl"				"Przenoszenie: %s1 (Poziom %s2)"
 
-"TF_friendly"	"przyjazny"
-"TF_enemy"		"wrogi"
+"TF_friendly"							"przyjazny"
+"TF_enemy"								"wrogi"
 
 // ----------------------------------------------------------------
 // Respawning
@@ -141,7 +139,7 @@
 // ----------------------------------------------------------------
 
 "DeathMsg_KilledVIP"			"zabił VIP-a!"
-"DeathMsg_KilledTeamVIP"		"zabił VIP-a %s1!"
+"DeathMsg_KilledTeamVIP"		"zabił VIP-a drużyny %s1!"
 
 "DeathMsg_VIP"					"VIP"
 "DeathMsg_ComboKill"			"KOMBO!"
@@ -386,74 +384,74 @@
 
 // Bat
 "TF_Weapon_Bat"			"Kij"
-"TF_Weapon_Bat_Desc"	"Got dozens of these. Ain't afraid to break one on you."
+"TF_Weapon_Bat_Desc"	"Mam ich mnóstwo. Nie boję się zużyć jednego na tobie."
 // Bottle
 "TF_Weapon_Bottle"		"Butelka"
-"TF_Weapon_Bottle_Desc"	"No, no, you're supposed ta drink it!"
+"TF_Weapon_Bottle_Desc"	"Nie, nie, to się pije!"
 // Fire Axe
 "TF_Weapon_FireAxe"			"Topór strażacki"
-"TF_Weapon_FireAxe_Desc"	"Teach the valuable lesson of fire safety."
+"TF_Weapon_FireAxe_Desc"	"Naucz cennej lekcji o bezpieczeństwie przeciwpożarowym."
 // Kukri
 "TF_Weapon_Kukri"		"Kukri"
-"TF_Weapon_Kukri_Desc"	"Cut up by a sharpshooter. Now that's a folly."
+"TF_Weapon_Kukri_Desc"	"Pocięty przez strzelca wyborowego. To dopiero głupota."
 // Knife
 "TF_Weapon_Knife"		"Nóż"
-"TF_Weapon_Knife_Desc"	"For the man who loves to watch things unfold."
+"TF_Weapon_Knife_Desc"	"Dla tego, który lubi patrzeć, jak wszystko się rozskłada."
 // Fists
 "TF_Weapon_Fists"		"Pięści"
-"TF_Weapon_Fists_Desc"	"I am not done with you yet!"
+"TF_Weapon_Fists_Desc"	"Jeszcze z tobą nie skończyłem!"
 // Shovel
 "TF_Weapon_Shovel"		"Saperka"
-"TF_Weapon_Shovel_Desc"	"Bury your enemies in times of war, and rob their graves in times of relative peace."
+"TF_Weapon_Shovel_Desc"	"W czasie wojny pochowaj swoich wrogów, a w czasach pokoju okradaj ich groby."
 // Wrench
 "TF_Weapon_Wrench"		"Klucz"
-"TF_Weapon_Wrench_Desc"	"I do a little bit of everything."
+"TF_Weapon_Wrench_Desc"	"Robie wszystko po trochu."
 // Bonesaw
 "TF_Weapon_Bonesaw"			"Piła do kości"
-"TF_Weapon_Bonesaw_Desc"	"Don't worry, it's not my blood! ...Or, now that I look at it, I'm not so sure."
+"TF_Weapon_Bonesaw_Desc"	"Nie martw się, to nie moja krew! ...Albo, po zastanowieniu się, nie jestem już tego taki pewien."
 // Shotgun
 "TF_Weapon_Shotgun"					"Strzelba"
-"TF_Weapon_Shotgun_Desc_Engineer"	"Sometimes, you just have to do things yourself."
-"TF_Weapon_Shotgun_Desc_Soldier"	"My shotgun disagrees with your will to live, maggot!"
-"TF_Weapon_Shotgun_Desc_Heavy"		"Heavy will make do with this."
-"TF_Weapon_Shotgun_Desc_Pyro"		"Let this do the talking."
+"TF_Weapon_Shotgun_Desc_Engineer"	"Czasami trzeba zrobić coś po swojemu."
+"TF_Weapon_Shotgun_Desc_Soldier"	"Moja strzelba nie zgadza się z chęcią do życia, gnido!"
+"TF_Weapon_Shotgun_Desc_Heavy"		"Grubemu to wystarczy."
+"TF_Weapon_Shotgun_Desc_Pyro"		"Niech to przemówi za siebie."
 // Scattergun
 "TF_Weapon_Scattergun"		"Dubeltówka"
-"TF_Weapon_Scattergun_Desc"	"Relax, pal, I just winged ya!"
+"TF_Weapon_Scattergun_Desc"	"Spokojnie stary, tylko cię drasnąłem!"
 // Sniper Rifle
 "TF_Weapon_SniperRifle"			"Karabin snajperski"
-"TF_Weapon_SniperRifle_Desc"	"Gets the job done."
+"TF_Weapon_SniperRifle_Desc"	"Spełnia swoje zadanie."
 // Minigun
 "TF_Weapon_Minigun"			"Minigun"
-"TF_Weapon_Minigun_Desc"	"Sascha not even listen to Heavy. You think she listen to YOU?"
+"TF_Weapon_Minigun_Desc"	"Sascha nie słucha się Grubego. Myślisz, że będzie słuchać CIEBIE?"
 // SMG
 "TF_Weapon_SMG"			"PM"
-"TF_Weapon_SMG_Desc"	"Now how about that? We're both more dangerous up close."
+"TF_Weapon_SMG_Desc"	"No i co ty na to? Oboje jesteśmy bardziej niebezpieczni z bliska."
 // Syringe Gun
 "TF_Weapon_SyringeGun"		"Pistolet strzykawkowy"
-"TF_Weapon_SyringeGun_Desc"	"Ooh, you make a good sharps container!"
+"TF_Weapon_SyringeGun_Desc"	"Och, nadajesz się świetnie na pojemnik na ostrza!"
 // Rocket Launcher
 "TF_Weapon_RocketLauncher"		"Wyrzutnia rakiet"
-"TF_Weapon_RocketLauncher_Desc"	"The perfect weapon for the perfect Soldier!"
+"TF_Weapon_RocketLauncher_Desc"	"Doskonała broń dla doskonałego Żołnierza!"
 // Grenade Launcher
 "TF_Weapon_GrenadeLauncher"			"Granatnik"
-"TF_Weapon_GrenadeLauncher_Desc"	"Leave it to me, lad."
+"TF_Weapon_GrenadeLauncher_Desc"	"Zostaw to mnie, kolego."
 // Stickybomb Launcher
 "TF_Weapon_StickybombLauncher"		"Wyrzutnia bomb samoprzylepnych"
-"TF_Weapon_StickybombLauncher_Desc"	"I'll blast 'em straight up inta Heaven meself if I need ta."
+"TF_Weapon_StickybombLauncher_Desc"	"Sam wyślę ich prosto do nieba, jeżeli zajdzie taka potrzeba."
 // Flame Thrower
 "TF_Weapon_FlameThrower"		"Miotacz ognia"
-"TF_Weapon_FlameThrower_Desc"	"Things are heating up..."
+"TF_Weapon_FlameThrower_Desc"	"Sytuacja nabiera tempa..."
 // Pistol
 "TF_Weapon_Pistol"					"Pistolet"
-"TF_Weapon_Pistol_Desc_Engineer"	"Start dancin', boy."
-"TF_Weapon_Pistol_Desc_Scout"		"Everyone's outta range 'til they ain't."
+"TF_Weapon_Pistol_Desc_Engineer"	"Tańcz, chłopcze."
+"TF_Weapon_Pistol_Desc_Scout"		"Wszyscy poza zasięgiem, póki nie są."
 // Revolver
 "TF_Weapon_Revolver"		"Rewolwer"
-"TF_Weapon_Revolver_Desc"	"For when stealth is no longer an option."
+"TF_Weapon_Revolver_Desc"	"Kiedy skradanie się nie wchodzi już w grę."
 // PDA: Teleporter (Construction PDA)
 "TF_Weapon_ConstructionPDA"			"PDA budowy"
-"TF_Weapon_ConstructionPDA_Desc"	"Everything an Engineer like myself needs, all in this little device here."
+"TF_Weapon_ConstructionPDA_Desc"	"Wszystko co potrzebuje Inżynier taki jak ja, znajduje się w tym malutkim urządzeniu."
 "TF_Weapon_PDATeleporter"			"PDA: Teleport"
 // Destruction PDA
 "TF_Weapon_DestructionPDA"	"PDA destrukcji"
@@ -461,13 +459,13 @@
 "TF_Weapon_DisguiseKit"	"Zestaw przebrań"
 // Medi Gun
 "TF_Weapon_Medigun"			"Medigun"
-"TF_Weapon_Medigun_Desc"	"You do all have the same blood type, yes? More or less?"
+"TF_Weapon_Medigun_Desc"	"Wszyscy macie tę samą grupę krwi, prawda? Odrobinkę?"
 // Invis Watch
 "TF_Weapon_InvisWatch"		"Zegarek niewidzialności"
-"TF_Weapon_InvisWatch_Desc"	"Stylish. A shame they'll never see it."
+"TF_Weapon_InvisWatch_Desc"	"Eleganckie. Szkoda, że nigdy tego nie zobaczą."
 // Sapper
 "TF_Weapon_Sapper"		"Saper"
-"TF_Weapon_Sapper_Desc"	"Who left that there?"
+"TF_Weapon_Sapper_Desc"	"Kto to tam zostawił?"
 
 // ----------------------------------------------------------------
 // Achievement weapon strings
@@ -475,23 +473,23 @@
 
 // Kritzkrieg
 "TF_Weapon_Kritzkrieg"		"Kritzkrieg"
-"TF_Weapon_Kritzkrieg_Desc"	"Go on, do a little harm! Keep us both in business, ja?"
+"TF_Weapon_Kritzkrieg_Desc"	"No dalej, zrób trochę krzywdy! Dzięki temu oboje utrzymamy się na rynku, ja?"
 // Überspritze
 "TF_Weapon_Uberspritze"			"Überstrzykawka"
-"TF_Weapon_Uberspritze_Desc"	"Oh, quit squirming, it's for a good cause!"
+"TF_Weapon_Uberspritze_Desc"	"Och, przestań się wiercić, to dla szczytnego celu!"
 // Flare Gun
 "TF_Weapon_FlareGun"		"Pistolet sygnałowy"
-"TF_Weapon_FlareGun_Desc"	"Someone's on fire! Quick, send out a distress signal!"
+"TF_Weapon_FlareGun_Desc"	"Ktoś się pali! Szybko, wyślij sygnał ratunkowy!"
 // Sandvich
 "TF_Weapon_Sandvich"		"Kanapka"
-"TF_Weapon_Sandvich_Desc"	"Come closer! I will give you taste."
+"TF_Weapon_Sandvich_Desc"	"Podejdź bliżej! Dam ci spróbować."
 // Huntsman
 "TF_Weapon_Huntsman"		"Łowca"
-"TF_Weapon_Huntsman_Desc"	"Whatever happened to chivalry?"
+"TF_Weapon_Huntsman_Desc"	"Co się stało z rycerskością?"
 // Gunboats
 "TF_Weapon_Gunboats"				"Kanonierki"
-"TF_Weapon_Gunboats_Desc_Soldier"	"Lead shoe inserts! Perfect for anyone trying to cheat on the army physical."
-"TF_Weapon_Gunboats_Desc_Demoman"	"Boots so good, you won't even worry about the screws drilled into your feet."
+"TF_Weapon_Gunboats_Desc_Soldier"	"Ołowiane wkładki do butów! Idealne dla każdego, kto chce oszukać badania fizyczne do wojska."
+"TF_Weapon_Gunboats_Desc_Demoman"	"Buty tak dobre, że nawet nie zwrócisz uwagi na wkręty wbijane w stopy."
 
 // ----------------------------------------------------------------
 // Death & Taxes weapon strings
@@ -499,10 +497,10 @@
 
 // Umbrella
 "TF_Weapon_Umbrella"		"Parasol"
-"TF_Weapon_Umbrella_Desc"	"A man of quality must remain dry."
+"TF_Weapon_Umbrella_Desc"	"Człowiek z klasą musi pozostać suchy."
 // Nail Gun
 "TF_Weapon_NailGun"			"Pistolet na gwoździe"
-"TF_Weapon_NailGun_Desc"	"Yeah, lost that job pretty quick."
+"TF_Weapon_NailGun_Desc"	"Tak, dość szybko straciłem tę pracę."
 // R.P.G.
 "TF_Weapon_RPG"			"R.P.G."
 "TF_Weapon_RPG_Desc"	"See how the rocket pokes out the front, son? It yearns for freedom. And by God, it will have it."
@@ -534,25 +532,25 @@
 
 // L'escampette
 "TF_Weapon_Lescampette"			"L'escampette"
-"TF_Weapon_Lescampette_Desc"	"Make it quick."
+"TF_Weapon_Lescampette_Desc"	"Zrób to szybko."
 // Chekhov's Punch
 "TF_Weapon_ChekhovsPunch"		"Cios Czechowa"
-"TF_Weapon_ChekhovsPunch_Desc"	"Do not cry! You have narrative purpose in Heavy's life."
+"TF_Weapon_ChekhovsPunch_Desc"	"Nie płacz! Masz swoje miejsce w życiu Grubego."
 // Twin Barrel
 "TF_Weapon_TwinBarrel"		"Dwubeltówka"
-"TF_Weapon_TwinBarrel_Desc"	"(After-market modification voids the warranty.)"
+"TF_Weapon_TwinBarrel_Desc"	"(Modyfikacje dokonane po zakupie skutkują unieważnieniem gwarancji)."
 // Anti-Aircraft Cannon
 "TF_Weapon_AntiAircraftCannon"		"Działo przeciwlotnicze"
-"TF_Weapon_AntiAircraftCannon_Desc"	"Which piece of you should Heavy send home to momma?"
+"TF_Weapon_AntiAircraftCannon_Desc"	"Którą częśc ciebie powinien Gruby wysłać do twojej mamusi?"
 // PDA: Jump Pad
 "TF_Weapon_PDAJumpPad"		"PDA: Skocznia"
-"TF_Weapon_PDAJumpPad_Desc"	"Trust me, feller. This one'll blow you away."
+"TF_Weapon_PDAJumpPad_Desc"	"Stary, zaufaj mi. To cię zaskoczy."
 // Harvester
 "TF_Weapon_Harvester"		"Plonobójca"
-"TF_Weapon_Harvester_Desc"	"Ask not for whom the bell tolls."
+"TF_Weapon_Harvester_Desc"	"Przeto nigdy nie pytaj, komu bije dzwon"
 // Brick
 "TF_Weapon_Brick"		"Cegła"
-"TF_Weapon_Brick_Desc"	"Didn't think you were THAT slow."
+"TF_Weapon_Brick_Desc"	"Nie sądziłem, że jesteś AŻ TAK wolny."
 
 // ----------------------------------------------------------------
 // Double Down weapon strings
@@ -1100,10 +1098,15 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 "TF_Menu_Stats"				"Statystyki"
 
 "TF_Menu_Options"			"Ustawienia"
-"TF_Menu_Addons"			"Dodatki (Wkrótce!)"
+"TF_Menu_Addons"			"Dodatki (wkrótce!)"
 
 "TF_Menu_Quit"				"Wyjście"
 "TF_Menu_Disconnect"		"Rozłącz"
+
+"TF_Menu_Blog"				"Oficjalny Blog"
+"TF_Menu_LatestUpdate"		"Najnowsza Aktualizacja"
+"TF_Menu_ReportBug"			"Zgłoś Błąd"
+
 "TF_Friends_Title"					"Znajomi (%friend_count%)"
 "TF_Friends_Status_InTF2C"			"Gra w TF2C"
 "TF_Friends_Status_Idle_InTF2C"		"AFK w TF2C"
@@ -1146,12 +1149,12 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 
 "TF_Loadout_Close"				"Zamknij"
 "TF_Loadout_Back"				"Wstecz"
-"TF_Loadout_ResetInventory"		"Zresetuj wyposażenie"
+"TF_Loadout_Defaults"			"Domyślne"
 
 // Reset inventory
-"TF_ConfirmResetInventory_Title"		"Zresetuj wyposażenie"
-"TF_ConfirmResetInventory_Message"		"Czy chcesz zresetować swoje wyposażenie dla tej klasy?"
-"TF_ConfirmResetInventory_OK"			"Zresetuj"
+"TF_ConfirmDefaultInventory_Title"		"Domyślne wyposażenie"
+"TF_ConfirmDefaultInventory_Message"	"Czy chcesz przywrócić domyślne wyposażenie dla tej klasy?"
+"TF_ConfirmDefaultInventory_OK"			"Tak"
 
 // ----------------------------------------------------------------
 // Options
@@ -1165,7 +1168,7 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 "TF2c_KeyboardCategory_UI"  		 	"INTERFEJS"
 "TF2c_KeyboardCategory_Extra"			"DODATKI"
 "TF2c_UseDefaultsButton"				"Zresetuj klawisze"
-"TF_ClassSkill_Spy_Spywalk"				"SZPIEG: Szybkość Szpiega"
+"TF_ClassSkill_Spy_Spywalk"				"SZPIEG: Prędkość Szpiega"
 "TF_Voice_Menu_0_0"						"Komenda Głosowa: MEDYK!"
 "TF_Voice_Menu_0_1"						"Komenda Głosowa: Dzięki!"
 "TF_Voice_Menu_1_0"						"Komenda Głosowa: Nadchodzą"
@@ -1188,6 +1191,7 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 "TF_Enable"								"Włącz"
 "TF_Disable"							"Wyłącz"
 "TF_RightClick_Enable"					"Prawy Przycisk, aby włączyć"
+"TF_RightClick_Enable_Mouse"			"Prawy Przycisk, aby włączyć myszkę"
 
 // UI options
 "TF_Open_Charinfo"						"Otwórz wyposażenie klasy"
@@ -1221,7 +1225,7 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 "TF2c_OptionCategory_Combat"			"WALKA"
 "TF2c_OptionCategory_HUD"				"HUD"
 "TF2c_OptionCategory_ViewModel"			"MODEL BRONI"
-"TF2c_OptionCategory_ClassSpecific"		"USTAWIENIA DANEJ KLASY"
+"TF2c_OptionCategory_ClassSpecific"		"OPCJE KLAS"
 "TF2c_OptionCategory_Performance"		"WYDAJNOŚĆ"
 "TF2c_OptionCategory_Misc"				"INNE"
 "TF2c_OptionCategory_Replay"			"POWTÓRKI"
@@ -1272,35 +1276,33 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 "TF_CombatTextDropShadow_Tip"       "If set, shows drop shadow on combat text."
 
 // ClassSpecific
-"TF_CyclopsDoubleTap"             	"DEMOMAN: Enable Cyclops Double-Tap"
-"TF_CyclopsDoubleTap_Tip"        	"If set, Cyclops grenades will require a second click to detonate, instead of letting go of primary fire."
-"TF_SapperAwareness"                "INŻYNIER: Sapper awareness"
-"TF_SapperAwareness_Tip"            "If set, sapper warning on buildings alerts in an alternative color."
-"TF_SniperBell"					    "SNAJPIER: Play Sound on Full Charge"
-"TF_SniperBell_Tip"					"Play a sound when the Sniper rifle is fully charged."
-"TF_ZoomSensitivityRatio"			"SNAJPIER: Zoom Sensitivity Ratio"
-"TF_ZoomSensitivityRatio_Tip"		"Adjusts scoped zoom sensitivity."
-"TF_SpywalkInverted"				"SZPIEG: Use Spywalk by default"
-"TF_SpywalkInverted_Tip"			"If set, uses Spywalk speed by default, and normal movement speed with the Spywalk bind"
-"TF_ViewModelCloakTint"				"SZPIEG: Viewmodel Cloak Tint"
-"TF_ViewModelCloakTint_Tip"			"SZPIEG: Allow viewmodels to be tinted while cloaked."
-"TF_ZoomSensitivityRatio"			"SNAJPER: Zoom Sensitivity Ratio"
-"TF_ZoomSensitivityRatio_Tip"		"Adjusts scoped zoom sensitivity."
-"TF_AvoidBecomingVIP"				"CYWIL: Avoid becoming the VIP"
-"TF_AvoidBecomingVIP_Tip"			"If set, you won't be usually considered when the game chooses a VIP; you can be still picked if everyone has this option set or if you are voted"
+"TF_CyclopsDoubleTap"             	"DEMOMAN: Wymuś podwójne kliknięcie dla Cyklopa"
+"TF_CyclopsDoubleTap_Tip"        	"Gdy włączone, granaty Cyklopa będą wymagały podwójnego kliknięcia do detonacji, zamiast po puszczeniu przycisku myszy."
+"TF_SapperAwareness"                "INŻYNIER: Świadomość o Saperze"
+"TF_SapperAwareness_Tip"            "Gdy włączone, ostrzeżenie o saperze na konstrukcjach jest innego koloru."
+"TF_SniperBell"					    "SNAJPER: Odtwórz dźwięk, gdy w pełni naładowany"
+"TF_SniperBell_Tip"					"Odtwórz dźwięk, gdy karabin snajperski jest w pełni naładowany."
+"TF_ZoomSensitivityRatio"			"SNAJPER: Czułość przybliżenia"
+"TF_ZoomSensitivityRatio_Tip"		"Dostosowuje czułość przybliżenia celownika."
+"TF_SpywalkInverted"				"SZPIEG: Używaj domyślnie prędkości Szpiega"
+"TF_SpywalkInverted_Tip"			"Gdy włączone, używa domyślnie prędkości Szpiega, a normalna prędkość jest dostępna po użyciu przypisanego klawisza."
+"TF_ViewModelCloakTint"				"SZPIEG: Zabarwienie modelu broni, gdy jesteś niewidzialny"
+"TF_ViewModelCloakTint_Tip"			"Pozwala na zabarwienie modelu broni, gdy jesteś niewidzialny."
+"TF_AvoidBecomingVIP"				"CYWIL: Unikaj zostania VIP-em"
+"TF_AvoidBecomingVIP_Tip"			"Gdy włączone, nie będziesz zwykle brany pod uwagę przy wybieraniu VIP-a; możesz nadal zostać wybrany, jeżeli każdy ma tę opcję włączoną albo jeżeli wygrałeś głosowanie."
 
 // HUD
 "TF_LoadoutGrid"                  "Enable loadout grid"
 "TF_LoadoutGrid_Tip"              "If set, the weapon loadout page will be displayed as a grid"
 "TF_HighlightAmmo"				  "Display glow outlines on dropped weapons"
 "TF_HighlightAmmo_Tip"			  "If set, dropped weapons will have glow outlines to highlight their locations"
-"TF_MessageAlert"				  "Enable chat message sound"
-"TF_MessageAlert_Tip"			  "If set, a sound will play when a chat message is received"
-"TF_MessageVolume"				  "Chat message sound volume"
-"TF_MessageVolume_Tip"			  "Sets the volume of chat message sounds"
-"TF_ScoreBoardShowAvatars"		  "Display avatars on the scoreboard"
-"TF_ShowCurrentWeapon"		  	  "Display currently equipped weapon"
-"TF_OverlayToastPosition"         "Position of Steam overlay notifications"
+"TF_MessageAlert"				  "Włącz dźwięk dla wiadomości na czacie"
+"TF_MessageAlert_Tip"			  "Gdy włączone, odtworzy dźwięk, gdy otrzymasz wiadomość na czacie."
+"TF_MessageVolume"				  "Głośność dźwięku dla wiadomości na czacie"
+"TF_MessageVolume_Tip"			  "Ustawia głośności dźwięku dla wiadomości na czacie"
+"TF_ScoreBoardShowAvatars"		  "Pokaż obrazy avatarów na tablicy wyników"
+"TF_ShowCurrentWeapon"		  	  "Wyświetl obecnie wyposażoną broń"
+"TF_OverlayToastPosition"         "Położenie powiadomień nakładki Steam"
 "TF_TopLeft"                      "Lewy górny róg"
 "TF_TopRight"                     "Prawy górny róg"
 "TF_BottomLeft"                   "Lewy dolny róg"
@@ -1308,21 +1310,23 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 "TF_OverlayToastInsetHoriz"       "Horizontal inset of Steam notifications"
 "TF_OverlayToastInsetVert"        "Vertical inset of Steam notifications"
 "TF_TargetID_Floating_Health"	  "Target ID - Enable floating healthbar"
-"TF_TargetID_Floating_Health_Tip" "If set, displays healthbar above character"
+"TF_TargetID_Floating_Health_Tip" "Gdy włączone, wyświetla pasek zdrowia nad postacią"
 "TF_TargetID_Alpha"				  "Target ID - Name plate background transparency"
 "TF_TargetID_Alpha_Tip"			  "Set the translucency the TargetID name plate background"
 "TF_TargetID_Show_Avatars"		  "Target ID - Display Avatars on Target ID"
-"TF_TargetID_Show_Avatars_Tip"	  "Display Steam avatars on Target ID"
+"TF_TargetID_Show_Avatars_Tip"	  "Wyświetlaj obraz avatarów Steam na Target ID"
 "TF_HideKeybinds"                 "Hide displayed in-game keybinds"
 "TF_HideKeybinds_Tip"			  "Disable display of keybinds shown on in-game HUD."
 "TF_AlternativeTimer"             "Use alternative in-game timer"
 "TF_AlternativeTimer_Tip"         "If set, will use an alternative mono font timer."
-"TF_DisableDropShadow"            "Disable drop shadow"
+"TF_DisableDropShadow"            "Wyłącz efekt cienia"
 "TF_DisableDropShadow_Tip"        "If set, removes drop shadow from most text and images."
 "TF_DeathNoticeMax"               "Death Notice - Maximum visible amount"
 "TF_DeathNoticeMax_Tip"           "Sets the max amount of death notice entries at the same time."
 "TF_DeathNoticeTime"              "Death Notice - Expiry time for entires (in seconds)"
 "TF_DeathNoticeTime_Tip"          "Sets the expiry time for death notice items."
+"TF_GlowEffects"				  "Włącz poświatę"
+"TF_GlowEffects_Tip" 			  "Gdy włączone, podczas rundy zostanie włączony efekt poświaty dla celów takich jak: VIP-y, wózki z ładunkiem i tajnych materiałów w trybie CTF."
 
 // ViewModel
 
