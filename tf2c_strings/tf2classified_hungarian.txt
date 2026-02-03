@@ -1337,7 +1337,6 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_GlowEffects_Tip" 			  "Ha be van kapcsolva, ragyogó effektek fogják körvonalazni a pálya céljait, mint a VIP-kat, bombás kocsikat és az információs aktatáskákat."
 
 // ViewModel
-
 "TF_ViewModelFOV"				"Nézetmodell látómezeje"
 "TF_FlipViewModels"				"Nézetmodellek megfordítása"
 "TF_InvisibleArms"				"Láthatatlan nézetmodell-karok"
@@ -1356,7 +1355,6 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF2c_Option_Proximity_Voice_Local"	"Távérzékeny hangos csevegő bekapcsolása"
 
 // Multiplayer
-
 "TF_MessageAlert"				    "Üzenetjelző hang bekapcsolása"
 "TF_MessageAlert_Tip"			    "Ha be van kapcsolva, üzenetjelző hangot fogsz hallani valahányszor üzenet érkezik a szöveges csevegőre"
 "TF_MessageVolume"				    "Üzenetjelző hang hangereje"

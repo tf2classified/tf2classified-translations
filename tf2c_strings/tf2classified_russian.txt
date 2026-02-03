@@ -1039,7 +1039,7 @@
 
 "TF_ScoreBoard_UberchargesLabel"	"Убер-зарядов:"
 "TF_ScoreBoard_TransportsLabel"		"Транспорт:"
-"TF_ScoreBoard_DestructionLabel"	"Разрушено:"
+"TF_ScoreBoard_DestructionsLabel"	"Разрушено:"
 "TF_ScoreBoard_HeadshotsLabel"		"В голову:"
 "TF_ScoreBoard_BackstabsLabel"		"В спину:"
 
@@ -1293,10 +1293,6 @@
 "TF_LoadoutGrid_Tip"              "Если включено, список оружия будет отображаться в качестве таблицы с ячейками вместо вертикального ряда столбцов"
 "TF_HighlightAmmo"				  "Подсвечивать выброшенное оружие"
 "TF_HighlightAmmo_Tip"			  "Если включено, выброшенное оружие будет подсвечиваться, чтобы его лучше было видно"
-"TF_MessageAlert"				  "Включить звук сообщения в чате"
-"TF_MessageAlert_Tip"			  "Если включено, каждое сообщение в текстовом чате будет сопровождаться звуковым сигналом"
-"TF_MessageVolume"				  "Громкость звука сообщения в чате"
-"TF_MessageVolume_Tip"			  "Устанавливает громкость звука сообщений в чате"
 "TF_ScoreBoardShowAvatars"		  "Отображать аватары в таблице очков"
 "TF_ShowCurrentWeapon"		  	  "Отображать иконку выбранного оружия"
 "TF_OverlayToastPosition"         "Расположение уведомлений оверлея Steam"
@@ -1324,7 +1320,6 @@
 "TF_DeathNoticeTime_Tip"          "Устанавливает время отображения каждой записи в истории убийств"
 
 // ViewModel
-
 "TF_ViewModelFOV"				"Угол обзора оружия в руках"
 "TF_FlipViewModels"				"Отзеркалить оружие в руках"
 "TF_InvisibleArms"				"Использовать модели оружия без рук"
@@ -1341,13 +1336,16 @@
 
 // Voice
 "TF2c_Option_Proximity_Voice_Local"	"Включить объёмный голосовой чат."
-// MULTIPLAYER
+
+// Multiplayer
+"TF_MessageAlert"				  "Включить звук сообщения в чате"
+"TF_MessageAlert_Tip"			  "Если включено, каждое сообщение в текстовом чате будет сопровождаться звуковым сигналом"
+"TF_MessageVolume"				  "Громкость звука сообщения в чате"
 "TF_DownloadFilter_Title"			"Разрешения загрузки пользовательских файлов с серверов"
 "GameUI_DownloadFilter_All"			"Разрешить все польз. файлы"
 "GameUI_DownloadFilter_NoSounds"	"Без польз. звуков"
 "GameUI_DownloadFilter_MapsOnly"	"Только карты"
 "GameUI_DownloadFilter_None"		"Без польз. файлов"
-
 "TF_Network_Rate"       			"Частота обновления сети"
 "TF_Network_Rate_Tip"       		"Задаёт частоту обновления сети, которая пропорционально задаёт уровень интерполяции.\n\nРекомендуется попробовать каждый вариант, чтобы узнать, что работает лучше с вашим интернет-соединением."
 

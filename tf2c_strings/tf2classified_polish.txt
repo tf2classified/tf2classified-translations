@@ -1337,7 +1337,6 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 "TF_GlowEffects_Tip" 			  "Gdy włączone, podczas rundy zostanie włączony efekt poświaty dla celów takich jak: VIP-y, wózki z ładunkiem i tajnych materiałów w trybie CTF."
 
 // ViewModel
-
 "TF_ViewModelFOV"				"Pole widzenia modeli broni"
 "TF_FlipViewModels"				"Odwróć modele broni"
 "TF_InvisibleArms"				"Użyj niewidzialnego modelu ręki"
@@ -1356,7 +1355,6 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 "TF2c_Option_Proximity_Voice_Local"	"Włącz zbliżeniowy czat głosowy."
 
 // Multiplayer
-
 "TF_MessageAlert"					"Włącz dźwięk dla wiadomości na czacie"
 "TF_MessageAlert_Tip"				"Gdy włączone, odtworzy dźwięk, gdy otrzymasz wiadomość na czacie."
 "TF_MessageVolume"					"Głośność dźwięku dla wiadomości na czacie"

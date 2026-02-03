@@ -1039,7 +1039,7 @@
 
 "TF_ScoreBoard_UberchargesLabel"	"Uber 能量部署："
 "TF_ScoreBoard_TransportsLabel"		"傳送數："
-"TF_ScoreBoard_DestructionLabel"	"破壞："
+"TF_ScoreBoard_DestructionsLabel"	"破壞："
 "TF_ScoreBoard_HeadshotsLabel"		"爆頭："
 "TF_ScoreBoard_BackstabsLabel"		"背刺："
 
@@ -1293,10 +1293,6 @@
 "TF_LoadoutGrid_Tip"              "若勾選，背包配置頁面將以網格形式顯示。"
 "TF_HighlightAmmo"				  "在掉落的武器上顯示發光效果"
 "TF_HighlightAmmo_Tip"			  "若勾選，遊戲中掉落的武器將顯示發光效果。"
-"TF_MessageAlert"				  "啟用文字聊天提示音效"
-"TF_MessageAlert_Tip"			  "若勾選，收到聊天消息時會播放提示音。"
-"TF_MessageVolume"				  "文字聊天提示音效音量"
-"TF_MessageVolume_Tip"			  "設置聊天提示音的音量大小。"
 "TF_ScoreBoardShowAvatars"		  "記分板顯示頭像"
 "TF_ShowCurrentWeapon"		  	  "顯示目前裝備的武器"
 "TF_OverlayToastPosition"         "Steam 覆蓋通知位置"
@@ -1324,7 +1320,6 @@
 "TF_DeathNoticeTime_Tip"          "設定殺人圖示的消失時間（秒）。"
 
 // ViewModel
-
 "TF_ViewModelFOV"				"檢視模型視野"
 "TF_FlipViewModels"				"翻轉檢視模型"
 "TF_InvisibleArms"				"啟用檢視模型隱形手臂"
@@ -1341,13 +1336,16 @@
 
 // Voice
 "TF2c_Option_Proximity_Voice_Local"	"啟用距離語音聊天。"
-// MULTIPLAYER
+
+// Multiplayer
+"TF_MessageAlert"				  "啟用文字聊天提示音效"
+"TF_MessageAlert_Tip"			  "若勾選，收到聊天消息時會播放提示音。"
+"TF_MessageVolume"				  "文字聊天提示音效音量"
 "TF_DownloadFilter_Title"			"從伺服器下載的自訂檔案權限"
 "GameUI_DownloadFilter_All"			"允許所有自訂檔案"
 "GameUI_DownloadFilter_NoSounds"	"不允許自訂音效"
 "GameUI_DownloadFilter_MapsOnly"	"僅允許地圖檔案"
 "GameUI_DownloadFilter_None"		"不允許任何自訂檔案"
-
 "TF_Network_Rate"       			"網路更新速率"
 "TF_Network_Rate_Tip"       		"設定網路更新的速率，數值越高，插值量越低。\n\n建議依照你的網路連線狀況逐一嘗試，找出最適合的設定。"
 

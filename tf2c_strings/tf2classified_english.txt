@@ -1337,7 +1337,6 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_GlowEffects_Tip" 			  "If set, glow effects will be enabled during the match for objectives like VIPs, Payload carts, and CTF intelligence briefcases."
 
 // ViewModel
-
 "TF_ViewModelFOV"				"Viewmodel Field of View"
 "TF_FlipViewModels"				"Flip Viewmodels"
 "TF_InvisibleArms"				"Use Invisible Arm Viewmodels"
@@ -1356,7 +1355,6 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF2c_Option_Proximity_Voice_Local"	"Enable Proximity Voice Chat."
 
 // Multiplayer
-
 "TF_MessageAlert"				    "Enable chat message sound"
 "TF_MessageAlert_Tip"			    "If set, a sound will play when a chat message is received"
 "TF_MessageVolume"				    "Chat message sound volume"
