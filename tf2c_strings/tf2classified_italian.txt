@@ -246,25 +246,25 @@
 // Medic
 "Tip_5_Count"	"16"
 // Generic
-"Tip_5_1"		"Come Medico, teammates who haven't recently taken damage will be healed much faster!"
-"Tip_5_2"		"Come Medico, you gain ÜberCharge faster by healing teammates who are more hurt."
-"Tip_5_3"		"Come Medico, you gain ÜberCharge much faster during setup time."
-"Tip_5_4"		"Come Medico, fill your ÜberCharge meter by healing teammates, then press %attack2% to deploy an ÜberCharge."
-"Tip_5_5"		"Come Medico, stay alert for teammates calling for your help. Use the cross speech bubbles onscreen to find them."
-"Tip_5_6"		"Come Medico, you and your patients cannot capture Control Points or pick up the Intelligence briefcase while invulnerable."
+"Tip_5_1"		"Come Medico, i compagni di squadra che non sono stati danneggiati recentemente verranno curati molto più velocemente!"
+"Tip_5_2"		"Come Medico, guadagni ÜberCarica più velocemente curando i compagni più feriti."
+"Tip_5_3"		"Come Medico, guadagni ÜberCarica molto più velocemente durante il tempo di schieramento."
+"Tip_5_4"		"Come Medico, riempi il tuo metro di ÜberCarica curando i tuoi compagni, poi premi %attack2% per schierare un'ÜberCarica."
+"Tip_5_5"		"Come Medico, rimani all'erta per i tuoi compagni che chiedono. Usa l'icona della croce nella bolla per trovarli."
+"Tip_5_6"		"Come Medico, tu e i tuoi pazienti non potete catturare Punti di Controllo o raccogliere la Valigetta mentre siete invulnerabili."
 // Stock
-"Tip_5_7"		"Come Medico, remember that syringes shoot in arcs and have a travel time. Lead your shots to land successful hits."
+"Tip_5_7"		"Come Medico, ricorda che le siringhe viaggiano in un arco e impiegano tempo per arrivare all'obiettivo. Calcola la traiettoria del nemico per assicurarti di colpirlo."
 "Tip_5_8"		"Come Medico, use your Medi Gun to heal injured teammates, and overheal them up to a temporary 150%% of their normal health."
-"Tip_5_9"		"Come Medico, your Medi Gun's ÜberCharge makes both you and your patient invulnerable for a short time."
-"Tip_5_10"		"Come Medico, your Bonesaw can be used in defensive situations when you are separated from your teammates."
+"Tip_5_9"		"Come Medico, l'ÜberCarica della tua Pistola Medica rende te ed il tuo paziente invulnerabile per un breve periodo"
+"Tip_5_10"		"Come Medico, il tuo Segaossa può essere usato nelle situazioni di difesa dove ti trovi lontano dai tuoi compagni."
 // Death & Taxes
-"Tip_5_11"		"Come Medico, the Kritzkrieg temporarily gives your patient guaranteed crits. Use it in on powerful classes, and in areas with lots of enemies."
-"Tip_5_12"		"Come Medico, when using the Überspritze, be sure to watch your health. You have 10 less maximum health when equipped with it."
-"Tip_5_13"		"Come Medico, the Shock Therapy will deal more damage the more charged it is. The charge will be depleted when landing hits on enemies."
-"Tip_5_14"		"Come Medico, the Shock Therapy can be used to fully heal a teammate at full charge, in exchange for overall heal rate."
+"Tip_5_11"		"Come Medico, il Kritzkrieg garantisce colpi critici al tuo paziente per un breve periodo. Usalo sulle classi potenti, ed in aree con molti nemici."
+"Tip_5_12"		"Come Medico, tieni d'occhio la salute quando usi l'Überspritze. Hai 10 punti salute massimi in meno quando la equipaggi."
+"Tip_5_13"		"Come Medico, la Terapia Shock infliggerà più danno più è caricata. La carica verrà consumata quando colpisci un nemico."
+"Tip_5_14"		"Come Medico, la Terapia Shock può essere usata per guarire un compagno a pieno se caricata al massimo, in cambio del tasso di sovracura in generale."
 // Double Down
-"Tip_5_15"		"Come Medico, the Rejuvenator is extremely useful for healing large groups of teammates. Aim for direct hits for an increased heal and ÜberCharge bonus."
-"Tip_5_16"		"Come Medico, the Rejuvenator's ÜberCharge deploys a temporary shield of invulnerability, making any teammate who enters it immune to all damage."
+"Tip_5_15"		"Come Medico, il Ringiovanitore è utilissimo per curare grandi gruppi di compagni. Mira per dei colpi diretti per cure più alte ed un bonus dell'ÜberCarica."
+"Tip_5_16"		"Come Medico, l'ÜberCarica del Ringiovanitore schiera uno scudo d'invulnerabilità temporaneo, rendendo ogni compagno che ci entra immune a qualsiasi tipo di danno."
 
 // Heavy
 "Tip_6_Count"	"17"
