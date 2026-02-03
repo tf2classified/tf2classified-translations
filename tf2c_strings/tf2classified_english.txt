@@ -1288,7 +1288,7 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_CombatTextDropShadow_Tip"       "If set, shows drop shadow on combat text."
 
 // ClassSpecific
-"TF_CyclopsDoubleTap"             	"DEMOMAN: Enable cyclops double-tap"
+"TF_CyclopsDoubleTap"             	"DEMOMAN: Enable Cyclops double-tap"
 "TF_CyclopsDoubleTap_Tip"        	"If set, Cyclops grenades will require a second click to detonate, instead of letting go of primary fire."
 "TF_SapperAwareness"                "ENGINEER: Sapper awareness"
 "TF_SapperAwareness_Tip"            "If set, sapper warning on buildings alerts in an alternative color."
