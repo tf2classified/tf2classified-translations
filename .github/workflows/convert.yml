@@ -1,4 +1,4 @@
-name: CI
+name: Convert to UTF-16LE
 
 on:
   push:
