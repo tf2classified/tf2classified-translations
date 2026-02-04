@@ -1,4 +1,4 @@
-"lang"
+﻿"lang"
 {
 "Language" "Turkish"
 "Tokens"
@@ -88,7 +88,7 @@
 
 // General
 "TF_playerid_sameteam"					"%s1%s2"
-"TF_playerid_diffteam"					"%s1(Enemy) %s2"
+"TF_playerid_diffteam"					"%s1(Düşman) %s2"
 "TF_playerid_noteam"					"%s1"
 "TF_playerid_friendlyspy_disguise"		"Kılık Değiştirmiş (%s1 %s2)"
 "TF_playerid_wpn_ammo_clip"				"%s1  -  Cephane: %s2 (%s3)"
@@ -96,8 +96,8 @@
 "TF_playerid_wpn"						"%s1"
 
 // Boosts
-"TF_playerid_healer"					"(Healer) "
-"TF_playerid_healtarget"				"(Healing) "
+"TF_playerid_healer"					"(İyileştiren) "
+"TF_playerid_healtarget"				"(İyileştiriliyor) "
 "TF_playerid_mediccharge"				"ÜberŞarj: %%s1"
 "TF_playerid_mediccharge_wpn"			"%s1  -  ÜberŞarj: %%s2"
 "TF_playerid_civiliancharge"			"Takviye: %%s1"
@@ -750,270 +750,269 @@
 // ----------------------------------------------------------------
 
 // cp_amaranth
-"Amaranth_cap_A"	"the Warehouses"
-"Amaranth_cap_B"	"RED's Shipping Facility"
+"Amaranth_cap_A"	"Ambarlar"
+"Amaranth_cap_B"	"RED'in Nakliyat Tesisi"
 
 // 4dom_hydro
-"Hydro_dom_cap_warehouse"	"A, the Warehouse"
-"Hydro_dom_cap_radar_dish"	"B, the Radar Dish"
-"Hydro_dom_cap_power_plant"	"C, the Power Plant"
-"Hydro_dom_cap_dam"			"D, the Dam"
+"Hydro_dom_cap_warehouse"	"A, Ambar"
+"Hydro_dom_cap_radar_dish"	"B, Radar Çanağı"
+"Hydro_dom_cap_power_plant"	"C, Enerji Santrali"
+"Hydro_dom_cap_dam"			"D, Baraj"
 
 // vip_mineside
 "vip_mineside_description"	"Objective:
-RED team wins by preventing the VIP from reaching the Escape Zone. BLU team wins by escorting the VIP to the Escape Zone.
+RED takımı VIP'nin Kaçış Bölgesine erişmesini önleyerek kazanır. BLU takımı VIP'yi Kaçış Bölgesine refakat ederek kazanır
 
-Other Notes:
-The Escape Zone can't open until you deliver the Suitcase Device to the Control Room next to the Escape Zones gate.
+Diğer Notlar:
+Kacış Bölgesi, geçidinin yanındaki Kontrol Odasına çantadaki Cihaz teslim edilene kadar açılamaz.
 
-If BLU delivers the Suitcase Device, the gates timer will count down from 60 seconds before closing again."
+Eğer BLU takımı Cihazı teslim ederse, geçit kapanmadan önce geriden 60 saniye sayıcak"
 
-"Mineside_setup_goal_red"	"Kill the VIP to stop him from reaching the Escape Zone. Prevent him from grabbing the Device."
-"Mineside_setup_goal_blu"	"Escort the VIP to the Escape Zone. Deliver the Device to the Control Room to open the gate."
+"Mineside_setup_goal_red"	"VIP'yi Kaçış Bölgesine ulaşmasını engellemek için öldür. Cihazı ele geçirmesine izin verme."
+"Mineside_setup_goal_blu"	"VIP'yi Kaçış Bölgesine refakat et. Geçidi açmak için Cihazı Kontrol Odasına teslim et."
 
-"Mineside_escape_zone"	"the Escape Tunnel"
+"Mineside_escape_zone"	"Kaçış Tüneli"
 
 // dom_oilcanyon
-"Oilcanyon_cap_A"	"cap A, the Canyon"
-"Oilcanyon_cap_B"	"cap B, the Laser Gun"
-"Oilcanyon_cap_C"	"cap C, the Refinery"
+"Oilcanyon_cap_A"	"A noktası, Vadi"
+"Oilcanyon_cap_B"	"B noktası, Lazer Silahı"
+"Oilcanyon_cap_C"	"C noktası, Rafineri"
 
 // vip_trainyard
-"Trainyard_escape_zone"	"the Escape Vehicle"
+"Trainyard_escape_zone"	"Kaçış Aracı"
 
 // vip_harbor
-"Harbor_cap_1"			"the Loading Dock"
-"Harbor_cap_2"			"the Waterfront"
-"Harbor_cap_3"			"the Warehouse"
+"Harbor_cap_1"			"Yükleme İskelesi"
+"Harbor_cap_2"			"Kıyı"
+"Harbor_cap_3"			"Ambar"
 
 // 4dom_krepost
 "dom_krepost_description"	"Objective:
-To win, each team must capture and hold the currently active Control Point to gain points.
+Kazanmak için, her takımdan biri mevcut aktif olan Kontrol Noktasını ele geçirip ve elde tutarak puan elde etmelidir.
 
-The active Control Point switches to a random team's base every 60 seconds.
+Aktif olan Kontrol Noktası her 60 saniye rastgele bir takımın üssüne geçer.
 
-Other Notes:
-Contesting the Control Point stops the enemy from gaining points.
+Diğer Notlar:
+Kontrol Noktasına karşı çıkmak düşmanların puan elde etmesini engeller.
 
-The active Control Point will lock when a new Control Point is chosen.
+Aktif olan Kontrol Noktası yeni bir Kontrol Noktası seçildiğinde kilitlenir.
 
-Honorable hand to sword combat only!"
+Sadece onurlu bir şekilde yumruk yumurğa savaş!"
 
-"Krepost_cap_red"	"RED's castle"
-"Krepost_cap_blu"	"BLU's castle"
-"Krepost_cap_grn"	"GRN's castle"
-"Krepost_cap_ylw"	"YLW's castle"
+"Krepost_cap_red"	"RED'in kalesi"
+"Krepost_cap_blu"	"BLU'nun kalesi"
+"Krepost_cap_grn"	"GRN'in kalesi"
+"Krepost_cap_ylw"	"YLW'un kalesi"
 
-"Krepost_attack_red"	"RED's gate is open!"
-"Krepost_attack_blu"	"BLU's gate is open!"
-"Krepost_attack_grn"	"GRN's gate is open!"
-"Krepost_attack_ylw"	"YLW's gate is open!"
+"Krepost_attack_red"	"RED'in geçidi açıldı!"
+"Krepost_attack_blu"	"BLU'nun geçidi açıldı!"
+"Krepost_attack_grn"	"GRN'in geçidi açıldı!"
+"Krepost_attack_ylw"	"YLW'un geçidi açıldı!"
 
 // td_caper
-"Caper_cap_A"	"cap A, the Laser Tower"
-"Caper_cap_B"	"cap B, the Silos"
-"Caper_cap_C"	"cap C, the Sewer"
+"Caper_cap_A"	"A noktası, Lazer Kulesi"
+"Caper_cap_B"	"B noktası, Silos"
+"Caper_cap_C"	"C noktası, Lağım"
 
 // vipr_2bridge
-"2Bridge_cap_A"	"the RED Bridge"
-"2Bridge_cap_B"	"the BLU Bridge"
+"2Bridge_cap_A"	"RED Köprüsü"
+"2Bridge_cap_B"	"BLU Köprüsü"
 
 // vipr_drizzle
-"Drizzle_cap_A"	"the RED Mine Entrance"
-"Drizzle_cap_B"	"the BLU Mine Entrance"
+"Drizzle_cap_A"	"RED Maden Girişi"
+"Drizzle_cap_B"	"BLU Maden Girişi"
 
 // dom_railway
-"Railway_cap_A"	"cap A, the Garage"
-"Railway_cap_B"	"cap B, the Loading Hall"
-"Railway_cap_C"	"cap C, the Stockyard"
+"Railway_cap_A"	"A noktası, Garaj"
+"Railway_cap_B"	"B noktası, Yükleme Salonu"
+"Railway_cap_C"	"C noktası, Depo Sahası"
 
 // dom_sawtooth
-"Sawtooth_cap_A"	"cap A, the Lookout"
-"Sawtooth_cap_B"	"cap B, the Sawmill"
-"Sawtooth_cap_C"	"cap C, the Radio Tower"
+"Sawtooth_cap_A"	"A noktası, Gözetleme Yeri"
+"Sawtooth_cap_B"	"B noktası, Kereste Fabrikası"
+"Sawtooth_cap_C"	"C noktası, Radyo Kulesi"
 
 // td_sunnyside
-"Sunnyside_cap_A"	"cap A, the Barns"
-"Sunnyside_cap_B"	"cap B, the Tanks"
-"Sunnyside_cap_C"	"cap C, the Coops"
+"Sunnyside_cap_A"	"A noktası, Ahırlar"
+"Sunnyside_cap_B"	"B noktası, Kooperatifler"
+"Sunnyside_cap_C"	"C noktası, Depolar"
 
 // vip_avanti
-"Avanti_red_setup_goal"		"Move downhill and kill the enemy team's VIP to prevent him from reaching the Escape Zone!"
-"Avanti_blue_setup_goal"	"Move uphill and escort the VIP to the Escape Zone!"
-"Avanti_cap_1"				"the Storeroom"
-"Avanti_cap_2"				"the Terrace"
-"Avanti_cap_3"				"the Bell Tower"
-"Avanti_cap_4"				"the Front Gates"
+"Avanti_red_setup_goal"		"Yokuş aşağı ilerle ve düşman takımın VIP'sini öldürerek Kaçış Bölgesine ulaşmasını engelle!"
+"Avanti_blue_setup_goal"	"Yokuş yukarı ilerle ve VIP'yi Kaçış Bölgesine refakat et!"
+"Avanti_cap_1"				"Depo"
+"Avanti_cap_2"				"Teras"
+"Avanti_cap_3"				"Çan Kulesi"
+"Avanti_cap_4"				"Ön Geçitler"
 
 // vipr_chopper
-"Chopper_cap_A"				"the RED Radar"
-"Chopper_cap_B"				"the BLU Radar"
+"Chopper_cap_A"				"RED Radarı"
+"Chopper_cap_B"				"BLU Radarı"
 
 // ----------------------------------------------------------------
 // Gamemodes
 // ----------------------------------------------------------------
 
-"Gametype_CTF_Penguin"		"Capture the Penguin" // We have fun here
-"Gametype_Domination"		"Domination"
-"Gametype_MedDomination"	"Domination (Medieval)"
-"Gametype_KOTF"				"King of the Flag"
-"Gametype_TD"				"Territorial Domination"
+"Gametype_CTF_Penguin"		"Penguen Kapmaca" // We have fun here
+"Gametype_Domination"		"Hakimiyet"
+"Gametype_MedDomination"	"Hakimiyet (Orta Çağ)"
+"Gametype_KOTF"				"Bayrağın Hakimi"
+"Gametype_TD"				"Bölgesel Hakimiyet"
 "Gametype_VIP"				"VIP"
-"Gametype_VIPRace"			"VIP Race"
+"Gametype_VIPRace"			"VIP Yarışı"
 
-"Gametype_FourTeam"			"Four-Team"
+"Gametype_FourTeam"			"Dört Takım"
 
-"Gametype_Arena_FourTeam"			"Arena (Four-Team)"
-"Gametype_AttackDefense_FourTeam"	"Attack / Defense (Four-Team)"
-"Gametype_CP_FourTeam"				"Control Points (Four-Team)"
-"Gametype_CTF_FourTeam"				"Capture the Flag (Four-Team)"
-"Gametype_Domination_FourTeam"		"Domination (Four-Team)"
-"Gametype_MedDomination_FourTeam"	"Domination (Four-Team Medieval)"
-"Gametype_KOTF_FourTeam"			"King of the Flag (Four-Team)"
-"Gametype_Koth_FourTeam"			"King of the Hill (Four-Team)"
-"Gametype_Escort_FourTeam"			"Payload (Four-Team)"
-"Gametype_EscortRace_FourTeam"		"Payload Race (Four-Team)"
-"Gametype_SD_FourTeam"				"Special Delivery (Four-Team)"
-"Gametype_TD_FourTeam"				"Territorial Domination (Four-Team)"
-"Gametype_Training_FourTeam"		"Training Mode (Four-Team)"
-"Gametype_VIP_FourTeam"				"VIP (Four-Team)"
-"Gametype_VIPRace_FourTeam"			"VIP Race (Four-Team)"
+"Gametype_Arena_FourTeam"			"Arena (Dört Takım)"
+"Gametype_AttackDefense_FourTeam"	"Saldırı / Savunma (Dört Takım)"
+"Gametype_CP_FourTeam"				"Kontrol Noktaları (Dört Takım)"
+"Gametype_CTF_FourTeam"				"Bayrak Kapmaca (Dört Takım)"
+"Gametype_Domination_FourTeam"		"Hakimiyet (Dört Takım)"
+"Gametype_MedDomination_FourTeam"	"Hakimiyet (Dört Takım Orta Çağ)"
+"Gametype_KOTF_FourTeam"			"Bayrağın Hakimi (Dört Takım)"
+"Gametype_Koth_FourTeam"			"Tepenin Hakimi (Dört Takım)"
+"Gametype_Escort_FourTeam"			"Yük Vagonu (Dört Takım)"
+"Gametype_EscortRace_FourTeam"		"Yük Vagonu Yarışı (Dört Takım)"
+"Gametype_SD_FourTeam"				"Özel Teslimat (Dört Takım)"
+"Gametype_TD_FourTeam"				"Bölgesel Hakimiyet (Dört Takım)"
+"Gametype_Training_FourTeam"		"Eğitim Modu (Dört Takım)"
+"Gametype_VIP_FourTeam"				"VIP (Dört Takım)"
+"Gametype_VIPRace_FourTeam"			"VIP Yarışı (Dört Takım)"
 
 // Offline practice descriptions
-"TF_GameModeDesc_VIP"			"BLU escorts the Civilian to a control point. RED needs to stop them."
-"TF_GameModeDesc_VIPRace"		"Escort your Civilian to the finish line before the opposing team does."
-"TF_GameModeDesc_Domination"	"Capture points and hold them for as long as possible."
-"TF_GameModeDesc_Arena"			"Eliminate all enemy players or wait for the control point to unlock."
+"TF_GameModeDesc_VIP"			"BLU, Civilian'ı bir kontrol noktasına refakat eder. RED'in onları durdurması gerekir."
+"TF_GameModeDesc_VIPRace"		"Civilian'ı diğer takımdan önce bitiş çizgisine kadar götür."
+"TF_GameModeDesc_Domination"	"Noktaları ele geçir ve mümküm olduğuncaya kadar elde tut."
+"TF_GameModeDesc_Arena"			"Bütün düşmanları öldür veya kontrol noktasının kilidinin açılmasını bekle."
 
-"TF_GameModeBrief_VIPRace"		"VIP Race - Both teams have VIPs"
+"TF_GameModeBrief_VIPRace"		"VIP Yarışı - İki takımında VIP'si var"
 
 // ----------------------------------------------------------------
 // Gamemode strings
 // ----------------------------------------------------------------
 
 // Domination
-"default_dom_description"	"Objective:
-To win, each team must capture and hold Control Points to gain points. The more Control Points you own, the faster you gain points.
+"default_dom_description"	"Amaç:
+Kazanmak için, her takımdan biri puan elde etmek için Kontrol Noktalarını ele geçirmeli ve elde tutmalı. Ne kadar Kontrol Noktasına sahipseniz o kadar hızlı puan elde edersiniz.
 
-Other Notes:
-Contesting a Control Point stops the enemy from gaining points using that Control Point.
+Diğer Notlar:
+Bir Kontrol Noktasına karşı çıkmak onu kullanan takımın puan elde etmesini engeller.
 
-If your team is behind, capture all of the Control Points to gain a score bonus."
+Eğer takımın gerideyse, bütün Kontrol Noktalarını ele geçirerek skor bonusu elde et."
 
-"domination_setup_goal"	"Capture Control Points to gain points over time. Capturing more than one point will increase your chance of success!"
+"domination_setup_goal"	"Zamanla puan elde etmek için Kontrol Noktalarını ele geçir. Birden fazla nokta ele geçirmek başarı şansınızı yükseltir!"
 
 // VIP
-"default_vip_description"	"Objective:
-BLU team wins by escorting the VIP to the Escape Zone before the time runs out. RED team wins by preventing him from reaching the escape zone.
+"default_vip_description"	"Amaç:
+BLU takımı zaman bitmeden önce VIP'yi Kaçış Bölgesine refakat ederek ederek kazanır. RED takımı onun Kaçış Bölgesine erişmesini önleyerek kazanır.
 
-Other Notes:
-BLU team can freeze the capture progress of a Control Point if the VIP isn't present."
+Diğer Notlar:
+BLU takımı eğer VIP mevcut değilse Kontrol Noktasının ele geçirme ilerlemesini dondurabilirler."
 
-"vip_setup_goal_offense"	"Escort the VIP to the Escape Zone."
-"vip_setup_goal_defense"	"Kill the enemy team's VIP to prevent him from reaching the Escape Zone."
+"vip_setup_goal_offense"	"VIP'yi Kaçış Bölgesine refakat et."
+"vip_setup_goal_defense"	"VIP'yi Kaçış Bölgesine ulaşmasını engellemek için öldür."
 
 "TF_VIP_Assigned"				"%s1 artık VIP!"
 "TF_VIP_Tutorial_Annotation_2"	"Çevresindekilere savunma desteği sağlar ve\ntakımından birisine geçici olarak mini-kritik takviyesi yapabilir!"
 "TF_VIP_Tutorial_Annotation_3"	"Ama bunu unutma, onun hayatı seninkinden daha önemli, o yüzden ölmesine izin verme!"
 
-"Cant_cap_civilian_only"		"Only the VIP can\n capture this point."
-"Cant_cap_civilian_only_frozen"	"Capture Frozen\n Only the VIP can\n capture this point."
+"Cant_cap_civilian_only"		"Bu noktayı sadece\n VIP ele geçirebilir."
+"Cant_cap_civilian_only_frozen"	"Ele geçirme donuk\n Bu noktayı sadece\n VIP ele geçirebilir."
 
 // VIP (Lives)
-"vipl_setup_goal_offense"	"Escort the VIP to the Escape Zone. Prevent him from being eliminated."
-"vipl_setup_goal_defense"	"Kill the enemy team's VIP or prevent him from reaching the Escape Zone to win."
+"vipl_setup_goal_offense"	"VIP'yi Kaçış Bölgesine refakat et. Öldürülmesine izin verme.."
+"vipl_setup_goal_defense"	"Düşman VIP'yi öldür veya Kaçış Bölgesine ulaşmasına izin verme."
 
 // VIP (Flags)
 "vip_bring_flag_here"	"Cihazı buraya getir!"
 "vip_bring_flag"		"Cihazı Kontrol Odasına götür!"
 
-"TF_VIP_TakeDeviceToPoint"		"Take the Device to the Control Room!"
-"TF_VIP_TeamDeviceReturned"		"The Device has returned! Go get it!"
-"TF_VIP_EnemyDeviceReturned"	"The Device has returned! Defend the drop site!"
+"TF_VIP_TakeDeviceToPoint"		"Cihazı Kontrol Odasına götür!"
+"TF_VIP_TeamDeviceReturned"		"Cihaz geri döndü! Gidip alın!"
+"TF_VIP_EnemyDeviceReturned"	"Cihaz geri döndü! Cihazın bulunduğu bölgeyi savunun!"
 
 // VIP Race
-"default_vipr_description"	"Objective:
-Escort your VIP to the Control Points followed by the Escape Zone to win. Kill the enemy VIP to reset any Control Points they have claimed.
+"default_vipr_description"	"Amaç:
+Kazanmak için dost VIP'yi Kontrol Noktalarına ve ardından Kaçış Bölgesine refakat et. Düşman VIP'yi ele geçirdiği herhangi bir Kontrol Noktasını sıfırlamak için öldür.
 
-Other Notes:
-If your VIP dies, you lose any Control Points your VIP has captured.
+Eğer dost VIP ölürse, ele geçirdiğiniz herhangi Kontrol Noktasını kaybedersiniz.
 
-Either team can freeze the capture progress of a Control Point if their VIP isn't present.
+Eğer VIP mevcut değilse herhangi bir takım Kontrol Noktasının ele geçirme ilerlemesini dondurabilir
 
-If Sudden Death occurs, the enemy VIP can be killed to win the round!"
+Eğer Ani Ölüm meydana gelirse, rauntu kazanmak için düşman VIP öldürülebilir!"
 
-"vipr_setup_goal"		"Escort your VIP to the Control Points. Stop the enemy VIP from doing the same!"
-"vipr_setup_goal_4team"	"Escort your VIP to the Control Points. Stop the enemy teams from doing the same!"
+"vipr_setup_goal"		"VIP'nizi Kontrol Noktalarına refakat et. Aynısını düşman VIP'nin yapmasına izin verme!"
+"vipr_setup_goal_4team"	"VIP'nizi Kontrol Noktalarına refakat et. Aynısını düşman takımların yapmasına izin verme!"
 
-"vipr_cap_wrong_vip"	"Capture the ENEMY Control Point, dummy!"
-"vipr_own_civ_death"	"Your VIP has been eliminated! Protect him!"
-"vipr_their_civ_death"	"Good job! Their VIP has been eliminated!"
-"vipr_cap_a_reset"		"Control Point A has been reset!"
-"vipr_cap_b_reset"		"Control Point B has been reset!"
-"vipr_cap_a_reset_vip"	"You died! Control Point A has been reset!"
-"vipr_cap_b_reset_vip"	"You died! Control Point B has been reset!"
+"vipr_cap_wrong_vip"	"DÜŞMAN Kontrol Noktasını ele geçir, aptal!"
+"vipr_own_civ_death"	"VIP'niz öldürüldü! Onu koruman gerek!"
+"vipr_their_civ_death"	"Aferin! Düşman VIP öldürüldü!"
+"vipr_cap_a_reset"		"Kontrol Noktası A sıfırlandı!"
+"vipr_cap_b_reset"		"Kontrol Noktası B sıfırlandı!"
+"vipr_cap_a_reset_vip"	"Öldün! Kontrol Noktası A sıfırlandı!"
+"vipr_cap_b_reset_vip"	"Öldün! Kontrol Noktası B sıfırlandı!"
 
-"vipr_central_point"		"the Central Control Point"
-"vipr_cap_mid_reset"		"The Central Control Point has been reset!"
-"vipr_death_cap_mid_reset"	"You died! The Central Control Point has been reset!"
+"vipr_central_point"		"Merkez Kontrol Noktası"
+"vipr_cap_mid_reset"		"Merkez Kontrol Noktası sıfırlandı!"
+"vipr_death_cap_mid_reset"	"Öldün! Merkez Kontrol Noktası sıfırlandı!"
 
-"vipr_red_civ_death"	"RED's VIP has been eliminated!"
-"vipr_blu_civ_death"	"BLU's VIP has been eliminated!"
-"vipr_ylw_civ_death"	"YLW's VIP has been eliminated!"
-"vipr_grn_civ_death"	"GRN's VIP has been eliminated!"
+"vipr_red_civ_death"	"RED'in VIP'si öldürüldü!"
+"vipr_blu_civ_death"	"BLU'nun VIP'si öldürüldü!"
+"vipr_ylw_civ_death"	"YLW'un VIP'si öldürüldü!"
+"vipr_grn_civ_death"	"GRN'in VIP'si öldürüldü!"
 
-"vipr_escape_zone"	"the Escape Zone"
+"vipr_escape_zone"	"Kaçış Bölgesi"
 
 // Territorial Domination
-"default_td_description"			"Objective:
-To win, each team must own all Control Points.
+"default_td_description"			"Amaç:
+Kazanmak için, her takımdan biri bütün Kontrol Noktalarına sahip olmalı.
 
-Other Notes:
-You spawn at the Control Points you own.
+Diğer Notlar:
+Sahip olduğun Kontrol Noktalarında canlanırsın.
 
-Team ownership of Control Points is randomized at the start of each round."
+Kontrol Noktalarının takım sahipliği her rauntun başında rastgellenir."
 
 // Payload Race (Four-Team)
-"4plr_goal"	"Move your cart to the end of the track to win!"
+"4plr_goal"	"Vagonu hattın sonuna kadar iterek kazan!"
 
-"4plr_cap_red"	"RED's Capture Point"
-"4plr_cap_blu"	"BLU's Capture Point"
-"4plr_cap_grn"	"GRN's Capture Point"
-"4plr_cap_ylw"	"YLW's Capture Point"
+"4plr_cap_red"	"RED'in Kontrol Noktası"
+"4plr_cap_blu"	"BLU'nun Kontrol Noktası"
+"4plr_cap_grn"	"GRN'in Kontrol Noktası"
+"4plr_cap_ylw"	"YLW'un Kontrol Noktası"
 
 // Useful generic stuff for mappers
-"generic_cap_A"			"Control Point A"
-"generic_cap_B"			"Control Point B"
-"generic_cap_C"			"Control Point C"
-"generic_cap_D"			"Control Point D"
-"generic_cap_E"			"Control Point E"
+"generic_cap_A"			"Kontrol Noktası A"
+"generic_cap_B"			"Kontrol Noktası B"
+"generic_cap_C"			"Kontrol Noktası C"
+"generic_cap_D"			"Kontrol Noktası D"
+"generic_cap_E"			"Kontrol Noktası E"
 
 // ----------------------------------------------------------------
 // Intro movies
 // ----------------------------------------------------------------
 
 // cp_coldfront
-"TF_IM_Coldfront_Intro"	"Coldfront is a Control Point map"
+"TF_IM_Coldfront_Intro"	"Coldfront bir Kontrol Noktası haritasıdır"
 
 // cp_steel
-"TF_IM_Steel_Intro"	"Steel is an attack and defend map."
-"TF_IM_Steel_BlueWin"	"BLU has to capture point E in order to win the round."
-"TF_IM_Steel_PlotTwist"	"However..."
-"TF_IM_Steel_FinalCap"	"Point E is always in play. BLU can capture it at any time."
-"TF_IM_Steel_Points"	"Capturing points A, B, C, and D will make E easier to take!"
-"TF_IM_Steel_CapA"	"Capturing A opens additional paths to B and E."
-"TF_IM_Steel_CapB"	"Capturing B moves RED's spawnroom and also opens an additional route to C. "
-"TF_IM_Steel_CapC"	"Capturing C extends bridges to E."
-"TF_IM_Steel_CapD"	"Capturing D blocks RED from easily reaching E."
-"TF_IM_Steel_Bridge"	"Without the bridges, E cannot be reached by everyone."
-"TF_IM_Steel_Pit"	"Watch out for the pit!"
+"TF_IM_Steel_Intro"	"Steel bir Saldırı/Savunma haritasıdır."
+"TF_IM_Steel_BlueWin"	"BLU, kazanmak için E noktasını ele geçirmeli."
+"TF_IM_Steel_PlotTwist"	"Fakat..."
+"TF_IM_Steel_FinalCap"	"E noktası her zaman etkin. BLU herhangi bir zaman ele geçirebilir."
+"TF_IM_Steel_Points"	"Noktalar A, B, C, ve D'yi ele geçirmek E'yi ele geçirmeyi daha kolaylaştırır!"
+"TF_IM_Steel_CapA"	"A'yı ele geçirmek A ve B'ye ek geçiş yolları açar."
+"TF_IM_Steel_CapB"	"B'yi ele geçirmek RED'in canlanma odasını taşır ve C'ye giden ek bir yol açar. "
+"TF_IM_Steel_CapC"	"C'yi ele geçirmek E'ye geçitler sunar."
+"TF_IM_Steel_CapD"	"D'yi ele geçirmek RED'in E'ye kolayca erişmesini engeller."
+"TF_IM_Steel_Bridge"	"Geçitler olmadan, E herkes tarafından erişilemez."
+"TF_IM_Steel_Pit"	"Çukura dikkat et!"
 
 // VIP Race
-"TF_IM_VIPR_Intro"	"Welcome to the VIP Race game mode"
-"TF_IM_VIPR_ToWin"	"To win, you must help your VIP capture the enemy Control Point..."
-"TF_IM_VIPR_Escape"	"...then escort them to the Escape Zone before the enemy team can do the same!"
-"TF_IM_VIPR_Death"	"If a VIP dies, any points they have captured will be reset"
-"TF_IM_VIPR_HUD"	"The status and progress of both VIPs can be found at the base of your screen"
+"TF_IM_VIPR_Intro"	"VIP Yarışı oyun moduna hoş geldiniz"
+"TF_IM_VIPR_ToWin"	"Kazanmak için, VIP'nizin Kontrol Noktasını ele geçirmesine yardımcı olmalısın..."
+"TF_IM_VIPR_Escape"	"...sonra onu düşman takımdan önce Kaçış Bölgesine kadar götürmelisin!"
+"TF_IM_VIPR_Death"	"Eğer bir VIP ölürse, ele geçirdiği herhangi bir nokta sıfırlanır"
+"TF_IM_VIPR_HUD"	"Her iki VIP'nin durumu ve bulundukları nokta ekranın altında görünebilir"
 
 // ----------------------------------------------------------------
 // Scoreboard
