@@ -1040,7 +1040,7 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 
 "TF_ScoreBoard_UberchargesLabel"	"Unverwundb.:"
 "TF_ScoreBoard_TransportsLabel"		"Befördert:"
-"TF_ScoreBoard_DestructionLabel"	"Zerstör.:"
+"TF_ScoreBoard_DestructionsLabel"	"Zerstör.:"
 "TF_ScoreBoard_HeadshotsLabel"		"Kopfschüsse:"
 "TF_ScoreBoard_BackstabsLabel"		"Rückenstiche:"
 
@@ -1310,10 +1310,6 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "TF_LoadoutGrid_Tip"              "Wenn eingeschaltet, wird die Ausrüstungsseite als Raster angezeigt."
 "TF_HighlightAmmo"				  "Leuchtumrisse auf fallengelassene Waffen zeigen"
 "TF_HighlightAmmo_Tip"			  "Wenn eingeschaltet, werden fallen gelassene Waffen mit leuchtenden Umrissen versehen, um ihre Position zu markieren."
-"TF_MessageAlert"				  "Sound für Chatnachrichten aktivieren"
-"TF_MessageAlert_Tip"			  "Wenn eingeschaltet, wird ein Sound abgespielt, wenn eine Chat-Nachricht empfangen wird."
-"TF_MessageVolume"				  "Soundlautstärke der Chatnachricht"
-"TF_MessageVolume_Tip"			  "Passt die Lautstärke der Chatnachrichten an."
 "TF_ScoreBoardShowAvatars"		  "Avatare auf der Punktetafel anzeigen"
 "TF_ShowCurrentWeapon"		  	  "Aktuell ausgerüstete Waffe anzeigen"
 "TF_OverlayToastPosition"         "Position der Steam-Benachrichtigungen"
@@ -1342,7 +1338,6 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 
 
 // ViewModel
-
 "TF_ViewModelFOV"				"Sichtbereich des Ansichtsmodells"
 "TF_ViewModelFOV_Tip"			"Passt den Sichtbereich des Ansichtsmodells an."
 "TF_FlipViewModels"				"Ansichtsmodellsausrichtung ändern"
@@ -1352,7 +1347,7 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "TF_ViewModelOpacity"			"Durchsichtige Ansichtsmodelle"
 "TF_ViewModelOpacity_Tip"		"Durchsichtige Ansichtsmodelle anpassen."
 
-	// Misc
+// Misc
 "TF_ClassAutoKill"					"Erneutes Spawnen nach Wahl einer Spielerklasse"
 "TF_ClassAutoKill_Tip"				"Wenn eingeschaltet, werden Sie nach Wahl einer Spielerklasse im Feld sofort erneut spawnen.\n\nWenn ausgeschaltet, werden Sie nach Wahl einer Spielerklasse nur im Spawnraum wechseln."
 "TF_ClassMenu_Music"				"Klassenwahlmenü Musik"
@@ -1363,13 +1358,16 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 
 // Voice
 "TF2c_Option_Proximity_Voice_Local"	"Proximity-Sprachchat aktivieren."
-// MULTIPLAYER
+
+// Multiplayer
+"TF_MessageAlert"				  "Sound für Chatnachrichten aktivieren"
+"TF_MessageAlert_Tip"			  "Wenn eingeschaltet, wird ein Sound abgespielt, wenn eine Chat-Nachricht empfangen wird."
+"TF_MessageVolume"				  "Soundlautstärke der Chatnachricht"
 "TF_DownloadFilter_Title"			"Benutzerdef. Dateien von Servern downloaden erlauben"
 "GameUI_DownloadFilter_All"			"Alle Dateien erlauben"
 "GameUI_DownloadFilter_NoSounds"	"Keine benutzerdef. Sounds"
 "GameUI_DownloadFilter_MapsOnly"	"Nur selbst erstellte Karten"
 "GameUI_DownloadFilter_None"		"Keine benutzerdef. Dateien"
-
 "TF_Network_Rate"       			"Netzwerkaktualisierungsrate"
 "TF_Network_Rate_Tip"       		"Legt die Akutalisierungsrate fest, wodurch sich der Einfügungsgrad umgekehrt einstellt. \n\nEs wird empfohlen, beide Optionen auszuprobieren und zu sehen, welche für Ihre Netzwerkverbindung am besten geeignet ist."
 

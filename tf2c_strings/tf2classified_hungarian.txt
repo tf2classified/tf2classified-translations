@@ -378,6 +378,18 @@
 "Tip_10_10"		"Civilként a Derbi Pálcád felgyorsítja a csapattársaidat. Ezzel gyorsabban tudnak mozogni és lőni is."
 "Tip_10_11"		"Civilként a Derbi Pálcád felgyorsítja a Szanitécek gyógyítását és a Mérnökök által épített épületek megépülését."
 
+// Arena
+"Tip_arena_Count"		"9"
+"Tip_arena_1"			"Aréna módban tartsd szemmel a képernyő tetején látható játékosszámot, hogy eldönthesd, a csapatodé-e az előny."
+"Tip_arena_2"			"Aréna módban csak nagyon kevés életerő-töltési lehetőség adódik, úgyhogy védd Szanitéceiteket és Mérnökeiteket (és oszd meg a Szendvicsedet)."
+"Tip_arena_3"			"Aréna módban a pálya közepén levő foglalási pont 60 másodperccel a kör kezdete után válik aktívvá. Használd ki, hogy ettől előjönnek az eddig bújkáló ellenfelek."
+"Tip_arena_4"			"Az Arénában nem éledsz újra, úgyhogy ne halj meg!"
+"Tip_arena_5"			"Légy változatos az Arénában! Válassz olyan osztályt amely kiegészíti a csapatod összetételét, vagy ellensúlyozza az ellenfeleidét."
+"Tip_arena_6"			"Aréna-meccsekben csak a meccs elején, a kapuk kinyílása előtt válthatsz osztályt."
+"Tip_arena_7"			"Aréna módban próbálj a csapatoddal maradni és segítsetek egymásnak a bajban. Ha későn érsz oda a harcba, akkor komoly hátrányba is kerülhetsz."
+"Tip_arena_8"			"Aréna módban roppant fontos, hogy ne hagyj az ellenfeleidnek gyógyulási időt. Vedd célba az ellenséges Szanitéceket és Adagolókat, és ne hagyd, hogy az ellenfeleid mentőládához jussanak."
+"Tip_arena_9"			"Aréna módban az Első Vér megszerzése krites erősítést ad. Ha megszerzed, ne hagyd, hogy kárba vesszen! Ha az ellenfeled szerzi meg, próbálj meglapulni és megvárni ameddig lejár az erősítése."
+
 // ----------------------------------------------------------------
 // Stock weapon strings
 // ----------------------------------------------------------------
@@ -1039,7 +1051,7 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 
 "TF_ScoreBoard_UberchargesLabel"	"ÜberTöltések:"
 "TF_ScoreBoard_TransportsLabel"		"Szállítások:"
-"TF_ScoreBoard_DestructionLabel"	"Rombolások:"
+"TF_ScoreBoard_DestructionsLabel"	"Rombolások:"
 "TF_ScoreBoard_HeadshotsLabel"		"Fejlövések:"
 "TF_ScoreBoard_BackstabsLabel"		"Hátbadöfések:"
 
@@ -1296,10 +1308,6 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_LoadoutGrid_Tip"              "Ha be van kapcsolva, a fegyver leltár oldala négyzethálósan jelenik meg"
 "TF_HighlightAmmo"				  "Fénylő körvonalak mutatása az elejtett fegyvereken"
 "TF_HighlightAmmo_Tip"			  "Ha be van kapcsolva, az elejtett fegyverek fényleni fognak, hogy kiemeljék a helyüket"
-"TF_MessageAlert"				  "Üzenetjelző hang bekapcsolása"
-"TF_MessageAlert_Tip"			  "Ha be van kapcsolva, üzenetjelző hangot fogsz hallani valahányszor üzenet érkezik a szöveges csevegőre"
-"TF_MessageVolume"				  "Üzenetjelző hang hangereje"
-"TF_MessageVolume_Tip"			  "Üzenetjelző hang hangerejének beállítása"
 "TF_ScoreBoardShowAvatars"		  "Profilképek megjelenítése a pontlistán"
 "TF_ShowCurrentWeapon"		  	  "Jelenleg elővett fegyver megjelenítése"
 "TF_OverlayToastPosition"         "Steam értesítés helye"
@@ -1329,7 +1337,6 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_GlowEffects_Tip" 			  "Ha be van kapcsolva, ragyogó effektek fogják körvonalazni a pálya céljait, mint a VIP-kat, bombás kocsikat és az információs aktatáskákat."
 
 // ViewModel
-
 "TF_ViewModelFOV"				"Nézetmodell látómezeje"
 "TF_FlipViewModels"				"Nézetmodellek megfordítása"
 "TF_InvisibleArms"				"Láthatatlan nézetmodell-karok"
@@ -1346,13 +1353,18 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 
 // Voice
 "TF2c_Option_Proximity_Voice_Local"	"Távérzékeny hangos csevegő bekapcsolása"
-// MULTIPLAYER
+
+// Multiplayer
+"TF_MessageAlert"				    "Üzenetjelző hang bekapcsolása"
+"TF_MessageAlert_Tip"			    "Ha be van kapcsolva, üzenetjelző hangot fogsz hallani valahányszor üzenet érkezik a szöveges csevegőre"
+"TF_MessageVolume"				    "Üzenetjelző hang hangereje"
+"TF_ChatCloseOnSend"				"Csevegő bezárása üzenetküldés után"
+"TF_ChatCloseOnSend_Tip"			"Ha be van kapcsolva, bezárja a csevegőt üzenetküldés után"
 "TF_DownloadFilter_Title"			"A szerverekről letöltött egyedi fájlok engedélyei"
 "GameUI_DownloadFilter_All"			"Egyedi fájlok engedélyezése"
 "GameUI_DownloadFilter_NoSounds"	"Egyedi hangok tiltása"
 "GameUI_DownloadFilter_MapsOnly"	"Csak pályafájlok"
 "GameUI_DownloadFilter_None"		"Egyedi fájlok tiltása"
-
 "TF_Network_Rate"       			"Hálózatfrissítés mértéke"
 "TF_Network_Rate_Tip"       		"Hálózatfrissítés mértékének beállítása, amely ellentétesen állítja be a hálózati interpolációt.\n\nAjánlott minden beállítást kipróbálni, hogy meglásd melyik érződik a legjobbnak a saját hálózatodon."
 
@@ -1448,7 +1460,7 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF2C_ACHIEVEMENT_ARCHAEOLOGY_NAME"						"Régészet"
 "TF2C_ACHIEVEMENT_ARCHAEOLOGY_DESC"						"Fedezd fel az elásott kincset Jinn-nen."
 "TF2C_ACHIEVEMENT_AIRHOCKEY_NAME"						"Játékmester"
-"TF2C_ACHIEVEMENT_AIRHOCKEY_DESC"						"Nyerj meg egy kör léghokit a 2Bridge pályán."
+"TF2C_ACHIEVEMENT_AIRHOCKEY_DESC"						"Nyerj meg egy kör léghokit egy másik játékos ellen a 2Bridge pályán."
 "TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_NAME"					"Madárnak nézés"
 "TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_DESC"					"Kergess bele egy csirkét egy környezeti ártalomba." 
 "TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_NAME"					"Hármas ügynök"

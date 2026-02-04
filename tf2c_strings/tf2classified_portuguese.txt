@@ -1039,7 +1039,7 @@ A posse dos Pontos de Controlo pelas equipas é aleatória no início de cada ro
 
 "TF_ScoreBoard_UberchargesLabel"	"ÜberCargas:"
 "TF_ScoreBoard_TransportsLabel"		"Transportes:"
-"TF_ScoreBoard_DestructionLabel"	"Destruições:"
+"TF_ScoreBoard_DestructionsLabel"	"Destruições:"
 "TF_ScoreBoard_HeadshotsLabel"		"Headshots:"
 "TF_ScoreBoard_BackstabsLabel"		"Facadas nas costas:"
 
@@ -1293,10 +1293,6 @@ A posse dos Pontos de Controlo pelas equipas é aleatória no início de cada ro
 "TF_LoadoutGrid_Tip"              "A página de inventário de armas será mostrada como uma grelha"
 "TF_HighlightAmmo"				  "Exibir contornos brilhantes nas armas caídas"
 "TF_HighlightAmmo_Tip"			  "As armas largadas terão contornos brilhantes para realçar a sua localização"
-"TF_MessageAlert"				  "Ativar o som de mensagem de chat"
-"TF_MessageAlert_Tip"			  "Será emitido um som quando for recebida uma mensagem de conversação"
-"TF_MessageVolume"				  "Volume do som de mensagem de chat"
-"TF_MessageVolume_Tip"			  "Define o volume dos sons das mensagens de chat"
 "TF_ScoreBoardShowAvatars"		  "Exibir avatares na tabela de pontuações"
 "TF_ShowCurrentWeapon"		  	  "Mostrar a arma atualmente equipada"
 "TF_OverlayToastPosition"         "Posição das notificações sobrepostas do Steam"
@@ -1324,7 +1320,6 @@ A posse dos Pontos de Controlo pelas equipas é aleatória no início de cada ro
 "TF_DeathNoticeTime_Tip"          "Define o tempo de expiração para itens de avisos de morte"
 
 // ViewModel
-
 "TF_ViewModelFOV"				"Campo de visão do Viewmodel"
 "TF_FlipViewModels"				"Inverter viewmodels"
 "TF_InvisibleArms"				"Ativar braços invisíveis do viewmodel"
@@ -1341,13 +1336,16 @@ A posse dos Pontos de Controlo pelas equipas é aleatória no início de cada ro
 
 // Voice
 "TF2c_Option_Proximity_Voice_Local"	"Ativar a voz de proximidade"
-// MULTIPLAYER
+
+// Multiplayer
+"TF_MessageAlert"				  "Ativar o som de mensagem de chat"
+"TF_MessageAlert_Tip"			  "Será emitido um som quando for recebida uma mensagem de conversação"
+"TF_MessageVolume"				  "Volume do som de mensagem de chat"
 "TF_DownloadFilter_Title"			"Permissões para ficheiros personalizados de servidores"
 "GameUI_DownloadFilter_All"			"Todos os ficheiros personalizados"
 "GameUI_DownloadFilter_NoSounds"	"Sem sons personalizados"
 "GameUI_DownloadFilter_MapsOnly"	"Apenas ficheiros de mapas"
 "GameUI_DownloadFilter_None"		"Sem ficheiros personalizados"
-
 "TF_Network_Rate"       			"Taxa de atualização da rede"
 "TF_Network_Rate_Tip"       		"Define a taxa de atualização da rede, que define inversamente a quantidade de interpolação.\n\nRecomenda-se experimentar cada uma e ver qual funciona melhor na sua ligação de rede."
 

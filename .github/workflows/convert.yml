@@ -1,0 +1,31 @@
+name: Convert to UTF-16LE
+
+on:
+  push:
+    paths:
+      - "tf2c_strings/**"
+    branches: [ "main" ]
+    
+  workflow_dispatch:
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Convert UTF-8 to UTF-16LE
+        run: |
+          mkdir -p converted_tf2c_strings
+          find tf2c_strings -type f | while read -r file; do
+            out="converted_tf2c_strings/${file#tf2c_strings/}"
+            mkdir -p "$(dirname "$out")"
+            iconv -f UTF-8 -t UTF-16LE "$file" -o "$out"
+          done
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tf2c_strings_utf16le
+          path: converted_tf2c_strings/

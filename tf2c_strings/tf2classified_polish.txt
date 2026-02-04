@@ -378,6 +378,18 @@
 "Tip_10_10"		"As a Civilian, your Derby Cane can be used to give a teammate a haste boost. This allows them to move and shoot much quicker."
 "Tip_10_11"		"As a Civilian, your Derby Cane boosts the healing rate of Medics and building rate of Engineers."
 
+// Arena
+"Tip_arena_Count"		"9"
+"Tip_arena_1"			"W trybie Arena, zwracaj uwagę na liczbę graczy widoczną na górze ekranu. Dzięki temu dowiesz się, czy masz przewagę liczebną!"
+"Tip_arena_2"			"W trybie Arena, istnieje bardzo mało źródeł odnawiania zdrowia, warto więc chronić swoich Medyków i Inżynierów (oraz dzielić się swoją Kanapką)!"
+"Tip_arena_3"			"W trybie Arena, punkt kontrolny na środku mapy aktywuje się 60 sekund po rozpoczęciu rundy. Wykorzystaj to, aby wywabić ukrywających się wrogów!"
+"Tip_arena_4"			"W trybie Arena, nie odradzasz się, więc nie umieraj!"
+"Tip_arena_5"			"W trybie Arena, spróbuj urozmaicić swoją drużynę! Postaraj się uzupełnić skład swojej drużyny lub przeciwdziałać drużynie wroga."
+"Tip_arena_6"			"W trybie Arena, możesz zmienić klasę tylko na początku meczu, przed otwarciem bram."
+"Tip_arena_7"			"W trybie Arena, staraj trzymać się razem ze swoją drużyną i pomagajcie sobie nawzajem w niebezpieczeństwie. Spóźnienie się na walkę może postawić cię w niekorzystnej sytuacji."
+"Tip_arena_8"			"W trybie Arena, bardzo ważne jest pozbawianie drużyny przeciwnej możliwości leczenia. Atakuj wrogich Medyków i Zasobniki i blokuj dostęp do apteczek, kiedy to tylko możliwe!"
+"Tip_arena_9"			"W trybie Arena, zdobycie pierwszej krwi zapewnia trafienie krytyczne. Jak już je zdobędziesz, wykorzystaj to! Jeżeli wróg je zdobędzie, nie rzucaj się w oczy i poczekaj, aż one się skończą."
+
 // ----------------------------------------------------------------
 // Stock weapon strings
 // ----------------------------------------------------------------
@@ -1039,7 +1051,7 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 
 "TF_ScoreBoard_UberchargesLabel"	"Übery:"
 "TF_ScoreBoard_TransportsLabel"		"Transporty:"
-"TF_ScoreBoard_DestructionLabel"	"Zniszczenia:"
+"TF_ScoreBoard_DestructionsLabel"	"Zniszczenia:"
 "TF_ScoreBoard_HeadshotsLabel"		"Strzały w głowę:"
 "TF_ScoreBoard_BackstabsLabel"		"Dźgnięcia w plecy:"
 
@@ -1277,29 +1289,25 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"DEMOMAN: Wymuś podwójne kliknięcie dla Cyklopa"
-"TF_CyclopsDoubleTap_Tip"        	"Gdy włączone, granaty Cyklopa będą wymagały podwójnego kliknięcia do detonacji, zamiast po puszczeniu przycisku myszy."
+"TF_CyclopsDoubleTap_Tip"        	"Gdy włączone, granaty Cyklopa będą wymagały podwójnego kliknięcia do detonacji, zamiast po puszczeniu przycisku myszy"
 "TF_SapperAwareness"                "INŻYNIER: Świadomość o Saperze"
-"TF_SapperAwareness_Tip"            "Gdy włączone, ostrzeżenie o saperze na konstrukcjach jest innego koloru."
+"TF_SapperAwareness_Tip"            "Gdy włączone, ostrzeżenie o saperze na konstrukcjach jest innego koloru"
 "TF_SniperBell"					    "SNAJPER: Odtwórz dźwięk, gdy w pełni naładowany"
-"TF_SniperBell_Tip"					"Odtwórz dźwięk, gdy karabin snajperski jest w pełni naładowany."
+"TF_SniperBell_Tip"					"Odtwórz dźwięk, gdy karabin snajperski jest w pełni naładowany"
 "TF_ZoomSensitivityRatio"			"SNAJPER: Czułość przybliżenia"
-"TF_ZoomSensitivityRatio_Tip"		"Dostosowuje czułość przybliżenia celownika."
+"TF_ZoomSensitivityRatio_Tip"		"Dostosowuje czułość przybliżenia celownika"
 "TF_SpywalkInverted"				"SZPIEG: Używaj domyślnie prędkości Szpiega"
-"TF_SpywalkInverted_Tip"			"Gdy włączone, używa domyślnie prędkości Szpiega, a normalna prędkość jest dostępna po użyciu przypisanego klawisza."
+"TF_SpywalkInverted_Tip"			"Gdy włączone, używa domyślnie prędkości Szpiega, a normalna prędkość jest dostępna po użyciu przypisanego klawisza"
 "TF_ViewModelCloakTint"				"SZPIEG: Zabarwienie modelu broni, gdy jesteś niewidzialny"
-"TF_ViewModelCloakTint_Tip"			"Pozwala na zabarwienie modelu broni, gdy jesteś niewidzialny."
+"TF_ViewModelCloakTint_Tip"			"Pozwala na zabarwienie modelu broni, gdy jesteś niewidzialny"
 "TF_AvoidBecomingVIP"				"CYWIL: Unikaj zostania VIP-em"
-"TF_AvoidBecomingVIP_Tip"			"Gdy włączone, nie będziesz zwykle brany pod uwagę przy wybieraniu VIP-a; możesz nadal zostać wybrany, jeżeli każdy ma tę opcję włączoną albo jeżeli wygrałeś głosowanie."
+"TF_AvoidBecomingVIP_Tip"			"Gdy włączone, nie będziesz zwykle brany pod uwagę przy wybieraniu VIP-a; możesz nadal zostać wybrany, jeżeli każdy ma tę opcję włączoną albo jeżeli wygrałeś głosowanie"
 
 // HUD
 "TF_LoadoutGrid"                  "Enable loadout grid"
 "TF_LoadoutGrid_Tip"              "If set, the weapon loadout page will be displayed as a grid"
 "TF_HighlightAmmo"				  "Display glow outlines on dropped weapons"
 "TF_HighlightAmmo_Tip"			  "If set, dropped weapons will have glow outlines to highlight their locations"
-"TF_MessageAlert"				  "Włącz dźwięk dla wiadomości na czacie"
-"TF_MessageAlert_Tip"			  "Gdy włączone, odtworzy dźwięk, gdy otrzymasz wiadomość na czacie."
-"TF_MessageVolume"				  "Głośność dźwięku dla wiadomości na czacie"
-"TF_MessageVolume_Tip"			  "Ustawia głośności dźwięku dla wiadomości na czacie"
 "TF_ScoreBoardShowAvatars"		  "Pokaż obrazy avatarów na tablicy wyników"
 "TF_ShowCurrentWeapon"		  	  "Wyświetl obecnie wyposażoną broń"
 "TF_OverlayToastPosition"         "Położenie powiadomień nakładki Steam"
@@ -1329,7 +1337,6 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 "TF_GlowEffects_Tip" 			  "Gdy włączone, podczas rundy zostanie włączony efekt poświaty dla celów takich jak: VIP-y, wózki z ładunkiem i tajnych materiałów w trybie CTF."
 
 // ViewModel
-
 "TF_ViewModelFOV"				"Pole widzenia modeli broni"
 "TF_FlipViewModels"				"Odwróć modele broni"
 "TF_InvisibleArms"				"Użyj niewidzialnego modelu ręki"
@@ -1346,13 +1353,18 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 
 // Voice
 "TF2c_Option_Proximity_Voice_Local"	"Włącz zbliżeniowy czat głosowy."
-// MULTIPLAYER
+
+// Multiplayer
+"TF_MessageAlert"					"Włącz dźwięk dla wiadomości na czacie"
+"TF_MessageAlert_Tip"				"Gdy włączone, odtworzy dźwięk, gdy otrzymasz wiadomość na czacie."
+"TF_MessageVolume"					"Głośność dźwięku dla wiadomości na czacie"
+"TF_ChatCloseOnSend"				"Zamknij czat po wysłaniu wiadomości"
+"TF_ChatCloseOnSend_Tip"			"Gdy włączone, zamyka czat po wysłaniu wiadomości"
 "TF_DownloadFilter_Title"			"Uprawnienia dla pobranych niestandardowych plików z serwerów"
 "GameUI_DownloadFilter_All"			"Pobierz wszystkie pliki"
 "GameUI_DownloadFilter_NoSounds"	"Nie pobieraj dźwięków"
 "GameUI_DownloadFilter_MapsOnly"	"Pobierz tylko pliki map"
 "GameUI_DownloadFilter_None"		"Nie pobieraj niczego"
-
 "TF_Network_Rate"       			"Częstotliwość aktualizacji sieci"
 "TF_Network_Rate_Tip"       		"Ustawia częstotliwość aktualizacji sieci, co odwrotnie ustawia wielkość interpolacji.\n\nZaleca się sprawdzenie, która opcja najlepiej sprawdza się w przypadku danego połączenia sieciowego."
 
