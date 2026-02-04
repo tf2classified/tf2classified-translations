@@ -1460,7 +1460,7 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF2C_ACHIEVEMENT_ARCHAEOLOGY_NAME"						"Régészet"
 "TF2C_ACHIEVEMENT_ARCHAEOLOGY_DESC"						"Fedezd fel az elásott kincset Jinn-nen."
 "TF2C_ACHIEVEMENT_AIRHOCKEY_NAME"						"Játékmester"
-"TF2C_ACHIEVEMENT_AIRHOCKEY_DESC"						"Nyerj meg egy kör léghokit a 2Bridge pályán."
+"TF2C_ACHIEVEMENT_AIRHOCKEY_DESC"						"Nyerj meg egy kör léghokit egy másik játékos ellen a 2Bridge pályán."
 "TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_NAME"					"Madárnak nézés"
 "TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_DESC"					"Kergess bele egy csirkét egy környezeti ártalomba." 
 "TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_NAME"					"Hármas ügynök"
