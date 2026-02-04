@@ -1039,7 +1039,7 @@ El dueño del equipo de los Puntos de Control se asigna de forma aleatoria al co
 
 "TF_ScoreBoard_UberchargesLabel"	"Supercargas:"
 "TF_ScoreBoard_TransportsLabel"		"Transportaciones:"
-"TF_ScoreBoard_DestructionLabel"	"Destrucciones:"
+"TF_ScoreBoard_DestructionsLabel"	"Destrucciones:"
 "TF_ScoreBoard_HeadshotsLabel"		"Disparos a la cabeza:"
 "TF_ScoreBoard_BackstabsLabel"		"Puñaladas por la espalda:"
 
@@ -1293,10 +1293,6 @@ El dueño del equipo de los Puntos de Control se asigna de forma aleatoria al co
 "TF_LoadoutGrid_Tip"              "Si se activa, la página de de equipamiento de armas sera mostrada en forma de cuadrícula"
 "TF_HighlightAmmo"				  "Mostrar delineado brillante en armas del suelo"
 "TF_HighlightAmmo_Tip"			  "Si se activa, las armas que se encuentren en el suelo tendrán un delineado brillante que marca su posición"
-"TF_MessageAlert"				  "Habilitar sonido al recibir mensaje de chat"
-"TF_MessageAlert_Tip"			  "Si se activa, escucharás un sonido cuando recibas un mensaje del chat"
-"TF_MessageVolume"				  "Volumen del sonido al recibir mensaje de chat"
-"TF_MessageVolume_Tip"			  "Ajusta el volumen del sonido cuando recibes un mensaje del chat"
 "TF_ScoreBoardShowAvatars"		  "Mostrar avatares en la tabla de puntuación"
 "TF_ShowCurrentWeapon"		  	  "Mostrar arma equipada actualmente"
 "TF_OverlayToastPosition"         "Posición de notificaciones de la Interfaz de Steam"
@@ -1324,7 +1320,6 @@ El dueño del equipo de los Puntos de Control se asigna de forma aleatoria al co
 "TF_DeathNoticeTime_Tip"          "Ajusta el tiempo de expiración de la lista de avisos de muerte."
 
 // ViewModel
-
 "TF_ViewModelFOV"				"Campo de visión del modelo de vista"
 "TF_FlipViewModels"				"Invertir modelos de vista"
 "TF_InvisibleArms"				"Mano invisible en el modelo de vista en primera persona"
@@ -1341,13 +1336,16 @@ El dueño del equipo de los Puntos de Control se asigna de forma aleatoria al co
 
 // Voice
 "TF2c_Option_Proximity_Voice_Local"	"Habilitar chat de voz por proximidad."
-// MULTIPLAYER
+
+// Multiplayer
+"TF_MessageAlert"				  "Habilitar sonido al recibir mensaje de chat"
+"TF_MessageAlert_Tip"			  "Si se activa, escucharás un sonido cuando recibas un mensaje del chat"
+"TF_MessageVolume"				  "Volumen del sonido al recibir mensaje de chat"
 "TF_DownloadFilter_Title"			"Permisos de descarga de archivos para los servidores"
 "GameUI_DownloadFilter_All"			"Permitir todos los archivos personalizados"
 "GameUI_DownloadFilter_NoSounds"	"Sin sonidos personalizados"
 "GameUI_DownloadFilter_MapsOnly"	"Solo archivos de mapa"
 "GameUI_DownloadFilter_None"		"Sin archivos personalizados"
-
 "TF_Network_Rate"       			"Tasa de actualización de red"
 "TF_Network_Rate_Tip"       		"Ajusta la tasa de actualización de la red, la cual cambia de forma inversa la cantidad de interpolación.\n\nSe recomienda ambas formas para ver cual se siente mejor para tu conexión de red."
 

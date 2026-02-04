@@ -1039,7 +1039,7 @@ BLU можуть утримувати прогрес захоплення кон
 
 "TF_ScoreBoard_UberchargesLabel"	"Убер-зарядів:"
 "TF_ScoreBoard_TransportsLabel"		"Транспорт:"
-"TF_ScoreBoard_DestructionLabel"	"Знищень:"
+"TF_ScoreBoard_DestructionsLabel"	"Знищень:"
 "TF_ScoreBoard_HeadshotsLabel"		"Поп. у голову:"
 "TF_ScoreBoard_BackstabsLabel"		"Ніж у спину:"
 
@@ -1290,10 +1290,6 @@ BLU можуть утримувати прогрес захоплення кон
 "TF_LoadoutGrid_Tip"              "Якщо ввімкнено, показуватиме екран вибору зброї сіткою"
 "TF_HighlightAmmo"				  "Відображати підсвічені контури на лежачій зброї"
 "TF_HighlightAmmo_Tip"			  "Якщо ввімкнено, лежача зброя матиме підсвічені контури, щоб виділити її місцезнаходження"
-"TF_MessageAlert"				  "Ввімкнути звуки чату"
-"TF_MessageAlert_Tip"			  "Якщо ввімкнено, при отриманні повідомлення в чаті пролунає звук"
-"TF_MessageVolume"				  "Гучність звуку чату"
-"TF_MessageVolume_Tip"			  "Задає гучність звуків повідомлень чату"
 "TF_ScoreBoardShowAvatars"		  "Відображати аватари на таблиці гравців"
 "TF_ShowCurrentWeapon"		  	  "Відображати одягнуту зброю"
 "TF_OverlayToastPosition"         "Позиція сповіщень Steam"
@@ -1321,7 +1317,6 @@ BLU можуть утримувати прогрес захоплення кон
 "TF_DeathNoticeTime_Tip"          "Встановлює час показу повідомлень на індикаторі вбивств."
 
 // ViewModel
-
 "TF_ViewModelFOV"				"Поле зору моделі зброї"
 "TF_FlipViewModels"				"Віддзеркалити моделі зброї"
 "TF_InvisibleArms"				"Ввімкнути невидимі руки"
@@ -1338,13 +1333,16 @@ BLU можуть утримувати прогрес захоплення кон
 
 // Voice
 "TF2c_Option_Proximity_Voice_Local"	"Увімкнути голосовий чат поблизу."
-// MULTIPLAYER
+
+// Multiplayer
+"TF_MessageAlert"				  "Ввімкнути звуки чату"
+"TF_MessageAlert_Tip"			  "Якщо ввімкнено, при отриманні повідомлення в чаті пролунає звук"
+"TF_MessageVolume"				  "Гучність звуку чату"
 "TF_DownloadFilter_Title"			"Дозволи для користувацьких файлів, завантажених з серверів"
 "GameUI_DownloadFilter_All"			"Дозволити всі файли"
 "GameUI_DownloadFilter_NoSounds"	"Без звуків"
 "GameUI_DownloadFilter_MapsOnly"	"Лише мапи"
 "GameUI_DownloadFilter_None"		"Без користувацьких"
-
 "TF_Network_Rate"       			"Швидкість мережі"
 "TF_Network_Rate_Tip"       		"Встановлює кількість інтерполяції, обернуто пропорційну до швидкості мережі.\nРекомендується спробувати кожну опцію, та обрати ту, що відчувається найкраще."
 
