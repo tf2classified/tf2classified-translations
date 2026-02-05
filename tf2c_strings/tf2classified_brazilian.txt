@@ -246,25 +246,25 @@
 // Medic
 "Tip_5_Count"	"16"
 // Generic
-"Tip_5_1"		"As a Medic, teammates who haven't recently taken damage will be healed much faster!"
-"Tip_5_2"		"As a Medic, you gain ÜberCharge faster by healing teammates who are more hurt."
-"Tip_5_3"		"As a Medic, you gain ÜberCharge much faster during setup time."
-"Tip_5_4"		"As a Medic, fill your ÜberCharge meter by healing teammates, then press %attack2% to deploy an ÜberCharge."
-"Tip_5_5"		"As a Medic, stay alert for teammates calling for your help. Use the cross speech bubbles onscreen to find them."
-"Tip_5_6"		"As a Medic, you and your patients cannot capture Control Points or pick up the Intelligence briefcase while invulnerable."
+"Tip_5_1"		"Como um Medic, os companheiros de equipe que não sofreram dano recentemente serão curados muito mais rápido!"
+"Tip_5_2"		"Como um Medic, você ganha ÜberCarga mais rapidamente ao curar companheiros de equipe que estão mais feridos."
+"Tip_5_3"		"Como um Medic, você ganha ÜberCarga muito mais rápido durante o tempo de configuração."
+"Tip_5_4"		"Como um Medic, preencha sua barra de ÜberCarga curando seus companheiros de equipe e, em seguida, pressione %attack2% para ativar uma ÜberCarga."
+"Tip_5_5"		"Como um Medic, fique atento aos seus companheiros de equipe que pedirem sua ajuda. Use os balões de fala em forma de cruz na tela para encontrá-los."
+"Tip_5_6"		"Como um Medic, você e seus pacientes não podem capturar Pontos de Controle nem pegar a maleta de Inteligência enquanto estiverem invulneráveis."
 // Stock
-"Tip_5_7"		"As a Medic, remember that syringes shoot in arcs and have a travel time. Lead your shots to land successful hits."
-"Tip_5_8"		"As a Medic, use your Medi Gun to heal injured teammates, and overheal them up to a temporary 150%% of their normal health."
-"Tip_5_9"		"As a Medic, your Medi Gun's ÜberCharge makes both you and your patient invulnerable for a short time."
-"Tip_5_10"		"As a Medic, your Bonesaw can be used in defensive situations when you are separated from your teammates."
+"Tip_5_7"		"Como um Medic, lembre-se de que as seringas disparam projéteis em arco e têm um tempo de percurso. Mire à frente do alvo para acertar o alvo."
+"Tip_5_8"		"Como um Medic, use sua Arma Médica para curar companheiros de equipe feridos e recupere temporariamente até 150% da saúde normal deles."
+"Tip_5_9"		"Como um Medic, a Sobrecarga da sua Arma Médica torna você e seu paciente invulneráveis ​​por um curto período de tempo."
+"Tip_5_10"		"Como um Medic, sua Serra de Ossos pode ser usada em situações defensivas quando você estiver separado de seus companheiros de equipe."
 // Death & Taxes
-"Tip_5_11"		"As a Medic, the Kritzkrieg temporarily gives your patient guaranteed crits. Use it in on powerful classes, and in areas with lots of enemies."
-"Tip_5_12"		"As a Medic, when using the Überspritze, be sure to watch your health. You have 10 less maximum health when equipped with it."
-"Tip_5_13"		"As a Medic, the Shock Therapy will deal more damage the more charged it is. The charge will be depleted when landing hits on enemies."
-"Tip_5_14"		"As a Medic, the Shock Therapy can be used to fully heal a teammate at full charge, in exchange for overall heal rate."
+"Tip_5_11"		"Como um Medic, o Kritzkrieg garante acertos críticos temporários para seus personagens. Use-o contra classes poderosas e em áreas com muitos inimigos."
+"Tip_5_12"		"Como um Medic, ao usar o Überspritze, fique atento à sua vida. Você terá 10 pontos de vida máxima a menos ao equipá-lo."
+"Tip_5_13"		"Como um Medic, a Terapia de Choque causará mais dano quanto mais carregada estiver. A carga será consumida ao atingir inimigos."
+"Tip_5_14"		"Como um Medic, A Terapia de Choque pode ser usada para curar completamente um companheiro de equipe com carga máxima, em troca de uma redução na taxa de cura geral."
 // Double Down
-"Tip_5_15"		"As a Medic, the Rejuvenator is extremely useful for healing large groups of teammates. Aim for direct hits for an increased heal and ÜberCharge bonus."
-"Tip_5_16"		"As a Medic, the Rejuvenator's ÜberCharge deploys a temporary shield of invulnerability, making any teammate who enters it immune to all damage."
+"Tip_5_15"		"Como um Medic, o Rejuvenescedor é extremamente útil para curar grandes grupos de companheiros de equipe. Mire em acertos diretos para aumentar a cura e o bônus de ÜberCarga."
+"Tip_5_16"		"Como um Medic, a ÜberCarga do Rejuvenescedor cria um escudo temporário de invulnerabilidade, tornando qualquer companheiro de equipe que entrar nele imune a todos os danos."
 
 // Heavy
 "Tip_6_Count"	"17"
@@ -536,7 +536,7 @@
 "TF_Weapon_MineLayer_Desc"	"Isso aí, fique de olho! Heh..."
 // Shock Therapy
 "TF_Weapon_ShockTherapy"		"Terapia de Choque"
-"TF_Weapon_ShockTherapy_Desc"	"CLEAR!"
+"TF_Weapon_ShockTherapy_Desc"	"AFASTEM-SE!"
 
 // ----------------------------------------------------------------
 // Fight or Flight weapon strings
@@ -570,10 +570,10 @@
 
 // Rejuvenator
 "TF_Weapon_Rejuvenator"			"Rejuvenescedor"
-"TF_Weapon_Rejuvenator_Desc"	"Do try and keep it out of your mouth and eyes."
+"TF_Weapon_Rejuvenator_Desc"	"Tente evitar o contato com a boca e os olhos."
 // Admiralty Anchor
 "TF_Weapon_AdmiraltyAnchor"			"Âncora do Almirantado"
-"TF_Weapon_AdmiraltyAnchor_Desc"	"I will not tolerate any crass jokes about the Navy in my unit."
+"TF_Weapon_AdmiraltyAnchor_Desc"	"Não tolerarei piadas grosseiras sobre a Marinha na minha unidade."
 // Derby Cane
 "TF_Weapon_DerbyCane"		"Derby Cane"
 "TF_Weapon_DerbyCane_Desc"	"Feeling motivated, lad? You'd better be."
