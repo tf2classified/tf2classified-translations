@@ -240,8 +240,8 @@
 "Tip_4_12"		"Como um Demoman, o Campo Minado dispara minas de proximidade que detonam automaticamente se um inimigo se aproximar demais. Use-o para uma defesa automatizada!"
 // Double Down
 "Tip_4_13"		"Como um Demoman, as granadas PEM disparadas pelo Cíclope só detonam quando você permite. Use isso para calcular o tempo de um salto explosivo ou ativar uma armadilha mortal!"
-"Tip_4_14"		"Como um Demoman, O Cíclope detona instantaneamente seus próprios explosivos. Parta para um combo agressivo para eliminar o inimigo!"
-"Tip_4_15"		"Como um Demoman, Você pode usar o Cíclope para desativar quaisquer Stickybombs, Pacotes de Dinamites e Minas inimigas próximas."
+"Tip_4_14"		"Como um Demoman, o Cíclope detona instantaneamente seus próprios explosivos. Parta para um combo agressivo para eliminar o inimigo!"
+"Tip_4_15"		"Como um Demoman, você pode usar o Cíclope para desativar quaisquer Stickybombs, Pacotes de Dinamites e Minas inimigas próximas."
 
 // Medic
 "Tip_5_Count"	"16"
@@ -269,26 +269,26 @@
 // Heavy
 "Tip_6_Count"	"17"
 // Generic
-"Tip_6_1"		"Press %voicemenu 0 0% to call for a Medic if you get hurt. Nearby Medics will be notified of your need."
-"Tip_6_2"		"As a Heavy, you have more maximum health than any other class. Don't be afraid to head big offensive pushes!"
-"Tip_6_3"		"As a Heavy, you're much slower than other classes. Stay mindful when picking fights with more mobile enemies."
-"Tip_6_4"		"As a Heavy, you're a great Medic buddy. Keep a clear line of sight to your Medic so you can be healed."
-"Tip_6_5"		"As a Heavy, you're a prime target for Spies. Use your arsenal to keep them at bay, and look behind yourself often."
-"Tip_6_6"		"As a Heavy, hold %attack2% to spin up your Minigun or Anti-Aircraft Cannon. Be ready for approaching enemies!"
+"Tip_6_1"		"Pressione %voicemenu 0 0% para chamar um médico caso se machuque. Os médicos próximos serão notificados da sua necessidade."
+"Tip_6_2"		"Como um Heavy, você tem mais vida máxima do que qualquer outra classe. Não tenha medo de liderar grandes investidas ofensivas!"
+"Tip_6_3"		"Como um Heavy, você é muito mais lento que as outras aulas. Tenha cuidado ao escolher lutar contra os inimigos mais ágeis."
+"Tip_6_4"		"Como um Heavy, você é um ótimo parceiro do Médico. Mantenha uma linha de visão clara para o seu Médico para que você possa ser curado."
+"Tip_6_5"		"Como um Heavy, você é um alvo prioritário para espiões. Use seu arsenal para mantê-los à distância e olhe para trás com frequência."
+"Tip_6_6"		"Como um Heavy, segure %attack2% para ativar sua Metralhadora Giratória ou Canhão Antiaéreo. Prepare-se para os inimigos que se aproximam!"
 // Stock
-"Tip_6_7"		"As a Heavy, your Minigun chews up a lot of ammo. Pick up ammo packs and fallen weapons to refill your supply."
-"Tip_6_8"		"As a Heavy, you don't lose momentum while spinning up your Minigun in the air. Surprise your enemies by leaping around corners!"
-"Tip_6_9"		"As a Heavy, your Shotgun can deal high burst damage, and allows you to move faster while attacking compared to spinning your Minigun."
-"Tip_6_10"		"As a Heavy, your high health allows you to win most melee fights. Don't be afraid to use your Fists!"
+"Tip_6_7"		"Como um Heavy, sua Metralhadora Giratória consome muita munição. Recolha pacotes de munição e armas abatidas para reabastecer seu estoque."
+"Tip_6_8"		"Como um Heavy, você não perde impulso enquanto gira sua Metralhadora Giratória no ar. Surpreenda seus inimigos saltando pelas esquinas!"
+"Tip_6_9"		"Como um Heavy, sua espingarda pode causar alto dano explosivo e permite que você se mova mais rápido enquanto ataca, em comparação com o giro da sua Metralhadora Giratória."
+"Tip_6_10"		"Como um Heavy, sua alta vida permite que você vença a maioria dos combates corpo a corpo. Não tenha medo de usar seus punhos!"
 // Death & Taxes
-"Tip_6_11"		"As a Heavy, be sure to find a safe place to eat your Sandvich, otherwise you may be rudely interrupted."
-"Tip_6_12"		"As a Heavy, you can take as many bites as you'd like out of your Sandvich to heal. However, pressing %attack2% to share it with a friend will put it on cooldown."
-"Tip_6_13"		"As a Heavy, be careful where you throw your Sandvich. Both teammates and enemies can pick it up to heal 50%% of their health!"
+"Tip_6_11"		"Como um Heavy, certifique-se de encontrar um lugar seguro para comer seu Sanduíche, caso contrário, você poderá ser interrompido de forma grosseira."
+"Tip_6_12"		"Como um Heavy, você pode dar quantas mordidas quiser no seu Sanduíche para se curar. No entanto, pressionar %attack2% para compartilhá-lo com um amigo o colocará em tempo de recarga."
+"Tip_6_13"		"Como um Heavy, tenha cuidado onde você joga seu Sanduíche. Tanto seus companheiros de equipe quanto seus inimigos podem pegá-lo para curar 50% da vida!"
 // Fight or Flight
-"Tip_6_14"		"As a Heavy, your Anti-Aircraft Cannon deals high burst damage, and is ideal for handling crowds and enemies behind walls."
-"Tip_6_15"		"As a Heavy, your Anti-Aircraft Cannon deals mini-crits to airborne enemies. Use it to knock down Soldiers or enemies using Jump Pads!"
-"Tip_6_16"		"As a Heavy, the Chekhov's Punch will store one crit for each successful hit, up to 3. You can spend stored crits on any weapon!"
-"Tip_6_17"		"As a Heavy, the Chekhov's Punch will cause you to take guaranteed critical damage from enemy melee attacks. Be cautious during close combat."
+"Tip_6_14"		"Como um Heavy, seu Canhão Antiaéreo causa alto dano explosivo e é ideal para lidar com multidões e inimigos atrás de paredes."
+"Tip_6_15"		"Como um Heavy, seu Canhão Antiaéreo causa mini-críticos em inimigos aéreos. Use-o para derrubar soldados ou inimigos que estejam usando Plataformas de Salto!"
+"Tip_6_16"		"Como um Heavy, o Murro do Checkhov armazena um ponto crítico para cada acerto bem-sucedido, até um máximo de 3. Você pode usar os pontos críticos armazenados em qualquer arma!"
+"Tip_6_17"		"Como um Heavy, o Murro do Checkhov fará com que você receba dano crítico garantido de ataques corpo a corpo inimigos. Seja cauteloso durante o combate corpo a corpo."
 
 // Pyro
 "Tip_7_Count"	"15"
@@ -622,15 +622,15 @@
 // ----------------------------------------------------------------
 
 // Building Status
-"Building_hud_hauling"				"Hauling..."
+"Building_hud_hauling"				"Carregando..."
 "Building_hud_upgrading"			"Aprimorando..."
-"Building_hud_jumppad_a_not_built"	"Jump Pad A\nNot Built"
-"Building_hud_jumppad_b_not_built"	"Jump Pad B\nNot Built"
+"Building_hud_jumppad_a_not_built"	"Plataforma de Salto A\nNão Construído"
+"Building_hud_jumppad_b_not_built"	"Plataforma de Salto B\nNão Construído"
 
 // Jump Pad
-"TF_Object_Jump"					"Jump Pad"
-"TF_Object_Jump_A"					"Jump Pad A"
-"TF_Object_Jump_B"					"Jump Pad B"
+"TF_Object_Jump"					"Plataforma de Salto"
+"TF_Object_Jump_A"					"Plataforma de Salto A"
+"TF_Object_Jump_B"					"Plataforma de Salto B"
 "TF_JumpPad_Mode_A"					"A"
 "TF_JumpPad_Mode_B"					"B"
 
