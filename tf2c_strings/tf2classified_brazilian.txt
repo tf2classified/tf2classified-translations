@@ -38,14 +38,14 @@
 // ----------------------------------------------------------------
 
 // Sentry consent popup
-"TF_SentryReport_Title"				"Send Error Reports?"
-"TF_SentryReport_Message"			"Would you like to allow sending anonymous error reports to the Team Fortress 2 Classified team?"
+"TF_SentryReport_Title"				"Enviar Relatório de Erro?"
+"TF_SentryReport_Message"			"Permitiria o envio de relatórios de erros anônimos para a equipe do Team Fortress 2 Classified?"
 
 // VIP voting
-"Vote_ChangeCivilian"				"Change VIP"
-"TF_vote_change_civilian"			"Choose player %s1 to be the VIP?"
-"TF_vote_change_civilian_caller"	"Player %s1 wants to be the VIP."
-"TF_vote_passed_change_civilian"	"The VIP will be player: %s1..."
+"Vote_ChangeCivilian"				"Mudar VIP"
+"TF_vote_change_civilian"			"Escolher o(a) jogador(a) %s1 para ser o VIP?"
+"TF_vote_change_civilian_caller"	"Jogador(a) %s1 quer ser o VIP."
+"TF_vote_passed_change_civilian"	"O VIP será o jogador(a): %s1..."
 
 // ----------------------------------------------------------------
 // Teams
