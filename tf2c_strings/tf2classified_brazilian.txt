@@ -10,8 +10,8 @@
 // Channels
 "Channel_All"			"TODOS"
 "Channel_Team"			"EQUIPE"
-"Switch_All"			"(TAB to switch to TEAM)"
-"Switch_Team"			"(TAB to switch to ALL)"
+"Switch_All"			"(TAB para trocar para a EQUIPE)"
+"Switch_Team"			"(TAB para trocar para TODOS)"
 
 // Chat Prefixes
 "Chat_All"				"%s1: %s2"
@@ -57,7 +57,7 @@
 "TF_GreenTeam_Name"				"GRN"
 "TF_YellowTeam_Name"			"YLW"
 
-"TF_Other_Name"					"OUTRA"
+"TF_Other_Name"					"INIMIGOS"
 
 // Disguise Kit global disguise
 "Hud_Menu_Disguise_GlobalTeam"	"Disfarce Global: Todos os inimigos irão te ver como parte da sua própria equipe."
@@ -142,8 +142,8 @@
 "DeathMsg_KilledTeamVIP"		"eliminou o VIP da %s1!"
 
 "DeathMsg_VIP"					"VIP"
-"DeathMsg_ComboKill"			"COMBO KILL!"
-"DeathMsg_AirshotKill"			"AIRSHOT!"
+"DeathMsg_ComboKill"			"COMBO!"
+"DeathMsg_AirshotKill"			"AÉREO!"
 
 // Custom suicides
 "DeathMsg_Suicide_Boioing"		"foi para os céus!"
@@ -224,24 +224,24 @@
 // Demoman
 "Tip_4_Count"	"15"
 // Generic
-"Tip_4_1"		"As a Demoman, press %attack2% to remotely detonate Stickybombs or fizzle out Mines you've placed down."
-"Tip_4_2"		"As a Demoman, set off explosives beneath your feet to jump great lengths."
-"Tip_4_3"		"As a Demoman, crouch when preparing for an explosive jump in order to achieve maximum height."
+"Tip_4_1"		"Como um Demoman, pressione %attack2% para detonar remotamente as StickyBombs ou desativar as Minas que você colocou."
+"Tip_4_2"		"Como um Demoman, acione explosivos sob seus pés para saltar grandes distâncias."
+"Tip_4_3"		"Como um Demoman, ao se preparar para um salto explosivo, agache-se para atingir a altura máxima."
 // Stock
-"Tip_4_4"		"As a Demoman, use your Grenade Launcher for direct combat. Airborne grenades detonate immediately upon impact with an enemy."
-"Tip_4_5"		"As a Demoman, the longer you hold down %attack% with the Stickybomb Launcher, the farther the Stickybomb will shoot."
-"Tip_4_6"		"As a Demoman, shoot Stickybombs onto walls and ceilings where they're hard to spot."
-"Tip_4_7"		"As a Demoman, your Bottle can be used for close combat after explosive jumping into enemy territory."
-"Tip_4_8"		"As a Demoman, your Bottle will deal the same amount of damage regardless of being smashed open."
+"Tip_4_4"		"Como um Demoman, use seu Lança-Granadas para combate direto. Granadas lançadas pelo ar detonam imediatamente ao atingir um inimigo."
+"Tip_4_5"		"Como um Demoman, quanto mais tempo você mantiver pressionado o botão %attack% com o Lança-Stickybombs, mais longe a Bomba Adesiva será lançada."
+"Tip_4_6"		"Como um Demoman, dispare Stickybombs em paredes e tetos onde sejam difíceis de ver."
+"Tip_4_7"		"Como um Demoman, sua Garrafa pode ser usada para combate corpo a corpo após um salto explosivo em território inimigo."
+"Tip_4_8"		"Como um Demoman, sua Garrafa causará a mesma quantidade de dano, independentemente de ser quebrada ou não."
 // Death & Taxes
-"Tip_4_9"		"As a Demoman, throw your Dynamite Pack onto busy Control Points in order to clear off any enemies."
-"Tip_4_10"		"As a Demoman, your Dynamite Pack can be disabled by enemy Engineers. Be mindful when hurling it into Sentry Gun nests."
-"Tip_4_11"		"As a Demoman, the Canhoneiras greatly reduce health loss from explosive jumps. Use them when positioning and mobility are especially important."
-"Tip_4_12"		"As a Demoman, the Mine Layer shoots proximity Mines that automatically detonate if an enemy gets too close. Use it for an automated defense!"
+"Tip_4_9"		"Como um Demoman, lance seu Pacote de Dinamites em Pontos de Controle movimentados para eliminar quaisquer inimigos."
+"Tip_4_10"		"Como um Demoman, seu Pacote de Dinamite pode ser desativado por engenheiros inimigos. Tenha cuidado ao arremessá-lo em postos de sentinelas."
+"Tip_4_11"		"Como um Demoman, as canhoneiras reduzem significativamente as perdas de energia causadas por saltos explosivos. Use-as quando o posicionamento e a mobilidade forem especialmente importantes."
+"Tip_4_12"		"Como um Demoman, o Campo Minado dispara minas de proximidade que detonam automaticamente se um inimigo se aproximar demais. Use-o para uma defesa automatizada!"
 // Double Down
-"Tip_4_13"		"As a Demoman, EMP grenades shot from the Cyclops will only detonate when you let them. Use this to time an explosive jump or set off a deadly trap!"
-"Tip_4_14"		"As a Demoman, the Cyclops instantly detonates your own explosives. Go for an aggressive combo kill!"
-"Tip_4_15"		"As a Demoman, you can use the Cyclops to fizzle out any nearby enemy Stickybombs, Dynamite Packs, and Mines."
+"Tip_4_13"		"Como um Demoman, as granadas PEM disparadas pelo Cíclope só detonam quando você permite. Use isso para calcular o tempo de um salto explosivo ou ativar uma armadilha mortal!"
+"Tip_4_14"		"Como um Demoman, O Cíclope detona instantaneamente seus próprios explosivos. Parta para um combo agressivo para eliminar o inimigo!"
+"Tip_4_15"		"Como um Demoman, Você pode usar o Cíclope para desativar quaisquer Stickybombs, Pacotes de Dinamites e Minas inimigas próximas."
 
 // Medic
 "Tip_5_Count"	"16"
@@ -532,8 +532,8 @@
 "TF_Weapon_Coilgun"			"Coilgun"
 "TF_Weapon_Coilgun_Desc"	"No steak, but a whole heap o' sizzle."
 // Mine Layer
-"TF_Weapon_MineLayer"		"Mine Layer"
-"TF_Weapon_MineLayer_Desc"	"Aye, keep an eye out! Heh..."
+"TF_Weapon_MineLayer"		"Campo Minado"
+"TF_Weapon_MineLayer_Desc"	"Isso aí, fique de olho! Heh..."
 // Shock Therapy
 "TF_Weapon_ShockTherapy"		"Terapia de Choque"
 "TF_Weapon_ShockTherapy_Desc"	"CLEAR!"
