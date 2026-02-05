@@ -60,7 +60,7 @@
 "TF_Other_Name"					"OUTRA"
 
 // Disguise Kit global disguise
-"Hud_Menu_Disguise_GlobalTeam"	"Global Disguise: Every enemy will see you as their own team."
+"Hud_Menu_Disguise_GlobalTeam"	"Disfarce Global: Todos os inimigos irão te ver como parte da sua própria equipe."
 
 // ----------------------------------------------------------------
 // Classes
@@ -73,11 +73,11 @@
 "TF_Class_Name_Civilian" 	"Civilian"
 
 "ClassTips_10_Count"	"3"
-"ClassTips_10_1"		"Boost a teammate to give them an advantage in battle!"
+"ClassTips_10_1"		"Aumente o poder de um companheiro de equipe para dar a ele uma vantagem na batalha!"
 "ClassTips_10_1_Icon"	"chalf_circle"
-"ClassTips_10_2"		"Stay near teammates to give them damage resistance and passive healing!"
+"ClassTips_10_2"		"Fique perto dos seus companheiros de equipe para dar à eles resistência a dano e cura passiva!"
 "ClassTips_10_2_Icon"	"chalf_circle"
-"ClassTips_10_3"		"Be helpless in fights!"
+"ClassTips_10_3"		"Sem relevância nas lutas!"
 "ClassTips_10_3_Icon"	"chalf_circle"
 
 // ----------------------------------------------------------------
