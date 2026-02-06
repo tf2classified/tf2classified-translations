@@ -1071,8 +1071,8 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "Winpanel_TeamAdvances"	"A %s2 %s1 DOMINA A ÁREA"
 "Winpanel_TeamDefends"	"A %s2 %s1 DEFENDEU!"
 
-"WinPanel_Green_Team_Wins"	"Vitória da equipe GRN"
-"WinPanel_Yellow_Team_Wins"	"Vitória da equipe YLW"
+"WinPanel_Green_Team_Wins"	"Vitória da Equipe GRN"
+"WinPanel_Yellow_Team_Wins"	"Vitória da Equipe YLW"
 
 "Winpanel_GreenWins"		"VITÓRIA DA EQUIPE GRN!"
 "Winpanel_GreenAdvances"	"A EQUIPE GRN DOMINA A ÁREA"
@@ -1080,12 +1080,12 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "Winpanel_YellowWins"		"VITÓRIA DA EQUIPE YLW!"
 "Winpanel_YellowAdvances"	"A EQUIPE YLW DOMINA A ÁREA"
 "Winpanel_YellowDefends"	"A EQUIPE YLW DEFENDEU!"
-"Winpanel_GreenMVPs"		"Os melhores da equipe:"
-"Winpanel_YellowMVPs"		"Os melhores da equipe:"
+"Winpanel_GreenMVPs"		"Os Melhores da Equipe:"
+"Winpanel_YellowMVPs"		"Os Melhores da Equipe:"
 
-"Winreason_KOTHPointHeld"		"A equipe %s1 defendeu o ponto de controle com sucesso até o tempo acabar"
+"Winreason_KOTHPointHeld"		"A equipe %s1 defendeu o Ponto de Controle com sucesso até o tempo acabar"
 "Winreason_PayloadPushed"		"A equipe %s1 empurrou a carga ao ponto final"
-"Winreason_ArenaPointCaptured"	"A equipe %s1 capturou o ponto de controle"
+"Winreason_ArenaPointCaptured"	"A equipe %s1 capturou o Ponto de Controle"
 "Winreason_RoundScoreLimit"		"A equipe %s1 venceu ao alcançar %s2 pontos"
 "Winreason_VIPEscaped"			"O VIP escapou"
 "Winreason_VIPKilled"			"O VIP foi eliminado"
