@@ -1096,13 +1096,13 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 
 "TF_Menu_Welcome"			"Bem-vindo(a) de novo,"
 
-"TF_Menu_ResumeGame"		"Continuar jogo"
+"TF_Menu_ResumeGame"		"Retomar jogo"
 "TF_Menu_Mute"				"Silenciar jogadores"
 "TF_Menu_Vote"				"Iniciar votação"
 
 "TF_Menu_FindServers"		"Procurar Servidores"
 "TF_Menu_CreateServer"		"Criar um servidor"
-"TF_Menu_OfflineTraining"	"Partida offline"
+"TF_Menu_OfflineTraining"	"Treinamento"
 
 "TF_Menu_Loadout"			"Equipamentos"
 
@@ -1121,7 +1121,7 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 
 "TF_Friends_Title"					"Amigos (%friend_count%)"
 "TF_Friends_Status_InTF2C"			"Jogando TF2C"
-"TF_Friends_Status_Idle_InTF2C"		"Idle in TF2C"
+"TF_Friends_Status_Idle_InTF2C"		"Ausente no TF2C"
 "TF_Friends_Status_InMod"			"Jogando outra mod"
 "TF_Friends_Status_Idle_InMod"		"Ausente em outra mod"
 "TF_Friends_Status_InGame"			"Jogando outro jogo"
