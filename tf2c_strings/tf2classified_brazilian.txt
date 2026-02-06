@@ -375,20 +375,20 @@
 "Tip_10_8"		"Como um Civilian, seu Guarda-Chuva concede mini-críticos a um companheiro de equipe à sua escolha. Banque classes capazes de causar grandes quantidades de dano."
 "Tip_10_9"		"Como um Civilian, o aumento de mini-crítico do seu Guarda-Chuva também dará aos médicos uma taxa de cura maior e ganho de ÜberCarga."
 // Double Down
-"Tip_10_10"		"As a Civilian, sua Bengala de Cabo Curvo pode ser usada para dar um aumento de velocidade a um companheiro de equipe. Isso permite que ele se mova e atire muito mais rápido."
-"Tip_10_11"		"As a Civilian, sua Bengala de Cabo Curvo aumenta a taxa de cura dos Médicos e a taxa de construção dos Engenheiros."
+"Tip_10_10"		"Como um Civilian, sua Bengala de Cabo Curvo pode ser usada para dar um aumento de velocidade a um companheiro de equipe. Isso permite que ele se mova e atire muito mais rápido."
+"Tip_10_11"		"Como um Civilian, sua Bengala de Cabo Curvo aumenta a taxa de cura dos Médicos e a taxa de construção dos Engenheiros."
 
 // Arena
 "Tip_arena_Count"		"9"
-"Tip_arena_1"			"In Arena, keep an eye on the player count at the top of the screen. This will let you know if you have a player advantage!"
-"Tip_arena_2"			"In Arena, There are very few sources of replenishing your health, so be sure to protect your Medics and Engineers (and share your Sandvich)!"
-"Tip_arena_3"			"In Arena, the Control Point in the middle of the map will become active 60 seconds after the beginning of the round. Use it to draw out hiding enemies!"
-"Tip_arena_4"			"In Arena, you don't respawn, so don't die!"
-"Tip_arena_5"			"In Arena, try diversifying your portfolio! Try complementing your team composition, or countering the enemy's."
-"Tip_arena_6"			"In Arena, you can only change your class at the start of a match before the gates open."
-"Tip_arena_7"			"In Arena, try to stay together with your team and help each other when in danger. Showing up late to a fight can put you at a disadvantage."
-"Tip_arena_8"			"In Arena, denying the enemy team opportunities to heal is critical. Target enemy Medics and Dispensers, and deny access to health packs when possible!"
-"Tip_arena_9"			"In Arena, getting First Blood grants a crit buff. If you get it, make it count! If an enemy gets it, lay low and try to wait for it to run out."
+"Tip_arena_1"			"Na Arena, fique de olho na contagem de jogadores na parte superior da tela. Isso lhe permitirá saber se você tem vantagem sobre outros jogadores!"
+"Tip_arena_2"			"Na Arena, existem poucas fontes para recuperar sua vida, então certifique-se de proteger seus Medics e Engineers (e compartilhar seu Sanduíche)!"
+"Tip_arena_3"			"Na Arena, o Ponto de Controle no meio do mapa ficará ativo 60 segundos após o início da rodada. Use-o para atrair inimigos escondidos!"
+"Tip_arena_4"			"Na Arena, você não revive, então não morra!"
+"Tip_arena_5"			"Na Arena, tente diversificar seu repertório! Tente complementar a composição da sua equipe ou neutralizar a do inimigo."
+"Tip_arena_6"			"Na Arena, você só pode trocar de classe no início da partida, antes da abertura dos portões."
+"Tip_arena_7"			"Na Arena, tente permanecer junto com sua equipe e ajudem uns aos outros quando estiverem em perigo. Chegar atrasado a uma luta pode colocá-lo em desvantagem."
+"Tip_arena_8"			"Na Arena, impedir que a equipe inimiga se cure é crucial. Ataque os Medics e os Fornecedores inimigos e negue o acesso deles aos kits de vida sempre que possível!"
+"Tip_arena_9"			"Na Arena, conseguir o Primeiro Abate concede um bônus de crítico. Se você conseguir, aproveite ao máximo! Se um inimigo conseguir, fique na sua e tente esperar o efeito acabar."
 
 // ----------------------------------------------------------------
 // Stock weapon strings
