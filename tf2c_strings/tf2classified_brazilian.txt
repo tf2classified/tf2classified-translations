@@ -555,8 +555,8 @@
 "TF_Weapon_AntiAircraftCannon"		"Canhão Antiaéreo"
 "TF_Weapon_AntiAircraftCannon_Desc"	"Which piece of you should Heavy send home to momma?"
 // PDA: Jump Pad
-"TF_Weapon_PDAJumpPad"		"PDA: Jump Pad"
-"TF_Weapon_PDAJumpPad_Desc"	"Trust me, feller. This one'll blow you away."
+"TF_Weapon_PDAJumpPad"		"PDA: Saltadores"
+"TF_Weapon_PDAJumpPad_Desc"	"Acredite em mim, meu amigo. Esse vai te surpreender."
 // Harvester
 "TF_Weapon_Harvester"		"Ceifadora"
 "TF_Weapon_Harvester_Desc"	"Não pergunte por quem o sino dobra."
@@ -624,13 +624,13 @@
 // Building Status
 "Building_hud_hauling"				"Carregando..."
 "Building_hud_upgrading"			"Aprimorando..."
-"Building_hud_jumppad_a_not_built"	"Plataforma de Salto A\nNão Construído"
-"Building_hud_jumppad_b_not_built"	"Plataforma de Salto B\nNão Construído"
+"Building_hud_jumppad_a_not_built"	"Saltadores A\nNão Construído"
+"Building_hud_jumppad_b_not_built"	"Saltadores B\nNão Construído"
 
 // Jump Pad
-"TF_Object_Jump"					"Plataforma de Salto"
-"TF_Object_Jump_A"					"Plataforma de Salto A"
-"TF_Object_Jump_B"					"Plataforma de Salto B"
+"TF_Object_Jump"					"Saltadores"
+"TF_Object_Jump_A"					"Saltadores A"
+"TF_Object_Jump_B"					"Saltadores B"
 "TF_JumpPad_Mode_A"					"A"
 "TF_JumpPad_Mode_B"					"B"
 
@@ -1450,7 +1450,7 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_NAME"				"Recompensa Satisfatória"
 "TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_DESC"				"Mate um inimigo com um crítico do Punho de Tchekhov com o máximo de críticos guardados."
 "TF2C_ACHIEVEMENT_JUMPPAD_STOMP_NAME"					"Velocidade Terminal"
-"TF2C_ACHIEVEMENT_JUMPPAD_STOMP_DESC"					"Elimine alguém aterrissando sobre essa pessoa após usar uma Plataforma de Salto."
+"TF2C_ACHIEVEMENT_JUMPPAD_STOMP_DESC"					"Elimine alguém aterrissando sobre essa pessoa após usar um Saltador."
 "TF2C_ACHIEVEMENT_EXTEND_UBER_NAME"						"Maratona Cirúrgica"
 "TF2C_ACHIEVEMENT_EXTEND_UBER_DESC"						"Extenda a ÜberCarga de um Rejuvenescedor para 12 segundos."
 "TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_NAME"					"Tá em Choque?!"
