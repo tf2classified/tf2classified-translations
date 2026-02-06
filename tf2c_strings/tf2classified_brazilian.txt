@@ -337,29 +337,29 @@
 // Engineer
 "Tip_9_Count"	"20"
 // Generic
-"Tip_9_1"		"As an Engineer, you need metal to build, repair, and upgrade your buildings. Collect ammo packs and fallen weapons to get more metal."
-"Tip_9_2"		"As an Engineer, you can do more than just maintain your buildings. Use your Shotgun and your Pistol to assist in fights and defend your buildings."
-"Tip_9_3"		"As an Engineer, keep an eye out for enemy Spies attaching Sappers to your buildings. Use your Wrench to remove Sappers."
-"Tip_9_4"		"As an Engineer, remember to upgrade your buildings. Upgraded buildings can provide big benefits to you and your team!"
-"Tip_9_5"		"As an Engineer, pressing %attack2% while hauling a building will rotate the building placement. Orient Sentry Guns or Teleporters to be more efficient for your team!"
+"Tip_9_1"		"Como um Engineer, você precisa de metal para construir, reparar e melhorar seus edifícios. Colete pacotes de munição e armas caídas para obter mais metal."
+"Tip_9_2"		"Como um Engineer, você pode fazer mais do que apenas manter suas contruções. Use sua Escopeta e sua Pistola para auxiliar em combates e defender suas construções."
+"Tip_9_3"		"Como um Engineer, fique de olho nos Spies inimigos que estão instalando Sabotadores em suas construções. Use sua Chave Inglesa para remover os Sabotadores."
+"Tip_9_4"		"Como um Engineer, lembre-se de aprimorar suas construções. Construções aprimoradas podem trazer grandes benefícios para você e sua equipe!"
+"Tip_9_5"		"Como um Engineer, ao pressionar %attack2% enquanto transporta uma construção, você consegue rotacionar a posição da construção. Posicione bem as Sentinelas ou os Teletransportadores para serem mais eficientes para a sua equipe!"
 // Stock
-"Tip_9_6"		"As an Engineer, your Pistol has a lot of reserve ammo. Use it to lead enemies towards you and your Sentry Gun, or go for a more offensive approach."
-"Tip_9_7"		"As an Engineer, you are able to defuse enemy Dynamite Packs by hitting them with your Wrench."
-"Tip_9_8"		"As an Engineer, hitting friendly buildings with your Wrench will repair and upgrade them."
-"Tip_9_9"		"As an Engineer, use the Construction PDA to place Sentry Guns and other supportive buildings."
-"Tip_9_10"		"As an Engineer, your Sentry Guns aren't restricted to just defensive measures. Deploy them quickly in hidden locations in order to aid in an offensive push."
-"Tip_9_11"		"As an Engineer, hit your Sentry Guns with your Wrench to upgrade it with metal. Each level adds more health and firepower."
-"Tip_9_12"		"As an Engineer, build Dispensers to provide your teammates with health and ammo. They also generate metal for you to use."
-"Tip_9_13"		"As an Engineer, upgraded Dispensers will generate more health, ammo, and metal for you and your team!"
-"Tip_9_14"		"As an Engineer, build Teleporters or Jump Pads to help your team reach the front line faster."
-"Tip_9_15"		"As an Engineer, upgraded Teleporters will recharge much faster, allowing your team to keep the pressure on."
-"Tip_9_16"		"As an Engineer, hitting either the entrance or the exit of a Teleporter with your Wrench will repair and upgrade both sides!"
+"Tip_9_6"		"Como um Engineer, sua pistola tem bastante reserva de munição. Use-a para atrair os inimigos em sua direção e na sua Sentinela, ou adote uma abordagem mais ofensiva."
+"Tip_9_7"		"Como um Engineer, você pode desarmar os Pacotes de Dinamite inimigos atingindo-os com sua Chave Inglesa."
+"Tip_9_8"		"Como um Engineer, ao atingir construções aliadas com sua chave inglesa, você os reparará e vai aprimorá-los."
+"Tip_9_9"		"Como um Engineer, use o PDA de Construção para posicionar Sentinela e outras contruções de apoio."
+"Tip_9_10"		"Como um Engineer, suas Sentinela não se restringem apenas a medidas defensivas. Instale-as rapidamente em locais escondidos para auxiliar em um ataque."
+"Tip_9_11"		"Como um Engineer, use sua Chave Inglesa para acertar suas Sentinelas e melhorá-las com metal. Cada nível adiciona mais vida e poder de fogo."
+"Tip_9_12"		"Como um Engineer, construa Fornecedores para fornecer vida e munição aos seus companheiros de equipe. Eles também geram metal para você usar."
+"Tip_9_13"		"Como um Engineer, Fornecedores aprimorados gerarão mais vida, munição e metal para você e sua equipe!"
+"Tip_9_14"		"Como um Engineer, construa Teletransportadores ou Saltadores para ajudar sua equipe a chegar à linha de frente mais rapidamente."
+"Tip_9_15"		"Como um Engineer, os Teletransportadores aprimorados recarregarão muito mais rápido, permitindo que sua equipe mantenha a pressão."
+"Tip_9_16"		"Como um Engineer, ao usar sua Chave Inglesa na entrada ou na saída de um Teletransportador, você reparará e melhorará ambos os lados!"
 // Death & Taxes
-"Tip_9_17"		"As an Engineer, fully charged shots from the Coilgun can ricochet off walls and deal more damage."
-"Tip_9_18"		"As an Engineer, the Coilgun will cause a small explosion if you overcharge it. Use it to reach previously inaccessible areas."
+"Tip_9_17"		"Como um Engineer, os disparos totalmente carregados do Arma de Bobina podem ricochetear nas paredes e causar mais dano."
+"Tip_9_18"		"Como um Engineer, a Arma de Bobina causará uma pequena explosão se você a sobrecarregar. Use-a para alcançar áreas antes inacessíveis."
 // Fight or Flight
-"Tip_9_19"		"As an Engineer, your Jump Pads allow you and your team to reach high places. Place them to allow less mobile teammates onto ledges and roofs!"
-"Tip_9_20"		"As an Engineer, your Jump Pads allow your teammates to jump forward with a lot of momentum. Deploy them in open areas that allow for quick rollouts."
+"Tip_9_19"		"Como um Engineer, os Saltadores permitem que você e sua equipe alcancem lugares altos. Posicione-os para permitir que seus companheiros de equipe com menos mobilidade alcancem bordas e telhados!"
+"Tip_9_20"		"Como um Engineer, os Saltadores permitem que seus companheiros de equipe saltem para a frente com muito impulso. Instale-os em áreas abertas que permitam deslocamentos rápidos."
 
 // Civilian
 "Tip_10_Count"	"11"
@@ -529,7 +529,7 @@
 "TF_Weapon_DynamitePack"		"Pacote de Dinamite"
 "TF_Weapon_DynamitePack_Desc"	"Ye'll be in bits tomorrow."
 // Coilgun
-"TF_Weapon_Coilgun"			"Coilgun"
+"TF_Weapon_Coilgun"			"Arma de Bobina"
 "TF_Weapon_Coilgun_Desc"	"No steak, but a whole heap o' sizzle."
 // Mine Layer
 "TF_Weapon_MineLayer"		"Campo Minado"
