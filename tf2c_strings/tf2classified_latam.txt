@@ -120,8 +120,8 @@
 "TF_playerid_carrying"					"Cargando: %s1"
 "TF_playerid_carrying_lvl"				"Cargando: %s1 (Nivel %s2)"
 
-"TF_friendly"	"Aliado"
-"TF_enemy"		"Enemigo"
+"TF_friendly"							"Aliado"
+"TF_enemy"								"Enemigo"
 
 // ----------------------------------------------------------------
 // Respawning
@@ -378,6 +378,18 @@
 "Tip_10_10"		"Como Civilian, tu Bastón Derby le otorga a un compañero de equipo impulso de rapidez. Esto permite que se muevan y disparen mucho más rápido."
 "Tip_10_11"		"Como Civilian, tu Bastón Derby aumenta la tasa de curación de los Medics y construcción de los Engineers."
 
+// Arena
+"Tip_arena_Count"		"9"
+"Tip_arena_1"			"En Arena, no pierdas de vista el contador de jugadores de la parte superior de la pantalla. ¡Esto te ayudará a saber tu equipo tiene ventaja!"
+"Tip_arena_2"			"En Arena, hay muy pocas fuentes para reponer tu salud en Arena, ¡asegúrate de proteger a tus Medics y Engineers (y de compartir tu Sandwich)!"
+"Tip_arena_3"			"En Arena, el punto de control en el medio del mapa se activará 60 segundos después del comienzo de una ronda. ¡Utilizalo para traer a enemigos escondidos!"
+"Tip_arena_4"			"En Arena, no hay reaparición, asi que, ¡procura no morir!"
+"Tip_arena_5"			"En Arena, ¡intenta diversificar tu portafolio! Intenta complementar la composición de tu equipo, o contrarrestar al enemigo."
+"Tip_arena_6"			"En Arena, solo puedes cambiar de clase al inicio de una ronda antes de que se abran las puertas."
+"Tip_arena_7"			"En Arena, trata de mantenerte junto a tu equipo y ayudarse entre si mismos cuando se encuentren en peligro. Aparecer tarde en una pelea puede ponerte en una gran desventaja."
+"Tip_arena_8"			"En Arena, denegar al enemigo oportunidades de curarse es importante. Prioriza Medics enemigos y Dispensadores, ¡además de denegar acceso a los paquetes de curación cuando sea posible!"
+"Tip_arena_9"			"En Arena, obtener una Primera Sangre otorga una mejora de críticos. Si lo logras, ¡no lo desperdicies! Si un enemigo lo logra,  ten mucho cuidado y espera a que se le acabe."
+
 // ----------------------------------------------------------------
 // Stock weapon strings
 // ----------------------------------------------------------------
@@ -386,7 +398,7 @@
 "TF_Weapon_Bat"			"Bate"
 "TF_Weapon_Bat_Desc"	"Tengo muchisimos de estos. Ni miedo tengo de romper uno más en tí."
 // Bottle
-"TF_Weapon_Bottle"		"Bottle"
+"TF_Weapon_Bottle"		"Botella"
 "TF_Weapon_Bottle_Desc"	"¡Nah, nah, se supone que tah lo tomes!"
 // Fire Axe
 "TF_Weapon_FireAxe"			"Hacha de Bombero"
@@ -1104,6 +1116,8 @@ El dueño del equipo de los Puntos de Control se asigna de forma aleatoria al co
 "TF_Menu_Disconnect"		"Abandonar"
 
 "TF_Menu_Blog"				"Blog oficial"
+"TF_Menu_LatestUpdate"		"Última actualización"
+"TF_Menu_ReportBug"			"Reportar un error"
 
 "TF_Friends_Title"					"Amigos (%friend_count%)"
 "TF_Friends_Status_InTF2C"			"Jugando TF2C"
@@ -1150,8 +1164,8 @@ El dueño del equipo de los Puntos de Control se asigna de forma aleatoria al co
 "TF_Loadout_Defaults"			"Por defecto"
 
 // Reset inventory
-"TF_ConfirmDefaultInventory_Title"		"Equipamiento por defecto"
-"TF_ConfirmDefaultInventory_Message"		"¿Estás de volver a los objetos predeterminados para esta clase?"
+"TF_ConfirmDefaultInventory_Title"		"Armas por defecto"
+"TF_ConfirmDefaultInventory_Message"		"¿Estás seguro/a de volver a los objetos predeterminados para esta clase?"
 "TF_ConfirmDefaultInventory_OK"			"Sí"
 
 // ----------------------------------------------------------------
@@ -1189,6 +1203,7 @@ El dueño del equipo de los Puntos de Control se asigna de forma aleatoria al co
 "TF_Enable"								"Activar"
 "TF_Disable"							"Desactivar"
 "TF_RightClick_Enable"					"Clic derecho para Activar"
+"TF_RightClick_Enable_Mouse"			"Clic derecho para Activar el Mouse"
 
 // UI options
 "TF_Open_Charinfo"						"Abrir equipamiento de personajes"
@@ -1256,11 +1271,11 @@ El dueño del equipo de los Puntos de Control se asigna de forma aleatoria al co
 "TF2C_Tooltip_DamageFeedback"				"Reproduce sonidos determinados al hacer daño o recibir distintos tipos de daño"
 "TF2C_Option_DamageFeedbackOutgoing"		"Habilitar reacciones de daño saliente"
 "TF2C_Tooltip_DamageFeedbackOutgoing"		"Reproduce sonidos de reacción al infligir daño a enemigos"
-"TF2C_Option_DamageFeedbackOutgoingVolume"	"Volumen de reacciones de daño saliente"
+"TF2C_Option_DamageFeedbackOutgoingVolume"	"Volumen del sonido de reacciones de daño saliente"
 "TF2C_Tooltip_DamageFeedbackOutgoingVolume"	"Ajusta el volumen de los sonidos determinados al hacer daño"
 "TF2C_Option_DamageFeedbackIncoming"		"Habilitar sonidos de reacción entrante"
 "TF2C_Tooltip_DamageFeedbackIncoming"		"Reproduce sonidos de reacción al recibir daño"
-"TF2C_Option_DamageFeedbackIncomingVolume"	"Volumen de reacciones de daño entrante"
+"TF2C_Option_DamageFeedbackIncomingVolume"	"Volumen del sonido de reacciones de daño entrante"
 "TF2C_Tooltip_DamageFeedbackIncomingVolume"	"Ajusta el volumen de los sonidos determinados al recibir daño"
 
 "TF_CenterFirePreference"         	"Prefiero que los proyectiles se disparen desde el centro"
@@ -1278,20 +1293,20 @@ El dueño del equipo de los Puntos de Control se asigna de forma aleatoria al co
 "TF_SapperAwareness"                "ENGINEER: Advertencia de Zapador"
 "TF_SapperAwareness_Tip"            "Si se activa, la advertencia del zapador en las alertas de las construcciones serán de un color alternativo."
 "TF_SniperBell"					    "SNIPER: Reproduce un sonido al tener Carga Completa"
-"TF_SniperBell_Tip"					"Reproduce un sonido cuando el Rifle de Francotirador del Sniper este completamente cargado."
+"TF_SniperBell_Tip"					"Reproduce un sonido cuando el Rifle de Francotirador del Sniper este completamente cargado"
 "TF_ZoomSensitivityRatio"			"SNIPER: Radio de sensibilidad de la mira"
-"TF_ZoomSensitivityRatio_Tip"		"Ajusta la sensibilidad de la mira al apuntar."
+"TF_ZoomSensitivityRatio_Tip"		"Ajusta la sensibilidad de la mira al apuntar"
 "TF_SpywalkInverted"				"SPY: Usar caminata del Spy por defecto"
 "TF_SpywalkInverted_Tip"			"Si se activa, utiliza la velocidad de caminata por defecto del Spy y la velocidad normal de movimiento con el bind de Caminata del Spy"
 "TF_ViewModelCloakTint"				"SPY: Tinte de modelo de vista invisible"
-"TF_ViewModelCloakTint_Tip"			"SPY: Permitir que los modelos de vista en primer persona tengan tinte al hacerse invisible."
+"TF_ViewModelCloakTint_Tip"			"SPY: Permitir que los modelos de vista en primer persona tengan tinte al hacerse invisible"
 "TF_AvoidBecomingVIP"				"CIVILIAN: Evita convertirte en VIP"
 "TF_AvoidBecomingVIP_Tip"			"Si se activa, no serás considerado por cuando el juego elige un VIP; sin embargo, aun puedes ser seleccionado si todos tienen esta opción activada o si votan para que lo seas"
 
 // HUD
 "TF_LoadoutGrid"                  "Habilitar cuadrícula de equipamiento"
 "TF_LoadoutGrid_Tip"              "Si se activa, la página de de equipamiento de armas sera mostrada en forma de cuadrícula"
-"TF_HighlightAmmo"				  "Mostrar delineado brillante en armas del suelo"
+"TF_HighlightAmmo"				  "Mostrar delineado luminoso en armas del suelo"
 "TF_HighlightAmmo_Tip"			  "Si se activa, las armas que se encuentren en el suelo tendrán un delineado brillante que marca su posición"
 "TF_ScoreBoardShowAvatars"		  "Mostrar avatares en la tabla de puntuación"
 "TF_ShowCurrentWeapon"		  	  "Mostrar arma equipada actualmente"
@@ -1318,6 +1333,8 @@ El dueño del equipo de los Puntos de Control se asigna de forma aleatoria al co
 "TF_DeathNoticeMax_Tip"           "Ajusta la máxima cantidad de entradas de avisos de muerte en el mismo tiempo."
 "TF_DeathNoticeTime"              "Aviso de muerte - Tiempo de expiración (en segundos)"
 "TF_DeathNoticeTime_Tip"          "Ajusta el tiempo de expiración de la lista de avisos de muerte."
+"TF_GlowEffects"				  "Usar efectos de iluminado"
+"TF_GlowEffects_Tip" 			  "Si se activa, los efectos de iluminado serán activados durante las partidas en objetivos como los VIPs, vagonetas, y los maletines con dosieres en CLB."
 
 // ViewModel
 "TF_ViewModelFOV"				"Campo de visión del modelo de vista"
@@ -1341,7 +1358,9 @@ El dueño del equipo de los Puntos de Control se asigna de forma aleatoria al co
 "TF_MessageAlert"				  "Habilitar sonido al recibir mensaje de chat"
 "TF_MessageAlert_Tip"			  "Si se activa, escucharás un sonido cuando recibas un mensaje del chat"
 "TF_MessageVolume"				  "Volumen del sonido al recibir mensaje de chat"
-"TF_DownloadFilter_Title"			"Permisos de descarga de archivos para los servidores"
+"TF_ChatCloseOnSend"				"Cerrar chat al enviar un mensaje"
+"TF_ChatCloseOnSend_Tip"			"Si se activa, cierra el chat después de enviar un mensaje"
+"TF_DownloadFilter_Title"			"Permisos de archivos personalizados por descargas de servidores"
 "GameUI_DownloadFilter_All"			"Permitir todos los archivos personalizados"
 "GameUI_DownloadFilter_NoSounds"	"Sin sonidos personalizados"
 "GameUI_DownloadFilter_MapsOnly"	"Solo archivos de mapa"
@@ -1441,7 +1460,7 @@ El dueño del equipo de los Puntos de Control se asigna de forma aleatoria al co
 "TF2C_ACHIEVEMENT_ARCHAEOLOGY_NAME"						"Arqueología"
 "TF2C_ACHIEVEMENT_ARCHAEOLOGY_DESC"						"Descubre un tesoro escondido en Jinn."
 "TF2C_ACHIEVEMENT_AIRHOCKEY_NAME"						"Creador de jugadas"
-"TF2C_ACHIEVEMENT_AIRHOCKEY_DESC"						"Gana una partida de Hockey de Aire en 2Bridge."
+"TF2C_ACHIEVEMENT_AIRHOCKEY_DESC"						"Gana una partida de Hockey de Aire en 2Bridge contra otro jugador."
 "TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_NAME"					"Jugada gallina"
 "TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_DESC"					"Persigue a una gallina hacia una muerte ambiental." 
 "TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_NAME"					"Agente triple"
@@ -1468,34 +1487,34 @@ El dueño del equipo de los Puntos de Control se asigna de forma aleatoria al co
 // ----------------------------------------------------------------
 // Server Browser
 // ----------------------------------------------------------------
-"ServerBrowser_PlayerCount" "%s1/%s2"
-"ServerBrowser_LatencyDetail" "Latencia: %s1"
-"ServerBrowser_IPAddressDetail" "Dirección IP: %s1"
-"ServerBrowser_PlayerListHeading" "Jugadores (%s1/%s2, %s3 bots):"
-"ServerBrowser_NotFullFilter" "El servidor no está lleno"
-"ServerBrowser_HasPlayersFilter" "Tiene usuarios jugando"
-"ServerBrowser_NoPasswordFilter" "No esta protegido por contraseña"
-"ServerBrowser_HasTagsFilter" "Tiene etiquetas"
-"ServerBrowser_MaxLatencyFilter" "Latencia máxima"
-"ServerBrowser_MaxPlayersFilter" "Jugadores máximos"
-"ServerBrowser_ServerTypeFilter" "Tipo de servidor"
-"ServerBrowser_MapNameFilter" "Nombre de mapa"
-"ServerBrowser_SortBy" "Ordenar por:"
-"ServerBrowser_SortByName" "Nombre"
-"ServerBrowser_SortByMap" "Mapa"
-"ServerBrowser_SortByPlayers" "Jugadores"
-"ServerBrowser_SortByLatency" "Latencia"
-"ServerBrowser_SortByLastPlayed" "Última conexión"
-"ServerBrowser_UseLegacyBrowser" "Buscador clásico"
-"ServerBrowser_CurrentMapHeading" "Mapa actual:"
-"ServerBrowser_TagListHeading" "Etiquetas:"
-"ServerBrowser_OfficialDetail" "Este servidor es oficial"
-"ServerBrowser_VerifiedDetail" "Este servidor está verificado"
-"ServerBrowser_Any" "Cualquiera"
-"ServerBrowser_Official" "Oficial"
-"ServerBrowser_Verified" "Verificado"
-"ServerBrowser_OfficialOrVerified" "Oficial o verificado"
-"ServerBrowser_CustomRules"	"Reglas personalizadas"
-"ServerBrowser_CustomWeapons" "Armas personalizadas"
+"ServerBrowser_PlayerCount" 		"%s1/%s2"
+"ServerBrowser_LatencyDetail" 		"Latencia: %s1"
+"ServerBrowser_IPAddressDetail" 	"Dirección IP: %s1"
+"ServerBrowser_PlayerListHeading"	"Jugadores (%s1/%s2, %s3 bots):"
+"ServerBrowser_NotFullFilter" 		"El servidor no está lleno"
+"ServerBrowser_HasPlayersFilter"    "Tiene usuarios jugando"
+"ServerBrowser_NoPasswordFilter"    "No esta protegido por contraseña"
+"ServerBrowser_HasTagsFilter"       "Tiene etiquetas"
+"ServerBrowser_MaxLatencyFilter"    "Latencia máxima"
+"ServerBrowser_MaxPlayersFilter"    "Jugadores máximos"
+"ServerBrowser_ServerTypeFilter"    "Tipo de servidor"
+"ServerBrowser_MapNameFilter"       "Nombre de mapa"
+"ServerBrowser_SortBy"              "Ordenar por:"
+"ServerBrowser_SortByName"          "Nombre"
+"ServerBrowser_SortByMap"           "Mapa"
+"ServerBrowser_SortByPlayers"       "Jugadores"
+"ServerBrowser_SortByLatency"       "Latencia"
+"ServerBrowser_SortByLastPlayed"    "Última conexión"
+"ServerBrowser_UseLegacyBrowser"    "Buscador clásico"
+"ServerBrowser_CurrentMapHeading"   "Mapa actual:"
+"ServerBrowser_TagListHeading"      "Etiquetas:"
+"ServerBrowser_OfficialDetail"      "Este servidor es oficial"
+"ServerBrowser_VerifiedDetail"      "Este servidor está verificado"
+"ServerBrowser_Any"                 "Cualquiera"
+"ServerBrowser_Official"            "Oficial"
+"ServerBrowser_Verified"            "Verificado"
+"ServerBrowser_OfficialOrVerified"  "Oficial o verificado"
+"ServerBrowser_CustomRules"         "Reglas personalizadas"
+"ServerBrowser_CustomWeapons"       "Armas personalizadas"
 }
 }
