@@ -596,9 +596,9 @@
 "TF_Weapon_EMPGrenadeLauncher"		"Lança-Granadas PEM"
 "TF_Weapon_Grenade"					"Granada"
 "TF_Weapon_HealGrenadeLauncher"		"Lança-Granadas de Cura"
-"TF_Weapon_LunchBox"				"Lanche"
+"TF_Weapon_LunchBox"				"Lancheira"
 "TF_Weapon_PDA"						"PDA"
-"TF_Weapon_ProximityMineLauncher"	"Proximity Mine Launcher"
+"TF_Weapon_ProximityMineLauncher"	"Lançador de Minas de Proximidade"
 "TF_Weapon_Scythe"					"Foice"
 "TF_Weapon_Syringe"					"Seringa"
 "TF_Weapon_Taser"					"Taser"
@@ -608,7 +608,7 @@
 // Weapon meters
 // ----------------------------------------------------------------
 
-"TF_Meter_Airtime"	"AIRTIME"
+"TF_Meter_Airtime"	"TEMPO AÉREO"
 "TF_Meter_Brick"	"TIJOLO"
 "TF_Meter_Cloak"	"CAMUFL."
 "TF_Meter_Crits"	"CRITS"
