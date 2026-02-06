@@ -1094,13 +1094,13 @@ Team ownership of Control Points is randomized at the start of each round."
 // Main Menu
 // ----------------------------------------------------------------
 
-"TF_Menu_Welcome"			"Bem-vindo(a) novamente,"
+"TF_Menu_Welcome"			"Bem-vindo(a) de novo,"
 
 "TF_Menu_ResumeGame"		"Continuar jogo"
 "TF_Menu_Mute"				"Silenciar jogadores"
 "TF_Menu_Vote"				"Iniciar votação"
 
-"TF_Menu_FindServers"		"Jogar TF2 Classified"
+"TF_Menu_FindServers"		"Procurar Servidores"
 "TF_Menu_CreateServer"		"Criar um servidor"
 "TF_Menu_OfflineTraining"	"Partida offline"
 
@@ -1110,7 +1110,7 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_Menu_Stats"				"Estatísticas"
 
 "TF_Menu_Options"			"Opções"
-"TF_Menu_Addons"			"Complementos (em breve!)"
+"TF_Menu_Addons"			"Addons (em breve!)"
 
 "TF_Menu_Quit"				"Sair"
 "TF_Menu_Disconnect"		"Desconectar"
@@ -1216,7 +1216,7 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF2c_MouseAccelerationStrength"		"Mouse Acceleration Strength"
 
 "TF2c_Options_Game"                     "JOGO"
-"TF2c_Options_Input"                    "INPUT"
+"TF2c_Options_Input"                    "ENTRADA"
 "TF2c_Options_Video"                    "VÍDEO"
 "TF2c_Options_Audio"                    "ÁUDIO"
 "TF2c_Options_MultiPlayer"              "MULTIJOGADOR"
@@ -1509,8 +1509,8 @@ Team ownership of Control Points is randomized at the start of each round."
 "ServerBrowser_SortByName" "Nome"
 "ServerBrowser_SortByMap" "Mapa"
 "ServerBrowser_SortByPlayers" "Jogadores"
-"ServerBrowser_SortByLatency" "Latẽncia"
-"ServerBrowser_SortByLastPlayed" "Last played"
+"ServerBrowser_SortByLatency" "Latência"
+"ServerBrowser_SortByLastPlayed" "Jogado por último"
 "ServerBrowser_UseLegacyBrowser" "Usar navegador antigo"
 "ServerBrowser_CurrentMapHeading" "Mapa atual:"
 "ServerBrowser_TagListHeading" "Marcadores:"
