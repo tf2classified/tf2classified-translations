@@ -760,104 +760,104 @@
 // ----------------------------------------------------------------
 
 // cp_amaranth
-"Amaranth_cap_A"	"the Warehouses"
-"Amaranth_cap_B"	"RED's Shipping Facility"
+"Amaranth_cap_A"	"os Armazéns"
+"Amaranth_cap_B"	"Centro de Distribuição da RED"
 
 // 4dom_hydro
-"Hydro_dom_cap_warehouse"	"A, the Warehouse"
-"Hydro_dom_cap_radar_dish"	"B, the Radar Dish"
-"Hydro_dom_cap_power_plant"	"C, the Power Plant"
-"Hydro_dom_cap_dam"			"D, the Dam"
+"Hydro_dom_cap_warehouse"	"A, O Armazém"
+"Hydro_dom_cap_radar_dish"	"B, A Antena"
+"Hydro_dom_cap_power_plant"	"C, A Usina Elétrica"
+"Hydro_dom_cap_dam"			"D, A Represa"
 
 // vip_mineside
-"vip_mineside_description"	"Objective:
-RED team wins by preventing the VIP from reaching the Escape Zone. BLU team wins by escorting the VIP to the Escape Zone.
+"vip_mineside_description"	"Objetivo:
+A equipe RED vence ao impedir que o VIP chegue à Zona de Fuga. A equipe BLU vence ao escoltar o VIP até a Zona de Fuga.
 
-Other Notes:
-The Escape Zone can't open until you deliver the Suitcase Device to the Control Room next to the Escape Zones gate.
+Outras observações:
+A Zona de Fuga não pode ser aberta até que o Dispositivo da Maleta seja entregue à Sala de Controle ao lado do portão da Zona de Fuga.
 
-If BLU delivers the Suitcase Device, the gates timer will count down from 60 seconds before closing again."
+Se a BLU entregar o Dispositivo da Maleta, o temporizador do portão começará a contagem regressiva de 60 segundos antes de se fechar novamente."
 
-"Mineside_setup_goal_red"	"Kill the VIP to stop him from reaching the Escape Zone. Prevent him from grabbing the Device."
-"Mineside_setup_goal_blu"	"Escort the VIP to the Escape Zone. Deliver the Device to the Control Room to open the gate."
+"Mineside_setup_goal_red"	"Elimine o VIP para impedi-lo de chegar à Zona de Fuga. Impeça-o de pegar o dispositivo."
+"Mineside_setup_goal_blu"	"Acompanhe o VIP até a Zona de Fuga. Entregue o dispositivo na Sala de Controle para abrir o portão."
 
-"Mineside_escape_zone"	"the Escape Tunnel"
+"Mineside_escape_zone"	"o Túnel de Fuga"
 
 // dom_oilcanyon
-"Oilcanyon_cap_A"	"cap A, the Canyon"
-"Oilcanyon_cap_B"	"cap B, the Laser Gun"
-"Oilcanyon_cap_C"	"cap C, the Refinery"
+"Oilcanyon_cap_A"	"ponto A, o Cânion"
+"Oilcanyon_cap_B"	"ponto B, a Arma Laser"
+"Oilcanyon_cap_C"	"ponto C, a Refinaria"
 
 // vip_trainyard
-"Trainyard_escape_zone"	"the Escape Vehicle"
+"Trainyard_escape_zone"	"o Veículo de Fuga"
 
 // vip_harbor
-"Harbor_cap_1"			"the Loading Dock"
-"Harbor_cap_2"			"the Waterfront"
-"Harbor_cap_3"			"the Warehouse"
+"Harbor_cap_1"			"a Doca de Carga"
+"Harbor_cap_2"			"a Orla Marítima"
+"Harbor_cap_3"			"o Armazém"
 
 // 4dom_krepost
-"dom_krepost_description"	"Objective:
-To win, each team must capture and hold the currently active Control Point to gain points.
+"dom_krepost_description"	"Objetivo:
+Para vencer, cada equipe deve capturar e manter o Ponto de Controle atualmente ativo para ganhar pontos.
 
-The active Control Point switches to a random team's base every 60 seconds.
+O Ponto de Controle ativo muda para a base de uma equipe aleatória a cada 60 segundos.
 
-Other Notes:
-Contesting the Control Point stops the enemy from gaining points.
+Outra Observações:
+Contestar o Ponto de Controle impede o inimigo de ganhar pontos.
 
-The active Control Point will lock when a new Control Point is chosen.
+O Ponto de Controle ativo será bloqueado quando um novo Ponto de Controle for escolhido.
 
-Honorable hand to sword combat only!"
+Apenas combate honrado, espada contra espada!"
 
 "Krepost_cap_red"	"castelo da RED"
 "Krepost_cap_blu"	"castelo da BLU"
 "Krepost_cap_grn"	"castelo da GRN"
 "Krepost_cap_ylw"	"castelo da YLW"
 
-"Krepost_attack_red"	"RED's gate is open!"
-"Krepost_attack_blu"	"BLU's gate is open!"
-"Krepost_attack_grn"	"GRN's gate is open!"
-"Krepost_attack_ylw"	"YLW's gate is open!"
+"Krepost_attack_red"	"portão da RED está aberto!"
+"Krepost_attack_blu"	"portão da BLU está aberto!"
+"Krepost_attack_grn"	"portão da GRN está aberto!"
+"Krepost_attack_ylw"	"portão da YLW está aberto!"
 
 // td_caper
-"Caper_cap_A"	"cap A, the Laser Tower"
-"Caper_cap_B"	"cap B, the Silos"
-"Caper_cap_C"	"cap C, the Sewer"
+"Caper_cap_A"	"ponto A, a Torre do Laser"
+"Caper_cap_B"	"ponto B, os Silos"
+"Caper_cap_C"	"ponto C, o Esgoto"
 
 // vipr_2bridge
 "2Bridge_cap_A"	"a ponte da RED"
 "2Bridge_cap_B"	"a ponte da BLU"
 
 // vipr_drizzle
-"Drizzle_cap_A"	"the RED Mine Entrance"
-"Drizzle_cap_B"	"the BLU Mine Entrance"
+"Drizzle_cap_A"	"a Entrada da Mina RED"
+"Drizzle_cap_B"	"a Entrada da Mina BLU"
 
 // dom_railway
-"Railway_cap_A"	"cap A, the Garage"
-"Railway_cap_B"	"cap B, the Loading Hall"
-"Railway_cap_C"	"cap C, the Stockyard"
+"Railway_cap_A"	"ponto A, a Garagem"
+"Railway_cap_B"	"ponto B, o Hall de Carga"
+"Railway_cap_C"	"ponto C, o Curral"
 
 // dom_sawtooth
-"Sawtooth_cap_A"	"cap A, the Lookout"
-"Sawtooth_cap_B"	"cap B, the Sawmill"
-"Sawtooth_cap_C"	"cap C, the Radio Tower"
+"Sawtooth_cap_A"	"ponto A, o Mirante"
+"Sawtooth_cap_B"	"ponto B, a Serraria"
+"Sawtooth_cap_C"	"ponto C, a Torre de Rádio"
 
 // td_sunnyside
-"Sunnyside_cap_A"	"cap A, the Barns"
-"Sunnyside_cap_B"	"cap B, the Tanks"
-"Sunnyside_cap_C"	"cap C, the Coops"
+"Sunnyside_cap_A"	"ponto A, os Celeiros"
+"Sunnyside_cap_B"	"ponto B, os Tanques"
+"Sunnyside_cap_C"	"ponto C, as Cooperativas"
 
 // vip_avanti
-"Avanti_red_setup_goal"		"Move downhill and kill the enemy team's VIP to prevent him from reaching the Escape Zone!"
-"Avanti_blue_setup_goal"	"Move uphill and escort the VIP to the Escape Zone!"
-"Avanti_cap_1"				"the Storeroom"
-"Avanti_cap_2"				"the Terrace"
-"Avanti_cap_3"				"the Bell Tower"
-"Avanti_cap_4"				"the Front Gates"
+"Avanti_red_setup_goal"		"Desça a colina e elimine o VIP da equipe inimiga para impedi-lo de chegar à Zona de Fuga!"
+"Avanti_blue_setup_goal"	"Suba a colina e acompanhe o VIP até a Zona de Fuga!"
+"Avanti_cap_1"				"o Depósito"
+"Avanti_cap_2"				"o Terraço"
+"Avanti_cap_3"				"a Torre do Sino"
+"Avanti_cap_4"				"os Portões da Frente"
 
 // vipr_chopper
-"Chopper_cap_A"				"the RED Radar"
-"Chopper_cap_B"				"the BLU Radar"
+"Chopper_cap_A"				"o Radar RED"
+"Chopper_cap_B"				"o Radar BLU"
 
 // ----------------------------------------------------------------
 // Gamemodes
