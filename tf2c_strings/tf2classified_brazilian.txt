@@ -902,29 +902,29 @@ Apenas combate honrado, espada contra espada!"
 // ----------------------------------------------------------------
 
 // Domination
-"default_dom_description"	"Objective:
-To win, each team must capture and hold Control Points to gain points. The more Control Points you own, the faster you gain points.
+"default_dom_description"	"Objetivo:
+Para vencer, cada equipe deve capturar e manter Pontos de Controle para ganhar pontos. Quanto mais Pontos de Controle você possuir, mais rápido ganhará pontos.
 
-Other Notes:
-Contesting a Control Point stops the enemy from gaining points using that Control Point.
+Outras observações:
+Disputar um Ponto de Controle impede o inimigo de ganhar pontos usando aquele Ponto de Controle.
 
-If your team is behind, capture all of the Control Points to gain a score bonus."
+Se sua equipe estiver atrás no placar, capture todos os Pontos de Controle para ganhar um bônus de pontuação."
 
-"domination_setup_goal"	"Capture Control Points to gain points over time. Capturing more than one point will increase your chance of success!"
+"domination_setup_goal"	"Capture Pontos de Controle para ganhar pontos ao longo do tempo. Capturar mais de um ponto aumentará suas chances de sucesso!"
 
 // VIP
-"default_vip_description"	"Objective:
-BLU team wins by escorting the VIP to the Escape Zone before the time runs out. RED team wins by preventing him from reaching the escape zone.
+"default_vip_description"	"Objetivo:
+A equipe BLU vence ao escoltar o VIP até a Zona de Fuga antes que o tempo acabe. A equipe RED vence ao impedi-los de chegar à Zona de Fuga.
 
-Other Notes:
-BLU team can freeze the capture progress of a Control Point if the VIP isn't present."
+Outras observações:
+A equipe BLU pode congelar o progresso da captura de um Ponto de Controle se o VIP não estiver presente."
 
 "vip_setup_goal_offense"	"Escolte o VIP até a zona de fuga."
 "vip_setup_goal_defense"	"Elimine o VIP da equipe inimiga para impedí-lo de alcançar a zona de fuga."
 
 "TF_VIP_Assigned"				"%s1 tornou-se o VIP!"
-"TF_VIP_Tutorial_Annotation_2"	"He provides a defensive boost to those around him and\ncan also temporarily buff a member of his team with Mini-Crits!"
-"TF_VIP_Tutorial_Annotation_3"	"But remember, his life is more important than yours, so don't let him die!"
+"TF_VIP_Tutorial_Annotation_2"	"Ele oferece um aumento defensivo para aqueles ao seu redor e também pode fortalecer temporariamente um membro de sua equipe com Mini-Críticos!"
+"TF_VIP_Tutorial_Annotation_3"	"Mas lembre-se, a vida dele é mais importante que a sua, então não deixe ele morrer!"
 
 "Cant_cap_civilian_only"		"Apenas o VIP pode\n capturar este ponto."
 "Cant_cap_civilian_only_frozen"	"Captura pausada\n Apenas o VIP pode\n capturar este ponto."
@@ -934,38 +934,38 @@ BLU team can freeze the capture progress of a Control Point if the VIP isn't pre
 "vipl_setup_goal_defense"	"Elimine o VIP da equipe inimiga ou impeça-o de atingir a zona de fuga para vencer."
 
 // VIP (Flags)
-"vip_bring_flag_here"	"Bring the device here!"
-"vip_bring_flag"		"Bring the device to the Control Room!"
+"vip_bring_flag_here"	"Traga o aparelho aqui!"
+"vip_bring_flag"		"Leve o dispositivo para a Sala de Controle!"
 
-"TF_VIP_TakeDeviceToPoint"		"Take the Device to the Control Room!"
-"TF_VIP_TeamDeviceReturned"		"The Device has returned! Go get it!"
-"TF_VIP_EnemyDeviceReturned"	"The Device has returned! Defend the drop site!"
+"TF_VIP_TakeDeviceToPoint"		"Leve o dispositivo para a Sala de Controle!"
+"TF_VIP_TeamDeviceReturned"		"O Dispositivo retornou! Vá buscá-lo!"
+"TF_VIP_EnemyDeviceReturned"	"O Dispositivo retornou! Defenda o ponto de entrega!"
 
 // VIP Race
-"default_vipr_description"	"Objective:
-Escort your VIP to the Control Points followed by the Escape Zone to win. Kill the enemy VIP to reset any Control Points they have claimed.
+"default_vipr_description"	"Objetivo:
+Para vencer, escolte seu VIP até os Pontos de Controle e, em seguida, até a Zona de Fuga. Elimine o VIP inimigo para redefinir os Pontos de Controle que ele já tenha conquistado.
 
-Other Notes:
-If your VIP dies, you lose any Control Points your VIP has captured.
+Outras observações:
+Se o seu VIP morrer, você perde todos os Pontos de Controle que ele capturou.
 
-Either team can freeze the capture progress of a Control Point if their VIP isn't present.
+Qualquer uma das equipes pode congelar o progresso da captura de um Ponto de Controle se seu VIP não estiver presente.
 
-If Sudden Death occurs, the enemy VIP can be killed to win the round!"
+Se ocorrer Morte Súbita, o VIP inimigo pode ser eliminado para vencer a rodada!"
 
-"vipr_setup_goal"		"Escort your VIP to the Control Points. Stop the enemy VIP from doing the same!"
-"vipr_setup_goal_4team"	"Escort your VIP to the Control Points. Stop the enemy teams from doing the same!"
+"vipr_setup_goal"		"Escolte seu VIP até os Pontos de Controle. Impeça o VIP inimigo de fazer o mesmo!"
+"vipr_setup_goal_4team"	"Escolte seu VIP até os Pontos de Controle. Impeça que as equipes inimigas façam o mesmo!"
 
-"vipr_cap_wrong_vip"	"Capture o ponto de controle do INIMIGO, bobinho!"
+"vipr_cap_wrong_vip"	"Capture o ponto de controle do INIMIGO, idiota!"
 "vipr_own_civ_death"	"O VIP aliado foi eliminado! Proteja-o!"
 "vipr_their_civ_death"	"Bom trabalho! O VIP inimigo foi eliminado!"
-"vipr_cap_a_reset"		"Control Point A has been reset!"
-"vipr_cap_b_reset"		"Control Point B has been reset!"
-"vipr_cap_a_reset_vip"	"You died! Control Point A has been reset!"
-"vipr_cap_b_reset_vip"	"You died! Control Point B has been reset!"
+"vipr_cap_a_reset"		"Ponto de Controle A foi reiniciado!"
+"vipr_cap_b_reset"		"Ponto de Controle B foi reiniciado!"
+"vipr_cap_a_reset_vip"	"Você morreu! Ponto de Controle A foi reiniciado!"
+"vipr_cap_b_reset_vip"	"Você morreu! Ponto de Controle B foi reiniciado!"
 
-"vipr_central_point"		"o ponto de controle central"
-"vipr_cap_mid_reset"		"The Central Control Point has been reset!"
-"vipr_death_cap_mid_reset"	"You died! The Central Control Point has been reset!"
+"vipr_central_point"		"o Ponto de Controle Central"
+"vipr_cap_mid_reset"		"O Ponto de Controle Central foi reiniciado!"
+"vipr_death_cap_mid_reset"	"Você morreu! O Ponto de Controle Central foi reiniciado!"
 
 "vipr_red_civ_death"	"O VIP da RED foi eliminado!"
 "vipr_blu_civ_death"	"O VIP da BLU foi eliminado!"
@@ -975,13 +975,13 @@ If Sudden Death occurs, the enemy VIP can be killed to win the round!"
 "vipr_escape_zone"	"a Zona de Fuga"
 
 // Territorial Domination
-"default_td_description"			"Objective:
-To win, each team must own all Control Points.
+"default_td_description"			"Objetivo:
+Para vencer, cada equipe deve controlar todos os Pontos de Controle.
 
-Other Notes:
-You spawn at the Control Points you own.
+Outras observações:
+Você revive nos Pontos de Controle que possui.
 
-Team ownership of Control Points is randomized at the start of each round."
+A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cada rodada."
 
 // Payload Race (Four-Team)
 "4plr_goal"	"Escolte o seu carrinho com a carga explosiva até o ponto final para vencer!"
@@ -1202,7 +1202,8 @@ Team ownership of Control Points is randomized at the start of each round."
 // Scoreboard Options
 "TF_Enable"								"Ativar"
 "TF_Disable"							"Desativar"
-"TF_RightClick_Enable"					"Botão direito para ativar"
+"TF_RightClick_Enable"					"Botão direito para Ativar"
+"TF_RightClick_Enable_Mouse"			"Botão direito para Ativar o Mouse"
 
 // UI options
 "TF_Open_Charinfo"						"Abrir equipamento do personagem"
