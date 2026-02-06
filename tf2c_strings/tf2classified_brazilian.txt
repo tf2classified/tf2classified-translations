@@ -94,7 +94,7 @@
 "TF_playerid_wpn"						"%s1"
 
 // Boosts
-"TF_playerid_healer"					"Cura por: "
+"TF_playerid_healer"					"Sendo Curado por: "
 "TF_playerid_healtarget"				"Curando: "
 "TF_playerid_mediccharge"				"ÜberCarga: %s1"
 "TF_playerid_mediccharge_wpn"			"ÜberCarga: %s1 (%s2%)"
@@ -402,19 +402,19 @@
 "TF_Weapon_Bottle_Desc"	"Não, não, isso foi feito pra encher a cara!"
 // Fire Axe
 "TF_Weapon_FireAxe"			"Machado de Incêndio"
-"TF_Weapon_FireAxe_Desc"	"Teach the valuable lesson of fire safety."
+"TF_Weapon_FireAxe_Desc"	"Ensine a valiosa lição de segurança contra incêndios."
 // Kukri
 "TF_Weapon_Kukri"		"Kukri"
-"TF_Weapon_Kukri_Desc"	"Cut up by a sharpshooter. Now that's a folly."
+"TF_Weapon_Kukri_Desc"	"Alvejado por um atirador de elite. Isso sim é uma loucura."
 // Knife
 "TF_Weapon_Knife"		"Faca"
-"TF_Weapon_Knife_Desc"	"For the man who loves to watch things unfold."
+"TF_Weapon_Knife_Desc"	"Para o homem que adora observar os acontecimentos."
 // Fists
 "TF_Weapon_Fists"		"Punhos"
-"TF_Weapon_Fists_Desc"	"I am not done with you yet!"
+"TF_Weapon_Fists_Desc"	"Eu ainda não terminei com você!"
 // Shovel
 "TF_Weapon_Shovel"		"Pá"
-"TF_Weapon_Shovel_Desc"	"Bury your enemies in times of war, and rob their graves in times of relative peace."
+"TF_Weapon_Shovel_Desc"	"Enterre seus inimigos em tempos de guerra e roube seus túmulos em tempos de relativa paz."
 // Wrench
 "TF_Weapon_Wrench"		"Chave Inglesa"
 "TF_Weapon_Wrench_Desc"	"Eu faço um pouco de tudo."
@@ -423,47 +423,47 @@
 "TF_Weapon_Bonesaw_Desc"	"Não se preocupe, o sangue não é meu! ...Pera, agora que estou vendo, não tenho tanta certeza."
 // Shotgun
 "TF_Weapon_Shotgun"					"Escopeta"
-"TF_Weapon_Shotgun_Desc_Engineer"	"Sometimes, you just have to do things yourself."
-"TF_Weapon_Shotgun_Desc_Soldier"	"My shotgun disagrees with your will to live, maggot!"
-"TF_Weapon_Shotgun_Desc_Heavy"		"Heavy will make do with this."
-"TF_Weapon_Shotgun_Desc_Pyro"		"Let this do the talking."
+"TF_Weapon_Shotgun_Desc_Engineer"	"Às vezes, você simplesmente precisa fazer as coisas por si mesmo."
+"TF_Weapon_Shotgun_Desc_Soldier"	"Minha escopeta discorda da sua vontade de viver, verme!"
+"TF_Weapon_Shotgun_Desc_Heavy"		"Heavy vai se virar com isso."
+"TF_Weapon_Shotgun_Desc_Pyro"		"Que isto fale por si."
 // Scattergun
 "TF_Weapon_Scattergun"		"Espingarda"
-"TF_Weapon_Scattergun_Desc"	"Relax, pal, I just winged ya!"
+"TF_Weapon_Scattergun_Desc"	"Relaxa, cara, eu só dei uma dica!"
 // Sniper Rifle
 "TF_Weapon_SniperRifle"			"Rifle de Precisão"
-"TF_Weapon_SniperRifle_Desc"	"Gets the job done."
+"TF_Weapon_SniperRifle_Desc"	"Cumpre a função."
 // Minigun
 "TF_Weapon_Minigun"			"Metralhadora Giratória"
-"TF_Weapon_Minigun_Desc"	"Sascha não escuta Heavy. Você acha ela escuta VOCÊ?"
+"TF_Weapon_Minigun_Desc"	"Sascha não escuta Heavy. Você acha que ela vai escutar VOCÊ?"
 // SMG
 "TF_Weapon_SMG"			"Submetralhadora"
-"TF_Weapon_SMG_Desc"	"Now how about that? We're both more dangerous up close."
+"TF_Weapon_SMG_Desc"	"E aí, o que acha? Nós dois somos mais perigosos de perto."
 // Syringe Gun
 "TF_Weapon_SyringeGun"		"Arma de Seringas"
-"TF_Weapon_SyringeGun_Desc"	"Ooh, you make a good sharps container!"
+"TF_Weapon_SyringeGun_Desc"	"Nossa... Você é um ótimo recipiente para objetos cortantes!"
 // Rocket Launcher
 "TF_Weapon_RocketLauncher"		"Lança-Foguetes"
 "TF_Weapon_RocketLauncher_Desc"	"A arma perfeita para o Soldier perfeito!"
 // Grenade Launcher
 "TF_Weapon_GrenadeLauncher"			"Lança-Granadas"
-"TF_Weapon_GrenadeLauncher_Desc"	"Leave it to me, lad."
+"TF_Weapon_GrenadeLauncher_Desc"	"Deixa comigo, rapaz."
 // Stickybomb Launcher
 "TF_Weapon_StickybombLauncher"		"Lança-Stickybombs"
-"TF_Weapon_StickybombLauncher_Desc"	"I'll blast 'em straight up inta Heaven meself if I need ta."
+"TF_Weapon_StickybombLauncher_Desc"	"Se precisar, eu mesmo os mandarei direto para o céu."
 // Flame Thrower
 "TF_Weapon_FlameThrower"		"Lança-Chamas"
-"TF_Weapon_FlameThrower_Desc"	"Things are heating up..."
+"TF_Weapon_FlameThrower_Desc"	"As coisas estão esquentando..."
 // Pistol
 "TF_Weapon_Pistol"					"Pistola"
-"TF_Weapon_Pistol_Desc_Engineer"	"Start dancin', boy."
-"TF_Weapon_Pistol_Desc_Scout"		"Everyone's outta range 'til they ain't."
+"TF_Weapon_Pistol_Desc_Engineer"	"Comece a dançar, garoto."
+"TF_Weapon_Pistol_Desc_Scout"		"Todo mundo está fora de alcance até que deixe de estar."
 // Revolver
 "TF_Weapon_Revolver"		"Revólver"
-"TF_Weapon_Revolver_Desc"	"For when stealth is no longer an option."
+"TF_Weapon_Revolver_Desc"	"Para quando a furtividade não for mais uma opção."
 // PDA: Teleporter (Construction PDA)
 "TF_Weapon_ConstructionPDA"			"PDA de Construção"
-"TF_Weapon_ConstructionPDA_Desc"	"Everything an Engineer like myself needs, all in this little device here."
+"TF_Weapon_ConstructionPDA_Desc"	"Tudo que um Engineer como eu precisa, tudo neste pequeno dispositivo aqui."
 "TF_Weapon_PDATeleporter"			"PDA: Teletransportador"
 // Destruction PDA
 "TF_Weapon_DestructionPDA"	"PDA de Demolição"
@@ -471,13 +471,13 @@
 "TF_Weapon_DisguiseKit"	"Kit de Disfarce"
 // Medi Gun
 "TF_Weapon_Medigun"			"Arma Médica"
-"TF_Weapon_Medigun_Desc"	"You do all have the same blood type, yes? More or less?"
+"TF_Weapon_Medigun_Desc"	"Vocês todos têm o mesmo tipo sanguíneo, certo? Muito ou pouco?"
 // Invis Watch
 "TF_Weapon_InvisWatch"		"Relógio de Invisibilidade"
-"TF_Weapon_InvisWatch_Desc"	"Stylish. A shame they'll never see it."
+"TF_Weapon_InvisWatch_Desc"	"Estiloso. Uma pena que eles nunca vão ver."
 // Sapper
 "TF_Weapon_Sapper"		"Sabotador"
-"TF_Weapon_Sapper_Desc"	"Who left that there?"
+"TF_Weapon_Sapper_Desc"	"Quem deixou isso aí?"
 
 // ----------------------------------------------------------------
 // Achievement weapon strings
