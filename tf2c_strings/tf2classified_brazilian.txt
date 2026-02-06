@@ -1136,21 +1136,21 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 // ----------------------------------------------------------------
 
 // Loadout gamemode indicator
-"TF_Loadout_Modifier_StockItemsOnly"		"Stock Items Only!"
-"TF_Loadout_Modifier_MedievalItemsOnly"		"\"Medieval\" Items Only!"
-"TF_Loadout_Modifier_RandomizerClasses"		"Randomized Classes!"
-"TF_Loadout_Modifier_RandomizerItems"		"Randomized Items!"
-"TF_Loadout_Modifier_RandomizerAttributes"	"Randomized Attributes!"
-"TF_Loadout_Modifier_RandomizerMayhem"		"Randomizer Mayhem!"
-"TF_Loadout_Modifier_CustomWeaponsEnabled"	"Custom Weapons Enabled!"
+"TF_Loadout_Modifier_StockItemsOnly"		"Somente Itens Padrões!"
+"TF_Loadout_Modifier_MedievalItemsOnly"		"Apenas Itens \"Medievais\"!"
+"TF_Loadout_Modifier_RandomizerClasses"		"Classes Aleatórias!"
+"TF_Loadout_Modifier_RandomizerItems"		"Itens Aleatórios!"
+"TF_Loadout_Modifier_RandomizerAttributes"	"Atributos Aleatórios!"
+"TF_Loadout_Modifier_RandomizerMayhem"		"Caos Aleatórios!"
+"TF_Loadout_Modifier_CustomWeaponsEnabled"	"Armas Personalizadas Ativadas!"
 
 // Item slot types
-"TF_Loadout_Slot_Invalid"		"Invalid"
-"TF_Loadout_Slot_Primary"		"Primary"
-"TF_Loadout_Slot_Secondary"		"Secondary"
-"TF_Loadout_Slot_Melee"			"Melee"
-"TF_Loadout_Slot_Utility"		"Utility"
-"TF_Loadout_Slot_Building"		"Building"
+"TF_Loadout_Slot_Invalid"		"Inválido"
+"TF_Loadout_Slot_Primary"		"Primário"
+"TF_Loadout_Slot_Secondary"		"Secundário"
+"TF_Loadout_Slot_Melee"			"Corpo a corpo"
+"TF_Loadout_Slot_Utility"		"Utilidade"
+"TF_Loadout_Slot_Building"		"Construções"
 "TF_Loadout_Slot_PDA1"			"PDA"
 "TF_Loadout_Slot_PDA2"			"PDA2"
 
