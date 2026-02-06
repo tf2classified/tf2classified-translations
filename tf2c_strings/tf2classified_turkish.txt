@@ -10,8 +10,8 @@
 // Channels
 "Channel_All"			"HERKESE"
 "Channel_Team"			"TAKIMA"
-"Switch_All"			"(HERKESE değiştirmek için TAB)"
-"Switch_Team"			"(TAKIMA değiştirmek için TAB)"
+"Switch_All"			"(TAKIMA değiştirmek için TAB)"
+"Switch_Team"			"(HERKESE değiştirmek için TAB)"
 
 // Chat Prefixes
 "Chat_All"				"%s1: %s2"
@@ -253,7 +253,7 @@
 "Tip_5_3"		"Medic iken, hazırlık süresinde ÜberŞarjın çok daha hızlı dolar."
 "Tip_5_4"		"Medic iken, takım arkadaşlarını iyileştirerek ÜberŞarjını doldurabilir ve %attack2% tuşuna basarak onu kullanabilirsin."
 "Tip_5_5"		"Medic iken, yardım çağrısında bulunan takım arkadaşların için tetikte bekle. Ekrandaki imleçleri takip ederek onları bulabilirsin."
-"Tip_5_6"		"Medic iken, ölümsüzken sen ve iyileştirdiğin kişiler Kontrol Noktarı veya İstihbaratı ele geçiremez."
+"Tip_5_6"		"Medic iken, ölümsüzken sen ve iyileştirdiğin kişiler Kontrol Noktası veya İstihbaratı ele geçiremez."
 // Stock
 "Tip_5_7"		"Medic iken, iğnelerin kavisli ve gecikmeli yol aldığını unutma. İsabet sağlamak için vurmak istediğin hedefin biraz daha yukarısına nişan almalısın."
 "Tip_5_8"		"Medic iken, Sıhhi Silah'ı takım arkadaşlarını iyileştirmek için kullanabilir ve sağlık puanlarını geçici olarak normal sağlıklarının %150'sine kadar arttırabilirsin."
@@ -760,13 +760,13 @@
 "Hydro_dom_cap_dam"			"D, Baraj"
 
 // vip_mineside
-"vip_mineside_description"	"Objective:
-RED takımı VIP'nin Kaçış Bölgesine erişmesini önleyerek kazanır. BLU takımı VIP'yi Kaçış Bölgesine refakat ederek kazanır
+"vip_mineside_description"	"Amaç:
+RED takımı VIP'nin Kaçış Bölgesine erişmesini önleyerek kazanır. BLU takımı VIP'yi Kaçış Bölgesine refakat ederek kazanır.
 
 Diğer Notlar:
 Kacış Bölgesi, geçidinin yanındaki Kontrol Odasına çantadaki Cihaz teslim edilene kadar açılamaz.
 
-Eğer BLU takımı Cihazı teslim ederse, geçit kapanmadan önce geriden 60 saniye sayıcak"
+Eğer BLU takımı Cihazı teslim ederse, geçit kapanmadan önce geriden 60 saniye sayıcak."
 
 "Mineside_setup_goal_red"	"VIP'yi Kaçış Bölgesine ulaşmasını engellemek için öldür. Cihazı ele geçirmesine izin verme."
 "Mineside_setup_goal_blu"	"VIP'yi Kaçış Bölgesine refakat et. Geçidi açmak için Cihazı Kontrol Odasına teslim et."
@@ -787,7 +787,7 @@ Eğer BLU takımı Cihazı teslim ederse, geçit kapanmadan önce geriden 60 san
 "Harbor_cap_3"			"Ambar"
 
 // 4dom_krepost
-"dom_krepost_description"	"Objective:
+"dom_krepost_description"	"Amaç:
 Kazanmak için, her takımdan biri mevcut aktif olan Kontrol Noktasını ele geçirip ve elde tutarak puan elde etmelidir.
 
 Aktif olan Kontrol Noktası her 60 saniye rastgele bir takımın üssüne geçer.
@@ -1040,7 +1040,7 @@ Kontrol Noktalarının takım sahipliği her rauntun başında rastgellenir."
 
 "TF_ScoreBoard_UberchargesLabel"	"ÜberŞarjlar:"
 "TF_ScoreBoard_TransportsLabel"		"Ulaşımlar:"
-"TF_ScoreBoard_DestructionLabel"	"Yıkım:"
+"TF_ScoreBoard_DestructionsLabel"	"Yıkım:"
 "TF_ScoreBoard_HeadshotsLabel"		"Kafadan Vuruşlar:"
 "TF_ScoreBoard_BackstabsLabel"		"Arkadan Bıçaklamalar:"
 
@@ -1161,117 +1161,118 @@ Kontrol Noktalarının takım sahipliği her rauntun başında rastgellenir."
 
 // TODO this is one big mess
 // Keyboard Options
-"TF2c_KeyboardCategory_Movement"        "MOVEMENT"
-"TF2c_KeyboardCategory_Combat"          "COMBAT"
-"TF2c_KeyboardCategory_Communication"   "COMMUNICATION"
+"TF2c_KeyboardCategory_Movement"        "HAREKET"
+"TF2c_KeyboardCategory_Combat"          "MÜCADELE"
+"TF2c_KeyboardCategory_Communication"   "İLETİŞİM"
 "TF2c_KeyboardCategory_UI"  		 	"UI"
-"TF2c_KeyboardCategory_Extra"			"EXTRA"
-"TF2c_UseDefaultsButton"				"Reset Binds"
-"TF_ClassSkill_Spy_Spywalk"				"SPY: Spywalk"
-"TF_Voice_Menu_0_0"						"Voice Command: MEDIC!"
-"TF_Voice_Menu_0_1"						"Voice Command: Thanks!"
-"TF_Voice_Menu_1_0"						"Voice Command: Incoming"
-"TF_Voice_Menu_1_1"						"Voice Command: Spy!"
-"TF_Voice_Menu_1_2"						"Voice Command: Sentry Ahead!"
-"TF_Voice_Menu_1_3"						"Voice Command: Teleporter Here"
-"TF_Voice_Menu_1_4"						"Voice Command: Dispenser Here"
-"TF_Voice_Menu_1_5"						"Voice Command: Sentry Here"
-"TF_Voice_Menu_1_6"						"Voice Command: Activate Charge"
-"TF_Voice_Menu_1_7"						"Voice Command: (MEDIC) ÜberCharge Status"
-"TF_Voice_Menu_2_0"						"Voice Command: Help!"
-"TF_Spec_Next"							"Next Spectate Target"
-"TF_Spec_Prev"							"Previous Spectate Target"
-"TF_Spec_Mode"							"Switch Spectate Mode"
-"TF_Use"								"Use (Interact)"
-"TF_Kill"								"Kill (Self)"
-"TF_Explode"							"Explode (Self)"
+"TF2c_KeyboardCategory_Extra"			"EKSTRA"
+"TF2c_UseDefaultsButton"				"Atamaları Sıfırla"
+"TF_ClassSkill_Spy_Spywalk"				"SPY: Kılık değiştirmişken normal hızda yürü"
+"TF_Voice_Menu_0_0"						"İletişim Komutu: MEDIC!"
+"TF_Voice_Menu_0_1"						"İletişim Komutu: Teşekkürler!"
+"TF_Voice_Menu_1_0"						"İletişim Komutu: Geliyorlar"
+"TF_Voice_Menu_1_1"						"İletişim Komutu: Spy!"
+"TF_Voice_Menu_1_2"						"İletişim Komutu: İleride Taret Var!"
+"TF_Voice_Menu_1_3"						"İletişim Komutu: Buraya Işınlayıcı"
+"TF_Voice_Menu_1_4"						"İletişim Komutu: Buraya Otomat"
+"TF_Voice_Menu_1_5"						"İletişim Komutu: Buraya Taret"
+"TF_Voice_Menu_1_6"						"İletişim Komutu: ÜberŞarjla"
+"TF_Voice_Menu_1_7"						"İletişim Komutu: (MEDIC) ÜberŞarj Durumu"
+"TF_Voice_Menu_2_0"						"İletişim Komutu: İmdat!"
+"TF_Spec_Next"							"Sonraki İzleme Hedefi"
+"TF_Spec_Prev"							"Önceki İzleme Hedefi"
+"TF_Spec_Mode"							"İzleme Modunu Değiştir"
+"TF_Use"								"Kullan (Etkileşim)"
+"TF_Kill"								"Öldür (Kendini)"
+"TF_Explode"							"Patlat (Kendini)"
 
 // Scoreboard Options
-"TF_Enable"								"Enable"
-"TF_Disable"							"Disable"
-"TF_RightClick_Enable"					"Right-Click to Enable"
+"TF_Enable"								"Etkinleştir"
+"TF_Disable"							"Devre Dışı Bırak"
+"TF_RightClick_Enable"					"Etkinleştirmek için Sağ Tıkla"
+"TF_RightClick_Enable_Mouse"			"Fareyi Etkinleştirmek için Sağ Tıkla"
 
 // UI options
-"TF_Open_Charinfo"						"Open Character Loadout"
+"TF_Open_Charinfo"						"Karakter Ekipmanını Aç"
 
-"TF2c_EnableGamepad"					"Enable Gamepad"
+"TF2c_EnableGamepad"					"Oyun Kumandasını Etkinleştir"
 
-"TF2c_MouseRawInput"					"Raw Input"
-"TF2c_MouseSensitivity"					"Mouse Sensitivity"
-"TF2c_MouseSmoothing"					"Mouse Smoothing"
-"TF2c_MouseAcceleration"				"Mouse Acceleration"
-"TF2c_MouseAccelerationStrength"		"Mouse Acceleration Strength"
+"TF2c_MouseRawInput"					"Raw Girişi"
+"TF2c_MouseSensitivity"					"Fare Hassasiyeti"
+"TF2c_MouseSmoothing"					"Fare Pürüzsüzleştirmesi"
+"TF2c_MouseAcceleration"				"Fare İvmesi"
+"TF2c_MouseAccelerationStrength"		"Fare İvmesi Güçlüğü"
 
-"TF2c_Options_Game"                     "GAME"
-"TF2c_Options_Input"                    "INPUT"
+"TF2c_Options_Game"                     "OYUN"
+"TF2c_Options_Input"                    "GİRİŞ"
 "TF2c_Options_Video"                    "VIDEO"
-"TF2c_Options_Audio"                    "AUDIO"
-"TF2c_Options_MultiPlayer"              "MULTIPLAYER"
+"TF2c_Options_Audio"                    "SES"
+"TF2c_Options_MultiPlayer"              "ÇOK OYUNCULU"
 
-"TF2c_OptionCategory_Mouse"				"MOUSE"
-"TF2c_OptionCategory_Joystick"			"GAMEPAD"
-"TF2c_OptionCategory_Keyboard"			"KEYBOARD"
+"TF2c_OptionCategory_Mouse"				"FARE"
+"TF2c_OptionCategory_Joystick"			"OYUN KUMANDASI"
+"TF2c_OptionCategory_Keyboard"			"KLAVYE"
 
-"TF2c_OptionCategory_Graphics"			"GRAPHICS"
+"TF2c_OptionCategory_Graphics"			"GRAFİKLER"
 "TF2c_OptionCategory_Video"				"VIDEO"
 
-"TF2c_OptionCategory_Volume"			"VOLUME"
-"TF2c_OptionCategory_Device"			"DEVICE"
-"TF2c_OptionCategory_Language"			"LANGUAGE"
-"TF2c_OptionCategory_Voice"				"VOICE"
+"TF2c_OptionCategory_Volume"			"SES SEVİYESİ"
+"TF2c_OptionCategory_Device"			"CİHAZ"
+"TF2c_OptionCategory_Language"			"DİL"
+"TF2c_OptionCategory_Voice"				"SESLİ SOHBET"
 
-"TF2c_OptionCategory_Combat"			"COMBAT"
-"TF2c_OptionCategory_HUD"				"HUD"
-"TF2c_OptionCategory_ViewModel"			"VIEWMODEL"
-"TF2c_OptionCategory_ClassSpecific"		"CLASS SPECIFIC"
-"TF2c_OptionCategory_Performance"		"PERFORMANCE"
-"TF2c_OptionCategory_Misc"				"MISC"
-"TF2c_OptionCategory_Replay"			"REPLAY"
+"TF2c_OptionCategory_Combat"			"MÜCADELE"
+"TF2c_OptionCategory_HUD"				"GÖSTERGE"
+"TF2c_OptionCategory_ViewModel"			"GÖRÜNÜM MODELİ"
+"TF2c_OptionCategory_ClassSpecific"		"SINIFA ÖZEL"
+"TF2c_OptionCategory_Performance"		"PERFORMANS"
+"TF2c_OptionCategory_Misc"				"DİĞER"
+"TF2c_OptionCategory_Replay"			"TEKRAR"
 "TF2c_OptionCategory_DemoSupport"		"DEMO"
-"TF2c_OptionCategory_Communication"		"COMMS"
+"TF2c_OptionCategory_Communication"		"İLETİŞİM"
 
-"TF2c_OptionCategory_CustomizationMultiplayer"			"Customization"
-"TF2c_OptionCategory_Network"							"NETWORK"
+"TF2c_OptionCategory_CustomizationMultiplayer"			"Özelleştirme"
+"TF2c_OptionCategory_Network"							"AĞ"
 
-"TF2c_MuteUnfocused"					"Mute unfocused"
+"TF2c_MuteUnfocused"					"Odaklanmamışken sustur"
 
-"TF2c_Options_Custom"					"Custom"
+"TF2c_Options_Custom"					"Özel"
 
-"TF2c_ChatFilterSettingsButton"			"Open Settings"
+"TF2c_ChatFilterSettingsButton"			"Ayarları Aç"
 
-"GameUI_CloseWithoutSaving"				"Close without Saving"
-"GameUI_CloseWithoutSavingText" 		"Are you sure you want to close?\n All unsaved changes will be lost!"
-"GameUI_Legacy"							"Legacy Menu"
-"GameUI_Effect_Detail"          		"Effect detail"
-"GameUI_VeryLow"               			"Very Low"
-"GameUI_Off"               				"Off"
-"GameUI_Everyone"               		"Everyone"
-"GameUI_FriendsOnly"               		"Friends Only"
+"GameUI_CloseWithoutSaving"				"Kaydetmeden Kapat"
+"GameUI_CloseWithoutSavingText" 		"Kapatmak istediğinizden emin misiniz?\n Kaydedilmeyen bütün değişikler kaybolacak!"
+"GameUI_Legacy"							"Eski Menü"
+"GameUI_Effect_Detail"          		"Etki detayı"
+"GameUI_VeryLow"               			"Çok düşük"
+"GameUI_Off"               				"Kapalı"
+"GameUI_Everyone"               		"Herkes"
+"GameUI_FriendsOnly"               		"Sadece Arkadaşlar"
 
-"GameUI_Restart"						"Restart required"
-"GameUI_RestartText"					"Some changes you have made require the game to be restarted:"
-"GameUI_OptionsRestart_Revert"			"Revert changes"
+"GameUI_Restart"						"Yeniden başlatma gerekiyor"
+"GameUI_RestartText"					"Yaptığınız bazı değişiklikler oyunun yeniden başlatılmasını gerektiriyor:"
+"GameUI_OptionsRestart_Revert"			"Değişiklikleri geri al"
 
 // Combat
-"TF2C_Option_DamageFeedback"				"Enable damage feedback"
-"TF2C_Tooltip_DamageFeedback"				"Damage feedback plays contextual sounds when dealing or taking different types of damage"
-"TF2C_Option_DamageFeedbackOutgoing"		"Enable outgoing damage feedback"
-"TF2C_Tooltip_DamageFeedbackOutgoing"		"Outgoing damage feedback sounds play when dealing damage to enemies"
-"TF2C_Option_DamageFeedbackOutgoingVolume"	"Damage feedback outgoing volume"
-"TF2C_Tooltip_DamageFeedbackOutgoingVolume"	"The volume of the contextual sounds played when dealing damage"
-"TF2C_Option_DamageFeedbackIncoming"		"Enable incoming damage feedback"
-"TF2C_Tooltip_DamageFeedbackIncoming"		"Incoming damage feedback sounds play when taking damage"
-"TF2C_Option_DamageFeedbackIncomingVolume"	"Damage feedback incoming volume"
-"TF2C_Tooltip_DamageFeedbackIncomingVolume"	"The volume of the contextual sounds played when taking damage"
+"TF2C_Option_DamageFeedback"				"Hasar geri bildirimini etkinleştir"
+"TF2C_Tooltip_DamageFeedback"				"Hasar geri bildirimi farklı türlerde hasar verirken veya alırken bağlamsal sesler çalar"
+"TF2C_Option_DamageFeedbackOutgoing"		"Giden hasar geri bildirimini etkinleştir"
+"TF2C_Tooltip_DamageFeedbackOutgoing"		"Giden hasar geri bildirimi düşmanlara hasar verirken çalar"
+"TF2C_Option_DamageFeedbackOutgoingVolume"	"Giden hasar bildirimi ses yüksekliği"
+"TF2C_Tooltip_DamageFeedbackOutgoingVolume"	"Hasar verildiğinde çalınan bağlamsal seslerin ses seviyesi"
+"TF2C_Option_DamageFeedbackIncoming"		"Gelen hasar geri bildirimini etkinleştir"
+"TF2C_Tooltip_DamageFeedbackIncoming"		"Gelen hasar geri bildirimi hasar alırken çalar"
+"TF2C_Option_DamageFeedbackIncomingVolume"	"Gelen hasar bildirimi ses yüksekliği"
+"TF2C_Tooltip_DamageFeedbackIncomingVolume"	"Hasar alındığında çalınan bağlamsal seslerin ses seviyesi"
 
-"TF_CenterFirePreference"         	"Prefer projectiles to fire from the center"
-"TF_CenterFirePreference_Tip"    	"If set, projectiles' spawn position Y coordinate is set to 0 for player; requires player to be disconnected or spectating to apply"
-"TF_BurningDeathAnim"				"Enable burning death animations"
-"TF_BurningDeathAnim_Tip"			"If set, ragdolls will have a chance to play a special death animation when dying from fire"
-"TF_CombatTextBatchingWindow"		"Delay between accumulated combat text damage events"
-"TF_CombatTextBatchingWindow_Tip"	"Maximum delay between damage events in order to batch numbers."
-"TF_CombatTextDropShadow"           "Display combat text with drop shadow"
-"TF_CombatTextDropShadow_Tip"       "If set, shows drop shadow on combat text."
+"TF_CenterFirePreference"         	"Özel mermi türlerinin ortadan ateşlenmesini tercih et"
+"TF_CenterFirePreference_Tip"    	"Eğer seçiliyse, oyuncuya ait özel mermi türlerinin posizyonunun Y koordinatı 0 olur; uygulamak için oyuncunun sunucudan bağlantıyı kesmesi veya izleyicil olması gerek"
+"TF_BurningDeathAnim"				"Yanarak ölme animasyonlarını etkinleştir"
+"TF_BurningDeathAnim_Tip"			"Eğer seçiliyse, cesetlerin yanarak ölürken özel bir animasyon oynama şansı olur"
+"TF_CombatTextBatchingWindow"		"Biriken mücadele metni hasar olayları arasındaki gecikme"
+"TF_CombatTextBatchingWindow_Tip"	"Parti numaralarına göre hasar olayları arasındaki maksimum gecikme."
+"TF_CombatTextDropShadow"           "Mücadele metnini bırakma gölgesiyle göster"
+"TF_CombatTextDropShadow_Tip"       "Eğer seçiliyse, mücadele  metnine gölge efekti ekler."
 
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"DEMOMAN: Kiklops'un bombalarını iki kere tıklayarak patlat"
@@ -1284,8 +1285,8 @@ Kontrol Noktalarının takım sahipliği her rauntun başında rastgellenir."
 "TF_ZoomSensitivityRatio_Tip"		"Dürbünlü yakınlaştırma hassasiyetini ayarlar."
 "TF_SpywalkInverted"				"SPY: Kılık değiştirmişken normal hızda yürümeyi varsayılan yap"
 "TF_SpywalkInverted_Tip"			"Eğer seçiliyse, yavaş bir sınıfın kılığına girmişken normal hızda yürümeyi varsayılan yapar, hızlı yürüme tuşuda yavaş sınıfın hızında yürümeni sağlayacak"
-"TF_ViewModelCloakTint"				"SPY: Viewmodel Cloak Tint"
-"TF_ViewModelCloakTint_Tip"			"SPY: Allow viewmodels to be tinted while cloaked."
+"TF_ViewModelCloakTint"				"SPY: Görünüm Modeli Görünmezlik Renklendirmesi"
+"TF_ViewModelCloakTint_Tip"			"SPY: Görünmezken görünüm modellerinin renklendirilmesine izin ver."
 "TF_AvoidBecomingVIP"				"CIVILIAN: VIP olamktan kaçın"
 "TF_AvoidBecomingVIP_Tip"			"Eğer seçiliyse, oyun VIP'yi seçerken sen genellikle dikkate alınmayacaksın, fakat herkes bu seçeneği ayarladıysa ya da oylanırsan hala seçilebilirsin"
 
@@ -1316,20 +1317,22 @@ Kontrol Noktalarının takım sahipliği her rauntun başında rastgellenir."
 "TF_HideKeybinds"                 "Oyun içinde gösterilen tuş atamalarını gizle"
 "TF_HideKeybinds_Tip"			  "Oyun içindeki göstergede gözüken tuş atamalarını gizle."
 "TF_AlternativeTimer"             "Alternatif oyun içi zamanlayıcı kullan"
-"TF_AlternativeTimer_Tip"         "Eğer seçiliyse, eşearalıklı yazı tipli zamanlayıcı kullanacak."
+"TF_AlternativeTimer_Tip"         "Eğer seçiliyse, eşaralıklı yazı tipli zamanlayıcı kullanacak."
 "TF_DisableDropShadow"            "Bırakma gölgesini devre dışı bırak"
 "TF_DisableDropShadow_Tip"        "Eğer seçiliyse, çoğu metin ve imgelerden bırakma gölgesini kaldırır."
 "TF_DeathNoticeMax"               "Ölüm Duyurusu - Maksimum görünür sayısı"
 "TF_DeathNoticeMax_Tip"           "Aynı anda gözükecek maks. ölüm duyurusu sayısını belirler."
 "TF_DeathNoticeTime"              "Ölüm Duyurusu - Duyuruların geçerlilik süresi (saniye olarak)"
 "TF_DeathNoticeTime_Tip"          "Ölüm duyurularının geçerlilik süresini ayarlar."
+"TF_GlowEffects"				  "Parıltı efektini kullan"
+"TF_GlowEffects_Tip" 			  "Eğer seçiliyse, parlama efektleri görevli maçlarda VIP'ler, Yük Vagonları, Bayrak Kapmaca istihbaratı gibi çeşitli ortamlarda etkinleştirilecektir."
 
 // ViewModel
 
-"TF_ViewModelFOV"				"Görünüm Modelinin Görüş Açısı"
-"TF_FlipViewModels"				"Solak Görünüm Modeli"
-"TF_InvisibleArms"				"Görünüm Modeli Kollarını Görünmez Yap"
-"TF_ViewModelOpacity"			"Görünüm Modeli Opaklığı"
+"TF_ViewModelFOV"				"Görünüm modelinin görüş açısı"
+"TF_FlipViewModels"				"Solak görünüm modeli"
+"TF_InvisibleArms"				"Görünüm modeli kollarını görünmez yap"
+"TF_ViewModelOpacity"			"Görünüm modeli opaklığı"
 
 // Misc
 "TF_ClassAutoKill"					"Sınıf seçtikten sonra zorla yeniden canlan"
@@ -1341,14 +1344,21 @@ Kontrol Noktalarının takım sahipliği her rauntun başında rastgellenir."
 "TF_ModelMuzzleFlash_Tip"			"Eğer seçiliyse, namlu alevleri etkiler yerine modeller kullanır"
 
 // Voice
-"TF2c_Option_Proximity_Voice_Local"	"Yakınlık Sesli Sohbetini Etkinleştir."
-// MULTIPLAYER
+"TF2c_Option_Proximity_Voice_Local"	"Yakınlık sesli sohbetini etkinleştir."
+
+// Multiplayer
+"TF_MessageAlert"				    "Sohbet mesajı sesini etkinleştir"
+"TF_MessageAlert_Tip"			    "Eğer seçiliyse, yazılı sohbette mesaj geldiği zaman bir ses çalıcak"
+"TF_MessageVolume"				    "Sohbet mesajı sesi seviyesi"
+"TF_ChatCloseOnSend"				"Mesaj gönderilidiği zaman sohbeti kapat"
+"TF_ChatCloseOnSend_Tip"			"Eğer seçiliyse, mesaj gönderilidikten sonra sohbeti kapatır"
 "TF_DownloadFilter_Title"			"Sunuculardan indirilen özel dosyalar için izinler"
 "GameUI_DownloadFilter_All"			"Bütün özel dosyalara izin ver"
 "GameUI_DownloadFilter_NoSounds"	"Özel sesler yok"
-"GameUI_DownloadFilter_MapsOnly"	"Sadece harita dosyaları"
+"GameUI_DownloadFilter_MapsOnly"	"Yalnızca harita dosyaları"
 "GameUI_DownloadFilter_None"		"Özel dosyalar yok"
-
+"TF_Network_Rate"       			"Ağ güncelleme hızı"
+"TF_Network_Rate_Tip"       		"Ağ güncelleme hızını ayarlar; bu da tersine enterpolasyon miktarını belirler.\n\Hangisinin sizin ağınızda daha iyi hissetirdiğini denemeniz önerilir."
 "TF_Network_Rate"       			"Ağ güncelleme hızı"
 "TF_Network_Rate_Tip"       		"Ağ güncelleme hızını ayarlar, bu da tersine enterpolasyon miktarını belirler.\n\Hangisinin sizin ağınızda daha iyi hissetiğini denemeniz önerilir."
 
@@ -1501,10 +1511,17 @@ Kontrol Noktalarının takım sahipliği her rauntun başında rastgellenir."
 "ServerBrowser_CustomRules"	"Özel Kurallar"
 "ServerBrowser_CustomWeapons" "Özel Silahlar"
 
+// ----------------------------------------------------------------
+
 "TF_Close"				"Kapat"
 "TF_ResetStats"				"Sıfırla"
 
 "TF_Boost"					"TAKVİYE"
+
+"TF_ScoreBoard_VoteKick"			"Oylama ile At"
+"TF_ScoreBoard_Context_UnMute"	"Sesini Aç"
+"TF_ScoreBoard_Context_Spec"	"İzle"
+"TF_ScoreBoard_Context_Profile"	"Steam Profili"
 
 "Msg_Captured"			"ele geçirdi:"
 "Msg_Captured_Multiple"	"ele geçirdiler:"
