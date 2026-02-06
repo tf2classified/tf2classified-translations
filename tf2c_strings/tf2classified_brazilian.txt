@@ -485,23 +485,23 @@
 
 // Kritzkrieg
 "TF_Weapon_Kritzkrieg"		"Kritzkrieg"
-"TF_Weapon_Kritzkrieg_Desc"	"Go on, do a little harm! Keep us both in business, ja?"
+"TF_Weapon_Kritzkrieg_Desc"	"Vai lá, faça um pouquinho de caos! Assim a gente se mantém nos negócios, beleza?"
 // Überspritze
 "TF_Weapon_Uberspritze"			"Überspritze"
-"TF_Weapon_Uberspritze_Desc"	"Oh, quit squirming, it's for a good cause!"
+"TF_Weapon_Uberspritze_Desc"	"Ah, pare de se contorcer, é por uma boa causa!"
 // Flare Gun
 "TF_Weapon_FlareGun"		"Arma Sinalizadora"
-"TF_Weapon_FlareGun_Desc"	"Someone's on fire! Quick, send out a distress signal!"
+"TF_Weapon_FlareGun_Desc"	"Tem alguém pegando fogo! Rápido, enviem um sinal de socorro!"
 // Sandvich
 "TF_Weapon_Sandvich"		"Sandviche"
 "TF_Weapon_Sandvich_Desc"	"Chega mais! Vô te dá um pedaço."
 // Huntsman
 "TF_Weapon_Huntsman"		"O Caçador"
-"TF_Weapon_Huntsman_Desc"	"Whatever happened to chivalry?"
+"TF_Weapon_Huntsman_Desc"	"O que aconteceu com a cavalaria?"
 // Gunboats
 "TF_Weapon_Gunboats"				"Canhoneiras"
-"TF_Weapon_Gunboats_Desc_Soldier"	"Lead shoe inserts! Perfect for anyone trying to cheat on the army physical."
-"TF_Weapon_Gunboats_Desc_Demoman"	"Boots so good, you won't even worry about the screws drilled into your feet."
+"TF_Weapon_Gunboats_Desc_Soldier"	"Palmilhas de chumbo! Perfeitas para quem quer trapacear no exame físico do exército."
+"TF_Weapon_Gunboats_Desc_Demoman"	"Botas tão boas que você nem vai se preocupar com os parafusos perfurados nos seus pés."
 
 // ----------------------------------------------------------------
 // Death & Taxes weapon strings
@@ -1213,7 +1213,7 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF2c_MouseSensitivity"					"Sensibilidade do mouse"
 "TF2c_MouseSmoothing"					"Suavização do mouse"
 "TF2c_MouseAcceleration"				"Aceleração do mouse"
-"TF2c_MouseAccelerationStrength"		"Mouse Acceleration Strength"
+"TF2c_MouseAccelerationStrength"		"Intensidade da Aceleração do Mouse"
 
 "TF2c_Options_Game"                     "JOGO"
 "TF2c_Options_Input"                    "ENTRADA"
@@ -1236,34 +1236,34 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF2c_OptionCategory_Combat"			"COMBAT"
 "TF2c_OptionCategory_HUD"				"HUD"
 "TF2c_OptionCategory_ViewModel"			"VIEWMODEL"
-"TF2c_OptionCategory_ClassSpecific"		"CLASS SPECIFIC"
-"TF2c_OptionCategory_Performance"		"PERFORMANCE"
+"TF2c_OptionCategory_ClassSpecific"		"ESPECÍFICO DA CLASSE"
+"TF2c_OptionCategory_Performance"		"DESEMPENHO"
 "TF2c_OptionCategory_Misc"				"MISC"
 "TF2c_OptionCategory_Replay"			"REPLAY"
-"TF2c_OptionCategory_DemoSupport"		"DEMO"
-"TF2c_OptionCategory_Communication"		"COMMS"
+"TF2c_OptionCategory_DemoSupport"		"DEMOS"
+"TF2c_OptionCategory_Communication"		"COMUNICAÇÃO"
 
-"TF2c_OptionCategory_CustomizationMultiplayer"			"Customization"
+"TF2c_OptionCategory_CustomizationMultiplayer"			"Personalização"
 "TF2c_OptionCategory_Network"							"REDE"
 
-"TF2c_MuteUnfocused"					"Mute unfocused"
+"TF2c_MuteUnfocused"					"Silenciar quando estiver em segundo plano"
 
-"TF2c_Options_Custom"					"Custom"
+"TF2c_Options_Custom"					"Personalizado"
 
 "TF2c_ChatFilterSettingsButton"			"Abrir configurações"
 
-"GameUI_CloseWithoutSaving"				"Close without Saving"
-"GameUI_CloseWithoutSavingText" 		"Are you sure you want to close?\n All unsaved changes will be lost!"
-"GameUI_Legacy"							"Legacy Menu"
-"GameUI_Effect_Detail"          		"Effect detail"
-"GameUI_VeryLow"               			"Very Low"
-"GameUI_Off"               				"Off"
+"GameUI_CloseWithoutSaving"				"Fechar sem Salvar"
+"GameUI_CloseWithoutSavingText" 		"Você tem certeza de que quer fechar?\n Todas as alterações não salvas serão perdidas!"
+"GameUI_Legacy"							"Menu Antigo"
+"GameUI_Effect_Detail"          		"Detalhes dos efeitos"
+"GameUI_VeryLow"               			"Muito Baixo"
+"GameUI_Off"               				"Desligado"
 "GameUI_Everyone"               		"Todos"
 "GameUI_FriendsOnly"               		"Apenas amigos"
 
-"GameUI_Restart"						"Restart required"
-"GameUI_RestartText"					"Some changes you have made require the game to be restarted:"
-"GameUI_OptionsRestart_Revert"			"Revert changes"
+"GameUI_Restart"						"É necessário reiniciar."
+"GameUI_RestartText"					"Algumas alterações que você fez exigem que o jogo seja reiniciado:"
+"GameUI_OptionsRestart_Revert"			"Reverter alterações"
 
 // Combat
 "TF2C_Option_DamageFeedback"				"Enable damage feedback"
@@ -1375,7 +1375,7 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_Network_Rate_Tip"       		"Sets network update rate, which inversely sets interpolation amount.\n\nRecommended to try each and see which feels best on your network connection."
 
 // Video
-"TF2c_Option_BloomScale"	"Bloom scale"
+"TF2c_Option_BloomScale"	"Escala de Bloom"
 
 // ----------------------------------------------------------------
 // Stats
@@ -1386,21 +1386,21 @@ Team ownership of Control Points is randomized at the start of each round."
 
 "TF_NextTip"							"Próxima dica"
 																								   
-"Stat_PadJumps"							"JUMPPADS"
+"Stat_PadJumps"							"SALTADORES"
 
-"StatPanel_Label_PadJumps"				"# of pad jumps: "
+"StatPanel_Label_PadJumps"				"Número de utilizações do Saltador: "
 
 "TF_ClassRecord_MostUbercharges"		"Máx. ÜberCargas:"
 "TF_ClassRecord_Alt_MostUbercharges"	"ÜberCarga(s)"
-"TF_ClassRecord_MostPadJumps"			"Most pad jumps:"
-"TF_ClassRecord_Alt_MostPadJumps"		"pad jump(s)"
+"TF_ClassRecord_MostPadJumps"			"Máx de saltos:"
+"TF_ClassRecord_Alt_MostPadJumps"		"salto(s)"
 
-"StatPanel_PadJumps_Best"				"Your jump pads were used more that round than your previous best."
-"StatPanel_PadJumps_Tie"				"You tied your record for pad jumps that round."
-"StatPanel_PadJumps_Close"				"You came close to your record for pad jumps that round."
-"StatPanel_MVM_PadJumps_Best"			"Your jump pads were used more that round of Mann vs. Machine than your previous best."
-"StatPanel_MVM_PadJumps_Tie"			"You tied your record for pad jumps that round of Mann vs. Machine."
-"StatPanel_MVM_PadJumps_Close"			"You came close to your record for pad jumps that round of Mann vs. Machine."
+"StatPanel_PadJumps_Best"				"Você usou mais saltadores nessa rodada do que em sua melhor marca anterior."
+"StatPanel_PadJumps_Tie"				"Você igualou seu recorde de saltos com saltadores nessa rodada."
+"StatPanel_PadJumps_Close"				"Você quase bateu seu recorde de saltos com saltadores."
+"StatPanel_MVM_PadJumps_Best"			"Nessa rodada do Mann vs. Machine, você usou mais saltadores do que em qualquer outra partida, mesmo tendo alcançado seu melhor desempenho anterior."
+"StatPanel_MVM_PadJumps_Tie"			"Você igualou seu recorde de saltos sobre saltadores naquela rodada do Mann vs. Machine."
+"StatPanel_MVM_PadJumps_Close"			"Você quase bateu seu recorde de saltos sobre saltadores naquela rodada do Mann vs. Machine."
 // ----------------------------------------------------------------
 // Achievements
 // ----------------------------------------------------------------
