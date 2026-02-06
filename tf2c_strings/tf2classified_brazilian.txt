@@ -175,15 +175,15 @@
 "Tip_1_2"		"Como um Scout, você captura pontos de controle duas vezes mais rápido que outras classes."
 "Tip_1_3"		"Como um Scout, você é mais rápido que as outras classes. Chame a atenção dos inimigos e fuja do perigo rapidamente!"
 // Stock
-"Tip_1_4"		"Como um Scout, a espingarda é letal à queima-roupa. Aproxime-se dos inimigos para causar muito dano."
-"Tip_1_5"		"Como um Scout, a sua pistola é ótima para atacar inimigos distantes."
-"Tip_1_6"		"Como um Scout, o seu taco causa menos dano que outras armas de corpo a corpo, mas é muito mais rápido."
+"Tip_1_4"		"Como um Scout, a Espingarda é letal à queima-roupa. Aproxime-se dos inimigos para causar muito dano."
+"Tip_1_5"		"Como um Scout, a sua Pistola é ótima para atacar inimigos distantes."
+"Tip_1_6"		"Como um Scout, o seu Taco causa menos dano que outras armas de corpo a corpo, mas é muito mais rápido."
 // Death & Taxes
-"Tip_1_7"		"As a Scout, your Nail Gun deals good chip damage, even from a distance. Stay moving and arc your shots."
-"Tip_1_8"		"Como um Scout, a arma de pregos destrói sentinelas com facilidade. Utilize-a quando estiver lutando contra inimigos difíceis."
+"Tip_1_7"		"Como um Scout, sua Arma de Pregos causa bons danos, mesmo à distância. Mantenha-se em movimento e faça disparos em arco."
+"Tip_1_8"		"Como um Scout, a Arma de Pregos destrói sentinelas com facilidade. Utilize-a quando estiver lutando contra inimigos difíceis."
 // Fight or Flight
-"Tip_1_9"		"Como um Scout, o tijolo causa dano e empurra os inimigos para longe. Faça-os voar!"
-"Tip_1_10"		"Como um Scout, o tijolo causará minicrits ao ser arremessado de longas distâncias."
+"Tip_1_9"		"Como um Scout, o Tijolo causa dano e empurra os inimigos para longe. Faça-os voar!"
+"Tip_1_10"		"Como um Scout, o Tijolo causará minicrits ao ser arremessado de longas distâncias."
 
 // Sniper
 "Tip_2_Count"	"11"
@@ -193,11 +193,11 @@
 // Stock
 "Tip_2_3"		"Como um Sniper, quanto mais tempo olhar pela luneta, maior será o dano causado pelo disparo."
 "Tip_2_4"		"Como um Sniper, um tiro na cabeça (headshot) completamente carregado de um rifle de precisão pode matar a maioria das classes instantaneamente."
-"Tip_2_5"		"Como um Sniper, use a submetralhadora para lidar com inimigos próximos."
-"Tip_2_6"		"Como um Sniper, a sua kukri pode ser útil para lidar com emboscadas surpresas."
+"Tip_2_5"		"Como um Sniper, use a Submetralhadora para lidar com inimigos próximos."
+"Tip_2_6"		"Como um Sniper, a sua Kukri pode ser útil para lidar com emboscadas surpresas."
 // Death & Taxes
-"Tip_2_7"		"Como um Sniper, O Caçador pode ser usado para combates ofensivos de curta distância, ao custo de menor precisão."
-"Tip_2_8"		"Como um Sniper, O Caçador perderá precisão se for puxado para trás por mais de 5 segundos. Você pode redefinir isso pressionando %attack2%."
+"Tip_2_7"		"Como um Sniper, o Caçador pode ser usado para combates ofensivos de curta distância, ao custo de menor precisão."
+"Tip_2_8"		"Como um Sniper, o Caçador perderá precisão se for puxado para trás por mais de 5 segundos. Você pode redefinir isso pressionando %attack2%."
 "Tip_2_9"		"Como um Sniper, seu Revólver de Caça é uma ótima opção de médio alcance. Use-o para causar alto dano enquanto se move rapidamente para dentro e para fora da linha de frente."
 "Tip_2_10"		"Como um Sniper, o Revólver de Caça faz você se mover muito mais rápido e concentrado do que com suas outras armas principais."
 "Tip_2_11"		"Como um Sniper, seu Peixorrete pode repelir grupos de inimigos e fazê-los sangrar. Use-o para afastar intrusos."
@@ -212,8 +212,8 @@
 "Tip_3_5"		"Como um Soldier, seus foguetes têm um forte efeito de repulsão. Empurre os inimigos ou lance-os para o ar!"
 // Stock
 "Tip_3_6"		"Como um Soldier, certifique-se de manter seu Lança-Foguetes carregado. Pressione %reload% para recarregá-lo a qualquer momento."
-"Tip_3_7"		"Como um Soldier, use sua espingarda para economizar foguetes e evitar esperar o tempo de recarga no meio do combate."
-"Tip_3_8"		"Como um Soldier, use sua pá para causar dano consistente a curta distância sem se preocupar com dano em área."
+"Tip_3_7"		"Como um Soldier, use sua Escopeta para economizar foguetes e evitar esperar o tempo de recarga no meio do combate."
+"Tip_3_8"		"Como um Soldier, use sua Pá para causar dano consistente a curta distância sem se preocupar com dano em área."
 // Death & Taxes
 "Tip_3_9"		"Como um Soldier, as Canhoneiras reduzem significativamente a perda de saúde causada por saltos com foguete. Use-as quando posicionamento e mobilidade forem especialmente importantes."
 "Tip_3_10"		"Como um Soldier, os foguetes do seu R.P.G são disparados em arco e podem atingir alvos inimigos. Certifique-se de mirar seus foguetes com cuidado!"
@@ -278,7 +278,7 @@
 // Stock
 "Tip_6_7"		"Como um Heavy, sua Metralhadora Giratória consome muita munição. Recolha pacotes de munição e armas abatidas para reabastecer seu estoque."
 "Tip_6_8"		"Como um Heavy, você não perde impulso enquanto gira sua Metralhadora Giratória no ar. Surpreenda seus inimigos saltando pelas esquinas!"
-"Tip_6_9"		"Como um Heavy, sua espingarda pode causar alto dano explosivo e permite que você se mova mais rápido enquanto ataca, em comparação com o giro da sua Metralhadora Giratória."
+"Tip_6_9"		"Como um Heavy, sua Escopeta pode causar alto dano explosivo e permite que você se mova mais rápido enquanto ataca, em comparação com o giro da sua Metralhadora Giratória."
 "Tip_6_10"		"Como um Heavy, sua alta vida permite que você vença a maioria dos combates corpo a corpo. Não tenha medo de usar seus punhos!"
 // Death & Taxes
 "Tip_6_11"		"Como um Heavy, certifique-se de encontrar um lugar seguro para comer seu Sanduíche, caso contrário, você poderá ser interrompido de forma grosseira."
@@ -293,24 +293,24 @@
 // Pyro
 "Tip_7_Count"	"15"
 // Generic
-"Tip_7_1"		"As a Pyro, you are mostly immune to burning and fire damage. Use your secondary and melee weapons against enemy Pyros to get a quicker kill."
-"Tip_7_2"		"As a Pyro, you can set enemies on fire and quickly retreat, leaving them to die from afterburn."
+"Tip_7_1"		"Como um Pyro, você é praticamente imune a queimaduras e dano de fogo. Use suas armas secundárias e de combate corpo a corpo contra Pyros inimigos para eliminá-los mais rapidamente."
+"Tip_7_2"		"Como um Pyro, você pode incendiar os inimigos e recuar rapidamente, deixando-os morrer queimados pelo fogo residual."
 // Stock
-"Tip_7_3"		"As a Pyro, your Flame Thrower deals more damage the closer you are to the enemy."
-"Tip_7_4"		"As a Pyro, your Flame Thrower chews up a lot of ammo. Pick up ammo packs and fallen weapons to refill your supply."
-"Tip_7_5"		"As a Pyro, ambush enemies to catch them in the short range of your Flame Thrower. Use corners and dropdowns to your advantage."
-"Tip_7_6"		"As a Pyro, your Flame Thrower's compression blast is a very useful tool. Press %attack2% to push enemies (including invulnerable ones) away, or into environmental hazards!"
-"Tip_7_7"		"As a Pyro, your Flame Thrower can extinguish burning teammates with %attack2%."
-"Tip_7_8"		"As a Pyro, switch to your Shotgun if enemies retreat beyond the short range of your Flame Thrower."
-"Tip_7_9"		"As a Pyro, your Fire Axe is a great choice for dealing with retreating enemies in close range."
+"Tip_7_3"		"Como um Pyro, seu Lança-Chamas causa mais dano quanto mais perto você estiver do inimigo."
+"Tip_7_4"		"Como um Pyro, seu Lança-Chamas consome muita munição. Recolha pacotes de munição e armas caídas para reabastecer seu estoque."
+"Tip_7_5"		"Como um Pyro, embosque os inimigos para pegá-los no curto alcance do seu Lança-Chamas. Use cantos e desníveis a seu favor."
+"Tip_7_6"		"Como um Pyro, o jato de compressão do seu Lança-Chamas é uma ferramenta muito útil. Pressione %attack2% para empurrar inimigos (incluindo os invulneráveis) para longe ou para dentro de obstáculos ambientais!"
+"Tip_7_7"		"Como um Pyro, seu Lança-Chamas pode extinguir o fogo em companheiros de equipe com %ataque2%."
+"Tip_7_8"		"Como um Pyro, troque para sua Escopeta se os inimigos recuarem além do curto alcance do seu Lança-Chamas."
+"Tip_7_9"		"Como um Pyro, seu Machado de Incêndio é uma ótima opção para lidar com inimigos em retirada a curta distância."
 // Death & Taxes
-"Tip_7_10"		"As a Pyro, your Flare Gun can set enemies on fire at long range. This works well for picking off far away enemies like Snipers."
-"Tip_7_11"		"As a Pyro, your Flare Gun has a very small window where it can crit burning enemy Pyros."
+"Tip_7_10"		"Como um Pyro, sua Arma Sinalizadora pode incendiar inimigos à distância. Isso é ótimo para eliminar inimigos distantes, como franco-atiradores."
+"Tip_7_11"		"Como um Pyro, sua Arma Sinalizadora tem uma janela muito pequena para acertar Pyros inimigos em chamas com um golpe crítico."
 // Fight or Flight
-"Tip_7_12"		"As a Pyro, the Cano Duplo can be used to close the gap between you and your target. Propel yourself upward or towards your enemies!"
-"Tip_7_13"		"As a Pyro, the Cano Duplo does not deal damage as reliably as your Shotgun. If you're losing in combat, use it to propel yourself away!"
-"Tip_7_14"		"As a Pyro, the Harvester can build up a guaranteed melee crit, and allows you to heal from your enemies."
-"Tip_7_15"		"As a Pyro, dying with the Harvester equipped will extinguish any enemies you've set on fire."
+"Tip_7_12"		"Como um Pyro, a Cano Duplo pode ser usado para diminuir a distância entre você e seu alvo. Impulsione-se para cima ou em direção aos seus inimigos!"
+"Tip_7_13"		"Como um Pyro, a Cano Duplo não causa dano tão consistentemente quanto sua Escopeta. Se estiver perdendo em combate, use-o para se impulsionar para longe!"
+"Tip_7_14"		"Como um Pyro, the Harvester can build up a guaranteed melee crit, and allows you to heal from your enemies."
+"Tip_7_15"		"Como um Pyro, morrer com a Ceifadora equipada extinguirá quaisquer incêndios que você tenha incendiado nos inimigos."
 
 // Spy
 "Tip_8_Count"	"15"
@@ -526,7 +526,7 @@
 "TF_Weapon_TranquilizerGun"			"Arma Tranquilizante"
 "TF_Weapon_TranquilizerGun_Desc"	"In your dreams, chéri."
 // Dynamite Pack
-"TF_Weapon_DynamitePack"		"Dynamite Pack"
+"TF_Weapon_DynamitePack"		"Pacote de Dinamite"
 "TF_Weapon_DynamitePack_Desc"	"Ye'll be in bits tomorrow."
 // Coilgun
 "TF_Weapon_Coilgun"			"Coilgun"
