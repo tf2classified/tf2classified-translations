@@ -364,19 +364,19 @@
 // Civilian
 "Tip_10_Count"	"11"
 // Generic
-"Tip_10_1"		"As a Civilian, you're rather slow. Try your best to keep up with your teammates to have a better chance of survival."
-"Tip_10_2"		"As a Civilian, you are the shortest out of all of your team. This can be useful when hiding behind teammates."
-"Tip_10_3"		"As a Civilian, you are the only one capable of capturing Control Points in the VIP and VIP Race gamemodes."
-"Tip_10_4"		"As a Civilian, be sure to watch out for enemy Snipers and Spies, as they're capable of killing you instantly."
-"Tip_10_5"		"As a Civilian, nearby teammates will be affected by your morale boost, giving them a slight defense boost and healing. Try to keep out of enemy sight lines and stick to your team."
-"Tip_10_6"		"As a Civilian, press %attack2% while looking at a teammate to boost them, giving them a great advantage in battle."
+"Tip_10_1"		"Como um Civilian, você é um pouco lento. Tente ao máximo acompanhar seus companheiros de equipe para ter uma chance melhor de sobrevivência."
+"Tip_10_2"		"Como um Civilian, você é o mais baixo de toda a sua equipe. Isso pode ser útil para se esconder atrás dos seus companheiros."
+"Tip_10_3"		"Como um Civilian, você é o único capaz de capturar Pontos de Controle nos modos de jogo VIP e Corrida VIP."
+"Tip_10_4"		"Como um Civilian, fique atento aos Snipers e Spies inimigos, pois eles são capazes de eliminá-lo instantaneamente."
+"Tip_10_5"		"Como um Civilian, seus companheiros de equipe próximos serão afetados pelo seu aumento de moral, recebendo um pequeno aumento de defesa e cura. Tente ficar fora da linha de visão inimiga e permaneça perto da sua equipe."
+"Tip_10_6"		"Como um Civilian, pressione %attack2% enquanto estiver olhando para um companheiro de equipe para bancá-lo, dando-lhe uma grande vantagem na batalha."
 // Stock
-"Tip_10_7"		"As a Civilian, your Umbrella isn't very effective as a weapon, and should only be used in desperation. Let your teammates fight for you."
-"Tip_10_8"		"As a Civilian, your Umbrella grants mini-crits to a teammate of your choosing. Boost classes that are capable of dealing high amounts of damage."
-"Tip_10_9"		"As a Civilian, your Umbrella mini-crit boost will also give Medics increased healing rate and ÜberCharge gain."
+"Tip_10_7"		"Como um Civilian, seu Guarda-Chuva não é muito eficaz como arma e só deve ser usado em último caso. Deixe seus companheiros de equipe lutarem por você."
+"Tip_10_8"		"Como um Civilian, seu Guarda-Chuva concede mini-críticos a um companheiro de equipe à sua escolha. Banque classes capazes de causar grandes quantidades de dano."
+"Tip_10_9"		"Como um Civilian, o aumento de mini-crítico do seu Guarda-Chuva também dará aos médicos uma taxa de cura maior e ganho de ÜberCarga."
 // Double Down
-"Tip_10_10"		"As a Civilian, your Derby Cane can be used to give a teammate a haste boost. This allows them to move and shoot much quicker."
-"Tip_10_11"		"As a Civilian, your Derby Cane boosts the healing rate of Medics and building rate of Engineers."
+"Tip_10_10"		"As a Civilian, sua Bengala de Cabo Curvo pode ser usada para dar um aumento de velocidade a um companheiro de equipe. Isso permite que ele se mova e atire muito mais rápido."
+"Tip_10_11"		"As a Civilian, sua Bengala de Cabo Curvo aumenta a taxa de cura dos Médicos e a taxa de construção dos Engenheiros."
 
 // Arena
 "Tip_arena_Count"		"9"
@@ -575,8 +575,8 @@
 "TF_Weapon_AdmiraltyAnchor"			"Âncora do Almirantado"
 "TF_Weapon_AdmiraltyAnchor_Desc"	"Não tolerarei piadas grosseiras sobre a Marinha na minha unidade."
 // Derby Cane
-"TF_Weapon_DerbyCane"		"Derby Cane"
-"TF_Weapon_DerbyCane_Desc"	"Feeling motivated, lad? You'd better be."
+"TF_Weapon_DerbyCane"		"Bengala de Cabo Curvo"
+"TF_Weapon_DerbyCane_Desc"	"Sentindo-se motivado, rapaz? É melhor que esteja."
 // Cyclops
 "TF_Weapon_Cyclops"			"Ciclope"
 "TF_Weapon_Cyclops_Desc"	"Em terra de cegos, você é o rei."
