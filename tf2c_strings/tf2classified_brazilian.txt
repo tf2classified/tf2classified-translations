@@ -315,24 +315,24 @@
 // Spy
 "Tip_8_Count"	"15"
 // Generic
-"Tip_8_1"		"As a Spy, you can disguise yourself as an enemy with your Disguise Kit. Beware, as you can still bump into enemies, and attacking will remove your disguise."
-"Tip_8_2"		"As a Spy, call for enemy Medics by pressing %voicemenu 0 0% while disguised."
-"Tip_8_3"		"As a Spy, try to act like an enemy while disguised. Observe where enemy team members are, and disguise as one of them."
-"Tip_8_4"		"As a Spy, pressing %reload% while disguised will make you appear to reload to enemy team members."
-"Tip_8_5"		"As a Spy, press %speed% to move at your normal running speed while disguised as slower classes."
-"Tip_8_6"		"As a Spy, hit %attack2% to cloak and become fully invisible for a short period of time."
-"Tip_8_7"		"As a Spy, use your cloak to get behind enemy lines, and your disguise to move around amongst them."
+"Tip_8_1"		"Como um Spy, você pode se disfarçar de inimigo com seu Kit de Disfarce. Mas cuidado, pois você ainda pode esbarrar em inimigos, e atacá-los removerá seu disfarce."
+"Tip_8_2"		"Como um Spy, chame os Medics inimigos pressionando %voicemenu 0 0% enquanto estiver disfarçado."
+"Tip_8_3"		"Como um Spy, tente se passar por um inimigo enquanto estiver disfarçado. Observe onde estão os membros da equipe inimiga e disfarce-se como um deles."
+"Tip_8_4"		"Como um Spy, ao pressionar %reload% enquanto disfarçado, você fará parecer que está recarregando para os membros da equipe inimiga."
+"Tip_8_5"		"Como um Spy, pressione %speed% para se mover na sua velocidade normal de corrida enquanto estiver disfarçado como classes mais lentas."
+"Tip_8_6"		"Como um Spy, use %attack2% para ativar a camuflagem e ficar completamente invisível por um curto período de tempo."
+"Tip_8_7"		"Como um Spy, use sua capa para ficar atrás das linhas inimigas e seu disfarce para se mover entre elas."
 // Stock
-"Tip_8_8"		"As a Spy, your Revolver is a very useful tool for when a stealth operation doesn't go your way."
-"Tip_8_9"		"As a Spy, place your Sapper on enemy buildings to disable and destroy them. Disguises aren't lost when placing sappers."
-"Tip_8_10"		"As a Spy, your Sapper disables Sentry Guns before destroying them. Sap a Sentry Gun before attacking nearby Engineers."
-"Tip_8_11"		"As a Spy, use your Knife to backstab enemies from behind, killing them instantly."
+"Tip_8_8"		"Como um Spy, seu Revólver é uma ferramenta muito útil para quando uma operação furtiva não sai como planejado."
+"Tip_8_9"		"Como um Spy, posicione seu Sabotador em construções inimigas para desativá-las e destruí-las. Os disfarces não são perdidos ao posicionar os Sabotadores."
+"Tip_8_10"		"Como um Spy, seu Sabotador desativa as Sentinelas antes de destruí-las. Sabote uma Sentinela antes de atacar Engenheiros próximos."
+"Tip_8_11"		"Como um Spy, use sua Faca para atacar os inimigos pelas costas, matando-os instantaneamente."
 // Death & Taxes
-"Tip_8_12"		"As a Spy, your Tranquilizer Gun slows your target's movement and firing speeds. This helps create an opening for an escape."
-"Tip_8_13"		"As a Spy, the darts from your Tranquilizer Gun cause your target to take guaranteed critical damage from melee attacks. Let your teammates gang up on them, or go for a kill on your own."
+"Tip_8_12"		"Como um Spy, sua Arma Tranquilizadora reduz a velocidade de movimento e a taxa de disparo do alvo. Isso ajuda a criar uma abertura para uma fuga."
+"Tip_8_13"		"Como um Spy, os dardos da sua Arma Tranquilizadora fazem com que seu alvo sofra dano crítico garantido em ataques corpo a corpo. Deixe seus companheiros de equipe atacarem em grupo ou tente eliminá-lo sozinho."
 // Fight or Flight
-"Tip_8_14"		"As a Spy, L'escampette allows you to move quickly to or from the enemy base. Make quick escapes, or quick infiltrations!"
-"Tip_8_15"		"As a Spy, you lose cloak when taking damage with L'escampette equipped. Stay out of the line of fire."
+"Tip_8_14"		"Como um Spy, L'escampette permite que você se mova rapidamente para dentro ou para fora da base inimiga. Faça fugas rápidas ou infiltrações rápidas!"
+"Tip_8_15"		"Como um Spy, você perde a camuflagem ao sofrer dano com L'escampette equipada. Mantenha-se fora da linha de fogo."
 
 // Engineer
 "Tip_9_Count"	"20"
@@ -523,7 +523,7 @@
 "TF_Weapon_Fishwhacker"			"Peixorrete"
 "TF_Weapon_Fishwhacker_Desc"	"Segura ela firme, camarada. Ela tem tendência a soltar farpas."
 // Tranquilizer Gun
-"TF_Weapon_TranquilizerGun"			"Arma Tranquilizante"
+"TF_Weapon_TranquilizerGun"			"Arma Tranquilizadora"
 "TF_Weapon_TranquilizerGun_Desc"	"In your dreams, chéri."
 // Dynamite Pack
 "TF_Weapon_DynamitePack"		"Pacote de Dinamite"
