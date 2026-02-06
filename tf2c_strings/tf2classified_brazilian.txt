@@ -512,25 +512,25 @@
 "TF_Weapon_Umbrella_Desc"	"Um homem requintado deve permanecer seco."
 // Nail Gun
 "TF_Weapon_NailGun"			"Arma de Pregos"
-"TF_Weapon_NailGun_Desc"	"Yeah, lost that job pretty quick."
+"TF_Weapon_NailGun_Desc"	"É isso aí, perdi esse emprego bem rápido."
 // R.P.G.
 "TF_Weapon_RPG"			"R.P.G."
-"TF_Weapon_RPG_Desc"	"See how the rocket pokes out the front, son? It yearns for freedom. And by God, it will have it."
+"TF_Weapon_RPG_Desc"	"Está vendo como o foguete aparece na frente, filho? Ele anseia por liberdade. E por Deus, ele a terá."
 // Hunting Revolver
 "TF_Weapon_HuntingRevolver"			"Revólver de Caça"
-"TF_Weapon_HuntingRevolver_Desc"	"Made for a more offensive approach."
+"TF_Weapon_HuntingRevolver_Desc"	"Concebido para uma abordagem mais ofensiva."
 // Fishwhacker
 "TF_Weapon_Fishwhacker"			"Peixorrete"
 "TF_Weapon_Fishwhacker_Desc"	"Segura ela firme, camarada. Ela tem tendência a soltar farpas."
 // Tranquilizer Gun
 "TF_Weapon_TranquilizerGun"			"Arma Tranquilizadora"
-"TF_Weapon_TranquilizerGun_Desc"	"In your dreams, chéri."
+"TF_Weapon_TranquilizerGun_Desc"	"Nos seus sonhos, chéri."
 // Dynamite Pack
 "TF_Weapon_DynamitePack"		"Pacote de Dinamite"
-"TF_Weapon_DynamitePack_Desc"	"Ye'll be in bits tomorrow."
+"TF_Weapon_DynamitePack_Desc"	"Você estará em pedaços amanhã."
 // Coilgun
 "TF_Weapon_Coilgun"			"Arma de Bobina"
-"TF_Weapon_Coilgun_Desc"	"No steak, but a whole heap o' sizzle."
+"TF_Weapon_Coilgun_Desc"	"Muita faísca, pouco impacto."
 // Mine Layer
 "TF_Weapon_MineLayer"		"Campo Minado"
 "TF_Weapon_MineLayer_Desc"	"Isso aí, fique de olho! Heh..."
