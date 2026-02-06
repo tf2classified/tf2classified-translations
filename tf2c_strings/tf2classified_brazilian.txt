@@ -1003,27 +1003,27 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 // ----------------------------------------------------------------
 
 // cp_coldfront
-"TF_IM_Coldfront_Intro"	"Coldfront is a Control Point map"
+"TF_IM_Coldfront_Intro"	"Coldfront é um mapa de Ponto de Controle."
 
 // cp_steel
-"TF_IM_Steel_Intro"	"Steel is an attack and defend map."
-"TF_IM_Steel_BlueWin"	"BLU has to capture point E in order to win the round."
-"TF_IM_Steel_PlotTwist"	"However..."
-"TF_IM_Steel_FinalCap"	"Point E is always in play. BLU can capture it at any time."
-"TF_IM_Steel_Points"	"Capturing points A, B, C, and D will make E easier to take!"
-"TF_IM_Steel_CapA"	"Capturing A opens additional paths to B and E."
-"TF_IM_Steel_CapB"	"Capturing B moves RED's spawnroom and also opens an additional route to C. "
-"TF_IM_Steel_CapC"	"Capturing C extends bridges to E."
-"TF_IM_Steel_CapD"	"Capturing D blocks RED from easily reaching E."
-"TF_IM_Steel_Bridge"	"Without the bridges, E cannot be reached by everyone."
-"TF_IM_Steel_Pit"	"Watch out for the pit!"
+"TF_IM_Steel_Intro"	"Steel é um mapa de ataque e defesa."
+"TF_IM_Steel_BlueWin"	"A equipe BLU precisa capturar o ponto E para vencer a rodada."
+"TF_IM_Steel_PlotTwist"	"No entanto..."
+"TF_IM_Steel_FinalCap"	"O ponto E está sempre em jogo. A BLU pode capturá-lo a qualquer momento."
+"TF_IM_Steel_Points"	"Capturar os pontos A, B, C e D tornará mais fácil conquistar o ponto E!"
+"TF_IM_Steel_CapA"	"Capturar o A abre caminhos adicionais para B e E."
+"TF_IM_Steel_CapB"	"Capturar o B altera a sala de surgimento da equipe RED e também abre uma rota adicional para o C. "
+"TF_IM_Steel_CapC"	"Capturar o C estende as pontes até o E."
+"TF_IM_Steel_CapD"	"Capturar D impede que o RED chegue facilmente a E."
+"TF_IM_Steel_Bridge"	"Sem as pontes, E não pode ser alcançado por todos."
+"TF_IM_Steel_Pit"	"Cuidado com o buraco!"
 
 // VIP Race
-"TF_IM_VIPR_Intro"	"Welcome to the VIP Race game mode"
-"TF_IM_VIPR_ToWin"	"To win, you must help your VIP capture the enemy Control Point..."
-"TF_IM_VIPR_Escape"	"...then escort them to the Escape Zone before the enemy team can do the same!"
-"TF_IM_VIPR_Death"	"If a VIP dies, any points they have captured will be reset"
-"TF_IM_VIPR_HUD"	"The status and progress of both VIPs can be found at the base of your screen"
+"TF_IM_VIPR_Intro"	"Bem-vindo ao modo de jogo Corrida VIP"
+"TF_IM_VIPR_ToWin"	"Para vencer, você deve ajudar seu VIP a capturar o Ponto de Controle inimigo..."
+"TF_IM_VIPR_Escape"	"...e então escoltá-lo até a Zona de Fuga antes que a equipe inimiga possa fazer o mesmo!"
+"TF_IM_VIPR_Death"	"Se um VIP morrer, todos os pontos que ele tiver conquistado serão zerados."
+"TF_IM_VIPR_HUD"	"O status e o progresso de ambos os VIPs podem ser encontrados na parte inferior da tela."
 
 // ----------------------------------------------------------------
 // Scoreboard
