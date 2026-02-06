@@ -544,7 +544,7 @@
 
 // L'escampette
 "TF_Weapon_Lescampette"			"L'escampette"
-"TF_Weapon_Lescampette_Desc"	"Make it quick."
+"TF_Weapon_Lescampette_Desc"	"Seja rápido."
 // Chekhov's Punch
 "TF_Weapon_ChekhovsPunch"		"Punho de Tcheckhov"
 "TF_Weapon_ChekhovsPunch_Desc"	"Não chore! Você tem um papel importante na história de Heavy."
@@ -553,7 +553,7 @@
 "TF_Weapon_TwinBarrel_Desc"	"(Modificações feitas após a compra anulam a garantia.)"
 // Anti-Aircraft Cannon
 "TF_Weapon_AntiAircraftCannon"		"Canhão Antiaéreo"
-"TF_Weapon_AntiAircraftCannon_Desc"	"Which piece of you should Heavy send home to momma?"
+"TF_Weapon_AntiAircraftCannon_Desc"	"Que parte de você o Heavy deveria mandar para a mamãe?"
 // PDA: Jump Pad
 "TF_Weapon_PDAJumpPad"		"PDA: Saltadores"
 "TF_Weapon_PDAJumpPad_Desc"	"Acredite em mim, meu amigo. Esse vai te surpreender."
