@@ -102,10 +102,10 @@
 "TF_playerid_civiliancharge_wpn"		"Bancar: %s1 (%s2%)"
 
 // Buildings
-"TF_playerid_object"					"%s1 de %s2"
-"TF_playerid_object_diffteam"			"%s1 inimiga de %s2"
-"TF_playerid_object_mini"				"Mini-%s1 de %s2"
-"TF_playerid_object_mode"				"%s3 do %s1 de %s2"
+"TF_playerid_object"					"%s1: construção de %s2"
+"TF_playerid_object_diffteam"			"%s1 do inimigo: construção de %s2"
+"TF_playerid_object_mini"				"Mini-%s1: construção de %s2"
+"TF_playerid_object_mode"				"%s1 %s3: construção de %s2"
 "TF_playerid_object_level"				"( Nível %s1 )"
 "TF_playerid_object_upgrade"			"Aprimoramento: %s1"
 "TF_playerid_object_upgrade_level"		"( Nível %s1 ) Aprimoramento: %s2"
@@ -624,13 +624,13 @@
 // Building Status
 "Building_hud_hauling"				"Carregando..."
 "Building_hud_upgrading"			"Aprimorando..."
-"Building_hud_jumppad_a_not_built"	"Saltadores A\nNão Construído"
-"Building_hud_jumppad_b_not_built"	"Saltadores B\nNão Construído"
+"Building_hud_jumppad_a_not_built"	"Saltador A\nNão Construído"
+"Building_hud_jumppad_b_not_built"	"Saltador B\nNão Construído"
 
 // Jump Pad
-"TF_Object_Jump"					"Saltadores"
-"TF_Object_Jump_A"					"Saltadores A"
-"TF_Object_Jump_B"					"Saltadores B"
+"TF_Object_Jump"					"Saltador"
+"TF_Object_Jump_A"					"Saltador A"
+"TF_Object_Jump_B"					"Saltador B"
 "TF_JumpPad_Mode_A"					"A"
 "TF_JumpPad_Mode_B"					"B"
 
