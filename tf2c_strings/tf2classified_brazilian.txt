@@ -556,7 +556,7 @@
 "TF_Weapon_AntiAircraftCannon_Desc"	"Que parte de você o Heavy deveria mandar para a mamãe?"
 // PDA: Jump Pad
 "TF_Weapon_PDAJumpPad"		"PDA: Saltadores"
-"TF_Weapon_PDAJumpPad_Desc"	"Acredite em mim, meu amigo. Esse vai te surpreender."
+"TF_Weapon_PDAJumpPad_Desc"	"Acredite em mim, meu amigo. Essa vai te surpreender."
 // Harvester
 "TF_Weapon_Harvester"		"Ceifadora"
 "TF_Weapon_Harvester_Desc"	"Não pergunte por quem o sino dobra."
@@ -668,7 +668,7 @@
 "Attrib_ApplySelfKnockbackSwing"					"Aplica recuo reverso em si mesmo ao atacar"
 "Attrib_AirblastSelfKnockback"						"Jato de Ar causa repulsão no usuário"
 "Attrib_ProximityMine"								"Minas de proximidade explodem em inimigos próximos"
-"Attrib_AltFire_FizzleMines"						"Disparo Alternativo: Minas de proximidade defeituosas"
+"Attrib_AltFire_FizzleMines"						"Disparo Alternativo: Desativa minas de proximidade"
 "Attrib_NoStickyChargeTime"							"Sem tempo de carregamento da Stickybomb"
 "Attrib_BlastSplashDamage_Decreased"				"%s1% de dano por explosão"
 "Attrib_BurningTargetsChargeCrit"					"Vítimas em chamas preenchem a barra de crítico enquanto estão ativas"
@@ -749,7 +749,7 @@
 "Attrib_AltFire_MinicritBoost"						"Disparo alternativo: fornece um bônus de mini-críticos a um aliado"
 "Attrib_SplitsIntoBomblets"							"Ao explodir, se divide em 4 pequenas bombas"
 "Attrib_DisabledByWrench"							"Pode ser desarmado por Chaves Inglesas"
-"Attrib_Coilgun"									"Disparos totalmente carregados ricocheteiam nas paredes e explodem na sua mão quando ficam sobrecarregados"
+"Attrib_Coilgun"									"Disparos totalmente carregados ricocheteiam nas paredes e a arma pode explodir na sua mão se for sobrecarregada"
 "Attrib_DamageAffectedByCharge"						"Danos são afetados pela carga atual"
 "Attrib_JumpPadNoUpgrade"							"Saltadores não podem ser melhorados"
 "Attrib_AltFire_HasteBoost"							"Ataque Alternativo: Concede aumento de velocidade a um companheiro de equipe"
