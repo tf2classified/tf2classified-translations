@@ -300,7 +300,7 @@
 "Tip_7_4"		"Como um Pyro, seu Lança-Chamas consome muita munição. Recolha pacotes de munição e armas caídas para reabastecer seu estoque."
 "Tip_7_5"		"Como um Pyro, embosque os inimigos para pegá-los no curto alcance do seu Lança-Chamas. Use cantos e desníveis a seu favor."
 "Tip_7_6"		"Como um Pyro, o jato de compressão do seu Lança-Chamas é uma ferramenta muito útil. Pressione %attack2% para empurrar inimigos (incluindo os invulneráveis) para longe ou para dentro de obstáculos ambientais!"
-"Tip_7_7"		"Como um Pyro, seu Lança-Chamas pode extinguir o fogo em companheiros de equipe com %ataque2%."
+"Tip_7_7"		"Como um Pyro, seu Lança-Chamas pode extinguir o fogo em companheiros de equipe com %attack2%."
 "Tip_7_8"		"Como um Pyro, troque para sua Escopeta se os inimigos recuarem além do curto alcance do seu Lança-Chamas."
 "Tip_7_9"		"Como um Pyro, seu Machado de Incêndio é uma ótima opção para lidar com inimigos em retirada a curta distância."
 // Death & Taxes
@@ -1393,7 +1393,7 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 
 "TF_ClassRecord_MostUbercharges"		"Máx. ÜberCargas:"
 "TF_ClassRecord_Alt_MostUbercharges"	"ÜberCarga(s)"
-"TF_ClassRecord_MostPadJumps"			"Máx de saltos:"
+"TF_ClassRecord_MostPadJumps"			"Máx. de saltos:"
 "TF_ClassRecord_Alt_MostPadJumps"		"salto(s)"
 
 "StatPanel_PadJumps_Best"				"Você usou mais saltadores nessa rodada do que em sua melhor marca anterior."
@@ -1484,12 +1484,12 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 // ----------------------------------------------------------------
 
 "Discord_InMenu"					"Nos menus"
-"Discord_InMenu_ToolTip"			"Menu principal"
+"Discord_InMenu_ToolTip"			"Menu Principal"
 "Discord_IsLoading"					"Está carregando..."
 "Discord_IsLoading_ToolTip"			"Carregando..."
 "Discord_InOfficialMap"				"Mapa oficial — %s1"
 "Discord_InCommunityMap"			"Mapa da comunidade — %s1"
-"Discord_InServer_Info"				"Servidor — %s1"
+"Discord_InServer_Info"				"No Servidor — %s1"
 
 // ----------------------------------------------------------------
 // Server Browser
@@ -1515,13 +1515,13 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "ServerBrowser_UseLegacyBrowser" "Usar navegador antigo"
 "ServerBrowser_CurrentMapHeading" "Mapa atual:"
 "ServerBrowser_TagListHeading" "Marcadores:"
-"ServerBrowser_OfficialDetail" "Este é um servidor oficial"
-"ServerBrowser_VerifiedDetail" "Este é um servidor verificado"
+"ServerBrowser_OfficialDetail" "Este é um servidor Oficial"
+"ServerBrowser_VerifiedDetail" "Este é um servidor Verificado"
 "ServerBrowser_Any" "Todos"
 "ServerBrowser_Official" "Oficial"
 "ServerBrowser_Verified" "Verificado"
-"ServerBrowser_OfficialOrVerified" "Oficial ou verificado"
-"ServerBrowser_CustomRules"	"Regras personalizadas"
-"ServerBrowser_CustomWeapons" "Armas personalizadas"
+"ServerBrowser_OfficialOrVerified" "Oficial ou Verificado"
+"ServerBrowser_CustomRules"	"Regras Personalizadas"
+"ServerBrowser_CustomWeapons" "Armas Personalizadas"
 }
 }
