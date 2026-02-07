@@ -764,14 +764,14 @@
 // ----------------------------------------------------------------
 
 // cp_amaranth
-"Amaranth_cap_A"	"the Warehouses"
-"Amaranth_cap_B"	"RED's Shipping Facility"
+"Amaranth_cap_A"	"os Armazéns"
+"Amaranth_cap_B"	"o Centro de Distribuição da RED"
 
 // 4dom_hydro
-"Hydro_dom_cap_warehouse"	"A, the Warehouse"
-"Hydro_dom_cap_radar_dish"	"B, the Radar Dish"
-"Hydro_dom_cap_power_plant"	"C, the Power Plant"
-"Hydro_dom_cap_dam"			"D, the Dam"
+"Hydro_dom_cap_warehouse"	"o Armazém"
+"Hydro_dom_cap_radar_dish"	"a Antena"
+"Hydro_dom_cap_power_plant"	"a Usina Elétrica"
+"Hydro_dom_cap_dam"			"a Represa"
 
 // vip_mineside
 "vip_mineside_description"	"Objective:
@@ -785,20 +785,20 @@ If BLU delivers the Suitcase Device, the gates timer will count down from 60 sec
 "Mineside_setup_goal_red"	"Kill the VIP to stop him from reaching the Escape Zone. Prevent him from grabbing the Device."
 "Mineside_setup_goal_blu"	"Escort the VIP to the Escape Zone. Deliver the Device to the Control Room to open the gate."
 
-"Mineside_escape_zone"	"the Escape Tunnel"
+"Mineside_escape_zone"	"o Túnel de Fuga"
 
 // dom_oilcanyon
-"Oilcanyon_cap_A"	"cap A, the Canyon"
-"Oilcanyon_cap_B"	"cap B, the Laser Gun"
-"Oilcanyon_cap_C"	"cap C, the Refinery"
+"Oilcanyon_cap_A"	"o Cânion"
+"Oilcanyon_cap_B"	"a Arma Laser"
+"Oilcanyon_cap_C"	"a Refinaria"
 
 // vip_trainyard
-"Trainyard_escape_zone"	"the Escape Vehicle"
+"Trainyard_escape_zone"	"o Veículo de Fuga"
 
 // vip_harbor
-"Harbor_cap_1"			"the Loading Dock"
-"Harbor_cap_2"			"the Waterfront"
-"Harbor_cap_3"			"the Warehouse"
+"Harbor_cap_1"			"a Doca de Carga"
+"Harbor_cap_2"			"a Orla"
+"Harbor_cap_3"			"o Armazém"
 
 // 4dom_krepost
 "dom_krepost_description"	"Objective:
@@ -824,7 +824,7 @@ Honorable hand to sword combat only!"
 "Krepost_attack_ylw"	"O portão da YLW está aberto!"
 
 // td_caper
-"Caper_cap_A"	"a Torre de Laser"
+"Caper_cap_A"	"a Torre do Laser"
 "Caper_cap_B"	"os Silos"
 "Caper_cap_C"	"o Esgoto"
 
@@ -833,31 +833,31 @@ Honorable hand to sword combat only!"
 "2Bridge_cap_B"	"a ponte da BLU"
 
 // vipr_drizzle
-"Drizzle_cap_A"	"the RED Mine Entrance"
-"Drizzle_cap_B"	"the BLU Mine Entrance"
+"Drizzle_cap_A"	"a Entrada da Mina da RED"
+"Drizzle_cap_B"	"a Entrada da Mina da BLU"
 
 // dom_railway
 "Railway_cap_A"	"a Garagem"
 "Railway_cap_B"	"cap B, the Loading Hall"
-"Railway_cap_C"	"cap C, the Stockyard"
+"Railway_cap_C"	"o Curral"
 
 // dom_sawtooth
-"Sawtooth_cap_A"	"cap A, the Lookout"
-"Sawtooth_cap_B"	"cap B, the Sawmill"
+"Sawtooth_cap_A"	"o Mirante"
+"Sawtooth_cap_B"	"a Serraria"
 "Sawtooth_cap_C"	"a Torre de Rádio"
 
 // td_sunnyside
 "Sunnyside_cap_A"	"os Celeiros"
-"Sunnyside_cap_B"	"cap B, the Tanks"
-"Sunnyside_cap_C"	"cap C, the Coops"
+"Sunnyside_cap_B"	"os Tanques"
+"Sunnyside_cap_C"	"os Galinheiros"
 
 // vip_avanti
 "Avanti_red_setup_goal"		"Move downhill and kill the enemy team's VIP to prevent him from reaching the Escape Zone!"
 "Avanti_blue_setup_goal"	"Move uphill and escort the VIP to the Escape Zone!"
-"Avanti_cap_1"				"the Storeroom"
-"Avanti_cap_2"				"the Terrace"
-"Avanti_cap_3"				"the Bell Tower"
-"Avanti_cap_4"				"the Front Gates"
+"Avanti_cap_1"				"o Depósito"
+"Avanti_cap_2"				"o Terraço"
+"Avanti_cap_3"				"a Torre do Sino"
+"Avanti_cap_4"				"os Portões Frontais"
 
 // vipr_chopper
 "Chopper_cap_A"				"o radar da RED"
@@ -909,7 +909,7 @@ Honorable hand to sword combat only!"
 "default_dom_description"	"Objetivo:
 Para ganhar, cada equipe deve capturar pontos de controle e ganha pontos ao mantê-los sob controle. Quanto mais pontos de controle estiverem sob o seu controle, mais rápido você ganhará pontos.
 
-Observações:
+Outreas observações:
 Contesting a Control Point stops the enemy from gaining points using that Control Point.
 
 Se a sua equipe esiver atrás em pontos, vocês ganharão um bônus de pontuação ao capturar todos os pontos de controle."
@@ -918,9 +918,9 @@ Se a sua equipe esiver atrás em pontos, vocês ganharão um bônus de pontuaç�
 
 // VIP
 "default_vip_description"	"Objetivo:
-A equipe BLU ganha ao escoltar o VIP até a zona de fuga antes que o tempo acabe. A equipe RED ganha ao impedir que o VIP alcance a zona de escape.
+A equipe BLU ganha ao escoltar o VIP até a zona de fuga antes que o tempo acabe. A equipe RED ganha ao impedir que o VIP alcance a zona de fuga.
 
-Observações:
+Outras observações:
 A equipe BLU pode pausar o progresso de captura de um ponto de controle caso o VIP não esteja por perto."
 
 "vip_setup_goal_offense"	"Escolte o VIP até a zona de fuga."
@@ -935,7 +935,7 @@ A equipe BLU pode pausar o progresso de captura de um ponto de controle caso o V
 
 // VIP (Lives)
 "vipl_setup_goal_offense"	"Escolte o VIP para a zona de fuga e impeça-o de ser eliminado."
-"vipl_setup_goal_defense"	"Elimine o VIP da equipe inimiga ou impeça-o de atingir a zona de fuga para vencer."
+"vipl_setup_goal_defense"	"Elimine o VIP da equipe inimiga ou impeça-o de alcançar a zona de fuga para vencer."
 
 // VIP (Flags)
 "vip_bring_flag_here"	"Traga o dispositivo até aqui!"
