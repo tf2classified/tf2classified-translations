@@ -205,7 +205,7 @@
 // Soldier
 "Tip_3_Count"	"12"
 // Generic
-"Tip_3_1"		"Usa %voicemenu 0 0% para llamar a un Medic si estás dañado. Medics cercanos serán notificados."
+"Tip_3_1"		"Usa %helpme% para llamar a un Medic si estás dañado. Medics cercanos serán notificados."
 "Tip_3_2"		"Como Soldier, puedes saltar a grandes alturas disparando un cohete a tus pies mientras saltas."
 "Tip_3_3"		"Como Soldier, agáchate mientras te preparas para un salto con cohete para alcanzar la máxima altura."
 "Tip_3_4"		"Como Soldier, apunta los cohetes a los pies de tus enemigos para que no puedan escapar de la explosión."
@@ -269,7 +269,7 @@
 // Heavy
 "Tip_6_Count"	"17"
 // Generic
-"Tip_6_1"		"Usa %voicemenu 0 0% para llamar a un Medic si estás dañado. Medics cercanos serán notificados."
+"Tip_6_1"		"Usa %helpme% para llamar a un Medic si estás dañado. Medics cercanos serán notificados."
 "Tip_6_2"		"Como Heavy, tienes más salud máxima que cualquier otra clase. ¡No tengas miedo de lanzarte a grandes ofensivas!"
 "Tip_6_3"		"Como Heavy, eres mucho más lento que otras clases. Ten cuidado al enfrentarte a enemigos más ágiles."
 "Tip_6_4"		"Como Heavy, eres un gran compinche del Medic. Mantén al Medic bien a la vista para que la Pistola Médica surta efecto sobre ti."

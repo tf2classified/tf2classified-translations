@@ -205,7 +205,7 @@
 // Soldier
 "Tip_3_Count"	"12"
 // Generic
-"Tip_3_1"		"Clica %voicemenu 0 0% para chamar pelo Medic se ficares ferido. Medics próximos ficarão alerta ao que necessitares."
+"Tip_3_1"		"Clica %helpme% para chamar pelo Medic se ficares ferido. Medics próximos ficarão alerta ao que necessitares."
 "Tip_3_2"		"Como Soldier, podes fazer um salto com foguete até grandes alturas disparando um foguete para os teus pés enquanto saltas."
 "Tip_3_3"		"Como Soldier, agacha-te quando te preparas para um salto com foguete para atingires a altura máxima."
 "Tip_3_4"		"Como Soldier, aponta os foguetes aos pés do inimigo para garantir que não consigam evitar os danos da explosão."
@@ -269,7 +269,7 @@
 // Heavy
 "Tip_6_Count"	"17"
 // Generic
-"Tip_6_1"		"Clica %voicemenu 0 0% para chamar pelo Medic se ficares ferido. Medics próximos ficarão alerta ao que necessitares."
+"Tip_6_1"		"Clica %helpme% para chamar pelo Medic se ficares ferido. Medics próximos ficarão alerta ao que necessitares."
 "Tip_6_2"		"Como Heavy, tens mais saúde máxima do que qualquer outra classe. Não tenhas medo de lançar-te em grandes ofensivas!"
 "Tip_6_3"		"Como Heavy, és muito mais lento do que outras classes. Tem cuidado ao enfrentar inimigos mais ágeis."
 "Tip_6_4"		"Como Heavy, és um bom companheiro dos Medics. Mantém uma linha de visão desimpedida para o teu Medic, para que ele possa manter a Arma Médica apontada a ti."

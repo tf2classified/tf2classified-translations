@@ -205,7 +205,7 @@
 // Soldier
 "Tip_3_Count"	"12"
 // Generic
-"Tip_3_1"		"Hívj Szanitécet a(z) %voicemenu 0 0% megnyomásával ha megsérültél. A közeli Szanitécek értesítve lesznek az szükségeidről."
+"Tip_3_1"		"Hívj Szanitécet a(z) %helpme% megnyomásával ha megsérültél. A közeli Szanitécek értesítve lesznek az szükségeidről."
 "Tip_3_2"		"Katonaként nagy magasságokba, vagy távolságokra rakétaugorhatsz úgy, hogy egyszerre ugrasz és lősz ki egy rakétát egy közeli felület felé."
 "Tip_3_3"		"Katonaként guggolj le, amikor rakétaugrásra készülsz, hogy maximális ugrási magasságot érj el."
 "Tip_3_4"		"Katonaként célozz a rakétákkal az ellenség lába elé, ezzel biztosítva, hogy ne tudják elkerülni a robbanás sebzését."
@@ -269,7 +269,7 @@
 // Heavy
 "Tip_6_Count"	"17"
 // Generic
-"Tip_6_1"		"Hívj Szanitécet a(z) %voicemenu 0 0% megnyomásával ha megsérültél. A közeli Szanitécek értesítve lesznek az szükségeidről."
+"Tip_6_1"		"Hívj Szanitécet a(z) %helpme% megnyomásával ha megsérültél. A közeli Szanitécek értesítve lesznek az szükségeidről."
 "Tip_6_2"		"Gépágyúsként több életerőd van, mint bármely más osztálynak a csapatodban. Vállald bátran a nagy támadások vezetését!"
 "Tip_6_3"		"Gépágyúsként sokkal lassabb vagy mint a többi osztály. Gondolj erre mielőtt hadba szállnál mozgékonyabb ellenfelekkel."
 "Tip_6_4"		"Gépágyúsként a Szanitécek remek társa vagy. Maradj mindig a Szanitéced látómezőjében, hogy rajtad tarthassa a gyógypuskáját."
