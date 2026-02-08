@@ -207,7 +207,7 @@
 // Soldier
 "Tip_3_Count"	"12"
 // Generic
-"Tip_3_1"		"Eğer yaralanırsan, %voicemenu 0 0% tuşuna basarak bir Medic'e seslenebilirsin. Yakınındaki Medic'ler ihtiyacın için haberdar edilirler."
+"Tip_3_1"		"Eğer yaralanırsan, %helpme% tuşuna basarak bir Medic'e seslenebilirsin. Yakınındaki Medic'ler ihtiyacın için haberdar edilirler."
 "Tip_3_2"		"Soldier iken, roket zıplaması yaparak oldukça yükseklere çıkmak için ayağına zıplamadan önce roket ateşle."
 "Tip_3_3"		"Soldier iken, maksimum yüksekliğe erişmek için roket zıplamasına hazırlanırken çömelmeyi unutma."
 "Tip_3_4"		"Soldier iken, roketleri düşmanın ayaklarına hedefle ki patlama hasarından kaçamasınlar."
@@ -237,7 +237,7 @@
 "Tip_4_8"		"Demoman iken, Şişe'n kırılsa da kırılmasa da aynı hasarı verir."
 // Death & Taxes
 "Tip_4_9"		"Demoman iken, Dinamit Paketi'ni düşmanları ortadan kaldırmak için kalabalık kontrol noktalarına fırlat."
-"Tip_4_10"		"Demoman iken, Dinamit Paketi'n düşman Engineer'ler tarafından devre dışı bırakılabilir. Taret yuvalarına fırlatırkan düşünceli ol."
+"Tip_4_10"		"Demoman iken, Dinamit Paketi'n düşman Engineer'lar tarafından devre dışı bırakılabilir. Taret yuvalarına fırlatırkan düşünceli ol."
 "Tip_4_11"		"Demoman iken, Koruyucu Botlar patlama zıplamalarından aldığın hasarı oldukça azaltır. Özellikle pozisyon almak ve hızlı hareket etmek önemli olduğunda onları kullan."
 "Tip_4_12"		"Demoman iken, Mayın Döşeyici düşmanlar çok yaklaşınca otomatik olarak patlayan mayınlar fırlatır. Bunu otomatikleştirilmiş bir savunma için kullan!"
 // Double Down
@@ -271,7 +271,7 @@
 // Heavy
 "Tip_6_Count"	"17"
 // Generic
-"Tip_6_1"		"Eğer yaralanırsan, %voicemenu 0 0% tuşuna basarak bir Medic'e seslenebilirsin. Yakınındaki Medic'ler ihtiyacın için haberdar edilirler."
+"Tip_6_1"		"Eğer yaralanırsan, %helpme% tuşuna basarak bir Medic'e seslenebilirsin. Yakınındaki Medic'ler ihtiyacın için haberdar edilirler."
 "Tip_6_2"		"Heavy iken, diğer sınıflardan daha fazla maksimum sağlığa sahipsin. Ofansif hücumlar yapmaktan çekinme!"
 "Tip_6_3"		"Heavy iken, diğer sınıflara göre çok yavaşsın. Daha haraketli sınıflarla çatışmaya girerken düşünceli ol."
 "Tip_6_4"		"Heavy iken, harika bir Medic dostusun. Medic'inin seni iyileştirebilmesi için onun görüş alanında kalmayı unutma."
@@ -318,7 +318,7 @@
 "Tip_8_Count"	"15"
 // Generic
 "Tip_8_1"		"Spy iken, Kılık Değiştirme Seti ile düşman kılığına girebilirsin. Dikkatli ol, çünkü hala düşmanlara çarpabilirsin, ve saldırdığında kılığını kaybedersin."
-"Tip_8_2"		"Spy iken, kılık değiştirmişken %voicemenu 0 0% tuşuna basarak düşman Medic'lere seslenebilirsin."
+"Tip_8_2"		"Spy iken, kılık değiştirmişken %helpme% tuşuna basarak düşman Medic'lere seslenebilirsin."
 "Tip_8_3"		"Spy iken, kılık değiştirdiğinde düşman gibi davranmaya çalış. Düşman takımın üyelerinin nerede olduklarını gözlemle ve onlardan birinin kılığına gir."
 "Tip_8_4"		"Spy iken, kılık değiştirmişken %reload% tuşuna basmak seni düşman takıma silahını dolduruyormuşsun gibi gösterir."
 "Tip_8_5"		"Spy iken, yavaş olan bir sınıfın kılığına girdiğin zaman %speed% tuşuna basarak normal hızında yürüyebilirsin."
@@ -379,6 +379,18 @@
 // Double Down
 "Tip_10_10"		"Civilian iken, Derbi Bastonu takım arkadaşlarına hız desteğinde bulunmak için kullanılabilir. Bu onların daha hızlı hareket etmesi ve ateş etmesini sağlar."
 "Tip_10_11"		"Civilian iken, Derbi Bastonu'nun takviyesi Medic'lerin iyileştirme oranı ve Engineer'lerin yapıları kurma oranını arttırır."
+
+// Arena
+"Tip_arena_Count"		"9"
+"Tip_arena_1"			"Arena'da, ekranın yukarısındaki oyuncu sayısına dikkat et. Bu, oyuncu avantajına sahip olup olmadığını anlamanı sağlar!"
+"Tip_arena_2"			"Arena'da sağlık elde etmek için çok az kaynak bulunur, bu yüzden Medic'lerini ve Engineer'larını koruduğundan emin ol (ve Sandviçini paylaş)!"
+"Tip_arena_3"			"Arena'da, haritanın ortasındaki kontrol noktası raunt başladıktan 60 saniye sonra ele geçirilebilir hale gelir. Saklanan düşmanları ortaya çıkarmak için bunu kullan!"
+"Tip_arena_4"			"Arena'da yeniden canlanma yoktur, o yüzden ölme!"
+"Tip_arena_5"			"Arena'da çeşitli olmaya çalış! Takımın ile birlikte kompozisyonunuzu tamamlamaya, veya düşman takımlaraınkine karşı koymaya çalışın."
+"Tip_arena_6"			"Arena'da, oyununun başlangıcında kapılar açılana kadar sınıfını değiştirebilirsin."
+"Tip_arena_7"			"Arena'da, takımınla bir arada kalmaya çalışıp tehlikeyden birbirinize yardımcı olun. Bir savaşa geç gelmek seni dezavantaja koyabilir."
+"Tip_arena_8"			"Arena'da, düşman takımların iyileşme fırsatlarını ellerinden almak çok önemlidir. Düşman Medic'ler ve otomatları hedefle, ve elinden geldiğince sağlık paketlerine erişimi engelle!"
+"Tip_arena_9"			"Arena'da, İlk Kan elde etmek kritik hasar güçlendirmesi kazandırır. Eğer elde edersen onu iyi değerlendir! Eğer bir düşman elde ederse, geri çekilip sona ermesini bekle."
 
 // ----------------------------------------------------------------
 // Stock weapon strings
@@ -613,7 +625,7 @@
 
 // Building Status
 "Building_hud_hauling"				"Taşınıyor..."
-"Building_hud_upgrading"			"Güçleniyor..."
+"Building_hud_upgrading"			"Seviye Yükseltiliyor..."
 "Building_hud_jumppad_a_not_built"	"Trambolin A\nKurulmadı"
 "Building_hud_jumppad_b_not_built"	"Trambolin B\nKurulmadı"
 
@@ -1167,7 +1179,7 @@ Kontrol noktalarının takım sahipliği her rauntun başında rastgellenir."
 "TF2c_KeyboardCategory_Movement"        "HAREKET"
 "TF2c_KeyboardCategory_Combat"          "MÜCADELE"
 "TF2c_KeyboardCategory_Communication"   "İLETİŞİM"
-"TF2c_KeyboardCategory_UI"  		 	"UI"
+"TF2c_KeyboardCategory_UI"  		 	"ARAYÜZ"
 "TF2c_KeyboardCategory_Extra"			"EKSTRA"
 "TF2c_UseDefaultsButton"				"Atamaları sıfırla"
 "TF_ClassSkill_Spy_Spywalk"				"SPY: Kılık değiştirmişken normal hızda yürü"
@@ -1261,12 +1273,12 @@ Kontrol noktalarının takım sahipliği her rauntun başında rastgellenir."
 "TF2C_Tooltip_DamageFeedback"				"Hasar geri bildirimi farklı türlerde hasar verirken veya alırken bağlamsal sesler çalar"
 "TF2C_Option_DamageFeedbackOutgoing"		"Giden hasar geri bildirimini etkinleştir"
 "TF2C_Tooltip_DamageFeedbackOutgoing"		"Giden hasar geri bildirimi düşmanlara hasar verirken çalar"
-"TF2C_Option_DamageFeedbackOutgoingVolume"	"Giden hasar bildirimi ses yüksekliği"
-"TF2C_Tooltip_DamageFeedbackOutgoingVolume"	"Hasar verildiğinde çalınan bağlamsal seslerin ses seviyesi"
+"TF2C_Option_DamageFeedbackOutgoingVolume"	"Giden hasar bildirimi ses miktarı"
+"TF2C_Tooltip_DamageFeedbackOutgoingVolume"	"Hasar verildiğinde çalınan bağlamsal seslerin ses miktarı"
 "TF2C_Option_DamageFeedbackIncoming"		"Gelen hasar geri bildirimini etkinleştir"
 "TF2C_Tooltip_DamageFeedbackIncoming"		"Gelen hasar geri bildirimi hasar alırken çalar"
-"TF2C_Option_DamageFeedbackIncomingVolume"	"Gelen hasar bildirimi ses yüksekliği"
-"TF2C_Tooltip_DamageFeedbackIncomingVolume"	"Hasar alındığında çalınan bağlamsal seslerin ses seviyesi"
+"TF2C_Option_DamageFeedbackIncomingVolume"	"Gelen hasar bildirimi ses miktarı"
+"TF2C_Tooltip_DamageFeedbackIncomingVolume"	"Hasar alındığında çalınan bağlamsal seslerin ses miktarı"
 
 "TF_CenterFirePreference"         	"Özel mermi türlerinin ortadan ateşlenmesini tercih et"
 "TF_CenterFirePreference_Tip"    	"Eğer seçiliyse, oyuncuya ait özel mermi türlerinin posizyonunun Y koordinatı 0 olur; uygulamak için oyuncunun sunucudan bağlantıyı kesmesi veya izleyicil olması gerek"
@@ -1298,10 +1310,6 @@ Kontrol noktalarının takım sahipliği her rauntun başında rastgellenir."
 "TF_LoadoutGrid_Tip"              "Eğer seçiliyse, ekipman sayfası bir ızgara olarak gözükecek"
 "TF_HighlightAmmo"				  "Düşen silahlarda parlama efekti kullan"
 "TF_HighlightAmmo_Tip"			  "Eğer seçiliyse, düşen silahlar nerede olduklarını öne çıkarmak için parlayacak"
-"TF_MessageAlert"				  "Sohbet mesajı sesini etkinleştir"
-"TF_MessageAlert_Tip"			  "Eğer seçiliyse, yazılı sohbette mesaj geldiği zaman bir ses çalıcak"
-"TF_MessageVolume"				  "Sohbet mesajı sesi yüksekliği"
-"TF_MessageVolume_Tip"			  "Sohbet mesajı seslerinin yüksekliğini ayarlar"
 "TF_ScoreBoardShowAvatars"		  "Skor tablosunda avatarları göster"
 "TF_ShowCurrentWeapon"		  	  "Mevcut kuşanılan silahı göster"
 "TF_OverlayToastPosition"         "Steam arayüzü bildirimlerinin pozisyonu"
@@ -1331,7 +1339,6 @@ Kontrol noktalarının takım sahipliği her rauntun başında rastgellenir."
 "TF_GlowEffects_Tip" 			  "Eğer seçiliyse, parlama efektleri görevli maçlarda VIP'ler, Yük Vagonları, Bayrak Kapmaca istihbaratı gibi çeşitli ortamlarda etkinleştirilecektir."
 
 // ViewModel
-
 "TF_ViewModelFOV"				"Görünüm modelinin görüş açısı"
 "TF_FlipViewModels"				"Solak görünüm modeli"
 "TF_InvisibleArms"				"Görünüm modeli kollarını görünmez yap"
@@ -1352,7 +1359,7 @@ Kontrol noktalarının takım sahipliği her rauntun başında rastgellenir."
 // Multiplayer
 "TF_MessageAlert"				    "Sohbet mesajı sesini etkinleştir"
 "TF_MessageAlert_Tip"			    "Eğer seçiliyse, yazılı sohbette mesaj geldiği zaman bir ses çalıcak"
-"TF_MessageVolume"				    "Sohbet mesajı sesi seviyesi"
+"TF_MessageVolume"				    "Sohbet mesajı ses miktarı"
 "TF_ChatCloseOnSend"				"Mesaj gönderilidiği zaman sohbeti kapat"
 "TF_ChatCloseOnSend_Tip"			"Eğer seçiliyse, mesaj gönderilidikten sonra sohbeti kapatır"
 "TF_DownloadFilter_Title"			"Sunuculardan indirilen özel dosyalar için izinler"
@@ -1514,6 +1521,25 @@ Kontrol noktalarının takım sahipliği her rauntun başında rastgellenir."
 
 // ----------------------------------------------------------------
 
+"TF_ClassSkill_Medic"			"MEDIC: ÜberŞarjla"
+"TF_ClassSkill_Heavy"			"HEAVY: Minigun namlusunu döndür"
+"TF_ClassSkill_Sniper"			"SNIPER: Dürbünü kullan"
+"TF_ClassSkill_Spy"				"SPY: Gizlen / Belir"
+"TF_ClassSkill_Spy_LastDisguise"	"SPY: Son kılık"
+"TF_ClassSkill_Spy_DisguiseTeam"	"SPY: Kılığına gireceğin takımı değiştir"
+"TF_ClassSkill_Demoman"			"DEMOMAN: Yapışkan bombaları patlat"
+"TF_Call_For_Medic"			"Medic'e çağrıda bulun"
+"TF_Call_For_Help"			"Yardım çağır"
+"TF_DropFlag"				"Çantayı bırak"
+"TF_Toggle_RoundInfo_Map"		"Raunt bilgi çizelgesi"
+"TF_MapInfo"		"Harita bilgisi göster"
+"TF_Inspect"		"Hedefi ya da eşyayı tespit et"
+"TF_call_vote"				"Oylama başlat"
+"TF_Player_ReadyToggle"			"'Hazır / Değil' tuşu"
+"TF_Special_Attack"				"Özel saldırı"
+"TF_simple_disguise_menu_option" "SPY: Basit kılık değiştirme menüsünü kullan"
+"Tooltip_simple_disguise_menu_option" "Basit kılık değiştirme menüsü, kılık değiştirme işlemi için daha fazla sayıda tuşa basmayı gerektiren alternatif bir menüdür, ama sadece 1'den 4'e kadar olan numaralı tuşları kullanır."
+
 "game_spawn_as"				"*%s1 olarak canlanacaksın"
 "game_respawn_as"			"*%s1 olarak canlanacaksın"
 "game_spawn_asrandom"			"*Rastgele bir sınıf olarak canlanacaksın"
@@ -1521,6 +1547,9 @@ Kontrol noktalarının takım sahipliği her rauntun başında rastgellenir."
 
 "TF_medigun_autoheal"		"MEDIC: Sıhhi Silah ateş tuşuna basılı tutmadan iyileştirmeye devam eder"
 "Tooltip_medigun_autoheal"	"Eğer seçiliyse, Medic'in Sıhhi Silah'ı sen tekrar ateş tuşuna basana kadar iyileştirdiğin kişiye odaklı kalacak.\n\nEğer seçili değilse, Sıhhi Silah'ın odaklı kalması için ateş tuşunu basılı tutman gerekecek."
+"TF_LastHitbeeps"			"Düşmanı öldürdüğün zaman son darbe sesini çal"
+"TF_Hitbeeps"				"Düşmana hasar verdiğin zaman isabet sesini çal"
+
 
 "TF_Close"				"Kapat"
 "TF_ResetStats"				"Sıfırla"
