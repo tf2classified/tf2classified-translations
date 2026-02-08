@@ -1359,8 +1359,8 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF_ClassMenu_Music"				"Música do menu de seleção de classe"
 "TF_StreamerMode"					"Habilitar modo streamer"
 "TF_StreamerMode_Tip"				"Desativa o chat por texto e anonimizar os nomes de todos os jogadores na partida"
-"TF_ModelMuzzleFlash"				"Ativar o modelo beta de clarão do disparo"
-"TF_ModelMuzzleFlash_Tip"			"Se ativado, o efeito de disparo usará modelos em vez de partículas."
+"TF_ModelMuzzleFlash"				"Ativar clarão de disparo em modelo (beta)"
+"TF_ModelMuzzleFlash_Tip"			"Se ativado, substitui os efeitos de partículas por modelos mais estilizados no clarão de disparo."
 
 // Voice
 "TF2c_Option_Proximity_Voice_Local"	"Ativar o chat de voz por proximidade."
