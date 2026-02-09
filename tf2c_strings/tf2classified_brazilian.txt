@@ -1100,6 +1100,8 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 
 "TF_Menu_Welcome"			"Bem-vindo(a) de novo,"
 
+"TF_Menu_HideName"			"[CENSURADO]"
+
 "TF_Menu_ResumeGame"		"Retomar jogo"
 "TF_Menu_Mute"				"Silenciar jogadores"
 "TF_Menu_Vote"				"Iniciar votação"
