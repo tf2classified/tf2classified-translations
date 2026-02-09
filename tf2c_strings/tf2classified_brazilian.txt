@@ -302,7 +302,7 @@
 "Tip_7_3"		"Como um Pyro, seu Lança-Chamas causa mais dano quanto mais perto você estiver do inimigo."
 "Tip_7_4"		"Como um Pyro, seu Lança-Chamas consome muita munição. Recolha pacotes de munição e armas caídas para reabastecer seu estoque."
 "Tip_7_5"		"Como um Pyro, embosque os inimigos para pegá-los no curto alcance do seu Lança-Chamas. Use cantos e desníveis a seu favor."
-"Tip_7_6"		"Como um Pyro, o jato de compressão do seu Lança-Chamas é uma ferramenta muito útil. Pressione %attack2% para empurrar inimigos (incluindo os invulneráveis) para longe ou para dentro de obstáculos ambientais!"
+"Tip_7_6"		"Como um Pyro, a rajada de compressão do Lança-chamas empurra inimigos (inclusive invulneráveis) para longe ou para perigos que tem no cenário. Use %attack2%."
 "Tip_7_7"		"Como um Pyro, seu Lança-Chamas pode extinguir o fogo em companheiros de equipe com %attack2%."
 "Tip_7_8"		"Como um Pyro, troque para sua Escopeta se os inimigos recuarem além do curto alcance do seu Lança-Chamas."
 "Tip_7_9"		"Como um Pyro, seu Machado de Incêndio é uma ótima opção para lidar com inimigos em retirada a curta distância."
@@ -332,7 +332,7 @@
 "Tip_8_11"		"Como um Spy, use sua Faca para atacar os inimigos pelas costas, matando-os instantaneamente."
 // Death & Taxes
 "Tip_8_12"		"Como um Spy, sua Arma Tranquilizadora reduz a velocidade de movimento e a taxa de disparo do alvo. Isso ajuda a criar uma abertura para uma fuga."
-"Tip_8_13"		"Como um Spy, os dardos da sua Arma Tranquilizadora fazem com que seu alvo sofra dano crítico garantido em ataques corpo a corpo. Deixe seus companheiros de equipe atacarem em grupo ou tente eliminá-lo sozinho."
+"Tip_8_13"		"Como um Spy, os dardos da sua Arma Tranquilizadora fazem o alvo receber dano crítico garantido em ataques corpo a corpo. Coordene com sua equipe ou elimine sozinho o alvo."
 // Fight or Flight
 "Tip_8_14"		"Como um Spy, L'escampette permite que você se mova rapidamente para dentro ou para fora da base inimiga. Faça fugas rápidas ou infiltrações rápidas!"
 "Tip_8_15"		"Como um Spy, você perde a camuflagem ao sofrer dano com L'escampette equipada. Mantenha-se fora da linha de fogo."
@@ -344,7 +344,7 @@
 "Tip_9_2"		"Como um Engineer, você pode fazer mais do que apenas manter suas contruções. Use sua Escopeta e sua Pistola para auxiliar em combates e defender suas construções."
 "Tip_9_3"		"Como um Engineer, fique de olho nos Spies inimigos que estão instalando Sabotadores em suas construções. Use sua Chave Inglesa para remover os Sabotadores."
 "Tip_9_4"		"Como um Engineer, lembre-se de aprimorar suas construções. Construções aprimoradas podem trazer grandes benefícios para você e sua equipe!"
-"Tip_9_5"		"Como um Engineer, ao pressionar %attack2% enquanto transporta uma construção, você consegue rotacionar a posição da construção. Posicione bem as Sentinelas ou os Teletransportadores para serem mais eficientes para a sua equipe!"
+"Tip_9_5"		"Como um Engineer, ao pressionar %attack2% você consegue girar uma construção enquanto carrega ela. Posicione bem as Sentinelas ou Teletransportadores para ajudar sua equipe!"
 // Stock
 "Tip_9_6"		"Como um Engineer, sua pistola tem bastante reserva de munição. Use-a para atrair os inimigos em sua direção e na sua Sentinela, ou adote uma abordagem mais ofensiva."
 "Tip_9_7"		"Como um Engineer, você pode desarmar os Pacotes de Dinamite inimigos atingindo-os com sua Chave Inglesa."
@@ -361,7 +361,7 @@
 "Tip_9_17"		"Como um Engineer, os disparos totalmente carregados do Arma de Bobina podem ricochetear nas paredes e causar mais dano."
 "Tip_9_18"		"Como um Engineer, a Arma de Bobina causará uma pequena explosão se você a sobrecarregar. Use-a para alcançar áreas antes inacessíveis."
 // Fight or Flight
-"Tip_9_19"		"Como um Engineer, os Saltadores permitem que você e sua equipe alcancem lugares altos. Posicione-os para permitir que seus companheiros de equipe com menos mobilidade alcancem bordas e telhados!"
+"Tip_9_19"		"Como um Engineer, os Saltadores permitem que você e sua equipe consigam alcançar lugares altos. Use os Saltadores também para ajudar aliados com menos mobilidade."
 "Tip_9_20"		"Como um Engineer, os Saltadores permitem que seus companheiros de equipe saltem para a frente com muito impulso. Instale-os em áreas abertas que permitam deslocamentos rápidos."
 
 // Civilian
@@ -371,7 +371,7 @@
 "Tip_10_2"		"Como um Civilian, você é o mais baixo de toda a sua equipe. Isso pode ser útil para se esconder atrás dos seus companheiros."
 "Tip_10_3"		"Como um Civilian, você é o único capaz de capturar Pontos de Controle nos modos de jogo VIP e Corrida VIP."
 "Tip_10_4"		"Como um Civilian, fique atento aos Snipers e Spies inimigos, pois eles são capazes de eliminá-lo instantaneamente."
-"Tip_10_5"		"Como um Civilian, seus companheiros de equipe próximos serão afetados pelo seu aumento de moral, recebendo um pequeno aumento de defesa e cura. Tente ficar fora da linha de visão inimiga e permaneça perto da sua equipe."
+"Tip_10_5"		"Como um Civilian, aliados próximos ganham bônus de moral, recebendo assim um pequeno aumento de defesa e cura. Fique fora da visão inimiga e próximo da sua equipe."
 "Tip_10_6"		"Como um Civilian, pressione %attack2% enquanto estiver olhando para um companheiro de equipe para bancá-lo, dando-lhe uma grande vantagem na batalha."
 // Stock
 "Tip_10_7"		"Como um Civilian, seu Guarda-Chuva não é muito eficaz como arma e só deve ser usado em último caso. Deixe seus companheiros de equipe lutarem por você."
