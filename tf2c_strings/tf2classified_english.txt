@@ -57,6 +57,9 @@
 "TF_GreenTeam_Name"				"GRN"
 "TF_YellowTeam_Name"			"YLW"
 
+"TF_teamswitch_green"			"You are now on GRN!"
+"TF_teamswitch_yellow"			"You are now on YLW!"
+
 "TF_Other_Name"					"OTHER"
 
 // Disguise Kit global disguise
@@ -205,7 +208,7 @@
 // Soldier
 "Tip_3_Count"	"12"
 // Generic
-"Tip_3_1"		"Press %voicemenu 0 0% to call for a Medic if you get hurt. Nearby Medics will be notified of your need."
+"Tip_3_1"		"Press %helpme% to call for a Medic if you get hurt. Nearby Medics will be notified of your need."
 "Tip_3_2"		"As a Soldier, you can rocket jump to great heights by firing a rocket at your feet while jumping."
 "Tip_3_3"		"As a Soldier, crouch when preparing for a rocket jump in order to achieve maximum height."
 "Tip_3_4"		"As a Soldier, aim rockets at the feet of enemies to ensure they can't avoid the explosive damage."
@@ -316,7 +319,7 @@
 "Tip_8_Count"	"15"
 // Generic
 "Tip_8_1"		"As a Spy, you can disguise yourself as an enemy with your Disguise Kit. Beware, as you can still bump into enemies, and attacking will remove your disguise."
-"Tip_8_2"		"As a Spy, call for enemy Medics by pressing %voicemenu 0 0% while disguised."
+"Tip_8_2"		"As a Spy, call for enemy Medics by pressing %helpme% while disguised."
 "Tip_8_3"		"As a Spy, try to act like an enemy while disguised. Observe where enemy team members are, and disguise as one of them."
 "Tip_8_4"		"As a Spy, pressing %reload% while disguised will make you appear to reload to enemy team members."
 "Tip_8_5"		"As a Spy, press %speed% to move at your normal running speed while disguised as slower classes."
@@ -642,6 +645,7 @@
 "Attrib_RocketJumpDmgReduction"		"%s1% self-inflicted explosive damage"
 "Attrib_Scattergun_HasKnockback"	"Deals knockback to victims and yourself"
 
+
 "Attrib_RocketGravity"								"Rockets travel in an arc"
 "Attrib_CreatesEarthquakeFallDamage"				"Create earthquake upon taking fall damage while active"
 "Attrib_TakeProjectileCritsAirborne"				"On Wearer: Take crits from projectiles while airborne"
@@ -726,6 +730,7 @@
 "Attrib_DamageDelaysRegeneration"					"Taking damage delays HP regen by %s1s"
 "Attrib_DestroyGrenadesDetonateOwn"					"Explosion destroys enemy grenades and detonates your own"
 "Attrib_HoldFirePreventDetonation"					"Hold Fire: Prevent grenade detonation"
+"Attrib_MiniCritAirborneEnemies"					"Mini-crits airborne enemies"
 "Attrib_CritAirborneEnemies"						"Crits airborne enemies"
 "Attrib_ModCritAirborneDirectHitOnly"				"Crits airborne enemies on direct hit only"
 "Attrib_ObjectivesGiveCrits"						"Deals crits to enemies capturing, defending, or carrying objectives"
@@ -1096,6 +1101,8 @@ Team ownership of Control Points is randomized at the start of each round."
 
 "TF_Menu_Welcome"			"Welcome back,"
 
+"TF_Menu_HideName"			"[REDACTED]"
+
 "TF_Menu_ResumeGame"		"Resume Game"
 "TF_Menu_Mute"				"Mute Players"
 "TF_Menu_Vote"				"Call a Vote"
@@ -1266,6 +1273,8 @@ Team ownership of Control Points is randomized at the start of each round."
 "GameUI_RestartText"					"Some changes you have made require the game to be restarted:"
 "GameUI_OptionsRestart_Revert"			"Revert changes"
 
+"GameUI_Disconnect_TooManyCommands"		"Disconnect: Too many commands.
+
 // Combat
 "TF2C_Option_DamageFeedback"				"Enable damage feedback"
 "TF2C_Tooltip_DamageFeedback"				"Damage feedback plays contextual sounds when dealing or taking different types of damage"
@@ -1347,7 +1356,7 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_ClassAutoKill_Tip"				"If set, immediately forces respawn whenever you change class while out in the field.\n\nIf unset, change class on respawn."
 "TF_ClassMenu_Music"				"Class selection menu music"
 "TF_StreamerMode"					"Enable streamer mode"
-"TF_StreamerMode_Tip"				"If set, disables the chat (except for voice chat) and anonymizes everyone in the match"
+"TF_StreamerMode_Tip"				"If set, hides all text chat and anonymizes everyone, including you."
 "TF_ModelMuzzleFlash"				"Enable beta model muzzleflash"
 "TF_ModelMuzzleFlash_Tip"			"If set, muzzleflashes will use models instead of particles"
 
