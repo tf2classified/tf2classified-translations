@@ -205,7 +205,7 @@
 // Soldier
 "Tip_3_Count"	"12"
 // Generic
-"Tip_3_1"		"Usa %voicemenu 0 0% para llamar a un Medic si estás dañado. Medics cercanos serán notificados."
+"Tip_3_1"		"Usa %helpme% para llamar a un Medic si estás dañado. Medics cercanos serán notificados."
 "Tip_3_2"		"Como Soldier, puedes saltar a grandes alturas disparando un cohete a tus pies mientras saltas."
 "Tip_3_3"		"Como Soldier, agáchate mientras te preparas para un salto con cohete para alcanzar la máxima altura."
 "Tip_3_4"		"Como Soldier, apunta los cohetes a los pies de tus enemigos para que no puedan escapar de la explosión."
@@ -269,7 +269,7 @@
 // Heavy
 "Tip_6_Count"	"17"
 // Generic
-"Tip_6_1"		"Usa %voicemenu 0 0% para llamar a un Medic si estás dañado. Medics cercanos serán notificados."
+"Tip_6_1"		"Usa %helpme% para llamar a un Medic si estás dañado. Medics cercanos serán notificados."
 "Tip_6_2"		"Como Heavy, tienes más salud máxima que cualquier otra clase. ¡No tengas miedo de lanzarte a grandes ofensivas!"
 "Tip_6_3"		"Como Heavy, eres mucho más lento que otras clases. Ten cuidado al enfrentarte a enemigos más ágiles."
 "Tip_6_4"		"Como Heavy, eres un gran compinche del Medic. Mantén al Medic bien a la vista para que la Pistola Médica surta efecto sobre ti."
@@ -1039,7 +1039,7 @@ La posesión de Puntos de Control por parte de los equipos es aleatoria al comie
 
 "TF_ScoreBoard_UberchargesLabel"	"Supercargas:"
 "TF_ScoreBoard_TransportsLabel"		"Transportes:"
-"TF_ScoreBoard_DestructionLabel"	"Destrucciones:"
+"TF_ScoreBoard_DestructionsLabel"	"Destrucciones:"
 "TF_ScoreBoard_HeadshotsLabel"		"Disparos a Cabezas:"
 "TF_ScoreBoard_BackstabsLabel"		"Apuñaladas:"
 
@@ -1293,10 +1293,6 @@ La posesión de Puntos de Control por parte de los equipos es aleatoria al comie
 "TF_LoadoutGrid_Tip"              "La página de inventario de armas se mostrará como una rejilla"
 "TF_HighlightAmmo"				  "Mostrar contornos brillantes en las armas caídas"
 "TF_HighlightAmmo_Tip"			  "Las armas caídas tendrán contornos brillantes para resaltar su ubicación"
-"TF_MessageAlert"				  "Activar el sonido de mensajes de chat"
-"TF_MessageAlert_Tip"			  "Se reproducirá un sonido cuando se reciba un mensaje de chat"
-"TF_MessageVolume"				  "Volumen del sonido de mensajes de chat"
-"TF_MessageVolume_Tip"			  "Establece el volumen de los sonidos de los mensajes de chat"
 "TF_ScoreBoardShowAvatars"		  "Mostrar avatares en la tabla de puntuaciones"
 "TF_ShowCurrentWeapon"		  	  "Mostrar el arma actualmente equipada"
 "TF_OverlayToastPosition"         "Posición de las notificaciones superpuestas de Steam"
@@ -1324,7 +1320,6 @@ La posesión de Puntos de Control por parte de los equipos es aleatoria al comie
 "TF_DeathNoticeTime_Tip"          "Establece el tiempo de caducidad de los elementos del aviso de muerte"
 
 // ViewModel
-
 "TF_ViewModelFOV"				"Campo de visión del modelo de vista"
 "TF_FlipViewModels"				"Invertir los modelos de vista"
 "TF_InvisibleArms"				"Activar brazos invisibles"
@@ -1341,13 +1336,16 @@ La posesión de Puntos de Control por parte de los equipos es aleatoria al comie
 
 // Voice
 "TF2c_Option_Proximity_Voice_Local"	"Activar voz basada en proximidad"
-// MULTIPLAYER
+
+// Multiplayer
+"TF_MessageAlert"				  "Activar el sonido de mensajes de chat"
+"TF_MessageAlert_Tip"			  "Se reproducirá un sonido cuando se reciba un mensaje de chat"
+"TF_MessageVolume"				  "Volumen del sonido de mensajes de chat"
 "TF_DownloadFilter_Title"			"Permisos para archivos personalizados de servidores"
 "GameUI_DownloadFilter_All"			"Todos los archivos personalizados"
 "GameUI_DownloadFilter_NoSounds"	"Sin sonidos personalizados"
 "GameUI_DownloadFilter_MapsOnly"	"Solo archivos de mapa"
 "GameUI_DownloadFilter_None"		"Sin archivos personalizados"
-
 "TF_Network_Rate"       			"Tasa de actualización de red"
 "TF_Network_Rate_Tip"       		"Establece la tasa de actualización de la red, lo que a su vez establece la cantidad de interpolación.\n\nSe recomienda probar cada una y ver cuál se adapta mejor a tu conexión de red."
 

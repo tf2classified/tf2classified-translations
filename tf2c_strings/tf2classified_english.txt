@@ -57,6 +57,9 @@
 "TF_GreenTeam_Name"				"GRN"
 "TF_YellowTeam_Name"			"YLW"
 
+"TF_teamswitch_green"			"You are now on GRN!"
+"TF_teamswitch_yellow"			"You are now on YLW!"
+
 "TF_Other_Name"					"OTHER"
 
 // Disguise Kit global disguise
@@ -205,7 +208,7 @@
 // Soldier
 "Tip_3_Count"	"12"
 // Generic
-"Tip_3_1"		"Press %voicemenu 0 0% to call for a Medic if you get hurt. Nearby Medics will be notified of your need."
+"Tip_3_1"		"Press %helpme% to call for a Medic if you get hurt. Nearby Medics will be notified of your need."
 "Tip_3_2"		"As a Soldier, you can rocket jump to great heights by firing a rocket at your feet while jumping."
 "Tip_3_3"		"As a Soldier, crouch when preparing for a rocket jump in order to achieve maximum height."
 "Tip_3_4"		"As a Soldier, aim rockets at the feet of enemies to ensure they can't avoid the explosive damage."
@@ -316,7 +319,7 @@
 "Tip_8_Count"	"15"
 // Generic
 "Tip_8_1"		"As a Spy, you can disguise yourself as an enemy with your Disguise Kit. Beware, as you can still bump into enemies, and attacking will remove your disguise."
-"Tip_8_2"		"As a Spy, call for enemy Medics by pressing %voicemenu 0 0% while disguised."
+"Tip_8_2"		"As a Spy, call for enemy Medics by pressing %helpme% while disguised."
 "Tip_8_3"		"As a Spy, try to act like an enemy while disguised. Observe where enemy team members are, and disguise as one of them."
 "Tip_8_4"		"As a Spy, pressing %reload% while disguised will make you appear to reload to enemy team members."
 "Tip_8_5"		"As a Spy, press %speed% to move at your normal running speed while disguised as slower classes."
@@ -377,6 +380,18 @@
 // Double Down
 "Tip_10_10"		"As a Civilian, your Derby Cane can be used to give a teammate a haste boost. This allows them to move and shoot much quicker."
 "Tip_10_11"		"As a Civilian, your Derby Cane boosts the healing rate of Medics and building rate of Engineers."
+
+// Arena
+"Tip_arena_Count"		"9"
+"Tip_arena_1"			"In Arena, keep an eye on the player count at the top of the screen. This will let you know if you have a player advantage!"
+"Tip_arena_2"			"In Arena, There are very few sources of replenishing your health, so be sure to protect your Medics and Engineers (and share your Sandvich)!"
+"Tip_arena_3"			"In Arena, the Control Point in the middle of the map will become active 60 seconds after the beginning of the round. Use it to draw out hiding enemies!"
+"Tip_arena_4"			"In Arena, you don't respawn, so don't die!"
+"Tip_arena_5"			"In Arena, try diversifying your portfolio! Try complementing your team composition, or countering the enemy's."
+"Tip_arena_6"			"In Arena, you can only change your class at the start of a match before the gates open."
+"Tip_arena_7"			"In Arena, try to stay together with your team and help each other when in danger. Showing up late to a fight can put you at a disadvantage."
+"Tip_arena_8"			"In Arena, denying the enemy team opportunities to heal is critical. Target enemy Medics and Dispensers, and deny access to health packs when possible!"
+"Tip_arena_9"			"In Arena, getting First Blood grants a crit buff. If you get it, make it count! If an enemy gets it, lay low and try to wait for it to run out."
 
 // ----------------------------------------------------------------
 // Stock weapon strings
@@ -630,6 +645,7 @@
 "Attrib_RocketJumpDmgReduction"		"%s1% self-inflicted explosive damage"
 "Attrib_Scattergun_HasKnockback"	"Deals knockback to victims and yourself"
 
+
 "Attrib_RocketGravity"								"Rockets travel in an arc"
 "Attrib_CreatesEarthquakeFallDamage"				"Create earthquake upon taking fall damage while active"
 "Attrib_TakeProjectileCritsAirborne"				"On Wearer: Take crits from projectiles while airborne"
@@ -714,6 +730,7 @@
 "Attrib_DamageDelaysRegeneration"					"Taking damage delays HP regen by %s1s"
 "Attrib_DestroyGrenadesDetonateOwn"					"Explosion destroys enemy grenades and detonates your own"
 "Attrib_HoldFirePreventDetonation"					"Hold Fire: Prevent grenade detonation"
+"Attrib_MiniCritAirborneEnemies"					"Mini-crits airborne enemies"
 "Attrib_CritAirborneEnemies"						"Crits airborne enemies"
 "Attrib_ModCritAirborneDirectHitOnly"				"Crits airborne enemies on direct hit only"
 "Attrib_ObjectivesGiveCrits"						"Deals crits to enemies capturing, defending, or carrying objectives"
@@ -1039,7 +1056,7 @@ Team ownership of Control Points is randomized at the start of each round."
 
 "TF_ScoreBoard_UberchargesLabel"	"ÜberCharges:"
 "TF_ScoreBoard_TransportsLabel"		"Transports:"
-"TF_ScoreBoard_DestructionLabel"	"Destructions:"
+"TF_ScoreBoard_DestructionsLabel"	"Destructions:"
 "TF_ScoreBoard_HeadshotsLabel"		"Headshots:"
 "TF_ScoreBoard_BackstabsLabel"		"Backstabs:"
 
@@ -1083,6 +1100,8 @@ Team ownership of Control Points is randomized at the start of each round."
 // ----------------------------------------------------------------
 
 "TF_Menu_Welcome"			"Welcome back,"
+
+"TF_Menu_HideName"			"[REDACTED]"
 
 "TF_Menu_ResumeGame"		"Resume Game"
 "TF_Menu_Mute"				"Mute Players"
@@ -1254,6 +1273,8 @@ Team ownership of Control Points is randomized at the start of each round."
 "GameUI_RestartText"					"Some changes you have made require the game to be restarted:"
 "GameUI_OptionsRestart_Revert"			"Revert changes"
 
+"GameUI_Disconnect_TooManyCommands"		"Disconnect: Too many commands.
+
 // Combat
 "TF2C_Option_DamageFeedback"				"Enable damage feedback"
 "TF2C_Tooltip_DamageFeedback"				"Damage feedback plays contextual sounds when dealing or taking different types of damage"
@@ -1276,18 +1297,18 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_CombatTextDropShadow_Tip"       "If set, shows drop shadow on combat text."
 
 // ClassSpecific
-"TF_CyclopsDoubleTap"             	"DEMOMAN: Enable Cyclops Double-Tap"
+"TF_CyclopsDoubleTap"             	"DEMOMAN: Enable Cyclops double-tap"
 "TF_CyclopsDoubleTap_Tip"        	"If set, Cyclops grenades will require a second click to detonate, instead of letting go of primary fire."
 "TF_SapperAwareness"                "ENGINEER: Sapper awareness"
 "TF_SapperAwareness_Tip"            "If set, sapper warning on buildings alerts in an alternative color."
 "TF_SniperBell"					    "SNIPER: Play Sound on Full Charge"
-"TF_SniperBell_Tip"					"Play a sound when the Sniper rifle is fully charged."
-"TF_ZoomSensitivityRatio"			"SNIPER: Zoom Sensitivity Ratio"
-"TF_ZoomSensitivityRatio_Tip"		"Adjusts scoped zoom sensitivity."
+"TF_SniperBell_Tip"					"Play a sound when the Sniper rifle is fully charged"
+"TF_ZoomSensitivityRatio"			"SNIPER: Zoom sensitivity ratio"
+"TF_ZoomSensitivityRatio_Tip"		"Adjusts scoped zoom sensitivity"
 "TF_SpywalkInverted"				"SPY: Use Spywalk by default"
 "TF_SpywalkInverted_Tip"			"If set, uses Spywalk speed by default, and normal movement speed with the Spywalk bind"
-"TF_ViewModelCloakTint"				"SPY: Viewmodel Cloak Tint"
-"TF_ViewModelCloakTint_Tip"			"SPY: Allow viewmodels to be tinted while cloaked."
+"TF_ViewModelCloakTint"				"SPY: Viewmodel cloak tint"
+"TF_ViewModelCloakTint_Tip"			"Allow viewmodels to be tinted while cloaked"
 "TF_AvoidBecomingVIP"				"CIVILIAN: Avoid becoming the VIP"
 "TF_AvoidBecomingVIP_Tip"			"If set, you won't be usually considered when the game chooses a VIP; you can be still picked if everyone has this option set or if you are voted"
 
@@ -1296,10 +1317,6 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_LoadoutGrid_Tip"              "If set, the weapon loadout page will be displayed as a grid"
 "TF_HighlightAmmo"				  "Display glow outlines on dropped weapons"
 "TF_HighlightAmmo_Tip"			  "If set, dropped weapons will have glow outlines to highlight their locations"
-"TF_MessageAlert"				  "Enable chat message sound"
-"TF_MessageAlert_Tip"			  "If set, a sound will play when a chat message is received"
-"TF_MessageVolume"				  "Chat message sound volume"
-"TF_MessageVolume_Tip"			  "Sets the volume of chat message sounds"
 "TF_ScoreBoardShowAvatars"		  "Display avatars on the scoreboard"
 "TF_ShowCurrentWeapon"		  	  "Display currently equipped weapon"
 "TF_OverlayToastPosition"         "Position of Steam overlay notifications"
@@ -1329,7 +1346,6 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_GlowEffects_Tip" 			  "If set, glow effects will be enabled during the match for objectives like VIPs, Payload carts, and CTF intelligence briefcases."
 
 // ViewModel
-
 "TF_ViewModelFOV"				"Viewmodel Field of View"
 "TF_FlipViewModels"				"Flip Viewmodels"
 "TF_InvisibleArms"				"Use Invisible Arm Viewmodels"
@@ -1340,19 +1356,24 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_ClassAutoKill_Tip"				"If set, immediately forces respawn whenever you change class while out in the field.\n\nIf unset, change class on respawn."
 "TF_ClassMenu_Music"				"Class selection menu music"
 "TF_StreamerMode"					"Enable streamer mode"
-"TF_StreamerMode_Tip"				"If set, disables the chat (except for voice chat) and anonymizes everyone in the match"
+"TF_StreamerMode_Tip"				"If set, hides all text chat and anonymizes everyone, including you."
 "TF_ModelMuzzleFlash"				"Enable beta model muzzleflash"
 "TF_ModelMuzzleFlash_Tip"			"If set, muzzleflashes will use models instead of particles"
 
 // Voice
 "TF2c_Option_Proximity_Voice_Local"	"Enable Proximity Voice Chat."
-// MULTIPLAYER
+
+// Multiplayer
+"TF_MessageAlert"				    "Enable chat message sound"
+"TF_MessageAlert_Tip"			    "If set, a sound will play when a chat message is received"
+"TF_MessageVolume"				    "Chat message sound volume"
+"TF_ChatCloseOnSend"				"Close chat on message send"
+"TF_ChatCloseOnSend_Tip"			"If set, closes chat after sending a message"
 "TF_DownloadFilter_Title"			"Permissions for custom files downloaded from servers"
 "GameUI_DownloadFilter_All"			"Allow all custom files"
 "GameUI_DownloadFilter_NoSounds"	"No custom sounds"
 "GameUI_DownloadFilter_MapsOnly"	"Only map files"
 "GameUI_DownloadFilter_None"		"No custom files"
-
 "TF_Network_Rate"       			"Network update rate"
 "TF_Network_Rate_Tip"       		"Sets network update rate, which inversely sets interpolation amount.\n\nRecommended to try each and see which feels best on your network connection."
 
@@ -1448,7 +1469,7 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF2C_ACHIEVEMENT_ARCHAEOLOGY_NAME"						"Archaeology"
 "TF2C_ACHIEVEMENT_ARCHAEOLOGY_DESC"						"Discover the buried treasure in Jinn."
 "TF2C_ACHIEVEMENT_AIRHOCKEY_NAME"						"Playmaker"
-"TF2C_ACHIEVEMENT_AIRHOCKEY_DESC"						"Win a game of Air Hockey on 2Bridge."
+"TF2C_ACHIEVEMENT_AIRHOCKEY_DESC"						"Win a game of Air Hockey on 2Bridge against another player."
 "TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_NAME"					"Fowl Play"
 "TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_DESC"					"Chase a chicken into an environmental kill."
 "TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_NAME"					"Triple Agent"

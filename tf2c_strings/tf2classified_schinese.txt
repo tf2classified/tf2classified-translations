@@ -205,7 +205,7 @@
 // Soldier
 "Tip_3_Count"	"12"
 // Generic
-"Tip_3_1"		"作为士兵，如果你受伤了，按 %voicemenu 0 0% 呼叫医生，附近的医生会收到你的请求。"
+"Tip_3_1"		"作为士兵，如果你受伤了，按 %helpme% 呼叫医生，附近的医生会收到你的请求。"
 "Tip_3_2"		"作为士兵，你可以在跳起的同时向脚下发射一枚火箭弹来进行火箭跳，使自己到达很高的地方。"
 "Tip_3_3"		"作为士兵，火箭跳时下蹲可以跳得更高。"
 "Tip_3_4"		"作为士兵，瞄准敌人的脚发射火箭以确保他们无法避开爆炸伤害。"
@@ -269,7 +269,7 @@
 // Heavy
 "Tip_6_Count"	"17"
 // Generic
-"Tip_6_1"		"作为机枪手，如果你受伤了，按 %voicemenu 0 0% 呼叫医生，附近的医生会收到你的请求。"
+"Tip_6_1"		"作为机枪手，如果你受伤了，按 %helpme% 呼叫医生，附近的医生会收到你的请求。"
 "Tip_6_2"		"作为机枪手，你的生命值远高于其他兵种，不要害怕进攻，掩护并带领你的团队向前冲锋。"
 "Tip_6_3"		"作为机枪手，你的移动速度是所有兵种中最慢的，在与高机动兵种交战时一定要时刻保持警惕！"
 "Tip_6_4"		"作为机枪手，你是医生的最佳拍挡。站在医生能清楚看到你的位置，以保持得到治疗。"
@@ -1039,7 +1039,7 @@
 
 "TF_ScoreBoard_UberchargesLabel"	"UberCharge："
 "TF_ScoreBoard_TransportsLabel"		"传送装置："
-"TF_ScoreBoard_DestructionLabel"	"破坏："
+"TF_ScoreBoard_DestructionsLabel"	"破坏："
 "TF_ScoreBoard_HeadshotsLabel"		"爆头："
 "TF_ScoreBoard_BackstabsLabel"		"背刺："
 
@@ -1293,10 +1293,6 @@
 "TF_LoadoutGrid_Tip"              "若选中此选项，武器配置页面将以网格形式显示。"
 "TF_HighlightAmmo"				  "在掉落的武器上显示光圈效果"
 "TF_HighlightAmmo_Tip"			  "若选中此选项，高亮光圈会被启用，并在游戏中时高亮出掉落的武器目标。"
-"TF_MessageAlert"				  "启用文字聊天提示音效"
-"TF_MessageAlert_Tip"			  "若选中此选项，当收到聊天消息时将播放音效。"
-"TF_MessageVolume"				  "文字聊天提示音效音量"
-"TF_MessageVolume_Tip"			  "设置文字聊天提示音效的音量。"
 "TF_ScoreBoardShowAvatars"		  "允许在计分板上显示玩家头像"
 "TF_ShowCurrentWeapon"		  	  "显示当前装备的武器"
 "TF_OverlayToastPosition"         "Steam 游戏内通知位置"
@@ -1324,7 +1320,6 @@
 "TF_DeathNoticeTime_Tip"          "设置死亡信息条目的过渡时间。"
 
 // ViewModel
-
 "TF_ViewModelFOV"				"模型视图视场"
 "TF_FlipViewModels"				"翻转模型视图"
 "TF_InvisibleArms"				"启用模型视图隐形手臂"
@@ -1341,13 +1336,16 @@
 
 // Voice
 "TF2c_Option_Proximity_Voice_Local"	"启用距离式语音聊天。"
-// MULTIPLAYER
+
+// Multiplayer
+"TF_MessageAlert"				  "启用文字聊天提示音效"
+"TF_MessageAlert_Tip"			  "若选中此选项，当收到聊天消息时将播放音效。"
+"TF_MessageVolume"				  "文字聊天提示音效音量"
 "TF_DownloadFilter_Title"			"从服务器上下载自定义文件的权限"
 "GameUI_DownloadFilter_All"			"允许所有自定义文件"
 "GameUI_DownloadFilter_NoSounds"	"无自定义音效"
 "GameUI_DownloadFilter_MapsOnly"	"仅限地图文件"
 "GameUI_DownloadFilter_None"		"无自定义文件"
-
 "TF_Network_Rate"       			"网络更新速率"
 "TF_Network_Rate_Tip"       		"设置网络更新的速率，更新越快，系统“猜测补偿”的程度就越小。\n\n建议逐一尝试不同设置，看看在你的网络连接条件下哪种效果最好。"
 

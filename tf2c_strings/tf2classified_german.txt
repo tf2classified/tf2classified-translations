@@ -205,7 +205,7 @@
 // Soldier
 "Tip_3_Count"	"12"
 // Generic
-"Tip_3_1"		"Drücken Sie %voicemenu 0 0%, um einen Medic zu rufen, falls Sie verletzt sind. Die Medics in der Nähe werden über Ihren Bedarf informiert."
+"Tip_3_1"		"Drücken Sie %helpme%, um einen Medic zu rufen, falls Sie verletzt sind. Die Medics in der Nähe werden über Ihren Bedarf informiert."
 "Tip_3_2"		"Als Soldier können Sie mit Raketensprüngen durch gleichzeitiges Springen und Abfeuern einer Rakete auf nahegelegene Oberflächen große Höhen erreichen oder weite Entfernungen zurücklegen."
 "Tip_3_3"		"Als Soldier sollten Sie sich beim Raketensprung ducken, um die maximale Höhe zu erreichen."
 "Tip_3_4"		"Feuern Sie als Soldier Raketen auf die Füße Ihrer Feinde, damit diese dem Explosionsschaden nicht ausweichen können."
@@ -269,7 +269,7 @@
 // Heavy
 "Tip_6_Count"	"17"
 // Generic
-"Tip_6_1"		"Drücken Sie %voicemenu 0 0%, um einen Medic zu rufen, falls Sie verletzt sind. Die Medics in der Nähe werden über Ihren Bedarf informiert."
+"Tip_6_1"		"Drücken Sie %helpme%, um einen Medic zu rufen, falls Sie verletzt sind. Die Medics in der Nähe werden über Ihren Bedarf informiert."
 "Tip_6_2"		"Als Heavy haben Sie die höchste Gesundheitspunkten als alle andere Klasse. Haben Sie keine Angst, vorzustoßen!"
 "Tip_6_3"		"Als Heavy sind Sie die langsamste Klasse. Seine Sie auf der Hut, wenn Sie gegen beweglicheren Gegnern wie Scouts kämpfen."
 "Tip_6_4"		"Als Heavy sind Sie ein guter Partner des Medic. Halten Sie die Sicht zum Medic frei, damit die Medigun wirken kann."
@@ -1040,7 +1040,7 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 
 "TF_ScoreBoard_UberchargesLabel"	"Unverwundb.:"
 "TF_ScoreBoard_TransportsLabel"		"Befördert:"
-"TF_ScoreBoard_DestructionLabel"	"Zerstör.:"
+"TF_ScoreBoard_DestructionsLabel"	"Zerstör.:"
 "TF_ScoreBoard_HeadshotsLabel"		"Kopfschüsse:"
 "TF_ScoreBoard_BackstabsLabel"		"Rückenstiche:"
 
@@ -1310,10 +1310,6 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "TF_LoadoutGrid_Tip"              "Wenn eingeschaltet, wird die Ausrüstungsseite als Raster angezeigt."
 "TF_HighlightAmmo"				  "Leuchtumrisse auf fallengelassene Waffen zeigen"
 "TF_HighlightAmmo_Tip"			  "Wenn eingeschaltet, werden fallen gelassene Waffen mit leuchtenden Umrissen versehen, um ihre Position zu markieren."
-"TF_MessageAlert"				  "Sound für Chatnachrichten aktivieren"
-"TF_MessageAlert_Tip"			  "Wenn eingeschaltet, wird ein Sound abgespielt, wenn eine Chat-Nachricht empfangen wird."
-"TF_MessageVolume"				  "Soundlautstärke der Chatnachricht"
-"TF_MessageVolume_Tip"			  "Passt die Lautstärke der Chatnachrichten an."
 "TF_ScoreBoardShowAvatars"		  "Avatare auf der Punktetafel anzeigen"
 "TF_ShowCurrentWeapon"		  	  "Aktuell ausgerüstete Waffe anzeigen"
 "TF_OverlayToastPosition"         "Position der Steam-Benachrichtigungen"
@@ -1342,7 +1338,6 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 
 
 // ViewModel
-
 "TF_ViewModelFOV"				"Sichtbereich des Ansichtsmodells"
 "TF_ViewModelFOV_Tip"			"Passt den Sichtbereich des Ansichtsmodells an."
 "TF_FlipViewModels"				"Ansichtsmodellsausrichtung ändern"
@@ -1352,7 +1347,7 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "TF_ViewModelOpacity"			"Durchsichtige Ansichtsmodelle"
 "TF_ViewModelOpacity_Tip"		"Durchsichtige Ansichtsmodelle anpassen."
 
-	// Misc
+// Misc
 "TF_ClassAutoKill"					"Erneutes Spawnen nach Wahl einer Spielerklasse"
 "TF_ClassAutoKill_Tip"				"Wenn eingeschaltet, werden Sie nach Wahl einer Spielerklasse im Feld sofort erneut spawnen.\n\nWenn ausgeschaltet, werden Sie nach Wahl einer Spielerklasse nur im Spawnraum wechseln."
 "TF_ClassMenu_Music"				"Klassenwahlmenü Musik"
@@ -1363,13 +1358,16 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 
 // Voice
 "TF2c_Option_Proximity_Voice_Local"	"Proximity-Sprachchat aktivieren."
-// MULTIPLAYER
+
+// Multiplayer
+"TF_MessageAlert"				  "Sound für Chatnachrichten aktivieren"
+"TF_MessageAlert_Tip"			  "Wenn eingeschaltet, wird ein Sound abgespielt, wenn eine Chat-Nachricht empfangen wird."
+"TF_MessageVolume"				  "Soundlautstärke der Chatnachricht"
 "TF_DownloadFilter_Title"			"Benutzerdef. Dateien von Servern downloaden erlauben"
 "GameUI_DownloadFilter_All"			"Alle Dateien erlauben"
 "GameUI_DownloadFilter_NoSounds"	"Keine benutzerdef. Sounds"
 "GameUI_DownloadFilter_MapsOnly"	"Nur selbst erstellte Karten"
 "GameUI_DownloadFilter_None"		"Keine benutzerdef. Dateien"
-
 "TF_Network_Rate"       			"Netzwerkaktualisierungsrate"
 "TF_Network_Rate_Tip"       		"Legt die Akutalisierungsrate fest, wodurch sich der Einfügungsgrad umgekehrt einstellt. \n\nEs wird empfohlen, beide Optionen auszuprobieren und zu sehen, welche für Ihre Netzwerkverbindung am besten geeignet ist."
 
