@@ -57,6 +57,9 @@
 "TF_GreenTeam_Name"		        "绿队"
 "TF_YellowTeam_Name"	        "黄队"
 
+"TF_teamswitch_green"			"你现在身在绿队！"
+"TF_teamswitch_yellow"			"你现在身在黄队！"
+
 "TF_Other_Name"	                "其他团队"
 
 // Disguise Kit global disguise
@@ -147,7 +150,7 @@
 
 // Custom suicides
 "DeathMsg_Suicide_Boioing"		"升天了！"
-"DeathMsg_Suicide_Stomp"		"被高重力束缚了！"
+"DeathMsg_Suicide_Stomp"		"体验到了高重力！"
 "DeathMsg_Suicide_Disintegrate"	"化作灰烬了！"
 "DeathMsg_Suicide_Decapitate"	"的身体抛弃了头！"
 "DeathMsg_Suicide_Gold"			"变成了金雕！"
@@ -263,13 +266,13 @@
 "Tip_5_13"		"作为医生，电击治疗仪的能量条越满，造成的伤害就越高。只要你击中敌人，它的能量条就会耗尽。"
 "Tip_5_14"		"作为医生，电击治疗仪可以在充满能量条状态下完全治愈一名队友，但也会降低你的主要治疗效率。"
 // Double Down
-"Tip_5_15"		"作为医生，妙手回春炮在治疗成群结队的队友时非常有用。瞄准并直击命中还会增加治疗量和获取 UberCharge 奖励。
+"Tip_5_15"		"作为医生，妙手回春炮在治疗成群结队的队友时非常有用。瞄准并直击命中还会增加治疗量和获取 UberCharge 奖励。"
 "Tip_5_16"		"作为医生，妙手回春炮的 UberCharge 会在激活时部署一道临时护盾，进入该护盾范围内的任何队友会对所有伤害免疫。"
 
 // Heavy
 "Tip_6_Count"	"17"
 // Generic
-"Tip_6_1"		"作为机枪手，如果你受伤了，按 %helpme% 呼叫医生，附近的医生会收到你的请求。"
+"Tip_6_1"		"作为机枪手，如果你受伤了，按 %voicemenu 0 0% 呼叫医生，附近的医生会收到你的请求。"
 "Tip_6_2"		"作为机枪手，你的生命值远高于其他兵种，不要害怕进攻，掩护并带领你的团队向前冲锋。"
 "Tip_6_3"		"作为机枪手，你的移动速度是所有兵种中最慢的，在与高机动兵种交战时一定要时刻保持警惕！"
 "Tip_6_4"		"作为机枪手，你是医生的最佳拍挡。站在医生能清楚看到你的位置，以保持得到治疗。"
@@ -309,14 +312,14 @@
 // Fight or Flight
 "Tip_7_12"		"作为火焰兵，双管霰弹枪可以用来拉近你与目标之间的距离。利用后坐力将自己向上推或者推向敌人！"
 "Tip_7_13"		"作为火焰兵，双管霰弹枪的伤害不如霰弹枪可靠。如果你在遭遇战中失利，可以利用它的后坐力来让自己撤退！"
-"Tip_7_14"		"作为火焰兵，手持时收割者可以积攒能量获得爆击，还能让你从燃烧的敌人身上获得治疗。"
+"Tip_7_14"		"作为火焰兵，手持收割者时可以积攒能量获得爆击，还能让你从燃烧的敌人身上获得治疗。"
 "Tip_7_15"		"作为火焰兵，在装备收割者的情况下死亡将扑灭你点燃的任何敌人。"
 
 // Spy
 "Tip_8_Count"	"15"
 // Generic
 "Tip_8_1"		"作为间谍，请利用伪装工具伪装成敌人。注意，你会因为撞到敌人暴露并且发动攻击即会解除伪装。"
-"Tip_8_2"		"作为间谍，伪装时按 %voicemenu 0 0% 能呼叫敌方医生。"
+"Tip_8_2"		"作为间谍，伪装时按 %helpme% 能呼叫敌方医生。"
 "Tip_8_3"		"作为间谍，伪装时你的行为要尽量和敌人一样。仔细观察敌方成员，然后伪装成其中一员。"
 "Tip_8_4"		"作为间谍，伪装时按 %reload% 可以让伪装的敌方成员看起来也在装弹。"
 "Tip_8_5"		"作为间谍，伪装成速度比较慢的兵种时，你可以按 %speed% 以正常速度奔跑。"
@@ -377,6 +380,18 @@
 // Double Down
 "Tip_10_10"		"作为平民，德比手杖可以为队友提供急速增益，可以让他们更快的移动和射击。"
 "Tip_10_11"		"作为平民，你的德比手杖可以提高医生的治疗效率和工程师的建造效率。"
+
+// Arena
+"Tip_arena_Count"       "9"
+"Tip_arena_1"           "在竞技场模式中，记得留意屏幕上方的玩家计数器，这会让你确认己方是否有人数上的优势！"
+"Tip_arena_2"           "在竞技场模式中，恢复生命值的途径极其有限，所以请一定要保护好己方的医生和工程师（并跟他们分享你的三明治）！"
+"Tip_arena_3"           "在竞技场模式中，地图中央的控制点将会在本局开始后的 60 秒激活。善用这个技巧来逼迫躲藏的敌人们出来！"
+"Tip_arena_4"           "在竞技场模式中，你无法在回合中重生，所以别死了！"
+"Tip_arena_5"           "在竞技场模式中，试着想方设法的试出不同的对策！ 亦调整好己方队伍状态，或反击好敌方队伍状态。"
+"Tip_arena_6"           "在竞技场模式中，你只能在每回合的出生点大门开启之前更改你的兵种。"
+"Tip_arena_7"           "在竞技场模式中，在危险时试着找到己方队友们并待在一块互相帮助。当你在队伍火并后来晚了会给你不利的情况。"
+"Tip_arena_8"           "在竞技场模式中，让敌方队伍无法恢复生命值是致命的。试着把目标放在敌方医生和补给器上，并尽量禁止他们获得医疗包！"
+"Tip_arena_9"           "在竞技场模式中，最先杀敌的玩家即可获得“第一滴血”爆击奖励效果。如果你获得了，发挥好它的价值！如果敌方获得了，尽量躲着点直到爆击效果时间过去。"
 
 // ----------------------------------------------------------------
 // Stock weapon strings
@@ -630,6 +645,7 @@
 "Attrib_RocketJumpDmgReduction"		"火箭跳跃时受到的爆炸伤害 %s1%"
 "Attrib_Scattergun_HasKnockback"	"能够击退目标，射击者自身也会被震退"
 
+
 "Attrib_RocketGravity"								"火箭呈弧形彈道"
 "Attrib_CreatesEarthquakeFallDamage"				"手持时：受到摔落伤害时会造成地震"
 "Attrib_TakeProjectileCritsAirborne"				"穿戴时：在空中会受到飞行物的爆击伤害"
@@ -714,6 +730,7 @@
 "Attrib_DamageDelaysRegeneration"					"受伤时延迟生命恢复 %s1 秒"
 "Attrib_DestroyGrenadesDetonateOwn"					"可以引爆你自己的爆炸物并摧毁敌方爆炸物"
 "Attrib_HoldFirePreventDetonation"					"按住开火键：防止榴弹引爆"
+"Attrib_MiniCritAirborneEnemies"					"对空中的敌人造成迷你爆击伤害"
 "Attrib_CritAirborneEnemies"						"爆击使敌人飞天"
 "Attrib_ModCritAirborneDirectHitOnly"				"对空中目标直击造成爆击"
 "Attrib_ObjectivesGiveCrits"						"对占领和竞争控制点的敌人或夺取情报的敌人和自身造成爆击"
@@ -955,10 +972,10 @@
 "vipr_cap_mid_reset"		"中央控制点已被重置！"
 "vipr_death_cap_mid_reset"	"你死了！中央控制点已被重置！"
 
-"vipr_red_civ_death"	"红队的VIP已被淘汰！"
-"vipr_blu_civ_death"	"蓝队的VIP已被淘汰！"
-"vipr_ylw_civ_death"	"黄队的VIP已被淘汰！"
-"vipr_grn_civ_death"	"绿队的VIP已被淘汰！"
+"vipr_red_civ_death"	"红队的 VIP 已被淘汰！"
+"vipr_blu_civ_death"	"蓝队的 VIP 已被淘汰！"
+"vipr_ylw_civ_death"	"黄队的 VIP 已被淘汰！"
+"vipr_grn_civ_death"	"绿队的 VIP 已被淘汰！"
 
 "vipr_escape_zone"	"撤离区域"
 
@@ -1020,8 +1037,8 @@
 "TF_ScoreBoard_Player"				"%s1 位玩家"
 "TF_ScoreBoard_Players"				"%s1 位玩家"
 
-"ScoreBoard_Spectator"				""%s1 位观察者：%s2"
-"ScoreBoard_Spectators"				""%s1 位观察者：%s2"
+"ScoreBoard_Spectator"				"%s1 位观察者：%s2"
+"ScoreBoard_Spectators"				"%s1 位观察者：%s2"
 
 "TF_ScoreBoard_KillsLabel"			"击杀："
 "TF_ScoreBoard_AssistsLabel"		"辅助："
@@ -1084,6 +1101,8 @@
 
 "TF_Menu_Welcome"			"欢迎回来，"
 
+"TF_Menu_HideName"			"[已编辑]"
+
 "TF_Menu_ResumeGame"		"回到游戏"
 "TF_Menu_Mute"				"屏蔽玩家"
 "TF_Menu_Vote"				"发起投票"
@@ -1104,6 +1123,8 @@
 "TF_Menu_Disconnect"		"断开连接"
 
 "TF_Menu_Blog"				"官方博客"
+"TF_Menu_LatestUpdate"		"最后更新"
+"TF_Menu_ReportBug"			"汇报错误"
 
 "TF_Friends_Title"					"好友（%friend_count%）"
 "TF_Friends_Status_InTF2C"		    "正在游玩军团要塞2：秘典"
@@ -1189,6 +1210,7 @@
 "TF_Enable"								"启用"
 "TF_Disable"							"禁用"
 "TF_RightClick_Enable"					"右键启用"
+"TF_RightClick_Enable_Mouse"			"按下右键启用鼠标"
 
 // UI options
 "TF_Open_Charinfo"						"打开人物配置"
@@ -1251,20 +1273,22 @@
 "GameUI_RestartText"					"某些修改过的选项需要你重启游戏后才能生效："
 "GameUI_OptionsRestart_Revert"			"恢复修改"
 
+"GameUI_Disconnect_TooManyCommands"		"已断开连接：指令发送请求次数过多。"
+
 // Combat
-"TF2C_Option_DamageFeedback"				"启用命中反馈"
+"TF2C_Option_DamageFeedback"				"启用命中反馈音效"
 "TF2C_Tooltip_DamageFeedback"				"命中反馈会在造成伤害或者承受伤害的同时播放不同的命中反馈音效。"
-"TF2C_Option_DamageFeedbackOutgoing"		"启用输出命中反馈"
+"TF2C_Option_DamageFeedbackOutgoing"		"启用输出命中反馈音效"
 "TF2C_Tooltip_DamageFeedbackOutgoing"		"对敌人造成伤害时会播放输出命中反馈音效。"
-"TF2C_Option_DamageFeedbackOutgoingVolume"	"输出命中反馈音量"
-"TF2C_Tooltip_DamageFeedbackOutgoingVolume"	"对敌人造成伤害时播放的爆击命中反馈音效音量。"
-"TF2C_Option_DamageFeedbackIncoming"		"启用受击命中反馈"
+"TF2C_Option_DamageFeedbackOutgoingVolume"	"输出命中反馈音效音量"
+"TF2C_Tooltip_DamageFeedbackOutgoingVolume"	"对敌人造成伤害时播放的输出命中反馈音效音量。"
+"TF2C_Option_DamageFeedbackIncoming"		"启用受击命中反馈音效"
 "TF2C_Tooltip_DamageFeedbackIncoming"		"受到伤害时会播放受击命中反馈音效。"
-"TF2C_Option_DamageFeedbackIncomingVolume"	"受击命中反馈音量"
+"TF2C_Option_DamageFeedbackIncomingVolume"	"受击命中反馈音效音量"
 "TF2C_Tooltip_DamageFeedbackIncomingVolume"	"受到伤害时播放的命中反馈音效音量。"
 
 "TF_CenterFirePreference"         	"首选从中心区域发射子弹"
-"TF_CenterFirePreference_Tip"    	"若选中此选项，玩家的子弹生成位置 Y 坐标将设为 0；需要玩家重新连接或处于旁观状态才能应用。"
+"TF_CenterFirePreference_Tip"    	"若选中此选项，玩家的子弹生成位置将变为中心位置发射；需要玩家重新连接或处于旁观状态才能应用。"
 "TF_BurningDeathAnim"				"启用燃烧死亡动画"
 "TF_BurningDeathAnim_Tip"			"若选中此选项，在被火烧死时布娃娃将会播放一段特殊的死亡动画。"
 "TF_CombatTextBatchingWindow"		"伤害数值文本累积时间"
@@ -1305,19 +1329,21 @@
 "TF_TargetID_Floating_Health"	  "Target ID - 启用悬浮生命值图标"
 "TF_TargetID_Floating_Health_Tip" "若选中此选项，会在角色上方显示生命值图标。"
 "TF_TargetID_Alpha"				  "Target ID - 名称面板背景透明度"
-"TF_TargetID_Alpha_Tip"			  "设置TargetID的名称面板背景透明度。"
+"TF_TargetID_Alpha_Tip"			  "设置Target ID的名称面板背景透明度。"
 "TF_TargetID_Show_Avatars"		  "Target ID - 在Target ID上显示头像"
 "TF_TargetID_Show_Avatars_Tip"	  "在Target ID上显示玩家的Steam头像。"
 "TF_HideKeybinds"                 "隐藏显示游戏内键位绑定"
 "TF_HideKeybinds_Tip"			  "禁用游戏HUD上键位绑定显示功能。"
-"TF_AlternativeTimer"             "使用替代的游戏内计时器"
-"TF_AlternativeTimer_Tip"         "若选中此选项，将使用另一种等宽字体的计时器。"
+"TF_AlternativeTimer"             "使用替代的游戏内倒计时界面"
+"TF_AlternativeTimer_Tip"         "若选中此选项，将使用另一种等宽字体的倒计时字体。"
 "TF_DisableDropShadow"            "禁用阴影"
 "TF_DisableDropShadow_Tip"        "若选中此选项，将从大部分文本和图像中移除阴影效果。"
 "TF_DeathNoticeMax"               "死亡信息 - 最大显示数量"
 "TF_DeathNoticeMax_Tip"           "设置同一时间内显示死亡信息条目的最大数量。"
 "TF_DeathNoticeTime"              "死亡信息 - 显示时间（单位：秒）"
 "TF_DeathNoticeTime_Tip"          "设置死亡信息条目的过渡时间。"
+"TF_GlowEffects"				  "启用光圈效果"
+"TF_GlowEffects_Tip" 			  "若选中此选项，高亮光圈会被启用，并在比赛时高亮出目标（如推车、夺旗模式情报公文包和VIP还有重生后的队友）。"
 
 // ViewModel
 "TF_ViewModelFOV"				"模型视图视场"
@@ -1326,21 +1352,23 @@
 "TF_ViewModelOpacity"			"模型视图不透明度"
 
 // Misc
+"TF_ClassAutoKill"					"选择兵种后强制重生"
+"TF_ClassAutoKill_Tip"				"若选中此选项，那么你将在战场中更改兵种时立即自杀。\n\n若反选此选项，你将在下次重生时更改为新兵种。"
 "TF_ClassMenu_Music"				"兵种选择界面音乐"
 "TF_StreamerMode"					"启用直播模式"
-"TF_StreamerMode_Tip"				"若选中此选项，则禁用文字聊天和语音聊天，并在游戏中匿名每个人。"
+"TF_StreamerMode_Tip"				"若选中此选项，则隐藏所有文字聊天，并在游戏中匿名每个人；包括你自己。"
 "TF_ModelMuzzleFlash"				"启用测试版枪口火焰"
 "TF_ModelMuzzleFlash_Tip"			"若选中此选项，枪口火焰将使用卡通模型而不是粒子特效。"
-"TF_Boioing"                      "启用自定义自杀布娃娃效果"
-"TF_Boioing_Tip"                  "若选中此选项，则允许自定义自杀命令来改变布娃娃的死亡效果。"
 
 // Voice
 "TF2c_Option_Proximity_Voice_Local"	"启用距离式语音聊天。"
 
 // Multiplayer
-"TF_MessageAlert"				  "启用文字聊天提示音效"
-"TF_MessageAlert_Tip"			  "若选中此选项，当收到聊天消息时将播放音效。"
-"TF_MessageVolume"				  "文字聊天提示音效音量"
+"TF_MessageAlert"				    "启用文字聊天提示音效"
+"TF_MessageAlert_Tip"			    "若选中此选项，当收到聊天消息时将播放音效。"
+"TF_MessageVolume"				    "文字聊天提示音效音量"
+"TF_ChatCloseOnSend"				"发送消息后关闭聊天界面"
+"TF_ChatCloseOnSend_Tip"			"若选中此选项，当你发送聊天消息时会自动关闭聊天界面。"
 "TF_DownloadFilter_Title"			"从服务器上下载自定义文件的权限"
 "GameUI_DownloadFilter_All"			"允许所有自定义文件"
 "GameUI_DownloadFilter_NoSounds"	"无自定义音效"
@@ -1350,7 +1378,7 @@
 "TF_Network_Rate_Tip"       		"设置网络更新的速率，更新越快，系统“猜测补偿”的程度就越小。\n\n建议逐一尝试不同设置，看看在你的网络连接条件下哪种效果最好。"
 
 // Video
-"TF2c_Option_BloomScale"	"泛光效果"
+"TF2c_Option_BloomScale"	"泛光效果（此选项会影响性能。1.0为默认值）"
 
 // ----------------------------------------------------------------
 // Stats
@@ -1376,7 +1404,6 @@
 "StatPanel_MVM_PadJumps_Best"			"在这个回合的“曼恩 vs. 机器”中，你的跳板使用次数比之前的回合还多！"
 "StatPanel_MVM_PadJumps_Tie"			"在这个回合的“曼恩 vs. 机器”中，你的跳板使用次数与纪录相同。"
 "StatPanel_MVM_PadJumps_Close"			"在这个回合的“曼恩 vs. 机器”中，你的跳板使用次数接近纪录。"
-
 // ----------------------------------------------------------------
 // Achievements
 // ----------------------------------------------------------------
@@ -1400,7 +1427,7 @@
 "TF2C_ACHIEVEMENT_KILL_BUILDINGS_WITH_MIRV_NAME"		"KA-BLOOIE!"
 "TF2C_ACHIEVEMENT_KILL_BUILDINGS_WITH_MIRV_DESC"		"使用集束炸药摧毁 5 座工程师建筑。"
 "TF2C_ACHIEVEMENT_DEFUSE_MIRV_NAME"						"炸药破坏者"
-"TF2C_ACHIEVEMENT_DEFUSE_MIRV_DESC"						"使用扳手拆除敌人的集束炸药。"
+"TF2C_ACHIEVEMENT_DEFUSE_MIRV_DESC"						"使用扳手拆除敌方爆破手的集束炸药。"
 "TF2C_ACHIEVEMENT_TRANQ_MELEE_KILL_NAME"				"深度睡眠"
 "TF2C_ACHIEVEMENT_TRANQ_MELEE_KILL_DESC"				"作为间谍，使用近战武器杀死 10 名被麻醉的玩家。"
 "TF2C_ACHIEVEMENT_EXTINGUISH_BOMBLETS_NAME"				"生日狂欢"
@@ -1442,7 +1469,7 @@
 "TF2C_ACHIEVEMENT_ARCHAEOLOGY_NAME"						"考古学"
 "TF2C_ACHIEVEMENT_ARCHAEOLOGY_DESC"						"在 Jinn 地图中找到被埋葬的宝藏。"
 "TF2C_ACHIEVEMENT_AIRHOCKEY_NAME"						"前锋队员"
-"TF2C_ACHIEVEMENT_AIRHOCKEY_DESC"						"在 2Bridge 地图上赢得一场气垫球小游戏。"
+"TF2C_ACHIEVEMENT_AIRHOCKEY_DESC"						"在 2Bridge 地图上与其他玩家进行一场气垫球小游戏并赢得胜利。"
 "TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_NAME"					"禽类清除计划"
 "TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_DESC"					"追逐一只鸡并利用环境杀死它。"
 "TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_NAME"					"碟中谍之三无间"
@@ -1458,51 +1485,45 @@
 // Discord Rich Presence
 // ----------------------------------------------------------------
 
-// TODO figure out how we want this formatted
-"Discord_InOfficialMap"				"官方地图：%s1"
-"Discord_InCommunityMap"			"社区地图：%s1"
-"Discord_InMap_Hidden"				"地图：隐藏"
 "Discord_InMenu"					"在主菜单中"
 "Discord_InMenu_ToolTip"			"主菜单"
 "Discord_IsLoading"					"目前正在载入..."
 "Discord_IsLoading_ToolTip"			"载入中..."
-"Discord_InServer"					"游戏中-在服务器里"
-"Discord_InServer_Info"				"游戏中-在服务器：%s1 上"
-"Discord_InServer_NoSteam"			"游戏中-在非 Steam 服务器里"
-"Discord_InServer_NoSteam_ToolTip"	""
-"Discord_Player_Dead"				"*死亡*"
+"Discord_InOfficialMap"				"官方地图：%s1"
+"Discord_InCommunityMap"			"社区地图：%s1"
+"Discord_InServer_Info"				"在服务器: %s1"
 
 // ----------------------------------------------------------------
 // Server Browser
 // ----------------------------------------------------------------
-"ServerBrowser_PlayerCount" "%s1/%s2"
-"ServerBrowser_LatencyDetail" "延迟: %s1"
-"ServerBrowser_IPAddressDetail" "IP地址: %s1"
-"ServerBrowser_PlayerListHeading" "(玩家数：%s1/%s2, %s3位电脑玩家):"
-"ServerBrowser_NotFullFilter" "服务器未满"
-"ServerBrowser_HasPlayersFilter" "有玩家游玩"
-"ServerBrowser_NoPasswordFilter" "没有密码"
-"ServerBrowser_HasTagsFilter" "含有标签"
-"ServerBrowser_MaxLatencyFilter" "最大延迟"
-"ServerBrowser_MaxPlayersFilter" "最大玩家数"
-"ServerBrowser_ServerTypeFilter" "服务器类型"
-"ServerBrowser_MapNameFilter" "地图名字"
-"ServerBrowser_SortBy" "排列方式："
-"ServerBrowser_SortByName" "名字"
-"ServerBrowser_SortByMap" "地图"
-"ServerBrowser_SortByPlayers" "玩家数"
-"ServerBrowser_SortByLatency" "延迟"
-"ServerBrowser_SortByLastPlayed" "最后一次游玩"
-"ServerBrowser_UseLegacyBrowser" "使用传统服务器浏览器"
-"ServerBrowser_CurrentMapHeading" "现在的地图："
-"ServerBrowser_TagListHeading" "标签："
-"ServerBrowser_OfficialDetail" "此服务器为官方服务器"
-"ServerBrowser_VerifiedDetail" "此服务器已经过验证"
-"ServerBrowser_Any" "任何"
-"ServerBrowser_Official" "官方服务器"
-"ServerBrowser_Verified" "已经过验证"
-"ServerBrowser_OfficialOrVerified" "官方或者已验证"
-"ServerBrowser_CustomRules"	"自定义规则"
-"ServerBrowser_CustomWeapons" "自定义武器"
+"ServerBrowser_PlayerCount"         "%s1/%s2"
+"ServerBrowser_LatencyDetail"       "延迟: %s1"
+"ServerBrowser_IPAddressDetail"     "IP地址: %s1"
+"ServerBrowser_PlayerListHeading"   "(玩家数：%s1/%s2, %s3位电脑玩家):"
+"ServerBrowser_NotFullFilter"       "服务器未满"
+"ServerBrowser_HasPlayersFilter"    "有玩家游玩"
+"ServerBrowser_NoPasswordFilter"    "没有密码"
+"ServerBrowser_HasTagsFilter"       "含有标签"
+"ServerBrowser_MaxLatencyFilter"    "最大延迟"
+"ServerBrowser_MaxPlayersFilter"    "最大玩家数"
+"ServerBrowser_ServerTypeFilter"    "服务器类型"
+"ServerBrowser_MapNameFilter"       "地图名字"
+"ServerBrowser_SortBy"              "排列方式："
+"ServerBrowser_SortByName"          "名字"
+"ServerBrowser_SortByMap"           "地图"
+"ServerBrowser_SortByPlayers"       "玩家数"
+"ServerBrowser_SortByLatency"       "延迟"
+"ServerBrowser_SortByLastPlayed"    "最后一次游玩"
+"ServerBrowser_UseLegacyBrowser"    "使用传统服务器浏览器"
+"ServerBrowser_CurrentMapHeading"   "现在的地图："
+"ServerBrowser_TagListHeading"      "标签："
+"ServerBrowser_OfficialDetail"      "此服务器为官方服务器"
+"ServerBrowser_VerifiedDetail"      "此服务器已经过验证"
+"ServerBrowser_Any"                 "任何"
+"ServerBrowser_Official"            "官方服务器"
+"ServerBrowser_Verified"            "已经过验证"
+"ServerBrowser_OfficialOrVerified"  "官方或者已验证"
+"ServerBrowser_CustomRules"	        "自定义规则"
+"ServerBrowser_CustomWeapons"       "自定义武器"
 }
 }

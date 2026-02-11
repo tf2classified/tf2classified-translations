@@ -51,13 +51,16 @@
 // Teams
 // ----------------------------------------------------------------
 
-"TF_GreenTeam" 	"&5 GRN"
-"TF_YellowTeam" "&6 YLW"
+"TF_GreenTeam" 	                "&5 GRN"
+"TF_YellowTeam"                 "&6 YLW"
 
-"TF_GreenTeam_Name"		"GRN"
-"TF_YellowTeam_Name"	"YLW"
+"TF_GreenTeam_Name"		        "GRN"
+"TF_YellowTeam_Name"	        "YLW"
 
-"TF_Other_Name"	"TÖBBI"
+"TF_teamswitch_green"		    "Mostantól GRN vagy!"
+"TF_teamswitch_yellow"		    "Mostantól YLW vagy!"
+
+"TF_Other_Name"	                "TÖBBI"
 
 // Disguise Kit global disguise
 "Hud_Menu_Disguise_GlobalTeam"	"Globális Álca: Minden ellenfél a saját csapattársaként fog látni téged."
@@ -316,7 +319,7 @@
 "Tip_8_Count"	"15"
 // Generic
 "Tip_8_1"		"Kémként öltsd magadra egy ellenség jelmezét a jelmezkészleteddel. Vigyázz, így is bele tudsz ütközni az ellenfeleidbe, és a támadás eltávolítja a jelmezed."
-"Tip_8_2"		"Kémként ha jelmezt viselsz, a(z) %voicemenu 0 0% megnyomásával hívhatsz ellenséges Szanitéceket."
+"Tip_8_2"		"Kémként ha jelmezt viselsz, a(z) %helpme% megnyomásával hívhatsz ellenséges Szanitéceket."
 "Tip_8_3"		"Kémként jelmezben igyekezz úgy viselkedni, mint egy ellenség. Figyeld meg, hol vannak az ellenséges csapat tagjai, és öltsd magadra egyikük jelmezét."
 "Tip_8_4"		"Kémként jelmezben a(z) %reload% megnyomásával úgy tűnhet az ellenfeleidnek, mintha újratöltenél."
 "Tip_8_5"		"Kémként a(z) %speed% megnyomásával normál sebességgel futhatsz míg lassabb osztályoknak vagy álcázva."
@@ -642,6 +645,7 @@
 "Attrib_RocketJumpDmgReduction"		"%s1% saját robbanási sebzés"
 "Attrib_Scattergun_HasKnockback"	"Visszalöki a célpontot és a lövészt"
 
+
 "Attrib_RocketGravity"								"A rakéták ívesen közlekednek"
 "Attrib_CreatesEarthquakeFallDamage"				"Földrengés okozása zuhanási sebzés szenvedésekor, míg aktív"
 "Attrib_TakeProjectileCritsAirborne"				"Krit elszenvedése a lövedékektől a levegőben a viselőn"
@@ -726,7 +730,8 @@
 "Attrib_DamageDelaysRegeneration"					"A sebzés elszenvedése késlelteti az életerő regenerálódását %s1 mp-vel"
 "Attrib_DestroyGrenadesDetonateOwn"					"A robbanás elpusztítja az ellenséges gránátokat és élesíti a sajátjaid"
 "Attrib_HoldFirePreventDetonation"					"Tűzgomb nyomva tartása: gránát élesítés megakadályozása"
-"Attrib_CritAirborneEnemies"						"Kritikus sebzés légi célpontokra"
+"Attrib_MiniCritAirborneEnemies"			        "Mini-kritek a légi célpontokra"
+"Attrib_CritAirborneEnemies"						"Kritikus sebzés a légi célpontokra"
 "Attrib_ModCritAirborneDirectHitOnly"				"Kritikus sebzés a légi célpontokra csak telitalálatkor"
 "Attrib_ObjectivesGiveCrits"						"Kritet okoz azoknak az ellenfeleknek, akik épp elfoglalják, megvédik vagy viszik a játékcélt"
 "Attrib_AddAmmoOnDirectHit"							"Telitalálatkor: %s1 lőszer visszanyerése"
@@ -1096,6 +1101,8 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 
 "TF_Menu_Welcome"			"Üdv újra,"
 
+"TF_Menu_HideName"			"[TITKOSÍTVA]"
+
 "TF_Menu_ResumeGame"		"Folytatás"
 "TF_Menu_Mute"				"Játékosok némítása"
 "TF_Menu_Vote"				"Szavazásra bocsátás"
@@ -1266,6 +1273,8 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "GameUI_RestartText"					"Néhány változtatás miatt újra kell indítanod a játékot:"
 "GameUI_OptionsRestart_Revert"			"Visszaállítás"
 
+"GameUI_Disconnect_TooManyCommands"		"Szétkapcsolva: Túl sok parancs."
+
 // Combat
 "TF2C_Option_DamageFeedback"				"Sebzés-visszajelző bekapcsolása"
 "TF2C_Tooltip_DamageFeedback"				"A sebzés-visszajelző kontextusától függő hangokat fog lejátszani, ha különböző típusú sebzést okozol, vagy szenvedsz el"
@@ -1347,7 +1356,7 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_ClassAutoKill_Tip"				"Ha be van kapcsolva, a csatamezőn azonnal öngyilkos leszel amint osztályt váltasz.\n\nHa ki van kapcsolva, a legközelebbi újraéledéskor váltasz osztályt."
 "TF_ClassMenu_Music"				"Osztálymenü zene"
 "TF_StreamerMode"					"Közvetítő mód bekapcsolása"
-"TF_StreamerMode_Tip"				"Ha be van kapcsolva, kikapcsolja a csevegőt (kivéve a hangos csevegőt) és mindenkit névtelenít"
+"TF_StreamerMode_Tip"				"Ha be van kapcsolva, elrejti a teljes szöveges csevegést, és veled együtt mindenkit névtelenít"
 "TF_ModelMuzzleFlash"				"Béta-stílusú tüzelési effekt bekapcsolása"
 "TF_ModelMuzzleFlash_Tip"			"Ha be van kapcsolva, a tüzelési effektek részecskék helyett modellek lesznek"
 
