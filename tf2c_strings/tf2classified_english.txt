@@ -1003,6 +1003,9 @@ Team ownership of Control Points is randomized at the start of each round."
 "generic_cap_D"			"Control Point D"
 "generic_cap_E"			"Control Point E"
 
+// Arena
+"TF_Arena_Welcome"		"Arena Mode"
+
 // ----------------------------------------------------------------
 // Intro movies
 // ----------------------------------------------------------------
@@ -1100,6 +1103,7 @@ Team ownership of Control Points is randomized at the start of each round."
 // ----------------------------------------------------------------
 
 "TF_Menu_Welcome"			"Welcome back,"
+"TF_Menu_Name"				"%playername%!"
 
 "TF_Menu_HideName"			"[REDACTED]"
 
@@ -1136,6 +1140,8 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_Friends_Status_Online"			"Online"
 "TF_Friends_Status_Away"			"Away"
 "TF_Friends_Status_Offline"			"Offline"
+
+"ChallengeDetails"					"%s1 as the %s2"
 
 
 // ----------------------------------------------------------------
