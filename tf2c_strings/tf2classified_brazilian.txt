@@ -57,13 +57,17 @@
 "TF_GreenTeam_Name"				"GRN"
 "TF_YellowTeam_Name"			"YLW"
 
-"TF_teamswitch_green"			"Você agora está na equipe GRN!"
-"TF_teamswitch_yellow"			"Você agora está na equipe YLW!"
-
 "TF_Other_Name"					"INIMIGOS"
 
 // Disguise Kit global disguise
 "Hud_Menu_Disguise_GlobalTeam"	"Disfarce Global: Todos os inimigos irão te ver como parte da sua própria equipe."
+
+// Autobalance
+"TF_teamswitch_green"			"Você agora está na equipe GRN!"
+"TF_teamswitch_yellow"			"Você agora está na equipe YLW!"
+
+"TF_Team_Balanced"				"%s1 foi movido para a equipe %s2"
+"TF_Autobalance_TeamChangeDone"	"Você foi movido para a equipe %s1"
 
 // ----------------------------------------------------------------
 // Classes
@@ -387,7 +391,7 @@
 "Tip_arena_2"			"Na Arena, existem poucas fontes para recuperar sua vida, então certifique-se de proteger seus Medics e Engineers (e compartilhar seu Sanduíche)!"
 "Tip_arena_3"			"Na Arena, o Ponto de Controle no meio do mapa ficará ativo 60 segundos após o início da rodada. Use-o para atrair inimigos escondidos!"
 "Tip_arena_4"			"Na Arena, você não revive, então não morra!"
-"Tip_arena_5"			"Na Arena, tente diversificar seu repertório! Tente complementar a composição da sua equipe ou neutralizar a do inimigo."
+"Tip_arena_5"			"Na Arena, diversifique seu repertório! Tente complementar a composição da sua equipe ou neutralizar a do inimigo."
 "Tip_arena_6"			"Na Arena, você só pode trocar de classe no início da partida, antes da abertura dos portões."
 "Tip_arena_7"			"Na Arena, tente permanecer junto com sua equipe e ajudem uns aos outros quando estiverem em perigo. Chegar atrasado a uma luta pode colocá-lo em desvantagem."
 "Tip_arena_8"			"Na Arena, impedir que a equipe inimiga se cure é crucial. Ataque os Medics e os Fornecedores inimigos e negue o acesso deles aos kits de vida sempre que possível!"
@@ -1002,6 +1006,11 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "generic_cap_D"			"Ponto de controle D"
 "generic_cap_E"			"Ponto de controle E"
 
+// Arena
+"TF_Arena_Welcome"				"Modo Arena"
+"TF_Arena_Team_SizeIncreased"	"O tamanho da equipe %s1 aumentou para %s2."
+"TF_Arena_Team_SizeDecreased"	"O tamanho da equipe %s1 diminuiu para %s2."
+
 // ----------------------------------------------------------------
 // Intro movies
 // ----------------------------------------------------------------
@@ -1099,6 +1108,7 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 // ----------------------------------------------------------------
 
 "TF_Menu_Welcome"			"Bem-vindo(a) de novo,"
+"TF_Menu_Name"				"%playername%!"
 
 "TF_Menu_HideName"			"[CENSURADO]"
 
@@ -1135,6 +1145,8 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF_Friends_Status_Online"			"Online"
 "TF_Friends_Status_Away"			"Ausente"
 "TF_Friends_Status_Offline"			"Offline"
+
+"ChallengeDetails"					"%s1 como %s2"
 
 
 // ----------------------------------------------------------------
