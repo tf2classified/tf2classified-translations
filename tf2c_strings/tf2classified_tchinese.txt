@@ -57,13 +57,17 @@
 "TF_GreenTeam_Name"		        "綠隊"
 "TF_YellowTeam_Name"	        "黃隊"
 
-"TF_teamswitch_green"			"你現在是綠隊！"
-"TF_teamswitch_yellow"			"你現在是黃隊！"
-
 "TF_Other_Name"	                "其他隊伍"
 
 // Disguise Kit global disguise
 "Hud_Menu_Disguise_GlobalTeam"	"全局偽裝：每名隊伍的敵人都會把你當成自己人。"
+
+// Autobalance
+"TF_teamswitch_green"			"你現在是綠隊！"
+"TF_teamswitch_yellow"			"你現在是黃隊！"
+
+"TF_Team_Balanced"				"%s1 被移到 %s2"
+"TF_Autobalance_TeamChangeDone"	"你現在是 %s1"
 
 // ----------------------------------------------------------------
 // Classes
@@ -1003,6 +1007,11 @@
 "generic_cap_D"			"控制點 D"
 "generic_cap_E"			"控制點 E"
 
+// Arena
+"TF_Arena_Welcome"		"競技場模式"
+"TF_Arena_Team_SizeIncreased"	"%s1 隊伍人數已增至 %s2。"
+"TF_Arena_Team_SizeDecreased"	"%s1 隊伍人數已減至 %s2。"
+
 // ----------------------------------------------------------------
 // Intro movies
 // ----------------------------------------------------------------
@@ -1100,6 +1109,7 @@
 // ----------------------------------------------------------------
 
 "TF_Menu_Welcome"			"歡迎回來，"
+"TF_Menu_Name"				"%playername%！"
 
 "TF_Menu_HideName"			"[已編輯]"
 
@@ -1136,6 +1146,8 @@
 "TF_Friends_Status_Online"		    "線上"
 "TF_Friends_Status_Away"		    "離開"
 "TF_Friends_Status_Offline"		    "離線"
+
+"ChallengeDetails"					"%s1 扮演 %s2"
 
 
 // ----------------------------------------------------------------
@@ -1489,9 +1501,9 @@
 "Discord_InMenu_ToolTip"			"主菜單"
 "Discord_IsLoading"					"目前正在載入..."
 "Discord_IsLoading_ToolTip"			"載入中..."
-"Discord_InOfficialMap"				"官方地圖： %s1"
-"Discord_InCommunityMap"			"社群地圖： %s1"
-"Discord_InServer_Info"				"在伺服器： %s1"
+"Discord_InOfficialMap"				"官方地圖：%s1"
+"Discord_InCommunityMap"			"社群地圖：%s1"
+"Discord_InServer_Info"				"在伺服器：%s1"
 
 // ----------------------------------------------------------------
 // Server Browser
