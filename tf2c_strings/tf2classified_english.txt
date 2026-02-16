@@ -57,13 +57,17 @@
 "TF_GreenTeam_Name"				"GRN"
 "TF_YellowTeam_Name"			"YLW"
 
-"TF_teamswitch_green"			"You are now on GRN!"
-"TF_teamswitch_yellow"			"You are now on YLW!"
-
 "TF_Other_Name"					"OTHER"
 
 // Disguise Kit global disguise
 "Hud_Menu_Disguise_GlobalTeam"	"Global Disguise: Every enemy will see you as their own team."
+
+// Autobalance
+"TF_teamswitch_green"			"You are now on GRN!"
+"TF_teamswitch_yellow"			"You are now on YLW!"
+
+"TF_Team_Balanced"				"%s1 has been moved to team %s2"
+"TF_Autobalance_TeamChangeDone"	"You have been moved to team %s1"
 
 // ----------------------------------------------------------------
 // Classes
@@ -387,7 +391,7 @@
 "Tip_arena_2"			"In Arena, There are very few sources of replenishing your health, so be sure to protect your Medics and Engineers (and share your Sandvich)!"
 "Tip_arena_3"			"In Arena, the Control Point in the middle of the map will become active 60 seconds after the beginning of the round. Use it to draw out hiding enemies!"
 "Tip_arena_4"			"In Arena, you don't respawn, so don't die!"
-"Tip_arena_5"			"In Arena, try diversifying your portfolio! Try complementing your team composition, or countering the enemy's."
+"Tip_arena_5"			"In Arena, diversify your portfolio! Try complementing your team composition, or countering the enemy's."
 "Tip_arena_6"			"In Arena, you can only change your class at the start of a match before the gates open."
 "Tip_arena_7"			"In Arena, try to stay together with your team and help each other when in danger. Showing up late to a fight can put you at a disadvantage."
 "Tip_arena_8"			"In Arena, denying the enemy team opportunities to heal is critical. Target enemy Medics and Dispensers, and deny access to health packs when possible!"
@@ -1003,6 +1007,11 @@ Team ownership of Control Points is randomized at the start of each round."
 "generic_cap_D"			"Control Point D"
 "generic_cap_E"			"Control Point E"
 
+// Arena
+"TF_Arena_Welcome"				"Arena Mode"
+"TF_Arena_Team_SizeIncreased"	"%s1 Team size increased to %s2."
+"TF_Arena_Team_SizeDecreased"	"%s1 Team size decreased to %s2."
+
 // ----------------------------------------------------------------
 // Intro movies
 // ----------------------------------------------------------------
@@ -1100,6 +1109,7 @@ Team ownership of Control Points is randomized at the start of each round."
 // ----------------------------------------------------------------
 
 "TF_Menu_Welcome"			"Welcome back,"
+"TF_Menu_Name"				"%playername%!"
 
 "TF_Menu_HideName"			"[REDACTED]"
 
@@ -1136,6 +1146,8 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_Friends_Status_Online"			"Online"
 "TF_Friends_Status_Away"			"Away"
 "TF_Friends_Status_Offline"			"Offline"
+
+"ChallengeDetails"					"%s1 as the %s2"
 
 
 // ----------------------------------------------------------------

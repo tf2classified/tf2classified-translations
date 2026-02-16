@@ -62,6 +62,13 @@
 // Disguise Kit global disguise
 "Hud_Menu_Disguise_GlobalTeam"	"全局偽裝：每名隊伍的敵人都會把你當成自己人。"
 
+// Autobalance
+"TF_teamswitch_green"			"你現在是綠隊！"
+"TF_teamswitch_yellow"			"你現在是黃隊！"
+
+"TF_Team_Balanced"				"%s1 被移到 %s2"
+"TF_Autobalance_TeamChangeDone"	"你現在是 %s1"
+
 // ----------------------------------------------------------------
 // Classes
 // ----------------------------------------------------------------
@@ -269,7 +276,7 @@
 // Heavy
 "Tip_6_Count"	"17"
 // Generic
-"Tip_6_1"		"身為重裝兵，如果你受傷了，請按下 %helpme% 可以呼叫醫護兵，附近的醫護兵會收到你的請求。"
+"Tip_6_1"		"身為重裝兵，如果你受傷了，請按下 %voicemenu 0 0% 可以呼叫醫護兵，附近的醫護兵會收到你的請求。"
 "Tip_6_2"		"身為重裝兵，你擁有所有兵種中最高的生命值。別害怕率先發動正面進攻！"
 "Tip_6_3"		"身為重裝兵，你的移動速度遠慢於其他兵種。面對高機動性的敵人時要格外小心！"
 "Tip_6_4"		"身為重裝兵，你是醫護兵的絕佳夥伴。 站在能清楚看到醫護兵的位置，讓醫療槍的目標保持在你身上。"
@@ -316,7 +323,7 @@
 "Tip_8_Count"	"15"
 // Generic
 "Tip_8_1"		"身為間諜，請利用偽裝工具偽裝成敵人。注意，發動攻擊就會解除偽裝。"
-"Tip_8_2"		"身為間諜，偽裝時可以按 %voicemenu 0 0% 呼叫敵方的醫護兵。"
+"Tip_8_2"		"身為間諜，偽裝時可以按 %helpme% 呼叫敵方的醫護兵。"
 "Tip_8_3"		"身為間諜，偽裝時動作要和敵人一樣。 觀察敵方成員的位置，並偽裝成其中一員。"
 "Tip_8_4"		"身為間諜，偽裝時按 %reload% 可以讓偽裝的敵方隊員看起來也在裝彈。"
 "Tip_8_5"		"身為間諜，偽裝成速度慢的兵種時，可以按 %speed% 以正常移動速度奔跑。"
@@ -377,6 +384,18 @@
 // Double Down
 "Tip_10_10"		"身為平民，德比手杖可為隊友提供急速加成，讓他們更快移動與射擊。"
 "Tip_10_11"		"身為平民，德比手杖能提高醫護兵治療速率和工程師建造速率。"
+
+// Arena
+"Tip_arena_Count"		"9"
+"Tip_arena_1"			"在競技場模式中，請注意畫面上方的玩家人數，來知道你的隊伍是否居於優勢。"
+"Tip_arena_2"			"在競技場模式中，治療的來源非常稀少，請不計任何代價保護好隊上的醫護兵和工程師（也別忘了分享你的三明治）！"
+"Tip_arena_3"			"在競技場模式中，地圖中央的控制點會在回合開始 60 秒後開放佔領。善用它來逼出躲藏的敵人！"
+"Tip_arena_4"			"「競技場」模式中無法重生，千萬別死！"
+"Tip_arena_5"			"在競技場模式中，嘗試多樣化隊伍配置！補強隊伍組成，或針對敵方陣容進行反制。"
+"Tip_arena_6"			"在競技場模式中，你只能在回合開始、大門開啟前更換兵種。"
+"Tip_arena_7"			"在競技場模式中，盡量與隊友保持行動一致，在危急時互相支援。太晚加入戰鬥會讓你處於劣勢。"
+"Tip_arena_8"			"在競技場模式中，阻止敵方治療至關重要。優先攻擊敵方的醫護兵與補給器，並在可能時封鎖醫療包的取得！"
+"Tip_arena_9"			"在競技場模式中，獲得「第一滴血」可獲得爆擊加成。若由你取得，請好好把握！若敵方取得，請暫時避戰，等待效果結束。"
 
 // ----------------------------------------------------------------
 // Stock weapon strings
@@ -630,6 +649,7 @@
 "Attrib_RocketJumpDmgReduction"		"火箭跳爆破傷害 %s1%"
 "Attrib_Scattergun_HasKnockback"	"可震飛射擊目標，射擊者有後座力"
 
+
 "Attrib_RocketGravity"								"火箭以弧線下落"
 "Attrib_CreatesEarthquakeFallDamage"				"手持時：受到摔落傷害時會造成地震"
 "Attrib_TakeProjectileCritsAirborne"				"穿戴時：在空中會受到投射物的爆擊"
@@ -714,6 +734,7 @@
 "Attrib_DamageDelaysRegeneration"					"受傷時延遲生命恢復 %s1 秒"
 "Attrib_DestroyGrenadesDetonateOwn"					"可以引爆你自己的爆破物並摧毀敵方爆破物"
 "Attrib_HoldFirePreventDetonation"					"按住主要攻擊鍵：防止榴彈引爆"
+"Attrib_MiniCritAirborneEnemies"					"擊殺在空中的敵人造成小爆擊"
 "Attrib_CritAirborneEnemies"						"爆擊使敵人飛天"
 "Attrib_ModCritAirborneDirectHitOnly"				"對空中目標直擊造成爆擊"
 "Attrib_ObjectivesGiveCrits"						"對佔領和競爭控制點的敵人或奪取情報的敵人和自身造成爆擊"
@@ -986,6 +1007,11 @@
 "generic_cap_D"			"控制點 D"
 "generic_cap_E"			"控制點 E"
 
+// Arena
+"TF_Arena_Welcome"		"競技場模式"
+"TF_Arena_Team_SizeIncreased"	"%s1 隊伍人數已增至 %s2。"
+"TF_Arena_Team_SizeDecreased"	"%s1 隊伍人數已減至 %s2。"
+
 // ----------------------------------------------------------------
 // Intro movies
 // ----------------------------------------------------------------
@@ -1083,6 +1109,9 @@
 // ----------------------------------------------------------------
 
 "TF_Menu_Welcome"			"歡迎回來，"
+"TF_Menu_Name"				"%playername%！"
+
+"TF_Menu_HideName"			"[已編輯]"
 
 "TF_Menu_ResumeGame"		"繼續遊戲"
 "TF_Menu_Mute"				"將玩家靜音"
@@ -1104,6 +1133,8 @@
 "TF_Menu_Disconnect"		"斷線"
 
 "TF_Menu_Blog"				"官方部落格"
+"TF_Menu_LatestUpdate"		"最後一次更新"
+"TF_Menu_ReportBug"			"錯誤回報"
 
 "TF_Friends_Title"					"好友（%friend_count%）"
 "TF_Friends_Status_InTF2C"		    "正在遊玩絕地要塞2：秘典"
@@ -1115,6 +1146,8 @@
 "TF_Friends_Status_Online"		    "線上"
 "TF_Friends_Status_Away"		    "離開"
 "TF_Friends_Status_Offline"		    "離線"
+
+"ChallengeDetails"					"%s1 扮演 %s2"
 
 
 // ----------------------------------------------------------------
@@ -1189,6 +1222,7 @@
 "TF_Enable"								"啟用"
 "TF_Disable"							"禁用"
 "TF_RightClick_Enable"					"按下右鍵以啟用"
+"TF_RightClick_Enable_Mouse"			"按下右鍵以啟用滑鼠"
 
 // UI options
 "TF_Open_Charinfo"						"開啟角色武器裝備"
@@ -1251,16 +1285,18 @@
 "GameUI_RestartText"					"部分設定需要重新啟動遊戲才會生效："
 "GameUI_OptionsRestart_Revert"			"還原變更"
 
+"GameUI_Disconnect_TooManyCommands"		"中斷連線：送出的指令數量過多。"
+
 // Combat
-"TF2C_Option_DamageFeedback"				"啟用傷害回饋"
+"TF2C_Option_DamageFeedback"				"啟用傷害回饋音效"
 "TF2C_Tooltip_DamageFeedback"				"傷害回饋會在造成或承受不同類型的傷害時播放對應的提示音效。"
-"TF2C_Option_DamageFeedbackOutgoing"		"啟用輸出傷害回饋"
+"TF2C_Option_DamageFeedbackOutgoing"		"啟用輸出傷害回饋音效"
 "TF2C_Tooltip_DamageFeedbackOutgoing"		"當你對敵人造成傷害時，會播放輸出傷害回饋音效。"
-"TF2C_Option_DamageFeedbackOutgoingVolume"	"輸出傷害回饋音量"
+"TF2C_Option_DamageFeedbackOutgoingVolume"	"輸出傷害回饋音效音量"
 "TF2C_Tooltip_DamageFeedbackOutgoingVolume"	"調整造成傷害時播放回饋音效音量。"
-"TF2C_Option_DamageFeedbackIncoming"		"啟用承受傷害回饋"
+"TF2C_Option_DamageFeedbackIncoming"		"啟用承受傷害回饋音效"
 "TF2C_Tooltip_DamageFeedbackIncoming"		"當你承受傷害時，會播放承受傷害回饋音效。"
-"TF2C_Option_DamageFeedbackIncomingVolume"	"承受傷害回饋音量"
+"TF2C_Option_DamageFeedbackIncomingVolume"	"承受傷害回饋音效音量"
 "TF2C_Tooltip_DamageFeedbackIncomingVolume"	"調整承受傷害時播放回饋音效音量。"
 
 "TF_CenterFirePreference"         	"從中心區域發射子彈（首選）"
@@ -1318,6 +1354,8 @@
 "TF_DeathNoticeMax_Tip"           "設定同時顯示的殺人圖示上限。"
 "TF_DeathNoticeTime"              "殺人圖示 - 顯示時間（秒）"
 "TF_DeathNoticeTime_Tip"          "設定殺人圖示的消失時間（秒）。"
+"TF_GlowEffects"				  "使用發光效果"
+"TF_GlowEffects_Tip" 			  "若勾選，在遊戲中的彈頭車，情報箱，VIP及（重生後一段時間內）隊友將會有發光效果。"
 
 // ViewModel
 "TF_ViewModelFOV"				"檢視模型視野"
@@ -1326,21 +1364,23 @@
 "TF_ViewModelOpacity"			"檢視模型透明度"
 
 // Misc
+"TF_ClassAutoKill"					"選擇玩家職業後自殺"
+"TF_ClassAutoKill_Tip"				"若勾選，你在重生點以外的地方更換職業將會立即自殺。\n\n若未勾選，你則會在下次重生時才更換職業。"
 "TF_ClassMenu_Music"				"兵種選擇菜單音樂"
 "TF_StreamerMode"					"啟用流媒體模式"
-"TF_StreamerMode_Tip"				"若勾選，禁用文字與語音聊天，並匿名顯示所有玩家。"
+"TF_StreamerMode_Tip"				"若勾選，禁用文字聊天，並匿名顯示所有玩家；還有你自己。"
 "TF_ModelMuzzleFlash"				"啟用測試版槍口火焰"
 "TF_ModelMuzzleFlash_Tip"			"若勾選，槍口火焰將以卡通模型替代粒子特效。"
-"TF_Boioing"                        "啟用自定義自殺布娃娃效果"
-"TF_Boioing_Tip"                    "若勾選，可使用自定義自殺命令改變布娃娃的速度。"
 
 // Voice
 "TF2c_Option_Proximity_Voice_Local"	"啟用距離語音聊天。"
 
-// Multiplayer
-"TF_MessageAlert"				  "啟用文字聊天提示音效"
-"TF_MessageAlert_Tip"			  "若勾選，收到聊天消息時會播放提示音。"
-"TF_MessageVolume"				  "文字聊天提示音效音量"
+// MULTIPLAYER
+"TF_MessageAlert"				    "啟用文字聊天提示音效"
+"TF_MessageAlert_Tip"			    "若勾選，收到聊天消息時會播放提示音。"
+"TF_MessageVolume_Tip"			    "設置聊天提示音的音量大小。"
+"TF_ChatCloseOnSend"				"傳送訊息後關閉聊天"
+"TF_ChatCloseOnSend_Tip"			"若勾選，傳送訊息後會自動關閉聊天視窗。"
 "TF_DownloadFilter_Title"			"從伺服器下載的自訂檔案權限"
 "GameUI_DownloadFilter_All"			"允許所有自訂檔案"
 "GameUI_DownloadFilter_NoSounds"	"不允許自訂音效"
@@ -1376,7 +1416,6 @@
 "StatPanel_MVM_PadJumps_Best"			"在曼恩對決機器模式時，你在該回合的彈射板使用次數比之前的回合要多！"
 "StatPanel_MVM_PadJumps_Tie"			"在曼恩對決機器模式時，你在該回合的彈射板使用次數與紀錄打平。"
 "StatPanel_MVM_PadJumps_Close"			"在曼恩對決機器模式時，你在該回合的彈射板使用次數接近紀錄。"
-
 // ----------------------------------------------------------------
 // Achievements
 // ----------------------------------------------------------------
@@ -1412,7 +1451,7 @@
 "TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_NAME"				"與船同沉"
 "TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_DESC"				"在承受致命墜落傷害的同時，用海軍錨的震擊擊殺一名敵人。"
 "TF2C_ACHIEVEMENT_SSG_MEATSHOTS_NAME"					"開膛破肚！"
-"TF2C_ACHIEVEMENT_SSG_MEATSHOTS_DESC"					"使用雙管霰彈槍取得 10 次近距離貼臉擊殺。"
+"TF2C_ACHIEVEMENT_SSG_MEATSHOTS_DESC"					"使用超級霰彈槍取得 10 次近距離貼臉擊殺。"
 "TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_NAME"		"斬首狂熱"
 "TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_DESC"		"在一次生命中使用死神之刃斬首 3 名敵人。"
 "TF2C_ACHIEVEMENT_CYCLOPS_COMBO_NAME"					"連鎖爆裂"
@@ -1442,7 +1481,7 @@
 "TF2C_ACHIEVEMENT_ARCHAEOLOGY_NAME"						"考古學"
 "TF2C_ACHIEVEMENT_ARCHAEOLOGY_DESC"						"在 Jinn 地圖中發現被埋藏的寶藏。"
 "TF2C_ACHIEVEMENT_AIRHOCKEY_NAME"						"組織核心"
-"TF2C_ACHIEVEMENT_AIRHOCKEY_DESC"						"在 2Bridge 地圖中贏得一場氣墊球小遊戲。"
+"TF2C_ACHIEVEMENT_AIRHOCKEY_DESC"						"在 2Bridge 地圖中與其他玩家進行一場氣墊球小遊戲，然後獲勝。"
 "TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_NAME"					"雞不可失"
 "TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_DESC"					"追逐一隻雞，並利用環境將牠殺死。"
 "TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_NAME"					"三面間諜"
@@ -1458,51 +1497,45 @@
 // Discord Rich Presence
 // ----------------------------------------------------------------
 
-// TODO figure out how we want this formatted
-"Discord_InOfficialMap"				"官方地圖： %s1"
-"Discord_InCommunityMap"			"社群地圖： %s1"
-"Discord_InMap_Hidden"				"地圖：隱藏"
 "Discord_InMenu"					"在主菜單中"
 "Discord_InMenu_ToolTip"			"主菜單"
 "Discord_IsLoading"					"目前正在載入..."
 "Discord_IsLoading_ToolTip"			"載入中..."
-"Discord_InServer"					"遊戲中-在服務器裡"
-"Discord_InServer_Info"				"遊戲中-在服務器：%s1 上"
-"Discord_InServer_NoSteam"			"遊戲中-在非 Steam 伺服器裡"
-"Discord_InServer_NoSteam_ToolTip"	""
-"Discord_Player_Dead"				"*死亡*"
+"Discord_InOfficialMap"				"官方地圖：%s1"
+"Discord_InCommunityMap"			"社群地圖：%s1"
+"Discord_InServer_Info"				"在伺服器：%s1"
 
 // ----------------------------------------------------------------
 // Server Browser
 // ----------------------------------------------------------------
-"ServerBrowser_PlayerCount" "%s1/%s2"
-"ServerBrowser_LatencyDetail" "延遲：%s1"
-"ServerBrowser_IPAddressDetail" "IP 位址：%s1"
-"ServerBrowser_PlayerListHeading" "(玩家數：%s1/%s2, %s3 位電腦玩家)："
-"ServerBrowser_NotFullFilter" "伺服器未滿"
-"ServerBrowser_HasPlayersFilter" "有玩家在伺服器內"
-"ServerBrowser_NoPasswordFilter" "無伺服器密碼"
-"ServerBrowser_HasTagsFilter" "標籤"
-"ServerBrowser_MaxLatencyFilter" "最大延遲"
-"ServerBrowser_MaxPlayersFilter" "最大玩家數"
-"ServerBrowser_ServerTypeFilter" "伺服器類型"
-"ServerBrowser_MapNameFilter" "地圖名稱"
-"ServerBrowser_SortBy" "排序方式："
-"ServerBrowser_SortByName" "名稱"
-"ServerBrowser_SortByMap" "地圖"
-"ServerBrowser_SortByPlayers" "玩家數"
-"ServerBrowser_SortByLatency" "延遲"
-"ServerBrowser_SortByLastPlayed" "上次遊玩"
-"ServerBrowser_UseLegacyBrowser" "使用舊版伺服器瀏覽器"
-"ServerBrowser_CurrentMapHeading" "目前地圖："
-"ServerBrowser_TagListHeading" "標籤："
-"ServerBrowser_OfficialDetail" "此伺服器為官方伺服器"
-"ServerBrowser_VerifiedDetail" "此伺服器為驗證伺服器"
-"ServerBrowser_Any" "任意"
-"ServerBrowser_Official" "官方"
-"ServerBrowser_Verified" "驗證"
-"ServerBrowser_OfficialOrVerified" "官方或驗證"
-"ServerBrowser_CustomRules"	"自訂規則"
-"ServerBrowser_CustomWeapons" "自訂武器"
+"ServerBrowser_PlayerCount"         "%s1/%s2"
+"ServerBrowser_LatencyDetail"       "延遲：%s1"
+"ServerBrowser_IPAddressDetail"     "IP 位址：%s1"
+"ServerBrowser_PlayerListHeading"   "(玩家數：%s1/%s2, %s3 位電腦玩家)："
+"ServerBrowser_NotFullFilter"       "伺服器未滿"
+"ServerBrowser_HasPlayersFilter"    "有玩家在伺服器內"
+"ServerBrowser_NoPasswordFilter"    "無伺服器密碼"
+"ServerBrowser_HasTagsFilter"       "標籤"
+"ServerBrowser_MaxLatencyFilter"    "最大延遲"
+"ServerBrowser_MaxPlayersFilter"    "最大玩家數"
+"ServerBrowser_ServerTypeFilter"    "伺服器類型"
+"ServerBrowser_MapNameFilter"       "地圖名稱"
+"ServerBrowser_SortBy"              "排序方式："
+"ServerBrowser_SortByName"          "名稱"
+"ServerBrowser_SortByMap"           "地圖"
+"ServerBrowser_SortByPlayers"       "玩家數"
+"ServerBrowser_SortByLatency"       "延遲"
+"ServerBrowser_SortByLastPlayed"    "上次遊玩"
+"ServerBrowser_UseLegacyBrowser"    "使用舊版伺服器瀏覽器"
+"ServerBrowser_CurrentMapHeading"   "目前地圖："
+"ServerBrowser_TagListHeading"      "標籤："
+"ServerBrowser_OfficialDetail"      "此伺服器為官方伺服器"
+"ServerBrowser_VerifiedDetail"      "此伺服器為驗證伺服器"
+"ServerBrowser_Any"                 "任意"
+"ServerBrowser_Official"            "官方"
+"ServerBrowser_Verified"            "驗證"
+"ServerBrowser_OfficialOrVerified"  "官方或驗證"
+"ServerBrowser_CustomRules"	        "自訂規則"
+"ServerBrowser_CustomWeapons"       "自訂武器"
 }
 }
