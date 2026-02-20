@@ -57,13 +57,17 @@
 "TF_GreenTeam_Name"		        "GRN"
 "TF_YellowTeam_Name"	        "YLW"
 
-"TF_teamswitch_green"		    "Mostantól GRN vagy!"
-"TF_teamswitch_yellow"		    "Mostantól YLW vagy!"
-
 "TF_Other_Name"	                "TÖBBI"
 
 // Disguise Kit global disguise
 "Hud_Menu_Disguise_GlobalTeam"	"Globális Álca: Minden ellenfél a saját csapattársaként fog látni téged."
+
+// Autobalance
+"TF_teamswitch_green"		    "Mostantól GRN vagy!"
+"TF_teamswitch_yellow"		    "Mostantól YLW vagy!"
+
+"TF_Team_Balanced"				"%s1 áthelyezve a %s2 csapatba"
+"TF_Autobalance_TeamChangeDone"	"Áthelyeztek a %s1 csapatba"
 
 // ----------------------------------------------------------------
 // Classes
@@ -1003,6 +1007,11 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "generic_cap_D"			"a D ellenőrzőpontot"
 "generic_cap_E"			"az E ellenőrzőpontot"
 
+// Arena
+"TF_Arena_Welcome"				"Aréna mód"
+"TF_Arena_Team_SizeIncreased"	"A %s1 csapat mérete növelve: %s2"
+"TF_Arena_Team_SizeDecreased"	"A %s1 csapat mérete csökkentve: %s2"
+
 // ----------------------------------------------------------------
 // Intro movies
 // ----------------------------------------------------------------
@@ -1100,6 +1109,7 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 // ----------------------------------------------------------------
 
 "TF_Menu_Welcome"			"Üdv újra,"
+"TF_Menu_Name"				"%playername%!"
 
 "TF_Menu_HideName"			"[TITKOSÍTVA]"
 
@@ -1136,6 +1146,8 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_Friends_Status_Online"			"Online"
 "TF_Friends_Status_Away"			"Távol van"
 "TF_Friends_Status_Offline"			"Offline"
+
+"ChallengeDetails"					"%s1 mint a(z) %s2"
 
 
 // ----------------------------------------------------------------
@@ -1530,7 +1542,7 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 // RETRANSLATIONS BELOW
 // ----------------------------------------------------------------
 
-//cp_dustbowl RETRANSLATIONS
+// cp_dustbowl RETRANSLATIONS
 "Dustbowl_cap_1_A"		"az első foglalást az első szakaszon"
 "Dustbowl_cap_1_B"		"a második foglalást az első szakaszon"
 "Dustbowl_cap_2_A"		"az első foglalást a második szakaszon"
@@ -1538,7 +1550,7 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "Dustbowl_cap_3_A"		"az első foglalást a harmadik szakaszon"
 "Dustbowl_cap_3_B"		"a rakétát, az utolsó foglalást"
 
-//pl_goldrush RETRANSLATIONS
+// pl_goldrush RETRANSLATIONS
 "Goldrush_cap_1_A"		"az első foglalást az első szakaszon"
 "Goldrush_cap_1_B"		"a második foglalást az első szakaszon"
 "Goldrush_cap_2_A"		"az első foglalást a második szakaszon"
@@ -1547,26 +1559,25 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "Goldrush_cap_3_B"		"a második foglalást a harmadik szakaszon"
 "Goldrush_cap_3_C"		"az atomgödröt, az utolsó foglalást"
 
-//Arena map RETRANSLATIONS
+// Arena map RETRANSLATIONS
 "Arena_cap"			"az ellenőrzőpontot"
 
-//koth_viaduct RETRANSLATION
+// koth_viaduct RETRANSLATION
 "koth_viaduct_cap"			"az ellenőrzőpontot"
 
-"TF_Hitbeeps"				                "Találati hang lejátszása, amikor megsebzel egy ellenfelet" //RETRANSLATIONS TO AVOID TRUNCATION ˇˇˇ
+"TF_Hitbeeps"				                "Találati hang lejátszása, amikor megsebzel egy ellenfelet" // RETRANSLATIONS TO AVOID TRUNCATION ˇˇˇ
 "TF_LastHitbeeps"			                "Utolsó találati hang lejátszása, amikor megölsz valakit"
 "TF_CombatTextBatching"		                "Harci sebzésszöveg összegyűjtése egyetlen számmá"
 "TF_CombatTextDoesntBlock"	                "A sebzés-szöveg nem akadályozza meg a fej feletti hatásokat"
 
-"TF_medigun_autoheal"		        "SZANITÉC: Gyógyítás a tűzgomb nyomvatartása nélkül" //RETRANSLATED TO AVOID TRUNCATION
-"game_takesshots"	                "Képernyőmentés az eredménytábláról a pálya végén" //RETRANSLATION, to avoid truncation
+"TF_medigun_autoheal"		        "SZANITÉC: Gyógyítás a tűzgomb nyomvatartása nélkül" // RETRANSLATED TO AVOID TRUNCATION
+"game_takesshots"	                "Képernyőmentés az eredménytábláról a pálya végén" // RETRANSLATION, to avoid truncation
 
-//DEMO RETRANSLATIONS to avoid truncation
+// DEMO RETRANSLATIONS to avoid truncation
 "TF_DemoSupport_Screens"			"Képernyőmentés az eredménytábláról a meccs végén"
 
-"TF_ResetStats"				            "&NULLÁZÁS" //RETRANSLATION, to avoid truncation
+"TF_ResetStats"				            "&NULLÁZÁS" // RETRANSLATION, to avoid truncation
 
 "TF_GameModeDesc_Koth"			"Egy csapatnak addig kell birtokolnia a pontot, míg az idő le nem telik."
-
 }
 }

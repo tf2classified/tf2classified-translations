@@ -57,13 +57,17 @@
 "TF_GreenTeam_Name"				"ЗЕЛЁНЫЕ"
 "TF_YellowTeam_Name"			"ЖЁЛТЫЕ"
 
-"TF_teamswitch_green"			"Теперь вы с Зелёными!"
-"TF_teamswitch_yellow"			"Теперь вы с Жёлтыми!"
-
 "TF_Other_Name"					"ДРУГОЙ"
 
 // Disguise Kit global disguise
 "Hud_Menu_Disguise_GlobalTeam"	"Глобальная маскировка: каждый враг будет видеть вас как члена своей команды."
+
+// Autobalance
+"TF_teamswitch_green"			"Теперь вы с Зелёными!"
+"TF_teamswitch_yellow"			"Теперь вы с Жёлтыми!"
+
+"TF_Team_Balanced"				"Игрок %s1 был перемещён в команду %s2"
+"TF_Autobalance_TeamChangeDone"	"Вы были перемещены в команду %s1"
 
 // ----------------------------------------------------------------
 // Classes
@@ -1003,6 +1007,11 @@
 "generic_cap_D"			"Контрольная точка D"
 "generic_cap_E"			"Контрольная точка E"
 
+// Arena
+"TF_Arena_Welcome"				"Арена"
+"TF_Arena_Team_SizeIncreased"	"Размер команды %s1 был увеличен до %s2."
+"TF_Arena_Team_SizeDecreased"	"Размер команды %s1 был уменьшен %s2."
+
 // ----------------------------------------------------------------
 // Intro movies
 // ----------------------------------------------------------------
@@ -1100,6 +1109,7 @@
 // ----------------------------------------------------------------
 
 "TF_Menu_Welcome"			"С возвращением,"
+"TF_Menu_Name"				"%playername%!"
 
 "TF_Menu_HideName"			"[СКРЫТО]"
 
@@ -1136,6 +1146,8 @@
 "TF_Friends_Status_Online"			"В сети"
 "TF_Friends_Status_Away"			"Нет на месте"
 "TF_Friends_Status_Offline"			"Не в сети"
+
+"ChallengeDetails"		"%s2, %s1"
 
 
 // ----------------------------------------------------------------

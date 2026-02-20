@@ -57,13 +57,17 @@
 "TF_GreenTeam_Name"		        "绿队"
 "TF_YellowTeam_Name"	        "黄队"
 
-"TF_teamswitch_green"			"你现在身在绿队！"
-"TF_teamswitch_yellow"			"你现在身在黄队！"
-
 "TF_Other_Name"	                "其他团队"
 
 // Disguise Kit global disguise
 "Hud_Menu_Disguise_GlobalTeam"	"全局伪装：每名队伍的敌人都会把你当成自己的队友。"
+
+// Autobalance
+"TF_teamswitch_green"			"你现在身在绿队！"
+"TF_teamswitch_yellow"			"你现在身在黄队！"
+
+"TF_Team_Balanced"				"%s1 被移到 %s2"
+"TF_Autobalance_TeamChangeDone"	"你现在身在 %s1"
 
 // ----------------------------------------------------------------
 // Classes
@@ -1003,6 +1007,11 @@
 "generic_cap_D"			"控制点D"
 "generic_cap_E"			"控制点E"
 
+// Arena
+"TF_Arena_Welcome"		"竞技场模式"
+"TF_Arena_Team_SizeIncreased"	"%s1 团队人数已增加至 %s2。"
+"TF_Arena_Team_SizeDecreased"	"%s1 团队人数已减少至 %s2。"
+
 // ----------------------------------------------------------------
 // Intro movies
 // ----------------------------------------------------------------
@@ -1100,6 +1109,7 @@
 // ----------------------------------------------------------------
 
 "TF_Menu_Welcome"			"欢迎回来，"
+"TF_Menu_Name"				"%playername%！"
 
 "TF_Menu_HideName"			"[已编辑]"
 
@@ -1136,6 +1146,8 @@
 "TF_Friends_Status_Online"		    "在线"
 "TF_Friends_Status_Away"		    "离开"
 "TF_Friends_Status_Offline"		    "离线"
+
+"ChallengeDetails"					"%s1 作为 %s2"
 
 
 // ----------------------------------------------------------------
@@ -1313,7 +1325,7 @@
 "TF_AvoidBecomingVIP_Tip"			"若选中此选项，游戏选择 VIP 时通常不会考虑你；如果所有人都选中了此选项，或者你被投票选中，你仍然可以成为 VIP。"
 
 // HUD
-"TF_LoadoutGrid"                  "启用武器配置网格"
+"TF_LoadoutGrid"                  "启用网格形配置页面"
 "TF_LoadoutGrid_Tip"              "若选中此选项，武器配置页面将以网格形式显示。"
 "TF_HighlightAmmo"				  "在掉落的武器上显示光圈效果"
 "TF_HighlightAmmo_Tip"			  "若选中此选项，高亮光圈会被启用，并在游戏中时高亮出掉落的武器目标。"
