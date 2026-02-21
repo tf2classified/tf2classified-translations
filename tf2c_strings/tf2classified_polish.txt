@@ -470,7 +470,7 @@
 "TF_Weapon_Revolver_Desc"				"Kiedy skradanie się nie wchodzi już w grę."
 // PDA: Teleporter (Construction PDA)
 "TF_Weapon_ConstructionPDA"				"PDA budowy"
-"TF_Weapon_ConstructionPDA_Desc"		"Wszystko co potrzebuje Inżynier taki jak ja, znajduje się w tym malutkim urządzeniu."
+"TF_Weapon_ConstructionPDA_Desc"		"Wszystko, co potrzebuje Inżynier taki jak ja, znajduje się w tym malutkim urządzeniu."
 "TF_Weapon_PDATeleporter"				"PDA: teleport"
 // Destruction PDA
 "TF_Weapon_DestructionPDA"				"PDA destrukcji"
