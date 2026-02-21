@@ -669,7 +669,7 @@
 "Attrib_LoseStoredCritsOnMiss"							"Przy chybieniu: Tracisz %s1 zgromadzone trafienie krytyczne"
 "Attrib_MeleeTakenBecomesCritWearer"					"Noszący otrzymuje obrażenia krytyczne od broni do walki wręcz"
 "Attrib_MoveSpeed_Bonus_Cloaked"						"+%s1% szybkości poruszanie się będąc niewidzialnym"
-"Attrib_LoseCloakOnDamage"								"-%s1% zapasu energii przy otrzymaniu obrażeń będąc niewidzialnym"
+"Attrib_LoseCloakOnDamage"								"-%s1% zapasu energii niewidzialności przy otrzymaniu obrażeń będąc niewidzialnym"
 "Attrib_TranqOnHit"										"Przy trafieniu we wroga: Nałóż na ofiarę efekt ślepoty barw i spowolnij jej szybkość ataku oraz poruszania się na %s1 s"
 "Attrib_FishwhackerSweep"								"Odrzuca pobliskich wrogów"
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"		"Siła samoodrzutu jest zależna od zwiększonych obrażeń"
