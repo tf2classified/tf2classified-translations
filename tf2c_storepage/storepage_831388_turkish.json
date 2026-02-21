@@ -6,6 +6,6 @@
 	"app[content][short_description]":"Team Fortress 2 Classified orijinal ilham kaynağı ve üslubu üzerine yapılmış yeni bir Team Fortress 2 deniyimidir. Yenilenmiş görünüm, yeni oyun modları ve haritalar, yeni silahlar, yeni takımlar, ve tombul bir petrol baronu ile güncelleştirildi.",
 	"app[content][sysreqs][windows][min][osversion]":"Windows 10 (64-Bit)",
 	"app[content][sysreqs][windows][min][notes]":"Team Fortress 2 kurulumunu gerektirir",
-	"app[content][sysreqs][linux][min][osversion]":"Ubuntu 16.04",
+	"app[content][sysreqs][linux][min][osversion]":"Debian 13 \/ glibc 2.39+",
 	"app[content][sysreqs][linux][min][notes]":"Team Fortress 2 kurulumunu gerektirir; Vulkan desteği önerilir"
 }
