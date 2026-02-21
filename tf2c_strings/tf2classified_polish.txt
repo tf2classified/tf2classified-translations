@@ -679,7 +679,7 @@
 "Attrib_AltFire_FizzleMines"							"Atak alternatywny: zniszcz rozstawione miny"
 "Attrib_NoStickyChargeTime"								"Brak czasu ładowania bomb samoprzylepnych"
 "Attrib_BlastSplashDamage_Decreased"					"%s1% obrażeń od pola rażenia"
-"Attrib_BurningTargetsChargeCrit"						"Gdy broń jest dobyta, polący się wrogowie zapełniaj wskaźnik"
+"Attrib_BurningTargetsChargeCrit"						"Gdy broń jest dobyta, palący się wrogowie zapełniają wskaźnik"
 "Attrib_LimitedRange"									"Ograniczony zasięg ataku"
 "Attrib_GainStoredCritsOnKill"							"Przy zabiciu wroga: Zachowaj %s1 trafienie krytyczne"
 "Attrib_HealOnKillCrit"									"+%s1 przywracanego zdrowia przy zabiciu wroga trafieniem krytycznym"
