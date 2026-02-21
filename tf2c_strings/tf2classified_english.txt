@@ -51,23 +51,31 @@
 // Teams
 // ----------------------------------------------------------------
 
-"TF_GreenTeam" 					"&5 GRN"
-"TF_YellowTeam" 				"&6 YLW"
+"TF_GreenTeam" 						"&5 GRN"
+"TF_YellowTeam" 					"&6 YLW"
 
-"TF_GreenTeam_Name"				"GRN"
-"TF_YellowTeam_Name"			"YLW"
+"TF_GreenTeam_Name"					"GRN"
+"TF_YellowTeam_Name"				"YLW"
 
-"TF_Other_Name"					"OTHER"
+"TF_Other_Name"						"OTHER"
 
 // Disguise Kit global disguise
-"Hud_Menu_Disguise_GlobalTeam"	"Global Disguise: Every enemy will see you as their own team."
+"Hud_Menu_Disguise_GlobalTeam"		"Global Disguise: Every enemy will see you as their own team."
 
 // Autobalance
-"TF_teamswitch_green"			"You are now on GRN!"
-"TF_teamswitch_yellow"			"You are now on YLW!"
+"TF_teamswitch_green"				"You are now on GRN!"
+"TF_teamswitch_yellow"				"You are now on YLW!"
 
-"TF_Team_Balanced"				"%s1 has been moved to team %s2"
-"TF_Autobalance_TeamChangeDone"	"You have been moved to team %s1"
+// Chat Printouts
+"TF_Team_Balanced"					"%s1 has been moved to team %s2"
+"TF_Autobalance_TeamChangeDone"		"You have been moved to team %s1"
+"TF_Name_Change"					"* %s1 changed name to %s2"
+"TF_Joined_Game"					"%s1 has joined the game"
+"TF_Left_Game"						"%s1 left the game (%s2)"
+"TF_Joined_Team"					"%s1 joined team %s2"
+"TF_Joined_AutoTeam" 				"%s1 was automatically assigned to team %s2"
+"TF_AutoBalanced"					"%s1 was moved to team %s2 for game balance"
+"TF_AutoBalance_Warning"			"Team imbalance detected"
 
 // ----------------------------------------------------------------
 // Classes
@@ -344,7 +352,7 @@
 // Engineer
 "Tip_9_Count"	"20"
 // Generic
-"Tip_9_1"		"As an Engineer, you need metal to build, repair, and upgrade your buildings. Collect ammo packs and fallen weapons to get more metal."
+"Tip_9_1"		"As an Engineer, you need metal to build, repair, and upgrade your buildings. Collect weapons from killed players as an additional way to get more metal."
 "Tip_9_2"		"As an Engineer, you can do more than just maintain your buildings. Use your Shotgun and your Pistol to assist in fights and defend your buildings."
 "Tip_9_3"		"As an Engineer, keep an eye out for enemy Spies attaching Sappers to your buildings. Use your Wrench to remove Sappers."
 "Tip_9_4"		"As an Engineer, remember to upgrade your buildings. Upgraded buildings can provide big benefits to you and your team!"
@@ -867,6 +875,9 @@ Honorable hand to sword combat only!"
 // vipr_chopper
 "Chopper_cap_A"				"the RED Radar"
 "Chopper_cap_B"				"the BLU Radar"
+
+// 4plr_sisyphus
+"Sisyphus_cap_peak"			"the Peak"
 
 // ----------------------------------------------------------------
 // Gamemodes
@@ -1409,6 +1420,13 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_ClassRecord_Alt_MostUbercharges"	"ÜberCharge(s)"
 "TF_ClassRecord_MostPadJumps"			"Most pad jumps:"
 "TF_ClassRecord_Alt_MostPadJumps"		"pad jump(s)"
+
+"StatPanel_Ubercharges_Best"			"You used ÜberCharge more that round than your previous best."
+"StatPanel_Ubercharges_Tie"				"You tied your record for ÜberCharges that round."
+"StatPanel_Ubercharges_Close"			"You came close to your record for ÜberCharges that round."
+"StatPanel_MVM_Ubercharges_Best"		"You used ÜberCharge more that round of Mann vs. Machine than your previous best."
+"StatPanel_MVM_Ubercharges_Tie"			"You tied your record for ÜberCharges that round of Mann vs. Machine."
+"StatPanel_MVM_Ubercharges_Close"		"You came close to your record for ÜberCharges that round of Mann vs. Machine."
 
 "StatPanel_PadJumps_Best"				"Your jump pads were used more that round than your previous best."
 "StatPanel_PadJumps_Tie"				"You tied your record for pad jumps that round."
