@@ -758,7 +758,7 @@
 "Attrib_AltFire_MinicritBoost"							"Atak alternatywny: przyznaj swojemu sojusznikowi trafienia minikrytyczne"
 "Attrib_SplitsIntoBomblets"								"Po wybuchu dzieli się na cztery małe ładunki"
 "Attrib_DisabledByWrench"								"Może zostać rozbrojona przy pomocy klucza"
-"Attrib_Coilgun"										"W pełni naładowane strzały rykoszetują od ścian, a przeciążenie broni spowoduje eksploduję."
+"Attrib_Coilgun"										"W pełni naładowane strzały rykoszetują od ścian, a przeciążenie broni spowoduje eksplozję."
 "Attrib_DamageAffectedByCharge"							"Zadawane obrażenia zależą od aktualnego poziomu naładowania"
 "Attrib_JumpPadNoUpgrade"								"Wyskocznie nie mogą być ulepszane."
 "Attrib_AltFire_HasteBoost"								"Atak alternatywny: zwiększa szybkość ataku i ruchu swojego sojusznika"
