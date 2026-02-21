@@ -10,8 +10,8 @@
 // Channels
 "Channel_All"			"TODOS"
 "Channel_Team"			"EQUIPE"
-"Switch_All"			"(TAB para trocar para a EQUIPE)"
-"Switch_Team"			"(TAB para trocar para TODOS)"
+"Switch_All"			"(TAB para enviar mensagens para a EQUIPE)"
+"Switch_Team"			"(TAB para enviar mensagens para TODOS)"
 
 // Chat Prefixes
 "Chat_All"				"%s1: %s2"
@@ -38,14 +38,14 @@
 // ----------------------------------------------------------------
 
 // Sentry consent popup
-"TF_SentryReport_Title"				"Enviar Relatório de Erro?"
-"TF_SentryReport_Message"			"Permitiria o envio de relatórios de erros anônimos para a equipe do Team Fortress 2 Classified?"
+"TF_SentryReport_Title"				"Enviar relatório de erro?"
+"TF_SentryReport_Message"			"Permitir o envio de relatórios de erros anônimos para a equipe do Team Fortress 2 Classified?"
 
 // VIP voting
 "Vote_ChangeCivilian"				"Mudar VIP"
 "TF_vote_change_civilian"			"Escolher o(a) jogador(a) %s1 para ser o VIP?"
-"TF_vote_change_civilian_caller"	"Jogador(a) %s1 quer ser o VIP."
-"TF_vote_passed_change_civilian"	"O VIP será o jogador(a): %s1..."
+"TF_vote_change_civilian_caller"	"O(a) jogador(a) %s1 deseja ser o VIP."
+"TF_vote_passed_change_civilian"	"O VIP será o(a) jogador(a): %s1..."
 
 // ----------------------------------------------------------------
 // Teams
@@ -66,8 +66,10 @@
 "TF_teamswitch_green"			"Você agora está na equipe GRN!"
 "TF_teamswitch_yellow"			"Você agora está na equipe YLW!"
 
-"TF_Team_Balanced"				"%s1 foi movido para a equipe %s2"
-"TF_Autobalance_TeamChangeDone"	"Você foi movido para a equipe %s1"
+"TF_Team_Balanced"				"%s1 foi movido(a) para a equipe %s2"
+"TF_Autobalance_TeamChangeDone"	"Você foi movido(a) para a equipe %s1"
+
+"TF_Other_Name"					"OUTRA"
 
 // ----------------------------------------------------------------
 // Classes
@@ -101,18 +103,18 @@
 "TF_playerid_wpn"						"%s1"
 
 // Boosts
-"TF_playerid_healer"					"Sendo Curado por: "
+"TF_playerid_healer"					"Cura por: "
 "TF_playerid_healtarget"				"Curando: "
 "TF_playerid_mediccharge"				"ÜberCarga: %s1"
 "TF_playerid_mediccharge_wpn"			"ÜberCarga: %s1 (%s2%)"
-"TF_playerid_civiliancharge"			"Bancar: %s1"
-"TF_playerid_civiliancharge_wpn"		"Bancar: %s1 (%s2%)"
+"TF_playerid_civiliancharge"			"Bancando: %s1"
+"TF_playerid_civiliancharge_wpn"		"Bancando: %s1 (%s2%)"
 
 // Buildings
-"TF_playerid_object"					"%s1: construção de %s2"
-"TF_playerid_object_diffteam"			"%s1 do inimigo: construção de %s2"
-"TF_playerid_object_mini"				"Mini-%s1: construção de %s2"
-"TF_playerid_object_mode"				"%s1 %s3: construção de %s2"
+"TF_playerid_object"					"%s1 de %s2"
+"TF_playerid_object_diffteam"			"%s1 inimiga de %s2"
+"TF_playerid_object_mini"				"Mini-%s1 de %s2"
+"TF_playerid_object_mode"				"%s3 do %s1 de %s2"
 "TF_playerid_object_level"				"( Nível %s1 )"
 "TF_playerid_object_upgrade"			"Aprimoramento: %s1"
 "TF_playerid_object_upgrade_level"		"( Nível %s1 ) Aprimoramento: %s2"
@@ -631,8 +633,8 @@
 // Building Status
 "Building_hud_hauling"				"Carregando..."
 "Building_hud_upgrading"			"Aprimorando..."
-"Building_hud_jumppad_a_not_built"	"Saltador A\nNão Construído"
-"Building_hud_jumppad_b_not_built"	"Saltador B\nNão Construído"
+"Building_hud_jumppad_a_not_built"	"Saltador A\nNão construído"
+"Building_hud_jumppad_b_not_built"	"Saltador B\nNão construído"
 
 // Jump Pad
 "TF_Object_Jump"					"Saltador"
@@ -769,13 +771,13 @@
 
 // cp_amaranth
 "Amaranth_cap_A"	"os Armazéns"
-"Amaranth_cap_B"	"Centro de Distribuição da RED"
+"Amaranth_cap_B"	"o Centro de Distribuição da RED"
 
 // 4dom_hydro
-"Hydro_dom_cap_warehouse"	"A, O Armazém"
-"Hydro_dom_cap_radar_dish"	"B, A Antena"
-"Hydro_dom_cap_power_plant"	"C, A Usina Elétrica"
-"Hydro_dom_cap_dam"			"D, A Represa"
+"Hydro_dom_cap_warehouse"	"o Armazém"
+"Hydro_dom_cap_radar_dish"	"a Antena"
+"Hydro_dom_cap_power_plant"	"a Usina Elétrica"
+"Hydro_dom_cap_dam"			"a Represa"
 
 // vip_mineside
 "vip_mineside_description"	"Objetivo:
@@ -792,16 +794,16 @@ Se a BLU entregar o Dispositivo da Maleta, o temporizador do portão começará 
 "Mineside_escape_zone"	"o Túnel de Fuga"
 
 // dom_oilcanyon
-"Oilcanyon_cap_A"	"ponto A, o Cânion"
-"Oilcanyon_cap_B"	"ponto B, a Arma Laser"
-"Oilcanyon_cap_C"	"ponto C, a Refinaria"
+"Oilcanyon_cap_A"	"o Cânion"
+"Oilcanyon_cap_B"	"a Arma Laser"
+"Oilcanyon_cap_C"	"a Refinaria"
 
 // vip_trainyard
 "Trainyard_escape_zone"	"o Veículo de Fuga"
 
 // vip_harbor
 "Harbor_cap_1"			"a Doca de Carga"
-"Harbor_cap_2"			"a Orla Marítima"
+"Harbor_cap_2"			"a Orla"
 "Harbor_cap_3"			"o Armazém"
 
 // 4dom_krepost
@@ -822,38 +824,38 @@ Apenas combate honrado, espada contra espada!"
 "Krepost_cap_grn"	"castelo da GRN"
 "Krepost_cap_ylw"	"castelo da YLW"
 
-"Krepost_attack_red"	"portão da RED está aberto!"
-"Krepost_attack_blu"	"portão da BLU está aberto!"
-"Krepost_attack_grn"	"portão da GRN está aberto!"
-"Krepost_attack_ylw"	"portão da YLW está aberto!"
+"Krepost_attack_red"	"O portão da RED está aberto!"
+"Krepost_attack_blu"	"O portão da BLU está aberto!"
+"Krepost_attack_grn"	"O portão da GRN está aberto!"
+"Krepost_attack_ylw"	"O portão da YLW está aberto!"
 
 // td_caper
-"Caper_cap_A"	"ponto A, a Torre do Laser"
-"Caper_cap_B"	"ponto B, os Silos"
-"Caper_cap_C"	"ponto C, o Esgoto"
+"Caper_cap_A"	"a Torre do Laser"
+"Caper_cap_B"	"os Silos"
+"Caper_cap_C"	"o Esgoto"
 
 // vipr_2bridge
 "2Bridge_cap_A"	"a ponte da RED"
 "2Bridge_cap_B"	"a ponte da BLU"
 
 // vipr_drizzle
-"Drizzle_cap_A"	"a Entrada da Mina RED"
-"Drizzle_cap_B"	"a Entrada da Mina BLU"
+"Drizzle_cap_A"	"a Entrada da Mina da RED"
+"Drizzle_cap_B"	"a Entrada da Mina da BLU"
 
 // dom_railway
-"Railway_cap_A"	"ponto A, a Garagem"
-"Railway_cap_B"	"ponto B, o Hall de Carga"
-"Railway_cap_C"	"ponto C, o Curral"
+"Railway_cap_A"	"a Garagem"
+"Railway_cap_B"	"o Hall de Carga"
+"Railway_cap_C"	"o Curral"
 
 // dom_sawtooth
-"Sawtooth_cap_A"	"ponto A, o Mirante"
-"Sawtooth_cap_B"	"ponto B, a Serraria"
-"Sawtooth_cap_C"	"ponto C, a Torre de Rádio"
+"Sawtooth_cap_A"	"o Mirante"
+"Sawtooth_cap_B"	"a Serraria"
+"Sawtooth_cap_C"	"a Torre de Rádio"
 
 // td_sunnyside
-"Sunnyside_cap_A"	"ponto A, os Celeiros"
-"Sunnyside_cap_B"	"ponto B, os Tanques"
-"Sunnyside_cap_C"	"ponto C, as Cooperativas"
+"Sunnyside_cap_A"	"os Celeiros"
+"Sunnyside_cap_B"	"os Tanques"
+"Sunnyside_cap_C"	"os Galinheiros"
 
 // vip_avanti
 "Avanti_red_setup_goal"		"Desça a colina e elimine o VIP da equipe inimiga para impedi-lo de chegar à Zona de Fuga!"
@@ -861,11 +863,11 @@ Apenas combate honrado, espada contra espada!"
 "Avanti_cap_1"				"o Depósito"
 "Avanti_cap_2"				"o Terraço"
 "Avanti_cap_3"				"a Torre do Sino"
-"Avanti_cap_4"				"os Portões da Frente"
+"Avanti_cap_4"				"os Portões Frontais"
 
 // vipr_chopper
-"Chopper_cap_A"				"o Radar RED"
-"Chopper_cap_B"				"o Radar BLU"
+"Chopper_cap_A"				"o radar da RED"
+"Chopper_cap_B"				"o radar da BLU"
 
 // ----------------------------------------------------------------
 // Gamemodes
@@ -899,7 +901,7 @@ Apenas combate honrado, espada contra espada!"
 
 // Offline practice descriptions
 "TF_GameModeDesc_VIP"			"A equipe BLU escolta o Civilian até um ponto de controle. A equipe RED precisa detê-los."
-"TF_GameModeDesc_VIPRace"		"Escolte seu Civilian até a linha de chegada antes da equipe adversária."
+"TF_GameModeDesc_VIPRace"		"Escolte o Civilian de sua equipe até a linha de chegada antes da equipe inimiga."
 "TF_GameModeDesc_Domination"	"Capture pontos estratégicos e mantenha-os pelo maior tempo possível."
 "TF_GameModeDesc_Arena"			"Elimine todos os jogadores inimigos ou espere o ponto de controle ser desbloqueado."
 
@@ -1107,7 +1109,7 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 // Main Menu
 // ----------------------------------------------------------------
 
-"TF_Menu_Welcome"			"Bem-vindo(a) de novo,"
+"TF_Menu_Welcome"			"Bem-vindo(a) novamente,"
 "TF_Menu_Name"				"%playername%!"
 
 "TF_Menu_HideName"			"[CENSURADO]"
@@ -1116,9 +1118,9 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF_Menu_Mute"				"Silenciar jogadores"
 "TF_Menu_Vote"				"Iniciar votação"
 
-"TF_Menu_FindServers"		"Procurar Servidores"
+"TF_Menu_FindServers"		"Jogar TF2 Classified"
 "TF_Menu_CreateServer"		"Criar um servidor"
-"TF_Menu_OfflineTraining"	"Treinamento"
+"TF_Menu_OfflineTraining"	"Partida offline"
 
 "TF_Menu_Loadout"			"Equipamentos"
 
@@ -1126,7 +1128,7 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF_Menu_Stats"				"Estatísticas"
 
 "TF_Menu_Options"			"Opções"
-"TF_Menu_Addons"			"Addons (em breve!)"
+"TF_Menu_Addons"			"Complementos (em breve!)"
 
 "TF_Menu_Quit"				"Sair"
 "TF_Menu_Disconnect"		"Desconectar"
@@ -1173,7 +1175,7 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF_Loadout_Slot_PDA2"			"PDA2"
 
 // Item slot vanity names
-"TF_Loadout_Slot_Secondary_Medic"	"Arma médica"
+"TF_Loadout_Slot_Secondary_Medic"	"Arma Médica"
 "TF_Loadout_Slot_Building_Spy"		"Sabotador"
 "TF_Loadout_Slot_PDA2_Spy"			"Relógio"
 
@@ -1195,9 +1197,9 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF2c_KeyboardCategory_Movement"        "MOVIMENTAÇÃO"
 "TF2c_KeyboardCategory_Combat"          "COMBATE"
 "TF2c_KeyboardCategory_Communication"   "COMUNICAÇÃO"
-"TF2c_KeyboardCategory_UI"  		 	"IU"
+"TF2c_KeyboardCategory_UI"  		 	"INTERFACE"
 "TF2c_KeyboardCategory_Extra"			"EXTRA"
-"TF2c_UseDefaultsButton"				"Redefinir Atalhos"
+"TF2c_UseDefaultsButton"				"Redefinir atalhos"
 "TF_ClassSkill_Spy_Spywalk"				"SPY: Spywalk"
 "TF_Voice_Menu_0_0"						"Comando de Voz: MEDIC!"
 "TF_Voice_Menu_0_1"						"Comando de Voz: Obrigado!"
@@ -1210,29 +1212,29 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF_Voice_Menu_1_6"						"Comando de Voz: Ativar ÜberCarga!"
 "TF_Voice_Menu_1_7"						"Comando de Voz: (MEDIC) Estado da ÜberCarga"
 "TF_Voice_Menu_2_0"						"Comando de Voz: Ajuda!"
-"TF_Spec_Next"							"Ver Próximo Alvo (Espectador)"
-"TF_Spec_Prev"							"Ver Alvo Anterior (Espectador)"
-"TF_Spec_Mode"							"Alternar o Modo Espectador"
-"TF_Use"								"Usar (Interagir)"
-"TF_Kill"								"Se Suicidar"
-"TF_Explode"							"Se Explodir"
+"TF_Spec_Next"							"Ver próximo alvo de espectador"
+"TF_Spec_Prev"							"Ver alvo anterior de espectador"
+"TF_Spec_Mode"							"Alternar o modo de espectador"
+"TF_Use"								"Usar (interagir)"
+"TF_Kill"								"Suicidar-se"
+"TF_Explode"							"Explodir-se"
 
 // Scoreboard Options
 "TF_Enable"								"Ativar"
 "TF_Disable"							"Desativar"
-"TF_RightClick_Enable"					"Botão Direito para Ativar"
-"TF_RightClick_Enable_Mouse"			"Botão Direito para Ativar o Mouse"
+"TF_RightClick_Enable"					"Botão direito para ativar"
+"TF_RightClick_Enable_Mouse"			"Botão direito para ativar o mouse"
 
 // UI options
 "TF_Open_Charinfo"						"Abrir equipamento do personagem"
 
 "TF2c_EnableGamepad"					"Ativar controle"
 
-"TF2c_MouseRawInput"					"Dados Brutos"
-"TF2c_MouseSensitivity"					"Sensibilidade do Mouse"
-"TF2c_MouseSmoothing"					"Filtro do Mouse"
-"TF2c_MouseAcceleration"				"Aceleração do Mouse"
-"TF2c_MouseAccelerationStrength"		"Intensidade da Aceleração do Mouse"
+"TF2c_MouseRawInput"					"Dados brutos"
+"TF2c_MouseSensitivity"					"Sensibilidade do mouse"
+"TF2c_MouseSmoothing"					"Suavização do mouse"
+"TF2c_MouseAcceleration"				"Aceleração do mouse"
+"TF2c_MouseAccelerationStrength"		"Intensidade da aceleração do mouse"
 
 "TF2c_Options_Game"                     "JOGO"
 "TF2c_Options_Input"                    "ENTRADA"
@@ -1254,37 +1256,37 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 
 "TF2c_OptionCategory_Combat"			"COMBATE"
 "TF2c_OptionCategory_HUD"				"HUD"
-"TF2c_OptionCategory_ViewModel"			"VIEWMODEL"
+"TF2c_OptionCategory_ViewModel"			"MODELO EM 1a PESSOA"
 "TF2c_OptionCategory_ClassSpecific"		"ESPECÍFICO DA CLASSE"
 "TF2c_OptionCategory_Performance"		"DESEMPENHO"
-"TF2c_OptionCategory_Misc"				"DIVERSOS"
+"TF2c_OptionCategory_Misc"				"OUTRAS"
 "TF2c_OptionCategory_Replay"			"REPLAY"
-"TF2c_OptionCategory_DemoSupport"		"DEMOS"
+"TF2c_OptionCategory_DemoSupport"		"GRAVAÇÕES"
 "TF2c_OptionCategory_Communication"		"COMUNICAÇÃO"
 
 "TF2c_OptionCategory_CustomizationMultiplayer"			"Personalização"
 "TF2c_OptionCategory_Network"							"REDE"
 
-"TF2c_MuteUnfocused"					"Silenciar quando estiver em segundo plano"
+"TF2c_MuteUnfocused"					"Silenciar sons quando o jogo estiver em 2º plano"
 
 "TF2c_Options_Custom"					"Personalizado"
 
 "TF2c_ChatFilterSettingsButton"			"Abrir configurações"
 
-"GameUI_CloseWithoutSaving"				"Fechar sem Salvar"
-"GameUI_CloseWithoutSavingText" 		"Você tem certeza de que quer fechar?\n Todas as alterações não salvas serão perdidas!"
-"GameUI_Legacy"							"Menu Antigo"
-"GameUI_Effect_Detail"          		"Detalhes dos efeitos"
-"GameUI_VeryLow"               			"Muito Baixo"
+"GameUI_CloseWithoutSaving"				"Fechar sem salvar"
+"GameUI_CloseWithoutSavingText" 		"Tem certeza de que deseja fechar?\n Todas as alterações não salvas serão perdidas!"
+"GameUI_Legacy"							"Menu antigo"
+"GameUI_Effect_Detail"          		"Detalhes do efeito"
+"GameUI_VeryLow"               			"Muito baixo"
 "GameUI_Off"               				"Desligado"
 "GameUI_Everyone"               		"Todos"
 "GameUI_FriendsOnly"               		"Apenas amigos"
 
-"GameUI_Restart"						"É necessário reiniciar."
+"GameUI_Restart"						"É necessário reiniciar"
 "GameUI_RestartText"					"Algumas alterações que você fez exigem que o jogo seja reiniciado:"
 "GameUI_OptionsRestart_Revert"			"Reverter alterações"
 
-"GameUI_Disconnect_TooManyCommands"		"Desconexão: Comandos em excesso."
+"GameUI_Disconnect_TooManyCommands"		"Desconectado(a): envio de comandos em excesso"
 
 // Combat
 "TF2C_Option_DamageFeedback"				"Ativar feedback de dano"
@@ -1362,41 +1364,41 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 
 // ViewModel
 
-"TF_ViewModelFOV"				"Campo de Visão do Viewmodel"
-"TF_FlipViewModels"				"Inverter Viewmodels"
-"TF_InvisibleArms"				"Usar Viewmodels de Braço Invisível"
-"TF_ViewModelOpacity"			"Opacidade do Viewmodel"
+"TF_ViewModelFOV"				"Distância do modelo em primeira pessoa"
+"TF_FlipViewModels"				"Inverter modelo em primeira pessoa"
+"TF_InvisibleArms"				"Ocultar braços do modelo em primeira pessoa"
+"TF_ViewModelOpacity"			"Opacidade do modelo em primeira pessoa"
 
 // Misc
-"TF_ClassAutoKill"					"Forçar reviver após escolher a classe do jogador."
-"TF_ClassAutoKill_Tip"				"Se ativado, força reviver imediatamente sempre que você trocar de classe enquanto estiver em campo.\n\nSe desativado, troca de classe ao reviver."
+"TF_ClassAutoKill"					"Suicidar-se após escolher uma classe de jogador"
+"TF_ClassAutoKill_Tip"				"Ative para suicidar-se sempre que mudar de classe fora da zona de renascimento.\n\nDesative para mudar de classe somente após renascer."
 "TF_ClassMenu_Music"				"Música do menu de seleção de classe"
-"TF_StreamerMode"					"Habilitar modo streamer"
-"TF_StreamerMode_Tip"				"Se ativado, oculta todo o chat de texto e anonimiza todos os jogadores, incluindo você."
+"TF_StreamerMode"					"Ativar modo de streamer"
+"TF_StreamerMode_Tip"				"Desativa o chat por texto e censura o nome de todos os jogadores, incluindo você"
 "TF_ModelMuzzleFlash"				"Ativar clarão de disparo em modelo (beta)"
-"TF_ModelMuzzleFlash_Tip"			"Se ativado, substitui os efeitos de partículas por modelos mais estilizados no clarão de disparo."
+"TF_ModelMuzzleFlash_Tip"			"Substitui os efeitos de partículas por modelos mais estilizados no clarão de disparo."
 
 // Voice
-"TF2c_Option_Proximity_Voice_Local"	"Ativar o chat de voz por proximidade."
+"TF2c_Option_Proximity_Voice_Local"	"Ativar conversa de voz por proximidade"
 
 // MULTIPLAYER
 
-"TF_MessageAlert"				    "Ativar som de mensagem de chat"
-"TF_MessageAlert_Tip"			    "Se ativado, um som será reproduzido quando uma mensagem de chat for recebida."
-"TF_MessageVolume"				    "Volume de som das mensagens de chat"
-"TF_ChatCloseOnSend"				"Encerrar chat após o envio da mensagem"
-"TF_ChatCloseOnSend_Tip"			"Se ativado, fecha o chat após o envio de uma mensagem."
-"TF_DownloadFilter_Title"			"Permissões para arquivos personalizados baixados de servidores"
-"GameUI_DownloadFilter_All"			"Permitir todos os arquivos personalizados"
-"GameUI_DownloadFilter_NoSounds"	"Sem sons personalizados"
-"GameUI_DownloadFilter_MapsOnly"	"Apenas arquivos de mapa"
-"GameUI_DownloadFilter_None"		"Sem arquivos personalizados"
+"TF_MessageAlert"				    "Tocar um som ao receber mensagens de texto"
+"TF_MessageAlert_Tip"			    "Ative para tocar um som quando uma mensagem de texto for recebida"
+"TF_MessageVolume"				    "Volume das mensagens recebidas"
+"TF_ChatCloseOnSend"				"Fechar a janela de conversa ao enviar uma mensagem"
+"TF_ChatCloseOnSend_Tip"			"Ative para fechar a janela de conversa ao enviar uma mensagem"
+"TF_DownloadFilter_Title"			"Quando um servidor tenta baixar conteúdo personalizado para o seu computador"
+"GameUI_DownloadFilter_All"			"Permitir todos"
+"GameUI_DownloadFilter_NoSounds"	"Nenhum som personalizado"
+"GameUI_DownloadFilter_MapsOnly"	"Apenas mapas"
+"GameUI_DownloadFilter_None"		"Nenhum arquivo personalizado"
 
 "TF_Network_Rate"       			"Taxa de atualização da rede"
 "TF_Network_Rate_Tip"       		"Define a taxa de atualização da rede, que inversamente define a quantidade de interpolação.\n\nRecomenda-se testar cada uma e ver qual funciona melhor na sua conexão de rede."
 
 // Video
-"TF2c_Option_BloomScale"	"Escala de Bloom"
+"TF2c_Option_BloomScale"	"Escala do efeito \"bloom\""
 
 // ----------------------------------------------------------------
 // Stats
@@ -1504,7 +1506,7 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 // ----------------------------------------------------------------
 
 "Discord_InMenu"					"Nos menus"
-"Discord_InMenu_ToolTip"			"Menu Principal"
+"Discord_InMenu_ToolTip"			"Menu principal"
 "Discord_IsLoading"					"Está carregando..."
 "Discord_IsLoading_ToolTip"			"Carregando..."
 "Discord_InOfficialMap"				"Mapa oficial — %s1"
@@ -1535,13 +1537,13 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "ServerBrowser_UseLegacyBrowser" "Usar navegador antigo"
 "ServerBrowser_CurrentMapHeading" "Mapa atual:"
 "ServerBrowser_TagListHeading" "Marcadores:"
-"ServerBrowser_OfficialDetail" "Este é um servidor Oficial"
-"ServerBrowser_VerifiedDetail" "Este é um servidor Verificado"
+"ServerBrowser_OfficialDetail" "Este é um servidor oficial"
+"ServerBrowser_VerifiedDetail" "Este é um servidor verificado"
 "ServerBrowser_Any" "Todos"
 "ServerBrowser_Official" "Oficial"
 "ServerBrowser_Verified" "Verificado"
-"ServerBrowser_OfficialOrVerified" "Oficial ou Verificado"
-"ServerBrowser_CustomRules"	"Regras Personalizadas"
-"ServerBrowser_CustomWeapons" "Armas Personalizadas"
+"ServerBrowser_OfficialOrVerified" "Oficial ou verificado"
+"ServerBrowser_CustomRules"	"Regras personalizadas"
+"ServerBrowser_CustomWeapons" "Armas personalizadas"
 }
 }
