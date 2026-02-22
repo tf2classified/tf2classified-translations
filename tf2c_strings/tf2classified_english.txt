@@ -943,7 +943,7 @@ BLU team can freeze the capture progress of a Control Point if the VIP isn't pre
 "vip_setup_goal_defense"	"Kill the enemy team's VIP to prevent him from reaching the Escape Zone."
 
 "TF_VIP_Assigned"				"%s1 is now the VIP!"
-"TF_VIP_Tutorial_Annotation_2"	"He provides a defensive boost to those around him and\ncan also temporarily buff a member of his team with Mini-Crits!"
+"TF_VIP_Tutorial_Annotation_2"	"He provides a defensive boost to those around him and\ncan also temporarily buff a member of his team!"
 "TF_VIP_Tutorial_Annotation_3"	"But remember, his life is more important than yours, so don't let him die!"
 
 "Cant_cap_civilian_only"		"Only the VIP can\n capture this point."
