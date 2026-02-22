@@ -63,11 +63,19 @@
 "Hud_Menu_Disguise_GlobalTeam"		"Globalne przebranie: każdy wróg będzie cię widział jako członka swojej drużyny."
 
 // Autobalance
-"TF_teamswitch_green"			"Jesteś teraz w drużynie GRN!"
-"TF_teamswitch_yellow"			"Jesteś teraz w drużynie YLW!"
+"TF_teamswitch_green"				"Jesteś teraz w drużynie GRN!"
+"TF_teamswitch_yellow"				"Jesteś teraz w drużynie YLW!"
 
-"TF_Team_Balanced"					"Gracz %s1 został przeniesiony do drużyny %s2."
-"TF_Autobalance_TeamChangeDone"		"Zostałeś przeniesiony do drużyny %s1."
+// Chat Printouts
+"TF_Team_Balanced"					"Gracz %s1 został przeniesiony do drużyny %s2"
+"TF_Autobalance_TeamChangeDone"		"Przeniesiono cię do drużyny %s1"
+"TF_Name_Change"					"* %s1 zmienia pseudonim na %s2"
+"TF_Joined_Game"					"Gracz %s1 dołączył do gry"
+"TF_Left_Game"						"Gracz %s1 opuścił grę (%s2)"
+"TF_Joined_Team"					"Gracz %s1 dołączył do drużyny %s2"
+"TF_Joined_AutoTeam" 				"Gracz %s1 został automatycznie przydzielony do drużyny %s2"
+"TF_AutoBalanced"					"Gracz %s1 został przeniesiony do drużyny %s2 dla zrównoważenia rozgrywki"
+"TF_AutoBalance_Warning"			"Wykryto brak balansu drużyn"
 
 // ----------------------------------------------------------------
 // Classes
@@ -868,6 +876,9 @@ Wyłącznie honorowa walka na pięści i miecze!"
 "Chopper_cap_A"			"radar drużyny RED"
 "Chopper_cap_B"			"radar drużyny BLU"
 
+// 4plr_sisyphus
+"Sisyphus_cap_peak"			"szczyt"
+
 // ----------------------------------------------------------------
 // Gamemodes
 // ----------------------------------------------------------------
@@ -1410,12 +1421,20 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 "TF_ClassRecord_MostPadJumps"			"Naj. skoków na wyskoczni:"
 "TF_ClassRecord_Alt_MostPadJumps"		"skok(ów) na wyskoczni"
 
+"StatPanel_Ubercharges_Best"			"W tej rundzie udało ci się pobić rekord w liczbie użytych ładunków ÜberCharge."
+"StatPanel_Ubercharges_Tie"				"W tej rundzie udało ci się wyrównać rekord w liczbie użytych ładunków ÜberCharge."
+"StatPanel_Ubercharges_Close"			"W tej rundzie udało ci się zbliżyć do rekordu w liczbie użytych ładunków ÜberCharge."
+"StatPanel_MVM_Ubercharges_Best"		"W tej rundzie Mann vs Maszyny udało ci się pobić rekord w liczbie użytych ładunków ÜberCharge."
+"StatPanel_MVM_Ubercharges_Tie"			"W tej rundzie Mann vs Maszyny udało ci się wyrównać rekord w liczbie użytych ładunków ÜberCharge."
+"StatPanel_MVM_Ubercharges_Close"		"W tej rundzie Mann vs Maszyny udało ci się zbliżyć do rekordu w liczbie użytych ładunków ÜberCharge."
+
 "StatPanel_PadJumps_Best"			"W tej rundzie udało ci się pobić rekord w liczbie skoków na wyskoczni."
 "StatPanel_PadJumps_Tie"			"W tej rundzie udało ci się wyrównać rekord w liczbie skoków na wyskoczni."
 "StatPanel_PadJumps_Close"			"W tej rundzie udało ci się zbliżyć do rekordu w liczbie skoków na wyskoczni."
 "StatPanel_MVM_PadJumps_Best"		"W tej rundzie Mann vs Maszyny udało ci się pobić rekord w liczbie skoków na wyskoczni."
 "StatPanel_MVM_PadJumps_Tie"		"W tej rundzie Mann vs Maszyny udało ci się wyrównać rekord w liczbie skoków na wyskoczni."
 "StatPanel_MVM_PadJumps_Close"		"W tej rundzie Mann vs Maszyny udało ci się zbliżyć do rekordu w liczbie skoków na wyskoczni."
+
 // ----------------------------------------------------------------
 // Achievements
 // ----------------------------------------------------------------
