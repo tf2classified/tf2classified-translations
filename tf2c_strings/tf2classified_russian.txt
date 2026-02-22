@@ -66,8 +66,17 @@
 "TF_teamswitch_green"			"Теперь вы с Зелёными!"
 "TF_teamswitch_yellow"			"Теперь вы с Жёлтыми!"
 
-"TF_Team_Balanced"				"Игрок %s1 был перемещён в команду %s2"
-"TF_Autobalance_TeamChangeDone"	"Вы были перемещены в команду %s1"
+
+// Chat Printouts
+"TF_Team_Balanced"					"Игрок %s1 был перемещён в команду %s2"
+"TF_Autobalance_TeamChangeDone"		"Вы были перемещены в команду %s1"
+"TF_Name_Change"					"* %s1 меняет имя на %s2"
+"TF_Joined_Game"					"%s1 вступает в игру"
+"TF_Left_Game"						"%s1 покидает игру (%s2)"
+"TF_Joined_Team"					"%s1 присоединяется к команде %s2"
+"TF_Joined_AutoTeam" 				"%s1 автоматически присоединяется к команде %s2"
+"TF_AutoBalanced"					"%s1 переходит в команду %s2 для сохранения игрового баланса"
+"TF_AutoBalance_Warning"			"Нарушен баланс команд"
 
 // ----------------------------------------------------------------
 // Classes
@@ -802,7 +811,7 @@
 
 // vip_harbor
 "Harbor_cap_1"			"погрузочный док"
-"Harbor_cap_2"			"береговая линия"
+"Harbor_cap_2"			"береговую линию"
 "Harbor_cap_3"			"склад"
 
 // 4dom_krepost
@@ -859,14 +868,17 @@
 // vip_avanti
 "Avanti_red_setup_goal"		"Двигайтесь вниз и убейте VIP вражеской команды, чтобы не дать ему достигнуть зоны эвакуации!"
 "Avanti_blue_setup_goal"	"Двигайтесь вверх и сопроводите VIP до зоны эвакуации!"
-"Avanti_cap_1"				"кладовая"
-"Avanti_cap_2"				"терасса"
-"Avanti_cap_3"				"колокольня"
+"Avanti_cap_1"				"кладовую"
+"Avanti_cap_2"				"терассу"
+"Avanti_cap_3"				"колокольню"
 "Avanti_cap_4"				"парадные ворота"
 
 // vipr_chopper
 "Chopper_cap_A"				"радар красных"
 "Chopper_cap_B"				"радар синих"
+
+// 4plr_sisyphus
+"Sisyphus_cap_peak"			"вершину"
 
 // ----------------------------------------------------------------
 // Gamemodes
@@ -1001,11 +1013,11 @@
 "4plr_cap_ylw"	"точку захвата жёлтых"
 
 // Useful generic stuff for mappers
-"generic_cap_A"			"Контрольная точка A"
-"generic_cap_B"			"Контрольная точка B"
-"generic_cap_C"			"Контрольная точка C"
-"generic_cap_D"			"Контрольная точка D"
-"generic_cap_E"			"Контрольная точка E"
+"generic_cap_A"			"Контрольную точку A"
+"generic_cap_B"			"Контрольную точку B"
+"generic_cap_C"			"Контрольную точку C"
+"generic_cap_D"			"Контрольную точку D"
+"generic_cap_E"			"Контрольную точку E"
 
 // Arena
 "TF_Arena_Welcome"				"Арена"
@@ -1409,6 +1421,13 @@
 "TF_ClassRecord_Alt_MostUbercharges"	"убер-заряда(ов)"
 "TF_ClassRecord_MostPadJumps"			"Макс. катапультирований:"
 "TF_ClassRecord_Alt_MostPadJumps"		"катапультирования(ий)"
+
+"StatPanel_Ubercharges_Best"			"Вы установили новый личный рекорд по количеству использованных убер-зарядов."
+"StatPanel_Ubercharges_Tie"				"Вы повторили личный рекорд по количеству использованных убер-зарядов."
+"StatPanel_Ubercharges_Close"			"Вы почти повторили личный рекорд по количеству использованных убер-зарядов."
+"StatPanel_MVM_Ubercharges_Best"		"Вы установили новый личный рекорд по количеству использованных убер-зарядов в режиме Манн против машин."
+"StatPanel_MVM_Ubercharges_Tie"			"Вы повторили личный рекорд по количеству использованных убер-зарядов в режиме Манн против машин"
+"StatPanel_MVM_Ubercharges_Close"		"Вы почти повторили личный рекорд по количеству использованных убер-зарядов в режиме Манн против машин."
 
 "StatPanel_PadJumps_Best"				"Играя классом \"%s1\", вы установили новый личный рекорд по катапультированиям."
 "StatPanel_PadJumps_Tie"				"Играя классом \"%s1\", вы повторили личный рекорд по катапультированиям."

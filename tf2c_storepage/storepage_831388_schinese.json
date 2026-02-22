@@ -6,6 +6,6 @@
 	"app[content][short_description]":"军团要塞2：秘典是一款以原始《军团要塞2》为灵感开发的模组，旨在重新构想原版游戏的全新体验。新增内容包括：全新的视觉特效，以及新的武器、新的团队、还有一位身材丰满的石油大亨。",
 	"app[content][sysreqs][windows][min][osversion]":"Windows 10 (64-Bit)",
 	"app[content][sysreqs][windows][min][notes]":"需要安装《军团要塞2》",
-	"app[content][sysreqs][linux][min][osversion]":"Ubuntu 16.04",
+	"app[content][sysreqs][linux][min][osversion]":"Debian 13 \/ glibc 2.39+",
 	"app[content][sysreqs][linux][min][notes]":"需要安装《军团要塞2》，建议启用Vulkan支持。"
 }
