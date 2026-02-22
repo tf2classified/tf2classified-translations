@@ -381,7 +381,7 @@
 // Generic
 "Tip_10_1"		"Como um Civilian, você é um pouco lento. Tente ao máximo acompanhar seus companheiros de equipe para ter uma chance melhor de sobrevivência."
 "Tip_10_2"		"Como um Civilian, você é o mais baixo de toda a sua equipe. Isso pode ser útil para se esconder atrás dos seus companheiros."
-"Tip_10_3"		"Como um Civilian, você é o único capaz de capturar Pontos de Controle nos modos de jogo VIP e Corrida VIP."
+"Tip_10_3"		"Como um Civilian, você é o único capaz de capturar Pontos de Controle nos modos de jogo VIP e Corrida de VIPs."
 "Tip_10_4"		"Como um Civilian, fique atento aos Snipers e Spies inimigos, pois eles são capazes de eliminá-lo instantaneamente."
 "Tip_10_5"		"Como um Civilian, aliados próximos ganham bônus de moral, recebendo assim um pequeno aumento de defesa e cura. Fique fora da visão inimiga e próximo da sua equipe."
 "Tip_10_6"		"Como um Civilian, pressione %attack2% enquanto estiver olhando para um companheiro de equipe para bancá-lo, dando-lhe uma grande vantagem na batalha."
@@ -1043,7 +1043,7 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF_IM_Steel_Pit"	"Cuidado com o buraco!"
 
 // VIP Race
-"TF_IM_VIPR_Intro"	"Bem-vindo ao modo de jogo Corrida VIP"
+"TF_IM_VIPR_Intro"	"Bem-vindo ao modo de jogo Corrida de VIPs"
 "TF_IM_VIPR_ToWin"	"Para vencer, você deve ajudar seu VIP a capturar o Ponto de Controle inimigo..."
 "TF_IM_VIPR_Escape"	"...e então escoltá-lo até a Zona de Fuga antes que a equipe inimiga possa fazer o mesmo!"
 "TF_IM_VIPR_Death"	"Se um VIP morrer, todos os pontos que ele tiver conquistado serão zerados."
