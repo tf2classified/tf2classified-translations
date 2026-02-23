@@ -57,12 +57,43 @@
 "TF_GreenTeam_Name"				"GRN"
 "TF_YellowTeam_Name"			"YLW"
 
-"TF_teamswitch_green"			"Adesso sei un GRN!"
-"TF_teamswitch_yellow"			"Adesso sei un YLW!"
+"TF_Other_Name"						"ALTRO"
 
-"TF_Other_Name"					"OTHER"
+
+
 // Disguise Kit global disguise
-"Hud_Menu_Disguise_GlobalTeam"	"Travestimento Globale: Ogni nemico ti vedrà come membro della sua squadra."
+
+"Hud_Menu_Disguise_GlobalTeam"		"Travestimento Globale: Ogni nemico ti vedrà come membro della sua squadra."
+
+
+
+// Autobalance
+
+"TF_teamswitch_green"				"Adesso sei un GRN!"
+
+"TF_teamswitch_yellow"				"Adesso sei un YLW!"
+
+
+
+// Chat Printouts
+
+"TF_Team_Balanced"					"%s1 è stato spostato alla squadra %s2"
+
+"TF_Autobalance_TeamChangeDone"		"Sei stato spostato alla squadra %s1"
+
+"TF_Name_Change"					"* %s1 ha cambiato nome in %s2"
+
+"TF_Joined_Game"					"%s1 si è unito alla partita."
+
+"TF_Left_Game"						"%s1 ha abbandonato la partita (%s2)"
+
+"TF_Joined_Team"					"%s1 si è unito alla squadra %s2"
+
+"TF_Joined_AutoTeam" 				"%s1 è stato assegnato automaticamente alla squadra %s2"
+
+"TF_AutoBalanced"					"%s1 è stato spostato alla squadra %s2 per bilanciare il gioco"
+
+"TF_AutoBalance_Warning"			"È stato rilevato che le squadre non sono bilanciate!"
 
 // ----------------------------------------------------------------
 // Classes
@@ -339,7 +370,7 @@
 // Engineer
 "Tip_9_Count"	"20"
 // Generic
-"Tip_9_1"		"Come Ingegnere, hai bisogno di metallo per costruire, riparare e migliorare le tue costruzioni. Raccogli munizioni e armi cadute per ottenere più metallo."
+"Tip_9_1"		"Come Ingegnere, hai bisogno di metallo per costruire, riparare e migliorare le tue costruzioni. Raccogli le armi dai giocatori morti per ottenere più metallo."
 "Tip_9_2"		"Come Ingegnere, puoi fare altro oltre tenere d'occhio le tue costruzioni. Usa il Fucile a Pompa e la Pistola per contribuire ai combattimenti e proteggere le tue costruzioni."
 "Tip_9_3"		"Come Ingegnere, tieni d'occhio i Sabotatori piazzati sulle tue costruzioni dalle Spie nemiche. Usa la Chiave Inglese per rimuovere i Sabotatori."
 "Tip_9_4"		"Come Ingegnere, ricorda di migliorare le tue costruzioni. Le costruzioni migliorate possono portare grandi vantaggi a te a alla tua squadra!"
@@ -386,7 +417,7 @@
 "Tip_arena_2"			"In Arena, non ci sono tanti modi per recuperare salute, perciò assicurati di proteggere i tuoi Medici e Ingegneri (e di condividere il tuo Sandvich!)"
 "Tip_arena_3"			"In Arena, il Punto di Controllo al centro della mappa si attiverà dopo 60 secondi dall'inizio del round. Usalo per attirare i nemici nascosti!"
 "Tip_arena_4"			"In Arena, non tornerai in gioco una volta morto, quindi occhio a non morire!"
-"Tip_arena_5"			"In Arena, prova a diversificare il tuo portfolio! Complementa la composizione della tua squadra oppure distruggi quella del nemico."
+"Tip_arena_5"			"In Arena, sii creativo con il tuo portfolio! Complementa la composizione della tua squadra oppure distruggi quella del nemico."
 "Tip_arena_6"			"In Arena, puoi cambiare classe solo all'inizio della partita o prima che i cancelli si aprano."
 "Tip_arena_7"			"In Arena, rimani vicino alla tua squadra per aiutarla nei momenti di pericolo. Arrivare troppo tardi durante un combattimento può metterti in svantaggio."
 "Tip_arena_8"			"In Arena, fa si che il nemico non riesca a curarsi. I Medici e i Dispenser nemici sono degli obiettivi di priorità. Ruba anche i medikit se possibile!"
@@ -860,6 +891,11 @@ Qui si lotta solo con la spada o con le mani!"
 "Chopper_cap_A"				"il Radar RED"
 "Chopper_cap_B"				"il Radar BLU"
 
+
+// 4plr_sisyphus
+
+"Sisyphus_cap_peak"			"la Vetta"
+
 // ----------------------------------------------------------------
 // Gamemodes
 // ----------------------------------------------------------------
@@ -924,7 +960,7 @@ BLU può arrestare il progresso di cattura di un Punto di Controllo se il VIP no
 "vip_setup_goal_defense"	"Uccidi il VIP della squadra nemica per far si che non raggiunga la Zona di Fuga."
 
 "TF_VIP_Assigned"				"%s1 è diventato il VIP!"
-"TF_VIP_Tutorial_Annotation_2"	"Garantisce un potenziamento difensivo a chi gli sta vicino e\npuò anche potenziare un membro della sua squadra temporaneamente con dei Mini-Critici!"
+"TF_VIP_Tutorial_Annotation_2"	"Garantisce un potenziamento difensivo a chi gli sta vicino e\npuò anche potenziare un membro della sua squadra temporaneamente!"
 "TF_VIP_Tutorial_Annotation_3"	"Ma ricorda, la sua vita vale molto di più della tua, quindi non lasciarlo morire!"
 
 "Cant_cap_civilian_only"		"Solo il VIP può\n catturare questo punto."
@@ -998,6 +1034,14 @@ Le squadre che possiedono i Punti di Controllo iniziali sono scelti casualmente 
 "generic_cap_C"			"Punto di Controllo C"
 "generic_cap_D"			"Punto di Controllo D"
 "generic_cap_E"			"Punto di Controllo E"
+
+// Arena
+
+"TF_Arena_Welcome"				"Modalità Arena"
+
+"TF_Arena_Team_SizeIncreased"	"%s1 Dimensione delle squadre aumentata a %s2."
+
+"TF_Arena_Team_SizeDecreased"	"%s1 Dimensione delle squadre ridotta a %s2."
 
 // ----------------------------------------------------------------
 // Intro movies
@@ -1097,6 +1141,8 @@ Le squadre che possiedono i Punti di Controllo iniziali sono scelti casualmente 
 
 "TF_Menu_Welcome"			"Bentornato,"
 
+"TF_Menu_Name"				"%playername%!"
+
 "TF_Menu_ResumeGame"		"Riprendi Partita"
 "TF_Menu_Mute"				"Muta Giocatori"
 "TF_Menu_Vote"				"Richiedi Votazione"
@@ -1130,6 +1176,8 @@ Le squadre che possiedono i Punti di Controllo iniziali sono scelti casualmente 
 "TF_Friends_Status_Online"			"Online"
 "TF_Friends_Status_Away"			"Non al computer"
 "TF_Friends_Status_Offline"			"Offline"
+
+"ChallengeDetails"					"%s1 come il %s2"
 
 
 // ----------------------------------------------------------------
@@ -1395,6 +1443,18 @@ Le squadre che possiedono i Punti di Controllo iniziali sono scelti casualmente 
 "TF_ClassRecord_Alt_MostUbercharges"	"ÜberCariche(s)"
 "TF_ClassRecord_MostPadJumps"			"Più Trampolini:"
 "TF_ClassRecord_Alt_MostPadJumps"		"salti col trampolino(s)"
+
+"StatPanel_Ubercharges_Best"			"Hai usato più ÜberCarica in quel round rispetto al tuo record precedente."
+
+"StatPanel_Ubercharges_Tie"				"Sei arrivato preciso al tuo record di ÜberCariche in quel round."
+
+"StatPanel_Ubercharges_Close"			"Sei arrivato vicino al tuo record di ÜberCariche in quel round."
+
+"StatPanel_MVM_Ubercharges_Best"		"Hai usato più ÜberCarica in quel round di Mann vs. Machine rispetto al tuo record precedente."
+
+"StatPanel_MVM_Ubercharges_Tie"			"Sei arrivato preciso al tuo record di ÜberCariche in quel round di Mann vs. Machine."
+
+"StatPanel_MVM_Ubercharges_Close"		"Sei arrivato vicino al tuo record di ÜberCariche in quel round di Mann vs. Machine."
 
 "StatPanel_PadJumps_Best"				"I tuoi trampolini sono stati usati di più in quel round rispetto al tuo record precedente."
 "StatPanel_PadJumps_Tie"				"Sei arrivato preciso al tuo record di trampolini in quel round."
