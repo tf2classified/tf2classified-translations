@@ -39,7 +39,7 @@
 
 // Sentry consent popup
 "TF_SentryReport_Title"				"Invio Segnalazioni Errori?"
-"TF_SentryReport_Message"			"Vorresti che le segnalizioni di errori vengano inviate in forma anonima al team di Team Fortress 2 Classified?"
+"TF_SentryReport_Message"			"Vorresti che le segnalazioni di errori vengano inviate in forma anonima al team di Team Fortress 2 Classified?"
 
 // VIP voting
 "Vote_ChangeCivilian"				"Cambia VIP"
@@ -165,7 +165,7 @@
 "game_respawntime_in_secs"		"Tornerai in gioco tra %s1 secondi"
 "game_respawntime_stalemate"	"Non si torna in gioco durante la Morte Improvvisa"
 "game_respawntime_next_round"	"Tornerai in gioco al prossimo round"
-"TF_Arena_NoRespawning"			"Non si torna in gioco durante in Modalità Arena"
+"TF_Arena_NoRespawning"			"Non si torna in gioco in Modalità Arena"
 
 // ----------------------------------------------------------------
 // Kill feed
@@ -224,13 +224,13 @@
 "Tip_2_1"		"Come Cecchino, mira alla testa dei nemici per infliggere molto più danno."
 "Tip_2_2"		"Come Cecchino, puoi mirare con il tuo Fucile di Precisione o concentrarti con il tuo Fucile da Caccia premendo %attack2%."
 // Stock
-"Tip_2_3"		"Come Cecchino, più tempo mirerai con il tuo Fucile di Precisione più danni infliggerà."
-"Tip_2_4"		"Come Cecchino, un colpo alla testa caricato a pieno del Fucile di Precisione può uccidere instantaneamente la maggior parte delle classi."
+"Tip_2_3"		"Come Cecchino, più tempo mirerai con il tuo Fucile di Precisione più danni infliggerai."
+"Tip_2_4"		"Come Cecchino, un colpo alla testa caricato a pieno del Fucile di Precisione può uccidere istantaneamente la maggior parte delle classi."
 "Tip_2_5"		"Come Cecchino, la tua Mitraglietta è essenziale per prenderti cura dei nemici che si avvicinano troppo per i tuoi gusti."
 "Tip_2_6"		"Come Cecchino, il tuo Kukri è il tuo ultimo mezzo di difesa, è può essere utile per sopravvivere alle imboscate inaspettate."
 // Death & Taxes
-"Tip_2_7"		"Come Cecchino, l'Arco del Cacciatore può essere usato per un approccio ravvicinato molto più offensivo, al costo della precisione."
-"Tip_2_8"		"Come Cecchino, l'Arco del Cacciatore diventerà sempre meno preciso se viene tirato per più di 5 secondi. Puoi ripristinarlo premendo %attack2%."
+"Tip_2_7"		"Come Cecchino, l'Arco del Cacciatore può essere usato per un approccio ravvicinato molto più offensivo, sacrificando però la precisione."
+"Tip_2_8"		"Come Cecchino, l'Arco del Cacciatore diventerà sempre meno preciso se viene tenuto tirato per più di 5 secondi. Puoi ripristinarlo premendo %attack2%."
 "Tip_2_9"		"Come Cecchino, il tuo Fucile da Caccia è un'ottima opzione per la media distanza. Usalo per colpire gravemente i nemici mentre ti muovi in mezzo al campo di battaglia."
 "Tip_2_10"		"Come Cecchino, ti muoverai molto più rapidamente mentre sei concentrato con il Fucile da Caccia rispetto alle tue altre armi primarie."
 "Tip_2_11"		"Come Cecchino, l'Ammazzapesci infligge contraccolpo ai nemici e li fa sanguinare. Utilizzala per scansare chi si avvicina troppo."
@@ -246,9 +246,9 @@
 // Stock
 "Tip_3_6"		"Come Soldato, assicurati di tenere il tuo Lanciarazzi caricato. Premi %reload% per ricaricalo quando vuoi."
 "Tip_3_7"		"Come Soldato, usa il tuo Fucile a Pompa per conservare razzi ed evitare di ricaricare nel mezzo del combattimento."
-"Tip_3_8"		"Come Soldato, use your Shovel to deal consistent close-range damage without having to worry about splash damage."
+"Tip_3_8"		"Come Soldato, usa la tua Pala per infliggere danni da mischia consistenti senza preoccuparti del danno ad area delle tue esplosioni."
 // Death & Taxes
-"Tip_3_9"		"Come Soldato, i Cannonieri riducono drasticamente la salute persa dai salti-razzo. Usali quando il posizionamento e la mobilità sono specialmente importanti."
+"Tip_3_9"		"Come Soldato, i Cannonieri riducono drasticamente la salute persa dai salti-razzo. Usali quando il posizionamento e la mobilità sono più importanti."
 "Tip_3_10"		"Come Soldato, il razzi del tuo R.P.G. viaggiano in un arco, e possono oltrepassare le difese nemiche. Assicurati di mirare come si deve!"
 // Double Down
 "Tip_3_11"		"Come Soldato, il danno del terremoto della tua Ancora dell'Ammiragliato è proporzionale al tempo in cui è rimasta schierata. Tirala fuori una volta raggiunto il picco del tuo salto-razzo!"
@@ -269,11 +269,11 @@
 // Death & Taxes
 "Tip_4_9"		"Come Demolitore, lancia il tuo Pacco di Dinamite nei Punti di Controllo affollati per spazzare via i nemici."
 "Tip_4_10"		"Come Demolitore, il tuo Pacco di Dinamite può essere disinnescato dagli Ingegneri nemici. Tienilo a mente quando lo scagli contro i nidi di Torrette."
-"Tip_4_11"		"Come Demolitore, i Cannonieri riducono drasticamente la salute persa con i salti esplosivi. Usali quando il posizionamento e la mobilità sono specialmente importanti."
+"Tip_4_11"		"Come Demolitore, i Cannonieri riducono drasticamente la salute persa con i salti esplosivi. Usali quando il posizionamento e la mobilità sono più importanti."
 "Tip_4_12"		"Come Demolitore, le mine lanciate dal Lanciamine esplodono automaticamente quando un nemico si avvicina troppo. Usale per una difesa autonoma!"
 // Double Down
 "Tip_4_13"		"Come Demolitore, le granate EMP lanciate dal Ciclope esploderanno solo quando lo deciderai tu. Utilizzale per sincronizzare un salto esplosivo o preparare una trappola mortale!"
-"Tip_4_14"		"Come Demolitore, il Ciclope detona instantaneamente tutti i tuoi esplosivi. Opta per un'uccisione combo aggressiva!"
+"Tip_4_14"		"Come Demolitore, il Ciclope detona istantaneamente tutti i tuoi esplosivi. Opta per un'uccisione combo aggressiva!"
 "Tip_4_15"		"Come Demolitore, puoi usare il Ciclope per detonare qualsiasi Bomba Adesiva, Pacco di Dinamite e Mina nelle vicinanze piazzata dai nemici."
 
 // Medic
@@ -707,10 +707,10 @@
 "Attrib_LimitedRange"								"L'arma ha un raggio limitato"
 "Attrib_GainStoredCritsOnKill"						"Per Uccisione: Conserva %s1 colpo critico"
 "Attrib_HealOnKillCrit"								"+%s1 salute rigenerata uccidendo un nemico con un colpo critico"
-"Attrib_InstantReloadOnDirectHit"					"Per Colpo Diretto: Ricarica fino a %s1 munizioni instantaneamente"
-"Attrib_InstantReloadOnHit"							"Per Colpo: Ricarica fino a %s1 munizioni instantaneamente"
-"Attrib_InstantReloadOnDirectHitKill"				"Per Uccisione con Colpo Diretto:: Ricarica fino a %s1 munizioni instantaneamente"
-"Attrib_InstantReloadOnKill"						"Per Uccisione: Ricarica fino a %s1 munizioni instantaneamente"
+"Attrib_InstantReloadOnDirectHit"					"Per Colpo Diretto: Ricarica fino a %s1 munizioni istantaneamente"
+"Attrib_InstantReloadOnHit"							"Per Colpo: Ricarica fino a %s1 munizioni istantaneamente"
+"Attrib_InstantReloadOnDirectHitKill"				"Per Uccisione con Colpo Diretto:: Ricarica fino a %s1 munizioni istantaneamente"
+"Attrib_InstantReloadOnKill"						"Per Uccisione: Ricarica fino a %s1 munizioni istantaneamente"
 "Attrib_ViewPunchOnHit"								"Per Colpo: Scuoti la visuale del nemico"
 "Attrib_FlinchDecrease"								"%s1% di sussulto in meno"       
 "Attrib_FlinchIncrease"								"+%s1% di sussulto in più"
