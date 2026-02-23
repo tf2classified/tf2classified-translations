@@ -51,19 +51,31 @@
 // Teams
 // ----------------------------------------------------------------
 
-"TF_GreenTeam" 	                "&5 綠隊"
-"TF_YellowTeam"                 "&6 黃隊"
+"TF_GreenTeam" 	                    "&5 綠隊"
+"TF_YellowTeam"                     "&6 黃隊"
 
-"TF_GreenTeam_Name"		        "綠隊"
-"TF_YellowTeam_Name"	        "黃隊"
+"TF_GreenTeam_Name"		            "綠隊"
+"TF_YellowTeam_Name"	            "黃隊"
 
-"TF_teamswitch_green"			"你現在是綠隊！"
-"TF_teamswitch_yellow"			"你現在是黃隊！"
-
-"TF_Other_Name"	                "其他隊伍"
+"TF_Other_Name"	                    "其他隊伍"
 
 // Disguise Kit global disguise
-"Hud_Menu_Disguise_GlobalTeam"	"全局偽裝：每名隊伍的敵人都會把你當成自己人。"
+"Hud_Menu_Disguise_GlobalTeam"	    "全局偽裝：每名隊伍的敵人都會把你當成自己人。"
+
+// Autobalance
+"TF_teamswitch_green"			    "你現在是綠隊！"
+"TF_teamswitch_yellow"			    "你現在是黃隊！"
+
+// Chat Printouts
+"TF_Team_Balanced"					"%s1 被移到另一隊 %s2"
+"TF_Autobalance_TeamChangeDone"		"你已被切換至 %s1 隊。"
+"TF_Name_Change"					"* %s1 變更名稱為 %s2"
+"TF_Joined_Game"					"%s1 加入遊戲"
+"TF_Left_Game"						"%s1 離開遊戲 (%s2)"
+"TF_Joined_Team"					"%s1 加入團隊 %s2"
+"TF_Joined_AutoTeam" 				"%s1 被自動分配至 %s2"
+"TF_AutoBalanced"					"%s1 被自動平衡移到另一隊 %s2"
+"TF_AutoBalance_Warning"			"探測到隊伍不平衡"
 
 // ----------------------------------------------------------------
 // Classes
@@ -340,7 +352,7 @@
 // Engineer
 "Tip_9_Count"	"20"
 // Generic
-"Tip_9_1"		"身為工程師，你需要金屬才能建造、修理並升級你的建築。蒐集掉落的彈藥盒來補充資源。"
+"Tip_9_1"		"身為工程師，你需要金屬才能建造、修理並升級你的建築。蒐集死亡玩家掉落的武器來補充資源。"
 "Tip_9_2"		"身為工程師，除了維修建築外，還能做很多工作。你可以使用散彈槍和手槍協助隊友戰鬥以及防守自己的建築物。"
 "Tip_9_3"		"身為工程師，請留意敵方間諜是否在本方建築中放置了電子工兵。用你的扳手移除工兵。"
 "Tip_9_4"		"身為工程師，記得升級你的建築物。升級後的建築可以更高效地輔助你和你的隊伍！"
@@ -864,11 +876,14 @@
 "Chopper_cap_A"				"紅隊雷達"
 "Chopper_cap_B"				"藍隊雷達"
 
+// 4plr_sisyphus
+"Sisyphus_cap_peak"			"高峰"
+
 // ----------------------------------------------------------------
 // Gamemodes
 // ----------------------------------------------------------------
 
-"Gametype_CTF_Penguin"		"奪取企鵝" // We have fun here
+"Gametype_CTF_Penguin"		"搶奪企鵝" // We have fun here
 "Gametype_Domination"		"統治"
 "Gametype_MedDomination"	"統治（中世紀）"
 "Gametype_KOTF"				"旗幟之王"
@@ -1003,6 +1018,11 @@
 "generic_cap_D"			"控制點 D"
 "generic_cap_E"			"控制點 E"
 
+// Arena
+"TF_Arena_Welcome"		"競技場模式"
+"TF_Arena_Team_SizeIncreased"	"%s1 隊伍人數已增至 %s2。"
+"TF_Arena_Team_SizeDecreased"	"%s1 隊伍人數已減至 %s2。"
+
 // ----------------------------------------------------------------
 // Intro movies
 // ----------------------------------------------------------------
@@ -1100,6 +1120,7 @@
 // ----------------------------------------------------------------
 
 "TF_Menu_Welcome"			"歡迎回來，"
+"TF_Menu_Name"				"%playername%！"
 
 "TF_Menu_HideName"			"[已編輯]"
 
@@ -1136,6 +1157,8 @@
 "TF_Friends_Status_Online"		    "線上"
 "TF_Friends_Status_Away"		    "離開"
 "TF_Friends_Status_Offline"		    "離線"
+
+"ChallengeDetails"					"%s1 扮演 %s2"
 
 
 // ----------------------------------------------------------------
@@ -1393,10 +1416,17 @@
 
 "StatPanel_Label_PadJumps"				"# 使用彈射板次數："
 
-"TF_ClassRecord_MostUbercharges"	    "最多 UberCharges 次數:"
+"TF_ClassRecord_MostUbercharges"	    "最多 UberCharge 次數:"
 "TF_ClassRecord_Alt_MostUbercharges"	"UberCharges（次數）"
 "TF_ClassRecord_MostPadJumps"	        "最多彈射板使用次數："
 "TF_ClassRecord_Alt_MostPadJumps"		"彈射板（次數）"
+
+"StatPanel_Ubercharges_Best"			"你的 UberCharge 次數比之前的回合要多！"
+"StatPanel_Ubercharges_Tie"				"你在該回合的 UberCharge 次數與紀錄打平。"
+"StatPanel_Ubercharges_Close"			"你在該回合的 UberCharge 次數接近紀錄。"
+"StatPanel_MVM_Ubercharges_Best"		"在曼恩對決機器模式時，你在該回合的 UberCharge 次數比之前的回合要多！"
+"StatPanel_MVM_Ubercharges_Tie"			"在曼恩對決機器模式時，你在該回合的 UberCharge 次數與紀錄打平。"
+"StatPanel_MVM_Ubercharges_Close"		"在曼恩對決機器模式時，你在該回合的 UberCharge 次數接近紀錄。"
 
 "StatPanel_PadJumps_Best"		        "你的彈射板使用次數比之前的回合要多！"
 "StatPanel_PadJumps_Tie"		        "你在該回合的彈射板使用次數與紀錄打平。"
@@ -1489,9 +1519,9 @@
 "Discord_InMenu_ToolTip"			"主菜單"
 "Discord_IsLoading"					"目前正在載入..."
 "Discord_IsLoading_ToolTip"			"載入中..."
-"Discord_InOfficialMap"				"官方地圖： %s1"
-"Discord_InCommunityMap"			"社群地圖： %s1"
-"Discord_InServer_Info"				"在伺服器： %s1"
+"Discord_InOfficialMap"				"官方地圖：%s1"
+"Discord_InCommunityMap"			"社群地圖：%s1"
+"Discord_InServer_Info"				"在伺服器：%s1"
 
 // ----------------------------------------------------------------
 // Server Browser

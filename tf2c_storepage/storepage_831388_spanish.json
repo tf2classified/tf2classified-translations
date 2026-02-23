@@ -6,6 +6,6 @@
 	"app[content][short_description]":"Team Fortress 2 Classified es una nueva experiencia de Team Fortress 2 basada en sus inspiraciones y tono originales. Actualizada con gráficos renovados, nuevos modos de juego y mapas, nuevas armas, nuevos equipos y un corpulento magnate petrolero.",
 	"app[content][sysreqs][windows][min][osversion]":"Windows 10 (64-Bit)",
 	"app[content][sysreqs][windows][min][notes]":"Requiere tener instalado Team Fortress 2",
-	"app[content][sysreqs][linux][min][osversion]":"Ubuntu 16.04",
+	"app[content][sysreqs][linux][min][osversion]":"Debian 13 \/ glibc 2.39+",
 	"app[content][sysreqs][linux][min][notes]":"Requiere tener instalado Team Fortress 2; Se recomienda compatibilidad con Vulkan"
 }

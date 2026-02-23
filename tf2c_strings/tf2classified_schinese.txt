@@ -51,19 +51,31 @@
 // Teams
 // ----------------------------------------------------------------
 
-"TF_GreenTeam" 	                "&5 绿队"
-"TF_YellowTeam"                 "&6 黄队"
+"TF_GreenTeam" 	                    "&5 绿队"
+"TF_YellowTeam"                     "&6 黄队"
 
-"TF_GreenTeam_Name"		        "绿队"
-"TF_YellowTeam_Name"	        "黄队"
+"TF_GreenTeam_Name"		            "绿队"
+"TF_YellowTeam_Name"	            "黄队"
 
-"TF_teamswitch_green"			"你现在身在绿队！"
-"TF_teamswitch_yellow"			"你现在身在黄队！"
-
-"TF_Other_Name"	                "其他团队"
+"TF_Other_Name"	                    "其他团队"
 
 // Disguise Kit global disguise
-"Hud_Menu_Disguise_GlobalTeam"	"全局伪装：每名队伍的敌人都会把你当成自己的队友。"
+"Hud_Menu_Disguise_GlobalTeam"	    "全局伪装：每名队伍的敌人都会把你当成自己的队友。"
+
+// Autobalance
+"TF_teamswitch_green"			    "你现在身在绿队！"
+"TF_teamswitch_yellow"			    "你现在身在黄队！"
+
+// Chat Printouts
+"TF_Team_Balanced"					"%s1 被转移到团队 %s2"
+"TF_Autobalance_TeamChangeDone"		"你已被转移到团队 %s1"
+"TF_Name_Change"					"* %s1 将名称更改为 %s2"
+"TF_Joined_Game"					"%s1 加入了游戏"
+"TF_Left_Game"						"%s1 离开了游戏（%s2）"
+"TF_Joined_Team"					"%s1 加入团队 %s2"
+"TF_Joined_AutoTeam" 				"%s1 被自动分配到团队 %s2"
+"TF_AutoBalanced"					"%s1 被自动平衡到团队 %s2"
+"TF_AutoBalance_Warning"			"检测到队伍不平衡"
 
 // ----------------------------------------------------------------
 // Classes
@@ -340,7 +352,7 @@
 // Engineer
 "Tip_9_Count"	"20"
 // Generic
-"Tip_9_1"		"作为工程师，你需要金属才能建造、修理和升级你的建筑。捡起掉落在地上的武器和弹药包获取更多金属。"
+"Tip_9_1"		"作为工程师，你需要金属才能建造、修理和升级你的建筑。捡起从死亡玩家身上掉落下来的武器以获取更多金属。"
 "Tip_9_2"		"作为工程师，除了维修你的建筑，你还可以做更多的事情。使用你的霰弹枪和手枪来协助战斗和保护你的建筑。"
 "Tip_9_3"		"作为工程师，请留意敌方间谍是否在本方建筑中放置了电子工兵。用你的扳手移除工兵。"
 "Tip_9_4"		"作为工程师，记得升级你的建筑物。升级后的建筑可以更高效地辅助你和你的队伍！"
@@ -864,6 +876,9 @@
 "Chopper_cap_A"				"红队雷达"
 "Chopper_cap_B"				"蓝队雷达"
 
+// 4plr_sisyphus
+"Sisyphus_cap_peak"			"顶峰"
+
 // ----------------------------------------------------------------
 // Gamemodes
 // ----------------------------------------------------------------
@@ -1003,6 +1018,11 @@
 "generic_cap_D"			"控制点D"
 "generic_cap_E"			"控制点E"
 
+// Arena
+"TF_Arena_Welcome"		"竞技场模式"
+"TF_Arena_Team_SizeIncreased"	"%s1 团队人数已增加至 %s2。"
+"TF_Arena_Team_SizeDecreased"	"%s1 团队人数已减少至 %s2。"
+
 // ----------------------------------------------------------------
 // Intro movies
 // ----------------------------------------------------------------
@@ -1100,6 +1120,7 @@
 // ----------------------------------------------------------------
 
 "TF_Menu_Welcome"			"欢迎回来，"
+"TF_Menu_Name"				"%playername%！"
 
 "TF_Menu_HideName"			"[已编辑]"
 
@@ -1136,6 +1157,8 @@
 "TF_Friends_Status_Online"		    "在线"
 "TF_Friends_Status_Away"		    "离开"
 "TF_Friends_Status_Offline"		    "离线"
+
+"ChallengeDetails"					"%s1 作为 %s2"
 
 
 // ----------------------------------------------------------------
@@ -1313,7 +1336,7 @@
 "TF_AvoidBecomingVIP_Tip"			"若选中此选项，游戏选择 VIP 时通常不会考虑你；如果所有人都选中了此选项，或者你被投票选中，你仍然可以成为 VIP。"
 
 // HUD
-"TF_LoadoutGrid"                  "启用武器配置网格"
+"TF_LoadoutGrid"                  "启用网格形配置页面"
 "TF_LoadoutGrid_Tip"              "若选中此选项，武器配置页面将以网格形式显示。"
 "TF_HighlightAmmo"				  "在掉落的武器上显示光圈效果"
 "TF_HighlightAmmo_Tip"			  "若选中此选项，高亮光圈会被启用，并在游戏中时高亮出掉落的武器目标。"
@@ -1393,10 +1416,17 @@
 
 "StatPanel_Label_PadJumps"				"跳板使用次数："
 
-"TF_ClassRecord_MostUbercharges"	    "最多 UberCharges 激活："
+"TF_ClassRecord_MostUbercharges"	    "最多 UberCharge 激活："
 "TF_ClassRecord_Alt_MostUbercharges"	"UberCharge激活（次数）"
 "TF_ClassRecord_MostPadJumps"			"最多跳板使用次数："
 "TF_ClassRecord_Alt_MostPadJumps"	    "跳板（次数）"
+
+"StatPanel_Ubercharges_Best"			"你该回合的UberCharge激活次数比之前的回合还多！"
+"StatPanel_Ubercharges_Tie"				"你该回合的UberCharge激活次数与纪录相同。"
+"StatPanel_Ubercharges_Close"			"你该回合的UberCharge激活次数接近纪录。"
+"StatPanel_MVM_Ubercharges_Best"		"在这个回合的“曼恩 vs. 机器”中，你的UberCharge激活次数比之前的回合还多！"
+"StatPanel_MVM_Ubercharges_Tie"			"在这个回合的“曼恩 vs. 机器”中，你的UberCharge激活次数与纪录相同。"
+"StatPanel_MVM_Ubercharges_Close"		"在这个回合的“曼恩 vs. 机器”中，你的UberCharge激活次数接近纪录。"
 
 "StatPanel_PadJumps_Best"		        "你该回合的跳板使用次数比之前的回合还多！"
 "StatPanel_PadJumps_Tie"		        "你该回合的跳板使用次数与纪录相同。"

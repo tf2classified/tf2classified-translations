@@ -6,6 +6,6 @@
     "app[content][short_description]":"A Team Fortress 2 Classified egy új Team Fortress 2-élmény, amely a játék eredeti inspirációira és hangvételére épül. Frissített látványvilággal, új játékmódokkal és pályákkal, új fegyverekkel, új csapatokkal és egy köpcös olajmágnással kiegészítve.",
     "app[content][sysreqs][windows][min][osversion]":"Windows 10",
     "app[content][sysreqs][windows][min][notes]":"Team Fortress 2 telepítést igényel",
-    "app[content][sysreqs][linux][min][osversion]":"Ubuntu 16.04",
+    "app[content][sysreqs][linux][min][osversion]":"Debian 13 \/ glibc 2.39+",
     "app[content][sysreqs][linux][min][notes]":"Team Fortress 2 telepítést igényel; Vulkan támogatottság ajánlott"
 }
