@@ -256,7 +256,7 @@
 "Tip_5_6"		"Come Medico, tu e i tuoi pazienti non potete catturare Punti di Controllo o raccogliere la Valigetta mentre siete invulnerabili."
 // Stock
 "Tip_5_7"		"Come Medico, ricorda che le siringhe viaggiano in un arco e impiegano tempo per arrivare all'obiettivo. Calcola la traiettoria del nemico per assicurarti di colpirlo."
-"Tip_5_8"		"Come Medico, usa la tua Pistola Medica per curare i compagni feriti, e sovracurarli temporaneamente fino al 150% della loro salute normale."
+"Tip_5_8"		"Come Medico, usa la tua Pistola Medica per curare i compagni feriti, e sovracurarli temporaneamente fino al 150%% della loro salute normale."
 "Tip_5_9"		"Come Medico, l'ÜberCarica della tua Pistola Medica rende te ed il tuo paziente invulnerabile per un breve periodo"
 "Tip_5_10"		"Come Medico, il tuo Segaossa può essere usato nelle situazioni di difesa dove ti trovi lontano dai tuoi compagni."
 // Death & Taxes
@@ -343,7 +343,7 @@
 "Tip_9_2"		"Come Ingegnere, puoi fare altro oltre tenere d'occhio le tue costruzioni. Usa il Fucile a Pompa e la Pistola per contribuire ai combattimenti e proteggere le tue costruzioni."
 "Tip_9_3"		"Come Ingegnere, tieni d'occhio i Sabotatori piazzati sulle tue costruzioni dalle Spie nemiche. Usa la Chiave Inglese per rimuovere i Sabotatori."
 "Tip_9_4"		"Come Ingegnere, ricorda di migliorare le tue costruzioni. Le costruzioni migliorate possono portare grandi vantaggi a te a alla tua squadra!"
-"Tip_9_5"		"Come Ingegnere, premere %attack2% mentre trasporti una costruzione ruoterà la sua posizione. Orienta le Torrette o i Teletrasporti nel verso corretto per essere più efficente per la tua squadra!"
+"Tip_9_5"		"Come Ingegnere, se premi %attack2% mentre trasporti una costruzione ruoterai la sua posizione. Orienta le Torrette o i Teletrasporti nel verso corretto per essere più efficente per la tua squadra!"
 // Stock
 "Tip_9_6"		"Come Ingegnere, la tua Pistola ha moltissime munizioni in riserva. Usala per condurre i tuoi nemici verso te o le tue Torrette, o semplicemente per essere più offensivo."
 "Tip_9_7"		"Come Ingegnere, sei in grado di disinnescare i Pacchetti di Dinamite nemici colpendoli con la tua Chiave Inglese."
@@ -752,7 +752,7 @@
 "Attrib_DisabledByWrench"							"Può essere disinnescato dalle Chiavi Inglesi"
 "Attrib_Coilgun"									"I colpi caricati a pieno rimbalzano sui muri, e ti esplodono in mano se sovraccaricati"
 "Attrib_DamageAffectedByCharge"						"Il danno dipende dalla carica attuale"
-"Attrib_JumpPadNoUpgrade"							"I Trampolini non possono essere migliorari"
+"Attrib_JumpPadNoUpgrade"							"I Trampolini non possono essere migliorati"
 "Attrib_AltFire_HasteBoost"							"Fuoco Secondario: Potenzia la rapidità di un membro della squadra"
 "Attrib_AltFire_UberBubble"							"Fuoco Secondario: Lancia un dispositivo che garantisce l'invulnerabilità all'interno di un raggio"
 
@@ -1266,7 +1266,7 @@ Le squadre che possiedono i Punti di Controllo iniziali sono scelti casualmente 
 "GameUI_RestartText"					"Alcune modifiche richiedono il riavvio del gioco:"
 "GameUI_OptionsRestart_Revert"			"Annulla modifiche"
 
-"GameUI_Disconnect_TooManyCommands"		"Disconnessione: Troppi comandi.
+"GameUI_Disconnect_TooManyCommands"		"Disconnessione: Troppi comandi."
 
 
 // Combat
