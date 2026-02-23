@@ -31,15 +31,15 @@
 "Chat_Voice"			"(HANG) "
 
 // Chat Filters
-"Chat_Filter_Voice"	"Hangparancsok"
+"Chat_Filter_Voice"		"Hangparancsok"
 
 // ----------------------------------------------------------------
 // General
 // ----------------------------------------------------------------
 
 // Sentry consent popup
-"TF_SentryReport_Title"			"Hibajelentések küldése?"
-"TF_SentryReport_Message"		"Szeretnél névtelen hibajelentéseket küldeni a Team Fortress 2 Classified csapatának?"
+"TF_SentryReport_Title"				"Hibajelentések küldése?"
+"TF_SentryReport_Message"			"Szeretnél névtelen hibajelentéseket küldeni a Team Fortress 2 Classified csapatának?"
 
 // VIP voting
 "Vote_ChangeCivilian"				"VIP megváltoztatása"
@@ -51,19 +51,31 @@
 // Teams
 // ----------------------------------------------------------------
 
-"TF_GreenTeam" 	                "&5 GRN"
-"TF_YellowTeam"                 "&6 YLW"
+"TF_GreenTeam" 	                	"&5 GRN"
+"TF_YellowTeam"                 	"&6 YLW"
 
-"TF_GreenTeam_Name"		        "GRN"
-"TF_YellowTeam_Name"	        "YLW"
+"TF_GreenTeam_Name"		        	"GRN"
+"TF_YellowTeam_Name"	        	"YLW"
 
-"TF_teamswitch_green"		    "Mostantól GRN vagy!"
-"TF_teamswitch_yellow"		    "Mostantól YLW vagy!"
-
-"TF_Other_Name"	                "TÖBBI"
+"TF_Other_Name"	                	"TÖBBI"
 
 // Disguise Kit global disguise
-"Hud_Menu_Disguise_GlobalTeam"	"Globális Álca: Minden ellenfél a saját csapattársaként fog látni téged."
+"Hud_Menu_Disguise_GlobalTeam"		"Globális Álca: Minden ellenfél a saját csapattársaként fog látni téged."
+
+// Autobalance
+"TF_teamswitch_green"		    	"Mostantól GRN vagy!"
+"TF_teamswitch_yellow"		    	"Mostantól YLW vagy!"
+
+// Chat Printouts
+"TF_Team_Balanced"					"%s1 áthelyezve a %s2 csapatba"
+"TF_Autobalance_TeamChangeDone"		"Áthelyeztek a %s1 csapatba"
+"TF_Name_Change"					"* %s1 neve mostantól %s2"
+"TF_Joined_Game"					"%s1 belépett a játékba"
+"TF_Left_Game"						"%s1 elhagyta a játékot (%s2)"
+"TF_Joined_Team"					"%s1 belépett a %s2 csapatba"
+"TF_Joined_AutoTeam" 				"%s1 a %s2 csapatba került"
+"TF_AutoBalanced"					"%s1 a %s2 csapatba került erőkiegyenlítés miatt"
+"TF_AutoBalance_Warning"			"Csapaterő-különbség észlelve"
 
 // ----------------------------------------------------------------
 // Classes
@@ -340,7 +352,7 @@
 // Engineer
 "Tip_9_Count"	"20"
 // Generic
-"Tip_9_1"		"Mérnökként fémre van szükséged az építmények készítéséhez, javításához és fejlesztéséhez. A készlet pótlásához gyűjts lőszerkészleteket és elejtett fegyvereket."
+"Tip_9_1"		"Mérnökként fémre van szükséged az építmények készítéséhez, javításához és fejlesztéséhez. A készlet pótlásához gyűjts elejtett fegyvereket a halott játékosoktól."
 "Tip_9_2"		"Mérnökként többet is tehetsz az építményeid karbantartásánál. A sörétes puskáddal és pisztolyoddal segíts a harcban, és védd építményeid."
 "Tip_9_3"		"Mérnökként ügyelj az építményeidre mentesítőt telepítő ellenséges Kémekre. Mentesítők eltávolítására használd a franciakulcsod."
 "Tip_9_4"		"Mérnökként ne feledkezz meg az építményeid fejlesztéséről. A felfejlesztett épületek nagy előnyt biztosíthatnak neked és a csapatodnak."
@@ -864,6 +876,9 @@ Csak dicsőséges kézitusa és kardvívás!"
 "Chopper_cap_A"				"a RED radart"
 "Chopper_cap_B"				"a BLU radart"
 
+// 4plr_sisyphus
+"Sisyphus_cap_peak"			"a hegycsúcsot"
+
 // ----------------------------------------------------------------
 // Gamemodes
 // ----------------------------------------------------------------
@@ -1003,6 +1018,11 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "generic_cap_D"			"a D ellenőrzőpontot"
 "generic_cap_E"			"az E ellenőrzőpontot"
 
+// Arena
+"TF_Arena_Welcome"				"Aréna mód"
+"TF_Arena_Team_SizeIncreased"	"A %s1 csapat mérete növelve: %s2"
+"TF_Arena_Team_SizeDecreased"	"A %s1 csapat mérete csökkentve: %s2"
+
 // ----------------------------------------------------------------
 // Intro movies
 // ----------------------------------------------------------------
@@ -1100,6 +1120,7 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 // ----------------------------------------------------------------
 
 "TF_Menu_Welcome"			"Üdv újra,"
+"TF_Menu_Name"				"%playername%!"
 
 "TF_Menu_HideName"			"[TITKOSÍTVA]"
 
@@ -1136,6 +1157,8 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_Friends_Status_Online"			"Online"
 "TF_Friends_Status_Away"			"Távol van"
 "TF_Friends_Status_Offline"			"Offline"
+
+"ChallengeDetails"					"%s1 mint a(z) %s2"
 
 
 // ----------------------------------------------------------------
@@ -1398,8 +1421,15 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_ClassRecord_MostPadJumps"	        "Legtöbb ugratás:"
 "TF_ClassRecord_Alt_MostPadJumps"		"ugratás"
 
+"StatPanel_Ubercharges_Best"			"Ebben a körben többet használtad az ÜberTöltésed, mint a korábbi legjobb eredményed."
+"StatPanel_Ubercharges_Tie"				"Ebben a körben ugyanannyiszor használtad az ÜberTöltésed, mint a rekordod."
+"StatPanel_Ubercharges_Close"			"Ebben a körben majdnem ugyanannyiszor használtad az ÜberTöltésed, mint a rekordod."
+"StatPanel_MVM_Ubercharges_Best"		"Ebben a Mann vs. Masina körben többet használtad az ÜberTöltésed, mint a korábbi legjobb eredményed."
+"StatPanel_MVM_Ubercharges_Tie"			"Ebben a Mann vs. Masina körben ugyanannyiszor használtad az ÜberTöltésed, mint a rekordod."
+"StatPanel_MVM_Ubercharges_Close"		"Ebben a Mann vs. Masina körben majdnem ugyanannyiszor használtad az ÜberTöltésed, mint a rekordod."
+
 "StatPanel_PadJumps_Best"		        "Ebben a körben többen használták az ugratóidat, mint a korábbi legjobb eredményed."
-"StatPanel_PadJumps_Tie"		        "Ebben a körben ugyanannyian használták az ugratóidat mint a rekordod."
+"StatPanel_PadJumps_Tie"		        "Ebben a körben ugyanannyian használták az ugratóidat, mint a rekordod."
 "StatPanel_PadJumps_Close"		        "Ebben a körben majdnem annyian használták az ugratóidat, mint a rekordod."
 "StatPanel_MVM_PadJumps_Best"			"Ebben a Mann vs. Masina körben többen használták az ugratóidat, mint a korábbi legjobb eredményed."
 "StatPanel_MVM_PadJumps_Tie"			"Ebben a Mann vs. Masina körben ugyanannyian használták az ugratóidat mint a rekordod."
@@ -1530,7 +1560,7 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 // RETRANSLATIONS BELOW
 // ----------------------------------------------------------------
 
-//cp_dustbowl RETRANSLATIONS
+// cp_dustbowl RETRANSLATIONS
 "Dustbowl_cap_1_A"		"az első foglalást az első szakaszon"
 "Dustbowl_cap_1_B"		"a második foglalást az első szakaszon"
 "Dustbowl_cap_2_A"		"az első foglalást a második szakaszon"
@@ -1538,7 +1568,7 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "Dustbowl_cap_3_A"		"az első foglalást a harmadik szakaszon"
 "Dustbowl_cap_3_B"		"a rakétát, az utolsó foglalást"
 
-//pl_goldrush RETRANSLATIONS
+// pl_goldrush RETRANSLATIONS
 "Goldrush_cap_1_A"		"az első foglalást az első szakaszon"
 "Goldrush_cap_1_B"		"a második foglalást az első szakaszon"
 "Goldrush_cap_2_A"		"az első foglalást a második szakaszon"
@@ -1547,26 +1577,25 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "Goldrush_cap_3_B"		"a második foglalást a harmadik szakaszon"
 "Goldrush_cap_3_C"		"az atomgödröt, az utolsó foglalást"
 
-//Arena map RETRANSLATIONS
+// Arena map RETRANSLATIONS
 "Arena_cap"			"az ellenőrzőpontot"
 
-//koth_viaduct RETRANSLATION
+// koth_viaduct RETRANSLATION
 "koth_viaduct_cap"			"az ellenőrzőpontot"
 
-"TF_Hitbeeps"				                "Találati hang lejátszása, amikor megsebzel egy ellenfelet" //RETRANSLATIONS TO AVOID TRUNCATION ˇˇˇ
+"TF_Hitbeeps"				                "Találati hang lejátszása, amikor megsebzel egy ellenfelet" // RETRANSLATIONS TO AVOID TRUNCATION ˇˇˇ
 "TF_LastHitbeeps"			                "Utolsó találati hang lejátszása, amikor megölsz valakit"
 "TF_CombatTextBatching"		                "Harci sebzésszöveg összegyűjtése egyetlen számmá"
 "TF_CombatTextDoesntBlock"	                "A sebzés-szöveg nem akadályozza meg a fej feletti hatásokat"
 
-"TF_medigun_autoheal"		        "SZANITÉC: Gyógyítás a tűzgomb nyomvatartása nélkül" //RETRANSLATED TO AVOID TRUNCATION
-"game_takesshots"	                "Képernyőmentés az eredménytábláról a pálya végén" //RETRANSLATION, to avoid truncation
+"TF_medigun_autoheal"		        "SZANITÉC: Gyógyítás a tűzgomb nyomvatartása nélkül" // RETRANSLATED TO AVOID TRUNCATION
+"game_takesshots"	                "Képernyőmentés az eredménytábláról a pálya végén" // RETRANSLATION, to avoid truncation
 
-//DEMO RETRANSLATIONS to avoid truncation
+// DEMO RETRANSLATIONS to avoid truncation
 "TF_DemoSupport_Screens"			"Képernyőmentés az eredménytábláról a meccs végén"
 
-"TF_ResetStats"				            "&NULLÁZÁS" //RETRANSLATION, to avoid truncation
+"TF_ResetStats"				            "&NULLÁZÁS" // RETRANSLATION, to avoid truncation
 
 "TF_GameModeDesc_Koth"			"Egy csapatnak addig kell birtokolnia a pontot, míg az idő le nem telik."
-
 }
 }

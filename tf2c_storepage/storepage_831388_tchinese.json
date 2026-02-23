@@ -6,6 +6,6 @@
 	"app[content][short_description]":"絕地要塞 2：秘典是一款以原版《絕地要塞 2》為靈感重新構想的全新體驗模组。內容包括更新後的視覺效果、新遊戲模式與地圖、新武器、新隊伍，以及一位身材圓潤的石油大亨。",
 	"app[content][sysreqs][windows][min][osversion]":"Windows 10 (64-Bit)",
 	"app[content][sysreqs][windows][min][notes]":"需要安裝《絕地要塞 2》",
-	"app[content][sysreqs][linux][min][osversion]":"Ubuntu 16.04",
+	"app[content][sysreqs][linux][min][osversion]":"Debian 13 \/ glibc 2.39+",
 	"app[content][sysreqs][linux][min][notes]":"需要安裝《絕地要塞 2》；建議啟用 Vulkan 支援。"
 }
