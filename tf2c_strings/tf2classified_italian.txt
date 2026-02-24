@@ -150,8 +150,8 @@
 "TF_playerid_teleporter_no_exit"		"  -  Nessuna Uscita Teletrasporto"
 "TF_playerid_object_recharging"			"  -  Ricaricando: %s1%"
 "TF_playerid_object_flooded"			"Flooded"
-"TF_playerid_carrying"					"Portando: %s1"
-"TF_playerid_carrying_lvl"				"Portando: %s1 (Level %s2)"
+"TF_playerid_carrying"					"Trasportando: %s1"
+"TF_playerid_carrying_lvl"				"Trasportando: %s1 (Level %s2)"
 
 "TF_friendly"	"Alleato"
 "TF_enemy"		"Nemico"
@@ -161,7 +161,7 @@
 // ----------------------------------------------------------------
 
 "game_respawntime_now"			"Preparati a tornare in gioco"
-"game_respawntime_in_sec"		"Tornerai in gioco in 1 secondo"
+"game_respawntime_in_sec"		"Tornerai in gioco tra 1 secondo"
 "game_respawntime_in_secs"		"Tornerai in gioco tra %s1 secondi"
 "game_respawntime_stalemate"	"Non si torna in gioco durante la Morte Improvvisa"
 "game_respawntime_next_round"	"Tornerai in gioco al prossimo round"
@@ -205,7 +205,7 @@
 "Tip_1_Count"	"10"
 // Generic
 "Tip_1_1"		"Come Scout, puoi effettuare un doppio salto a mezz'aria per cambiare rapidamente direzione."
-"Tip_1_2"		"Come Scout, catturi i Punti di Controllo il doppio più veloce delle altre classi."
+"Tip_1_2"		"Come Scout, catturi i Punti di Controllo il doppio più velocemente delle altre classi."
 "Tip_1_3"		"Come Scout, sei il più veloce di tutti. Attira l'attenzione del nemico e poi dattela a gambe!"
 // Stock
 "Tip_1_4"		"Come Scout, il tuo Fucile a Canne Mozze è letale a distanza ravvicinata. Avvicinati al nemico per infliggere danni molto più significativi."
@@ -227,21 +227,21 @@
 "Tip_2_3"		"Come Cecchino, più tempo mirerai con il tuo Fucile di Precisione più danni infliggerai."
 "Tip_2_4"		"Come Cecchino, un colpo alla testa caricato a pieno del Fucile di Precisione può uccidere istantaneamente la maggior parte delle classi."
 "Tip_2_5"		"Come Cecchino, la tua Mitraglietta è essenziale per prenderti cura dei nemici che si avvicinano troppo per i tuoi gusti."
-"Tip_2_6"		"Come Cecchino, il tuo Kukri è il tuo ultimo mezzo di difesa, è può essere utile per sopravvivere alle imboscate inaspettate."
+"Tip_2_6"		"Come Cecchino, il Kukri è il tuo ultimo mezzo di difesa, è può essere utile per sopravvivere alle imboscate inaspettate."
 // Death & Taxes
 "Tip_2_7"		"Come Cecchino, l'Arco del Cacciatore può essere usato per un approccio ravvicinato molto più offensivo, sacrificando però la precisione."
 "Tip_2_8"		"Come Cecchino, l'Arco del Cacciatore diventerà sempre meno preciso se viene tenuto tirato per più di 5 secondi. Puoi ripristinarlo premendo %attack2%."
 "Tip_2_9"		"Come Cecchino, il tuo Fucile da Caccia è un'ottima opzione per la media distanza. Usalo per colpire gravemente i nemici mentre ti muovi in mezzo al campo di battaglia."
-"Tip_2_10"		"Come Cecchino, ti muoverai molto più rapidamente mentre sei concentrato con il Fucile da Caccia rispetto alle tue altre armi primarie."
+"Tip_2_10"		"Come Cecchino, ti muoverai molto più rapidamente mentre sei concentrato con il Fucile da Caccia rispetto alle che con le tue altre armi primarie."
 "Tip_2_11"		"Come Cecchino, l'Ammazzapesci infligge contraccolpo ai nemici e li fa sanguinare. Utilizzala per scansare chi si avvicina troppo."
 
 // Soldier
 "Tip_3_Count"	"12"
 // Generic
 "Tip_3_1"		"Premi %voicemenu 0 0% per chiamare un Medico se sei ferito. I Medici vicini verrano avvisati della tua richiesta."
-"Tip_3_2"		"Come Soldato, puoi saltare con i tuoi razzi e raggiungere altezze elevate sparando un razzo ai tuoi piedi mentre salti."
+"Tip_3_2"		"Come Soldato, puoi fare un salto-razzo e raggiungere altezze elevate sparando un razzo ai tuoi piedi mentre salti."
 "Tip_3_3"		"Come Soldato, accovacciati mentre stai per fare un salto-razzo per arrivare il più in alto possibile."
-"Tip_3_4"		"Come Soldato, mira i tuoi razzi ai piedi dei nemici per assicurati che non possano evitare il raggio di esplosione."
+"Tip_3_4"		"Come Soldato, mira i tuoi razzi ai piedi dei nemici per non fargli evitare il raggio d'esplosione."
 "Tip_3_5"		"Come Soldato, i tuoi razzi infliggono un forte contraccolpo. Lancia i tuoi nemici in giro oppure falli volare!"
 // Stock
 "Tip_3_6"		"Come Soldato, assicurati di tenere il tuo Lanciarazzi caricato. Premi %reload% per ricaricalo quando vuoi."
@@ -252,7 +252,7 @@
 "Tip_3_10"		"Come Soldato, il razzi del tuo R.P.G. viaggiano in un arco, e possono oltrepassare le difese nemiche. Assicurati di mirare come si deve!"
 // Double Down
 "Tip_3_11"		"Come Soldato, il danno del terremoto della tua Ancora dell'Ammiragliato è proporzionale al tempo in cui è rimasta schierata. Tirala fuori una volta raggiunto il picco del tuo salto-razzo!"
-"Tip_3_12"		"Come Soldato, equipaggiare l'Ancora dell'Ammiragliato ti lascia vulnerabile ai colpi a mezz'aria, che infliggono danno critico. Fai sempre attenzione ai cieli in cui voli!"
+"Tip_3_12"		"Come Soldato, equipaggiare l'Ancora dell'Ammiragliato ti lascia vulnerabile ai colpi a mezz'aria, che infliggeranno danni critici. Fai sempre attenzione ai cieli in cui voli!"
 
 // Demoman
 "Tip_4_Count"	"15"
@@ -263,7 +263,7 @@
 // Stock
 "Tip_4_4"		"Come Demolitore, usa il tuo Lanciagranate per il combattimento diretto. Le granate che colpiscono bersagli a mezz'aria esplodono all'impatto."
 "Tip_4_5"		"Come Demolitore, più tempo tieni premuto %attack% con il Mortaio a Bombe Adesive, più lontano verrano lanciate le bombe."
-"Tip_4_6"		"Come Demolitore, lancia le Bombe Adesive dove sono difficili da individuare, come ad esempio muri e soffitti."
+"Tip_4_6"		"Come Demolitore, posizione le Bombe Adesive in luoghi difficili da scovare, come ad esempio muri e soffitti."
 "Tip_4_7"		"Come Demolitore, la tua Bottiglia può essere usata nel combattimento ravvicinato dopo essere atterrato in territorio nemico con un salto esplosivo."
 "Tip_4_8"		"Come Demolitore, la tua Bottiglia infliggerà lo stesso danno indipendentemente che sia rotta o meno."
 // Death & Taxes
@@ -284,7 +284,7 @@
 "Tip_5_3"		"Come Medico, guadagni ÜberCarica molto più velocemente durante il tempo di schieramento."
 "Tip_5_4"		"Come Medico, riempi il tuo metro di ÜberCarica curando i tuoi compagni, poi premi %attack2% per schierare un'ÜberCarica."
 "Tip_5_5"		"Come Medico, rimani all'erta per i tuoi compagni che chiedono aiuto. Usa l'icona della croce nella bolla per trovarli."
-"Tip_5_6"		"Come Medico, tu e i tuoi pazienti non potete catturare Punti di Controllo o raccogliere la Valigetta mentre siete invulnerabili."
+"Tip_5_6"		"Come Medico, tu ed i tuoi pazienti non potete catturare Punti di Controllo o raccogliere la Valigetta mentre siete invulnerabili."
 // Stock
 "Tip_5_7"		"Come Medico, ricorda che le siringhe viaggiano in un arco e impiegano tempo per arrivare all'obiettivo. Calcola la traiettoria del nemico per assicurarti di colpirlo."
 "Tip_5_8"		"Come Medico, usa la tua Pistola Medica per curare i compagni feriti, e sovracurarli temporaneamente fino al 150%% della loro salute normale."
@@ -307,7 +307,7 @@
 "Tip_6_3"		"Come Grosso, sei molto più lento rispetto alle altre classi. Stai attento quando ti trovi di fronte a dei nemici molto più mobili."
 "Tip_6_4"		"Come Grosso, sei uno dei migliori amici del Medico. Non perderlo mai di vista affinchè lui ti possa curare."
 "Tip_6_5"		"Come Grosso, sei uno degli obiettivi principali delle Spie. Sfoggia il tuo arsenale per tenerle a bada, e guardati alle spalle!"
-"Tip_6_6"		"Come Grosso, tieni premuto %attack2% per preparare la tua Mitragliatrice o Cannone Anti-Aereo, in modo da essere pronto per in nemici in arrivo!"
+"Tip_6_6"		"Come Grosso, tieni premuto %attack2% per preparare la tua Mitragliatrice o Cannone Anti-Aereo, in modo da essere pronto per i nemici in arrivo!"
 // Stock
 "Tip_6_7"		"Come Grosso, la tua Mitragliatrice Pesante consuma moltissime munizioni. Raccogli pacchetti di munizioni ed armi cadute per riempire la tua riserva."
 "Tip_6_8"		"Come Grosso, non perdi slancio quando inizi a prepare la tua Mitragliatrice a mezz'aria. Sorprendi i tuoi nemici saltando attorno agli angoli!"
@@ -332,7 +332,7 @@
 "Tip_7_3"		"Come Piro, il tuo Lanciafiamme fa più danno quando sei vicino al nemico."
 "Tip_7_4"		"Come Piro, il tuo Lanciafiamme consuma moltissime munizioni. Raccogli pacchetti di munizioni ed armi cadute per riempire la tua riserva."
 "Tip_7_5"		"Come Piro, tendi imboscate ai nemici per catturarli nel corto raggio del tuo Lanciafiamme. Usa gli angoli e i rialzi a tuo vantaggio."
-"Tip_7_6"		"Come Piro, l'aria compressa  dell tuo Lanciafiamme è uno strumento molto utile. Premi %attack2% per slanciare via i nemici (inclusi quelli invulnerabili), o per spingerli in zone pericolose!"
+"Tip_7_6"		"Come Piro, l'aria compressa del tuo Lanciafiamme è uno strumento molto utile. Premi %attack2% per slanciare via i nemici (inclusi quelli invulnerabili), o per spingerli in zone pericolose!"
 "Tip_7_7"		"Come Piro, il tuo Lanciafiamme può estinguere i compagni in fiamme premendo %attack2%."
 "Tip_7_8"		"Come Piro, passa al tuo Fucile a Pompa se i nemici indietreggiano oltre il raggio limitato del tuo Lanciafiamme."
 "Tip_7_9"		"Come Piro, la tua Accetta è un'ottima scelta per far fronte ai nemici a corta distanza che si ritirano."
@@ -342,7 +342,7 @@
 // Fight or Flight
 "Tip_7_12"		"Come Piro, la Canna Gemella può essere usata per chiudere la distanza tra te e la tua preda. Slanciati in alto o in avanti verso i tuoi nemici!"
 "Tip_7_13"		"Come Piro, la Canna Gemella non è cosi affidabile come il Fucile a Pompa in termini di danno. Sei stai perdendo un combattimento, utilizzala per slanciarti via e ritirarti!"
-"Tip_7_14"		"Come Piro, la Mietitrice può accumulare un colpo critico garantito, permettendoti di curarti dannegiando i tuoi nemici."
+"Tip_7_14"		"Come Piro, la Mietitrice può accumulare un colpo critico garantito, permettendoti di curarti danneggiando i tuoi nemici."
 "Tip_7_15"		"Come Piro, se muori con la Mietitrice equipaggiata, tutti i nemici a cui hai dato fuoco verranno estinti dalle fiamme."
 
 // Spy
@@ -364,8 +364,8 @@
 "Tip_8_12"		"Come Spia, la tua Pistola Tranquillante rallenta il movimento e la velocità di fuoco della tua preda. Utile per creare il contesto perfetto per darsela a gambe."
 "Tip_8_13"		"Come Spia, i dardi della tua Pistola Tranquillante faranno si che il nemico riceva danno critico garantito dalle armi da mischia. Lascia che sia la tua squadra a dargli il ben servito, oppure pensaci tu."
 // Fight or Flight
-"Tip_8_14"		"Come Spia, L'Escampette ti permette di spostarti rapidamente tra le basi nemiche. Sii breve sia nelle infiltrazioni che nelle fughe!"
-"Tip_8_15"		"Come Spia, perdi parte del tuo mantello quando ricevi danno e hai l'Escampette equipaggiato. Cerca di evitare il combattimento diretto."
+"Tip_8_14"		"Come Spia, L'Escampette ti permette di spostarti rapidamente tra le basi nemiche. Sii rapido sia nelle infiltrazioni che nelle fughe!"
+"Tip_8_15"		"Come Spia, perdi parte del tuo mantello quando ricevi danno con l'Escampette equipaggiato. Cerca di evitare il combattimento diretto."
 
 // Engineer
 "Tip_9_Count"	"20"
@@ -404,11 +404,11 @@
 "Tip_10_5"		"Come Civile, i compagni nelle vicinanze saranno influenzati dal tuo potenziamento morale, che aumenta la loro difesa e li cura nel tempo. Cerca di non farti vedere dai nemici e di rimanere vicino alla tua squadra."
 "Tip_10_6"		"Come Civile, premi %attack2% mentre guardi un compagno per potenziarlo, garantendogli un vantaggio in battaglia."
 // Stock
-"Tip_10_7"		"Come Civile, il tuo Ombrello non è così efficace come arma, e dovrebbe essere usato solo in casi disperati. Lascia che siano i tuoi compagni a combattere per te."
-"Tip_10_8"		"Come Civile, il tuo Ombrello garantisce mini-critici a un compagno a tua scelta. Potenzia le classi che sono capaci di infliggere grandi quantità di danno."
-"Tip_10_9"		"Come Civile, i mini-critici garatiti dal tuo Ombrello potenzieranno anche i Medici, aumentando il loro tasso di cura e il guadagno dell'ÜberCarica"
+"Tip_10_7"		"Come Civile, il tuo Ombrello non è così efficace come arma, e dovrebbe essere usato solo nei casi disperati. Lascia che siano i tuoi compagni a combattere per te."
+"Tip_10_8"		"Come Civile, il tuo Ombrello garantisce mini-critici a un compagno a tua scelta. Potenzia le classi capaci di infliggere grandi quantità di danno."
+"Tip_10_9"		"Come Civile, i mini-critici garantiti dal tuo Ombrello potenzieranno anche i Medici, aumentando il loro tasso di cura e il guadagno dell'ÜberCarica"
 // Double Down
-"Tip_10_10"		"Come Civile, il tuo Bastone dell'Imprenditore può essere usato per potenziare la rapidità dei tuoi compagni di squadra. Ciò gli permetti di muoversi e sparare molto più velocemente."
+"Tip_10_10"		"Come Civile, il tuo Bastone dell'Imprenditore può essere usato per potenziare la rapidità dei tuoi compagni di squadra. Ciò gli permette di muoversi e sparare molto più velocemente."
 "Tip_10_11"		"Come Civile, il tuo Bastone dell'Imprenditore potenzierà anche il tasso di cura dei Medici e la velocità di costruzione degli Ingegneri."
 
 // Arena
@@ -418,7 +418,7 @@
 "Tip_arena_3"			"In Arena, il Punto di Controllo al centro della mappa si attiverà dopo 60 secondi dall'inizio del round. Usalo per attirare i nemici nascosti!"
 "Tip_arena_4"			"In Arena, non tornerai in gioco una volta morto, quindi occhio a non morire!"
 "Tip_arena_5"			"In Arena, sii creativo con il tuo portfolio! Complementa la composizione della tua squadra oppure distruggi quella del nemico."
-"Tip_arena_6"			"In Arena, puoi cambiare classe solo all'inizio della partita o prima che i cancelli si aprano."
+"Tip_arena_6"			"In Arena, puoi cambiare classe solo all'inizio della partita o prima che i cancelli vengano aperti."
 "Tip_arena_7"			"In Arena, rimani vicino alla tua squadra per aiutarla nei momenti di pericolo. Arrivare troppo tardi durante un combattimento può metterti in svantaggio."
 "Tip_arena_8"			"In Arena, fa si che il nemico non riesca a curarsi. I Medici e i Dispenser nemici sono degli obiettivi di priorità. Ruba anche i medikit se possibile!"
 "Tip_arena_9"			"In Arena, ricevere il Primo Sangue garantisce un potenziamento di critici. Se lo ottieni, sfruttalo al meglio! Se invece lo ottiene un nemico, nasconditi e aspetta che si esaurisca."
@@ -492,7 +492,7 @@
 "TF_Weapon_Pistol_Desc_Scout"		"Sono tutti così infuriati, finchè sono vivi."
 // Revolver
 "TF_Weapon_Revolver"		        "Rivoltella"
-"TF_Weapon_Revolver_Desc"	        "Quando la furtività non è più un opzione."
+"TF_Weapon_Revolver_Desc"	        "Quando la furtività non è più un'opzione."
 // PDA: Teleporter (Construction PDA)
 "TF_Weapon_ConstructionPDA"			"PDA da Costruzione"
 "TF_Weapon_ConstructionPDA_Desc"	"Tutto ciò che serve ad un Ingegnere come me, è in questo piccolo aggeggio qui."
@@ -506,10 +506,10 @@
 "TF_Weapon_Medigun_Desc"	        "Avete tutti lo stesso gruppo sanguigno, vero? Più o meno?"
 // Invis Watch
 "TF_Weapon_InvisWatch"		        "Orologio dell'Invisibilità"
-"TF_Weapon_InvisWatch_Desc"	        "Stiloso. Che peccato che non lo vedrà mai nessuno."
+"TF_Weapon_InvisWatch_Desc"	        "Stiloso. Peccato che non lo vedrà mai nessuno."
 // Sapper
 "TF_Weapon_Sapper"		            "Sabotatore"
-"TF_Weapon_Sapper_Desc"	            "E questo chi l'ha messo qui?"
+"TF_Weapon_Sapper_Desc"	            "Questo chi l'ha messo qui?"
 
 // ----------------------------------------------------------------
 // Achievement weapon strings
@@ -533,7 +533,7 @@
 // Gunboats
 "TF_Weapon_Gunboats"				"Cannonieri"
 "TF_Weapon_Gunboats_Desc_Soldier"	"Solette fatte del miglior piombo in circolazione! Perfette per chi vuole barare nella prova fisica dell'esercito."
-"TF_Weapon_Gunboats_Desc_Demoman"	"Degli stivali così speciali che ti scorderai di avere delle viti piantate ai piedi."
+"TF_Weapon_Gunboats_Desc_Demoman"	"Degli stivali così speciali che ti scorderai di avere delle viti conficcate nei piedi."
 
 // ----------------------------------------------------------------
 // Death & Taxes weapon strings
@@ -605,7 +605,7 @@
 "TF_Weapon_Rejuvenator_Desc"	    "Tenere lontanto da occhi e bocca. O almeno provarci."
 // Admiralty Anchor
 "TF_Weapon_AdmiraltyAnchor"			"Ancora dell'Ammiragliato"
-"TF_Weapon_AdmiraltyAnchor_Desc"	"Nessuna battuta sulla Marina verrà tolleratà nella mia unità."
+"TF_Weapon_AdmiraltyAnchor_Desc"	"Nessuna battuta sulla Marina verrà tollerata nella mia unità."
 // Derby Cane
 "TF_Weapon_DerbyCane"		        "Bastone dell'Imprenditore"
 "TF_Weapon_DerbyCane_Desc"	        "Ti senti motivato, caro mio? Meglio così."
@@ -766,14 +766,14 @@
 "Attrib_AddAmmoOnKill"								"Per Uccisione: Ottieni %s1 di munizioni"
 "Attrib_MinicritVsWet"								"100% mini-critici ai giocatori bagnati"
 "Attrib_TakeMinicritsProjectileAirborne"			"Ricevi mini-critici dai proiettili mentre sei a mezz'aria"
-"Attrib_HealOnSmack"								"Gli alleati colpiti quando la carica è al massimo saranno curati totalmente"
+"Attrib_HealOnSmack"								"Gli alleati colpiti quando la carica è al massimo saranno curati a pieno"
 "Attrib_MultDamageCrit"								"I colpi critici infliggono %s1% di danno in più"
 "Attrib_DropTeamHealthPackOnKill"					"Rilascia un medikit per la tua squadra per uccisione"
 "Attrib_PassiveAmmoHolstered"						"Le munizioni verrano ricaricate passivamente quando l'arma non è attiva"
 "Attrib_Backstab"									"Attacca un nemico da dietro per pugnalarlo alle spalle ed ucciderlo in un colpo solo"
 "Attrib_UpgradeRepairBuildings"						"Migliora, ripara e velocizza la costruzione delle costruzioni alleate quando viene colpito"
 "Attrib_AltFire_DetonateStickybombs"				"Fuoco Secondario: Fai esplodere tutte le bombe adesive"
-"Attrib_AltFire_Airblast"							"Fuoco Secondario: Rilascia un soffio di aria compressa\nL'aria compressa devia i nemici e i proiettili, e estingue i compagni in fiamme"
+"Attrib_AltFire_Airblast"							"Fuoco Secondario: Rilascia un soffio di aria compressa\nL'aria compressa devia nemici e proiettili, ed estingue i compagni in fiamme"
 "Attrib_AltFire_Cloak"								"Fuoco Secondario: Diventa invisibile"
 "Attrib_SapBuildings"								"Disabilita e distrugge lentamente le costruzioni nemiche\nIl travestimento non viene rimosso durante l'utilizzo"
 "Attrib_ReloadNotActive"							"Quest'arma ricarica automaticamente quando non è attiva"
@@ -803,7 +803,7 @@
 
 // vip_mineside
 "vip_mineside_description"	"Obiettivo:
-RED vince facendo si che il VIP non raggiunga la Zona di Fuga. BLU vince escortando il VIP alla Zona di Fuga.
+RED vince facendo si che il VIP non raggiunga la Zona di Fuga. BLU vince scortando il VIP alla Zona di Fuga.
 
 Nota Bene:
 La Zona di Fuga non si aprirà fino a quando non consegnerai la Valigetta alla Sala di Controllo affianco ai cancelli della Zona di Fuga.
@@ -943,7 +943,7 @@ Qui si lotta solo con la spada o con le mani!"
 Per vincere, ogni squadra deve catturare e difendere i Punti di Controllo per guadagnare punti. Più Punti di Controllo possiedi, più velocemente accumuli punti.
 
 Nota Bene:
-Contendere un Punto di Controllo fa si che il nemico non guadagni punti usando quel Punto di Controllo.
+Contendere un Punto di Controllo fa si che il nemico non guadagni punti da quel Punto di Controllo.
 
 Se la tua squadra è rimasta indietro, cattura tutti i Punti di Controllo per ottenere un bonus."
 
@@ -1340,7 +1340,7 @@ Le squadre che possiedono i Punti di Controllo iniziali sono scelti casualmente 
 
 // ClassSpecific	
 "TF_CyclopsDoubleTap"             		"DEMOLITORE: Abilita il doppio tocco del Ciclope"
-"TF_CyclopsDoubleTap_Tip"        		"Se abilitato, le granate del Ciclope richiederanno un secondo click per essere detonate, invece di rilasciare il tasto del fuoco primario."
+"TF_CyclopsDoubleTap_Tip"        		"Se abilitato, le granate del Ciclope richiederanno un secondo clic per essere detonate, invece di rilasciare il tasto del fuoco primario."
 "TF_SapperAwareness"					"INGEGNERE: Allerta Sabotatore"
 "TF_SapperAwareness_Tip"				"Se abilitato, l'allerta del sabotatore sulle tue costruzioni avrà un colore alternativo."
 "TF_SniperBell"							"CECCHINO: Riproduci un suono quando la carica è completa"
@@ -1393,14 +1393,14 @@ Le squadre che possiedono i Punti di Controllo iniziali sono scelti casualmente 
 
 // ViewModel
 
-"TF_ViewModelFOV"				        "Campo Visivo del Modello in Prima Persona"
+"TF_ViewModelFOV"				        "Campo visivo del modello in prima persona"
 "TF_FlipViewModels"				        "Visuale Mancina"
 "TF_InvisibleArms"				        "Usa i modelli in prima persona invisibili"
 "TF_ViewModelOpacity"			        "Opacità del modello in prima persona"
 
 // Misc
 "TF_ClassAutoKill"					    "Morte quando si sceglie un'altra classe"
-"TF_ClassAutoKill_Tip"				    "Se abilitato, morirai immediatamente dopo aver cambiato classe sul campo di battaglia.\n\nSe disabilitato, la classe cambierà una volta che tornerai in gioco."
+"TF_ClassAutoKill_Tip"				    "Se abilitato, morirai immediatamente dopo aver cambiato classe sul campo di battaglia.\n\nSe disabilitato, la tua classe verrà cambiata una volta tornato in gioco."
 "TF_ClassMenu_Music"				    "Musica del Menu Selezione Classe"
 "TF_StreamerMode"					    "Abilita Modalità Streamer"
 "TF_StreamerMode_Tip"				    "Se abilitato, disattiva la chat (tranne la vocale) e rende ogni giocatore anonimo"
