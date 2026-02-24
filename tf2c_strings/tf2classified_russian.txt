@@ -993,7 +993,7 @@
 "vipr_ylw_civ_death"	"VIP жёлтых был убит!"
 "vipr_grn_civ_death"	"VIP зелёных был убит!"
 
-"vipr_escape_zone"	"зона эвакуации"
+"vipr_escape_zone"	"зону эвакуации"
 
 // Territorial Domination
 "default_td_description"			"Цель:
