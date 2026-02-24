@@ -7,5 +7,5 @@
 	"app[content][sysreqs][windows][min][osversion]":"Windows 10 (64 bits)",
 	"app[content][sysreqs][windows][min][notes]":"Requer uma instalação do Team Fortress 2",
 	"app[content][sysreqs][linux][min][osversion]":"Debian 13 \/ glibc 2.39+",
-	"app[content][sysreqs][linux][min][notes]":"Requer uma instalação do Team Fortress 2. Recomenda-se compatibilidade com Vulkan."
+	"app[content][sysreqs][linux][min][notes]":"Requer uma instalação do Team Fortress 2; recomenda-se compatibilidade com Vulkan"
 }
