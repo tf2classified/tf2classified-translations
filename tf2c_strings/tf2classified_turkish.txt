@@ -195,7 +195,7 @@
 "Tip_1_6"		"Scout iken, Sopa'n diğer yakın dövüş silahlara kıyasla daha az hasar verir fakat daha hızlı savrulur."
 // Death & Taxes
 "Tip_1_7"		"Scout iken, Çivi Tabancası epey iyi hasar verir, uzaktan bile. Hareket halinde ol ve atışlarını kavisli yap."
-"Tip_1_8"		"Scout iken, Çivi Tabancası ile Taret'leri ortadan kaldırmak çocuk oyuncağıdır. Zorlu Taret yuvalarıyla karşılaştığın zaman kullan."
+"Tip_1_8"		"Scout iken, Çivi Tabancası ile Taretleri ortadan kaldırmak çocuk oyuncağıdır. Zorlu Taret yuvalarıyla karşılaştığın zaman kullan."
 // Fight or Flight
 "Tip_1_9"		"Scout iken, Tuğla güvenilir hasar verir ve hedefini geri teptirir. Birisini yerinden fırlat!"
 "Tip_1_10"		"Scout iken, Tuğla uzak mesafeden fırlatıldığında mini-kritik hasar verir."
@@ -220,7 +220,7 @@
 // Soldier
 "Tip_3_Count"	"12"
 // Generic
-"Tip_3_1"		"Eğer yaralanırsan, %helpme% tuşuna basarak bir Medic'e seslenebilirsin. Yakınındaki Medic'ler ihtiyacın için haberdar edilirler."
+"Tip_3_1"		"Eğer yaralanırsan, %helpme% tuşuna basarak bir Medic'e seslenebilirsin. Yakınındaki Medicler ihtiyacın için haberdar edilirler."
 "Tip_3_2"		"Soldier iken, roket zıplaması yaparak oldukça yükseklere çıkmak için ayağına zıplamadan önce roket ateşle."
 "Tip_3_3"		"Soldier iken, maksimum yüksekliğe erişmek için roket zıplamasına hazırlanırken çömelmeyi unutma."
 "Tip_3_4"		"Soldier iken, roketleri düşmanın ayaklarına hedefle ki patlama hasarından kaçamasınlar."
@@ -250,7 +250,7 @@
 "Tip_4_8"		"Demoman iken, Şişe'n kırılsa da kırılmasa da aynı hasarı verir."
 // Death & Taxes
 "Tip_4_9"		"Demoman iken, Dinamit Paketi'ni düşmanları ortadan kaldırmak için kalabalık kontrol noktalarına fırlat."
-"Tip_4_10"		"Demoman iken, Dinamit Paketi düşman Engineer'lar tarafından devre dışı bırakılabilir. Taret yuvalarına fırlatırkan düşünceli ol."
+"Tip_4_10"		"Demoman iken, Dinamit Paketi düşman Engineerlar tarafından devre dışı bırakılabilir. Taret yuvalarına fırlatırkan düşünceli ol."
 "Tip_4_11"		"Demoman iken, Koruyucu Botlar patlama zıplamalarından aldığın hasarı oldukça azaltır. Özellikle pozisyon almak ve hızlı hareket etmek önemli olduğunda onları kullan."
 "Tip_4_12"		"Demoman iken, Mayın Döşeyici düşmanlar çok yaklaşınca otomatik olarak patlayan mayınlar fırlatır. Bunu otomatikleştirilmiş bir savunma için kullan!"
 // Double Down
@@ -269,9 +269,9 @@
 "Tip_5_6"		"Medic iken, ölümsüzken sen ve iyileştirdiğin kişiler kontrol noktaları veya istihbaratı ele geçiremez."
 // Stock
 "Tip_5_7"		"Medic iken, iğnelerin kavisli ve gecikmeli yol aldığını unutma. İsabet sağlamak için vurmak istediğin hedefin biraz daha yukarısına nişan almalısın."
-"Tip_5_8"		"Medic iken, Sıhhi Silah'ı takım arkadaşlarını iyileştirmek için kullanabilir ve sağlık puanlarını geçici olarak normal sağlıklarının %150'sine kadar arttırabilirsin."
+"Tip_5_8"		"Medic iken, Sıhhi Silah takım arkadaşlarını iyileştirmek için kullanabilir ve sağlık puanlarını geçici olarak normal sağlıklarının %%150'sine kadar arttırabilirsin."
 "Tip_5_9"		"Medic iken, ÜberŞarjla hem kendin hem de iyileştirdiğin kişi bir süreliğine ölümsüz olur."
-"Tip_5_10"		"Medic iken, Kemik Testere'ni takım arkadaşlarından ayrı kaldığın zamanlarda kendini savunmak için kullanabilirsin."
+"Tip_5_10"		"Medic iken, Kemik Testeresi'ni takım arkadaşlarından ayrı kaldığın zamanlarda kendini savunmak için kullanabilirsin."
 // Death & Taxes
 "Tip_5_11"		"Medic iken, Kritzkrieg iyileştirdiğin kişiye geçici olarak kritik vuruşlar verir. Bunu güçlü sınıflarada ve düşmanların yoğun olduğu bölgelerde kullan."
 "Tip_5_12"		"Medic iken, Überspritze'yi kullanırken sağlığına dikkat et. Onunla kuşandığın zaman maksimum sağlığın 10 azalır."
@@ -284,11 +284,11 @@
 // Heavy
 "Tip_6_Count"	"17"
 // Generic
-"Tip_6_1"		"Eğer yaralanırsan, %helpme% tuşuna basarak bir Medic'e seslenebilirsin. Yakınındaki Medic'ler ihtiyacın için haberdar edilirler."
+"Tip_6_1"		"Eğer yaralanırsan, %helpme% tuşuna basarak bir Medic'e seslenebilirsin. Yakınındaki Medicler ihtiyacın için haberdar edilirler."
 "Tip_6_2"		"Heavy iken, diğer sınıflardan daha fazla maksimum sağlığa sahipsin. Ofansif hücumlar yapmaktan çekinme!"
 "Tip_6_3"		"Heavy iken, diğer sınıflara göre çok yavaşsın. Daha haraketli sınıflarla çatışmaya girerken düşünceli ol."
 "Tip_6_4"		"Heavy iken, harika bir Medic dostusun. Medic'inin seni iyileştirebilmesi için onun görüş alanında kalmayı unutma."
-"Tip_6_5"		"Heavy iken, Spy'lar için birincil bir hedefsin. Onları uzak tutmak için cephaneliğini kullan, ve arkana sıkça göz atmayı unutma."
+"Tip_6_5"		"Heavy iken, Spylar için birincil bir hedefsin. Onları uzak tutmak için cephaneliğini kullan, ve arkana sıkça göz atmayı unutma."
 "Tip_6_6"		"Heavy iken, %attack2% tuşunu basılı tutarak Minigun'ın veya Uçaksavar Topu'nun namlusunu döndür. Yaklaşan düşmanlar için hazır ol!"
 // Stock
 "Tip_6_7"		"Heavy iken, Minigun'ın çok fazla cephane harcar. Cephane yenilemek için cephane kutuları ve düşen silahları topla."
@@ -301,26 +301,26 @@
 "Tip_6_13"		"Heavy iken, Sandviç'ini nereye fırlattığına dikkat et. Takım arkadaşların yanı sıra düşmanlar da iyileşmek için yerden kapabilirler!"
 // Fight or Flight
 "Tip_6_14"		"Heavy iken, Uçaksavar Topu yüksek patlama çapı hasarı verir, kalabalık yerler ve köşelerle ilgilenmekle idealdir."
-"Tip_6_15"		"Heavy iken, Uçaksavar Topu havadaki düşmanlara mini-kritik hasar verir. Soldier'ları ya da Trambolin kullanan düşmanları yere devirmek için kullan!"
+"Tip_6_15"		"Heavy iken, Uçaksavar Topu havadaki düşmanlara mini-kritik hasar verir. Bunu Soldierları ya da Trambolin kullanan düşmanları yere devirmek için kullan!"
 "Tip_6_16"		"Heavy iken, Çehov'un Yumruğu her başarılı vuruşunda 3'e kadar bir kritik depolar. Depolanan kritikleri herhangi bir silahta kullanabilirsin!"
 "Tip_6_17"		"Heavy iken, Çehov'un Yumruğu düşman yakın dövüş saldırılarında kesin kritik hasar almana sebep olur. Yakın mesafeli çatışmalarda tedbirli ol."
 
 // Pyro
 "Tip_7_Count"	"15"
 // Generic
-"Tip_7_1"		"Pyro iken, yanmaya ve alev hasarına genel olarak dokunulmazsın. Düşman Pyro'lar ile karşılaştığında ikincil ve yakın dövüş silahlarını kullanarak onları daha hızlı öldürebilirsin."
+"Tip_7_1"		"Pyro iken, yanmaya ve alev hasarına genel olarak dokunulmazsın. Düşman Pyrolar ile karşılaştığında ikincil ve yakın dövüş silahlarını kullanarak onları daha hızlı öldürebilirsin."
 "Tip_7_2"		"Pyro iken, düşmanları ateşe verdikten sonra hızla geri çekilerek onları yanarak ölmekle terk edebilirsin."
 // Stock
 "Tip_7_3"		"Pyro iken, Alev Silahı düşmanlara ne kadar yakınsan o kadar fazla hasar verir."
 "Tip_7_4"		"Pyro iken, Alev Silahı çok fazla cephane harcar. Cephane yenilemek için cephane kutuları ve düşen silahları topla."
 "Tip_7_5"		"Pyro iken, düşmanları Alev Silahı'nın kısa menzilinde yakalamk için pusu kur. Köşe başlarını ve yüksek bölgeleri kendine avantaj yaratmak için kullan."
-"Tip_7_6"		"Pyro iken, Alev Silahı'nın basınçlı hava patlaması (%attack2%) çok işe yarar bir özelliktir. Onu düşmanları, hatta Über basmış Medic'leri ve arkadaşlarını uçurumlardan aşağı itmek veya çevredeki tehlikelere doğru püskürtmek içn kullan!"
+"Tip_7_6"		"Pyro iken, Alev Silahı'nın basınçlı hava patlaması (%attack2%) çok işe yarar bir özelliktir. Onu düşmanları, hatta Über basmış Medicleri ve arkadaşlarını uçurumlardan aşağı itmek veya çevredeki tehlikelere doğru püskürtmek içn kullan!"
 "Tip_7_7"		"Pyro iken, Alev Silahı ile yanan takım arkadaşlarını %attack2% tuşuyla söndürebilirsin."
 "Tip_7_8"		"Pyro iken, eğer düşmanlar Alev Silahı'nın kısa menzilinin ötesine geri çekilirse Av Tüfeği'ni kullan."
 "Tip_7_9"		"Pyro iken, Yangın Baltası yakın mesafede geriye çekilen düsmanlarla ilgilenmekle çok kullanışlıdır."
 // Death & Taxes
-"Tip_7_10"		"Pyro iken, İşaret Fişeği uzak mesafedeki düşmanları ateşe verebilir. Bu, Sniper'lar gibi çok uzakta olan düşmanlar için iyi işe yarar."
-"Tip_7_11"		"Pyro iken, İşaret Fişeği çıkardığın an yanan düşman Pyro'lara kritik hasar verebilecek çok düşük bir süreye sahiptir."
+"Tip_7_10"		"Pyro iken, İşaret Fişeği uzak mesafedeki düşmanları ateşe verebilir. Bu, Sniperlar gibi çok uzakta olan düşmanlar için iyi işe yarar."
+"Tip_7_11"		"Pyro iken, İşaret Fişeği çıkardığın an yanan düşman Pyrolara kritik hasar verebilecek çok düşük bir süreye sahiptir."
 // Fight or Flight
 "Tip_7_12"		"Pyro iken, İkiz Namlu hedefinle senin arandaki açıklığı kapatmak için kullanılabilir. Kendini düşmanlarının üstüne salmak için kullan!"
 "Tip_7_13"		"Pyro iken, İkiz Namlu, Av Tüfeği kadar güvenli hasar vermez. Eğer bir karşılaşmada yeniliyorsan, kendini kaçışta geriye itmek için kullan!"
@@ -331,7 +331,7 @@
 "Tip_8_Count"	"15"
 // Generic
 "Tip_8_1"		"Spy iken, Kılık Değiştirme Seti ile düşman kılığına girebilirsin. Dikkatli ol, çünkü hala düşmanlara çarpabilirsin, ve saldırdığında kılığını kaybedersin."
-"Tip_8_2"		"Spy iken, kılık değiştirmişken %helpme% tuşuna basarak düşman Medic'lere seslenebilirsin."
+"Tip_8_2"		"Spy iken, kılık değiştirmişken %helpme% tuşuna basarak düşman Mediclere seslenebilirsin."
 "Tip_8_3"		"Spy iken, kılık değiştirdiğinde düşman gibi davranmaya çalış. Düşman takımın üyelerinin nerede olduklarını gözlemle ve onlardan birinin kılığına gir."
 "Tip_8_4"		"Spy iken, kılık değiştirmişken %reload% tuşuna basmak seni düşman takıma silahını dolduruyormuşsun gibi gösterir."
 "Tip_8_5"		"Spy iken, yavaş olan bir sınıfın kılığına girdiğin zaman %speed% tuşuna basarak normal hızında yürüyebilirsin."
@@ -340,7 +340,7 @@
 // Stock
 "Tip_8_8"		"Spy iken, Altıpatlar sinsi operasyonun senin yolunda gitmediği zamanlar için kullanışlı bir alettir."
 "Tip_8_9"		"Spy iken, Bozucu'nu düşman yapılarını devre dışı bırakıp yok etmek için onların üzerine yerleştir. Bozucu yerleştirirken kılık değişikliğin bozulmaz."
-"Tip_8_10"		"Spy iken, Bozucu, Taret'leri yok etmeden önce devre dışı bırakır. Engineer'a saldırmadan önce Taret'ini boz."
+"Tip_8_10"		"Spy iken, Bozucu, Taretleri yok etmeden önce devre dışı bırakır. Engineer'a saldırmadan önce Taret'ini boz."
 "Tip_8_11"		"Spy iken, Bıçağını düşmanının sırtına saplayarak onu anında öldürebilirsin."
 // Death & Taxes
 "Tip_8_12"		"Spy iken, Yatıştırıcı Silah hedeflerinin hareket etme ve ateşleme hızlarını yavaşlatır. Bu kaçman için bir fırsat oluşturur."
@@ -354,27 +354,27 @@
 // Generic
 "Tip_9_1"		"Engineer iken, yapılarını kurmak, tamir etmek ve seviyelerini yükseltmek için metale ihtiyacın vardır. Daha fazla metal elde etme yolu olarak ölen düşmanların silahlarını topla."
 "Tip_9_2"		"Engineer iken, yapılarını korumaktan daha fazlasını yapabilirsin. Çatışmalara yardım etmek ve savunma yapmak için Av Tüfeği ve Tabanca'nı kullan."
-"Tip_9_3"		"Engineer iken, yapılarına Bozucu yerleştiren düşman Spy'lar için gözünü açık tut. Bozucuları sökmek için İngiliz Anahtarı'nı kullan."
+"Tip_9_3"		"Engineer iken, yapılarına Bozucu yerleştiren düşman Spylar için gözünü açık tut. Bozucuları sökmek için İngiliz Anahtarı'nı kullan."
 "Tip_9_4"		"Engineer iken, yapılarının seviyelerini yükseltmeyi unutma. Seviyesi yükselmiş yapılar daha verimli bir şekilde sen ve takımına yardımcı olabilir!"
-"Tip_9_5"		"Engineer iken, bir yapıyı plan halindeyken %attack2% tuşuna basarak döndürebilirsin. Taret ve Işınlayıcı'ları takım arkadaşlarına daha faydalı olacak bir şekilde yönlendir!"
+"Tip_9_5"		"Engineer iken, bir yapıyı plan halindeyken %attack2% tuşuna basarak döndürebilirsin. Taret ve Işınlayıcıları takım arkadaşlarına daha faydalı olacak bir şekilde yönlendir!"
 // Stock
 "Tip_9_6"		"Engineer iken, Tabanca'nın çok fazla yedek mermisi vardır. Düşmanları Taret'ine yönlendirmek için kullan, ya da daha ofansif bir yaklaşımda bulun."
-"Tip_9_7"		"Engineer iken, düşmanların fırlattığı Dinamit Paket'lerini İngiliz Anahtarı ile etkisiz hale getirebilirsin."
+"Tip_9_7"		"Engineer iken, düşmanların fırlattığı Dinamit Paketlerini İngiliz Anahtarı ile etkisiz hale getirebilirsin."
 "Tip_9_8"		"Engineer iken, İngiliz Anahtarı ile dost yapılarına vurmak onları tamir eder ve günçlendirir."
 "Tip_9_9"		"Engineer iken, Kurulum PDA'yı kullanarak Taret ve diğer yardımcı yapıları kurabilirsin."
-"Tip_9_10"		"Engineer iken, Taret'lerin sadece savunma amaçlı önlemler ile sınırlı değildir. Taret'lerini gizli yerlere kurup ofansif bir hücumda yardımcı olabilirsin."
+"Tip_9_10"		"Engineer iken, Taretlerin sadece savunma amaçlı önlemler ile sınırlı değildir. Taretlerini gizli yerlere kurup ofansif bir hücumda yardımcı olabilirsin."
 "Tip_9_11"		"Engineer iken, İngiliz Anahtarı'nla vurarak Taret'inin seviyesini yükseltebilirsin. Her seviye daha fazla sağlık puanı ve ateş gücü ekler."
 "Tip_9_12"		"Engineer iken, takım arkadaşlarına cephane ve sağlık sağlamak için Otomat kurabilirsin. Otomat senin için metalde üretir."
-"Tip_9_13"		"Engineer iken, seviyesi yükseltilmiş Otomat'lar takımın için daha fazla sağlık ve cephane, senin içinde daha fazla metal üretir!"
-"Tip_9_14"		"Engineer iken, takımının ön saflara daha hızlı erişmesine yardımcı olmak için Işınlayıcı veya Trambolin'ler kur."
-"Tip_9_15"		"Engineer iken, seviyesi yükseltilmiş Işınlayıcı'lar daha hızlı şarj olarak takımının baskıya devam etmesine yardımcı olur."
+"Tip_9_13"		"Engineer iken, seviyesi yükseltilmiş Otomatlar takımın için daha fazla sağlık ve cephane, senin içinde daha fazla metal üretir!"
+"Tip_9_14"		"Engineer iken, takımının ön saflara daha hızlı erişmesine yardımcı olmak için Işınlayıcı veya Trambolinler kur."
+"Tip_9_15"		"Engineer iken, seviyesi yükseltilmiş Işınlayıcılar daha hızlı şarj olarak takımının baskıya devam etmesine yardımcı olur."
 "Tip_9_16"		"Engineer iken, İngiliz Anahtarı ile bir Işınlayıcı'nın girişi ya da çıkışına vurmak her iki tarafıda tamir edip seviyesini yükseltir!"
 // Death & Taxes
 "Tip_9_17"		"Engineer iken, Bobin Silahı'ndan çıkan tam şarjlı atışlar duvarlardan seker ve daha fazla hasar verir."
 "Tip_9_18"		"Engineer iken, Bobin Silahı'nı fazla şarj edersen patlar. Bunu önceden erişilmez bölgelere ulaşmak için kullanabilirsin."
 // Fight or Flight
-"Tip_9_19"		"Engineer iken, Trambolin'ler senin ve takımının yüksek bölgelere erişmesini sağlar. Onları daha az hareketli takım arkadaşlarının tepelere ulaşmaşı için kur!"
-"Tip_9_20"		"Engineer iken, Trambolin'ler takım akradaşlarının ileriye büyük bir ivmeyle zıplamalarını sağlar. Hızlı müdaheleye olanak sağlayan açık alanlara yerleştir."
+"Tip_9_19"		"Engineer iken, Trambolinler senin ve takımının yüksek bölgelere erişmesini sağlar. Onları daha az hareketli takım arkadaşlarının tepelere ulaşmaşı için kur!"
+"Tip_9_20"		"Engineer iken, Trambolinler takım akradaşlarının ileriye büyük bir ivmeyle zıplamalarını sağlar. Hızlı müdaheleye olanak sağlayan açık alanlara yerleştir."
 
 // Civilian
 "Tip_10_Count"	"11"
@@ -382,27 +382,27 @@
 "Tip_10_1"		"Civilian iken, hızın oldukça yavaş. Hayatta kalma şansını artırmak için takım arkadaşlarınla ilerlemekte elinden geleni yap."
 "Tip_10_2"		"Civilian iken, takımındaki en kısa boylu sensin. Bu takım arkadaşlarının arkasına saklanman için kullanışlı olabilir."
 "Tip_10_3"		"Civilian iken, VIP ve VIP Yarışı oyun modlarında kontrol noktalarını sadece sen ele geçirebilirsin."
-"Tip_10_4"		"Civilian iken, düşman Spy ve Sniper'lara karşı dikkatli olmayı unutma, çünkü seni anında öldürebilirler."
+"Tip_10_4"		"Civilian iken, düşman Spy ve Sniperlara karşı dikkatli olmayı unutma, çünkü seni anında öldürebilirler."
 "Tip_10_5"		"Civilian iken, yakınındaki takım arkadaşlarına verdiğin cesaretlendirme onlara hafif bir savunma desteği ve iyileşme oranı verir. Düşman görüş hattının dışında durmaya çalış ve takımına bağlı kal."
 "Tip_10_6"		"Civilian iken, bir takım arkadaşına bakarken %attack2% tuşuna basarak ona takviye yapabilirsin, verdiğin destek savaşta oldukça iyi bir avantaj kazandırır."
 // Stock
 "Tip_10_7"		"Civilian iken, Şemsiye bir silah olarak etkili değildir, ve yalnızca çaresiz durumlarda kullanılmalıdır. Takımının senin için savaşmasına izin ver."
 "Tip_10_8"		"Civilian iken, Şemsiye ile seçtiğin bir takım arkadaşına mini-kritikler elde ettirebilirsin. Yüksek hasar verebilecek sınıflara takviye yap."
-"Tip_10_9"		"Civilian iken, Şemsiye mini-kritik takviyesi Medic'lere arttırılmış iyileştirme oranı ve ÜberŞarj kazanımında bulunur."
+"Tip_10_9"		"Civilian iken, Şemsiye'nin mini-kritik takviyesi Mediclere arttırılmış iyileştirme oranı ve ÜberŞarj kazanımında bulunur."
 // Double Down
 "Tip_10_10"		"Civilian iken, Derbi Bastonu takım arkadaşlarına hız desteğinde bulunmak için kullanılabilir. Bu onların daha hızlı hareket etmesi ve ateş etmesini sağlar."
-"Tip_10_11"		"Civilian iken, Derbi Bastonu'nun takviyesi Medic'lerin iyileştirme oranı ve Engineer'ların yapıları kurma oranını arttırır."
+"Tip_10_11"		"Civilian iken, Derbi Bastonu'nun takviyesi Mediclerin iyileştirme oranı ve Engineerların yapıları kurma oranını arttırır."
 
 // Arena
 "Tip_arena_Count"		"9"
 "Tip_arena_1"			"Arena'da, ekranın yukarısındaki oyuncu sayısına dikkat et. Bu, oyuncu avantajına sahip olup olmadığını anlamanı sağlar!"
-"Tip_arena_2"			"Arena'da, sağlık elde etmek için çok az kaynak bulunur, bu yüzden takımının Medic ve Engineer'larını koruduğundan emin ol (ve Sandviçini paylaş)!"
+"Tip_arena_2"			"Arena'da, sağlık elde etmek için çok az kaynak bulunur, bu yüzden takımının Medic ve Engineerlarını koruduğundan emin ol (ve Sandviçini paylaş)!"
 "Tip_arena_3"			"Arena'da, haritanın ortasındaki kontrol noktası raunt başladıktan 60 saniye sonra ele geçirilebilir hale gelir. Saklanan düşmanları ortaya çıkarmak için bunu kullan!"
 "Tip_arena_4"			"Arena'da canlanma yoktur, o yüzden ölme!"
 "Tip_arena_5"			"Arena'da, portföyünü çeşitlendir! Takımın ile birlikte kompozisyonunuzu tamamlamaya, veya düşman takımlarınkine karşı koymaya çalışın."
 "Tip_arena_6"			"Arena'da, sınıfını sadece oyunun başlangıcında kapılar açılana kadar değiştirebilirsin."
 "Tip_arena_7"			"Arena'da, takımınla bir arada kalmaya çalışıp tehlikedeyken birbirinize yardımcı olun. Çatışmalara geç gelmek seni dezavantaja koyabilir."
-"Tip_arena_8"			"Arena'da, düşman takımların iyileşme fırsatlarını ellerinden almak çok önemlidir. Düşman Medic ve Otomat'ları hedefle, ve elinden geldiğince sağlık paketlerine erişimi engelle!"
+"Tip_arena_8"			"Arena'da, düşman takımların iyileşme fırsatlarını ellerinden almak çok önemlidir. Düşman Medic ve Otomatları hedefle, ve elinden geldiğince sağlık paketlerine erişimi engelle!"
 "Tip_arena_9"			"Arena'da, İlk Kan elde etmek sana kritik vuruşlar kazandırır. Eğer elde edersen onu iyi değerlendir! Eğer bir düşman elde ederse, geri çekilip sona ermesini bekle."
 
 // ----------------------------------------------------------------
@@ -1366,7 +1366,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF_DeathNoticeTime"              "Ölüm Duyurusu - Duyuruların geçerlilik süresi (saniye olarak)"
 "TF_DeathNoticeTime_Tip"          "Ölüm duyurularının geçerlilik süresini ayarlar."
 "TF_GlowEffects"				  "Parıltı efektini kullan"
-"TF_GlowEffects_Tip" 			  "Eğer seçiliyse, parlama efektleri görevli maçlarda VIP'ler, Yük Vagonları, Bayrak Kapmaca istihbaratı gibi çeşitli ortamlarda etkinleştirilecektir."
+"TF_GlowEffects_Tip" 			  "Eğer seçiliyse, parlama efektleri görevli maçlarda VIPler, Yük Vagonları, Bayrak Kapmaca istihbaratı gibi çeşitli ortamlarda etkinleştirilecektir."
 
 // ViewModel
 "TF_ViewModelFOV"				"Görünüm modelinin görüş açısı"
