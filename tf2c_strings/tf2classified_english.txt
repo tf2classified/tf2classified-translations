@@ -174,10 +174,13 @@
 // Voice Menu
 // ----------------------------------------------------------------
 
-"Voice_Menu_ChargeReady"				"(MEDIC) ÜberCharge Status"
-"Voice_Menu_ChargeReadySubtitle"		"ÜberCharge Ready! (100%)"
-"Voice_Menu_ChargeAlmostReadySubtitle"	"ÜberCharge Almost Ready (%s1%)"
-"Voice_Menu_ChargeNotReadySubtitle"		"ÜberCharge Isn't Ready! (%s1%)"
+"Voice_Menu_ChargeReady"					"(MEDIC) ÜberCharge Status"
+"Voice_Menu_ChargeReadySubtitle"			"ÜberCharge Ready! (100%)"
+"Voice_Menu_ChargeAlmostReadySubtitle"		"ÜberCharge Almost Ready (%s1%)"
+"Voice_Menu_ChargeNotReadySubtitle"			"ÜberCharge Isn't Ready! (%s1%)"
+
+"Voice_Menu_SingleChargeReadySubtitle"		"ÜberCharge Ready! (%s1 charge)"
+"Voice_Menu_MultipleChargesReadySubtitle"	"ÜberCharges Ready! (%s1 charges)"
 
 // ----------------------------------------------------------------
 // Class tips
