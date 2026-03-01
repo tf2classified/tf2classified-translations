@@ -174,10 +174,13 @@
 // Voice Menu
 // ----------------------------------------------------------------
 
-"Voice_Menu_ChargeReady"				"(MEDIC) ÜberŞarj Durumu"
-"Voice_Menu_ChargeReadySubtitle"		"ÜberŞarj Hazır! (%100)"
-"Voice_Menu_ChargeAlmostReadySubtitle"	"ÜberŞarj Neredeyse Hazır (%%s1)"
-"Voice_Menu_ChargeNotReadySubtitle"		"ÜberŞarj Hazır Değil! (%%s1)"
+"Voice_Menu_ChargeReady"				    "(MEDIC) ÜberŞarj Durumu"
+"Voice_Menu_ChargeReadySubtitle"		    "ÜberŞarj Hazır! (%100)"
+"Voice_Menu_ChargeAlmostReadySubtitle"	    "ÜberŞarj Neredeyse Hazır (%%s1)"
+"Voice_Menu_ChargeNotReadySubtitle"		    "ÜberŞarj Hazır Değil! (%%s1)"
+
+"Voice_Menu_SingleChargeReadySubtitle"		"ÜberŞarj Hazır! (%s1 şarj)"
+"Voice_Menu_MultipleChargesReadySubtitle"	"ÜberŞarjlar Hazır! (%s1 şarj)"
 
 // ----------------------------------------------------------------
 // Class tips
@@ -275,8 +278,8 @@
 // Death & Taxes
 "Tip_5_11"		"Medic iken, Kritzkrieg iyileştirdiğin kişiye geçici olarak kritik vuruşlar verir. Bunu güçlü sınıflarada ve düşmanların yoğun olduğu bölgelerde kullan."
 "Tip_5_12"		"Medic iken, Überspritze'yi kullanırken sağlığına dikkat et. Onunla kuşandığın zaman maksimum sağlığın 10 azalır."
-"Tip_5_13"		"Medic iken, Şok Tedavisi şarjı ne kadar yüksekse o kadar fazla hasar verir. Şarj düşmanlara isabet hâlinde tükenir."
-"Tip_5_14"		"Medic iken, Şok Tedavisi şarjı tamken takım arkadaşlarını tamamen iyileştirebilir, fakat senin ana iyileştirme oranını düşürür."
+"Tip_5_13"		"Medic iken, Şok Terapisi şarjı ne kadar yüksekse o kadar fazla hasar verir. Şarj düşmanlara isabet hâlinde tükenir."
+"Tip_5_14"		"Medic iken, Şok Terapisi şarjı tamken takım arkadaşlarını tamamen iyileştirebilir, fakat senin ana iyileştirme oranını düşürür."
 // Double Down
 "Tip_5_15"		"Medic iken, Gençleştirici büyük halde gruplanmış takım arkadaşlarını iyileştirmekte aşırı derecede kullanışlıdır. Arttırılmış iyileşim ve ÜberŞarj bonusu için direkt isabetler hedefle."
 "Tip_5_16"		"Medic iken, Gençleştirici'nin ÜberŞarjı geçici olan bir ölümsüzlük kalkanı fırlatır, içine giren herhangi takım arkadaşın hasardan muaf olur."
@@ -550,7 +553,7 @@
 "TF_Weapon_MineLayer"		"Mayın Döşeyici"
 "TF_Weapon_MineLayer_Desc"	"Aye, gözünü dört aç! Heh..."
 // Shock Therapy
-"TF_Weapon_ShockTherapy"		"Şok Tedavisi"
+"TF_Weapon_ShockTherapy"		"Şok Terapisi"
 "TF_Weapon_ShockTherapy_Desc"	"HERKES ÇEKİLSİN!"
 
 // ----------------------------------------------------------------
@@ -559,7 +562,7 @@
 
 // L'escampette
 "TF_Weapon_Lescampette"			"L'escampette"
-"TF_Weapon_Lescampette_Desc"	"Çabuk yap."
+"TF_Weapon_Lescampette_Desc"	"Çabuk ol."
 // Chekhov's Punch
 "TF_Weapon_ChekhovsPunch"		"Çehov'un Yumruğu"
 "TF_Weapon_ChekhovsPunch_Desc"	"Ağlama! Heavy'nin hayatında senin anlatısal bir amacın var."
@@ -1105,8 +1108,8 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "Winpanel_YellowWins"		"YLW TAKIMI KAZANDI!"
 "Winpanel_YellowAdvances"	"YLW TAKIMI BÖLGEYİ ELE GEÇİRDİ"
 "Winpanel_YellowDefends"	"YLW TAKIMI SAVUNMADA!"
-"Winpanel_GreenMVPs"		"GRN Takımının En İyileri:"
-"Winpanel_YellowMVPs"		"YLW Takımının En İyileri:"
+"Winpanel_GreenMVPs"		"GRN takımının en iyileri:"
+"Winpanel_YellowMVPs"		"YLW takımının en iyileri:"
 
 "Winreason_KOTHPointHeld"		"%s1 Kontrol Noktasını zaman tükenene kadar elde tuttu"
 "Winreason_PayloadPushed"		"%s1 Vagonu son durağa kadar itti"
@@ -1366,7 +1369,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF_DeathNoticeTime"              "Ölüm Duyurusu - Duyuruların geçerlilik süresi (saniye olarak)"
 "TF_DeathNoticeTime_Tip"          "Ölüm duyurularının geçerlilik süresini ayarlar."
 "TF_GlowEffects"				  "Parıltı efektini kullan"
-"TF_GlowEffects_Tip" 			  "Eğer seçiliyse, parlama efektleri görevli maçlarda VIPler, Yük Vagonları, Bayrak Kapmaca istihbaratı gibi çeşitli ortamlarda etkinleştirilecektir."
+"TF_GlowEffects_Tip" 			  "Eğer seçiliyse, parlama efektleri görevli maçlarda VIP'ler, Yük Vagonları, Bayrak Kapmaca istihbaratı gibi çeşitli ortamlarda etkinleştirilecektir."
 
 // ViewModel
 "TF_ViewModelFOV"				"Görünüm modelinin görüş açısı"
@@ -1589,6 +1592,11 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "game_respawn_as"			"*%s1 olarak canlanacaksın"
 "game_spawn_asrandom"		"*Rastgele bir sınıf olarak canlanacaksın"
 "game_respawn_asrandom"		"*Rastgele bir sınıf olarak canlanacaksın"
+
+"Winpanel_BlueMVPs"                         "BLU takımının en iyileri:"
+"Winpanel_RedMVPs"			                "RED takımının en iyileri:"
+"Winpanel_WinningCapture"	                "Kazandıran ele geçirme: %s1"
+"TF_Arena_Winpanel_TimeAliveThisRound"		"Yaşam sür.:"
 
 "Pipeline_cap_1_red"			"RED'in ilk Kontrol Noktası"
 "Pipeline_cap_1_blue"			"BLU'nun ilk Kontrol Noktası"
