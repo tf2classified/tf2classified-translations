@@ -192,10 +192,13 @@
 // Voice Menu
 // ----------------------------------------------------------------
 
-"Voice_Menu_ChargeReady"				"(MEDICO) Stato ÜberCarica"
-"Voice_Menu_ChargeReadySubtitle"		"ÜberCarica Pronta! (100%)"
-"Voice_Menu_ChargeAlmostReadySubtitle"	"ÜberCarica Quasi Pronta (%s1%)"
-"Voice_Menu_ChargeNotReadySubtitle"		"ÜberCarica Non Ancora Pronta! (%s1%)"
+"Voice_Menu_ChargeReady"					"(MEDICO) Stato ÜberCarica"
+"Voice_Menu_ChargeReadySubtitle"			"ÜberCarica Pronta! (100%)"
+"Voice_Menu_ChargeAlmostReadySubtitle"		"ÜberCarica Quasi Pronta (%s1%)"
+"Voice_Menu_ChargeNotReadySubtitle"			"ÜberCarica Non Ancora Pronta! (%s1%)"
+
+"Voice_Menu_SingleChargeReadySubtitle"		"ÜberCarica Pronta! (%s1 carica)"
+"Voice_Menu_MultipleChargesReadySubtitle"	"ÜberCariche Pronte! (%s1 cariche)"
 
 // ----------------------------------------------------------------
 // Class tips
