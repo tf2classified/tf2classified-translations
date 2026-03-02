@@ -153,12 +153,12 @@
 // Kill feed
 // ----------------------------------------------------------------
 
-"DeathMsg_KilledVIP"		"megölte a VIP-t!"
-"DeathMsg_KilledTeamVIP"	"megölte a %s1 VIP-t!"
+"DeathMsg_KilledVIP"			"megölte a VIP-t!"
+"DeathMsg_KilledTeamVIP"		"megölte a %s1 VIP-t!"
 
-"DeathMsg_VIP"          "VIP"
-"DeathMsg_ComboKill"	"KOMBÓS GYILKOS!"
-"DeathMsg_AirshotKill"	"RÖPTÉBEN!"
+"DeathMsg_VIP"					"VIP"
+"DeathMsg_ComboKill"			"KOMBÓS GYILKOS!"
+"DeathMsg_AirshotKill"			"RÖPTÉBEN!"
 
 // Custom suicides
 "DeathMsg_Suicide_Boioing"		"felszállt a magasba!"
@@ -174,10 +174,13 @@
 // Voice Menu
 // ----------------------------------------------------------------
 
-"Voice_Menu_ChargeReady"	            "SZANITÉC: ÜberTöltés állapota"
-"Voice_Menu_ChargeReadySubtitle"	    "ÜberTöltésre készen! (100%)"
-"Voice_Menu_ChargeAlmostReadySubtitle"	"ÜberTöltésre majdnem készen (%s1%)"
-"Voice_Menu_ChargeNotReadySubtitle"	    "Az ÜberTöltés nincs kész! (%s1%)"
+"Voice_Menu_ChargeReady"					"SZANITÉC: ÜberTöltés állapota"
+"Voice_Menu_ChargeReadySubtitle"			"ÜberTöltésre készen! (100%)"
+"Voice_Menu_ChargeAlmostReadySubtitle"		"ÜberTöltésre majdnem készen (%s1%)"
+"Voice_Menu_ChargeNotReadySubtitle"			"Az ÜberTöltés nincs kész! (%s1%)"
+
+"Voice_Menu_SingleChargeReadySubtitle"		"ÜberTöltésre készen! (%s1 töltés)"
+"Voice_Menu_MultipleChargesReadySubtitle"	"ÜberTöltésre készen! (%s1 töltés)"
 
 // ----------------------------------------------------------------
 // Class tips
@@ -516,7 +519,7 @@
 // Gunboats
 "TF_Weapon_Gunboats"				"Az Acélbetétes"
 "TF_Weapon_Gunboats_Desc_Soldier"	"Acéllal bélelt cipők! Tökéletes annak, aki csalni próbál a hadsereg kiképzőtesztjén."
-"TF_Weapon_Gunboats_Desc_Demoman"	"Annyira jó a bakancs, hogy észre se veszed a csavarokat a lábadban."
+"TF_Weapon_Gunboats_Desc_Demoman"	"Olyan jó a csizma, hogy észre se veszed a csavarokat a lábadban."
 
 // ----------------------------------------------------------------
 // Death & Taxes weapon strings
@@ -678,7 +681,7 @@
 "Attrib_MeleeTakenBecomesCritWearer"				"Krit elszenvedése közelharci sebzésből a viselőn"
 "Attrib_MoveSpeed_Bonus_Cloaked"					"+%s1%-kal gyorsabb mozgási sebesség álcázva"
 "Attrib_LoseCloakOnDamage"							"-%s1% álca mikor álca alatt sebeznek"
-"Attrib_TranqOnHit"									"Találatkor: Az célpont színvak lesz és a mozgási és tüzelési sebessége csökken %s1 másodpercig"
+"Attrib_TranqOnHit"									"Találatkor: A célpont színvak lesz és a mozgási és tüzelési sebessége csökken %s1 másodpercig"
 "Attrib_FishwhackerSweep"							"A közeli ellenfelek visszalökődnek"
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Az ön-visszalökést befolyásolja a sebzésnövelés"
 "Attrib_ApplySelfKnockbackSwing"					"Visszafele ható ön-visszalökés hintázáskor"
@@ -769,7 +772,7 @@
 "Attrib_Coilgun"									"A teljesen feltöltött lövések lepattannak a falakról és felrobban a kezedben túltöltéskor"
 "Attrib_DamageAffectedByCharge"						"A sebzés értéke függ a jelenlegi töltöttségi szinttől"
 "Attrib_JumpPadNoUpgrade"							"Az ugratókat nem lehet fejleszetni"
-"Attrib_AltFire_HasteBoost"							"Alternatív tűz: gyorsítsd fel csapattársaidat"
+"Attrib_AltFire_HasteBoost"							"Alternatív tűz: csapattársak felgyorsítása"
 "Attrib_AltFire_UberBubble"							"Alternatív tűz: eszköz kilövése, amely sérhetetlenséget ad egy burokban"
 
 // ----------------------------------------------------------------
@@ -884,10 +887,10 @@ Csak dicsőséges kézitusa és kardvívás!"
 // ----------------------------------------------------------------
 
 "Gametype_CTF_Penguin"		"Pingvinrablás" // We have fun here
-"Gametype_Domination"		"Hatalom"
-"Gametype_MedDomination"	"Hatalom (Középkori)"
+"Gametype_Domination"		"Uralom"
+"Gametype_MedDomination"	"Uralom (Középkori)"
 "Gametype_KOTF"				"A Zászló Királya"
-"Gametype_TD"				"Terület-hatalom"
+"Gametype_TD"				"Terület-uralom"
 "Gametype_VIP"				"VIP"
 "Gametype_VIPRace"			"VIP-verseny"
 
@@ -897,14 +900,14 @@ Csak dicsőséges kézitusa és kardvívás!"
 "Gametype_AttackDefense_FourTeam"	"Támadó / Védekező (Négy-Csapatos)"
 "Gametype_CP_FourTeam"				"Ellenőrzőpontok (Négy-Csapatos)"
 "Gametype_CTF_FourTeam"				"Zászlórablás (Négy-Csapatos)"
-"Gametype_Domination_FourTeam"		"Hatalom (Négy-Csapatos)"
-"Gametype_MedDomination_FourTeam"	"Hatalom (Négy-Csapatos Középkori)"
+"Gametype_Domination_FourTeam"		"Uralom (Négy-Csapatos)"
+"Gametype_MedDomination_FourTeam"	"Uralom (Négy-Csapatos Középkori)"
 "Gametype_KOTF_FourTeam"			"A Zászló Királya (Négy-Csapatos)"
 "Gametype_Koth_FourTeam"			"A Hegy Királya (Négy-Csapatos)"
 "Gametype_Escort_FourTeam"			"Bomba (Négy-Csapatos)"
 "Gametype_EscortRace_FourTeam"		"Bombaverseny (Négy-Csapatos)"
 "Gametype_SD_FourTeam"				"Különleges küldemény (Négy-Csapatos)"
-"Gametype_TD_FourTeam"				"Terület-hatalom (Négy-Csapatos)"
+"Gametype_TD_FourTeam"				"Terület-uralom (Négy-Csapatos)"
 "Gametype_Training_FourTeam"		"Kiképzés mód (Négy-Csapatos)"
 "Gametype_VIP_FourTeam"				"VIP (Négy-Csapatos)"
 "Gametype_VIPRace_FourTeam"			"VIP-verseny (Négy-Csapatos)"
@@ -943,7 +946,7 @@ A BLU csapat meg tudja állítani a foglalás állapotát ha nincs jelen a VIP."
 "vip_setup_goal_defense"	"Öld meg az ellenséges csapat VIP-ját, hogy megakadályozd a menekülőzóna elérésében."
 
 "TF_VIP_Assigned"				"%s1 mostantól a VIP!"
-"TF_VIP_Tutorial_Annotation_2"	"Védő erősítést biztosít a hozzá közel levő játékosoknak és\nideiglenes mini-kritet tud adni az egyik csapattársának!"
+"TF_VIP_Tutorial_Annotation_2"	"Védő erősítést biztosít a hozzá közel levő játékosoknak és\nideiglenes erősítést tud adni az egyik csapattársának!"
 "TF_VIP_Tutorial_Annotation_3"	"De tartsd észben azt, hogy az ő élete fontosabb mint a tiéd, szóval ne hagyd meghalni!"
 
 "Cant_cap_civilian_only"		"Csak a VIP\n foglalhatja el ezt a pontot."
@@ -1505,7 +1508,7 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_NAME"					"Hármas ügynök"
 "TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_DESC"					"Döfj le mind a három ellenséges csapatból egy játékost egyetlen Négy-Csapatos körben."
 "TF2C_ACHIEVEMENT_HOLD_ALLPOINTS_DOMINATION_NAME"		"Totális hatalom"
-"TF2C_ACHIEVEMENT_HOLD_ALLPOINTS_DOMINATION_DESC"		"Legyen az összes pont a csapatod tulajdonában egy Hatalom körben."
+"TF2C_ACHIEVEMENT_HOLD_ALLPOINTS_DOMINATION_DESC"		"Legyen az összes pont a csapatod tulajdonában egy Uralom körben."
 "TF2C_ACHIEVEMENT_SHAME_NAME"							"Szegénységi bizonyítvány"
 "TF2C_ACHIEVEMENT_SHAME_DESC"							"Ess áldozatul az ellenséges VIP-nak. Ezennel meg lettél bélyegezve."
 "TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_NAME"				"Romboló kritika"
