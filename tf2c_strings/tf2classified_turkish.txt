@@ -10,8 +10,8 @@
 // Channels
 "Channel_All"			"HERKESE"
 "Channel_Team"			"TAKIMA"
-"Switch_All"			"(TAKIMA değiştirmek için TAB)"
-"Switch_Team"			"(HERKESE değiştirmek için TAB)"
+"Switch_All"			"(TAKIMA değiştirmek için TAB tuşu)"
+"Switch_Team"			"(HERKESE değiştirmek için TAB tuşu)"
 
 // Chat Prefixes
 "Chat_All"				"%s1: %s2"
@@ -633,7 +633,7 @@
 "TF_Meter_Dynamite"	"DİNAMİT"
 "TF_Meter_Harvest"	"BİÇME"
 "TF_Meter_LunchBox"	"BESLENME"
-"TF_Meter_Therapy"	"TEDAVİ"
+"TF_Meter_Therapy"	"TERAPİ"
 
 // ----------------------------------------------------------------
 // Buildings
@@ -1235,8 +1235,8 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 // Scoreboard Options
 "TF_Enable"								"Etkinleştir"
 "TF_Disable"							"Devre Dışı Bırak"
-"TF_RightClick_Enable"					"Etkinleştirmek için Sağ Tıkla"
-"TF_RightClick_Enable_Mouse"			"Fareyi Etkinleştirmek için Sağ Tıkla"
+"TF_RightClick_Enable"					"Sağ Tıklayarak Etkinleştir"
+"TF_RightClick_Enable_Mouse"			"Sağ Tıklayarak Fareyi Etkinleştir"
 
 // UI options
 "TF_Open_Charinfo"						"Karakter ekipmanını aç"
@@ -1260,7 +1260,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF2c_OptionCategory_Keyboard"			"KLAVYE"
 
 "TF2c_OptionCategory_Graphics"			"GRAFİKLER"
-"TF2c_OptionCategory_Video"				"VIDEO"
+"TF2c_OptionCategory_Video"				"VİDEO"
 
 "TF2c_OptionCategory_Volume"			"SES SEVİYESİ"
 "TF2c_OptionCategory_Device"			"CİHAZ"
@@ -1597,6 +1597,8 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "Winpanel_RedMVPs"			                "RED takımının en iyileri:"
 "Winpanel_WinningCapture"	                "Kazandıran ele geçirme: %s1"
 "TF_Arena_Winpanel_TimeAliveThisRound"		"Yaşam sür.:"
+
+"Hud_Menu_Spy_Minus_Toggle"				"'%disguiseteam%' ya da '%reload%' Tuşu Takımı Değiştirir"
 
 "Pipeline_cap_1_red"			"RED'in ilk Kontrol Noktası"
 "Pipeline_cap_1_blue"			"BLU'nun ilk Kontrol Noktası"
