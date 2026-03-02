@@ -193,9 +193,9 @@
 "Tip_1_2"		"Scout iken, kontrol noktalarını diğer sınıflara kıyasla iki kat daha hızlı ele geçirirsin."
 "Tip_1_3"		"Scout iken, hızın diğer sınıflardan daha üstündür. Düşmanların ilgisini çek ve hızla kaç!"
 // Stock
-"Tip_1_4"		"Scout iken, Çifte'n yakın mesafede ölümcül hasar verir. Ciddi hasar vermek için düşmanlarınla arandaki açıklığı kapat."
-"Tip_1_5"		"Scout iken, Tabanca'n uzak mesafedeki düşmanları yere indirmek için çok iyidir."
-"Tip_1_6"		"Scout iken, Sopa'n diğer yakın dövüş silahlara kıyasla daha az hasar verir fakat daha hızlı savrulur."
+"Tip_1_4"		"Scout iken, Çifte çok kısa mesafeden ölümcüldür. Ciddi hasar vermek için düşmanlarınla arandaki açıklığı kapat."
+"Tip_1_5"		"Scout iken, Tabanca uzak mesafedeki düşmanları ortadan kaldırmak için çok iyidir."
+"Tip_1_6"		"Scout iken, Sopa diğer yakın dövüş silahlara kıyasla daha az hasar verir fakat daha hızlı savrulur."
 // Death & Taxes
 "Tip_1_7"		"Scout iken, Çivi Tabancası epey iyi hasar verir, uzaktan bile. Hareket halinde ol ve atışlarını kavisli yap."
 "Tip_1_8"		"Scout iken, Çivi Tabancası ile Taretleri ortadan kaldırmak çocuk oyuncağıdır. Zorlu Taret yuvalarıyla karşılaştığın zaman kullan."
@@ -249,8 +249,8 @@
 "Tip_4_4"		"Demoman iken, direkt çatışmada Bomba Atar kullan. Kullandığın bombalar ilk olarak yere çarpmadığı sürece düşmana temas ettiğinde patlar."
 "Tip_4_5"		"Demoman iken, Yapışkan Bomba Atar kullanırken ateş tuşuna ne kadar uzun süre basarsan bomban o kadar uzağa gider."
 "Tip_4_6"		"Demoman iken, yapışkan bombalarının farkedilmesini zorlaştırmak için duvarlara ve tavanlara yerleştir."
-"Tip_4_7"		"Demoman iken, Şişe'n düşman bölgesine patlama zıplaması yaptıktan sonra göğüs göğüse çarpışmalarda kullanılabilir."
-"Tip_4_8"		"Demoman iken, Şişe'n kırılsa da kırılmasa da aynı hasarı verir."
+"Tip_4_7"		"Demoman iken, Şişe, düşman bölgesine patlama zıplaması yaptıktan sonra göğüs göğüse çarpışmalarda kullanılabilir."
+"Tip_4_8"		"Demoman iken, Şişe, kırılsa da kırılmasa da aynı hasarı verir."
 // Death & Taxes
 "Tip_4_9"		"Demoman iken, Dinamit Paketi'ni düşmanları ortadan kaldırmak için kalabalık kontrol noktalarına fırlat."
 "Tip_4_10"		"Demoman iken, Dinamit Paketi düşman Engineerlar tarafından devre dışı bırakılabilir. Taret yuvalarına fırlatırkan düşünceli ol."
@@ -279,7 +279,7 @@
 "Tip_5_11"		"Medic iken, Kritzkrieg iyileştirdiğin kişiye geçici olarak kritik vuruşlar verir. Bunu güçlü sınıflarada ve düşmanların yoğun olduğu bölgelerde kullan."
 "Tip_5_12"		"Medic iken, Überspritze'yi kullanırken sağlığına dikkat et. Onunla kuşandığın zaman maksimum sağlığın 10 azalır."
 "Tip_5_13"		"Medic iken, Şok Terapisi şarjı ne kadar yüksekse o kadar fazla hasar verir. Şarj düşmanlara isabet hâlinde tükenir."
-"Tip_5_14"		"Medic iken, Şok Terapisi şarjı tamken takım arkadaşlarını tamamen iyileştirebilir, fakat senin ana iyileştirme oranını düşürür."
+"Tip_5_14"		"Medic iken, Şok Terapisi, genel iyileştirme oranına karşılık, tam şarjlıyken takım arkadaşlarını tamamen iyileştirmek için kullanılabilir."
 // Double Down
 "Tip_5_15"		"Medic iken, Gençleştirici büyük halde gruplanmış takım arkadaşlarını iyileştirmekte aşırı derecede kullanışlıdır. Arttırılmış iyileşim ve ÜberŞarj bonusu için direkt isabetler hedefle."
 "Tip_5_16"		"Medic iken, Gençleştirici'nin ÜberŞarjı geçici olan bir ölümsüzlük kalkanı fırlatır, içine giren herhangi takım arkadaşın hasardan muaf olur."
@@ -292,11 +292,11 @@
 "Tip_6_3"		"Heavy iken, diğer sınıflara göre çok yavaşsın. Daha haraketli sınıflarla çatışmaya girerken düşünceli ol."
 "Tip_6_4"		"Heavy iken, harika bir Medic dostusun. Medic'inin seni iyileştirebilmesi için onun görüş alanında kalmayı unutma."
 "Tip_6_5"		"Heavy iken, Spylar için birincil bir hedefsin. Onları uzak tutmak için cephaneliğini kullan, ve arkana sıkça göz atmayı unutma."
-"Tip_6_6"		"Heavy iken, %attack2% tuşunu basılı tutarak Minigun'ın veya Uçaksavar Topu'nun namlusunu döndür. Yaklaşan düşmanlar için hazır ol!"
+"Tip_6_6"		"Heavy iken, %attack2% tuşunu basılı tutarak Minigun'ının ya da Uçaksavar Topu'nun namlusunu döndür. Yaklaşan düşmanlar için hazır ol!"
 // Stock
 "Tip_6_7"		"Heavy iken, Minigun'ın çok fazla cephane harcar. Cephane yenilemek için cephane kutuları ve düşen silahları topla."
 "Tip_6_8"		"Heavy iken, havadayken Minigun'ını döndürmek seni yavaşlatmaz. Bu şekilde köşe başlarında düşmanlarına sürpriz saldırılar yapabilirsin!"
-"Tip_6_9"		"Heavy iken, Av Tüfeği'n yüksek ağır hasar verebilir, ve Minigun'ının namlusunu döndürmeye kıyasla senin saldırırken daha hızlı hareket etmeni sağlar."
+"Tip_6_9"		"Heavy iken, Av Tüfeği'n yüksek ani hasar verebilir, ve Minigun'ının namlusunu döndürmeye kıyasla senin saldırırken daha hızlı hareket etmeni sağlar."
 "Tip_6_10"		"Heavy iken, yüksek sağlığın yakın dövüşde neredeyse her zaman kazanmanı sağlar. Yumruklarını kullanmaktan çekinme!"
 // Death & Taxes
 "Tip_6_11"		"Heavy iken, Sandviç'ini yiyebileceğin güvenli bir yer bul, yoksa ziyafetin kaba bir şekilde bölünebilir."
@@ -326,7 +326,7 @@
 "Tip_7_11"		"Pyro iken, İşaret Fişeği çıkardığın an yanan düşman Pyrolara kritik hasar verebilecek çok düşük bir süreye sahiptir."
 // Fight or Flight
 "Tip_7_12"		"Pyro iken, İkiz Namlu hedefinle senin arandaki açıklığı kapatmak için kullanılabilir. Kendini düşmanlarının üstüne salmak için kullan!"
-"Tip_7_13"		"Pyro iken, İkiz Namlu, Av Tüfeği kadar güvenli hasar vermez. Eğer bir karşılaşmada yeniliyorsan, kendini kaçışta geriye itmek için kullan!"
+"Tip_7_13"		"Pyro iken, İkiz Namlu, Av Tüfeği kadar güvenilir hasar vermez. Eğer bir karşılaşmada yeniliyorsan, kendini kaçışta geriye itmek için kullan!"
 "Tip_7_14"		"Pyro iken, Biçerdöver bir adet kesin kritik vuruşu biriktirebilir, ayrıca düşmanları yakarak iyileşmenede olanak sağlar."
 "Tip_7_15"		"Pyro iken, Biçerdöver'i kuşanmışken öldüğün zaman ateşe verdiğin herhangi bir düşman söndürülür."
 
@@ -361,7 +361,7 @@
 "Tip_9_4"		"Engineer iken, yapılarının seviyelerini yükseltmeyi unutma. Seviyesi yükselmiş yapılar daha verimli bir şekilde sen ve takımına yardımcı olabilir!"
 "Tip_9_5"		"Engineer iken, bir yapıyı plan halindeyken %attack2% tuşuna basarak döndürebilirsin. Taret ve Işınlayıcıları takım arkadaşlarına daha faydalı olacak bir şekilde yönlendir!"
 // Stock
-"Tip_9_6"		"Engineer iken, Tabanca'nın çok fazla yedek mermisi vardır. Düşmanları Taret'ine yönlendirmek için kullan, ya da daha ofansif bir yaklaşımda bulun."
+"Tip_9_6"		"Engineer iken, Tabanca'nın çok fazla yedek mermisi vardır. Düşmanları Taret'ine yönlendirmek için kullan, ya da daha saldırgan bir yaklaşımda bulun."
 "Tip_9_7"		"Engineer iken, düşmanların fırlattığı Dinamit Paketlerini İngiliz Anahtarı ile etkisiz hale getirebilirsin."
 "Tip_9_8"		"Engineer iken, İngiliz Anahtarı ile dost yapılarına vurmak onları tamir eder ve günçlendirir."
 "Tip_9_9"		"Engineer iken, Kurulum PDA'yı kullanarak Taret ve diğer destekleyici yapıları kurabilirsin."
@@ -376,7 +376,7 @@
 "Tip_9_17"		"Engineer iken, Bobin Tabancası'ndan çıkan tam şarjlı atışlar duvarlardan seker ve daha fazla hasar verir."
 "Tip_9_18"		"Engineer iken, Bobin Tabancası'nı fazla şarj edersen patlar. Bunu önceden erişilmez bölgelere ulaşmak için kullanabilirsin."
 // Fight or Flight
-"Tip_9_19"		"Engineer iken, Trambolinler sen ve takımının yüksek bölgelere erişmesini sağlar. Onları daha az hareketli takım arkadaşlarının tepelere ulaşmaşı için kur!"
+"Tip_9_19"		"Engineer iken, Trambolinler senin ve takımının yüksek bölgelere erişmesini sağlar. Onları daha az hareketli takım arkadaşlarının tepelere ulaşmaşı için kur!"
 "Tip_9_20"		"Engineer iken, Trambolinler takım akradaşlarının ileriye büyük bir ivmeyle zıplamalarını sağlar. Hızlı müdaheleye olanak sağlayan açık alanlara yerleştir."
 
 // Civilian
@@ -571,7 +571,7 @@
 "TF_Weapon_TwinBarrel_Desc"	"(Satış sonrası modifikasyon garantiyi geçersiz kılar.)"
 // Anti-Aircraft Cannon
 "TF_Weapon_AntiAircraftCannon"		"Uçaksavar Topu"
-"TF_Weapon_AntiAircraftCannon_Desc"	"Anneciğine Heavy, senin hangi parçanı yollamalı acaba?"
+"TF_Weapon_AntiAircraftCannon_Desc"	"Anneciğine Heavy, senin hangi parçanı yollasın acaba?"
 // PDA: Jump Pad
 "TF_Weapon_PDAJumpPad"		"PDA: Trambolin"
 "TF_Weapon_PDAJumpPad_Desc"	"Güven bana adamım. Bu senin aklını uçuracak."
@@ -1094,10 +1094,10 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "Winpanel_Teams1"	"TAKIMLAR"
 "Winpanel_Teams2"	"Takımlar"
 
-"Winpanel_TeamWins"		"%s1 TAKIMI KAZANDI!"
-"Winpanel_TeamLost"		"%s1 TAKIMI KAYBETTİ!"
-"Winpanel_TeamAdvances"	"%s1 TAKIMI BÖLGEYİ ELE GEÇİRDİ"
-"Winpanel_TeamDefends"	"%s1 TAKIMI SAVUNMADA!"
+"Winpanel_TeamWins"		"%s1 %s2 KAZANDI!"
+"Winpanel_TeamLost"		"%s1 %s2 KAYBETTİ!"
+"Winpanel_TeamAdvances"	"%s1 %s2 BÖLGEYİ ELE GEÇİRDİ"
+"Winpanel_TeamDefends"	"%s1 %s2 SAVUNMADA!"
 
 "WinPanel_Green_Team_Wins"	"GRN Takımı Kazandı"
 "WinPanel_Yellow_Team_Wins"	"YLW Takımı Kazandı"
@@ -1122,7 +1122,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 // Main Menu
 // ----------------------------------------------------------------
 
-"TF_Menu_Welcome"			"Hoş geldiniz,"
+"TF_Menu_Welcome"			"Tekrar hoş geldin,"
 "TF_Menu_Name"				"%playername%!"
 
 "TF_Menu_HideName"			"[GİZLİ]"
@@ -1593,8 +1593,12 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "game_spawn_asrandom"		"*Rastgele bir sınıf olarak canlanacaksın"
 "game_respawn_asrandom"		"*Rastgele bir sınıf olarak canlanacaksın"
 
+"Winpanel_Team1"			"TAKIMI"
+"Winpanel_Team2"			"Takımı"
+
 "Winpanel_BlueMVPs"                         "BLU takımının en iyileri:"
 "Winpanel_RedMVPs"			                "RED takımının en iyileri:"
+"Winpanel_TopPlayers"			            "En iyi oyuncular:"
 "Winpanel_WinningCapture"	                "Kazandıran ele geçirme: %s1"
 "TF_Arena_Winpanel_TimeAliveThisRound"		"Yaşam sür.:"
 
