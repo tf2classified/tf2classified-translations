@@ -190,12 +190,12 @@
 "Tip_1_Count"	"10"
 // Generic
 "Tip_1_1"		"Scout iken, havadayken iki kere zıplayarak hızla yönünü değiştirebilirsin."
-"Tip_1_2"		"Scout iken, kontrol noktalarını diğer sınıflara kıyasla iki kat daha hızlı ele geçirirsin."
+"Tip_1_2"		"Scout iken, kontrol noktalarını diğer sınıflardan iki kat daha hızlı ele geçirirsin."
 "Tip_1_3"		"Scout iken, hızın diğer sınıflardan daha üstündür. Düşmanların ilgisini çek ve hızla kaç!"
 // Stock
-"Tip_1_4"		"Scout iken, Çifte çok kısa mesafeden ölümcüldür. Ciddi hasar vermek için düşmanlarınla arandaki açıklığı kapat."
-"Tip_1_5"		"Scout iken, Tabanca uzak mesafedeki düşmanları ortadan kaldırmak için çok iyidir."
-"Tip_1_6"		"Scout iken, Sopa diğer yakın dövüş silahlara kıyasla daha az hasar verir fakat daha hızlı savrulur."
+"Tip_1_4"		"Scout iken, Çifte'n çok kısa mesafeden ölümcüldür. Ciddi hasar vermek için düşmanlarınla arandaki açıklığı kapat."
+"Tip_1_5"		"Scout iken, Tabanca'n uzak mesafedeki düşmanları ortadan kaldırmak için çok iyidir."
+"Tip_1_6"		"Scout iken, Sopa'n diğer yakın dövüş silahlara kıyasla daha az hasar verir fakat daha hızlı savrulur."
 // Death & Taxes
 "Tip_1_7"		"Scout iken, Çivi Tabancası epey iyi hasar verir, uzaktan bile. Hareket halinde ol ve atışlarını kavisli yap."
 "Tip_1_8"		"Scout iken, Çivi Tabancası ile Taretleri ortadan kaldırmak çocuk oyuncağıdır. Zorlu Taret yuvalarıyla karşılaştığın zaman kullan."
@@ -276,7 +276,7 @@
 "Tip_5_9"		"Medic iken, ÜberŞarjla hem kendin hem de iyileştirdiğin kişi bir süreliğine ölümsüz olur."
 "Tip_5_10"		"Medic iken, Kemik Testeresi'ni takım arkadaşlarından ayrı kaldığın zamanlarda kendini savunmak için kullanabilirsin."
 // Death & Taxes
-"Tip_5_11"		"Medic iken, Kritzkrieg iyileştirdiğin kişiye geçici olarak kritik vuruşlar verir. Bunu güçlü sınıflarada ve düşmanların yoğun olduğu bölgelerde kullan."
+"Tip_5_11"		"Medic iken, Kritzkrieg iyileştirdiğin kişiye geçici olarak kritik vuruşlar verir. Bunu güçlü sınıflarda ve düşmanların yoğun olduğu bölgelerde kullan."
 "Tip_5_12"		"Medic iken, Überspritze'yi kullanırken sağlığına dikkat et. Onunla kuşandığın zaman maksimum sağlığın 10 azalır."
 "Tip_5_13"		"Medic iken, Şok Terapisi şarjı ne kadar yüksekse o kadar fazla hasar verir. Şarj düşmanlara isabet hâlinde tükenir."
 "Tip_5_14"		"Medic iken, Şok Terapisi, genel iyileştirme oranına karşılık, tam şarjlıyken takım arkadaşlarını tamamen iyileştirmek için kullanılabilir."
@@ -468,7 +468,7 @@
 "TF_Weapon_GrenadeLauncher_Desc"	"Bu işi bana bırak, delikanlı."
 // Stickybomb Launcher
 "TF_Weapon_StickybombLauncher"		"Yapışkan Bomba Atar"
-"TF_Weapon_StickybombLauncher_Desc"	"Gerekirse onları bizzat kendim doğrudan cennete uçururum."
+"TF_Weapon_StickybombLauncher_Desc"	"Gerekirse onları bizzat kendim doğrudan cennete kadar uçururum."
 // Flame Thrower
 "TF_Weapon_FlameThrower"		"Alev Silahı"
 "TF_Weapon_FlameThrower_Desc"	"İşler kızışmaya başlıyor..."
@@ -545,10 +545,10 @@
 "TF_Weapon_TranquilizerGun_Desc"	"Rüyalarında, chéri."
 // Dynamite Pack
 "TF_Weapon_DynamitePack"		"Dinamit Paketi"
-"TF_Weapon_DynamitePack_Desc"	"Senden geriye sadece bölük parçalar kalacak."
+"TF_Weapon_DynamitePack_Desc"	"Seni parça parça toplamak zorunda kalacaklar."
 // Coilgun
 "TF_Weapon_Coilgun"			"Bobin Tabancası"
-"TF_Weapon_Coilgun_Desc"	"Biftek yok, ama bol miktarda cızırtı var."
+"TF_Weapon_Coilgun_Desc"	"Biftek yok, fakat bolca cızırtı var."
 // Mine Layer
 "TF_Weapon_MineLayer"		"Mayın Döşeyici"
 "TF_Weapon_MineLayer_Desc"	"Aye, gözünü dört aç! Heh..."
@@ -580,7 +580,7 @@
 "TF_Weapon_Harvester_Desc"	"Çanlar kimin için çalıyor diye sormayın."
 // Brick
 "TF_Weapon_Brick"		"Tuğla"
-"TF_Weapon_Brick_Desc"	"O KADAR yavaş olduğunu düşünmemiştim."
+"TF_Weapon_Brick_Desc"	"Senin O KADAR DA yavaş olduğunu düşünmemiştim."
 
 // ----------------------------------------------------------------
 // Double Down weapon strings
