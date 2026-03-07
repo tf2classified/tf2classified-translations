@@ -175,10 +175,13 @@
 // Voice Menu
 // ----------------------------------------------------------------
 
-"Voice_Menu_ChargeReady"				"(МЕДИК) статус убер-заряда"
+"Voice_Menu_ChargeReady"				"(МЕДИК) состояние убер-заряда"
 "Voice_Menu_ChargeReadySubtitle"		"Убер-заряд готов! (100%)"
 "Voice_Menu_ChargeAlmostReadySubtitle"	"Убер-заряд почти готов (%s1%)"
 "Voice_Menu_ChargeNotReadySubtitle"		"Убер-заряд не готов! (%s1%)"
+
+"Voice_Menu_SingleChargeReadySubtitle"		"Убер-заряд готов! (%s1 заряд)"
+"Voice_Menu_MultipleChargesReadySubtitle"	"Убер-заряд готов! (%s1 заряда)"
 
 // ----------------------------------------------------------------
 // Class tips
@@ -944,7 +947,7 @@
 "vip_setup_goal_defense"	"Убейте вражеского VIP, чтобы не дать ему достигнуть зоны эвакуации."
 
 "TF_VIP_Assigned"				"%s1 теперь VIP!"
-"TF_VIP_Tutorial_Annotation_2"	"Он даёт прибавку к защите ближайшим союзникам и\nможет временно усилить игрока своей команды мини-критами!"
+"TF_VIP_Tutorial_Annotation_2"	"Он даёт прибавку к защите ближайшим союзникам и\nможет временно усилить игрока своей команды!"
 "TF_VIP_Tutorial_Annotation_3"	"Помните, его жизнь важнее вашей, поэтому не дайте ему умереть!"
 
 "Cant_cap_civilian_only"		"Только VIP может\nзахватить эту точку."
@@ -993,7 +996,7 @@
 "vipr_ylw_civ_death"	"VIP жёлтых был убит!"
 "vipr_grn_civ_death"	"VIP зелёных был убит!"
 
-"vipr_escape_zone"	"зона эвакуации"
+"vipr_escape_zone"	"зону эвакуации"
 
 // Territorial Domination
 "default_td_description"			"Цель:
