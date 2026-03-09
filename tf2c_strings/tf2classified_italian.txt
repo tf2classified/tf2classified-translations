@@ -76,24 +76,23 @@
 
 
 // Chat Printouts
+"TF_Team_Balanced"					"%s1 è stato spostato nella squadra %s2"
 
-"TF_Team_Balanced"					"%s1 è stato spostato alla squadra %s2"
-
-"TF_Autobalance_TeamChangeDone"		"Sei stato spostato alla squadra %s1"
+"TF_Autobalance_TeamChangeDone"		"Sei stato spostato nella squadra %s1"
 
 "TF_Name_Change"					"* %s1 ha cambiato nome in %s2"
 
-"TF_Joined_Game"					"%s1 si è unito alla partita."
+"TF_Joined_Game"					"%s1 si è unito alla partita"
 
 "TF_Left_Game"						"%s1 ha abbandonato la partita (%s2)"
 
 "TF_Joined_Team"					"%s1 si è unito alla squadra %s2"
 
-"TF_Joined_AutoTeam" 				"%s1 è stato assegnato automaticamente alla squadra %s2"
+"TF_Joined_AutoTeam" 				"%s1 è stato automaticamente assegnato alla squadra %s2"
 
-"TF_AutoBalanced"					"%s1 è stato spostato alla squadra %s2 per bilanciare il gioco"
+"TF_AutoBalanced"					"%s1 è stato spostato nella squadra %s2 per bilanciare la partita"
 
-"TF_AutoBalance_Warning"			"È stato rilevato che le squadre non sono bilanciate!"
+"TF_AutoBalance_Warning"			"È stato rilevato che le squadre non sono bilanciate"
 
 // ----------------------------------------------------------------
 // Classes
@@ -1426,8 +1425,10 @@ Le squadre che possiedono i Punti di Controllo iniziali sono scelti casualmente 
 "GameUI_DownloadFilter_None"		"Nessun tipo di file"
 "TF_Network_Rate"       			"Frequenza di aggiornamento della rete"
 "TF_Network_Rate_Tip"       		"Imposta la frequenza di aggiornamento della rete, che imposta inversamente la quantità d'interpolazione.\n\nSi consiglia di provare le varie opzioni per trovare la più ottimale per la propria connessione."
+
 // Video
 "TF2c_Option_BloomScale"	            "Scala del Bloom"
+"TF2c_Option_FramerateLimit"		    "Limite Fotogrammi al Secondo"
 
 // ----------------------------------------------------------------
 // Stats
