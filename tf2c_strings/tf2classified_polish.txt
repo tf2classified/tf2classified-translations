@@ -1402,6 +1402,7 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 
 // Video
 "TF2c_Option_BloomScale"		"Intensywność Bloom"
+"TF2c_Option_FramerateLimit"	"Limit klatek na sekundę"
 
 // ----------------------------------------------------------------
 // Stats
