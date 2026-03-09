@@ -1404,7 +1404,8 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_Network_Rate_Tip"       		"Sets network update rate, which inversely sets interpolation amount.\n\nRecommended to try each and see which feels best on your network connection."
 
 // Video
-"TF2c_Option_BloomScale"	"Bloom scale"
+"TF2c_Option_BloomScale"			"Bloom scale"
+"TF2c_Option_FramerateLimit"		"Framerate Limit"
 
 // ----------------------------------------------------------------
 // Stats
