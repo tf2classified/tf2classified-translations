@@ -10,8 +10,8 @@
 // Channels
 "Channel_All"			"HERKESE"
 "Channel_Team"			"TAKIMA"
-"Switch_All"			"(TAKIMA değiştirmek için TAB tuşu)"
-"Switch_Team"			"(HERKESE değiştirmek için TAB tuşu)"
+"Switch_All"			"(TAKIMA değiştirmek için TAB)"
+"Switch_Team"			"(HERKESE değiştirmek için TAB)"
 
 // Chat Prefixes
 "Chat_All"				"%s1: %s2"
@@ -145,7 +145,7 @@
 "game_respawntime_now"			"Canlanmaya hazırlan"
 "game_respawntime_in_sec"		"1 saniye içinde canlanacaksın"
 "game_respawntime_in_secs"		"%s1 saniye içinde canlanacaksın"
-"game_respawntime_stalemate"	"Ani Ölüm sırasında canlanma yoktur"
+"game_respawntime_stalemate"	"Ani Ölüm'de canlanma yoktur"
 "game_respawntime_next_round"	"Bir sonraki rauntta canlanacaksın"
 "TF_Arena_NoRespawning"			"Arena'da canlanma yoktur"
 
@@ -289,7 +289,7 @@
 // Generic
 "Tip_6_1"		"Eğer yaralanırsan, %helpme% tuşuna basarak bir Medic'e seslenebilirsin. Yakınındaki Medicler ihtiyacın için haberdar edilirler."
 "Tip_6_2"		"Heavy iken, diğer sınıflardan daha fazla maksimum sağlığa sahipsin. Ofansif hücumlar yapmaktan çekinme!"
-"Tip_6_3"		"Heavy iken, diğer sınıflara göre çok yavaşsın. Daha haraketli sınıflarla çatışmaya girerken düşünceli ol."
+"Tip_6_3"		"Heavy iken, diğer sınıflardan çok daha yavaşsın. Daha hareketli sınıflarla çatışmaya girerken düşünceli ol."
 "Tip_6_4"		"Heavy iken, harika bir Medic dostusun. Medic'inin seni iyileştirebilmesi için onun görüş alanında kalmayı unutma."
 "Tip_6_5"		"Heavy iken, Spylar için birincil bir hedefsin. Onları uzak tutmak için cephaneliğini kullan, ve arkana sıkça göz atmayı unutma."
 "Tip_6_6"		"Heavy iken, %attack2% tuşunu basılı tutarak Minigun'ının ya da Uçaksavar Topu'nun namlusunu döndür. Yaklaşan düşmanlar için hazır ol!"
@@ -317,7 +317,7 @@
 "Tip_7_3"		"Pyro iken, Alev Silahı düşmanlara ne kadar yakınsan o kadar fazla hasar verir."
 "Tip_7_4"		"Pyro iken, Alev Silahı çok fazla cephane harcar. Cephane yenilemek için cephane kutuları ve düşen silahları topla."
 "Tip_7_5"		"Pyro iken, düşmanları Alev Silahı'nın kısa menzilinde yakalamk için pusu kur. Köşe başlarını ve yüksek bölgeleri kendine avantaj yaratmak için kullan."
-"Tip_7_6"		"Pyro iken, Alev Silahı'nın basınçlı hava patlaması (%attack2%) çok işe yarar bir özelliktir. Onu düşmanları, hatta Über basmış Medicleri ve arkadaşlarını uçurumlardan aşağı itmek veya çevredeki tehlikelere doğru püskürtmek içn kullan!"
+"Tip_7_6"		"Pyro iken, Alev Silahı'nın basınçlı hava patlaması çok kullanışlı bir özelliktir. %attack2% tuşuna basarak düşmanları (ÜberŞarjlılar dahil) uzağa, veya çevresel bir ölüme püskürt!"
 "Tip_7_7"		"Pyro iken, Alev Silahı ile yanan takım arkadaşlarını %attack2% tuşuyla söndürebilirsin."
 "Tip_7_8"		"Pyro iken, eğer düşmanlar Alev Silahı'nın kısa menzilinin ötesine geri çekilirse Av Tüfeği'ni kullan."
 "Tip_7_9"		"Pyro iken, Yangın Baltası yakın mesafede geriye çekilen düsmanlarla ilgilenmekle çok kullanışlıdır."
@@ -327,7 +327,7 @@
 // Fight or Flight
 "Tip_7_12"		"Pyro iken, İkiz Namlu hedefinle senin arandaki açıklığı kapatmak için kullanılabilir. Kendini düşmanlarının üstüne salmak için kullan!"
 "Tip_7_13"		"Pyro iken, İkiz Namlu, Av Tüfeği kadar güvenilir hasar vermez. Eğer bir karşılaşmada yeniliyorsan, kendini kaçışta geriye itmek için kullan!"
-"Tip_7_14"		"Pyro iken, Biçerdöver bir adet kesin kritik vuruşu biriktirebilir, ayrıca düşmanları yakarak iyileşmenede olanak sağlar."
+"Tip_7_14"		"Pyro iken, Biçerdöver bir adet kesin kritik vuruşu biriktirebilir, ayrıca düşmanları yakarak iyileşmene olanak sağlar."
 "Tip_7_15"		"Pyro iken, Biçerdöver'i kuşanmışken öldüğün zaman ateşe verdiğin herhangi bir düşman söndürülür."
 
 // Spy
@@ -665,7 +665,7 @@
 "Attrib_CreatesEarthquakeFallDamage"				"Aktif iken yere düşünce hasar alındığı zaman bir deprem yaratır"
 "Attrib_TakeProjectileCritsAirborne"				"Kuşanana: Havadayken patlayıcı ve özel mermi türlerinden alınan hasar kritik olur"
 "Attrib_Gravity_Active_Increased"					"Aktif iken +%s1% yer çekimi"
-"Attrib_TeleporterJumpPad"							"Işınlayıcı Giriş ve Çıkışı Trambolin ile değiştirir"
+"Attrib_TeleporterJumpPad"							"Işınlayıcı Giriş ve Çıkışı Trambolinler ile değiştirir"
 "Attrib_Mod_Horizontal_Spread"						"Mermilerin geniş ve yatay dağılımı vardır"
 "Attrib_ApplySelfKnockback"							"Atış halinde kendi kendini geri itme uygular"
 "Attrib_WeaponEnemyKnockback_Bonus"					"Düşmanlara karşı +%s1% geri itme"
@@ -685,7 +685,7 @@
 "Attrib_FishwhackerSweep"							"Yakında olan düşmanlara geri itme uygular"
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Kendini geri itme hasar artışından etkilenir"
 "Attrib_ApplySelfKnockbackSwing"					"Savurduğun zaman kendi kendini geri itme uygular"
-"Attrib_AirblastSelfKnockback"						"Hava püskürtmesi kullanıcıya geri itme uygularuser"
+"Attrib_AirblastSelfKnockback"						"Hava püskürtmesi kullanıcıya geri itme uygular"
 "Attrib_ProximityMine"								"Mayınlar düşmanların yakınında patlar"
 "Attrib_AltFire_FizzleMines"						"Alternatif Atış: Mayınları yok et"
 "Attrib_NoStickyChargeTime"							"Yapışkan bomba şarj süresi yok"
@@ -754,7 +754,7 @@
 "Attrib_AddAmmoOnKill"								"Her öldürüşünde %s1 mermi elde et"
 "Attrib_MinicritVsWet"								"Islak düşmanlara karşı %100 mini-kritik hasar"
 "Attrib_TakeMinicritsProjectileAirborne"			"Havadayken özel mermi türlerinden kritik hasar alırsın"
-"Attrib_HealOnSmack"								"Şarj maksimum iken tamamen iyileştirmek için takım arkadaşlarını isabet et"
+"Attrib_HealOnSmack"								"Maksimum şarjdayken isabet edilen takım arkadaşları tamamen iyileştirilir"
 "Attrib_MultDamageCrit"								"Kritik vuruşlar %s1% arttırılmış hasar verir"
 "Attrib_DropTeamHealthPackOnKill"					"Her öldürüşünde bir takım sağlık paketi düşürür"
 "Attrib_PassiveAmmoHolstered"						"Silah indirilmişken pasif olarak cephane doldurur"
@@ -766,13 +766,13 @@
 "Attrib_SapBuildings"								"Düşman yapılarını devre dışı bırakıp canlarını azaltarak yok eder\nKullanıldığı zaman kılığını bozmaz"
 "Attrib_ReloadNotActive"							"Bu silah aktif olmadığında şarjörü değişir"
 "Attrib_Sandvich"									"Yemek 120'ye kadar sağlık puanı kazandırır\nAlternatif Atış: Sandviçi bir arkadaşınla paylaş (Orta sağlık kiti)"
-"Attrib_AltFire_MinicritBoost"						"Alternatif Atış: Takım arkadaşına mini-kritik desteği ver"
+"Attrib_AltFire_MinicritBoost"						"Alternatif Atış: Takım arkadaşına mini-kritik takviyesi ver"
 "Attrib_SplitsIntoBomblets"							"Patladığı zaman 4 küçük bombacık parçasına bölünür"
 "Attrib_DisabledByWrench"							"İngiliz Anahatarı ile etkisiz hale getirilebilir"
 "Attrib_Coilgun"									"Tam sarjlı atışlar duvarlardan seker, ve aşırı sarj olduğu zaman elinde patlar"
-"Attrib_DamageAffectedByCharge"						"Hasar mevcut mesafeden etkilenir"
+"Attrib_DamageAffectedByCharge"						"Hasar mevcut şarjdan etkilenir"
 "Attrib_JumpPadNoUpgrade"							"Trambolinler geliştirilemez"
-"Attrib_AltFire_HasteBoost"							"Alternatif Atış: Takım arkadaşına hız desteği ver"
+"Attrib_AltFire_HasteBoost"							"Alternatif Atış: Takım arkadaşına hız takviyesi ver"
 "Attrib_AltFire_UberBubble"							"Alternatif Atış: Belirli bir yarıçap içinde ölümsüzlük sağlayan bir cihaz fırlat"
 
 // ----------------------------------------------------------------
@@ -978,8 +978,8 @@ Eğer Ani Ölüm meydana gelirse, raundu kazanmak için düşman VIP öldürüle
 "vipr_setup_goal"		"VIP'nizi Kontrol Noktalarına kadar götür. Aynısını düşman VIP'nin yapmasına izin verme!"
 "vipr_setup_goal_4team"	"VIP'nizi Kontrol Noktalarına kadar götür. Aynısını düşman takımların yapmasına izin verme!"
 
-"vipr_cap_wrong_vip"	"DÜŞMAN kontrol noktasını ele geçir, aptal!"
-"vipr_own_civ_death"	"VIP'niz öldürüldü! Onu koruman gerek!"
+"vipr_cap_wrong_vip"	"DÜŞMAN Kontrol Noktasını ele geçir, salak!"
+"vipr_own_civ_death"	"VIP'niz öldürüldü! Onu koruyun!"
 "vipr_their_civ_death"	"Aferin! Düşman VIP öldürüldü!"
 "vipr_cap_a_reset"		"Kontrol Noktası A sıfırlandı!"
 "vipr_cap_b_reset"		"Kontrol Noktası B sıfırlandı!"
@@ -1023,8 +1023,8 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 
 // Arena
 "TF_Arena_Welcome"				"Arena Modu"
-"TF_Arena_Team_SizeIncreased"	"%s1 Takımının üye sayısı %s2 sayısına çıkarıldı."
-"TF_Arena_Team_SizeDecreased"	"%s1 Takımının üye sayısı %s2 sayısına indirildi."
+"TF_Arena_Team_SizeIncreased"	"%s1 takımının üye sayısı %s2 sayısına çıkarıldı."
+"TF_Arena_Team_SizeDecreased"	"%s1 takımının üye sayısı %s2 sayısına indirildi."
 
 // ----------------------------------------------------------------
 // Intro movies
@@ -1324,7 +1324,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"DEMOMAN: Kiklops'un bombalarını iki kere tıklayarak patlat"
-"TF_CyclopsDoubleTap_Tip"        	"Eğer seçiliyse, Kiklops'un bombalarını patlamak için atış tuşunu serbest bırakmak yerine ikinci bir tıklama gerekecek."
+"TF_CyclopsDoubleTap_Tip"        	"Eğer seçiliyse, Kiklops'un bombalarını patlatmak için atış tuşunu serbest bırakmak yerine ikinci bir tıklama gerekecek."
 "TF_SapperAwareness"                "ENGINEER: Bozucu farkındalığı"
 "TF_SapperAwareness_Tip"            "Eğer seçiliyse, yapılarına yerleştirilen bozucu uyarısı alternatif bir renkte olur."
 "TF_SniperBell"					    "SNIPER: Tam şarjda bir ses çal"
@@ -1404,7 +1404,8 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF_Network_Rate_Tip"       		"Ağ güncelleme hızını ayarlar; bu da tersine enterpolasyon miktarını belirler.\n\Hangisinin sizin ağınızda daha iyi hissetirdiğini denemeniz önerilir."
 
 // Video
-"TF2c_Option_BloomScale"	"Bloom etkisi ölçeği"
+"TF2c_Option_BloomScale"	        "Bloom etkisi ölçeği"
+"TF2c_Option_FramerateLimit"		"Kare hızı sınırı"
 
 // ----------------------------------------------------------------
 // Stats
@@ -1448,7 +1449,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "Achievement_Group_3300"	"Haritalar ve Oyun Modları (%s1 / %s2)"
 
 // Launch achievements
-"TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_NAME"			"Planlanmış Bir Kaza"
+"TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_NAME"			"Hesaplanmış Bir Kaza"
 "TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_DESC"			"Bir düşmanı uzak mesafeden yay çizerek ilerleyen bir roketle öldür."
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_NAME"			"Deneyimli Bir Dünya Gezgini"
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_DESC"			"Dustbowl, 2Fort, Badlands (KN), Well (BK), ve Avanti'de oyun tamamla."
@@ -1537,8 +1538,8 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "ServerBrowser_HasPlayersFilter"    "Oyuncu var"
 "ServerBrowser_NoPasswordFilter"    "Parola yok"
 "ServerBrowser_HasTagsFilter"       "Etiket"
-"ServerBrowser_MaxLatencyFilter"    "Maks gecikme"
-"ServerBrowser_MaxPlayersFilter"    "Maks oyuncu"
+"ServerBrowser_MaxLatencyFilter"    "Maks. gecikme"
+"ServerBrowser_MaxPlayersFilter"    "Maks. oyuncu"
 "ServerBrowser_ServerTypeFilter"    "Sunucu tipi"
 "ServerBrowser_MapNameFilter"       "Harita ismi"
 "ServerBrowser_SortBy"              "Sırala:"
@@ -1550,12 +1551,12 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "ServerBrowser_UseLegacyBrowser"    "Eski tarayıcıyı kullan"
 "ServerBrowser_CurrentMapHeading"   "Şuanki harita:"
 "ServerBrowser_TagListHeading"      "Etiket:"
-"ServerBrowser_OfficialDetail"      "Bu sunucu Resmî"
-"ServerBrowser_VerifiedDetail"      "Bu sunucu Onaylanmış"
+"ServerBrowser_OfficialDetail"      "Bu Resmî bir sunucu"
+"ServerBrowser_VerifiedDetail"      "Bu Doğrulanmış bir sunucu"
 "ServerBrowser_Any"                 "Herhangi"
 "ServerBrowser_Official"            "Resmî"
-"ServerBrowser_Verified"            "Onaylanmış"
-"ServerBrowser_OfficialOrVerified"  "Resmî veya Onaylanmış"
+"ServerBrowser_Verified"            "Doğrulanmış"
+"ServerBrowser_OfficialOrVerified"  "Resmî veya Doğrulanmış"
 "ServerBrowser_CustomRules"	        "Özel Kurallar"
 "ServerBrowser_CustomWeapons"       "Özel Silahlar"
 
@@ -1582,10 +1583,10 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF_simple_disguise_menu_option"    "SPY: Basit kılık değiştirme menüsünü kullan"
 "Tooltip_simple_disguise_menu_option" "Basit kılık değiştirme menüsü, kılık değiştirme işlemi için daha fazla sayıda tuşa basmayı gerektiren alternatif bir menüdür, ama sadece 1'den 4'e kadar olan numaralı tuşları kullanır."
 
-"TF_Ubercharge"				"ÜBERŞARJ: %%%charge%"
+"TF_Ubercharge"				    "ÜBERŞARJ: %%%charge%"
 "TF_UberchargeMinHUD"			"%%%charge%"
 
-"TF_AttackDefend"		"Saldırı / Savunma"
+"TF_AttackDefend"		        "Saldırı / Savunma"
 "TF_MedievalAttackDefend"		"Saldırı / Savunma (Orta Çağ)"
 
 "game_spawn_as"				"*%s1 olarak canlanacaksın"
@@ -1602,17 +1603,30 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "Winpanel_WinningCapture"	                "Kazandıran ele geçirme: %s1"
 "TF_Arena_Winpanel_TimeAliveThisRound"		"Yaşam sür.:"
 
-"Hud_Menu_Spy_Minus_Toggle"				"'%disguiseteam%' ya da '%reload%' Tuşu Takımı Değiştirir"
+"Hud_Menu_Build_Cancel"					"İptal Etmek için '%lastinv%' Tuşuna Bas"
 
-"Pipeline_cap_1_red"			"RED'in ilk Kontrol Noktası"
-"Pipeline_cap_1_blue"			"BLU'nun ilk Kontrol Noktası"
-"Pipeline_cap_2_red"			"RED'in ikinci Kontrol Noktası"
-"Pipeline_cap_2_blue"			"BLU'nun ikinci Kontrol Noktası"
-"Pipeline_cap_3_red"			"RED'in son Kontrol Noktası"
-"Pipeline_cap_3_blue"			"BLU'nun son Kontrol Noktası"
+"Pipeline_cap_1_red"	"RED'in ilk Kontrol Noktası"
+"Pipeline_cap_1_blue"	"BLU'nun ilk Kontrol Noktası"
+"Pipeline_cap_2_red"	"RED'in ikinci Kontrol Noktası"
+"Pipeline_cap_2_blue"	"BLU'nun ikinci Kontrol Noktası"
+"Pipeline_cap_3_red"	"RED'in son Kontrol Noktası"
+"Pipeline_cap_3_blue"	"BLU'nun son Kontrol Noktası"
 
-"hightower_cap_red"			"RED'in Kulesi"
-"hightower_cap_blue"			"BLU'nun Kulesi"
+"hightower_cap_red"		"RED'in Kulesi"
+"hightower_cap_blue"	"BLU'nun Kulesi"
+
+"Dustbowl_cap_1_A"		"Birinci Nokta, Etap Bir"
+"Dustbowl_cap_1_B"		"İkinci Nokta, Etap Bir"
+"Dustbowl_cap_2_A"		"Birinci Nokta, Etap İki"
+"Dustbowl_cap_2_B"		"İkinci Nokta, Etap İki"
+"Dustbowl_cap_3_A"		"Birinci Nokta, Etap Üç"
+
+"Goldrush_cap_1_A"		"Birinci Nokta, Etap Bir"
+"Goldrush_cap_1_B"		"İkinci Nokta, Etap Bir"
+"Goldrush_cap_2_A"		"Birinci Nokta, Etap İki"
+"Goldrush_cap_2_B"		"İkinci Nokta, Etap İki"
+"Goldrush_cap_3_A"		"Birinci Nokta, Etap Üç"
+"Goldrush_cap_3_B"		"İkinci Nokta, Etap Üç"
 
 "TF_medigun_autoheal"		"MEDIC: Sıhhi Silah ateş tuşuna basılı tutmadan iyileştirmeye devam eder"
 "Tooltip_medigun_autoheal"	"Eğer seçiliyse, Medic'in Sıhhi Silah'ı sen tekrar ateş tuşuna basana kadar iyileştirdiğin kişiye odaklı kalacak.\n\nEğer seçili değilse, Sıhhi Silah'ın odaklı kalması için ateş tuşunu basılı tutman gerekecek."
@@ -1623,6 +1637,9 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF_ResetStats"			"Sıfırla"
 
 "TF_Boost"				"TAKVİYE"
+
+"Attrib_MaxHealth_Positive"					"Kuşanana +%s1 maksimum sağlık"
+"Attrib_MaxHealth_Negative"					"Kuşanana %s1 maksimum sağlık"
 
 "TF_ScoreBoard_VoteKick"			"Oylama ile At"
 "TF_ScoreBoard_Context_UnMute"	    "Sesini Aç"
