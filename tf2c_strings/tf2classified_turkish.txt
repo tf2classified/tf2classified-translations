@@ -39,7 +39,7 @@
 
 // Sentry consent popup
 "TF_SentryReport_Title"				"Hata Raporları Yolla?"
-"TF_SentryReport_Message"			"TF2 Classified ekibine anonim olarak hata raporları yollamak istermisiniz?"
+"TF_SentryReport_Message"			"TF2 Classified geliştirici ekibine anonim olarak hata raporları yollamak istermisiniz?"
 
 // VIP voting
 "Vote_ChangeCivilian"				"VIP'yi Değiştir"
@@ -145,7 +145,7 @@
 "game_respawntime_now"			"Canlanmaya hazırlan"
 "game_respawntime_in_sec"		"1 saniye içinde canlanacaksın"
 "game_respawntime_in_secs"		"%s1 saniye içinde canlanacaksın"
-"game_respawntime_stalemate"	"Ani Ölüm sırasında canlanma yoktur"
+"game_respawntime_stalemate"	"Ani Ölüm'de canlanma yoktur"
 "game_respawntime_next_round"	"Bir sonraki rauntta canlanacaksın"
 "TF_Arena_NoRespawning"			"Arena'da canlanma yoktur"
 
@@ -174,10 +174,13 @@
 // Voice Menu
 // ----------------------------------------------------------------
 
-"Voice_Menu_ChargeReady"				"(MEDIC) ÜberŞarj Durumu"
-"Voice_Menu_ChargeReadySubtitle"		"ÜberŞarj Hazır! (%100)"
-"Voice_Menu_ChargeAlmostReadySubtitle"	"ÜberŞarj Neredeyse Hazır (%%s1)"
-"Voice_Menu_ChargeNotReadySubtitle"		"ÜberŞarj Hazır Değil! (%%s1)"
+"Voice_Menu_ChargeReady"				    "(MEDIC) ÜberŞarj Durumu"
+"Voice_Menu_ChargeReadySubtitle"		    "ÜberŞarj Hazır! (%100)"
+"Voice_Menu_ChargeAlmostReadySubtitle"	    "ÜberŞarj Neredeyse Hazır (%%s1)"
+"Voice_Menu_ChargeNotReadySubtitle"		    "ÜberŞarj Hazır Değil! (%%s1)"
+
+"Voice_Menu_SingleChargeReadySubtitle"		"ÜberŞarj Hazır! (%s1 şarj)"
+"Voice_Menu_MultipleChargesReadySubtitle"	"ÜberŞarjlar Hazır! (%s1 şarj)"
 
 // ----------------------------------------------------------------
 // Class tips
@@ -187,15 +190,15 @@
 "Tip_1_Count"	"10"
 // Generic
 "Tip_1_1"		"Scout iken, havadayken iki kere zıplayarak hızla yönünü değiştirebilirsin."
-"Tip_1_2"		"Scout iken, kontrol noktalarını diğer sınıflara kıyasla iki kat daha hızlı ele geçirirsin."
+"Tip_1_2"		"Scout iken, kontrol noktalarını diğer sınıflardan iki kat daha hızlı ele geçirirsin."
 "Tip_1_3"		"Scout iken, hızın diğer sınıflardan daha üstündür. Düşmanların ilgisini çek ve hızla kaç!"
 // Stock
-"Tip_1_4"		"Scout iken, Çifte'n yakın mesafede ölümcül hasar verir. Ciddi hasar vermek için düşmanlarınla arandaki açıklığı kapat."
-"Tip_1_5"		"Scout iken, Tabanca'n uzak mesafedeki düşmanları yere indirmek için çok iyidir."
+"Tip_1_4"		"Scout iken, Çifte'n çok kısa mesafeden ölümcüldür. Ciddi hasar vermek için düşmanlarınla arandaki açıklığı kapat."
+"Tip_1_5"		"Scout iken, Tabanca'n uzak mesafedeki düşmanları ortadan kaldırmak için çok iyidir."
 "Tip_1_6"		"Scout iken, Sopa'n diğer yakın dövüş silahlara kıyasla daha az hasar verir fakat daha hızlı savrulur."
 // Death & Taxes
 "Tip_1_7"		"Scout iken, Çivi Tabancası epey iyi hasar verir, uzaktan bile. Hareket halinde ol ve atışlarını kavisli yap."
-"Tip_1_8"		"Scout iken, Çivi Tabancası ile Taret'leri ortadan kaldırmak çocuk oyuncağıdır. Zorlu Taret yuvalarıyla karşılaştığın zaman kullan."
+"Tip_1_8"		"Scout iken, Çivi Tabancası ile Taretleri ortadan kaldırmak çocuk oyuncağıdır. Zorlu Taret yuvalarıyla karşılaştığın zaman kullan."
 // Fight or Flight
 "Tip_1_9"		"Scout iken, Tuğla güvenilir hasar verir ve hedefini geri teptirir. Birisini yerinden fırlat!"
 "Tip_1_10"		"Scout iken, Tuğla uzak mesafeden fırlatıldığında mini-kritik hasar verir."
@@ -204,7 +207,7 @@
 "Tip_2_Count"	"11"
 // Generic
 "Tip_2_1"		"Sniper iken, kritik vuruşlar yapmak için kafaya nişan al."
-"Tip_2_2"		"Sniper iken, %attack2% tuşuna basarak Tüfeğin dürbününü açabilir ya da Altıpatlar Tüfek ile odaklanabilirsin."
+"Tip_2_2"		"Sniper iken, %attack2% tuşuna basarak Tüfeğin dürbününü açabilir ya da Avcının Altıpatları ile odaklanabilirsin."
 // Stock
 "Tip_2_3"		"Sniper iken, Tüfeğin dürbünüyle ne kadar uzun süre nişan alırsan atışın o kadar yüksek hasar verir."
 "Tip_2_4"		"Sniper iken, tam sarjlı bir Tüfek çoğu sınıfı anında kafadan vurarak öldürebilir."
@@ -213,14 +216,14 @@
 // Death & Taxes
 "Tip_2_7"		"Sniper iken, Avcı, isabet hassasiyeti pahasına daha ofansif yakın mesafe çatışmaları için kullanılabılır."
 "Tip_2_8"		"Sniper iken, Avcı, 5 saniyeden daha fazla geri çekildiği halde isabet hassasiyeti kaybeder. %attack2% tuşuna basarak sıfırlayabilirsin."
-"Tip_2_9"		"Sniper iken, Altıpatlar Tüfek çok iyi bir orta mesafe seçeneğidir. Ön saflarda hızla git-gel yaparken yüksek hasar vermek için kullan."
-"Tip_2_10"		"Sniper iken, diğer silahlarına kıyasla Altıpatlar Tüfek ile nişan alırken daha hızlı hareket edersin."
+"Tip_2_9"		"Sniper iken, Avcının Altıpatları çok iyi bir orta mesafe seçeneğidir. Ön saflarda hızla git-gel yaparken yüksek hasar vermek için kullan."
+"Tip_2_10"		"Sniper iken, diğer silahlarına kıyasla Avcının Altıpatları ile nişan alırken daha hızlı hareket edersin."
 "Tip_2_11"		"Sniper iken, Balıkdöver düşmanları geriye savurup kanamalarına sebep olur. Davetsiz misafirleri uzağa itmek için bunu kullan."
 
 // Soldier
 "Tip_3_Count"	"12"
 // Generic
-"Tip_3_1"		"Eğer yaralanırsan, %helpme% tuşuna basarak bir Medic'e seslenebilirsin. Yakınındaki Medic'ler ihtiyacın için haberdar edilirler."
+"Tip_3_1"		"Eğer yaralanırsan, %helpme% tuşuna basarak bir Medic'e seslenebilirsin. Yakınındaki Medicler ihtiyacın için haberdar edilirler."
 "Tip_3_2"		"Soldier iken, roket zıplaması yaparak oldukça yükseklere çıkmak için ayağına zıplamadan önce roket ateşle."
 "Tip_3_3"		"Soldier iken, maksimum yüksekliğe erişmek için roket zıplamasına hazırlanırken çömelmeyi unutma."
 "Tip_3_4"		"Soldier iken, roketleri düşmanın ayaklarına hedefle ki patlama hasarından kaçamasınlar."
@@ -246,11 +249,11 @@
 "Tip_4_4"		"Demoman iken, direkt çatışmada Bomba Atar kullan. Kullandığın bombalar ilk olarak yere çarpmadığı sürece düşmana temas ettiğinde patlar."
 "Tip_4_5"		"Demoman iken, Yapışkan Bomba Atar kullanırken ateş tuşuna ne kadar uzun süre basarsan bomban o kadar uzağa gider."
 "Tip_4_6"		"Demoman iken, yapışkan bombalarının farkedilmesini zorlaştırmak için duvarlara ve tavanlara yerleştir."
-"Tip_4_7"		"Demoman iken, Şişe'n düşman bölgesine patlama zıplaması yaptıktan sonra göğüs göğüse çarpışmalarda kullanılabilir."
-"Tip_4_8"		"Demoman iken, Şişe'n kırılsa da kırılmasa da aynı hasarı verir."
+"Tip_4_7"		"Demoman iken, Şişe, düşman bölgesine patlama zıplaması yaptıktan sonra göğüs göğüse çarpışmalarda kullanılabilir."
+"Tip_4_8"		"Demoman iken, Şişe, kırılsa da kırılmasa da aynı hasarı verir."
 // Death & Taxes
 "Tip_4_9"		"Demoman iken, Dinamit Paketi'ni düşmanları ortadan kaldırmak için kalabalık kontrol noktalarına fırlat."
-"Tip_4_10"		"Demoman iken, Dinamit Paketi düşman Engineer'lar tarafından devre dışı bırakılabilir. Taret yuvalarına fırlatırkan düşünceli ol."
+"Tip_4_10"		"Demoman iken, Dinamit Paketi düşman Engineerlar tarafından devre dışı bırakılabilir. Taret yuvalarına fırlatırkan düşünceli ol."
 "Tip_4_11"		"Demoman iken, Koruyucu Botlar patlama zıplamalarından aldığın hasarı oldukça azaltır. Özellikle pozisyon almak ve hızlı hareket etmek önemli olduğunda onları kullan."
 "Tip_4_12"		"Demoman iken, Mayın Döşeyici düşmanlar çok yaklaşınca otomatik olarak patlayan mayınlar fırlatır. Bunu otomatikleştirilmiş bir savunma için kullan!"
 // Double Down
@@ -266,17 +269,17 @@
 "Tip_5_3"		"Medic iken, hazırlık süresinde ÜberŞarjın çok daha hızlı dolar."
 "Tip_5_4"		"Medic iken, takım arkadaşlarını iyileştirerek ÜberŞarjını doldurabilir ve %attack2% tuşuna basarak kullanabilirsin."
 "Tip_5_5"		"Medic iken, yardım çağrısında bulunan takım arkadaşların için tetikte bekle. Ekrandaki imleçleri takip ederek onları bulabilirsin."
-"Tip_5_6"		"Medic iken, ölümsüzken sen ve iyileştirdiğin kişiler kontrol noktaları veya istihbaratı ele geçiremez."
+"Tip_5_6"		"Medic iken, ÜberŞarjlıyken sen ve iyileştirdiğin kişiler kontrol noktaları veya istihbaratı ele geçiremez."
 // Stock
 "Tip_5_7"		"Medic iken, iğnelerin kavisli ve gecikmeli yol aldığını unutma. İsabet sağlamak için vurmak istediğin hedefin biraz daha yukarısına nişan almalısın."
-"Tip_5_8"		"Medic iken, Sıhhi Silah'ı takım arkadaşlarını iyileştirmek için kullanabilir ve sağlık puanlarını geçici olarak normal sağlıklarının %150'sine kadar arttırabilirsin."
+"Tip_5_8"		"Medic iken, Sıhhi Silah takım arkadaşlarını iyileştirmek için kullanabilir ve sağlık puanlarını geçici olarak normal sağlıklarının %%150'sine kadar arttırabilirsin."
 "Tip_5_9"		"Medic iken, ÜberŞarjla hem kendin hem de iyileştirdiğin kişi bir süreliğine ölümsüz olur."
-"Tip_5_10"		"Medic iken, Kemik Testere'ni takım arkadaşlarından ayrı kaldığın zamanlarda kendini savunmak için kullanabilirsin."
+"Tip_5_10"		"Medic iken, Kemik Testeresi'ni takım arkadaşlarından ayrı kaldığın zamanlarda kendini savunmak için kullanabilirsin."
 // Death & Taxes
-"Tip_5_11"		"Medic iken, Kritzkrieg iyileştirdiğin kişiye geçici olarak kritik vuruşlar verir. Bunu güçlü sınıflarada ve düşmanların yoğun olduğu bölgelerde kullan."
+"Tip_5_11"		"Medic iken, Kritzkrieg iyileştirdiğin kişiye geçici olarak kritik vuruşlar verir. Bunu güçlü sınıflarda ve düşmanların yoğun olduğu bölgelerde kullan."
 "Tip_5_12"		"Medic iken, Überspritze'yi kullanırken sağlığına dikkat et. Onunla kuşandığın zaman maksimum sağlığın 10 azalır."
-"Tip_5_13"		"Medic iken, Şok Tedavisi şarjı ne kadar yüksekse o kadar fazla hasar verir. Şarj düşmanlara isabet hâlinde tükenir."
-"Tip_5_14"		"Medic iken, Şok Tedavisi şarjı tamken takım arkadaşlarını tamamen iyileştirebilir, fakat senin ana iyileştirme oranını düşürür."
+"Tip_5_13"		"Medic iken, Şok Terapisi şarjı ne kadar yüksekse o kadar fazla hasar verir. Şarj düşmanlara isabet hâlinde tükenir."
+"Tip_5_14"		"Medic iken, Şok Terapisi, genel iyileştirme oranına karşılık, tam şarjlıyken takım arkadaşlarını tamamen iyileştirmek için kullanılabilir."
 // Double Down
 "Tip_5_15"		"Medic iken, Gençleştirici büyük halde gruplanmış takım arkadaşlarını iyileştirmekte aşırı derecede kullanışlıdır. Arttırılmış iyileşim ve ÜberŞarj bonusu için direkt isabetler hedefle."
 "Tip_5_16"		"Medic iken, Gençleştirici'nin ÜberŞarjı geçici olan bir ölümsüzlük kalkanı fırlatır, içine giren herhangi takım arkadaşın hasardan muaf olur."
@@ -284,16 +287,16 @@
 // Heavy
 "Tip_6_Count"	"17"
 // Generic
-"Tip_6_1"		"Eğer yaralanırsan, %helpme% tuşuna basarak bir Medic'e seslenebilirsin. Yakınındaki Medic'ler ihtiyacın için haberdar edilirler."
+"Tip_6_1"		"Eğer yaralanırsan, %helpme% tuşuna basarak bir Medic'e seslenebilirsin. Yakınındaki Medicler ihtiyacın için haberdar edilirler."
 "Tip_6_2"		"Heavy iken, diğer sınıflardan daha fazla maksimum sağlığa sahipsin. Ofansif hücumlar yapmaktan çekinme!"
-"Tip_6_3"		"Heavy iken, diğer sınıflara göre çok yavaşsın. Daha haraketli sınıflarla çatışmaya girerken düşünceli ol."
+"Tip_6_3"		"Heavy iken, diğer sınıflardan çok daha yavaşsın. Daha hareketli sınıflarla çatışmaya girerken düşünceli ol."
 "Tip_6_4"		"Heavy iken, harika bir Medic dostusun. Medic'inin seni iyileştirebilmesi için onun görüş alanında kalmayı unutma."
-"Tip_6_5"		"Heavy iken, Spy'lar için birincil bir hedefsin. Onları uzak tutmak için cephaneliğini kullan, ve arkana sıkça göz atmayı unutma."
-"Tip_6_6"		"Heavy iken, %attack2% tuşunu basılı tutarak Minigun'ın veya Uçaksavar Topu'nun namlusunu döndür. Yaklaşan düşmanlar için hazır ol!"
+"Tip_6_5"		"Heavy iken, Spylar için birincil bir hedefsin. Onları uzak tutmak için cephaneliğini kullan, ve arkana sıkça göz atmayı unutma."
+"Tip_6_6"		"Heavy iken, %attack2% tuşunu basılı tutarak Minigun'ının ya da Uçaksavar Topu'nun namlusunu döndür. Yaklaşan düşmanlar için hazır ol!"
 // Stock
 "Tip_6_7"		"Heavy iken, Minigun'ın çok fazla cephane harcar. Cephane yenilemek için cephane kutuları ve düşen silahları topla."
 "Tip_6_8"		"Heavy iken, havadayken Minigun'ını döndürmek seni yavaşlatmaz. Bu şekilde köşe başlarında düşmanlarına sürpriz saldırılar yapabilirsin!"
-"Tip_6_9"		"Heavy iken, Av Tüfeği'n yüksek ağır hasar verebilir, ve Minigun'ının namlusunu döndürmeye kıyasla senin saldırırken daha hızlı hareket etmeni sağlar."
+"Tip_6_9"		"Heavy iken, Av Tüfeği'n yüksek ani hasar verebilir, ve Minigun'ının namlusunu döndürmeye kıyasla senin saldırırken daha hızlı hareket etmeni sağlar."
 "Tip_6_10"		"Heavy iken, yüksek sağlığın yakın dövüşde neredeyse her zaman kazanmanı sağlar. Yumruklarını kullanmaktan çekinme!"
 // Death & Taxes
 "Tip_6_11"		"Heavy iken, Sandviç'ini yiyebileceğin güvenli bir yer bul, yoksa ziyafetin kaba bir şekilde bölünebilir."
@@ -301,37 +304,37 @@
 "Tip_6_13"		"Heavy iken, Sandviç'ini nereye fırlattığına dikkat et. Takım arkadaşların yanı sıra düşmanlar da iyileşmek için yerden kapabilirler!"
 // Fight or Flight
 "Tip_6_14"		"Heavy iken, Uçaksavar Topu yüksek patlama çapı hasarı verir, kalabalık yerler ve köşelerle ilgilenmekle idealdir."
-"Tip_6_15"		"Heavy iken, Uçaksavar Topu havadaki düşmanlara mini-kritik hasar verir. Soldier'ları ya da Trambolin kullanan düşmanları yere devirmek için kullan!"
+"Tip_6_15"		"Heavy iken, Uçaksavar Topu havadaki düşmanlara mini-kritik hasar verir. Bunu Soldierları ya da Trambolin kullanan düşmanları yere devirmek için kullan!"
 "Tip_6_16"		"Heavy iken, Çehov'un Yumruğu her başarılı vuruşunda 3'e kadar bir kritik depolar. Depolanan kritikleri herhangi bir silahta kullanabilirsin!"
 "Tip_6_17"		"Heavy iken, Çehov'un Yumruğu düşman yakın dövüş saldırılarında kesin kritik hasar almana sebep olur. Yakın mesafeli çatışmalarda tedbirli ol."
 
 // Pyro
 "Tip_7_Count"	"15"
 // Generic
-"Tip_7_1"		"Pyro iken, yanmaya ve alev hasarına genel olarak dokunulmazsın. Düşman Pyro'lar ile karşılaştığında ikincil ve yakın dövüş silahlarını kullanarak onları daha hızlı öldürebilirsin."
+"Tip_7_1"		"Pyro iken, yanmaya ve alev hasarına genel olarak dokunulmazsın. Düşman Pyrolar ile karşılaştığında ikincil ve yakın dövüş silahlarını kullanarak onları daha hızlı öldürebilirsin."
 "Tip_7_2"		"Pyro iken, düşmanları ateşe verdikten sonra hızla geri çekilerek onları yanarak ölmekle terk edebilirsin."
 // Stock
 "Tip_7_3"		"Pyro iken, Alev Silahı düşmanlara ne kadar yakınsan o kadar fazla hasar verir."
 "Tip_7_4"		"Pyro iken, Alev Silahı çok fazla cephane harcar. Cephane yenilemek için cephane kutuları ve düşen silahları topla."
 "Tip_7_5"		"Pyro iken, düşmanları Alev Silahı'nın kısa menzilinde yakalamk için pusu kur. Köşe başlarını ve yüksek bölgeleri kendine avantaj yaratmak için kullan."
-"Tip_7_6"		"Pyro iken, Alev Silahı'nın basınçlı hava patlaması (%attack2%) çok işe yarar bir özelliktir. Onu düşmanları, hatta Über basmış Medic'leri ve arkadaşlarını uçurumlardan aşağı itmek veya çevredeki tehlikelere doğru püskürtmek içn kullan!"
+"Tip_7_6"		"Pyro iken, Alev Silahı'nın basınçlı hava patlaması çok kullanışlı bir özelliktir. %attack2% tuşuna basarak düşmanları (ÜberŞarjlılar dahil) uzağa, veya çevresel bir ölüme püskürt!"
 "Tip_7_7"		"Pyro iken, Alev Silahı ile yanan takım arkadaşlarını %attack2% tuşuyla söndürebilirsin."
 "Tip_7_8"		"Pyro iken, eğer düşmanlar Alev Silahı'nın kısa menzilinin ötesine geri çekilirse Av Tüfeği'ni kullan."
 "Tip_7_9"		"Pyro iken, Yangın Baltası yakın mesafede geriye çekilen düsmanlarla ilgilenmekle çok kullanışlıdır."
 // Death & Taxes
-"Tip_7_10"		"Pyro iken, İşaret Fişeği uzak mesafedeki düşmanları ateşe verebilir. Bu, Sniper'lar gibi çok uzakta olan düşmanlar için iyi işe yarar."
-"Tip_7_11"		"Pyro iken, İşaret Fişeği çıkardığın an yanan düşman Pyro'lara kritik hasar verebilecek çok düşük bir süreye sahiptir."
+"Tip_7_10"		"Pyro iken, İşaret Fişeği uzak mesafedeki düşmanları ateşe verebilir. Bu, Sniperlar gibi çok uzakta olan düşmanlar için iyi işe yarar."
+"Tip_7_11"		"Pyro iken, İşaret Fişeği çıkardığın an yanan düşman Pyrolara kritik hasar verebilecek çok düşük bir süreye sahiptir."
 // Fight or Flight
 "Tip_7_12"		"Pyro iken, İkiz Namlu hedefinle senin arandaki açıklığı kapatmak için kullanılabilir. Kendini düşmanlarının üstüne salmak için kullan!"
-"Tip_7_13"		"Pyro iken, İkiz Namlu, Av Tüfeği kadar güvenli hasar vermez. Eğer bir karşılaşmada yeniliyorsan, kendini kaçışta geriye itmek için kullan!"
-"Tip_7_14"		"Pyro iken, Biçerdöver bir adet kesin kritik vuruşu biriktirebilir, ayrıca düşmanları yakarak iyileşmenede olanak sağlar."
+"Tip_7_13"		"Pyro iken, İkiz Namlu, Av Tüfeği kadar güvenilir hasar vermez. Eğer bir karşılaşmada yeniliyorsan, kendini kaçışta geriye itmek için kullan!"
+"Tip_7_14"		"Pyro iken, Biçerdöver bir adet kesin kritik vuruşu biriktirebilir, ayrıca düşmanları yakarak iyileşmene olanak sağlar."
 "Tip_7_15"		"Pyro iken, Biçerdöver'i kuşanmışken öldüğün zaman ateşe verdiğin herhangi bir düşman söndürülür."
 
 // Spy
 "Tip_8_Count"	"15"
 // Generic
 "Tip_8_1"		"Spy iken, Kılık Değiştirme Seti ile düşman kılığına girebilirsin. Dikkatli ol, çünkü hala düşmanlara çarpabilirsin, ve saldırdığında kılığını kaybedersin."
-"Tip_8_2"		"Spy iken, kılık değiştirmişken %helpme% tuşuna basarak düşman Medic'lere seslenebilirsin."
+"Tip_8_2"		"Spy iken, kılık değiştirmişken %helpme% tuşuna basarak düşman Mediclere seslenebilirsin."
 "Tip_8_3"		"Spy iken, kılık değiştirdiğinde düşman gibi davranmaya çalış. Düşman takımın üyelerinin nerede olduklarını gözlemle ve onlardan birinin kılığına gir."
 "Tip_8_4"		"Spy iken, kılık değiştirmişken %reload% tuşuna basmak seni düşman takıma silahını dolduruyormuşsun gibi gösterir."
 "Tip_8_5"		"Spy iken, yavaş olan bir sınıfın kılığına girdiğin zaman %speed% tuşuna basarak normal hızında yürüyebilirsin."
@@ -340,8 +343,8 @@
 // Stock
 "Tip_8_8"		"Spy iken, Altıpatlar sinsi operasyonun senin yolunda gitmediği zamanlar için kullanışlı bir alettir."
 "Tip_8_9"		"Spy iken, Bozucu'nu düşman yapılarını devre dışı bırakıp yok etmek için onların üzerine yerleştir. Bozucu yerleştirirken kılık değişikliğin bozulmaz."
-"Tip_8_10"		"Spy iken, Bozucu, Taret'leri yok etmeden önce devre dışı bırakır. Engineer'a saldırmadan önce Taret'ini boz."
-"Tip_8_11"		"Spy iken, bıçağını düşmanının sırtına saplayarak onu anında öldürebilirsin."
+"Tip_8_10"		"Spy iken, Bozucu, Taretleri yok etmeden önce devre dışı bırakır. Engineer'a saldırmadan önce Taret'ini boz."
+"Tip_8_11"		"Spy iken, Bıçağını düşmanının sırtına saplayarak onu anında öldürebilirsin."
 // Death & Taxes
 "Tip_8_12"		"Spy iken, Yatıştırıcı Silah hedeflerinin hareket etme ve ateşleme hızlarını yavaşlatır. Bu kaçman için bir fırsat oluşturur."
 "Tip_8_13"		"Spy iken, Yatıştırıcı Silahı'nın dartları hedefinin yakın dövüşte kesin kritik hasar almasına sebep olur. Takım arkadaşlarının hedefine birlik olmasına izin ver, ya da tek başına onu öldürmek için git."
@@ -354,27 +357,27 @@
 // Generic
 "Tip_9_1"		"Engineer iken, yapılarını kurmak, tamir etmek ve seviyelerini yükseltmek için metale ihtiyacın vardır. Daha fazla metal elde etme yolu olarak ölen düşmanların silahlarını topla."
 "Tip_9_2"		"Engineer iken, yapılarını korumaktan daha fazlasını yapabilirsin. Çatışmalara yardım etmek ve savunma yapmak için Av Tüfeği ve Tabanca'nı kullan."
-"Tip_9_3"		"Engineer iken, yapılarına Bozucu yerleştiren düşman Spy'lar için gözünü açık tut. Bozucuları sökmek için İngiliz Anahtarı'nı kullan."
+"Tip_9_3"		"Engineer iken, yapılarına Bozucu yerleştiren düşman Spylar için gözünü açık tut. Bozucuları sökmek için İngiliz Anahtarı'nı kullan."
 "Tip_9_4"		"Engineer iken, yapılarının seviyelerini yükseltmeyi unutma. Seviyesi yükselmiş yapılar daha verimli bir şekilde sen ve takımına yardımcı olabilir!"
-"Tip_9_5"		"Engineer iken, bir yapıyı plan halindeyken %attack2% tuşuna basarak döndürebilirsin. Taret ve Işınlayıcı'ları takım arkadaşlarına daha faydalı olacak bir şekilde yönlendir!"
+"Tip_9_5"		"Engineer iken, bir yapıyı plan halindeyken %attack2% tuşuna basarak döndürebilirsin. Taret ve Işınlayıcıları takım arkadaşlarına daha faydalı olacak bir şekilde yönlendir!"
 // Stock
-"Tip_9_6"		"Engineer iken, Tabanca'nın çok fazla yedek mermisi vardır. Düşmanları Taret'ine yönlendirmek için kullan, ya da daha ofansif bir yaklaşımda bulun."
-"Tip_9_7"		"Engineer iken, düşmanların fırlattığı Dinamit Paket'lerini İngiliz Anahtarı ile etkisiz hale getirebilirsin."
+"Tip_9_6"		"Engineer iken, Tabanca'nın çok fazla yedek mermisi vardır. Düşmanları Taret'ine yönlendirmek için kullan, ya da daha saldırgan bir yaklaşımda bulun."
+"Tip_9_7"		"Engineer iken, düşmanların fırlattığı Dinamit Paketlerini İngiliz Anahtarı ile etkisiz hale getirebilirsin."
 "Tip_9_8"		"Engineer iken, İngiliz Anahtarı ile dost yapılarına vurmak onları tamir eder ve günçlendirir."
-"Tip_9_9"		"Engineer iken, Kurulum PDA'yı kullanarak Taret ve diğer yardımcı yapıları kurabilirsin."
-"Tip_9_10"		"Engineer iken, Taret'lerin sadece savunma amaçlı önlemler ile sınırlı değildir. Taret'lerini gizli yerlere kurup ofansif bir hücumda yardımcı olabilirsin."
+"Tip_9_9"		"Engineer iken, Kurulum PDA'yı kullanarak Taret ve diğer destekleyici yapıları kurabilirsin."
+"Tip_9_10"		"Engineer iken, Taretlerin sadece savunma amaçlı önlemler ile sınırlı değildir. Taretlerini gizli yerlere kurup ofansif bir hücumda yardımcı olabilirsin."
 "Tip_9_11"		"Engineer iken, İngiliz Anahtarı'nla vurarak Taret'inin seviyesini yükseltebilirsin. Her seviye daha fazla sağlık puanı ve ateş gücü ekler."
 "Tip_9_12"		"Engineer iken, takım arkadaşlarına cephane ve sağlık sağlamak için Otomat kurabilirsin. Otomat senin için metalde üretir."
-"Tip_9_13"		"Engineer iken, seviyesi yükseltilmiş Otomat'lar takımın için daha fazla sağlık ve cephane, senin içinde daha fazla metal üretir!"
-"Tip_9_14"		"Engineer iken, takımının ön saflara daha hızlı erişmesine yardımcı olmak için Işınlayıcı veya Trambolin'ler kur."
-"Tip_9_15"		"Engineer iken, seviyesi yükseltilmiş Işınlayıcı'lar daha hızlı şarj olarak takımının baskıya devam etmesine yardımcı olur."
+"Tip_9_13"		"Engineer iken, seviyesi yükseltilmiş Otomatlar takımın için daha fazla sağlık ve cephane, senin içinde daha fazla metal üretir!"
+"Tip_9_14"		"Engineer iken, takımının ön saflara daha hızlı erişmesine yardımcı olmak için Işınlayıcı veya Trambolinler kur."
+"Tip_9_15"		"Engineer iken, seviyesi yükseltilmiş Işınlayıcılar daha hızlı şarj olarak takımının baskıya devam etmesine yardımcı olur."
 "Tip_9_16"		"Engineer iken, İngiliz Anahtarı ile bir Işınlayıcı'nın girişi ya da çıkışına vurmak her iki tarafıda tamir edip seviyesini yükseltir!"
 // Death & Taxes
-"Tip_9_17"		"Engineer iken, Bobin Silahı'ndan çıkan tam şarjlı atışlar duvarlardan seker ve daha fazla hasar verir."
-"Tip_9_18"		"Engineer iken, Bobin Silahı'nı fazla şarj edersen patlar. Bunu önceden erişilmez bölgelere ulaşmak için kullanabilirsin."
+"Tip_9_17"		"Engineer iken, Bobin Tabancası'ndan çıkan tam şarjlı atışlar duvarlardan seker ve daha fazla hasar verir."
+"Tip_9_18"		"Engineer iken, Bobin Tabancası'nı fazla şarj edersen patlar. Bunu önceden erişilmez bölgelere ulaşmak için kullanabilirsin."
 // Fight or Flight
-"Tip_9_19"		"Engineer iken, Trambolin'ler senin ve takımının yüksek bölgelere erişmesini sağlar. Onları daha az hareketli takım arkadaşlarının tepelere ulaşmaşı için kur!"
-"Tip_9_20"		"Engineer iken, Trambolin'ler takım akradaşlarının ileriye büyük bir ivmeyle zıplamalarını sağlar. Hızlı müdaheleye olanak sağlayan açık alanlara yerleştir."
+"Tip_9_19"		"Engineer iken, Trambolinler senin ve takımının yüksek bölgelere erişmesini sağlar. Onları daha az hareketli takım arkadaşlarının tepelere ulaşmaşı için kur!"
+"Tip_9_20"		"Engineer iken, Trambolinler takım akradaşlarının ileriye büyük bir ivmeyle zıplamalarını sağlar. Hızlı müdaheleye olanak sağlayan açık alanlara yerleştir."
 
 // Civilian
 "Tip_10_Count"	"11"
@@ -382,27 +385,27 @@
 "Tip_10_1"		"Civilian iken, hızın oldukça yavaş. Hayatta kalma şansını artırmak için takım arkadaşlarınla ilerlemekte elinden geleni yap."
 "Tip_10_2"		"Civilian iken, takımındaki en kısa boylu sensin. Bu takım arkadaşlarının arkasına saklanman için kullanışlı olabilir."
 "Tip_10_3"		"Civilian iken, VIP ve VIP Yarışı oyun modlarında kontrol noktalarını sadece sen ele geçirebilirsin."
-"Tip_10_4"		"Civilian iken, düşman Spy ve Sniper'lara karşı dikkatli olmayı unutma, çünkü seni anında öldürebilirler."
-"Tip_10_5"		"Civilian iken, yakınındaki takım arkadaşlarına verdiğin cesaretlendirme onlara hafif bir savunma desteği ve iyileşme oranı verir. Düşman görüş hattının dışında durmaya çalış ve takımına bağlı kal."
+"Tip_10_4"		"Civilian iken, düşman Spy ve Sniperlara karşı dikkatli olmayı unutma, çünkü seni anında öldürebilirler."
+"Tip_10_5"		"Civilian iken, yakınındaki takım arkadaşların moral yükseltmenden etkilenir, bu onlara hafif bir savunma desteği ve iyileştirme verir. Düşman görüş hattının dışında durmaya çalış ve takımına bağlı kal."
 "Tip_10_6"		"Civilian iken, bir takım arkadaşına bakarken %attack2% tuşuna basarak ona takviye yapabilirsin, verdiğin destek savaşta oldukça iyi bir avantaj kazandırır."
 // Stock
 "Tip_10_7"		"Civilian iken, Şemsiye bir silah olarak etkili değildir, ve yalnızca çaresiz durumlarda kullanılmalıdır. Takımının senin için savaşmasına izin ver."
 "Tip_10_8"		"Civilian iken, Şemsiye ile seçtiğin bir takım arkadaşına mini-kritikler elde ettirebilirsin. Yüksek hasar verebilecek sınıflara takviye yap."
-"Tip_10_9"		"Civilian iken, Şemsiye mini-kritik takviyesi Medic'lere arttırılmış iyileştirme oranı ve ÜberŞarj kazanımında bulunur."
+"Tip_10_9"		"Civilian iken, Şemsiye'nin mini-kritik takviyesi Mediclere arttırılmış iyileştirme oranı ve ÜberŞarj kazanımında bulunur."
 // Double Down
-"Tip_10_10"		"Civilian iken, Derbi Bastonu takım arkadaşlarına hız desteğinde bulunmak için kullanılabilir. Bu onların daha hızlı hareket etmesi ve ateş etmesini sağlar."
-"Tip_10_11"		"Civilian iken, Derbi Bastonu'nun takviyesi Medic'lerin iyileştirme oranı ve Engineer'ların yapıları kurma oranını arttırır."
+"Tip_10_10"		"Civilian iken, Derbi Bastonu takım arkadaşlarına hız desteğinde bulunmak için kullanılabilir. Bu onların daha hızlı hareket ve ateş etmesini sağlar."
+"Tip_10_11"		"Civilian iken, Derbi Bastonu'nun takviyesi Mediclerin iyileştirme oranı ve Engineerların yapıları kurma oranını arttırır."
 
 // Arena
 "Tip_arena_Count"		"9"
 "Tip_arena_1"			"Arena'da, ekranın yukarısındaki oyuncu sayısına dikkat et. Bu, oyuncu avantajına sahip olup olmadığını anlamanı sağlar!"
-"Tip_arena_2"			"Arena'da, sağlık elde etmek için çok az kaynak bulunur, bu yüzden takımının Medic ve Engineer'larını koruduğundan emin ol (ve Sandviçini paylaş)!"
+"Tip_arena_2"			"Arena'da, sağlık elde etmek için çok az kaynak bulunur, bu yüzden takımının Medic ve Engineerlarını koruduğundan emin ol (ve Sandviçini paylaş)!"
 "Tip_arena_3"			"Arena'da, haritanın ortasındaki kontrol noktası raunt başladıktan 60 saniye sonra ele geçirilebilir hale gelir. Saklanan düşmanları ortaya çıkarmak için bunu kullan!"
 "Tip_arena_4"			"Arena'da canlanma yoktur, o yüzden ölme!"
 "Tip_arena_5"			"Arena'da, portföyünü çeşitlendir! Takımın ile birlikte kompozisyonunuzu tamamlamaya, veya düşman takımlarınkine karşı koymaya çalışın."
 "Tip_arena_6"			"Arena'da, sınıfını sadece oyunun başlangıcında kapılar açılana kadar değiştirebilirsin."
 "Tip_arena_7"			"Arena'da, takımınla bir arada kalmaya çalışıp tehlikedeyken birbirinize yardımcı olun. Çatışmalara geç gelmek seni dezavantaja koyabilir."
-"Tip_arena_8"			"Arena'da, düşman takımların iyileşme fırsatlarını ellerinden almak çok önemlidir. Düşman Medic ve Otomat'ları hedefle, ve elinden geldiğince sağlık paketlerine erişimi engelle!"
+"Tip_arena_8"			"Arena'da, düşman takımların iyileşme fırsatlarını ellerinden almak çok önemlidir. Düşman Medic ve Otomatları hedefle, ve elinden geldiğince sağlık paketlerine erişimi engelle!"
 "Tip_arena_9"			"Arena'da, İlk Kan elde etmek sana kritik vuruşlar kazandırır. Eğer elde edersen onu iyi değerlendir! Eğer bir düşman elde ederse, geri çekilip sona ermesini bekle."
 
 // ----------------------------------------------------------------
@@ -465,7 +468,7 @@
 "TF_Weapon_GrenadeLauncher_Desc"	"Bu işi bana bırak, delikanlı."
 // Stickybomb Launcher
 "TF_Weapon_StickybombLauncher"		"Yapışkan Bomba Atar"
-"TF_Weapon_StickybombLauncher_Desc"	"Gerekirse onları bizzat kendim doğrudan cennete uçururum."
+"TF_Weapon_StickybombLauncher_Desc"	"Gerekirse onları bizzat kendim doğrudan cennete kadar uçururum."
 // Flame Thrower
 "TF_Weapon_FlameThrower"		"Alev Silahı"
 "TF_Weapon_FlameThrower_Desc"	"İşler kızışmaya başlıyor..."
@@ -512,7 +515,7 @@
 "TF_Weapon_Sandvich_Desc"	"Yaklaş! Sana tadını göstereceğim."
 // Huntsman
 "TF_Weapon_Huntsman"		"Avcı"
-"TF_Weapon_Huntsman_Desc"	"Şövalyeliğe ne oldu?"
+"TF_Weapon_Huntsman_Desc"	"Mertliğe ne oldu?"
 // Gunboats
 "TF_Weapon_Gunboats"				"Koruyucu Botlar"
 "TF_Weapon_Gunboats_Desc_Soldier"	"Kurşun ayakkabı tabanları! Ordu fiziksel testinde hile yapmak için mükemmeldir."
@@ -532,7 +535,7 @@
 "TF_Weapon_RPG"			"R.P.G."
 "TF_Weapon_RPG_Desc"	"Roketlerin nasıl önden çıkıverdiğini görüyormusun, evlat? Özgürlüğün hasretini çekiyor. Ve Tanrı şahidim, ona sahip olacak."
 // Hunting Revolver
-"TF_Weapon_HuntingRevolver"			"Altıpatlar Tüfek"
+"TF_Weapon_HuntingRevolver"			"Avcının Altıpatları"
 "TF_Weapon_HuntingRevolver_Desc"	"Daha saldırgan bir yaklaşım için tasarlandı."
 // Fishwhacker
 "TF_Weapon_Fishwhacker"			"Balıkdöver"
@@ -542,15 +545,15 @@
 "TF_Weapon_TranquilizerGun_Desc"	"Rüyalarında, chéri."
 // Dynamite Pack
 "TF_Weapon_DynamitePack"		"Dinamit Paketi"
-"TF_Weapon_DynamitePack_Desc"	"Senden geriye sadece bölük parçalar kalacak."
+"TF_Weapon_DynamitePack_Desc"	"Seni parça parça toplamak zorunda kalacaklar."
 // Coilgun
-"TF_Weapon_Coilgun"			"Bobin Silahı"
-"TF_Weapon_Coilgun_Desc"	"Biftek yok, ama bol miktarda cızırtı var."
+"TF_Weapon_Coilgun"			"Bobin Tabancası"
+"TF_Weapon_Coilgun_Desc"	"Biftek yok, fakat bolca cızırtı var."
 // Mine Layer
 "TF_Weapon_MineLayer"		"Mayın Döşeyici"
 "TF_Weapon_MineLayer_Desc"	"Aye, gözünü dört aç! Heh..."
 // Shock Therapy
-"TF_Weapon_ShockTherapy"		"Şok Tedavisi"
+"TF_Weapon_ShockTherapy"		"Şok Terapisi"
 "TF_Weapon_ShockTherapy_Desc"	"HERKES ÇEKİLSİN!"
 
 // ----------------------------------------------------------------
@@ -559,7 +562,7 @@
 
 // L'escampette
 "TF_Weapon_Lescampette"			"L'escampette"
-"TF_Weapon_Lescampette_Desc"	"Çabuk yap."
+"TF_Weapon_Lescampette_Desc"	"Çabuk ol."
 // Chekhov's Punch
 "TF_Weapon_ChekhovsPunch"		"Çehov'un Yumruğu"
 "TF_Weapon_ChekhovsPunch_Desc"	"Ağlama! Heavy'nin hayatında senin anlatısal bir amacın var."
@@ -568,7 +571,7 @@
 "TF_Weapon_TwinBarrel_Desc"	"(Satış sonrası modifikasyon garantiyi geçersiz kılar.)"
 // Anti-Aircraft Cannon
 "TF_Weapon_AntiAircraftCannon"		"Uçaksavar Topu"
-"TF_Weapon_AntiAircraftCannon_Desc"	"Anneciğine Heavy, senin hangi parçanı yollamalı acaba?"
+"TF_Weapon_AntiAircraftCannon_Desc"	"Anneciğine Heavy, senin hangi parçanı yollasın acaba?"
 // PDA: Jump Pad
 "TF_Weapon_PDAJumpPad"		"PDA: Trambolin"
 "TF_Weapon_PDAJumpPad_Desc"	"Güven bana adamım. Bu senin aklını uçuracak."
@@ -577,7 +580,7 @@
 "TF_Weapon_Harvester_Desc"	"Çanlar kimin için çalıyor diye sormayın."
 // Brick
 "TF_Weapon_Brick"		"Tuğla"
-"TF_Weapon_Brick_Desc"	"O KADAR yavaş olduğunu düşünmemiştim."
+"TF_Weapon_Brick_Desc"	"Senin O KADAR DA yavaş olduğunu düşünmemiştim."
 
 // ----------------------------------------------------------------
 // Double Down weapon strings
@@ -630,7 +633,7 @@
 "TF_Meter_Dynamite"	"DİNAMİT"
 "TF_Meter_Harvest"	"BİÇME"
 "TF_Meter_LunchBox"	"BESLENME"
-"TF_Meter_Therapy"	"TEDAVİ"
+"TF_Meter_Therapy"	"TERAPİ"
 
 // ----------------------------------------------------------------
 // Buildings
@@ -662,7 +665,7 @@
 "Attrib_CreatesEarthquakeFallDamage"				"Aktif iken yere düşünce hasar alındığı zaman bir deprem yaratır"
 "Attrib_TakeProjectileCritsAirborne"				"Kuşanana: Havadayken patlayıcı ve özel mermi türlerinden alınan hasar kritik olur"
 "Attrib_Gravity_Active_Increased"					"Aktif iken +%s1% yer çekimi"
-"Attrib_TeleporterJumpPad"							"Işınlayıcı Giriş ve Çıkışı Trambolin ile değiştirir"
+"Attrib_TeleporterJumpPad"							"Işınlayıcı Giriş ve Çıkışı Trambolinler ile değiştirir"
 "Attrib_Mod_Horizontal_Spread"						"Mermilerin geniş ve yatay dağılımı vardır"
 "Attrib_ApplySelfKnockback"							"Atış halinde kendi kendini geri itme uygular"
 "Attrib_WeaponEnemyKnockback_Bonus"					"Düşmanlara karşı +%s1% geri itme"
@@ -682,7 +685,7 @@
 "Attrib_FishwhackerSweep"							"Yakında olan düşmanlara geri itme uygular"
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Kendini geri itme hasar artışından etkilenir"
 "Attrib_ApplySelfKnockbackSwing"					"Savurduğun zaman kendi kendini geri itme uygular"
-"Attrib_AirblastSelfKnockback"						"Hava püskürtmesi kullanıcıya geri itme uygularuser"
+"Attrib_AirblastSelfKnockback"						"Hava püskürtmesi kullanıcıya geri itme uygular"
 "Attrib_ProximityMine"								"Mayınlar düşmanların yakınında patlar"
 "Attrib_AltFire_FizzleMines"						"Alternatif Atış: Mayınları yok et"
 "Attrib_NoStickyChargeTime"							"Yapışkan bomba şarj süresi yok"
@@ -751,7 +754,7 @@
 "Attrib_AddAmmoOnKill"								"Her öldürüşünde %s1 mermi elde et"
 "Attrib_MinicritVsWet"								"Islak düşmanlara karşı %100 mini-kritik hasar"
 "Attrib_TakeMinicritsProjectileAirborne"			"Havadayken özel mermi türlerinden kritik hasar alırsın"
-"Attrib_HealOnSmack"								"Şarj maksimum iken tamamen iyileştirmek için takım arkadaşlarını isabet et"
+"Attrib_HealOnSmack"								"Maksimum şarjdayken isabet edilen takım arkadaşları tamamen iyileştirilir"
 "Attrib_MultDamageCrit"								"Kritik vuruşlar %s1% arttırılmış hasar verir"
 "Attrib_DropTeamHealthPackOnKill"					"Her öldürüşünde bir takım sağlık paketi düşürür"
 "Attrib_PassiveAmmoHolstered"						"Silah indirilmişken pasif olarak cephane doldurur"
@@ -763,13 +766,13 @@
 "Attrib_SapBuildings"								"Düşman yapılarını devre dışı bırakıp canlarını azaltarak yok eder\nKullanıldığı zaman kılığını bozmaz"
 "Attrib_ReloadNotActive"							"Bu silah aktif olmadığında şarjörü değişir"
 "Attrib_Sandvich"									"Yemek 120'ye kadar sağlık puanı kazandırır\nAlternatif Atış: Sandviçi bir arkadaşınla paylaş (Orta sağlık kiti)"
-"Attrib_AltFire_MinicritBoost"						"Alternatif Atış: Takım arkadaşına mini-kritik desteği ver"
+"Attrib_AltFire_MinicritBoost"						"Alternatif Atış: Takım arkadaşına mini-kritik takviyesi ver"
 "Attrib_SplitsIntoBomblets"							"Patladığı zaman 4 küçük bombacık parçasına bölünür"
 "Attrib_DisabledByWrench"							"İngiliz Anahatarı ile etkisiz hale getirilebilir"
 "Attrib_Coilgun"									"Tam sarjlı atışlar duvarlardan seker, ve aşırı sarj olduğu zaman elinde patlar"
-"Attrib_DamageAffectedByCharge"						"Hasar mevcut mesafeden etkilenir"
+"Attrib_DamageAffectedByCharge"						"Hasar mevcut şarjdan etkilenir"
 "Attrib_JumpPadNoUpgrade"							"Trambolinler geliştirilemez"
-"Attrib_AltFire_HasteBoost"							"Alternatif Atış: Takım arkadaşına hız desteği ver"
+"Attrib_AltFire_HasteBoost"							"Alternatif Atış: Takım arkadaşına hız takviyesi ver"
 "Attrib_AltFire_UberBubble"							"Alternatif Atış: Belirli bir yarıçap içinde ölümsüzlük sağlayan bir cihaz fırlat"
 
 // ----------------------------------------------------------------
@@ -795,8 +798,8 @@ Kacış bölgesi, geçidin yanındaki kontrol odasına çantadaki cihaz teslim e
 
 Eğer BLU takımı cihazı teslim ederse, geçit kapanmadan önce geriden 60 saniye sayıcak."
 
-"Mineside_setup_goal_red"	"VIP'yi öldürerek kaçış bölgesine ulaşmasını engelle. Cihazı ele geçirmesine izin verme."
-"Mineside_setup_goal_blu"	"VIP'yi kaçış bölgesine kadar götür. Geçidi açmak için cihazı kontrol odasına teslim et."
+"Mineside_setup_goal_red"	"VIP'yi öldürerek Kacış Bölgesi'ne ulaşmasını engelle. Cihaz'ı ele geçirmesine izin verme."
+"Mineside_setup_goal_blu"	"VIP'yi Kaçış Bölgesi'ne kadar götür. Geçidi açmak için Cihaz'ı Kontrol Odası'na teslim et."
 
 "Mineside_escape_zone"	"Kaçış Tüneli"
 
@@ -865,8 +868,8 @@ Sadece onurlu bir şekilde yumruk yumurğa savaş!"
 "Sunnyside_cap_C"	"C noktası, Depolar"
 
 // vip_avanti
-"Avanti_red_setup_goal"		"Yokuş aşağı ilerle ve düşman takımın VIP'sini öldürerek kaçış bölgesine ulaşmasını engelle!"
-"Avanti_blue_setup_goal"	"Yokuş yukarı ilerle ve VIP'yi kaçış bölgesine kadar götür!"
+"Avanti_red_setup_goal"		"Yokuş aşağı ilerle ve düşman takımın VIP'sini öldürerek Kaçış Bölgesi'ne ulaşmasını engelle!"
+"Avanti_blue_setup_goal"	"Yokuş yukarı ilerle ve VIP'yi Kaçış Bölgesi'ne kadar götür!"
 "Avanti_cap_1"				"Depo"
 "Avanti_cap_2"				"Teras"
 "Avanti_cap_3"				"Çan Kulesi"
@@ -939,27 +942,27 @@ BLU takımı zaman bitmeden önce VIP'yi kaçış kölgesine kadar götürerek k
 Diğer Notlar:
 BLU takımı eğer VIP mevcut değilse kontrol noktasının ele geçirme ilerlemesini dondurabilirler."
 
-"vip_setup_goal_offense"	"VIP'yi kaçış bölgesine kadar götür."
-"vip_setup_goal_defense"	"VIP'yi öldürerek kaçış bölgesine ulaşmasını engelle."
+"vip_setup_goal_offense"	"VIP'yi Kaçış Bölgesi'ne kadar götür."
+"vip_setup_goal_defense"	"VIP'yi öldürerek Kaçış Bölgesi'ne ulaşmasını engelle."
 
 "TF_VIP_Assigned"				"%s1 artık VIP!"
-"TF_VIP_Tutorial_Annotation_2"	"Çevresindekilere savunma desteği sağlar ve\ntakımından birisine geçici olarak mini-kritik takviyesi yapabilir!"
+"TF_VIP_Tutorial_Annotation_2"	"Çevresindekilere savunma desteği sağlar ve\ntakımından birisini geçici olarak güçlendirebilir!"
 "TF_VIP_Tutorial_Annotation_3"	"Ama bunu unutma, onun hayatı seninkinden daha önemli, o yüzden ölmesine izin verme!"
 
 "Cant_cap_civilian_only"		"Bu noktayı sadece\n VIP ele geçirebilir."
 "Cant_cap_civilian_only_frozen"	"Ele geçirme donuk\n Bu noktayı sadece\n VIP ele geçirebilir."
 
 // VIP (Lives)
-"vipl_setup_goal_offense"	"VIP'yi kaçış bölgesine kadar götür. Öldürülmesine izin verme."
-"vipl_setup_goal_defense"	"Düşman VIP'yi öldür veya kaçış bölgesine ulaşmasına izin verme."
+"vipl_setup_goal_offense"	"VIP'yi Kaçış Bölgesi'ne kadar götür. Öldürülmesine izin verme."
+"vipl_setup_goal_defense"	"Düşman VIP'yi öldür veya Kaçış Bölgesi'ne ulaşmasına izin verme."
 
 // VIP (Flags)
-"vip_bring_flag_here"	"Cihazı buraya getir!"
-"vip_bring_flag"		"Cihazı kontrol odasına götür!"
+"vip_bring_flag_here"	"Cihaz'ı buraya getir!"
+"vip_bring_flag"		"Cihaz'ı Kontrol Odası'na götür!"
 
-"TF_VIP_TakeDeviceToPoint"		"Cihazı kontrol odasına götür!"
+"TF_VIP_TakeDeviceToPoint"		"Cihaz'ı Kontrol Odası'na götür!"
 "TF_VIP_TeamDeviceReturned"		"Cihaz geri döndü! Gidip alın!"
-"TF_VIP_EnemyDeviceReturned"	"Cihaz geri döndü! Cihazın bulunduğu bölgeyi savunun!"
+"TF_VIP_EnemyDeviceReturned"	"Cihaz geri döndü! Cihaz'ın bulunduğu bölgeyi savunun!"
 
 // VIP Race
 "default_vipr_description"	"Amaç:
@@ -972,20 +975,20 @@ Eğer VIP mevcut değilse herhangi bir takım kontrol noktasının ele geçirme 
 
 Eğer Ani Ölüm meydana gelirse, raundu kazanmak için düşman VIP öldürülebilir!"
 
-"vipr_setup_goal"		"VIP'nizi kontrol noktalarına kadar götür. Aynısını düşman VIP'nin yapmasına izin verme!"
-"vipr_setup_goal_4team"	"VIP'nizi kontrol noktalarına kadar götür. Aynısını düşman takımların yapmasına izin verme!"
+"vipr_setup_goal"		"VIP'nizi Kontrol Noktalarına kadar götür. Aynısını düşman VIP'nin yapmasına izin verme!"
+"vipr_setup_goal_4team"	"VIP'nizi Kontrol Noktalarına kadar götür. Aynısını düşman takımların yapmasına izin verme!"
 
-"vipr_cap_wrong_vip"	"DÜŞMAN kontrol noktasını ele geçir, aptal!"
-"vipr_own_civ_death"	"VIP'niz öldürüldü! Onu koruman gerek!"
+"vipr_cap_wrong_vip"	"DÜŞMAN Kontrol Noktasını ele geçir, salak!"
+"vipr_own_civ_death"	"VIP'niz öldürüldü! Onu koruyun!"
 "vipr_their_civ_death"	"Aferin! Düşman VIP öldürüldü!"
 "vipr_cap_a_reset"		"Kontrol Noktası A sıfırlandı!"
 "vipr_cap_b_reset"		"Kontrol Noktası B sıfırlandı!"
 "vipr_cap_a_reset_vip"	"Öldün! Kontrol Noktası A sıfırlandı!"
 "vipr_cap_b_reset_vip"	"Öldün! Kontrol Noktası B sıfırlandı!"
 
-"vipr_central_point"		"Merkezi Kontrol Noktası"
-"vipr_cap_mid_reset"		"Merkezi Kontrol Noktası sıfırlandı!"
-"vipr_death_cap_mid_reset"	"Öldün! Merkezi Kontrol Noktası sıfırlandı!"
+"vipr_central_point"		"Merkez Kontrol Noktası"
+"vipr_cap_mid_reset"		"Merkez Kontrol Noktası sıfırlandı!"
+"vipr_death_cap_mid_reset"	"Öldün! Merkez Kontrol Noktası sıfırlandı!"
 
 "vipr_red_civ_death"	"RED'in VIP'si öldürüldü!"
 "vipr_blu_civ_death"	"BLU'nun VIP'si öldürüldü!"
@@ -1020,8 +1023,8 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 
 // Arena
 "TF_Arena_Welcome"				"Arena Modu"
-"TF_Arena_Team_SizeIncreased"	"%s1 Takımının üye sayısı %s2 sayısına çıkarıldı."
-"TF_Arena_Team_SizeDecreased"	"%s1 Takımının üye sayısı %s2 sayısına indirildi."
+"TF_Arena_Team_SizeIncreased"	"%s1 takımının üye sayısı %s2 sayısına çıkarıldı."
+"TF_Arena_Team_SizeDecreased"	"%s1 takımının üye sayısı %s2 sayısına indirildi."
 
 // ----------------------------------------------------------------
 // Intro movies
@@ -1082,7 +1085,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 
 "TF_Medal_Developer"				"TF2C Geliştiricisi"
 "TF_Medal_Contributor"				"TF2C Katkıda Bulunanı"
-"TF_Medal_Playtester"				"TF2C Oyun Test Edici"
+"TF_Medal_Playtester"				"TF2C Oyun Testçisi"
 
 // ----------------------------------------------------------------
 // Win Panel
@@ -1094,7 +1097,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "Winpanel_TeamWins"		"%s1 %s2 KAZANDI!"
 "Winpanel_TeamLost"		"%s1 %s2 KAYBETTİ!"
 "Winpanel_TeamAdvances"	"%s1 %s2 BÖLGEYİ ELE GEÇİRDİ"
-"Winpanel_TeamDefends"	"%s1 %s2 SAVUNMASINDA!"
+"Winpanel_TeamDefends"	"%s1 %s2 SAVUNMADA!"
 
 "WinPanel_Green_Team_Wins"	"GRN Takımı Kazandı"
 "WinPanel_Yellow_Team_Wins"	"YLW Takımı Kazandı"
@@ -1119,7 +1122,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 // Main Menu
 // ----------------------------------------------------------------
 
-"TF_Menu_Welcome"			"Hoş geldiniz,"
+"TF_Menu_Welcome"			"Tekrar hoş geldin,"
 "TF_Menu_Name"				"%playername%!"
 
 "TF_Menu_HideName"			"[GİZLİ]"
@@ -1155,7 +1158,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF_Friends_Status_InGame"			"Başka bir oyun oynuyor"
 "TF_Friends_Status_Idle"			"Başka bir oyunda boşta duruyor"
 "TF_Friends_Status_Online"			"Çevrimiçi"
-"TF_Friends_Status_Away"			"Dışarıda"
+"TF_Friends_Status_Away"			"Uzakta"
 "TF_Friends_Status_Offline"			"Çevrimdışı"
 
 "ChallengeDetails"					"%s1 olarak %s2"
@@ -1210,7 +1213,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF2c_KeyboardCategory_UI"  		 	"ARAYÜZ"
 "TF2c_KeyboardCategory_Extra"			"EKSTRA"
 "TF2c_UseDefaultsButton"				"Atamaları sıfırla"
-"TF_ClassSkill_Spy_Spywalk"				"SPY: Kılık değiştirmişken normal hızda yürü"
+"TF_ClassSkill_Spy_Spywalk"				"SPY: Spy yürüyüşü"
 "TF_Voice_Menu_0_0"						"İletişim Komutu: MEDIC!"
 "TF_Voice_Menu_0_1"						"İletişim Komutu: Teşekkürler!"
 "TF_Voice_Menu_1_0"						"İletişim Komutu: Geliyorlar"
@@ -1232,8 +1235,8 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 // Scoreboard Options
 "TF_Enable"								"Etkinleştir"
 "TF_Disable"							"Devre Dışı Bırak"
-"TF_RightClick_Enable"					"Etkinleştirmek için Sağ Tıkla"
-"TF_RightClick_Enable_Mouse"			"Fareyi Etkinleştirmek için Sağ Tıkla"
+"TF_RightClick_Enable"					"Sağ Tıklayarak Etkinleştir"
+"TF_RightClick_Enable_Mouse"			"Sağ Tıklayarak Fareyi Etkinleştir"
 
 // UI options
 "TF_Open_Charinfo"						"Karakter ekipmanını aç"
@@ -1257,7 +1260,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF2c_OptionCategory_Keyboard"			"KLAVYE"
 
 "TF2c_OptionCategory_Graphics"			"GRAFİKLER"
-"TF2c_OptionCategory_Video"				"VIDEO"
+"TF2c_OptionCategory_Video"				"VİDEO"
 
 "TF2c_OptionCategory_Volume"			"SES SEVİYESİ"
 "TF2c_OptionCategory_Device"			"CİHAZ"
@@ -1321,14 +1324,14 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"DEMOMAN: Kiklops'un bombalarını iki kere tıklayarak patlat"
-"TF_CyclopsDoubleTap_Tip"        	"Eğer seçiliyse, Kiklops'un bombalarını patlamak için atış tuşunu serbest bırakmak yerine ikinci bir tıklama gerekecek."
+"TF_CyclopsDoubleTap_Tip"        	"Eğer seçiliyse, Kiklops'un bombalarını patlatmak için atış tuşunu serbest bırakmak yerine ikinci bir tıklama gerekecek."
 "TF_SapperAwareness"                "ENGINEER: Bozucu farkındalığı"
 "TF_SapperAwareness_Tip"            "Eğer seçiliyse, yapılarına yerleştirilen bozucu uyarısı alternatif bir renkte olur."
 "TF_SniperBell"					    "SNIPER: Tam şarjda bir ses çal"
 "TF_SniperBell_Tip"					"Tüfeğin şarjı dolduğu zaman bir ses çal."
 "TF_ZoomSensitivityRatio"			"SNIPER: Yakınlaştırma hassasiyet oranı"
 "TF_ZoomSensitivityRatio_Tip"		"Dürbünlü yakınlaştırma hassasiyetini ayarlar."
-"TF_SpywalkInverted"				"SPY: Kılık değiştirmişken normal hızda yürümeyi varsayılan yap"
+"TF_SpywalkInverted"				"SPY: Spy yürüyüşünü varsayılan yap"
 "TF_SpywalkInverted_Tip"			"Eğer seçiliyse, yavaş bir sınıfın kılığına girmişken normal hızda yürümeyi varsayılan yapar, hızlı yürüme tuşuda yavaş sınıfın hızında yürümeni sağlayacak"
 "TF_ViewModelCloakTint"				"SPY: Görünüm modeli görünmezlik renklendirmesi"
 "TF_ViewModelCloakTint_Tip"			"SPY: Görünmezken görünüm modellerinin renklendirilmesine izin ver."
@@ -1377,7 +1380,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 // Misc
 "TF_ClassAutoKill"					"Sınıf seçtikten sonra zorla yeniden canlan"
 "TF_ClassAutoKill_Tip"				"Eğer seçiliyse, canlanma odasında değilken sınıf değiştirildiği zaman zorla yeniden canlandırır.\n\nSeçiliyse deyilse, yeniden canlanınca değişir."
-"TF_ClassMenu_Music"				"Sınıf seçimi menüsü müziği"
+"TF_ClassMenu_Music"				"Sınıf seçim menüsü müziği"
 "TF_StreamerMode"					"Canlı yayıncı modunu etkinleştir"
 "TF_StreamerMode_Tip"				"Eğer seçiliyse, yazılı sohbeti gizler ve sen dahil olmak üzere herkesi anonimleştirir"
 "TF_ModelMuzzleFlash"				"Beta model namlu alevini etkinleştir"
@@ -1401,7 +1404,8 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF_Network_Rate_Tip"       		"Ağ güncelleme hızını ayarlar; bu da tersine enterpolasyon miktarını belirler.\n\Hangisinin sizin ağınızda daha iyi hissetirdiğini denemeniz önerilir."
 
 // Video
-"TF2c_Option_BloomScale"	"Bloom etkisi ölçeği"
+"TF2c_Option_BloomScale"	        "Bloom etkisi ölçeği"
+"TF2c_Option_FramerateLimit"		"Kare hızı sınırı"
 
 // ----------------------------------------------------------------
 // Stats
@@ -1445,7 +1449,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "Achievement_Group_3300"	"Haritalar ve Oyun Modları (%s1 / %s2)"
 
 // Launch achievements
-"TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_NAME"			"Planlanmış Bir Kaza"
+"TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_NAME"			"Hesaplanmış Bir Kaza"
 "TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_DESC"			"Bir düşmanı uzak mesafeden yay çizerek ilerleyen bir roketle öldür."
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_NAME"			"Deneyimli Bir Dünya Gezgini"
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_DESC"			"Dustbowl, 2Fort, Badlands (KN), Well (BK), ve Avanti'de oyun tamamla."
@@ -1456,7 +1460,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_VIP_AVANTI"	"Avanti"
 "TF2C_ACHIEVEMENT_KILL_BUILDINGS_WITH_MIRV_NAME"		"KA-BLOOIE!"
 "TF2C_ACHIEVEMENT_KILL_BUILDINGS_WITH_MIRV_DESC"		"Dinamit Paketi ile 5 tane Engineer'a ait yapıyı yok et."
-"TF2C_ACHIEVEMENT_DEFUSE_MIRV_NAME"						"Fünye Söndürücü"
+"TF2C_ACHIEVEMENT_DEFUSE_MIRV_NAME"						"Fitil Reddedildi"
 "TF2C_ACHIEVEMENT_DEFUSE_MIRV_DESC"						"İngiliz Anahtarı ile bir düşman Demoman'e ait Dinamit Paketi'ni etkisiz hale getir."
 "TF2C_ACHIEVEMENT_TRANQ_MELEE_KILL_NAME"				"Derin Uyku"
 "TF2C_ACHIEVEMENT_TRANQ_MELEE_KILL_DESC"				"Spy iken, yakın dövüş sılahın ile 10 tane yatıştırılmış düşmanı öldür."
@@ -1492,7 +1496,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_DESC"			"Havada olan bir düşmanı kafa vuruşu ile öldür."
 "TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_NAME"				"Hunt Down the Frenchman"
 "TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_DESC"				"L'escampette kullanan bir görünmez Spy'ı ona hasar vererek açığa çıkar."
-"TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_NAME"			"Müteşebbis"
+"TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_NAME"			"Girişimci"
 "TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_DESC"			"Civilian olarak hiç ölmeden bir VIP raundunu kazan."
 "TF2C_ACHIEVEMENT_VIPR_TIME_NAME"						"Kısa Bir Tur"
 "TF2C_ACHIEVEMENT_VIPR_TIME_DESC"						"Üç dakikadan kısa bir sürede bir VIP Yarışı raundunu kazan."
@@ -1534,8 +1538,8 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "ServerBrowser_HasPlayersFilter"    "Oyuncu var"
 "ServerBrowser_NoPasswordFilter"    "Parola yok"
 "ServerBrowser_HasTagsFilter"       "Etiket"
-"ServerBrowser_MaxLatencyFilter"    "Maks gecikme"
-"ServerBrowser_MaxPlayersFilter"    "Maks oyuncu"
+"ServerBrowser_MaxLatencyFilter"    "Maks. gecikme"
+"ServerBrowser_MaxPlayersFilter"    "Maks. oyuncu"
 "ServerBrowser_ServerTypeFilter"    "Sunucu tipi"
 "ServerBrowser_MapNameFilter"       "Harita ismi"
 "ServerBrowser_SortBy"              "Sırala:"
@@ -1543,16 +1547,16 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "ServerBrowser_SortByMap"           "Harita"
 "ServerBrowser_SortByPlayers"       "Oyuncu"
 "ServerBrowser_SortByLatency"       "Gecikme"
-"ServerBrowser_SortByLastPlayed"    "Son onyanan"
+"ServerBrowser_SortByLastPlayed"    "Son oynanan"
 "ServerBrowser_UseLegacyBrowser"    "Eski tarayıcıyı kullan"
 "ServerBrowser_CurrentMapHeading"   "Şuanki harita:"
 "ServerBrowser_TagListHeading"      "Etiket:"
-"ServerBrowser_OfficialDetail"      "Bu sunucu Resmî"
-"ServerBrowser_VerifiedDetail"      "Bu sunucu Onaylanmış"
+"ServerBrowser_OfficialDetail"      "Bu Resmî bir sunucu"
+"ServerBrowser_VerifiedDetail"      "Bu Doğrulanmış bir sunucu"
 "ServerBrowser_Any"                 "Herhangi"
 "ServerBrowser_Official"            "Resmî"
-"ServerBrowser_Verified"            "Onaylanmış"
-"ServerBrowser_OfficialOrVerified"  "Resmî veya Onaylanmış"
+"ServerBrowser_Verified"            "Doğrulanmış"
+"ServerBrowser_OfficialOrVerified"  "Resmî veya Doğrulanmış"
 "ServerBrowser_CustomRules"	        "Özel Kurallar"
 "ServerBrowser_CustomWeapons"       "Özel Silahlar"
 
@@ -1579,7 +1583,10 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF_simple_disguise_menu_option"    "SPY: Basit kılık değiştirme menüsünü kullan"
 "Tooltip_simple_disguise_menu_option" "Basit kılık değiştirme menüsü, kılık değiştirme işlemi için daha fazla sayıda tuşa basmayı gerektiren alternatif bir menüdür, ama sadece 1'den 4'e kadar olan numaralı tuşları kullanır."
 
-"TF_AttackDefend"		"Saldırı / Savunma"
+"TF_Ubercharge"				    "ÜBERŞARJ: %%%charge%"
+"TF_UberchargeMinHUD"			"%%%charge%"
+
+"TF_AttackDefend"		        "Saldırı / Savunma"
 "TF_MedievalAttackDefend"		"Saldırı / Savunma (Orta Çağ)"
 
 "game_spawn_as"				"*%s1 olarak canlanacaksın"
@@ -1587,26 +1594,52 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "game_spawn_asrandom"		"*Rastgele bir sınıf olarak canlanacaksın"
 "game_respawn_asrandom"		"*Rastgele bir sınıf olarak canlanacaksın"
 
-"Pipeline_cap_1_red"			"RED'in ilk Kontrol Noktası"
-"Pipeline_cap_1_blue"			"BLU'nun ilk Kontrol Noktası"
-"Pipeline_cap_2_red"			"RED'in ikinci Kontrol Noktası"
-"Pipeline_cap_2_blue"			"BLU'nun ikinci Kontrol Noktası"
-"Pipeline_cap_3_red"			"RED'in son Kontrol Noktası"
-"Pipeline_cap_3_blue"			"BLU'nun son Kontrol Noktası"
+"Winpanel_Team1"			"TAKIMI"
+"Winpanel_Team2"			"Takımı"
 
-"hightower_cap_red"			"RED'in Kulesi"
-"hightower_cap_blue"			"BLU'nun Kulesi"
+"Winpanel_BlueMVPs"                         "BLU takımının en iyileri:"
+"Winpanel_RedMVPs"			                "RED takımının en iyileri:"
+"Winpanel_TopPlayers"			            "En iyi oyuncular:"
+"Winpanel_WinningCapture"	                "Kazandıran ele geçirme: %s1"
+"TF_Arena_Winpanel_TimeAliveThisRound"		"Yaşam sür.:"
+
+"Hud_Menu_Build_Cancel"					"İptal Etmek için '%lastinv%' Tuşuna Bas"
+
+"Pipeline_cap_1_red"	"RED'in ilk Kontrol Noktası"
+"Pipeline_cap_1_blue"	"BLU'nun ilk Kontrol Noktası"
+"Pipeline_cap_2_red"	"RED'in ikinci Kontrol Noktası"
+"Pipeline_cap_2_blue"	"BLU'nun ikinci Kontrol Noktası"
+"Pipeline_cap_3_red"	"RED'in son Kontrol Noktası"
+"Pipeline_cap_3_blue"	"BLU'nun son Kontrol Noktası"
+
+"hightower_cap_red"		"RED'in Kulesi"
+"hightower_cap_blue"	"BLU'nun Kulesi"
+
+"Dustbowl_cap_1_A"		"Birinci Nokta, Etap Bir"
+"Dustbowl_cap_1_B"		"İkinci Nokta, Etap Bir"
+"Dustbowl_cap_2_A"		"Birinci Nokta, Etap İki"
+"Dustbowl_cap_2_B"		"İkinci Nokta, Etap İki"
+"Dustbowl_cap_3_A"		"Birinci Nokta, Etap Üç"
+
+"Goldrush_cap_1_A"		"Birinci Nokta, Etap Bir"
+"Goldrush_cap_1_B"		"İkinci Nokta, Etap Bir"
+"Goldrush_cap_2_A"		"Birinci Nokta, Etap İki"
+"Goldrush_cap_2_B"		"İkinci Nokta, Etap İki"
+"Goldrush_cap_3_A"		"Birinci Nokta, Etap Üç"
+"Goldrush_cap_3_B"		"İkinci Nokta, Etap Üç"
 
 "TF_medigun_autoheal"		"MEDIC: Sıhhi Silah ateş tuşuna basılı tutmadan iyileştirmeye devam eder"
 "Tooltip_medigun_autoheal"	"Eğer seçiliyse, Medic'in Sıhhi Silah'ı sen tekrar ateş tuşuna basana kadar iyileştirdiğin kişiye odaklı kalacak.\n\nEğer seçili değilse, Sıhhi Silah'ın odaklı kalması için ateş tuşunu basılı tutman gerekecek."
 "TF_LastHitbeeps"			"Düşmanı öldürdüğün zaman son darbe sesini çal"
 "TF_Hitbeeps"				"Düşmana hasar verdiğin zaman isabet sesini çal"
 
-
 "TF_Close"				"Kapat"
 "TF_ResetStats"			"Sıfırla"
 
 "TF_Boost"				"TAKVİYE"
+
+"Attrib_MaxHealth_Positive"					"Kuşanana +%s1 maksimum sağlık"
+"Attrib_MaxHealth_Negative"					"Kuşanana %s1 maksimum sağlık"
 
 "TF_ScoreBoard_VoteKick"			"Oylama ile At"
 "TF_ScoreBoard_Context_UnMute"	    "Sesini Aç"
