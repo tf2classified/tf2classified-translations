@@ -1123,7 +1123,7 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 // Main Menu
 // ----------------------------------------------------------------
 
-"TF_Menu_Welcome"			"Bem-vindo(a) novamente,"
+"TF_Menu_Welcome"			"Bem-vindo(a) de novo,"
 "TF_Menu_Name"				"%playername%!"
 
 "TF_Menu_HideName"			"[CENSURADO]"
