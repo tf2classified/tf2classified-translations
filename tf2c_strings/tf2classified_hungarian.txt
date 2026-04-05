@@ -1404,7 +1404,8 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_Network_Rate_Tip"       		"Hálózatfrissítés mértékének beállítása, amely ellentétesen állítja be a hálózati interpolációt.\n\nAjánlott minden beállítást kipróbálni, hogy meglásd melyik érződik a legjobbnak a saját hálózatodon."
 
 // Video
-"TF2c_Option_BloomScale"	"HDR ragyogás mértéke"
+"TF2c_Option_BloomScale"	        "HDR ragyogás mértéke"
+"TF2c_Option_FramerateLimit"		"Képfrissítés limit"
 
 // ----------------------------------------------------------------
 // Stats
