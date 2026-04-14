@@ -43,7 +43,7 @@
 
 // VIP voting
 "Vote_ChangeCivilian"				"Cambiar de VIP"
-"TF_vote_change_civilian"			"Elegir al jugador %s1 como VIP?"
+"TF_vote_change_civilian"			"¿Elegir al jugador %s1 como VIP?"
 "TF_vote_change_civilian_caller"	"El jugador %s1 quiere ser el VIP."
 "TF_vote_passed_change_civilian"	"El VIP será el jugador: %s1..."
 
@@ -62,6 +62,21 @@
 // Disguise Kit global disguise
 "Hud_Menu_Disguise_GlobalTeam"	"Disfraces globales: todos los enemigos te verán como parte de su propio equipo."
 
+// Autobalance
+"TF_teamswitch_green"				"¡Ahora estás en GRN!"
+"TF_teamswitch_yellow"				"¡Ahora estás en YLW!"
+
+// Chat Printouts
+"TF_Team_Balanced"					"%s1 se ha movido a %s2"
+"TF_Autobalance_TeamChangeDone"		"Te han movido a %s1"
+"TF_Name_Change"					"* %s1 se ha cambiado el nombre a %s2"
+"TF_Joined_Game"					"%s1 se ha unido a la partida"
+"TF_Left_Game"						"%s1 ha abandonado la partida (%s2)"
+"TF_Joined_Team"					"%s1 se ha unido al equipo %s2"
+"TF_Joined_AutoTeam" 				"%s1 se ha asignado automáticamente al equipo %s2"
+"TF_AutoBalanced"					"%s1 se ha movido a %s2 para equilibrar la partida"
+"TF_AutoBalance_Warning"			"Se ha detectado desequilibrio en los equipos"
+
 // ----------------------------------------------------------------
 // Classes
 // ----------------------------------------------------------------
@@ -69,15 +84,15 @@
 "TF_Special"	"ESPECIAL"
 
 // Civilian
-"TF_Civilian" 				"CIVILIAN"
-"TF_Class_Name_Civilian" 	"Civilian"
+"TF_Civilian" 				"CIVIL"
+"TF_Class_Name_Civilian" 	"Civil"
 
 "ClassTips_10_Count"		"3"
 "ClassTips_10_1"			"¡Da un impulso a un aliado para darle ventaja!"
 "ClassTips_10_1_Icon"		"chalf_circle"
 "ClassTips_10_2"			"¡Quédate cerca de tus aliados para darles resistencia al daño!"
 "ClassTips_10_2_Icon"		"chalf_circle"
-"ClassTips_10_3"			"¡Inútil en las peleas!"
+"ClassTips_10_3"			"¡Mantente inútil en las peleas!"
 "ClassTips_10_3_Icon"		"chalf_circle"
 
 // ----------------------------------------------------------------
@@ -86,50 +101,50 @@
 
 // General
 "TF_playerid_sameteam"					"%s1%s2"
-"TF_playerid_diffteam"					"%s1Enemigo %s2"
+"TF_playerid_diffteam"					"%s1Enemigo: %s2"
 "TF_playerid_noteam"					"%s1"
-"TF_playerid_friendlyspy_disguise"		"Disfrazado de %s1 %s2"
-"TF_playerid_wpn_ammo_clip"				"%s1  -  Municiones: %s2 (%s3)"
-"TF_playerid_wpn_ammo"					"%s1  -  Municiones: %s2"
+"TF_playerid_friendlyspy_disguise"		"Disfrazado de %s2 %s1"
+"TF_playerid_wpn_ammo_clip"				"%s1: Municiones: %s2 (%s3)"
+"TF_playerid_wpn_ammo"					"%s1: Municiones: %s2"
 "TF_playerid_wpn"						"%s1"
 
 // Boosts
 "TF_playerid_healer"					"Sanador: "
-"TF_playerid_healtarget"				"Curando: "
-"TF_playerid_mediccharge"				"Supercarga: %s1%"
-"TF_playerid_mediccharge_wpn"			"Supercarga: %s1% (%s2)"
+"TF_playerid_healtarget"				"Paciente: "
+"TF_playerid_mediccharge"				"Supercarga: %s1 %"
+"TF_playerid_mediccharge_wpn"			"Supercarga: %s1 %\n%s2"
 "TF_playerid_civiliancharge"            "Impulso: %s1%"
 "TF_playerid_civiliancharge_wpn"		"Impulso: %s1% (%s2)"
 
 // Buildings
 "TF_playerid_object"					"%s1, constructor: %s2"
 "TF_playerid_object_diffteam"			"%s1 enemigo, constructor: %s2"
-"TF_playerid_object_mini"				"Mini-%s1, constructor: %s2"
-"TF_playerid_object_mode"				"%s1 %s3, constructor: %s2"
-"TF_playerid_object_level"				"( Nivel %s1 )"
+"TF_playerid_object_mini"				"Mini%s1, constructor: %s2"
+"TF_playerid_object_mode"				"%s3 del %s1, constructor: %s2"
+"TF_playerid_object_level"				"(Nivel %s1)"
 "TF_playerid_object_upgrade"			"Mejora: %s1"
 "TF_playerid_object_upgrade_level"		"( Nivel %s1 ) Mejora: %s2"
-"TF_playerid_object_upgrading"			"Progreso de Mejora: %s1"
-"TF_playerid_object_upgrading_level"	"( Nivel %s1 ) Progreso de Mejora: %s2"
+"TF_playerid_object_upgrading"			"Progreso de mejora: %s1"
+"TF_playerid_object_upgrading_level"	"(Nivel %s1) Progreso de mejora: %s2"
 "TF_playerid_object_building"			"Construyendo..."
 "TF_playerid_object_building_level"		"( Nivel %s1 ) Construyendo..."
-"TF_playerid_teleporter_no_entrance"	"¡Ninguna entrada!"
-"TF_playerid_teleporter_no_exit"		"¡Ninguna salida!"
+"TF_playerid_teleporter_no_entrance"	"¡No hay entrada!"
+"TF_playerid_teleporter_no_exit"		"¡No hay salida!"
 "TF_playerid_object_recharging"			"Recargando: %s1%"
 "TF_playerid_object_flooded"			"Inundado"
-"TF_playerid_carrying"					"Llevando: %s1"
-"TF_playerid_carrying_lvl"				"Llevando: %s1 (Nivel %s2)"
+"TF_playerid_carrying"					"Transportando: %s1"
+"TF_playerid_carrying_lvl"				"Transportando: %s1 (nivel %s2)"
 
-"TF_friendly"				"amigo"
-"TF_enemy"					"enemigo"
+"TF_friendly"							"amigo"
+"TF_enemy"								"enemigo"
 
 // ----------------------------------------------------------------
 // Respawning
 // ----------------------------------------------------------------
 
 "game_respawntime_now"			"Prepárate para reaparecer"
-"game_respawntime_in_sec"		"Reaparición en: 1 segundo"
-"game_respawntime_in_secs"		"Reaparición en: %s1 segundos"
+"game_respawntime_in_sec"		"Reaparición en 1 segundo"
+"game_respawntime_in_secs"		"Reaparición en %s1 segundos"
 "game_respawntime_stalemate"	"Sin reapariciones en Muerte Súbita"
 "game_respawntime_next_round"	"Reaparecerás en la próxima ronda"
 "TF_Arena_NoRespawning"			"En el modo Arena no hay reaparición"
@@ -149,7 +164,7 @@
 "DeathMsg_Suicide_Boioing"		"ha ascendido"
 "DeathMsg_Suicide_Stomp"		"ha estirado la pata"
 "DeathMsg_Suicide_Disintegrate"	"se ha convertido en cenizas"
-"DeathMsg_Suicide_Decapitate"	"se ha degradado a torso"
+"DeathMsg_Suicide_Decapitate"	"ha perdido la cabeza"
 "DeathMsg_Suicide_Gold"			"se ha convertido en oro"
 "DeathMsg_Suicide_Freeze"		"se ha convertido en hielo"
 "DeathMsg_Suicide_Fizzle"		"se ha electrificado"
@@ -160,9 +175,12 @@
 // ----------------------------------------------------------------
 
 "Voice_Menu_ChargeReady"				"MEDIC: Estado de Supercarga"
-"Voice_Menu_ChargeReadySubtitle"		"¡Supercarga lista! (100%)"
-"Voice_Menu_ChargeAlmostReadySubtitle"	"Supercarga casi lista (%s1%)"
-"Voice_Menu_ChargeNotReadySubtitle"		"¡Supercarga no está lista! (%s1%)"
+"Voice_Menu_ChargeReadySubtitle"		"¡Supercarga lista! (100 %)"
+"Voice_Menu_ChargeAlmostReadySubtitle"	"Supercarga casi lista (%s1 %)"
+"Voice_Menu_ChargeNotReadySubtitle"		"¡Supercarga no está lista! (%s1 %)"
+
+"Voice_Menu_SingleChargeReadySubtitle"		"¡Supercarga lista! (%s1 carga)"
+"Voice_Menu_MultipleChargesReadySubtitle"	"¡Supercargas listas! (%s1 cargas)"
 
 // ----------------------------------------------------------------
 // Class tips
@@ -180,7 +198,7 @@
 "Tip_1_6"		"Como Scout, tu Bate hace menos daño que otras armas cuerpo a cuerpo, pero ataca mucho más rápido."
 // Death & Taxes
 "Tip_1_7"		"Como Scout, tu Pistola de Clavos es ideal para mantener a raya a enemigos dándote caza."
-"Tip_1_8"		"Como Scout, destruir las Centinelas es pan comido con tu Pistola de Clavos. Úsala cuando te enfrentes a nidos difíciles."
+"Tip_1_8"		"Como Scout, destruir las armas centinela es pan comido con tu Pistola de Clavos. Úsala cuando te enfrentes a nidos difíciles."
 // Fight or Flight
 "Tip_1_9"		"Como Scout, tu Ladrillo puede empujar a los enemigos. ¡Haz volar a la gente!"
 "Tip_1_10"		"Como Scout, tu Ladrillo puede infligir minicríticos a distancia."
@@ -189,7 +207,7 @@
 "Tip_2_Count"	"11"
 // Generic
 "Tip_2_1"		"Como Sniper, apunta a la cabeza para hacer daño crítico."
-"Tip_2_2"		"Como Sniper, apunta con tu Rifle pulsando %attack2%."
+"Tip_2_2"		"Como Sniper, apunta con tu Rifle de Francotirador o fija el blanco con tu Rifle de Cazador pulsando %attack2%."
 // Stock
 "Tip_2_3"		"Como Sniper, cuanto más tiempo pases acercando el objetivo con la mira, más daños provocará el disparo."
 "Tip_2_4"		"Como Sniper, un disparo completamente cargado a la cabeza puede matar a la mayoría de clases instantáneamente."
@@ -198,25 +216,25 @@
 // Death & Taxes
 "Tip_2_7"		"Como Sniper, el Cazador puede utilizarse para un combate a corta distancia más ofensivo, a costa de la precisión."
 "Tip_2_8"		"Como Sniper, tu flecha será mucho menos precisa si tensas el Cazador más de cinco segundos. Inténtalo de nuevo pulsando %attack2%."
-"Tip_2_9"		"Como Sniper, tu Revólver de caza es una gran opción a medio alcance. Úsalo para infligir mucho daño mientras entras y sales rápidamente de la primera línea."
-"Tip_2_10"		"Como Sniper, tu movimiento mientras apuntas con el Revólver de Caza es mayor que con el rifle normal. Muévete mientras apuntas para ser más difícil de dar."
+"Tip_2_9"		"Como Sniper, tu Rifle de Cazador es una gran opción a medio alcance. Úsalo para infligir mucho daño mientras entras y sales rápidamente de la primera línea."
+"Tip_2_10"		"Como Sniper, tu movimiento mientras apuntas con el Rifle de Cazador es mayor que con el rifle normal. Muévete mientras apuntas para ser un objetivo difícil."
 "Tip_2_11"		"Como Sniper, el Machacapeces causará hemorragia a un enemigo al golpearle. ¡Úsalo contra Spies invisibles!"
 
 // Soldier
 "Tip_3_Count"	"12"
 // Generic
-"Tip_3_1"		"Usa %helpme% para llamar a un Medic si estás dañado. Medics cercanos serán notificados."
+"Tip_3_1"		"Usa %helpme% para llamar a un Medic si estás herido. Los Medics cercanos serán notificados."
 "Tip_3_2"		"Como Soldier, puedes saltar a grandes alturas disparando un cohete a tus pies mientras saltas."
 "Tip_3_3"		"Como Soldier, agáchate mientras te preparas para un salto con cohete para alcanzar la máxima altura."
 "Tip_3_4"		"Como Soldier, apunta los cohetes a los pies de tus enemigos para que no puedan escapar de la explosión."
-"Tip_3_5"		"Como Soldier, tus cohetes tienen gran onda expansiva. Úsala para empujar enemigos o para enviarlos por en aire."
+"Tip_3_5"		"Como Soldier, tus cohetes tienen gran onda expansiva. Úsala para empujar enemigos o para enviarlos por los aires."
 // Stock
 "Tip_3_6"		"Como Soldier, lleva siempre cargado el Lanzacohetes. Pulsa %reload% para recargarlo manualmente."
-"Tip_3_7"		"Como Soldier, usa tu Escopeta para ahorrar cohetes y para evitar tener que recargar el Lanzacohetes en medio del combate."
+"Tip_3_7"		"Como Soldier, usa tu Escopeta para ahorrar cohetes y evitar tener que recargar el Lanzacohetes en medio del combate."
 "Tip_3_8"		"Como Soldier, usa tu Pala para infligir daño a corta distancia sin tener que preocuparte de recargar."
 // Death & Taxes
 "Tip_3_9"		"Como Soldier, las Botas Blindadas reducen daños de tus saltos con cohetes. Úsalas cuando el posicionamiento y movilidad son especialmente importantes."
-"Tip_3_10"		"Como Soldier, los cohetes del RPG pueden ir por encima de muros. Asegúrate de apuntar con precisión."
+"Tip_3_10"		"Como Soldier, los cohetes del RPG pueden crear parábolas por encima de muros. Asegúrate de apuntar con precisión."
 // Double Down
 "Tip_3_11"		"Como Soldier, el daño sísmico de tu Ancla del Almirantazgo aumenta cuanto más tiempo la sujetes. Sácala en el momento álgido de tu salto con cohete."
 "Tip_3_12"		"Como Soldier, equipar el Ancla del Almirantazgo te hace propenso a recibir impactos críticos de proyectiles mientras estás en el aire. Asegúrate de saltar con cuidado."
@@ -224,7 +242,7 @@
 // Demoman
 "Tip_4_Count"	"15"
 // Generic
-"Tip_4_1"		"Como Demoman, pulsa %attack2% para detonar a distancia Bombas Lapas o desintegrar Minas que hayas colocado en el suelo."
+"Tip_4_1"		"Como Demoman, pulsa %attack2% para detonar a distancia bombas lapas o desintegrar minas que hayas colocado en el suelo."
 "Tip_4_2"		"Como Demoman, detona bombas lapas debajo de tus pies al saltar para hacer saltos explosivos y llegar a grandes alturas."
 "Tip_4_3"		"Como Demoman, agáchate cuando vayas a hacer un salto explosivo para llegar aún más lejos."
 // Stock
@@ -232,16 +250,16 @@
 "Tip_4_5"		"Como Demoman, cuando utilices el Lanzabombas Lapa cuanto más tiempo mantengas pulsado el botón de disparo, más lejos llegará el proyectil."
 "Tip_4_6"		"Como Demoman, dispara bombas lapas en paredes y techos donde sean difíciles de ver."
 "Tip_4_7"		"Como Demoman, tu Botella puede usarse para el combate cuerpo a cuerpo tras saltar explosivamente a territorio enemigo."
-"Tip_4_8"		"Como Demoman, tu Botella siempre hace el mismo daño, da igual que esté rota, o no."
+"Tip_4_8"		"Como Demoman, tu Botella siempre hace el mismo daño, da igual que esté rota o no."
 // Death & Taxes
-"Tip_4_9"		"Como Demoman, lanza tu Paquete de Dinamita a los Puntos de Control para despejarlos de enemigos."
-"Tip_4_10"		"Como Demoman, tu Paquete de Dinamita puede ser desactivado por los Engineers enemigos. En lugar de eso, ¡puedes atacar los nidos de Centinelas con tus granadas!"
+"Tip_4_9"		"Como Demoman, lanza tu Dinamita Racimo a los Puntos de Control para despejarlos de enemigos."
+"Tip_4_10"		"Como Demoman, tu Dinamita Racimo puede ser desactivada por los Engineers enemigos. En lugar de eso, ¡puedes atacar los nidos de armas centinela con tus granadas!"
 "Tip_4_11"		"Como Demoman, las Botas Blindadas reducen daños de tus saltos con bombas lapa. Úsalas cuando el posicionamiento y movilidad son especialmente importantes"
 "Tip_4_12"		"Como Demoman, el Lanzaminas dispara minas de proximidad que explotan si un enemigo se acerca demasiado. Úsalo cuando tu arma primaria preferida sea el Lanzagranadas."
 // Double Down
 "Tip_4_13"		"Como Demoman, las granadas PEM del Cíclope solo detonan cuando tú lo permites. ¡Úsalas para sincronizar un salto explosivo o activar una trampa mortal!"
 "Tip_4_14"		"Como Demoman, el Cíclope detona instantáneamente tus propios explosivos. Úsalo para crear trampas mortales o para matar con un combo agresivo"
-"Tip_4_15"		"Como Demoman, puedes usar el Cíclope para desintegrar las Bombas Lapas, los Paquetes de Dinamita y las Minas enemigas que estén cerca."
+"Tip_4_15"		"Como Demoman, puedes usar el Cíclope para desintegrar las bombas lapas, los paquetes de Dinamita Racimo y las minas enemigas que estén cerca."
 
 // Medic
 "Tip_5_Count"	"16"
@@ -251,10 +269,10 @@
 "Tip_5_3"		"Como Medic, tu Supercarga se rellenará mucho más rápida durante el periodo de preparación."
 "Tip_5_4"		"Como Medic, rellena tu Supercarga curando a compañeros de equipo y pulsa %attack2% para activarla."
 "Tip_5_5"		"Como Medic, mantente alerta por los compañeros de equipo que necesitan tu ayuda. Usa las flechas en tu pantalla para encontrarlos."
-"Tip_5_6"		"Como Medic, ni tú ni tu paciente podéis capturar Puntos de Control o coger el Dosier mientras seáis invulnerables."
+"Tip_5_6"		"Como Medic, ni tú ni tu paciente podéis capturar Puntos de Control ni coger el dosier mientras seáis invulnerables."
 // Stock
 "Tip_5_7"		"Como Medic, recuerda que las jeringas viajan en arcos y a cierta velocidad. Intenta predecir el movimiento de los enemigos y apunta más alto para golpearles."
-"Tip_5_8"		"Como Medic, emplea tu Pistola Médica para curar a tus compañeros de equipo y que alcancen hasta un 150%% de su salud normal."
+"Tip_5_8"		"Como Medic, emplea tu Pistola Médica para curar a tus compañeros de equipo y que alcancen hasta un 150 %% de su salud normal."
 "Tip_5_9"		"Como Medic, la Supercarga os hace invulnerables durante un breve periodo de tiempo tanto a ti como al objetivo de la Pistola Médica."
 "Tip_5_10"		"Como Medic, tu Serrucho puede usarse en situaciones defensivas cuando estás separado de tus compañeros."
 // Death & Taxes
@@ -269,7 +287,7 @@
 // Heavy
 "Tip_6_Count"	"17"
 // Generic
-"Tip_6_1"		"Usa %helpme% para llamar a un Medic si estás dañado. Medics cercanos serán notificados."
+"Tip_6_1"		"Usa %helpme% para llamar a un Medic si estás herido. Los Medics cercanos serán notificados."
 "Tip_6_2"		"Como Heavy, tienes más salud máxima que cualquier otra clase. ¡No tengas miedo de lanzarte a grandes ofensivas!"
 "Tip_6_3"		"Como Heavy, eres mucho más lento que otras clases. Ten cuidado al enfrentarte a enemigos más ágiles."
 "Tip_6_4"		"Como Heavy, eres un gran compinche del Medic. Mantén al Medic bien a la vista para que la Pistola Médica surta efecto sobre ti."
@@ -277,7 +295,7 @@
 "Tip_6_6"		"Como Heavy, mantén pulsado %attack2% para que tu Ametralladora siga girando, preparada para recibir a los enemigos que se acercan."
 // Stock
 "Tip_6_7"		"Como Heavy, tu Ametralladora consume un montón de munición. Recoge armas del suelo para recargarla."
-"Tip_6_8"		"Como Heavy, no pierdes momento si giras tu Ametralladora en el aire. ¡Usa esto para sorprender a enemigos en esquinas!"
+"Tip_6_8"		"Como Heavy, no pierdes velocidad si giras tu Ametralladora mientras saltas. ¡Usa esto para sorprender a enemigos en esquinas!"
 "Tip_6_9"		"Como Heavy, tu Escopeta puede causar un gran daño disperso y te permite moverte más rápido mientras atacas en comparación con girar tu Ametralladora."
 "Tip_6_10"		"Como Heavy, tu alta salud te permite ganar la mayoría de los combates cuerpo a cuerpo. ¡No tengas miedo de usar los Puños!"
 // Death & Taxes
@@ -285,8 +303,8 @@
 "Tip_6_12"		"Como Heavy, con el Focata en la mano, usa %attack2% para lanzarlo al suelo y tus compañeros puedan recogerlo como si fuera un botiquín."
 "Tip_6_13"		"Como Heavy, ten cuidado dónde lanzas tu Focata. ¡Tanto tus compañeros como tus enemigos pueden recogerlo y curarse gran parte de su salud!"
 // Fight or Flight
-"Tip_6_14"		"Como Heavy, tu Cañón Anti-Aéreo causa mucho daño explosivo y es ideal para enfrentar multitudes."
-"Tip_6_15"		"Como Heavy, tu Cañón Anti-Aéreo inflige minicríticos a enemigos aéreos. Úsalo para derribar Soldiers o enemigos usando Controladores Aéreos."
+"Tip_6_14"		"Como Heavy, tu Cañón Antiaéreo causa mucho daño explosivo y es ideal para enfrentar multitudes."
+"Tip_6_15"		"Como Heavy, tu Cañón Antiaéreo inflige minicríticos a enemigos aéreos. Úsalo para derribar Soldiers o enemigos usando controladores aéreos."
 "Tip_6_16"		"Como Heavy, el Puño de Chéjov acumula un golpe crítico por cada impacto exitoso. ¡Úsalo con tu Ametralladora para asegurar los impactos críticos!"
 "Tip_6_17"		"Como Heavy, el Puño de Chéjov te garantiza daño crítico de los ataques cuerpo a cuerpo de los enemigos. Ten cuidado en combate cercano."
 
@@ -300,14 +318,14 @@
 "Tip_7_4"		"Como Pyro, tu Lanzallamas consume mucha munición. Recoge armas suelo para recargarla."
 "Tip_7_5"		"Como Pyro, tiende una emboscada a los enemigos para asegurarte de poder dispararles a bocajarro para causar el máximo daño. Aprovecha las esquinas y huecos."
 "Tip_7_6"		"Como Pyro, el aire comprimido del Lanzallamas (%attack2%) es muy útil. Te permite empujar a Medics invulnerables y sus pacientes lejos, o matarlos con peligros del entorno."
-"Tip_7_7"		"Como Pyro, tu Lanzallamas puede extinguir a compañeros ardiendo con %attack2%."
+"Tip_7_7"		"Como Pyro, tu Lanzallamas puede apagar las llamas de compañeros ardiendo con %attack2%."
 "Tip_7_8"		"Como Pyro, cambia a tu arma secundaria si los enemigos se repliegan más allá del corto alcance de tu Lanzallamas."
 "Tip_7_9"		"Como Pyro, tu Hacha de Bombero es una buena opción para enfrentarte a los Pyros enemigos."
 // Death & Taxes
 "Tip_7_10"		"Como Pyro, tu Pistola de Bengalas puede incendiar a enemigos lejanos. Esto funciona bien con Snipers enemigos."
 "Tip_7_11"		"Como Pyro, tu Pistola de Bengalas tiene un período muy breve en el que puede infligir golpes críticos a los Pyros enemigos en llamas."
 // Fight or Flight
-"Tip_7_12"		"Como Pyro, puedes usar el Doble Cañón para reducir la distancia entre tú y tu objetivo. ¡Impúlsate hacia arriba o hacia tus enemigos!"
+"Tip_7_12"		"Como Pyro, puedes usar el Doble Cañón para reducir la distancia entre tu objetivo y tú. ¡Impúlsate hacia arriba o hacia tus enemigos!"
 "Tip_7_13"		"Como Pyro, el Doble Cañón no inflige daño con la misma fiabilidad que tu Escopeta. Si vas perdiendo en un encuentro, úsalo para impulsarte en retirada."
 "Tip_7_14"		"Como Pyro, el Segador puede generar un golpe crítico cuerpo a cuerpo garantizado y te permite curarte de tus enemigos."
 "Tip_7_15"		"Como Pyro, morir con el Segador equipado extinguirá a cualquier enemigo que hayas prendido fuego."
@@ -316,7 +334,7 @@
 "Tip_8_Count"	"15"
 // Generic
 "Tip_8_1"		"Como Spy, disfrázate del enemigo con el Kit de Disfraces. Ten cuidado, ya que si atacas, perderás el disfraz."
-"Tip_8_2"		"Como Spy, llama a Medics enemigos pulsando %voicemenu 0 0% mientras estés disfrazado."
+"Tip_8_2"		"Como Spy, llama a Medics enemigos pulsando %helpme% mientras estés disfrazado."
 "Tip_8_3"		"Como Spy, procura actuar como el enemigo cuando estés disfrazado. Observa dónde están los miembros del equipo enemigo y disfrázate de uno de ellos."
 "Tip_8_4"		"Como Spy, si pulsas %reload% mientras estás disfrazado, parecerá que recargas ante los miembros del equipo enemigo."
 "Tip_8_5"		"Como Spy, pulsa %speed% para moverte a velocidad normal mientras que estés disfrazado como una clase más lenta."
@@ -324,15 +342,15 @@
 "Tip_8_7"		"Como Spy, utiliza el dispositivo de invisibilidad para ir tras las líneas enemigas, y el disfraz para pasar desapercibido."
 // Stock
 "Tip_8_8"		"Como Spy, tu Revólver es una herramienta muy útil cuando una operación sigilosa no sale bien."
-"Tip_8_9"		"Como Spy, coloca los Zapadores en las Armas Centinela del enemigo para destruirlas. Los disfraces no se pierden al colocar Zapadores."
-"Tip_8_10"		"Como Spy, los Zapadores desactivarán las Armas Centinela antes de destruirlas. Colócalo antes de atacar al Engineer."
+"Tip_8_9"		"Como Spy, coloca los Zapadores en las armas centinela del enemigo para destruirlas. Los disfraces no se pierden al colocar Zapadores."
+"Tip_8_10"		"Como Spy, los Zapadores desactivarán las armas centinela antes de destruirlas. Colócalo antes de atacar al Engineer."
 "Tip_8_11"		"Como Spy, utiliza tu Mariposa para apuñalar por la espalda a los enemigos y eliminarlos al instante."
 // Death & Taxes
 "Tip_8_12"		"Como Spy, usa tu Pistola Sedante para ralentizar enemigos que puedan darte caza. Esto ayuda escapar de Pyros enemigos."
 "Tip_8_13"		"Como Spy, los dardos de tu Pistola Sedante hacen que tu objetivo sufra golpes críticos garantizados de daño cuerpo a cuerpo."
 // Fight or Flight
-"Tip_8_14"		"Como Spy, L'escampette te permite moverte rápidamente hacia o desde la base enemiga. ¡Escapadas rápidas o infiltraciones rápidas!"
-"Tip_8_15"		"Como Spy, pierdes la invisibilidad cuando recibes daño con L'escampette equipada. Mantente alejado de la línea de fuego."
+"Tip_8_14"		"Como Spy, L'escampette te permite moverte rápidamente hacia o desde la base enemiga. ¡Huidas rápidas o infiltraciones veloces!"
+"Tip_8_15"		"Como Spy, pierdes la invisibilidad cuando recibes daño con L'escampette equipado. Mantente alejado de la línea de fuego."
 
 // Engineer
 "Tip_9_Count"	"20"
@@ -341,42 +359,54 @@
 "Tip_9_2"		"Como Engineer, puedes hacer más cosas que solamente mantener tus construcciones. Usa tu Escopeta y Pistola para asistir en batallas y proteger tus construcciones."
 "Tip_9_3"		"Como Engineer, vigila por si hubiera Spies enemigos colocando Zapadores en tus construcciones. Utiliza tu Llave Inglesa para quitar dichos Zapadores."
 "Tip_9_4"		"Como Engineer, recuerda mejorar tus construcciones, las construcciones mejoradas pueden ayudarte a ti y a tu equipo a ser mucho más eficientes."
-"Tip_9_5"		"Como Engineer, usa %attack2% para rotar los planos antes de que uses %attack% para construirlos. Haz esto para evitar que las salidas de Teleportadores estén orientados a paredes."
+"Tip_9_5"		"Como Engineer, usa %attack2% para rotar los planos antes de que uses %attack% para construirlos. Haz esto para evitar que las salidas de teleportadores estén orientados a paredes."
 // Stock
-"Tip_9_6"		"Como Engineer, tu Pistola tiene mucha munición de reserva. Úsala para dirigir a los enemigos hacia ti y tu Arma Centinela, o opta por un enfoque más ofensivo."
-"Tip_9_7"		"Como Engineer, puedes destruir un Pack de Dinamita al golpearlo con la Llave Inglesa."
+"Tip_9_6"		"Como Engineer, tu Pistola tiene mucha munición de reserva. Úsala para dirigir a los enemigos hacia ti y tu arma centinela u opta por un enfoque más ofensivo."
+"Tip_9_7"		"Como Engineer, puedes destruir un paquete de Dimanita Racimo al golpearlo con la Llave Inglesa."
 "Tip_9_8"		"Como Engineer, puedes golpear construcciones amigas con tu Llave Inglesa para repararlas y mejorarlas."
-"Tip_9_9"		"Como Engineer, utiliza la herramienta de construcción para colocar Armas Centinela, Dispensadores y Teleportadores."
-"Tip_9_10"		"Como Engineer, las Armas Centinelas no son estrictamente defensivas. Ponlas rápidamente en sitios ocultos para asistir en la ofensiva."
-"Tip_9_11"		"Como Engineer, golpea el Arma Centinela con la Llave Inglesa para mejorarla con metal. Cada nivel añade más salud y potencia de disparo."
-"Tip_9_12"		"Como Engineer, construye Dispensadores para que tus compañeros de equipo repongan salud y munición. También generan metal que podrás utilizar."
-"Tip_9_13"		"Como Engineer, los Dispensadores mejorados generarán más salud, munición y metal para ti y tu equipo."
-"Tip_9_14"		"Como Engineer, construye Teleportadores o Controladores Aéreos para ayudar a tu equipo a llegar antes al frente de batalla."
-"Tip_9_15"		"Como Engineer, los Teleportadores mejorados se recargan mucho más rápido, permitiendo que tu equipo mantenga la presión en el campo de batalla."
-"Tip_9_16"		"Como Engineer, golpea la entrada o la salida de los Teleportadores para mejorar y reparar ambos lados."
+"Tip_9_9"		"Como Engineer, utiliza la herramienta de construcción para colocar armas centinela, dispensadores y teleportadores."
+"Tip_9_10"		"Como Engineer, las armas centinelas no son estrictamente defensivas. Ponlas rápidamente en sitios ocultos para asistir en la ofensiva."
+"Tip_9_11"		"Como Engineer, golpea el arma centinela con la Llave Inglesa para mejorarla con metal. Cada nivel añade más salud y potencia de disparo."
+"Tip_9_12"		"Como Engineer, construye dispensadores para que tus compañeros de equipo repongan salud y munición. También generan metal que podrás utilizar."
+"Tip_9_13"		"Como Engineer, los dispensadores mejorados generarán más salud, munición y metal para ti y tu equipo."
+"Tip_9_14"		"Como Engineer, construye teleportadores o controladores aéreos para ayudar a tu equipo a llegar antes al frente de batalla."
+"Tip_9_15"		"Como Engineer, los teleportadores mejorados se recargan mucho más rápido, permitiendo que tu equipo mantenga la presión en el campo de batalla."
+"Tip_9_16"		"Como Engineer, golpea la entrada o la salida de los teleportadores para mejorar y reparar ambos lados."
 // Death & Taxes
 "Tip_9_17"		"Como Engineer, los disparos completamente cargados del Bobiductor pueden rebotar en las paredes y causar más daño."
 "Tip_9_18"		"Como Engineer, el Bobiductor explotará si lo cargas al máximo durante tres segundos. Lo puedes usar para llegar a zonas previamente inaccesibles."
 // Fight or Flight
-"Tip_9_19"		"Como Engineer, puedes cambiar el Teleportadores por Controladores Aéreos. Los Controladores Aéreos os permiten a ti y a tu equipo llegar a lugares altos."
-"Tip_9_20"		"Como Engineer, los Controladores Aéreos permiten a tus compañeros saltar hacia delante con gran impulso. Colócalos en lugares que permitan realizar lanzamientos rápidos."
+"Tip_9_19"		"Como Engineer, puedes cambiar teleportadores por controladores aéreos. Los controladores aéreos os permiten a ti y a tu equipo llegar a lugares altos."
+"Tip_9_20"		"Como Engineer, los controladores aéreos permiten a tus compañeros saltar hacia delante con gran impulso. Colócalos en lugares que permitan realizar lanzamientos rápidos."
 
 // Civilian
 "Tip_10_Count"	"11"
 // Generic
-"Tip_10_1"		"Como Civilian, tu velocidad es un poco lenta. Intenta no quedarte atrás de tus compañeros."
-"Tip_10_2"		"Como Civilian, eres la clase más pequeña del juego. Esto puede ser útil para esconderte detrás de compañeros de equipo."
-"Tip_10_3"		"Como Civilian, eres el único capaz de capturar Puntos de Control en los modos VIP y Carrera VIP."
-"Tip_10_4"		"Como Civilian, ten cuidado con los Spies enemigos, ya que son capaces de matarte al instante."
-"Tip_10_5"		"Como Civilian, los compañeros cercanos serán protegidos del daño por tu mejora de moral."
-"Tip_10_6"		"Como Civilian, pulsa %attack2% en un compañero de equipo para potenciarlo, dándole una gran ventaja en la batalla."
+"Tip_10_1"		"Como Civil, tu velocidad es un poco inferior. Intenta no quedarte atrás de tus compañeros."
+"Tip_10_2"		"Como Civil, eres la clase más pequeña del juego. Esto puede ser útil para esconderte detrás de compañeros de equipo."
+"Tip_10_3"		"Como Civil, eres el único capaz de capturar Puntos de Control en los modos VIP y Carrera VIP."
+"Tip_10_4"		"Como Civil, ten cuidado con los Spies enemigos, ya que son capaces de matarte al instante."
+"Tip_10_5"		"Como Civil, los compañeros cercanos serán protegidos del daño por tu mejora de moral."
+"Tip_10_6"		"Como Civil, pulsa %attack2% en un compañero de equipo para potenciarlo, dándole una gran ventaja en la batalla."
 // Stock
-"Tip_10_7"		"Como Civilian, tu Paraguas no es muy efectiva como arma. Deja a tu equipo luchar por ti."
-"Tip_10_8"		"Como Civilian, tu Paraguas otorga minicríticos a un compañero de equipo que elijas. Potencia las clases capaces de infligir mucho daño."
-"Tip_10_9"		"Como Civilian, el impulso de minicríticos de tu Paraguas también otorgará a los Medics una mejor tasa de curación y más Supercarga"
+"Tip_10_7"		"Como Civil, tu Paraguas no es muy efectivo como arma. Deja a tu equipo luchar por ti."
+"Tip_10_8"		"Como Civil, tu Paraguas otorga minicríticos al compañero de equipo que elijas. Potencia las clases capaces de infligir mucho daño."
+"Tip_10_9"		"Como Civil, el impulso de minicríticos de tu Paraguas también otorgará a los Medics una mejor tasa de curación y más Supercarga"
 // Double Down
-"Tip_10_10"		"Como Civilian, puedes usar tu Bastón de Derby para aumentar la velocidad de un compañero. Esto le permite moverse y disparar mucho más rápido."
-"Tip_10_11"		"Como Civilian, tu Bastón de Derby aumenta la tasa de curación de los Medics y la tasa de construcción de los Engineers."
+"Tip_10_10"		"Como Civil, puedes usar tu Bastón Derby para aumentar la velocidad de un compañero. Esto le permite moverse y disparar mucho más rápido."
+"Tip_10_11"		"Como Civil, tu Bastón Derby aumenta la tasa de curación de los Medics y la tasa de construcción de los Engineers."
+
+// Arena
+"Tip_arena_Count"		"9"
+"Tip_arena_1"			"En Arena, no pierdas de vista el contador de jugadores de la parte superior de la pantalla para saber si tu equipo lleva ventaja."
+"Tip_arena_2"			"En Arena, hay muy pocas fuentes para reponer tu salud, ¡así que procura proteger a tus Medics y Engineers (y comparte tu Focata)!"
+"Tip_arena_3"			"En Arena, el punto de captura que hay en medio del mapa estará activo cuando pasen 60 segundos desde el comienzo de la ronda. ¡Aprovecha para esconderte de los enemigos!"
+"Tip_arena_4"			"En Arena, no te regeneras, así que ¡procura no morir!"
+"Tip_arena_5"			"En Arena, ninguna de las clases tiene ventaja, concéntrate en contrarrestar la composición del equipo rival. Como dijo Julio César: ¡Divide y vencerás!"
+"Tip_arena_6"			"En Arena, solamente puedes cambiar de clase al comienzo de la partida, antes de que se abran las puertas."
+"Tip_arena_7"			"En Arena, intenta no separarte de tu equipo para ayudar si lo necesitasen. Llegar tarde a un apoyo en combate puede crear una gran desventaja."
+"Tip_arena_8"			"En Arena, evitar que se puedan curar los rivales es algo crucial. ¡El objetivo son Medics y dispensadores, así como cualquier tipo de fuente de salud!"
+"Tip_arena_9"			"En Arena, conseguir la primera sangre otorgará el efecto de Acorralado, recibiendo un subidón de críticos. ¡Si lo consigues, aprovéchalo! Si lo consigue el enemigo, buscad un refugio."
 
 // ----------------------------------------------------------------
 // Stock weapon strings
@@ -384,74 +414,74 @@
 
 // Bat
 "TF_Weapon_Bat"							"Bate"
-"TF_Weapon_Bat_Desc"					"\"Esta cosa crea las mejores abolladuras cuando tiene que hacerlas—¡muy útil!\""
+"TF_Weapon_Bat_Desc"					"Tengo docenas como este. No me importa partírtelo en la cabeza."
 // Bottle
 "TF_Weapon_Bottle"						"Botella"
-"TF_Weapon_Bottle_Desc"					"\"¡Ay, mi botella de sidra!\""
+"TF_Weapon_Bottle_Desc"					"¡Ay, mi botella de sidra!"
 // Fire Axe
 "TF_Weapon_FireAxe"						"Hacha de Bombero"
 "TF_Weapon_FireAxe_Desc"				"Enseña la valiosa lección de seguridad contra incendios."
 // Kukri
 "TF_Weapon_Kukri"						"Kukri"
-"TF_Weapon_Kukri_Desc"					"\"¡Un toque de la vieja escuela!\""
+"TF_Weapon_Kukri_Desc"					"¡Un toque de la vieja escuela!"
 // Knife
 "TF_Weapon_Knife"						"Mariposa"
 "TF_Weapon_Knife_Desc"					"Para el hombre que ama ver cómo se desenvuelven las cosas."
 // Fists
 "TF_Weapon_Fists"						"Puños"
-"TF_Weapon_Fists_Desc"					"\"Esto es solo muestra gratuita del dolor que te espera\""
+"TF_Weapon_Fists_Desc"					"Esto es solo muestra gratuita del dolor que te espera."
 // Shovel
 "TF_Weapon_Shovel"						"Pala"
-"TF_Weapon_Shovel_Desc"					"\"¡La necesitarás para cavar tu tumba cuando no te quede ningún resto!\""
+"TF_Weapon_Shovel_Desc"					"¡La necesitarás para cavar tu tumba cuando no te quede otra opción!"
 // Wrench
 "TF_Weapon_Wrench"						"Llave Inglesa"
-"TF_Weapon_Wrench_Desc"					"\"Hago un poco de todo.\""
+"TF_Weapon_Wrench_Desc"					"Hago un poco de todo."
 // Bonesaw
 "TF_Weapon_Bonesaw"						"Serrucho"
-"TF_Weapon_Bonesaw_Desc"				"\"¡Venga, prometo que le curaré!\""
+"TF_Weapon_Bonesaw_Desc"				"¡De verdad, esto es un instrumento quirúrjico homologado!"
 // Shotgun
 "TF_Weapon_Shotgun"						"Escopeta"
-"TF_Weapon_Shotgun_Desc_Engineer"		"\"A veces cuando quieres que algo salga bien, tienes que hacerlo tú mismo.\""
-"TF_Weapon_Shotgun_Desc_Soldier"		"\"¡Mi escopeta dice que gusanos como tú, han fallado la simple tarea de sobrevivir!\""
-"TF_Weapon_Shotgun_Desc_Heavy"			"\"¡Arma pequeña para acabar con bebés pequeños!\""
+"TF_Weapon_Shotgun_Desc_Engineer"		"A veces, cuando quieres que algo salga bien, tienes que hacerlo tú mismo."
+"TF_Weapon_Shotgun_Desc_Soldier"		"¡Mi escopeta dice que gusanos como tú, han fallado la simple tarea de sobrevivir!"
+"TF_Weapon_Shotgun_Desc_Heavy"			"¡Arma pequeña para acabar con bebés pequeños!"
 "TF_Weapon_Shotgun_Desc_Pyro"			"Deja que hable por ti."
 // Scattergun
 "TF_Weapon_Scattergun"					"Recortada"
-"TF_Weapon_Scattergun_Desc"				"\"Me ves, no me ves. ¡Y estás muerto, tontolculo!\""
+"TF_Weapon_Scattergun_Desc"				"Me ves, no me ves. ¡Y estás muerto, tontolculo!"
 // Sniper Rifle
 "TF_Weapon_SniperRifle"					"Rifle de Francotirador"
-"TF_Weapon_SniperRifle_Desc"			"\"A ese cuello le falta algo más que una corbata.\""
+"TF_Weapon_SniperRifle_Desc"			"A ese cuello le falta algo más que una corbata."
 // Minigun
 "TF_Weapon_Minigun"						"Ametralladora"
-"TF_Weapon_Minigun_Desc"				"\"A Sasha gusta ver hombres caer como mosca\""
+"TF_Weapon_Minigun_Desc"				"A Sasha gusta ver hombres caer como mosca."
 // SMG
 "TF_Weapon_SMG"							"Metralleta"
 "TF_Weapon_SMG_Desc"					"Si crees que te falta un poco de espacio personal, tener algo como esto a mano resulta conveniente."
 // Syringe Gun
 "TF_Weapon_SyringeGun"					"Pistola de Jeringas"
-"TF_Weapon_SyringeGun_Desc"				"La medicina \"convencional\" se ha vuelto un poco dolorosa."
+"TF_Weapon_SyringeGun_Desc"				"La medicina «convencional» se ha vuelto un poco dolorosa."
 // Rocket Launcher
 "TF_Weapon_RocketLauncher"				"Lanzacohetes"
-"TF_Weapon_RocketLauncher_Desc"			"La arma perfecta para el Soldado perfecto."
+"TF_Weapon_RocketLauncher_Desc"			"El arma perfecta para el Soldier, el soldado perfecto."
 // Grenade Launcher
 "TF_Weapon_GrenadeLauncher"				"Lanzagranadas"
-"TF_Weapon_GrenadeLauncher_Desc"		"\"No te alteres tío, seré amable.\""
+"TF_Weapon_GrenadeLauncher_Desc"		"No te alteres tío, seré amable."
 // Stickybomb Launcher
 "TF_Weapon_StickybombLauncher"			"Lanzabombas Lapa"
-"TF_Weapon_StickybombLauncher_Desc"		"\"KA-BOOOM!\""
+"TF_Weapon_StickybombLauncher_Desc"		"¡KA-BUUUM!"
 // Flame Thrower
 "TF_Weapon_FlameThrower"				"Lanzallamas"
 "TF_Weapon_FlameThrower_Desc"			"Las cosas se están calentando..."
 // Pistol
 "TF_Weapon_Pistol"						"Pistola"
-"TF_Weapon_Pistol_Desc_Engineer"		"\"¡Empieza a bailar, chico!\""
-"TF_Weapon_Pistol_Desc_Scout"			"\"Todas estas balas, van a ir derechitas a tu cabeza\""
+"TF_Weapon_Pistol_Desc_Engineer"		"¡Empieza a bailar, chico!"
+"TF_Weapon_Pistol_Desc_Scout"			"Todas estas balas, van a ir derechitas a tu cabeza."
 // Revolver
 "TF_Weapon_Revolver"					"Revólver"
 "TF_Weapon_Revolver_Desc"				"Cuando el sigilo deja de ser una opción."
 // PDA: Teleporter (Construction PDA)
 "TF_Weapon_ConstructionPDA"				"PDA de Construcción"
-"TF_Weapon_ConstructionPDA_Desc"		"\"Todo lo que un buen ingeniero necesita, esta en este amiguito.\""
+"TF_Weapon_ConstructionPDA_Desc"		"Todo lo que un buen Engineer necesita, está en este amiguito."
 "TF_Weapon_PDATeleporter"				"PDA: Teleportador"
 // Destruction PDA
 "TF_Weapon_DestructionPDA"				"PDA de Destrucción"
@@ -459,138 +489,138 @@
 "TF_Weapon_DisguiseKit"					"Kit de Disfraces"
 // Medi Gun
 "TF_Weapon_Medigun"						"Pistola Médica"
-"TF_Weapon_Medigun_Desc"				"Incluso los Dioses sufrirán las consecuencias de lo que han permitido ser creado en este mundo."
+"TF_Weapon_Medigun_Desc"				"Incluso los dioses sufrirán las consecuencias de lo que han permitido ser creado en este mundo."
 // Invis Watch
 "TF_Weapon_InvisWatch"					"Reloj de Invisibilidad"
 "TF_Weapon_InvisWatch_Desc"				"Con estilo. Una pena que nunca lo vean."
 // Sapper
 "TF_Weapon_Sapper"						"Zapador"
-"TF_Weapon_Sapper_Desc"					"\"¿Quién dejó eso ahí?\""
+"TF_Weapon_Sapper_Desc"					"¿Quién ha dejado eso ahí?"
 
 // ----------------------------------------------------------------
 // Achievement weapon strings
 // ----------------------------------------------------------------
 
 // Kritzkrieg
-"TF_Weapon_Kritzkrieg"		"Kritzkrieg"
-"TF_Weapon_Kritzkrieg_Desc"	"¡Sobrecarga el arma de tu paciente a niveles críticos!"
+"TF_Weapon_Kritzkrieg"					"Kritzkrieg"
+"TF_Weapon_Kritzkrieg_Desc"				"¡Sobrecarga el arma de tu paciente a niveles críticos!"
 // Überspritze
-"TF_Weapon_Uberspritze"			"Überspritze"
-"TF_Weapon_Uberspritze_Desc"	"¡Este doctor tiene una segunda opinión!"
+"TF_Weapon_Uberspritze"					"Überspritze"
+"TF_Weapon_Uberspritze_Desc"			"¡Este doctor tiene una segunda opinión!"
 // Flare Gun
-"TF_Weapon_FlareGun"		"Pistola de Bengalas"
-"TF_Weapon_FlareGun_Desc"	"Envía una señal de socorro en nombre de ese tipo al que acabas de prender fuego."
+"TF_Weapon_FlareGun"					"Pistola de Bengalas"
+"TF_Weapon_FlareGun_Desc"				"Envía una señal de socorro en nombre de ese tipo al que acabas de prender fuego."
 // Sandvich
-"TF_Weapon_Sandvich"		"Focata"
-"TF_Weapon_Sandvich_Desc"	"\"¡Ven aquí! Te daré un trozo.\""
+"TF_Weapon_Sandvich"					"Focata"
+"TF_Weapon_Sandvich_Desc"				"¡Ven aquí! Te daré un trozo."
 // Huntsman
-"TF_Weapon_Huntsman"		"Cazador"
-"TF_Weapon_Huntsman_Desc"	"\"¿Que le pasó a la caballería?\""
+"TF_Weapon_Huntsman"					"Cazador"
+"TF_Weapon_Huntsman_Desc"				"¿Que le pasó a la caballería?"
 // Gunboats
-"TF_Weapon_Gunboats"				"Botas Blindadas"
-"TF_Weapon_Gunboats_Desc_Soldier"	"¡Plantillas de plomo para zapatos! Perfectas para quienes intentan hacer trampa en el examen físico del ejército."
-"TF_Weapon_Gunboats_Desc_Demoman"	"Unas botas tan buenas que ni te preocuparás por los tornillos que te taladran los pies."
+"TF_Weapon_Gunboats"					"Botas Blindadas"
+"TF_Weapon_Gunboats_Desc_Soldier"		"¡Plantillas de plomo para zapatos! Perfectas para quienes intentan hacer trampa en el examen físico del ejército."
+"TF_Weapon_Gunboats_Desc_Demoman"		"Unas botas tan buenas que ni te preocuparás por los tornillos que te taladran los pies."
 
 // ----------------------------------------------------------------
 // Death & Taxes weapon strings
 // ----------------------------------------------------------------
 
 // Umbrella
-"TF_Weapon_Umbrella"		"Paraguas"
-"TF_Weapon_Umbrella_Desc"	"Mantente seco tanto de la lluvia como del derramamiento de sangre durante tu viaje nocturno."
+"TF_Weapon_Umbrella"					"Paraguas"
+"TF_Weapon_Umbrella_Desc"				"Mantente seco tanto de la lluvia como del derramamiento de sangre durante tu viaje nocturno."
 // Nail Gun
-"TF_Weapon_NailGun"			"Pistola de Clavos"
-"TF_Weapon_NailGun_Desc"	"La construcción no es algo que esté en los planes de este hombre."
+"TF_Weapon_NailGun"						"Pistola de Clavos"
+"TF_Weapon_NailGun_Desc"				"La construcción no es algo que esté en los planes de este hombre."
 // R.P.G.
-"TF_Weapon_RPG"			"R.P.G."
-"TF_Weapon_RPG_Desc"	"Es una vista preciosa que contemplar cuando están volando a través del cielo y no hacia tú dirección."
+"TF_Weapon_RPG"							"RPG"
+"TF_Weapon_RPG_Desc"					"¿Ves como asoma el proyectil por la punta del cañón, hijo? Anhela la libertad... ¡Y por Dios que la conseguirá!"
 // Hunting Revolver
-"TF_Weapon_HuntingRevolver"			"Revólver de Caza"
-"TF_Weapon_HuntingRevolver_Desc"	"Hecho para ser más ofensivo."
+"TF_Weapon_HuntingRevolver"				"Rifle de Cazador"
+"TF_Weapon_HuntingRevolver_Desc"		"Hecho para ser más ofensivo."
 // Fishwhacker
-"TF_Weapon_Fishwhacker"			"Machacapeces"
-"TF_Weapon_Fishwhacker_Desc"	"Lo más posible que pase al estar cerca del cuerpo humano es una gran concusión."
+"TF_Weapon_Fishwhacker"					"Machacapeces"
+"TF_Weapon_Fishwhacker_Desc"			"Agarra eso con fuerza... ¡y cuidado con las astillas!"
 // Tranquilizer Gun
-"TF_Weapon_TranquilizerGun"			"Pistola Sedante"
-"TF_Weapon_TranquilizerGun_Desc"	"\"En tus sueños, chéri.\""
+"TF_Weapon_TranquilizerGun"				"Pistola Sedante"
+"TF_Weapon_TranquilizerGun_Desc"		"Dulces sueños, chéri."
 // Dynamite Pack
-"TF_Weapon_DynamitePack"		"Paquete de Dinamita"
-"TF_Weapon_DynamitePack_Desc"	"\"Estarás hecho pedazos mañana.\""
+"TF_Weapon_DynamitePack"				"Dinamita Racimo"
+"TF_Weapon_DynamitePack_Desc"			"¡Se va a hacer todo pedazos!"
 // Coilgun
-"TF_Weapon_Coilgun"			"Bobiductor"
-"TF_Weapon_Coilgun_Desc"	"\"No es un filete, sino un montón de chisporroteo.\""
+"TF_Weapon_Coilgun"						"Bobiductor"
+"TF_Weapon_Coilgun_Desc"				"¡Ahora que está de moda lo eléctrico dirán que esta preciosidad no es homologable!"
 // Mine Layer
-"TF_Weapon_MineLayer"		"Lanzaminas"
-"TF_Weapon_MineLayer_Desc"	"\"¡Sí, atento! Je...\""
+"TF_Weapon_MineLayer"					"Lanzaminas"
+"TF_Weapon_MineLayer_Desc"				"Atento, no le quites el ojo de encima..."
 // Shock Therapy
-"TF_Weapon_ShockTherapy"		"Electrochoque"
-"TF_Weapon_ShockTherapy_Desc"	"\"¡Manténganse alejado!\""
+"TF_Weapon_ShockTherapy"				"Electrochoque"
+"TF_Weapon_ShockTherapy_Desc"			"¡DESPEJADO!"
 
 // ----------------------------------------------------------------
 // Fight or Flight weapon strings
 // ----------------------------------------------------------------
 
 // L'escampette
-"TF_Weapon_Lescampette"			"L'escampette"
-"TF_Weapon_Lescampette_Desc"	"\"Hazlo rápido.\""
+"TF_Weapon_Lescampette"					"L'escampette"
+"TF_Weapon_Lescampette_Desc"			"Hazlo rápido."
 // Chekhov's Punch
-"TF_Weapon_ChekhovsPunch"		"Puño de Chéjov"
-"TF_Weapon_ChekhovsPunch_Desc"	"Si uno va a equipar estas cadenas, deben usarse para lanzar puñetazos."
+"TF_Weapon_ChekhovsPunch"				"Puño de Chéjov"
+"TF_Weapon_ChekhovsPunch_Desc"			"Si uno se atreve a vestir con cadenas, al menos debe utilizarlas para dar puñetazos."
 // Twin Barrel
-"TF_Weapon_TwinBarrel"		"Doble Cañón"
-"TF_Weapon_TwinBarrel_Desc"	"(Las modificaciones posteriores a la comercialización anulan la garantía.)"
+"TF_Weapon_TwinBarrel"					"Doble Cañón"
+"TF_Weapon_TwinBarrel_Desc"				"(Las modificaciones posteriores a su venta anulan la garantía.)"
 // Anti-Aircraft Cannon
-"TF_Weapon_AntiAircraftCannon"		"Cañón Anti-Aéreo"
-"TF_Weapon_AntiAircraftCannon_Desc"	"\"¿Qué parte de ti debería enviar Heavy a mamá?\""
+"TF_Weapon_AntiAircraftCannon"			"Cañón Antiaéreo"
+"TF_Weapon_AntiAircraftCannon_Desc"		"¿Qué parte de ti debería enviar Heavy a mamá?"
 // PDA: Jump Pad
-"TF_Weapon_PDAJumpPad"		"PDA: Controlador Aéreo"
-"TF_Weapon_PDAJumpPad_Desc"	"\"Confía en mí, amigo. Este te hará volar.\""
+"TF_Weapon_PDAJumpPad"					"PDA: Controlador aéreo"
+"TF_Weapon_PDAJumpPad_Desc"				"Confía en mí, amigo. Este te hará volar."
 // Harvester
-"TF_Weapon_Harvester"		"Segador"
-"TF_Weapon_Harvester_Desc"	"No preguntes por quién doblan las campanas."
+"TF_Weapon_Harvester"					"Segador"
+"TF_Weapon_Harvester_Desc"				"No preguntes por quién doblan las campanas."
 // Brick
-"TF_Weapon_Brick"		"Ladrillo"
-"TF_Weapon_Brick_Desc"	"\"Largo de aquí, amigo. Estás acabado\""
+"TF_Weapon_Brick"						"Ladrillo"
+"TF_Weapon_Brick_Desc"					"Largo de aquí, amigo. Estás acabado."
 
 // ----------------------------------------------------------------
 // Double Down weapon strings
 // ----------------------------------------------------------------
 
 // Rejuvenator
-"TF_Weapon_Rejuvenator"			"Rejuvenecedor"
-"TF_Weapon_Rejuvenator_Desc"	"Ese sí que es una receta explosiva."
+"TF_Weapon_Rejuvenator"					"Rejuvenecedor"
+"TF_Weapon_Rejuvenator_Desc"			"Ese sí que es una receta explosiva."
 // Admiralty Anchor
-"TF_Weapon_AdmiraltyAnchor"			"Ancla del Almirantazgo"
-"TF_Weapon_AdmiraltyAnchor_Desc"	"\"¡Prepárate para ser barrido de la cubierta!\""
+"TF_Weapon_AdmiraltyAnchor"				"Ancla del Almirantazgo"
+"TF_Weapon_AdmiraltyAnchor_Desc"		"¡No voy a permitir que se compare a un Infante de Marina con un Marinero raso en mi unidad!"
 // Derby Cane
-"TF_Weapon_DerbyCane"		"Bastón de Derby"
-"TF_Weapon_DerbyCane_Desc"	"Luzca elegante, siéntase elegante y deje a sus competidores con la boca abierta."
+"TF_Weapon_DerbyCane"					"Bastón Derby"
+"TF_Weapon_DerbyCane_Desc"				"Luzca elegante, siéntase elegante y deje a sus competidores con la boca abierta."
 // Cyclops
-"TF_Weapon_Cyclops"			"Cíclope"
-"TF_Weapon_Cyclops_Desc"	"En el país de los ciegos, tú eres el rey."
+"TF_Weapon_Cyclops"						"Cíclope"
+"TF_Weapon_Cyclops_Desc"				"En el país de los ciegos, tú eres el rey."
 
 // ----------------------------------------------------------------
 // Miscellaneous weapon types
 // ----------------------------------------------------------------
 
-"TF_Weapon_Anchor"					"Ancla"
-"TF_Weapon_Boots"					"Botas"
-"TF_Weapon_Bow"						"Arco"
-"TF_Weapon_Cane"					"Bastón"
-"TF_Weapon_Chains"					"Cadenas"
-"TF_Weapon_CigaretteCase"			"... ¿Pitillera?"
-"TF_Weapon_Club"					"Porra"
-"TF_Weapon_DoubleBarrelShotgun"		"Escopeta de Doble Cañón"
-"TF_Weapon_EMPGrenadeLauncher"		"Lanzagranadas PEM"
-"TF_Weapon_Grenade"					"Granada"
-"TF_Weapon_HealGrenadeLauncher"		"Lanzagranadas Curativo"
-"TF_Weapon_LunchBox"				"Fiambrera"
-"TF_Weapon_PDA"						"PDA"
-"TF_Weapon_ProximityMineLauncher"	"Lanzaminas de proximidad"
-"TF_Weapon_Scythe"					"Guadaña"
-"TF_Weapon_Syringe"					"Jeringa"
-"TF_Weapon_Taser"					"Táser"
-"TF_Weapon_Throwable"				"Lanzable"
+"TF_Weapon_Anchor"						"Ancla"
+"TF_Weapon_Boots"						"Botas"
+"TF_Weapon_Bow"							"Arco"
+"TF_Weapon_Cane"						"Bastón"
+"TF_Weapon_Chains"						"Cadenas"
+"TF_Weapon_CigaretteCase"				"... ¿Pitillera?"
+"TF_Weapon_Club"						"Porra"
+"TF_Weapon_DoubleBarrelShotgun"			"Escopeta de Doble Cañón"
+"TF_Weapon_EMPGrenadeLauncher"			"Lanzagranadas PEM"
+"TF_Weapon_Grenade"						"Granada"
+"TF_Weapon_HealGrenadeLauncher"			"Lanzagranadas Curativo"
+"TF_Weapon_LunchBox"					"Fiambrera"
+"TF_Weapon_PDA"							"PDA"
+"TF_Weapon_ProximityMineLauncher"		"Lanzaminas de Proximidad"
+"TF_Weapon_Scythe"						"Guadaña"
+"TF_Weapon_Syringe"						"Jeringa"
+"TF_Weapon_Taser"						"Táser"
+"TF_Weapon_Throwable"					"Artículo Arrojadizo"
 
 // ----------------------------------------------------------------
 // Weapon meters
@@ -610,15 +640,15 @@
 // ----------------------------------------------------------------
 
 // Building Status
-"Building_hud_hauling"						"Llevando..."
+"Building_hud_hauling"						"Transportando..."
 "Building_hud_upgrading"					"Mejorando..."
-"Building_hud_jumppad_a_not_built"			"Controlador Aéreo A\nNo Construido"
-"Building_hud_jumppad_b_not_built"			"Controlador Aéreo B\nNo Construido"
+"Building_hud_jumppad_a_not_built"			"Controlador aéreo A\nNo construido"
+"Building_hud_jumppad_b_not_built"			"Controlador aéreo B\nNo construido"
 
 // Jump Pad
-"TF_Object_Jump"						"Controlador Aéreo"
-"TF_Object_Jump_A"						"Controlador Aéreo A"
-"TF_Object_Jump_B"						"Controlador Aéreo B"
+"TF_Object_Jump"						"Controlador aéreo"
+"TF_Object_Jump_A"						"Controlador aéreo A"
+"TF_Object_Jump_B"						"Controlador aéreo B"
 "TF_JumpPad_Mode_A"						"A"
 "TF_JumpPad_Mode_B"						"B"
 
@@ -630,118 +660,120 @@
 "Attrib_RocketJumpDmgReduction"		"%s1% de daño explosivo por saltos con cohete"
 "Attrib_Scattergun_HasKnockback"	"Empuja al objetivo y al tirador"
 
-"Attrib_RocketGravity"								"Los cohetes vuelan en arco"
-"Attrib_CreatesEarthquakeFallDamage"				"El daño por caída provoca un terremoto mientras está activo"
-"Attrib_TakeProjectileCritsAirborne"				"Sufres críticos de proyectiles mientras estás en el aire"
-"Attrib_Gravity_Active_Increased"					"+%s1% de gravedad mientras está activo"
-"Attrib_TeleporterJumpPad"							"Reemplaza la entrada y salida del teleportador con controladores aéreos"
-"Attrib_Mod_Horizontal_Spread"						"Las balas tienen una dispersión amplia y horizontal"
-"Attrib_ApplySelfKnockback"							"Aplica un autoempuje invertido al disparar"
-"Attrib_WeaponEnemyKnockback_Bonus"					"+%s1% de fuerza de empuje en el enemigo"
-"Attrib_LifestealCrit"								"Al impactar con críticos: Absorbe la salud de tu víctima"
-"Attrib_FlatHealOnAfterburn_Active"					"+%s1 de salud por cada tick de quemadura que inflijas con el arma activa"
-"Attrib_RememberTargetsRemainingAfterburn"			"Rastrea la quemadura restante de los objetivos muertos"
-"Attrib_OnDeathRemoveTargetsAfterburn"				"Al morir: Los enemigos se extinguen"
-"Attrib_Explosive_Bullets"							"Dispara balas explosivas"
-"Attrib_CannotUseStoredCrits"						"Esta arma no puede usar críticos guardados"
-"Attrib_GainStoredCritsOnHit"						"Al impactar: Guarda %s1 críticos"
-"Attrib_AlwaysCritsFullStoredCrits"					"Esta arma no puede utilizar los críticos guardados a menos que esté a plena capacidad"
-"Attrib_LoseStoredCritsOnMiss"						"Al fallar: Pierde %s1 de críticos guardados"
-"Attrib_MeleeTakenBecomesCritWearer"				"El daño cuerpo a cuerpo sufrido será crítico en el usuario"
-"Attrib_MoveSpeed_Bonus_Cloaked"					"+%s1% de velocidad de movimiento mientras invisible"
-"Attrib_LoseCloakOnDamage"							"-%s1% de invisibilidad al recibir daño mientras invisible"
-"Attrib_TranqOnHit"									"Al Impactar: Influye Daltonismo a la victima y reduce su movimiento y velocidad de arma por +%s1s."
-"Attrib_FishwhackerSweep"							"Empuja a los enemigos cercanos"
-"Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Autoempuje se ve afectado por el aumento de daño"
-"Attrib_ApplySelfKnockbackSwing"					"Aplica un autoempuje invertido al atacar"
-"Attrib_AirblastSelfKnockback"						"El aire comprimido da un empujón al usuario"
-"Attrib_ProximityMine"								"Minas de proximidad que explotan cerca de enemigos"
-"Attrib_AltFire_FizzleMines"						"Disparo Secundario: Desintegrar minas de proximidad."
-"Attrib_NoStickyChargeTime"							"Sin tiempo de carga de las bombas lapas"
-"Attrib_BlastSplashDamage_Decreased"				"%s1% de daño de explosión de área"
-"Attrib_BurningTargetsChargeCrit"					"Los objetivos en llamas cargan los críticos mientras está activo"
-"Attrib_LimitedRange"								"El arma tiene un alcance limitado"
-"Attrib_GainStoredCritsOnKill"						"Al causar baja: Guarda %s1 críticos"
-"Attrib_HealOnKillCrit"								"+%s1 de salud restaurada al matar con críticos"
-"Attrib_InstantReloadOnDirectHit"					"Al impactar directamente: Recarga hasta %s1 de munición al instante"
-"Attrib_InstantReloadOnHit"							"Al impactar: Recarga hasta %s1 de munición al instante"
-"Attrib_InstantReloadOnDirectHitKill"				"Al matar por impacto directo: Recarga hasta %s1 de munición al instante"
-"Attrib_InstantReloadOnKill"						"Al causar baja: Recarga hasta %s1 de munición al instante"
-"Attrib_ViewPunchOnHit"								"Al Impactar: Sacude la vista de la victima"
-"Attrib_FlinchDecrease"								"%s1% menos sacudidas"
-"Attrib_FlinchIncrease"								"+%s1% más sacudidas"
-"Attrib_FlinchDecreaseWearer"						"%s1% menos sacudidas para el usuario"
-"Attrib_FlinchIncreaseWearer"						"+%s1% más sacudidas para el usuario"
-"Attrib_FlinchDecreaseAiming"						"%s1% menos sacudidas al apuntar"
-"Attrib_FlinchIncreaseAiming"						"+%s1% más sacudidas al apuntar"
-"Attrib_CritVsBleed"								"100% de probabilidad de impacto crítico contra jugadores sangrando"
-"Attrib_MinicritWhileDisguised"						"El ataque da minicríticos mientras estás disfrazado"
-"Attrib_TakeMinicritsWhileDisguised"				"Sufres daño minicrítico mientras estás disfrazado"
-"Attrib_ObjectivesGiveMiniCrits"					"Causa minicríticos a los enemigos que capturen, defiendan o lleven objetivos"
-"Attrib_HeadshotIsMinicrit"							"Los tiros en la cabeza son minicríticos"
-"Attrib_BuildingsMaxLevel"							"Las construcciones tienen %s1 nivel máximo"
-"Attrib_UpgradeCost"								"Las construcciones necesitan %s1 de metal para ser mejorados"
-"Attrib_Dispenser_Build_Rate"						"Incrementa la velocidad de construcción de los dispensadores un %s1%"
-"Attrib_JumpPad_Build_Rate"							"Incrementa la velocidad de construcción de los controladores aéreos un %s1%"
-"Attrib_DispenserBuildCost"							"%s1% coste de construcción del dispensador"
-"Attrib_SentrygunBuildCost"							"%s1% coste de construcción del arma centinela"
-"Attrib_JumpPadBuildCost"							"%s1% coste de construcción del controlador aéreo"
-"Attrib_NoPrimaryAmmoFromDispensersAlways"			"Los dispensadores no proporcionan munición"
-"Attrib_MetalOnSentryKill"							"Al matar con arma centinela: +%s1 de metal"
-"Attrib_SentryKnockback_Increased"					"El arma centinela inflige +%s1% de empujón"
-"Attrib_SentryKnockback_Decreased"					"El arma centinela inflige %s1% de empujón"
-"Attrib_SentryTurnRate_Increased"					"El arma centinela gira +%s1% más rápido"
-"Attrib_SentryTurnRate_Decreased"					"El arma centinela gira %s1% más lento"
-"Attrib_HealingMedigunReceivedBonus"				"+%s1% de salud del Arma Médica al usuario"
-"Attrib_HealingMedigunReceivedPenalty"				"%s1% de salud del Arma Médica al usuario"
-"Attrib_HealingMedigunReceivedActiveBonus"			"+%s1% de salud del Arma Médica mientras está activo"
-"Attrib_HealingMedigunReceivedActivePenalty"		"%s1% de salud del Arma Médica mientras está activo"
-"Attrib_HealingDispenserReceivedBonus"				"+%s1% de salud de los dispensadores al usuario"
-"Attrib_HealingDispenserReceivedPenalty"			"%s1% de salud de los dispensadores al usuario"
-"Attrib_HealingDispenserReceivedActiveBonus"		"+%s1% de salud de los dispensadores mientras está activo"
-"Attrib_HealingDispenserReceivedActivePenalty"		"%s1% de salud de los dispensadores mientras está activo"
-"Attrib_DispenserCanOverhealOnWearer"				"Los dispensadores pueden curar en exceso al usuario"
-"Attrib_DispenserCanOverhealOnActive"				"Los dispensadores pueden curar en exceso mientras está activo"
-"Attrib_EverythingCanOverhealOnWearer"				"Puedes ser curado en exceso por cualquier cosa mientras está equipado"
-"Attrib_EverythingCanOverhealOnActive"				"Puedes ser curado en exceso por cualquier cosa mientras está activo"
-"Attrib_NoCritHeals"								"Sin curaciones críticas: La tasa de curación no aumenta al curar a un objetivo fuera de combate"
-"Attrib_HealthKitsCanOverhealOnWearer"				"Los botiquines pueden curar en exceso al usuario"
-"Attrib_HealthKitsCanOverhealOnActive"				"Los botiquines pueden curar en exceso mientras está activo"
-"Attrib_HealingReceivedActiveBonus"					"+%s1% de salud de los sanadores mientras está activo"
-"Attrib_HealingReceivedActivePenalty"				"%s1% de salud de los sanadores mientras está activo"
-"Attrib_HealthFromPacks_Active_Increased"			"+%s1% de salud de botiquines mientras está activo"
-"Attrib_HealthFromPacks_Active_Decreased"			"%s1% de salud de botiquines mientras está activo"
-"Attrib_DamageDelaysRegeneration"					"Recibir daño retrasa la regeneración de salud en %s1s"
-"Attrib_DestroyGrenadesDetonateOwn"					"La explosión destruye las granadas enemigas y detona las tuyas propias"
-"Attrib_HoldFirePreventDetonation"					"Al mantener pulsado: Evitar la detonación de granadas"
-"Attrib_CritAirborneEnemies"						"Causa críticos a objetivos propulsados en el aire"
-"Attrib_ModCritAirborneDirectHitOnly"				"Causa críticos a enemigos aéreos solo con impacto directo"
-"Attrib_ObjectivesGiveCrits"						"Causa críticos a los enemigos que capturen, defiendan o lleven objetivos"
-"Attrib_AddAmmoOnDirectHit"							"Al impactar directamente: Gana %s1 de munición"
-"Attrib_AddAmmoOnDirectHitKill"						"Al matar por impacto directo: Gana %s1 de munición"
-"Attrib_AddAmmoOnKill"								"Al causar baja: Gana %s1 de munición"
-"Attrib_MinicritVsWet"								"100% de probabilidad de minicríticos contra jugadores mojados"
-"Attrib_TakeMinicritsProjectileAirborne"			"Sufrir minicríticos de proyectiles al estar en el aire"
-"Attrib_HealOnSmack"								"Golpea a tus compañeros con la carga máxima para curarlos"
-"Attrib_MultDamageCrit"								"Los críticos infligen un %s1% de daño adicional"
-"Attrib_DropTeamHealthPackOnKill"					"Al causar baja: genera un botiquín pequeño para el equipo"
-"Attrib_PassiveAmmoHolstered"						"Recarga munición de forma pasiva mientras está enfundada"
-"Attrib_Backstab"									"Ataca a un enemigo por detras para apuñalarles y matarles instantáneamente"
-"Attrib_UpgradeRepairBuildings"						"Acelera la construcción, mejora, y repara construcciones aliadas con un simple golpe"
-"Attrib_AltFire_DetonateStickybombs"				"Disparo Secundario: Detonar todas las Bombas Lapa"
-"Attrib_AltFire_Airblast"							"Disparo secundario: Dispara aire comprimido\nEmpuja a enemigos, devuelve proyectiles y apaga a aliados que están ardiendo"
-"Attrib_AltFire_Cloak"								"Disparo secundario: Te vuelves invisible"
-"Attrib_SapBuildings"								"Colócalo en construcciones enemigas para deshabilitarlas y quitarles vida lentamente\nColocar un Zapador no quita tu disfraz"
-"Attrib_ReloadNotActive"							"Esta arma se recargará cuando no esté activa"
-"Attrib_Sandvich"									"Cometelo para recuperar hasta 120 de salud\nDisparo secundario: comparte un Focata con un amigo (botiquín mediano)"
-"Attrib_AltFire_MinicritBoost"						"Disparo secundario: Dar minicríticos a un compañero de equipo"
-"Attrib_SplitsIntoBomblets"							"Se divide en 4 pequeñas bombetas al explotar"
-"Attrib_DisabledByWrench"							"Se puede desactivar con la llave inglesa"
-"Attrib_Coilgun"									"Los disparos completamente cargados rebotan, pero si se sobrecarga explotará"
-"Attrib_DamageAffectedByCharge"						"El nivel de carga eléctrica afecta al daño realizado"
-"Attrib_JumpPadNoUpgrade"							"Los controladores aéreos no pueden mejorarse"
-"Attrib_AltFire_HasteBoost"							"Disparo secundario: Aumenta la velocidad de un compañero de equipo"
-"Attrib_AltFire_UberBubble"							"Disparo secundario: Lanza un dispositivo que otorga invulnerabilidad en un radio"
+
+"Attrib_RocketGravity"								"Los cohetes vuelan haciéndo una parábola en arco."
+"Attrib_CreatesEarthquakeFallDamage"				"El daño por caída provoca un terremoto mientras se usa."
+"Attrib_TakeProjectileCritsAirborne"				"Los impactos de proyectiles mientras estás en el aire son críticos."
+"Attrib_Gravity_Active_Increased"					"+%s1 % de gravedad mientras se usa."
+"Attrib_TeleporterJumpPad"							"Reemplaza los teleportadores de entrada y salida por controladores aéreos."
+"Attrib_Mod_Horizontal_Spread"						"Las balas tienen una dispersión amplia y horizontal."
+"Attrib_ApplySelfKnockback"							"Aplica un retroceso al disparar."
+"Attrib_WeaponEnemyKnockback_Bonus"					"+%s1 % de fuerza de empuje en el enemigo."
+"Attrib_LifestealCrit"								"Al impactar con críticos: Absorbe la salud de tu víctima."
+"Attrib_FlatHealOnAfterburn_Active"					"+%s1 de salud por cada tic de quemadura que infligido con el arma empuñada."
+"Attrib_RememberTargetsRemainingAfterburn"			"Rastrea la quemadura restante de los objetivos muertos."
+"Attrib_OnDeathRemoveTargetsAfterburn"				"Al morir: Los enemigos dejan de arder."
+"Attrib_Explosive_Bullets"							"Dispara balas explosivas."
+"Attrib_CannotUseStoredCrits"						"Esta arma no puede usar críticos guardados."
+"Attrib_GainStoredCritsOnHit"						"Al impactar: Guarda %s1 críticos."
+"Attrib_AlwaysCritsFullStoredCrits"					"Esta arma no puede utilizar los críticos guardados a menos que esté a plena capacidad."
+"Attrib_LoseStoredCritsOnMiss"						"Al fallar: Pierde %s1 críticos guardados."
+"Attrib_MeleeTakenBecomesCritWearer"				"El daño cuerpo a cuerpo sufrido será crítico en el usuario."
+"Attrib_MoveSpeed_Bonus_Cloaked"					"+%s1 % de velocidad de movimiento siendo invisible."
+"Attrib_LoseCloakOnDamage"							"-%s1 % de invisibilidad al recibir daño siendo invisible."
+"Attrib_TranqOnHit"									"Al impactar: Causa daltonismo a la victima y reduce su movimiento y velocidad de arma por +%s1 s."
+"Attrib_FishwhackerSweep"							"Empuja a los enemigos cercanos."
+"Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"El retroceso se ve afectado por el aumento de daño."
+"Attrib_ApplySelfKnockbackSwing"					"Aplica un retroceso al atacar."
+"Attrib_AirblastSelfKnockback"						"El aire comprimido da un empujón al usuario."
+"Attrib_ProximityMine"								"Minas de proximidad que explotan cerca de enemigos."
+"Attrib_AltFire_FizzleMines"						"Disparo secundario: Desintegrar minas de proximidad."
+"Attrib_NoStickyChargeTime"							"Sin tiempo de carga de las bombas lapas."
+"Attrib_BlastSplashDamage_Decreased"				"%s1 % de daño de explosión de área."
+"Attrib_BurningTargetsChargeCrit"					"Los objetivos en llamas cargan el medidor de críticos al empuñarla."
+"Attrib_LimitedRange"								"El arma tiene un alcance limitado."
+"Attrib_GainStoredCritsOnKill"						"Al matar: Guarda %s1 críticos."
+"Attrib_HealOnKillCrit"								"+%s1 de salud restaurada al matar con críticos."
+"Attrib_InstantReloadOnDirectHit"					"Al impactar directamente: Recarga hasta %s1 de munición al instante."
+"Attrib_InstantReloadOnHit"							"Al impactar: Recarga hasta %s1 de munición al instante."
+"Attrib_InstantReloadOnDirectHitKill"				"Al matar por impacto directo: Recarga hasta %s1 de munición al instante."
+"Attrib_InstantReloadOnKill"						"Al matar: Recarga hasta %s1 de munición al instante."
+"Attrib_ViewPunchOnHit"								"Al impactar: Sacude la vista de la victima."
+"Attrib_FlinchDecrease"								"-%s1 % de sacudidas."
+"Attrib_FlinchIncrease"								"+%s1 % de sacudidas."
+"Attrib_FlinchDecreaseWearer"						"-%s1 % de sacudidas para el usuario."
+"Attrib_FlinchIncreaseWearer"						"+%s1 % de sacudidas para el usuario."
+"Attrib_FlinchDecreaseAiming"						"-%s1 % de sacudidas al apuntar."
+"Attrib_FlinchIncreaseAiming"						"+%s1 % de sacudidas al apuntar."
+"Attrib_CritVsBleed"								"100 % de probabilidad de crítico contra jugadores sangrando."
+"Attrib_MinicritWhileDisguised"						"Causas minicríticos mientras estás disfrazado."
+"Attrib_TakeMinicritsWhileDisguised"				"Sufres minicríticos mientras estás disfrazado."
+"Attrib_ObjectivesGiveMiniCrits"					"Causa minicríticos a los enemigos que capturen, defiendan o lleven objetivos."
+"Attrib_HeadshotIsMinicrit"							"Los tiros a la cabeza son minicríticos."
+"Attrib_BuildingsMaxLevel"							"Nivel máximo de construcciones: %s1."
+"Attrib_UpgradeCost"								"Se necesita %s1 de metal para mejorar construcciones."
+"Attrib_Dispenser_Build_Rate"						"Aumenta la velocidad de construcción de los dispensadores un %s1 %."
+"Attrib_JumpPad_Build_Rate"							"Aumenta la velocidad de construcción de los controladores aéreos un %s1 %."
+"Attrib_DispenserBuildCost"							"%s1 % de coste de construcción del dispensado.r"
+"Attrib_SentrygunBuildCost"							"%s1 % de coste de construcción del arma centinela."
+"Attrib_JumpPadBuildCost"							"%s1 % de coste de construcción del controlador aéreo."
+"Attrib_NoPrimaryAmmoFromDispensersAlways"			"Los dispensadores no proporcionan munición."
+"Attrib_MetalOnSentryKill"							"Al matar con arma centinela: +%s1 de metal."
+"Attrib_SentryKnockback_Increased"					"+%s1 % de empuje del arma centinela."
+"Attrib_SentryKnockback_Decreased"					"-%s1 % de empuje del arma centinela."
+"Attrib_SentryTurnRate_Increased"					"+%s1 % de velocidad de giro del arma centinela."
+"Attrib_SentryTurnRate_Decreased"					"-%s1 % de velocidad de giro del arma centinela."
+"Attrib_HealingMedigunReceivedBonus"				"+%s1 % de salud de la Pistola Médica al portador."
+"Attrib_HealingMedigunReceivedPenalty"				"-%s1 % de salud de la Pistola Médica al portador."
+"Attrib_HealingMedigunReceivedActiveBonus"			"+%s1 % de salud de la Pistola Médica al empuñarla."
+"Attrib_HealingMedigunReceivedActivePenalty"		"-%s1 % de salud de la Pistola Médica al empuñarla."
+"Attrib_HealingDispenserReceivedBonus"				"+%s1 % de salud de los dispensadores al portador."
+"Attrib_HealingDispenserReceivedPenalty"			"-%s1 % de salud de los dispensadores al portador."
+"Attrib_HealingDispenserReceivedActiveBonus"		"+%s1 % de salud de los dispensadores al empuñarla."
+"Attrib_HealingDispenserReceivedActivePenalty"		"+%s1 % de salud de los dispensadores al empuñarla."
+"Attrib_DispenserCanOverhealOnWearer"				"Los dispensadores pueden aplicar exceso de curación al portador."
+"Attrib_DispenserCanOverhealOnActive"				"Los dispensadores pueden aplicar exceso de curación al empuñarla."
+"Attrib_EverythingCanOverhealOnWearer"				"Puedes recibir exceso de curación de cualquier fuente al tenerlo equipado."
+"Attrib_EverythingCanOverhealOnActive"				"Puedes recibir exceso de curación de cualquier fuente al empuñarla."
+"Attrib_NoCritHeals"								"Sin curaciones críticas: La tasa de curación no aumenta al curar a un objetivo fuera de combate."
+"Attrib_HealthKitsCanOverhealOnWearer"				"Los botiquines pueden aplicar exceso de curación al portador."
+"Attrib_HealthKitsCanOverhealOnActive"				"Los botiquines pueden aplicar exceso de curación al empuñarla."
+"Attrib_HealingReceivedActiveBonus"					"+%s1 % de salud de los sanadores al empuñarla."
+"Attrib_HealingReceivedActivePenalty"				"-%s1 % de salud de los sanadores al empuñarla."
+"Attrib_HealthFromPacks_Active_Increased"			"+%s1 % de salud de los botiquines al empuñarla."
+"Attrib_HealthFromPacks_Active_Decreased"			"-%s1 % de salud de los botiquines al empuñarla."
+"Attrib_DamageDelaysRegeneration"					"Recibir daño retrasa la regeneración de salud en %s1 s."
+"Attrib_DestroyGrenadesDetonateOwn"					"La explosión destruye las granadas enemigas y detona las tuyas propias."
+"Attrib_HoldFirePreventDetonation"					"Al mantener pulsado: Evita la detonación de granadas."
+"Attrib_MiniCritAirborneEnemies"					"Causa minicríticos a enemigos propulsados en el aire."
+"Attrib_CritAirborneEnemies"						"Causa críticos a enemigos propulsados en el aire."
+"Attrib_ModCritAirborneDirectHitOnly"				"Causa críticos a enemigos aéreos solo con impacto directo."
+"Attrib_ObjectivesGiveCrits"						"Causa críticos a los enemigos que capturen, defiendan o lleven objetivos."
+"Attrib_AddAmmoOnDirectHit"							"Al impactar directamente: Gana %s1 de munición."
+"Attrib_AddAmmoOnDirectHitKill"						"Al matar por impacto directo: Gana %s1 de munición."
+"Attrib_AddAmmoOnKill"								"Al matar: Gana %s1 de munición."
+"Attrib_MinicritVsWet"								"100 % de probabilidad de minicríticos contra jugadores mojados."
+"Attrib_TakeMinicritsProjectileAirborne"			"Sufres minicríticos de proyectiles al estar en el aire."
+"Attrib_HealOnSmack"								"Golpea a tus compañeros con la carga máxima para curarlos."
+"Attrib_MultDamageCrit"								"Los críticos infligen un %s1 % de daño adicional."
+"Attrib_DropTeamHealthPackOnKill"					"Al matar: Genera un botiquín pequeño para el equipo."
+"Attrib_PassiveAmmoHolstered"						"Recarga munición de forma pasiva mientras está enfundada."
+"Attrib_Backstab"									"Ataca a un enemigo por detras para apuñalarlo y matarlo instantáneamente."
+"Attrib_UpgradeRepairBuildings"						"Acelera, mejora y repara construcciones aliadas con un simple golpe."
+"Attrib_AltFire_DetonateStickybombs"				"Disparo secundario: Detonar todas las bombas lapa."
+"Attrib_AltFire_Airblast"							"Disparo secundario: Dispara aire comprimido.\nEmpuja a enemigos, devuelve proyectiles y apaga a aliados que están ardiendo."
+"Attrib_AltFire_Cloak"								"Disparo secundario: Te vuelves invisible."
+"Attrib_SapBuildings"								"Colócalo en construcciones enemigas para desactivarlas y quitarles vida lentamente.\nColocar un Zapador no quita tu disfraz."
+"Attrib_ReloadNotActive"							"Esta arma se recargará cuando no esté activa."
+"Attrib_Sandvich"									"Cómetelo para recuperar hasta 120 de salud.\nDisparo secundario: Comparte un Focata con un amigo (botiquín mediano)."
+"Attrib_AltFire_MinicritBoost"						"Disparo secundario: Dar minicríticos a un compañero de equipo."
+"Attrib_SplitsIntoBomblets"							"Se divide en 4 pequeñas bombetas al explotar."
+"Attrib_DisabledByWrench"							"Se puede desactivar con la Llave Inglesa."
+"Attrib_Coilgun"									"Los disparos completamente cargados rebotan, pero si se sobrecarga explotará."
+"Attrib_DamageAffectedByCharge"						"El nivel de carga eléctrica afecta al daño realizado."
+"Attrib_JumpPadNoUpgrade"							"Los controladores aéreos no pueden mejorarse."
+"Attrib_AltFire_HasteBoost"							"Disparo secundario: Aumenta la velocidad de un compañero de equipo."
+"Attrib_AltFire_UberBubble"							"Disparo secundario: Lanza un dispositivo que otorga invulnerabilidad en área."
 
 // ----------------------------------------------------------------
 // Map strings
@@ -749,7 +781,7 @@
 
 // cp_amaranth
 "Amaranth_cap_A"			"los almacenes"
-"Amaranth_cap_B"			"Centro de expedición de RED"
+"Amaranth_cap_B"			"centro de expedición de RED"
 
 // 4dom_hydro
 "Hydro_dom_cap_warehouse"		"A, el almacén"
@@ -759,30 +791,30 @@
 
 // vip_mineside
 "vip_mineside_description"	"Objetivo:
-El equipo Rojo gana si evita que el VIP llegue a la Zona de huida. El equipo Azul gana si escolta al VIP a la Zona de huida.
+El equipo RED gana si evita que el VIP llegue a la zona de huida. El equipo BLU gana si escolta al VIP a la zona de huida.
 
 Información adicional:
-La Zona de huida no estará disponible hasta que se lleve el Maletín Dispositivo a la Sala de Control cerca de las puertas de la Zona de huida.
+La zona de huida no estará disponible hasta que se lleve el maletín del dispositivo a la sala de control, cerca de las puertas de la zona de huida.
 
-Si BLU entrega el Maletín Dispositivo, las puertas empezarán una cuenta atrás de 60 segundos antes de cerrarse de nuevo."
+Si BLU entrega el maletín del dispositivo, las puertas empezarán una cuenta atrás de 60 segundos antes de cerrarse de nuevo."
 
-"Mineside_setup_goal_red"	"Mata al VIP para evitar que llegue a la Zona de huida. Evita que coja el Dispositivo."
-"Mineside_setup_goal_blu"	"Escolta al VIP a la Zona de huida. Lleva el Dispositivo a la Sala de Control para abrir las puertas."
+"Mineside_setup_goal_red"	"Mata al VIP para evitar que llegue a la zona de huida. Evita que coja el dispositivo."
+"Mineside_setup_goal_blu"	"Escolta al VIP a la zona de huida. Lleva el dispositivo a la sala de control para abrir las puertas."
 
 "Mineside_escape_zone"		"el túnel de huida"
 
 // dom_oilcanyon
-"Oilcanyon_cap_A"			"el punto A, el Cañón"
-"Oilcanyon_cap_B"			"el punto B, el Rayo Laser"
-"Oilcanyon_cap_C"			"el punto C, la Refinería"
+"Oilcanyon_cap_A"			"el punto A, el cañón"
+"Oilcanyon_cap_B"			"el punto B, el rayo laser"
+"Oilcanyon_cap_C"			"el punto C, la refinería"
 
 // vip_trainyard
 "Trainyard_escape_zone"	"el vehículo de huida"
 
 // vip_harbor
-"Harbor_cap_1"				"el primer Punto de Control"
-"Harbor_cap_2"				"el segundo Punto de Control"
-"Harbor_cap_3"				"el último Punto de Control"
+"Harbor_cap_1"				"el muelle de carga"
+"Harbor_cap_2"				"el mar"
+"Harbor_cap_3"				"el almacén"
 
 // 4dom_krepost
 "dom_krepost_description"	"Objetivo:
@@ -795,7 +827,7 @@ Al atacar un Punto de Control, el enemigo que tenga poder sobre él dejará de g
 
 El Punto de Control activo se bloqueará cuando se elija un nuevo Punto de Control.
 
-¡Sólo combate de cuerpo a cuerpo, sé honorable!"
+¡Solo se combate cuerpo a cuerpo, sé honorable!"
 
 "Krepost_cap_red"			"El castillo de RED"
 "Krepost_cap_blu"			"El castillo de BLU"
@@ -844,14 +876,17 @@ El Punto de Control activo se bloqueará cuando se elija un nuevo Punto de Contr
 "Avanti_cap_4"				"las puertas principales"
 
 // vipr_chopper
-"Chopper_cap_A"				"el radar de RED"
-"Chopper_cap_B"				"el radar de BLU"
+"Chopper_cap_A"				"el radar RED"
+"Chopper_cap_B"				"el radar BLU"
+
+// 4plr_sisyphus
+"Sisyphus_cap_peak"			"el pico"
 
 // ----------------------------------------------------------------
 // Gamemodes
 // ----------------------------------------------------------------
 
-"Gametype_CTF_Penguin"		"Captura al Pingüino" // We have fun here
+"Gametype_CTF_Penguin"		"Capturar al Pingüino" // We have fun here
 "Gametype_Domination"		"Dominación"
 "Gametype_MedDomination"	"Dominación (Medieval)"
 "Gametype_KOTF"				"Rey de la Bandera"
@@ -862,9 +897,9 @@ El Punto de Control activo se bloqueará cuando se elija un nuevo Punto de Contr
 "Gametype_FourTeam"			"Cuatro Equipos"
 
 "Gametype_Arena_FourTeam"			"Arena (Cuatro Equipos)"
-"Gametype_AttackDefense_FourTeam"	"Ataque / Defensa (Cuatro Equipos)"
+"Gametype_AttackDefense_FourTeam"	"Ataque/Defensa (Cuatro Equipos)"
 "Gametype_CP_FourTeam"				"Puntos de Control (Cuatro Equipos)"
-"Gametype_CTF_FourTeam"				"Captura la Bandera (Cuatro Equipos)"
+"Gametype_CTF_FourTeam"				"Capturar la Bandera (Cuatro Equipos)"
 "Gametype_Domination_FourTeam"		"Dominación (Cuatro Equipos)"
 "Gametype_MedDomination_FourTeam"	"Dominación (Medieval a Cuatro Equipos)"
 "Gametype_KOTF_FourTeam"			"Rey de la Bandera (Cuatro Equipos)"
@@ -883,7 +918,7 @@ El Punto de Control activo se bloqueará cuando se elija un nuevo Punto de Contr
 "TF_GameModeDesc_Domination"	"Captura puntos y manténlos el mayor tiempo posible."
 "TF_GameModeDesc_Arena"			"Elimina a todos los enemigos o espera a que se desbloquee el objetivo."
 
-"TF_GameModeBrief_VIPRace"		"Carrera VIP - ambos equipos tienen un VIP."
+"TF_GameModeBrief_VIPRace"		"Carrera VIP: ambos equipos tienen un VIP."
 
 // ----------------------------------------------------------------
 // Gamemode strings
@@ -891,7 +926,7 @@ El Punto de Control activo se bloqueará cuando se elija un nuevo Punto de Contr
 
 // Domination
 "default_dom_description"	"Objetivo:
-Para ganar cada equipo debe capturar y defender los Puntos de Control para ganar puntos, a más Puntos de Control, más rápido se ganan puntos.
+Para ganar cada equipo debe capturar y defender los Puntos de Control que le darán puntos, a más Puntos de Control, más rápido se ganan puntos.
 
 Información adicional:
 Al atacar un Punto de Control, el enemigo que tenga poder sobre él dejará de ganar puntos de este.
@@ -902,58 +937,58 @@ Si tu equipo se queda atrás, captura todos los Puntos de Control para ganar una
 
 // VIP
 "default_vip_description"	"Objetivo:
-El equipo Azul gana si escolta el VIP a la Zona de huida antes de que se acabe el tiempo. El equipo Rojo gana si evita que llegue a la Zona de huida.
+El equipo BLU gana si escolta el VIP a la zona de huida antes de que se acabe el tiempo. El equipo RED gana si evita que llegue a la zona de huida.
 
 Información adicional: 
-El equipo BLU puede congelar el progreso de captura de un Punto de Control si el Civilian ya no está presente."
+El equipo BLU puede detener el progreso de captura de un Punto de Control si el Civil ya no está presente."
 
-"vip_setup_goal_offense"	"Escolta al VIP a la Zona de huida. Captura Puntos de Control para bonificaciones opcionales."
-"vip_setup_goal_defense"	"Mata al VIP del enemigo para evitar que llegue a la Zona de huida. Defiende Puntos de Control si necesario."
+"vip_setup_goal_offense"	"Escolta al VIP a la zona de huida. Captura Puntos de Control para bonificaciones opcionales."
+"vip_setup_goal_defense"	"Mata al VIP del enemigo para evitar que llegue a la zona de huida. Defiende Puntos de Control si necesario."
 
 "TF_VIP_Assigned"					"¡%s1 es ahora el VIP!"
-"TF_VIP_Tutorial_Annotation_2"		"¡Él proporciona una mejora de defensa a quien esté alrededor y \ntambién puede dar una mejora temporal a un miembro de su equipo con Mini-Críticos!"
+"TF_VIP_Tutorial_Annotation_2"		"¡Proporcionará una mejora de defensa a quien esté alrededor y\ntambién puede dar una mejora de minicríticos temporal a un miembro de su equipo!"
 "TF_VIP_Tutorial_Annotation_3"		"Pero recuerda, su vida es más importante que la tuya, ¡así que no le dejes morir!"
 
-"Cant_cap_civilian_only"		"Solo el VIP puede\n capturar este punto."
-"Cant_cap_civilian_only_frozen"	"Captura Congelada\n Solo el VIP puede\n capturar este punto."
+"Cant_cap_civilian_only"		"Solo el VIP puede\ncapturar este punto."
+"Cant_cap_civilian_only_frozen"	"Captura detenida.\nSolo el VIP puede\ncapturar este punto."
 
 // VIP (Lives)
-"vipl_setup_goal_offense"	"Escolta al VIP a la Zona de huida. Evita que le asesinen."
-"vipl_setup_goal_defense"	"Mata al VIP del enemigo o evita que llegue a la Zona de huida para ganar."
+"vipl_setup_goal_offense"	"Escolta al VIP a la zona de huida. Evita que le asesinen."
+"vipl_setup_goal_defense"	"Mata al VIP del enemigo o evita que llegue a la zona de huida para ganar."
 
 // VIP (Flags)
-"vip_bring_flag_here"		"¡Lleva el aparato aquí!"
-"vip_bring_flag"			"¡Lleva el aparato a la Sala de Control!"
+"vip_bring_flag_here"		"¡Trae el dispositivo aquí!"
+"vip_bring_flag"			"¡Lleva el dispositivo a la sala de control!"
 
-"TF_VIP_TakeDeviceToPoint"		"¡Lleva el Dispositivo a la Sala de Control!"
-"TF_VIP_TeamDeviceReturned"		"¡El Dispositivo ha regresado! ¡Ve a cogerlo!"
-"TF_VIP_EnemyDeviceReturned"	"¡El Dispositivo ha regresado! ¡Defiende la zona de entrega!"
+"TF_VIP_TakeDeviceToPoint"		"¡Lleva el dispositivo a la sala de control!"
+"TF_VIP_TeamDeviceReturned"		"¡El dispositivo ha regresado! ¡Ve a cogerlo!"
+"TF_VIP_EnemyDeviceReturned"	"¡El dispositivo ha regresado! ¡Defiende la zona de entrega!"
 
 // VIP Race
 "default_vipr_description"	"Objetivo:
-Escolta a tu VIP a los Puntos de Control y luego a la Zona de huida para ganar. Mata al VIP enemigo para reiniciar los puntos de control que haya reclamado.
+Escolta a tu VIP a los Puntos de Control y luego a la zona de huida para ganar. Mata al VIP enemigo para reiniciar los puntos de control que haya reclamado.
 
 Información adicional:
 Si tu VIP muere, pierdes cualquier Punto de Control que tu VIP haya capturado.
 
 Cualquier equipo puede retener el progreso de captura de un Punto de Control si su VIP no está presente.
 
-Durante la Muerte Súbita, ¡se puede matar al VIP enemigo para ganar la ronda!"
+¡Durante la Muerte Súbita, se puede matar al VIP enemigo para ganar la ronda!"
 
 "vipr_setup_goal"        	"Escolta a tu VIP a los Puntos de Control. ¡Evita que el VIP enemigo haga lo mismo!"
 "vipr_setup_goal_4team"        	"Escolta a tu VIP a los Puntos de Control. ¡Evita que los equipos enemigos hagan lo mismo!"
 
-"vipr_cap_wrong_vip"		"¡Captura el Punto de Control ENEMIGO, tonto!"
+"vipr_cap_wrong_vip"		"¡Captura el Punto de Control ENEMIGO, inútil!"
 "vipr_own_civ_death"        	"¡Tu VIP ha sido eliminado! ¡Protégele!"
 "vipr_their_civ_death"        	"¡Buen trabajo! ¡Su VIP ha sido eliminado!"
 "vipr_cap_a_reset"        	"¡El Punto de Control A se ha reiniciado!"
-"vipr_cap_a_reset_vip"        	"¡Has muerto! ¡El punto de control A se ha reiniciado!"
+"vipr_cap_a_reset_vip"        	"¡Has muerto! ¡El Punto de Control A se ha reiniciado!"
 "vipr_cap_b_reset"        	"¡El Punto de Control B se ha reiniciado!"
-"vipr_cap_b_reset_vip"        	"¡Has muerto! ¡El punto de control B se ha reiniciado!"
+"vipr_cap_b_reset_vip"        	"¡Has muerto! ¡El Punto de Control B se ha reiniciado!"
 
-"vipr_central_point"		"El Punto de Control Central"
-"vipr_cap_mid_reset"        	"¡El Punto de Control Central se ha reiniciado!"
-"vipr_death_cap_mid_reset"    	"¡Has muerto! ¡El Punto de Control Central se ha reiniciado!"
+"vipr_central_point"		"El Punto de Control de medio"
+"vipr_cap_mid_reset"        	"¡El Punto de Control de medio se ha reiniciado!"
+"vipr_death_cap_mid_reset"    	"¡Has muerto! ¡El Punto de Control de medio se ha reiniciado!"
 
 "vipr_red_civ_death"    "¡El VIP de RED ha sido eliminado!"
 "vipr_blu_civ_death"    "¡El VIP de BLU ha sido eliminado!"
@@ -963,11 +998,11 @@ Durante la Muerte Súbita, ¡se puede matar al VIP enemigo para ganar la ronda!"
 "vipr_escape_zone"	"la zona de huida"
 
 // Territorial Domination
-"default_td_description"			"Objective:
-Para ganar, cada equipo debe poseer todos los Puntos de Control.
+"default_td_description"			"Objetivo:
+Para ganar, cada equipo debe haber capturado todos los Puntos de Control.
 
 Información adicional:
-Reapareces en los Puntos de Control que posees.
+Reapareces en los Puntos de Control que capturados.
 
 La posesión de Puntos de Control por parte de los equipos es aleatoria al comienzo de cada ronda."
 
@@ -986,12 +1021,17 @@ La posesión de Puntos de Control por parte de los equipos es aleatoria al comie
 "generic_cap_D"			"Punto de Control D"
 "generic_cap_E"			"Punto de Control E"
 
+// Arena
+"TF_Arena_Welcome"				"Modo Arena"
+"TF_Arena_Team_SizeIncreased"	"Tamaño del equipo %s1 aumentado a %s2."
+"TF_Arena_Team_SizeDecreased"	"Tamaño del equipo %s1 reducido a %s2."
+
 // ----------------------------------------------------------------
 // Intro movies
 // ----------------------------------------------------------------
 
 // cp_coldfront
-"TF_IM_Coldfront_Intro"	"Coldfront es un mapa de Puntos de Control"
+"TF_IM_Coldfront_Intro"	"Coldfront es un mapa de Puntos de Control."
 
 // cp_steel
 "TF_IM_Steel_Intro"	"Steel es un mapa de Ataque/Defensa."
@@ -1009,7 +1049,7 @@ La posesión de Puntos de Control por parte de los equipos es aleatoria al comie
 // VIP Race
 "TF_IM_VIPR_Intro"	"Bienvenido al modo de Carrera VIP"
 "TF_IM_VIPR_ToWin"	"Para ganar, debes ayudar a tu VIP a capturar el Punto de Control enemigo..."
-"TF_IM_VIPR_Escape"	"... ¡y luego escoltarlo a la Zona de Fuga antes de que el equipo enemigo pueda hacer lo mismo!"
+"TF_IM_VIPR_Escape"	"... ¡y luego escoltarlo a la zona de fuga antes de que el equipo enemigo pueda hacer lo mismo!"
 "TF_IM_VIPR_Death"	"Si un VIP muere, se restablecerán todos los puntos que haya capturado."
 "TF_IM_VIPR_HUD"	"El estado y el progreso de ambos VIP se pueden encontrar en la parte inferior de la pantalla."
 
@@ -1017,8 +1057,8 @@ La posesión de Puntos de Control por parte de los equipos es aleatoria al comie
 // Scoreboard
 // ----------------------------------------------------------------
 
-"TF_ScoreBoard_Player"				"%s1 Jugador"
-"TF_ScoreBoard_Players"				"%s1 Jugadores"
+"TF_ScoreBoard_Player"				"%s1 jugador"
+"TF_ScoreBoard_Players"				"%s1 jugadores"
 
 "ScoreBoard_Spectator"				"%s1 espectador: %s2"
 "ScoreBoard_Spectators"				"%s1 espectadores: %s2"
@@ -1040,12 +1080,12 @@ La posesión de Puntos de Control por parte de los equipos es aleatoria al comie
 "TF_ScoreBoard_UberchargesLabel"	"Supercargas:"
 "TF_ScoreBoard_TransportsLabel"		"Transportes:"
 "TF_ScoreBoard_DestructionsLabel"	"Destrucciones:"
-"TF_ScoreBoard_HeadshotsLabel"		"Disparos a Cabezas:"
+"TF_ScoreBoard_HeadshotsLabel"		"Disparos a cabezas:"
 "TF_ScoreBoard_BackstabsLabel"		"Apuñaladas:"
 
 "TF_Medal_Developer"				"Desarrollador de TF2C"
 "TF_Medal_Contributor"				"Colaborador de TF2C"
-"TF_Medal_Playtester"				"Playtester de TF2C"
+"TF_Medal_Playtester"				"Probador de TF2C"
 
 // ----------------------------------------------------------------
 // Win Panel
@@ -1055,66 +1095,73 @@ La posesión de Puntos de Control por parte de los equipos es aleatoria al comie
 "Winpanel_Teams2"			"Los equipos"
 
 "Winpanel_TeamWins"	"¡%s2 %s1 GANA!"
-"Winpanel_TeamLost"	"¡%s2 %s1 PIERDEN!"
-"Winpanel_TeamAdvances"	"%s2 %s1 OCUPA LA ZONA"
+"Winpanel_TeamLost"	"¡%s2 %s1 PIERDE!"
+"Winpanel_TeamAdvances"	"LOS %s1 OCUPAN LA ZONA"
 "Winpanel_TeamDefends"	"¡%s2 %s1 DEFIENDE!"
 
 "WinPanel_Green_Team_Wins"	"El equipo GRN gana"
 "WinPanel_Yellow_Team_Wins"	"El equipo YLW gana"
 
 "Winpanel_GreenWins"			"¡EL EQUIPO GRN GANA!"
-"Winpanel_GreenAdvances"		"EL EQUIPO GRN OCUPA LA ZONA"
+"Winpanel_GreenAdvances"		"LOS GRN OCUPAN LA ZONA"
 "Winpanel_GreenDefends"			"¡EL EQUIPO GRN DEFIENDE!"
 "Winpanel_YellowWins"			"¡EL EQUIPO YLW GANA!"
-"Winpanel_YellowAdvances"		"EL EQUIPO YLW OCUPA LA ZONA"
+"Winpanel_YellowAdvances"		"LOS YLW OCUPAN LA ZONA"
 "Winpanel_YellowDefends"		"¡EL EQUIPO YLW DEFIENDE!"
 "Winpanel_GreenMVPs"			"Mejores jugadores del equipo GRN:"
 "Winpanel_YellowMVPs"			"Mejores jugadores del equipo YLW:"
 
-"Winreason_KOTHPointHeld"		"%s1 mantuvo el Punto de Control hasta que se acabó el tiempo"
-"Winreason_PayloadPushed"		"%s1 empujó la carga hasta el último terminal"
-"Winreason_ArenaPointCaptured"	"%s1 capturó el Punto de Control"
-"Winreason_RoundScoreLimit"		"%s1 llegó a %s2 puntos"
-"Winreason_VIPEscaped"			"El VIP ha huido"
-"Winreason_VIPKilled"			"El VIP fue eliminado"
+"Winreason_KOTHPointHeld"		"%s1 mantuvo el Punto de Control hasta que se acabó el tiempo."
+"Winreason_PayloadPushed"		"%s1 empujó la carga hasta el último terminal."
+"Winreason_ArenaPointCaptured"	"%s1 capturó el Punto de Control."
+"Winreason_RoundScoreLimit"		"%s1 llegó a %s2 puntos."
+"Winreason_VIPEscaped"			"El VIP ha huido."
+"Winreason_VIPKilled"			"El VIP fue eliminado."
 
 // ----------------------------------------------------------------
 // Main Menu
 // ----------------------------------------------------------------
 
-"TF_Menu_Welcome"			"Bienvenido de Nuevo,"
+"TF_Menu_Welcome"			"¡Hola de nuevo,"
+"TF_Menu_Name"				"%playername%!"
 
-"TF_Menu_ResumeGame"		"Reanudar Juego"
-"TF_Menu_Mute"				"Silenciar Jugadores"
-"TF_Menu_Vote"				"Iniciar Votación"
+"TF_Menu_HideName"			"[CENSURADO]"
 
-"TF_Menu_FindServers"		"Encontrar Servidores"
-"TF_Menu_CreateServer"		"Crear Servidor"
+"TF_Menu_ResumeGame"		"Reanudar partida"
+"TF_Menu_Mute"				"Silenciar jugadores"
+"TF_Menu_Vote"				"Iniciar votación"
+
+"TF_Menu_FindServers"		"Encontrar servidores"
+"TF_Menu_CreateServer"		"Crear servidor"
 "TF_Menu_OfflineTraining"	"Entrenamiento"
 
-"TF_Menu_Loadout"			"EQUIPAMIENTO"
+"TF_Menu_Loadout"			"Equipamiento"
 
-"TF_Menu_Achievements"		"Ver Logros"
-"TF_Menu_Stats"				"Estadísticas de Jugador"
+"TF_Menu_Achievements"		"Ver logros"
+"TF_Menu_Stats"				"Estadísticas"
 
 "TF_Menu_Options"			"Opciones"
-"TF_Menu_Addons"			"Extensiones (¡Próximamente!)"
+"TF_Menu_Addons"			"Extensiones (¡próximamente!)"
 
 "TF_Menu_Quit"				"Salir"
 "TF_Menu_Disconnect"		"Desconectar"
 
-"TF_Menu_Blog"				"Blog Oficial"
+"TF_Menu_Blog"				"Blog oficial"
+"TF_Menu_LatestUpdate"		"Última actualización"
+"TF_Menu_ReportBug"			"Informar de un error"
 
 "TF_Friends_Title"					"Amigos (%friend_count%)"
-"TF_Friends_Status_InTF2C"			"Jugando TF2C"
-"TF_Friends_Status_Idle_InTF2C"		"Inactivo: TF2C"
-"TF_Friends_Status_InMod"			"Jugando Mod"
-"TF_Friends_Status_Idle_InMod"		"Inactivo: Mod"
+"TF_Friends_Status_InTF2C"			"Jugando a TF2C"
+"TF_Friends_Status_Idle_InTF2C"		"Inactivo en TF2C"
+"TF_Friends_Status_InMod"			"Jugando a otro mod"
+"TF_Friends_Status_Idle_InMod"		"Inactivo en otro mod"
 "TF_Friends_Status_InGame"			"Jugando a otro juego"
-"TF_Friends_Status_Idle"			"Inactivo"
-"TF_Friends_Status_Online"			"En Linea"
+"TF_Friends_Status_Idle"			"Inactivo en otro juego"
+"TF_Friends_Status_Online"			"En línea"
 "TF_Friends_Status_Away"			"Ausente"
-"TF_Friends_Status_Offline"			"Desconectado"
+"TF_Friends_Status_Offline"			"Sin conexión"
+
+"ChallengeDetails"					"%s1 de %s2"
 
 
 // ----------------------------------------------------------------
@@ -1122,19 +1169,19 @@ La posesión de Puntos de Control por parte de los equipos es aleatoria al comie
 // ----------------------------------------------------------------
 
 // Loadout gamemode indicator
-"TF_Loadout_Modifier_StockItemsOnly"		"¡Solo Objetos Básicos!"
-"TF_Loadout_Modifier_MedievalItemsOnly"		"¡Solo Objetos\"Medievales\"!"
-"TF_Loadout_Modifier_RandomizerClasses"		"¡Clases Aleatorias!"
-"TF_Loadout_Modifier_RandomizerItems"		"¡Objetos Aleatorios!"
-"TF_Loadout_Modifier_RandomizerAttributes"	"¡Atributos Aleatorios"
-"TF_Loadout_Modifier_RandomizerMayhem"		"¡Caos Total Aleatorio!"
-"TF_Loadout_Modifier_CustomWeaponsEnabled"	"¡Armas Personalizadas!"
+"TF_Loadout_Modifier_StockItemsOnly"		"¡Solo artículos básicos!"
+"TF_Loadout_Modifier_MedievalItemsOnly"		"¡Solo artículos medievales!"
+"TF_Loadout_Modifier_RandomizerClasses"		"¡Clases al azar!"
+"TF_Loadout_Modifier_RandomizerItems"		"¡Artículos al azar!"
+"TF_Loadout_Modifier_RandomizerAttributes"	"¡Atributos al azar!"
+"TF_Loadout_Modifier_RandomizerMayhem"		"¡Caos total aleatorio!"
+"TF_Loadout_Modifier_CustomWeaponsEnabled"	"¡Armas personalizadas!"
 
 // Item slot types
-"TF_Loadout_Slot_Invalid"		"Inválido"
-"TF_Loadout_Slot_Primary"		"Primario"
+"TF_Loadout_Slot_Invalid"		"No válido"
+"TF_Loadout_Slot_Primary"		"Principal"
 "TF_Loadout_Slot_Secondary"		"Secundario"
-"TF_Loadout_Slot_Melee"			"Cuerpo a Cuerpo"
+"TF_Loadout_Slot_Melee"			"Cuerpo a cuerpo"
 "TF_Loadout_Slot_Utility"		"Utilidad"
 "TF_Loadout_Slot_Building"		"Construcción"
 "TF_Loadout_Slot_PDA1"			"PDA"
@@ -1150,8 +1197,8 @@ La posesión de Puntos de Control por parte de los equipos es aleatoria al comie
 "TF_Loadout_Defaults"		"Reiniciar"
 
 // Reset inventory
-"TF_ConfirmDefaultInventory_Title"		"Reiniciar Inventario"
-"TF_ConfirmDefaultInventory_Message"	"¿Seguro que quieres reiniciar tu inventario?"
+"TF_ConfirmDefaultInventory_Title"		"Reiniciar equipamiento"
+"TF_ConfirmDefaultInventory_Message"	"¿Seguro que quieres reiniciar tu equipamiento?"
 "TF_ConfirmDefaultInventory_OK"			"Reiniciar"
 
 // ----------------------------------------------------------------
@@ -1165,39 +1212,40 @@ La posesión de Puntos de Control por parte de los equipos es aleatoria al comie
 "TF2c_KeyboardCategory_Communication"   "COMUNICACIÓN"
 "TF2c_KeyboardCategory_UI"  		 	"INTERFAZ"
 "TF2c_KeyboardCategory_Extra"			"EXTRAS"
-"TF2c_UseDefaultsButton"				"Reiniciar Teclas"
-"TF_ClassSkill_Spy_Spywalk"				"SPY: Paseo de Spy"
-"TF_Voice_Menu_0_0"						"Comando de Voz: ¡MEDIC!"
-"TF_Voice_Menu_0_1"						"Comando de Voz: ¡Gracias!"
-"TF_Voice_Menu_1_0"						"Comando de Voz: Ya llegan"
-"TF_Voice_Menu_1_1"						"Comando de Voz: ¡Un Spy!"
-"TF_Voice_Menu_1_2"						"Comando de Voz: ¡Centinela al frente!"
-"TF_Voice_Menu_1_3"						"Comando de Voz: Teleportador aquí"
-"TF_Voice_Menu_1_4"						"Comando de Voz: Dispensador aquí"
-"TF_Voice_Menu_1_5"						"Comando de Voz: Centinela aquí"
-"TF_Voice_Menu_1_6"						"Comando de Voz: ¡Activa la carga!"
-"TF_Voice_Menu_1_7"						"Comando de Voz: (MEDIC) ¡Supercarga lista!"
-"TF_Voice_Menu_2_0"						"Comando de Voz: ¡Ayuda!"
-"TF_Spec_Next"							"Siguiente objetivo (Espectador)"
-"TF_Spec_Prev"							"Anterior objetivo (Espectador)"
-"TF_Spec_Mode"							"Cambiar modo cámara (Espectador)"
+"TF2c_UseDefaultsButton"				"Reiniciar teclas"
+"TF_ClassSkill_Spy_Spywalk"				"SPY: Velocidad del Spy"
+"TF_Voice_Menu_0_0"						"Comando de voz: ¡MEDIC!"
+"TF_Voice_Menu_0_1"						"Comando de voz: ¡Gracias!"
+"TF_Voice_Menu_1_0"						"Comando de voz: Ya llegan."
+"TF_Voice_Menu_1_1"						"Comando de voz: ¡Un Spy!"
+"TF_Voice_Menu_1_2"						"Comando de voz: ¡Centinela al frente!"
+"TF_Voice_Menu_1_3"						"Comando de voz: Teleportador aquí."
+"TF_Voice_Menu_1_4"						"Comando de voz: Dispensador aquí."
+"TF_Voice_Menu_1_5"						"Comando de voz: Centinela aquí."
+"TF_Voice_Menu_1_6"						"Comando de voz: ¡Activa la carga!"
+"TF_Voice_Menu_1_7"						"Comando de voz: (MEDIC) ¡Supercarga lista!"
+"TF_Voice_Menu_2_0"						"Comando de voz: ¡Ayuda!"
+"TF_Spec_Next"							"Ir al siguiente objetivo."
+"TF_Spec_Prev"							"Ir al objetivo anterior."
+"TF_Spec_Mode"							"Cambiar a modo espectador"
 "TF_Use"								"Usar (Interactuar)"
 "TF_Kill"								"Suicidarse"
-"TF_Explode"							"Explotarse"
+"TF_Explode"							"Inmolarse"
 
 // Scoreboard Options
-"TF_Enable"								"Habilitar"
-"TF_Disable"							"Deshabilitar"
-"TF_RightClick_Enable"					"Botón Derecho para Habilitar"
+"TF_Enable"								"Activar"
+"TF_Disable"							"Desactivar"
+"TF_RightClick_Enable"					"Clic der. para activar"
+"TF_RightClick_Enable_Mouse"			"Clic der. para activar ratón"
 
 // UI options
-"TF_Open_Charinfo"						"Abrir Equipamiento"
+"TF_Open_Charinfo"						"Abrir equipamiento"
 
-"TF2c_EnableGamepad"					"Activar el mando"
+"TF2c_EnableGamepad"					"Activar mando"
 
 "TF2c_MouseRawInput"					"Entrada directa"
-"TF2c_MouseSensitivity"					"Sensibilidad de ratón"
-"TF2c_MouseSmoothing"					"Filtro de ratón"
+"TF2c_MouseSensitivity"					"Sensibilidad del ratón"
+"TF2c_MouseSmoothing"					"Filtro del ratón"
 "TF2c_MouseAcceleration"				"Aceleración del ratón"
 "TF2c_MouseAccelerationStrength"		"Cantidad de aceleración"
 
@@ -1223,9 +1271,9 @@ La posesión de Puntos de Control por parte de los equipos es aleatoria al comie
 "TF2c_OptionCategory_HUD"				"HUD"
 "TF2c_OptionCategory_ViewModel"			"MODELO DE VISTA"
 "TF2c_OptionCategory_ClassSpecific"		"ESPECÍFICAS DE CLASE"
-"TF2c_OptionCategory_Performance"		"PERFORMANCE"
-"TF2c_OptionCategory_Misc"				"RENDIMIENTO"
-"TF2c_OptionCategory_Replay"			"REPLAYS"
+"TF2c_OptionCategory_Performance"		"RENDIMIENTO"
+"TF2c_OptionCategory_Misc"				"MISCELÁNEOS"
+"TF2c_OptionCategory_Replay"			"GRABACIONES"
 "TF2c_OptionCategory_DemoSupport"		"DEMOS"
 "TF2c_OptionCategory_Communication"		"COMUNICACIÓN"
 
@@ -1239,8 +1287,8 @@ La posesión de Puntos de Control por parte de los equipos es aleatoria al comie
 "TF2c_ChatFilterSettingsButton"			"Abrir ajustes"
 
 "GameUI_CloseWithoutSaving"				"Cerrar sin guardar"
-"GameUI_CloseWithoutSavingText" 		"¿Estás seguro de que deseas cerrar?\n ¡Se perderán todos los cambios no guardados!"
-"GameUI_Legacy"							"Menú Heredado"
+"GameUI_CloseWithoutSavingText" 		"¿Seguro que quieres cerrar?\n ¡Se perderán todos los cambios no guardados!"
+"GameUI_Legacy"							"Menú clásico"
 "GameUI_Effect_Detail"          		"Detalle del efecto"
 "GameUI_VeryLow"               			"Muy bajo"
 "GameUI_Off"               				"Desactivado"
@@ -1248,76 +1296,80 @@ La posesión de Puntos de Control por parte de los equipos es aleatoria al comie
 "GameUI_FriendsOnly"               		"Solo amigos"
 
 "GameUI_Restart"						"Es necesario reiniciar"
-"GameUI_RestartText"					"Algunos cambios que has realizado requieren que se reinicie el juego:"
+"GameUI_RestartText"					"Algunos cambios que has realizado requieren reiniciar el juego:"
 "GameUI_OptionsRestart_Revert"			"Revertir cambios"
 
-// Combat
-"TF2C_Option_DamageFeedback"				"Habilitar sonidos de daño"
-"TF2C_Tooltip_DamageFeedback"				"Reproduce sonidos contextuales al infligir o recibir diferentes tipos de daño"
-"TF2C_Option_DamageFeedbackOutgoing"		"Habilitar sonidos de daño infligido"
-"TF2C_Tooltip_DamageFeedbackOutgoing"		"Los sonidos de daño infligido se reproducen al infligir daño a los enemigos"
-"TF2C_Option_DamageFeedbackOutgoingVolume"	"Volumen de los sonidos de daño infligido"
-"TF2C_Tooltip_DamageFeedbackOutgoingVolume"	"El volumen de los sonidos contextuales que se reproducen al infligir daño"
-"TF2C_Option_DamageFeedbackIncoming"		"Habilitar sonidos de daño recibido"
-"TF2C_Tooltip_DamageFeedbackIncoming"		"Los sonidos de daño recibido se reproducen al recibir daño de los enemigos"
-"TF2C_Option_DamageFeedbackIncomingVolume"	"Volumen de los sonidos de daño recibido"
-"TF2C_Tooltip_DamageFeedbackIncomingVolume"	"El volumen de los sonidos contextuales que se reproducen al recibir daño"
+"GameUI_Disconnect_TooManyCommands"		"Desconectado: Demasiados comandos."
 
-"TF_CenterFirePreference"         	"Prefiere que los proyectiles disparen desde el centro"
-"TF_CenterFirePreference_Tip"    	"La coordenada Y de la posición de aparición de los proyectiles se establece en 0 para el jugador"
+// Combat
+"TF2C_Option_DamageFeedback"				"Activar sonidos de daño"
+"TF2C_Tooltip_DamageFeedback"				"Reproduce sonidos contextuales al infligir o recibir diferentes tipos de daño."
+"TF2C_Option_DamageFeedbackOutgoing"		"Activar sonidos de daño infligido"
+"TF2C_Tooltip_DamageFeedbackOutgoing"		"Reproduce sonidos al infligir daño a los enemigos."
+"TF2C_Option_DamageFeedbackOutgoingVolume"	"Volumen de sonidos de daño infligido"
+"TF2C_Tooltip_DamageFeedbackOutgoingVolume"	"El volumen de los sonidos contextuales que se reproducen al infligir daño."
+"TF2C_Option_DamageFeedbackIncoming"		"Activar sonidos de daño recibido"
+"TF2C_Tooltip_DamageFeedbackIncoming"		"Reproduce sonidos al recibir daño de los enemigos."
+"TF2C_Option_DamageFeedbackIncomingVolume"	"Volumen de sonidos de daño recibido"
+"TF2C_Tooltip_DamageFeedbackIncomingVolume"	"El volumen de los sonidos contextuales que se reproducen al recibir daño."
+
+"TF_CenterFirePreference"         	"Disparar proyectiles desde el centro"
+"TF_CenterFirePreference_Tip"    	"Al activarlo, la coordenada Y de la posición de aparición de los proyectiles se establece en 0 para el jugador."
 "TF_BurningDeathAnim"				"Activar animaciones de muerte en llamas"
-"TF_BurningDeathAnim_Tip"			"Los jugadores podrán reproducir una animación especial de muerte cuando mueran por fuego"
-"TF_CombatTextBatchingWindow"		"Retraso entre eventos de daño acumulado por texto de combate"
-"TF_CombatTextBatchingWindow_Tip"	"Retraso máximo entre eventos de daños para agrupar números"
-"TF_CombatTextDropShadow"			"Mostrar texto de combate con sombra paralela"
-"TF_CombatTextDropShadow_Tip"		"Muestra una sombra paralela en todo el texto de combate"
+"TF_BurningDeathAnim_Tip"			"Los jugadores podrán reproducir una animación de muerte especial al morir a causa del fuego."
+"TF_CombatTextBatchingWindow"		"Retraso para acumular en textos de combate"
+"TF_CombatTextBatchingWindow_Tip"	"Retraso máximo entre eventos de daño causado para agrupar números al infligir daño."
+"TF_CombatTextDropShadow"			"Texto de combate con sombra paralela"
+"TF_CombatTextDropShadow_Tip"		"Muestra una sombra paralela en todo el texto de combate."
 
 // ClassSpecific
-"TF_CyclopsDoubleTap"             	"DEMOMAN: Activar el doble clic de Cíclope"
-"TF_CyclopsDoubleTap_Tip"        	"Las granadas de Cíclope requerirán un segundo clic para detonar, en lugar de soltar el disparo primario"
-"TF_SapperAwareness"                "ENGINEER: Sensibilización de los Zapadores"
-"TF_SapperAwareness_Tip"            "Las alertas de Zapadores en construcciones se muestran en un color alternativo"
-"TF_SniperBell"					    "SNIPER: Reproduce un sonido cuando el Rifle está completamente cargado"
-"TF_SniperBell_Tip"					"Los rifles de francotirador emitirán automáticamente un sonido cuando estén completamente cargados"
-"TF_ZoomSensitivityRatio"			"SNIPER: Sensibilidad del Zoom"
-"TF_ZoomSensitivityRatio_Tip"		"Ajusta la sensibilidad del zoom mientras apuntas con el rifle"
-"TF_SpywalkInverted"				"SPY: Utilizar el Paseo de Spy por defecto"
-"TF_SpywalkInverted_Tip"			"Utiliza el Paseo de Spy por defecto, y la velocidad de movimiento normal con el botón Paseo de Spy"
-"TF_ViewModelCloakTint"				"SPY: Tinte de camuflaje del Model de Vista"
-"TF_ViewModelCloakTint_Tip"			"SPY: Permitir que los modelos de vista se tiñan mientras estás invisible"
-"TF_AvoidBecomingVIP"				"CIVILIAN: Evitar convertirte en el VIP"
-"TF_AvoidBecomingVIP_Tip"			"No se te tendrá en cuenta normalmente cuando el juego elija a un VIP"
+"TF_CyclopsDoubleTap"             	"DEMOMAN: Activar el doble clic del Cíclope"
+"TF_CyclopsDoubleTap_Tip"        	"Al activarlo, las granadas del Cíclope requerirán un segundo clic para detonar, en lugar de soltar el disparo principal."
+"TF_SapperAwareness"                "ENGINEER: Sensibilidad de Zapadores"
+"TF_SapperAwareness_Tip"            "Al activarlo, se muestran alertas de Zapadores en construcciones con un color alternativo."
+"TF_SniperBell"					    "SNIPER: Sonido al cargar el disparo del rifle"
+"TF_SniperBell_Tip"					"Al activarlo, se emitirá automáticamente un sonido cuando el disparo al apuntar esté completamente cargado."
+"TF_ZoomSensitivityRatio"			"SNIPER: Sensibilidad al apuntar"
+"TF_ZoomSensitivityRatio_Tip"		"Ajusta la sensibilidad del zum mientras apuntas con el rifle."
+"TF_SpywalkInverted"				"SPY: Velocidad del Spy por defecto"
+"TF_SpywalkInverted_Tip"			"Al activarlo, se usa la velocidad del Spy por defecto y la velocidad de movimiento normal con el botón de Velocidad del Spy."
+"TF_ViewModelCloakTint"				"SPY: Teñir modelo invisible"
+"TF_ViewModelCloakTint_Tip"			"Permitir que el modelo de vista cambie de color mientras estás invisible."
+"TF_AvoidBecomingVIP"				"CIVIL: Evitar convertirte en VIP."
+"TF_AvoidBecomingVIP_Tip"			"Al activarlo, no se te tendrá en cuenta para ser VIP en dicho modo de juego."
 
 // HUD
-"TF_LoadoutGrid"                  "Activar rejilla de inventario"
-"TF_LoadoutGrid_Tip"              "La página de inventario de armas se mostrará como una rejilla"
-"TF_HighlightAmmo"				  "Mostrar contornos brillantes en las armas caídas"
-"TF_HighlightAmmo_Tip"			  "Las armas caídas tendrán contornos brillantes para resaltar su ubicación"
+"TF_LoadoutGrid"                  "Activar cuadrícula de inventario"
+"TF_LoadoutGrid_Tip"              "Al activarlo, las páginas del inventario se mostrarán en cuadrícula."
+"TF_HighlightAmmo"				  "Resaltar armas caídas"
+"TF_HighlightAmmo_Tip"			  "Al activarlo, las armas caídas tendrán contornos brillantes para resaltar su ubicación."
 "TF_ScoreBoardShowAvatars"		  "Mostrar avatares en la tabla de puntuaciones"
-"TF_ShowCurrentWeapon"		  	  "Mostrar el arma actualmente equipada"
-"TF_OverlayToastPosition"         "Posición de las notificaciones superpuestas de Steam"
+"TF_ShowCurrentWeapon"		  	  "Mostrar arma equipada actualmente"
+"TF_OverlayToastPosition"         "Posición de notificaciones de Steam"
 "TF_TopLeft"                      "Superior izquierda"
 "TF_TopRight"                     "Superior derecha"
 "TF_BottomLeft"                   "Inferior izquierda"
 "TF_BottomRight"                  "Inferior derecha"
 "TF_OverlayToastInsetHoriz"       "Inserción horizontal de notificaciones de Steam"
 "TF_OverlayToastInsetVert"        "Inserción vertical de notificaciones de Steam"
-"TF_TargetID_Floating_Health"	  "Identificador de Objetivo: Activar barra de salud flotante"
-"TF_TargetID_Floating_Health_Tip" "Muestra la barra de salud sobre el personaje"
-"TF_TargetID_Alpha"				  "Identificador de Objetivo: Opacidad"
-"TF_TargetID_Alpha_Tip"			  "Define la transparencia del elemento del identificador de objetivo"
-"TF_TargetID_Show_Avatars"		  "Identificador de Objetivo: Mostrar avatar de Steam"
-"TF_TargetID_Show_Avatars_Tip"	  "Mostrar avatares de Steam en el identificador de objetivo"
-"TF_HideKeybinds"                 "Ocultar las teclas asignadas que se muestran en el juego"
-"TF_HideKeybinds_Tip"			  "Desactivar la visualización de las teclas asignadas que se muestran en el HUD del juego"
-"TF_AlternativeTimer"             "Usar un temporizador alternativo en el juego"
-"TF_AlternativeTimer_Tip"         "Se utilizará un temporizador alternativo con fuente mono"
+"TF_TargetID_Floating_Health"	  "Id. de objetivo: Barra de salud"
+"TF_TargetID_Floating_Health_Tip" "Mostrar la barra de salud de un jugador al apuntarle."
+"TF_TargetID_Alpha"				  "Id. de objetivo: Opacidad"
+"TF_TargetID_Alpha_Tip"			  "Transparencia u opacidad del identificador de objetivo de un jugador al apuntarle."
+"TF_TargetID_Show_Avatars"		  "Id. de objetivo: Avatar de Steam"
+"TF_TargetID_Show_Avatars_Tip"	  "Mostrar el avatar de Steam de un jugador al apuntarle."
+"TF_HideKeybinds"                 "Ocultar teclas asignadas que se muestran en el juego"
+"TF_HideKeybinds_Tip"			  "Desactivar la visualización de las teclas asignadas que se muestran en el HUD del juego."
+"TF_AlternativeTimer"             "Temporizador alternativo"
+"TF_AlternativeTimer_Tip"         "Al activarlo, se utilizará un temporizador alternativo con fuente monocromática."
 "TF_DisableDropShadow"            "Desactivar sombra paralela"
-"TF_DisableDropShadow_Tip"        "Eliminará la sombra paralela de la mayoría de los textos e imágenes"
-"TF_DeathNoticeMax"               "Aviso de muerte: cantidad máxima visible"
-"TF_DeathNoticeMax_Tip"           "Establece la cantidad máxima de avisos de muerte que se pueden mostrar al mismo tiempo"
-"TF_DeathNoticeTime"              "Aviso de muerte: tiempo de caducidad de las entradas (en segundos)"
-"TF_DeathNoticeTime_Tip"          "Establece el tiempo de caducidad de los elementos del aviso de muerte"
+"TF_DisableDropShadow_Tip"        "Eliminará la sombra paralela de la mayoría de textos e imágenes"
+"TF_DeathNoticeMax"               "Máximo de notif. de muerte"
+"TF_DeathNoticeMax_Tip"           "Establece la cantidad máxima de notificaciones de muerte que se pueden mostrar al mismo tiempo."
+"TF_DeathNoticeTime"              "Tiempo de notif. de muerte"
+"TF_DeathNoticeTime_Tip"          "Establece el tiempo máximo que se mostrará cada una de las notificaciones de muerte."
+"TF_GlowEffects"				  "Resaltar objetivos"
+"TF_GlowEffects_Tip" 			  "Al activarlo, los objetivos, como VIP, vagonetas y dosieres, tendrán contornos brillantes para resaltar su ubicación."
 
 // ViewModel
 "TF_ViewModelFOV"				"Campo de visión del modelo de vista"
@@ -1326,21 +1378,23 @@ La posesión de Puntos de Control por parte de los equipos es aleatoria al comie
 "TF_ViewModelOpacity"			"Opacidad del modelo de vista"
 
 // Misc
-"TF_ClassAutoKill"					"Suicidio después de elegir clase de jugador"
-"TF_ClassAutoKill_Tip"				"Te suicidarás cada vez que cambies de clase sin estar en una sala de reaparición"
-"TF_ClassMenu_Music"				"Música del Menú de selección de Clase"
-"TF_StreamerMode"					"Activar el modo streamer"
-"TF_StreamerMode_Tip"				"Se deshabilita el chat (excepto voz) y se anonimiza a todos en la partida"
-"TF_ModelMuzzleFlash"				"Activar modelo del fogonazo beta"
-"TF_ModelMuzzleFlash_Tip"			"Los fogonazos utilizarán modelos en lugar de partículas"
+"TF_ClassAutoKill"					"Reaparecer al cambiar de clase"
+"TF_ClassAutoKill_Tip"				"Morirás al cambiar de clase, a menos que estés dentro de una base para reaparecer."
+"TF_ClassMenu_Music"				"Música del menú de selección de clase"
+"TF_StreamerMode"					"Modo retransmisión"
+"TF_StreamerMode_Tip"				"Desactiva el chat (excepto voz) y se anonimiza a todos los jugadores de la partida."
+"TF_ModelMuzzleFlash"				"Fuego de disparos de la beta"
+"TF_ModelMuzzleFlash_Tip"			"Al activarlo, el fogonazo de las armas de fuego al disparar será estilo cómic, como en la beta."
 
 // Voice
-"TF2c_Option_Proximity_Voice_Local"	"Activar voz basada en proximidad"
+"TF2c_Option_Proximity_Voice_Local"	"Activar chat de voz por proximidad."
 
 // Multiplayer
-"TF_MessageAlert"				  "Activar el sonido de mensajes de chat"
-"TF_MessageAlert_Tip"			  "Se reproducirá un sonido cuando se reciba un mensaje de chat"
-"TF_MessageVolume"				  "Volumen del sonido de mensajes de chat"
+"TF_MessageAlert"				  	"Sonido de mensajes de chat"
+"TF_MessageAlert_Tip"			  	"Al activarlo, se reproduce un sonido al recibir un mensaje de chat."
+"TF_MessageVolume"				  	"Volumen del sonido de mensajes de chat"
+"TF_ChatCloseOnSend"				"Cerrar el chat al enviar mensaje"
+"TF_ChatCloseOnSend_Tip"			"Al activarlo, el chat se cierra tras enviar el mensaje escrito."
 "TF_DownloadFilter_Title"			"Permisos para archivos personalizados de servidores"
 "GameUI_DownloadFilter_All"			"Todos los archivos personalizados"
 "GameUI_DownloadFilter_NoSounds"	"Sin sonidos personalizados"
@@ -1350,7 +1404,8 @@ La posesión de Puntos de Control por parte de los equipos es aleatoria al comie
 "TF_Network_Rate_Tip"       		"Establece la tasa de actualización de la red, lo que a su vez establece la cantidad de interpolación.\n\nSe recomienda probar cada una y ver cuál se adapta mejor a tu conexión de red."
 
 // Video
-"TF2c_Option_BloomScale"	"Efecto de resplandor"
+"TF2c_Option_BloomScale"			"Efecto de resplandor"
+"TF2c_Option_FramerateLimit"		"Límite de FPS"
 
 // ----------------------------------------------------------------
 // Stats
@@ -1361,96 +1416,103 @@ La posesión de Puntos de Control por parte de los equipos es aleatoria al comie
 
 "TF_NextTip"							"Siguiente consejo"
 																								   
-"Stat_PadJumps"							"CTRL.AÉREOS"
+"Stat_PadJumps"							"CTRL. AÉR."
 
-"StatPanel_Label_PadJumps"				"Nº usos de controlador aéreo: "
+"StatPanel_Label_PadJumps"				"Máx. controladores aéreos: "
 
 "TF_ClassRecord_MostUbercharges"		"Máx. Supercargas:"
-"TF_ClassRecord_Alt_MostUbercharges"	"Supercargas"
-"TF_ClassRecord_MostPadJumps"			"Máx. saltos (ctrl.aéreo):"
-"TF_ClassRecord_Alt_MostPadJumps"		"Saltos"
+"TF_ClassRecord_Alt_MostUbercharges"	"Supercarga(s)"
+"TF_ClassRecord_MostPadJumps"			"Máx. saltos (ctrl. aér.):"
+"TF_ClassRecord_Alt_MostPadJumps"		"salto(s)"
+
+"StatPanel_Ubercharges_Best"			"Usaste más Supercargas en esa ronda que en tu récord anterior."
+"StatPanel_Ubercharges_Tie"				"Has igualado tu récord de Supercargas en esa ronda."
+"StatPanel_Ubercharges_Close"			"Te has acercado a tu récord de Supercargas en esa ronda."
+"StatPanel_MVM_Ubercharges_Best"		"Usaste más Supercargas en esa ronda de Mann vs. Máquinas que en tu récord anterior."
+"StatPanel_MVM_Ubercharges_Tie"			"Has igualado tu récord de Supercargas en esa ronda Mann vs. Máquinas."
+"StatPanel_MVM_Ubercharges_Close"		"Te has acercado a tu récord de Supercargas en esa ronda de Mann vs. Máquinas."
 
 "StatPanel_PadJumps_Best"				"Tus controladores aéreos se han utilizado más veces en esa ronda que en tu récord anterior."
 "StatPanel_PadJumps_Tie"				"Has igualado tu récord de saltos de controlador aéreo en esa ronda."
 "StatPanel_PadJumps_Close"				"Te has acercado a tu récord de saltos de controlador aéreo en esa ronda."
-"StatPanel_MVM_PadJumps_Best"			"Tus controladores aéreos se han utilizado más veces en esa ronda de Mann vs. Machine que en tu récord anterior."
-"StatPanel_MVM_PadJumps_Tie"			"Has igualado tu récord de saltos de controlador aéreo en esa ronda de Mann vs. Machine."
-"StatPanel_MVM_PadJumps_Close"			"Te has acercado a tu récord de saltos de controlador aéreo en esa ronda de Mann vs. Machine."
+"StatPanel_MVM_PadJumps_Best"			"Tus controladores aéreos se han utilizado más veces en esa ronda de Mann vs. Máquinas que en tu récord anterior."
+"StatPanel_MVM_PadJumps_Tie"			"Has igualado tu récord de saltos de controlador aéreo en esa ronda de Mann vs. Máquinas."
+"StatPanel_MVM_PadJumps_Close"			"Te has acercado a tu récord de saltos de controlador aéreo en esa ronda de Mann vs. Máquinas."
 // ----------------------------------------------------------------
 // Achievements
 // ----------------------------------------------------------------
 
 // Achievement groups
-"Achievement_Group_3000"	"Clases de Ofensiva (%s1 de %s2)"
-"Achievement_Group_3100"	"Clases de Defensa (%s1 de %s2)"
-"Achievement_Group_3200"	"Clases de Apoyo (%s1 de %s2)"
-"Achievement_Group_3300"	"Modos de Juego y Mapas (%s1 de %s2)"
+"Achievement_Group_3000"	"Clases de ataque (%s1 de %s2)"
+"Achievement_Group_3100"	"Clases de defensa (%s1 de %s2)"
+"Achievement_Group_3200"	"Clases de apoyo (%s1 de %s2)"
+"Achievement_Group_3300"	"Modos de juego y mapas (%s1 de %s2)"
 
 // Launch achievements
-"TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_NAME"			"Un Accidente Calculado"
+"TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_NAME"			"Un accidente calculado"
 "TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_DESC"			"Mata a un jugador enemigo desde bastante distancia con un cohete que viaja en arco."
-"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_NAME"			"Trotamundos con Experiencia"
+"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_NAME"			"Trotamundos con experiencia"
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_DESC"			"Juega una partida completa en Dustbowl, 2Fort, Badlands (CP), Well (CTF) y Avanti."
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_CP_DUSTBOWL"	"Dustbowl"
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_CTF_2FORT"	"2Fort"
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_CP_BADLANDS"	"Badlands (CP)"
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_CTF_WELL"	"Well (CTF)"
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_VIP_AVANTI"	"Avanti"
-"TF2C_ACHIEVEMENT_KILL_BUILDINGS_WITH_MIRV_NAME"		"'¡KA-BOOOM!'"
-"TF2C_ACHIEVEMENT_KILL_BUILDINGS_WITH_MIRV_DESC"		"Deshazte de 5 o más construcciones de un Engineer con el Paquete de Dinamita."
-"TF2C_ACHIEVEMENT_DEFUSE_MIRV_NAME"						"Escuadrón Bomba"
-"TF2C_ACHIEVEMENT_DEFUSE_MIRV_DESC"						"Desactiva un Paquete de Dinamita enemiga con la Llave Inglesa."
-"TF2C_ACHIEVEMENT_TRANQ_MELEE_KILL_NAME"				"Sueño Profundo"
-"TF2C_ACHIEVEMENT_TRANQ_MELEE_KILL_DESC"				"Como Spy, mata a 10 jugadores tranquilizados con tu arma cuerpo a cuerpo."
+"TF2C_ACHIEVEMENT_KILL_BUILDINGS_WITH_MIRV_NAME"		"'¡KA-BUUM!'"
+"TF2C_ACHIEVEMENT_KILL_BUILDINGS_WITH_MIRV_DESC"		"Deshazte de 5 o más construcciones de un Engineer con la Dinamita Racimo."
+"TF2C_ACHIEVEMENT_DEFUSE_MIRV_NAME"						"Escuadrón bomba"
+"TF2C_ACHIEVEMENT_DEFUSE_MIRV_DESC"						"Desactiva una Dinamita Racimo enemiga con la Llave Inglesa."
+"TF2C_ACHIEVEMENT_TRANQ_MELEE_KILL_NAME"				"Sueño profundo"
+"TF2C_ACHIEVEMENT_TRANQ_MELEE_KILL_DESC"				"Como Spy, mata con tu arma cuerpo a cuerpo a 10 jugadores sedados."
 "TF2C_ACHIEVEMENT_EXTINGUISH_BOMBLETS_NAME"				"Soplar las velas"
-"TF2C_ACHIEVEMENT_EXTINGUISH_BOMBLETS_DESC"				"Extingue 20 cartuchos de dinamita con tu aire comprimido."
-"TF2C_ACHIEVEMENT_KILL_SENTRY_WITH_NAILGUN_NAME"		"Clavos Mortales"
-"TF2C_ACHIEVEMENT_KILL_SENTRY_WITH_NAILGUN_DESC"		"Con la Pistola de Clavos, destruye 5 Armas Centinelas."
+"TF2C_ACHIEVEMENT_EXTINGUISH_BOMBLETS_DESC"				"Apaga las llamas de 20 racimos de dinamita con tu aire comprimido."
+"TF2C_ACHIEVEMENT_KILL_SENTRY_WITH_NAILGUN_NAME"		"Clavos mortales"
+"TF2C_ACHIEVEMENT_KILL_SENTRY_WITH_NAILGUN_DESC"		"Con la Pistola de Clavos, destruye 5 armas centinelas."
 "TF2C_ACHIEVEMENT_BRICK_NAME"							"Ladrillo"
 "TF2C_ACHIEVEMENT_BRICK_DESC"							"..."
-"TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_NAME"				"Abajo con el Barco"
+"TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_NAME"				"Fondear el barco"
 "TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_DESC"				"Mata a un enemigo con un terremoto de Ancla del Almirantazgo mientras recibes daño letal por caída."
-"TF2C_ACHIEVEMENT_SSG_MEATSHOTS_NAME"					"¡Destroza y Desgarra!"
+"TF2C_ACHIEVEMENT_SSG_MEATSHOTS_NAME"					"¡Destroza y desgarra!"
 "TF2C_ACHIEVEMENT_SSG_MEATSHOTS_DESC"					"Mata a 10 enemigos con tiros certeros usando el Doble Cañón."
-"TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_NAME"		"Rodarán Cabezas"
+"TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_NAME"		"Rodarán cabezas"
 "TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_DESC"		"Decapita a 3 enemigos con el Segador en una sola vida."
-"TF2C_ACHIEVEMENT_CYCLOPS_COMBO_NAME"					"Combo Salpicado"
+"TF2C_ACHIEVEMENT_CYCLOPS_COMBO_NAME"					"Combo salpicado"
 "TF2C_ACHIEVEMENT_CYCLOPS_COMBO_DESC"					"Mata al menos a 3 enemigos con una sola detonación combinada de Cíclope."
 "TF2C_ACHIEVEMENT_SANDVICH_MINES_NAME"					"Desarme"
-"TF2C_ACHIEVEMENT_SANDVICH_MINES_DESC"					"Como Heavy, activa con seguridad una Mina enemiga colocada hace más de 5 segundos sin acercarte a ella."
-"TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_NAME"					"1, 1, 1, Uhh..."
+"TF2C_ACHIEVEMENT_SANDVICH_MINES_DESC"					"Como Heavy, activa con seguridad una mina enemiga colocada hace más de 5 segundos sin acercarte a ella."
+"TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_NAME"					"1, 1, 1, uhh..."
 "TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_DESC"					"Mata a un enemigo con una configuración de explosivos que ha salido mal."
-"TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_NAME"				"Política de Contención"
-"TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_DESC"				"Usando el Cañón Anti-Aéreo, haz 2000 de daño en una sola vida sin golpearte a ti mismo."
-"TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_NAME"				"Frutos del Trabajo"
+"TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_NAME"				"Política de contención"
+"TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_DESC"				"Usando el Cañón Antiaéreo, haz 2 000 de daño en una sola vida sin golpearte a ti mismo."
+"TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_NAME"				"Frutos del trabajo"
 "TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_DESC"				"Consigue una muerte crítica con el Puño de Chéjov con la carga máxima de crítico."
-"TF2C_ACHIEVEMENT_JUMPPAD_STOMP_NAME"					"Velocidad Terminal"
+"TF2C_ACHIEVEMENT_JUMPPAD_STOMP_NAME"					"Velocidad terminal"
 "TF2C_ACHIEVEMENT_JUMPPAD_STOMP_DESC"					"Mata a alguien aterrizando sobre él después de usar un Controlador Aéreo."
-"TF2C_ACHIEVEMENT_EXTEND_UBER_NAME"						"Cirugía Maratón"
+"TF2C_ACHIEVEMENT_EXTEND_UBER_NAME"						"Cirugía maratón"
 "TF2C_ACHIEVEMENT_EXTEND_UBER_DESC"						"Extiende la Supercarga del Rejuvenecedor a 12 segundos."
-"TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_NAME"					"¡Está Muerto!"
+"TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_NAME"					"¡Está muerto!"
 "TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_DESC"					"Haz que un Heavy con el Puño de Chéjov sufra un infarto."
-"TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_NAME"			"Aire Muerto"
+"TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_NAME"			"Último vuelo"
 "TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_DESC"			"Mata a un enemigo de un tiro en la cabeza mientras está en el aire."
-"TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_NAME"				"Cazar al Francés"
+"TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_NAME"				"Cazar al franchute"
 "TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_DESC"				"Revela a un Spy invisible que esté usando L'escampette causándole daño."
-"TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_NAME"			"El Empresario"
-"TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_DESC"			"Gana una ronda de VIP como el Civilian sin morir una vez."
-"TF2C_ACHIEVEMENT_VIPR_TIME_NAME"						"Estado Acelerado"
+"TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_NAME"			"El empresario"
+"TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_DESC"			"Gana una ronda de VIP como el Civil sin morir ni una vez."
+"TF2C_ACHIEVEMENT_VIPR_TIME_NAME"						"Estado acelerado"
 "TF2C_ACHIEVEMENT_VIPR_TIME_DESC"						"Gana una ronda de Carrera VIP en menos de tres minutos."
 "TF2C_ACHIEVEMENT_ARCHAEOLOGY_NAME"						"Arqueología"
 "TF2C_ACHIEVEMENT_ARCHAEOLOGY_DESC"						"Descubre el tesoro enterrado en Jinn."
 "TF2C_ACHIEVEMENT_AIRHOCKEY_NAME"						"Deportista"
-"TF2C_ACHIEVEMENT_AIRHOCKEY_DESC"						"Gana un juego de Hockey de Aire en 2Bridge."
-"TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_NAME"					"Juego de Gallina"
-"TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_DESC"					"Persigue a un pollo hasta una muerte ambiental."
-"TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_NAME"					"Agente Triple"
+"TF2C_ACHIEVEMENT_AIRHOCKEY_DESC"						"Gana una partida de Hockey de Aire en 2Bridge."
+"TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_NAME"					"La gallina turuleta"
+"TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_DESC"					"Persigue a un pollo hasta que muera por el entorno."
+"TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_NAME"					"Agente triple"
 "TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_DESC"					"Apuñala por la espalda a jugadores de los tres equipos enemigos en una ronda de Cuatro Equipos."
-"TF2C_ACHIEVEMENT_HOLD_ALLPOINTS_DOMINATION_NAME"		"Dominación Total"
+"TF2C_ACHIEVEMENT_HOLD_ALLPOINTS_DOMINATION_NAME"		"Dominación total"
 "TF2C_ACHIEVEMENT_HOLD_ALLPOINTS_DOMINATION_DESC"		"Consigue que tu equipo controle todos los Puntos de Control durante una ronda de Dominación."
-"TF2C_ACHIEVEMENT_SHAME_NAME"							"Insignia de Vergüenza"
+"TF2C_ACHIEVEMENT_SHAME_NAME"							"Insignia de la vergüenza"
 "TF2C_ACHIEVEMENT_SHAME_DESC"							"Muere a manos del VIP enemigo. Has sido marcado."
-"TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_NAME"				"Crítica Destructiva"
+"TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_NAME"				"Crítica destructiva"
 "TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_DESC"				"Domina a un desarrollador en una partida en línea."
 
 // ----------------------------------------------------------------
@@ -1459,43 +1521,43 @@ La posesión de Puntos de Control por parte de los equipos es aleatoria al comie
 
 "Discord_InMenu"					"En menús"
 "Discord_InMenu_ToolTip"			"Menú principal"
-"Discord_IsLoading"					"Esta ahora cargando..."
+"Discord_IsLoading"					"Está cargando..."
 "Discord_IsLoading_ToolTip"			"Cargando..."
-"Discord_InOfficialMap"				"Mapa Oficial: %s1"
-"Discord_InCommunityMap"			"Mapa de la Comunidad: %s1"
+"Discord_InOfficialMap"				"Mapa oficial: %s1"
+"Discord_InCommunityMap"			"Mapa de la comunidad: %s1"
 "Discord_InServer_Info"				"En servidor: %s1"
 
 // ----------------------------------------------------------------
 // Server Browser
 // ----------------------------------------------------------------
-"ServerBrowser_PlayerCount" "%s1/%s2"
-"ServerBrowser_LatencyDetail" "Latencia: %s1"
-"ServerBrowser_IPAddressDetail" "Dirección IP: %s1"
-"ServerBrowser_PlayerListHeading" "Jugadores (%s1/%s2, %s3 Bots):"
-"ServerBrowser_NotFullFilter" "El servidor no está lleno"
-"ServerBrowser_HasPlayersFilter" "Tiene usuarios jugando"
-"ServerBrowser_NoPasswordFilter" "No está protegido por contraseña"
-"ServerBrowser_HasTagsFilter" "Tiene tags"
-"ServerBrowser_MaxLatencyFilter" "Max. latencia"
-"ServerBrowser_MaxPlayersFilter" "Max. jugadores"
-"ServerBrowser_ServerTypeFilter" "Tipo de servidor"
-"ServerBrowser_MapNameFilter" "Nombre de mapa"
-"ServerBrowser_SortBy" "Ordenar por:"
-"ServerBrowser_SortByName" "Nombre"
-"ServerBrowser_SortByMap" "Mapa"
-"ServerBrowser_SortByPlayers" "Jugadores"
-"ServerBrowser_SortByLatency" "Latencia"
-"ServerBrowser_SortByLastPlayed" "Última sesión"
-"ServerBrowser_UseLegacyBrowser" "Navegador Heredado"
-"ServerBrowser_CurrentMapHeading" "Mapa Actual:"
-"ServerBrowser_TagListHeading" "Tags:"
-"ServerBrowser_OfficialDetail" "Servidor Oficial"
-"ServerBrowser_VerifiedDetail" "Servidor Verificado"
-"ServerBrowser_Any" "Cualquier"
-"ServerBrowser_Official" "Oficial"
-"ServerBrowser_Verified" "Verificado"
-"ServerBrowser_OfficialOrVerified" "Oficial o Verificado"
-"ServerBrowser_CustomRules"	"Reglas Personalizadas"
-"ServerBrowser_CustomWeapons" "Armas Personalizadas"
+"ServerBrowser_PlayerCount"			"%s1/%s2"
+"ServerBrowser_LatencyDetail" 		"Latencia: %s1"
+"ServerBrowser_IPAddressDetail" 	"Dirección IP: %s1"
+"ServerBrowser_PlayerListHeading" 	"Jugadores (%s1/%s2, %s3 Bots):"
+"ServerBrowser_NotFullFilter" 		"El servidor no está lleno"
+"ServerBrowser_HasPlayersFilter" 	"Tiene usuarios jugando"
+"ServerBrowser_NoPasswordFilter" 	"No está protegido por contraseña"
+"ServerBrowser_HasTagsFilter" 		"Tiene etiquetas"
+"ServerBrowser_MaxLatencyFilter" 	"Max. latencia"
+"ServerBrowser_MaxPlayersFilter" 	"Max. jugadores"
+"ServerBrowser_ServerTypeFilter" 	"Tipo de servidor"
+"ServerBrowser_MapNameFilter" 		"Nombre de mapa"
+"ServerBrowser_SortBy" 				"Ordenar por:"
+"ServerBrowser_SortByName" 			"Nombre"
+"ServerBrowser_SortByMap" 			"Mapa"
+"ServerBrowser_SortByPlayers" 		"Jugadores"
+"ServerBrowser_SortByLatency" 		"Latencia"
+"ServerBrowser_SortByLastPlayed" 	"Última sesión"
+"ServerBrowser_UseLegacyBrowser" 	"Navegador clásico"
+"ServerBrowser_CurrentMapHeading" 	"Mapa actual:"
+"ServerBrowser_TagListHeading" 		"Etiquetas:"
+"ServerBrowser_OfficialDetail" 		"Servidor oficial"
+"ServerBrowser_VerifiedDetail" 		"Servidor verificado"
+"ServerBrowser_Any" 				"Cualquiera"
+"ServerBrowser_Official" 			"Oficial"
+"ServerBrowser_Verified" 			"Verificado"
+"ServerBrowser_OfficialOrVerified" 	"Oficial o verificado"
+"ServerBrowser_CustomRules"			"Reglas personalizadas"
+"ServerBrowser_CustomWeapons" 		"Armas personalizadas"
 }
 }
