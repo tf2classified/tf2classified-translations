@@ -145,9 +145,9 @@
 "game_respawntime_now"			"Canlanmaya hazırlan"
 "game_respawntime_in_sec"		"1 saniye içinde canlanacaksın"
 "game_respawntime_in_secs"		"%s1 saniye içinde canlanacaksın"
-"game_respawntime_stalemate"	"Ani Ölüm'de yeniden canlanma yoktur"
+"game_respawntime_stalemate"	"Ani Ölüm'de canlanma yoktur"
 "game_respawntime_next_round"	"Bir sonraki rauntta canlanacaksın"
-"TF_Arena_NoRespawning"			"Arena'da yeniden canlanma yoktur"
+"TF_Arena_NoRespawning"			"Arena'da canlanma yoktur"
 
 // ----------------------------------------------------------------
 // Kill feed
@@ -207,7 +207,7 @@
 "Tip_2_Count"	"11"
 // Generic
 "Tip_2_1"		"Sniper iken, kritik vuruşlar yapmak için kafaya nişan al."
-"Tip_2_2"		"Sniper iken, %attack2% tuşuna basarak Tüfeğin dürbününü açabilir ya da Av Altıpatları ile odaklanabilirsin."
+"Tip_2_2"		"Sniper iken, %attack2% tuşuna basarak Tüfeğin dürbününü açabilir ya da Avcı Altıpatları ile odaklanabilirsin."
 // Stock
 "Tip_2_3"		"Sniper iken, Tüfeğin dürbünüyle ne kadar uzun süre nişan alırsan atışın o kadar yüksek hasar verir."
 "Tip_2_4"		"Sniper iken, tam sarjlı bir Tüfek çoğu sınıfı anında kafadan vurarak öldürebilir."
@@ -216,9 +216,9 @@
 // Death & Taxes
 "Tip_2_7"		"Sniper iken, Avcı, isabet hassasiyeti pahasına daha ofansif yakın mesafe çatışmaları için kullanılabılır."
 "Tip_2_8"		"Sniper iken, Avcı, 5 saniyeden daha fazla geri çekildiği halde isabet hassasiyeti kaybeder. %attack2% tuşuna basarak sıfırlayabilirsin."
-"Tip_2_9"		"Sniper iken, Av Altıpatları çok iyi bir orta mesafe seçeneğidir. Ön saflarda hızla git-gel yaparken yüksek hasar vermek için kullan."
-"Tip_2_10"		"Sniper iken, diğer silahlarına kıyasla Av Altıpatları ile nişan alırken daha hızlı hareket edersin."
-"Tip_2_11"		"Sniper iken, Balıkdöver düşmanları geriye savurup kanamalarına sebep olur. Davetsiz misafirleri uzağa itmek için bunu kullan."
+"Tip_2_9"		"Sniper iken, Avcı Altıpatları çok iyi bir orta mesafe seçeneğidir. Ön saflarda hızla git-gel yaparken yüksek hasar vermek için kullan."
+"Tip_2_10"		"Sniper iken, diğer silahlarına kıyasla Avcı Altıpatları ile nişan alırken daha hızlı hareket edersin."
+"Tip_2_11"		"Sniper iken, Balıkdöver düşmanları geriye savurup kanamalarına sebep olur. Davetsiz misafirleri uzağa itmek için kullan."
 
 // Soldier
 "Tip_3_Count"	"12"
@@ -246,14 +246,14 @@
 "Tip_4_2"		"Demoman iken, oldukça yükseklere çıkmak için ayağının altında bombalar patlat."
 "Tip_4_3"		"Demoman iken, maksimum yüksekliğe erişmek için patlayıcı zıplamasına hazırlanırken çömelmeyi unutma."
 // Stock
-"Tip_4_4"		"Demoman iken, direkt çatışmada Bomba Atar kullan. Kullandığın bombalar ilk olarak yere çarpmadığı sürece düşmana temas ettiğinde patlar."
+"Tip_4_4"		"Demoman iken, direkt çatışmada Bomba Atar kullan. Havadaki bombalar düşmana temas eder etmez patlar."
 "Tip_4_5"		"Demoman iken, Yapışkan Bomba Atar kullanırken ateş tuşuna ne kadar uzun süre basarsan bomban o kadar uzağa gider."
 "Tip_4_6"		"Demoman iken, yapışkan bombalarının farkedilmesini zorlaştırmak için duvarlara ve tavanlara yerleştir."
 "Tip_4_7"		"Demoman iken, Şişe, düşman bölgesine patlama zıplaması yaptıktan sonra göğüs göğüse çarpışmalarda kullanılabilir."
 "Tip_4_8"		"Demoman iken, Şişe, kırılsa da kırılmasa da aynı hasarı verir."
 // Death & Taxes
 "Tip_4_9"		"Demoman iken, Dinamit Paketi'ni düşmanları ortadan kaldırmak için kalabalık kontrol noktalarına fırlat."
-"Tip_4_10"		"Demoman iken, Dinamit Paketi düşman Engineerlar tarafından devre dışı bırakılabilir. Taret yuvalarına fırlatırkan düşünceli ol."
+"Tip_4_10"		"Demoman iken, Dinamit Paketi düşman Engineerlar tarafından devre dışı bırakılabilir. Taret yuvalarına fırlatırken düşünceli ol."
 "Tip_4_11"		"Demoman iken, Koruyucu Botlar patlama zıplamalarından aldığın hasarı oldukça azaltır. Özellikle pozisyon almak ve hızlı hareket etmek önemli olduğunda onları kullan."
 "Tip_4_12"		"Demoman iken, Mayın Döşeyici düşmanlar çok yaklaşınca otomatik olarak patlayan mayınlar fırlatır. Bunu otomatikleştirilmiş bir savunma için kullan!"
 // Double Down
@@ -277,9 +277,9 @@
 "Tip_5_10"		"Medic iken, Kemik Testeresi'ni takım arkadaşlarından ayrı kaldığın zamanlarda kendini savunmak için kullanabilirsin."
 // Death & Taxes
 "Tip_5_11"		"Medic iken, Kritzkrieg iyileştirdiğin kişiye geçici olarak kritik vuruşlar verir. Bunu güçlü sınıflarda ve düşmanların yoğun olduğu bölgelerde kullan."
-"Tip_5_12"		"Medic iken, Überspritze'yi kullanırken sağlığına dikkat et. Onunla kuşandığın zaman maksimum sağlığın 10 azalır."
+"Tip_5_12"		"Medic iken, Überspritze'yi kullanırken sağlığına dikkat et. Onunla kuşanmışken maksimum sağlığın 10 azalır."
 "Tip_5_13"		"Medic iken, Şok Tedavisi şarjı ne kadar yüksekse o kadar fazla hasar verir. Şarj düşmanlara isabet hâlinde tükenir."
-"Tip_5_14"		"Medic iken, Şok Tedavisi, genel iyileştirme oranına karşılık, tam şarjlıyken takım arkadaşlarını tamamen iyileştirmek için kullanılabilir."
+"Tip_5_14"		"Medic iken, Şok Tedavisi, genel iyileştirme oranına karşılık tam şarjlıyken takım arkadaşlarını tamamen iyileştirmek için kullanılabilir."
 // Double Down
 "Tip_5_15"		"Medic iken, Gençleştirici büyük halde gruplanmış takım arkadaşlarını iyileştirmekte aşırı derecede kullanışlıdır. Artırılmış iyileşim ve ÜberŞarj bonusu için direkt isabetler hedefle."
 "Tip_5_16"		"Medic iken, Gençleştirici'nin ÜberŞarjı geçici olan bir ölümsüzlük kalkanı fırlatır, içine giren herhangi takım arkadaşın hasardan muaf olur."
@@ -303,7 +303,7 @@
 "Tip_6_12"		"Heavy iken, iyileşmek için Sandviç'ten istediğin kadar lokma alabilirsin. Fakat, %attack2% tuşuna basarak bir arkadaşla paylaşmak bekleme süresine koyar."
 "Tip_6_13"		"Heavy iken, Sandviç'ini nereye fırlattığına dikkat et. Takım arkadaşların yanı sıra düşmanlar da iyileşmek için yerden kapabilirler!"
 // Fight or Flight
-"Tip_6_14"		"Heavy iken, Uçaksavar Topu yüksek patlama çapı hasarı verir, kalabalık yerler ve köşelerle ilgilenmekle idealdir."
+"Tip_6_14"		"Heavy iken, Uçaksavar Topu yüksek patlama çapı hasarı verir, kalabalık yerler ve köşelerle ilgilenmekte idealdir."
 "Tip_6_15"		"Heavy iken, Uçaksavar Topu havadaki düşmanlara mini-kritik hasar verir. Bunu Soldierları ya da Trambolin kullanan düşmanları yere devirmek için kullan!"
 "Tip_6_16"		"Heavy iken, Çehov'un Yumruğu her başarılı vuruşunda 3'e kadar bir kritik depolar. Depolanan kritikleri herhangi bir silahta kullanabilirsin!"
 "Tip_6_17"		"Heavy iken, Çehov'un Yumruğu düşman yakın dövüş saldırılarında kesin kritik hasar almana sebep olur. Yakın mesafeli çatışmalarda tedbirli ol."
@@ -363,12 +363,12 @@
 // Stock
 "Tip_9_6"		"Engineer iken, Tabanca'nın çok fazla yedek mermisi vardır. Düşmanları Taret'ine yönlendirmek için kullan, ya da daha saldırgan bir yaklaşımda bulun."
 "Tip_9_7"		"Engineer iken, düşmanların fırlattığı Dinamit Paketlerini İngiliz Anahtarı ile etkisiz hale getirebilirsin."
-"Tip_9_8"		"Engineer iken, İngiliz Anahtarı ile dost yapılarına vurmak onları tamir eder ve günçlendirir."
+"Tip_9_8"		"Engineer iken, İngiliz Anahtarı ile dost yapılarına vurmak onları tamir eder ve geliştirir."
 "Tip_9_9"		"Engineer iken, Kurulum PDA'yı kullanarak Taret ve diğer destekleyici yapıları kurabilirsin."
 "Tip_9_10"		"Engineer iken, Taretlerin sadece savunma amaçlı önlemler ile sınırlı değildir. Taretlerini gizli yerlere kurup ofansif bir hücumda yardımcı olabilirsin."
 "Tip_9_11"		"Engineer iken, İngiliz Anahtarı'nla vurarak Taret'ini geliştirebilirsin. Her seviye daha fazla sağlık puanı ve ateş gücü ekler."
 "Tip_9_12"		"Engineer iken, takım arkadaşlarına cephane ve sağlık sağlamak için Otomat kurabilirsin. Otomat senin için metal de üretir."
-"Tip_9_13"		"Engineer iken, geliştirilmiş Otomatlar takımın için daha fazla sağlık ve cephane, senin içinde daha fazla metal üretir!"
+"Tip_9_13"		"Engineer iken, geliştirilmiş Otomatlar takımın için daha fazla sağlık ve cephane, senin için de daha fazla metal üretir!"
 "Tip_9_14"		"Engineer iken, takımının ön saflara daha hızlı erişmesine yardımcı olmak için Işınlayıcı veya Trambolinler kur."
 "Tip_9_15"		"Engineer iken, geliştirilmiş Işınlayıcılar daha hızlı şarj olarak takımının baskıya devam etmesine yardımcı olur."
 "Tip_9_16"		"Engineer iken, İngiliz Anahtarı ile bir Işınlayıcı'nın girişi ya da çıkışına vurmak her iki tarafıda tamir edip geliştirir!"
@@ -406,7 +406,7 @@
 "Tip_arena_6"			"Arena'da, sınıfını sadece oyunun başlangıcında kapılar açılana kadar değiştirebilirsin."
 "Tip_arena_7"			"Arena'da, takımınla bir arada kalmaya çalışıp tehlikedeyken birbirinize yardımcı olun. Çatışmalara geç gelmek seni dezavantaja koyabilir."
 "Tip_arena_8"			"Arena'da, düşman takımların iyileşme fırsatlarını ellerinden almak çok önemlidir. Düşman Medic ve Otomatları hedefle, ve elinden geldiğince sağlık paketlerine erişimi engelle!"
-"Tip_arena_9"			"Arena'da, İlk Kan elde etmek kritik vuruşlar kazandırır. Eğer elde edersen onu iyi değerlendir! Eğer bir düşman elde ederse, geri çekilip sona ermesini bekle."
+"Tip_arena_9"			"Arena'da, İlk Kan elde etmek kritik vuruşlar kazandırır. Eğer elde edersen bunu iyi değerlendir! Eğer bir düşman elde ederse, geri çekilip sona ermesini bekle."
 
 // ----------------------------------------------------------------
 // Stock weapon strings
@@ -417,7 +417,7 @@
 "TF_Weapon_Bat_Desc"	"Bende bundan onlarca var. Birisini senin üstünde kırmaktan çekinmem."
 // Bottle
 "TF_Weapon_Bottle"		"Şişe"
-"TF_Weapon_Bottle_Desc"	"Hayır, hayır, onu içmen gerek!"
+"TF_Weapon_Bottle_Desc"	"Hayır, hayır, onu içmen gerekiyor!"
 // Fire Axe
 "TF_Weapon_FireAxe"			"Yangın Baltası"
 "TF_Weapon_FireAxe_Desc"	"Kıymetli bir şey olan ateş güvenliği dersini ver."
@@ -432,7 +432,7 @@
 "TF_Weapon_Fists_Desc"	"Seninle işimiz henüz bitmedi!"
 // Shovel
 "TF_Weapon_Shovel"		"Kürek"
-"TF_Weapon_Shovel_Desc"	"Savaş zamanlarında düşmanlarımızı gömeriz. Barış zamanlarında ise düşmanlarımızın mezarını soyarız."
+"TF_Weapon_Shovel_Desc"	"Savaş süresinde düşmanlarını göm, barış süresinde ise mezarlarını soy."
 // Wrench
 "TF_Weapon_Wrench"		"İngiliz Anahtarı"
 "TF_Weapon_Wrench_Desc"	"Her şeyden biraz yapabilirim."
@@ -456,7 +456,7 @@
 "TF_Weapon_Minigun_Desc"	"Sasha Heavy'i bile dinlemez. SENİ Mİ dinleyecek?"
 // SMG
 "TF_Weapon_SMG"			"SMG"
-"TF_Weapon_SMG_Desc"	"Şimdi buna ne dersin? İkimizde yakından daha tehlikeliyiz."
+"TF_Weapon_SMG_Desc"	"Şimdi buna ne dersin? İkimiz de yakından daha tehlikeliyiz."
 // Syringe Gun
 "TF_Weapon_SyringeGun"		"Şırınga Silahı"
 "TF_Weapon_SyringeGun_Desc"	"Ooh, senden iyi bir kesici alet kabı oluyor!"
@@ -535,7 +535,7 @@
 "TF_Weapon_RPG"			"R.P.G."
 "TF_Weapon_RPG_Desc"	"Roketlerin nasıl önden çıkıverdiğini görüyormusun, evlat? Özgürlüğün hasretini çekiyor. Ve Tanrı şahidim, ona sahip olacak."
 // Hunting Revolver
-"TF_Weapon_HuntingRevolver"			"Av Altıpatları"
+"TF_Weapon_HuntingRevolver"			"Avcı Altıpatları"
 "TF_Weapon_HuntingRevolver_Desc"	"Daha saldırgan bir yaklaşım için tasarlandı."
 // Fishwhacker
 "TF_Weapon_Fishwhacker"			"Balıkdöver"
@@ -551,7 +551,7 @@
 "TF_Weapon_Coilgun_Desc"	"Biftek yok, fakat bolca cızırtı var."
 // Mine Layer
 "TF_Weapon_MineLayer"		"Mayın Döşeyici"
-"TF_Weapon_MineLayer_Desc"	"Aye, gözünü dört aç! Heh..."
+"TF_Weapon_MineLayer_Desc"	"Hey, gözünü dört aç! Heh..."
 // Shock Therapy
 "TF_Weapon_ShockTherapy"		"Şok Tedavisi"
 "TF_Weapon_ShockTherapy_Desc"	"HERKES ÇEKİLSİN!"
@@ -594,7 +594,7 @@
 "TF_Weapon_AdmiraltyAnchor_Desc"	"Biriliğimde Deniz Kuvvetleri ile alakalı dangalak şakaları tahammül etmeyeceğim."
 // Derby Cane
 "TF_Weapon_DerbyCane"		"Derby Bastonu"
-"TF_Weapon_DerbyCane_Desc"	"Motivasyonun yerindemi, delikanlı? Umarım öyledir."
+"TF_Weapon_DerbyCane_Desc"	"Motivasyonun yerinde mi, delikanlı? Umarım öyledir."
 // Cyclops
 "TF_Weapon_Cyclops"			"Kiklops"
 "TF_Weapon_Cyclops_Desc"	"Körler ülkesinde kral sensin."
@@ -1510,7 +1510,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_DESC"					"Tek bir Dört Takım raundunda her üç düşman takımından en az bir oyuncuyu arkadan bıçakla."
 "TF2C_ACHIEVEMENT_HOLD_ALLPOINTS_DOMINATION_NAME"		"Tam Hakimiyet"
 "TF2C_ACHIEVEMENT_HOLD_ALLPOINTS_DOMINATION_DESC"		"Bir Hakimiyet oyun modu raundunda takımın ile birlikte bütün kontrol noktalarına sahip ol."
-"TF2C_ACHIEVEMENT_SHAME_NAME"							"Utanç Damgası"
+"TF2C_ACHIEVEMENT_SHAME_NAME"							"Utanç Rozeti"
 "TF2C_ACHIEVEMENT_SHAME_DESC"							"Düşman VIP'ye öl. Damgalandın."
 "TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_NAME"				"Yıkıcı Eleştiri"
 "TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_DESC"				"Katkıda bulunan madalyasına sahip bir oyuncuya hükmet."
@@ -1533,7 +1533,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "ServerBrowser_PlayerCount"         "%s1/%s2"
 "ServerBrowser_LatencyDetail"       "Gecikme: %s1"
 "ServerBrowser_IPAddressDetail"     "IP adresi: %s1"
-"ServerBrowser_PlayerListHeading"   "Oyuncu (%s1/%s2, %s3 bot):"
+"ServerBrowser_PlayerListHeading"   "Oyuncular (%s1/%s2, %s3 bot):"
 "ServerBrowser_NotFullFilter"       "Sunucu dolu değil"
 "ServerBrowser_HasPlayersFilter"    "Oyuncu var"
 "ServerBrowser_NoPasswordFilter"    "Parola yok"
@@ -1549,10 +1549,10 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "ServerBrowser_SortByLatency"       "Gecikme"
 "ServerBrowser_SortByLastPlayed"    "Son oynanan"
 "ServerBrowser_UseLegacyBrowser"    "Eski tarayıcıyı kullan"
-"ServerBrowser_CurrentMapHeading"   "Şuanki harita:"
+"ServerBrowser_CurrentMapHeading"   "Şu anki harita:"
 "ServerBrowser_TagListHeading"      "Etiket:"
-"ServerBrowser_OfficialDetail"      "Bu Resmî bir sunucu"
-"ServerBrowser_VerifiedDetail"      "Bu Doğrulanmış bir sunucu"
+"ServerBrowser_OfficialDetail"      "Resmî sunucu"
+"ServerBrowser_VerifiedDetail"      "Doğrulanmış sunucu"
 "ServerBrowser_Any"                 "Herhangi"
 "ServerBrowser_Official"            "Resmî"
 "ServerBrowser_Verified"            "Doğrulanmış"
@@ -1603,7 +1603,14 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "Winpanel_WinningCapture"	                "Kazandıran ele geçirme: %s1"
 "TF_Arena_Winpanel_TimeAliveThisRound"		"Yaşam sür.:"
 
+"StatPanel_Format_Close"			    "Bu raunt: %s1  Rekorun: %s2"
+
 "Hud_Menu_Build_Cancel"					"İptal Etmek için '%lastinv%' Tuşuna Bas"
+
+"Cant_cap_stealthed"	"Görünmezken\n    noktayı ele geçiremezsin."
+"Cant_cap_disguised"	"Kılık değiştirmişken\n    noktayı ele geçiremezsin."
+"Cant_cap_invuln"		"Ölümsüzken\n    noktayı ele geçiremezsin."
+"Cant_cap_stunned"		"Sersemletilmişken\n    noktayı ele geçiremezsin."
 
 "Pipeline_cap_1_red"	"RED'in ilk Kontrol Noktası"
 "Pipeline_cap_1_blue"	"BLU'nun ilk Kontrol Noktası"
