@@ -1296,7 +1296,7 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 "GameUI_RestartText"					"Niektóre zmiany wymagają ponownego uruchomienia gry:"
 "GameUI_OptionsRestart_Revert"			"Cofnij zmiany"
 
-"GameUI_Disconnect_TooManyCommands"		"Rozłączono: zbyt wiele poleceń.
+"GameUI_Disconnect_TooManyCommands"		"Rozłączono: zbyt wiele poleceń."
 
 // Combat
 "TF2C_Option_DamageFeedback"			"Włącz informowanie o obrażeniach"
