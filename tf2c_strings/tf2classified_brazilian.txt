@@ -90,9 +90,9 @@
 "TF_Class_Name_Civilian" 	"Civilian"
 
 "ClassTips_10_Count"	"3"
-"ClassTips_10_1"		"Banque o poder de um companheiro de equipe para dar a ele uma vantagem na batalha!"
+"ClassTips_10_1"		"Banque o poder de um aliado para dar a ele uma vantagem na batalha!"
 "ClassTips_10_1_Icon"	"chalf_circle"
-"ClassTips_10_2"		"Fique perto dos seus companheiros de equipe para dar à eles resistência a dano e cura passiva!"
+"ClassTips_10_2"		"Fique perto dos seus aliados para dar à eles resistência a dano e cura passiva!"
 "ClassTips_10_2_Icon"	"chalf_circle"
 "ClassTips_10_3"		"Sem relevância nas lutas!"
 "ClassTips_10_3_Icon"	"chalf_circle"
@@ -119,10 +119,10 @@
 "TF_playerid_civiliancharge_wpn"		"Bancando: %s1 (%s2%)"
 
 // Buildings
-"TF_playerid_object"					"%s1 de %s2"
-"TF_playerid_object_diffteam"			"%s1 inimiga de %s2"
-"TF_playerid_object_mini"				"Mini-%s1 de %s2"
-"TF_playerid_object_mode"				"%s3 do %s1 de %s2"
+"TF_playerid_object"					"%s1: construção de %s2"
+"TF_playerid_object_diffteam"			"%s1 do inimigo: construção de %s2"
+"TF_playerid_object_mini"				"Mini-%s1: construção de %s2"
+"TF_playerid_object_mode"				"%s1 - %s3: construção de %s2"
 "TF_playerid_object_level"				"( Nível %s1 )"
 "TF_playerid_object_upgrade"			"Aprimoramento: %s1"
 "TF_playerid_object_upgrade_level"		"( Nível %s1 ) Aprimoramento: %s2"
@@ -176,10 +176,13 @@
 // Voice Menu
 // ----------------------------------------------------------------
 
-"Voice_Menu_ChargeReady"	            "MEDIC: ÜberCarga pronta"
-"Voice_Menu_ChargeReadySubtitle"		"ÜberCarga pronta! (100%)"
-"Voice_Menu_ChargeAlmostReadySubtitle"	"ÜberCarga quase pronta (%s1%)"
-"Voice_Menu_ChargeNotReadySubtitle"		"ÜberCarga ainda não está pronta (%s1%)"
+"Voice_Menu_ChargeReady"	            	"MEDIC: ÜberCarga pronta"
+"Voice_Menu_ChargeReadySubtitle"			"ÜberCarga pronta! (100%)"
+"Voice_Menu_ChargeAlmostReadySubtitle"		"ÜberCarga quase pronta (%s1%)"
+"Voice_Menu_ChargeNotReadySubtitle"			"ÜberCarga ainda não está pronta (%s1%)"
+
+"Voice_Menu_SingleChargeReadySubtitle"		"ÜberCarga pronta! (%s1 carga)"
+"Voice_Menu_MultipleChargesReadySubtitle"	"ÜberCarga pronta! (%s1 cargas)"
 
 // ----------------------------------------------------------------
 // Class tips
@@ -206,10 +209,10 @@
 "Tip_2_Count"	"11"
 // Generic
 "Tip_2_1"		"Como um Sniper, mire na cabeça para causar muito dano."
-"Tip_2_2"		"Como um Sniper, pressione %attack2% para usar a luneta do rifle de precisão ou mirar com o revólver de caça."
+"Tip_2_2"		"Como um Sniper, pressione %attack2% para usar a luneta do Rifle de Precisão ou mirar com o Revólver de Caça."
 // Stock
 "Tip_2_3"		"Como um Sniper, quanto mais tempo olhar pela luneta, maior será o dano causado pelo disparo."
-"Tip_2_4"		"Como um Sniper, um tiro na cabeça (headshot) completamente carregado de um rifle de precisão pode matar a maioria das classes instantaneamente."
+"Tip_2_4"		"Como um Sniper, um tiro na cabeça (headshot) completamente carregado de um Rifle de Precisão pode matar a maioria das classes instantaneamente."
 "Tip_2_5"		"Como um Sniper, use a Submetralhadora para lidar com inimigos próximos."
 "Tip_2_6"		"Como um Sniper, a sua Kukri pode ser útil para lidar com emboscadas surpresas."
 // Death & Taxes
@@ -246,7 +249,7 @@
 "Tip_4_3"		"Como um Demoman, ao se preparar para um salto explosivo, agache-se para atingir a altura máxima."
 // Stock
 "Tip_4_4"		"Como um Demoman, use seu Lança-Granadas para combate direto. Granadas lançadas pelo ar detonam imediatamente ao atingir um inimigo."
-"Tip_4_5"		"Como um Demoman, quanto mais tempo você mantiver pressionado o botão %attack% com o Lança-Stickybombs, mais longe a Bomba Adesiva será lançada."
+"Tip_4_5"		"Como um Demoman, quanto mais tempo você mantiver pressionado o botão %attack% com o Lança-Stickybombs, mais longe a Stickybomb será lançada."
 "Tip_4_6"		"Como um Demoman, dispare Stickybombs em paredes e tetos onde sejam difíceis de ver."
 "Tip_4_7"		"Como um Demoman, sua Garrafa pode ser usada para combate corpo a corpo após um salto explosivo em território inimigo."
 "Tip_4_8"		"Como um Demoman, sua Garrafa causará a mesma quantidade de dano, independentemente de ser quebrada ou não."
@@ -263,25 +266,25 @@
 // Medic
 "Tip_5_Count"	"16"
 // Generic
-"Tip_5_1"		"Como um Medic, os companheiros de equipe que não sofreram dano recentemente serão curados muito mais rápido!"
-"Tip_5_2"		"Como um Medic, você ganha ÜberCarga mais rapidamente ao curar companheiros de equipe que estão mais feridos."
+"Tip_5_1"		"Como um Medic, os aliados que não sofreram dano recentemente serão curados muito mais rápido!"
+"Tip_5_2"		"Como um Medic, você ganha ÜberCarga mais rapidamente ao curar aliados que estão mais feridos."
 "Tip_5_3"		"Como um Medic, você ganha ÜberCarga muito mais rápido durante o tempo de preparação."
-"Tip_5_4"		"Como um Medic, preencha sua barra de ÜberCarga curando seus companheiros de equipe e, em seguida, pressione %attack2% para ativar uma ÜberCarga."
-"Tip_5_5"		"Como um Medic, fique atento aos seus companheiros de equipe que pedirem sua ajuda. Use os balões de fala em forma de cruz na tela para encontrá-los."
+"Tip_5_4"		"Como um Medic, preencha sua barra de ÜberCarga curando seus aliados e, em seguida, pressione %attack2% para ativar uma ÜberCarga."
+"Tip_5_5"		"Como um Medic, fique atento aos seus aliados que pedirem sua ajuda. Use os balões de fala em forma de cruz na tela para encontrá-los."
 "Tip_5_6"		"Como um Medic, você e seus pacientes não podem capturar Pontos de Controle nem pegar a maleta de Inteligência enquanto estiverem invulneráveis."
 // Stock
 "Tip_5_7"		"Como um Medic, lembre-se de que as seringas disparam projéteis em arco e têm um tempo de percurso. Mire à frente do alvo para acertar o alvo."
-"Tip_5_8"		"Como um Medic, use sua Arma Médica para curar companheiros de equipe feridos e recupere temporariamente até 150% da saúde normal deles."
+"Tip_5_8"		"Como um Medic, use sua Arma Médica para curar aliados feridos e recupere temporariamente até 150% da saúde normal deles."
 "Tip_5_9"		"Como um Medic, a Sobrecarga da sua Arma Médica torna você e seu paciente invulneráveis ​​por um curto período de tempo."
-"Tip_5_10"		"Como um Medic, sua Serra de Ossos pode ser usada em situações defensivas quando você estiver separado de seus companheiros de equipe."
+"Tip_5_10"		"Como um Medic, sua Serra de Ossos pode ser usada em situações defensivas quando você estiver separado de seus aliados."
 // Death & Taxes
 "Tip_5_11"		"Como um Medic, o Kritzkrieg garante acertos críticos temporários para seus personagens. Use-o contra classes poderosas e em áreas com muitos inimigos."
 "Tip_5_12"		"Como um Medic, ao usar o Überspritze, fique atento à sua vida. Você terá 10 pontos de vida máxima a menos ao equipá-lo."
 "Tip_5_13"		"Como um Medic, a Terapia de Choque causará mais dano quanto mais carregada estiver. A carga será consumida ao atingir inimigos."
-"Tip_5_14"		"Como um Medic, A Terapia de Choque pode ser usada para curar completamente um companheiro de equipe com carga máxima, em troca de uma redução na taxa de cura geral."
+"Tip_5_14"		"Como um Medic, A Terapia de Choque pode ser usada para curar completamente um aliado com carga máxima, em troca de uma redução na taxa de cura geral."
 // Double Down
-"Tip_5_15"		"Como um Medic, o Rejuvenescedor é extremamente útil para curar grandes grupos de companheiros de equipe. Mire em acertos diretos para aumentar a cura e o bônus de ÜberCarga."
-"Tip_5_16"		"Como um Medic, a ÜberCarga do Rejuvenescedor cria um escudo temporário de invulnerabilidade, tornando qualquer companheiro de equipe que entrar nele imune a todos os danos."
+"Tip_5_15"		"Como um Medic, a Rejuvenescedora é extremamente útil para curar grandes grupos de aliados. Mire em acertos diretos para aumentar a cura e o bônus de ÜberCarga."
+"Tip_5_16"		"Como um Medic, a ÜberCarga da Rejuvenescedora cria um escudo temporário de invulnerabilidade, tornando qualquer aliado que entrar nele imune a todos os danos."
 
 // Heavy
 "Tip_6_Count"	"17"
@@ -300,7 +303,7 @@
 // Death & Taxes
 "Tip_6_11"		"Como um Heavy, certifique-se de encontrar um lugar seguro para comer seu Sanduíche, caso contrário, você poderá ser interrompido de forma grosseira."
 "Tip_6_12"		"Como um Heavy, você pode dar quantas mordidas quiser no seu Sanduíche para se curar. No entanto, pressionar %attack2% para compartilhá-lo com um amigo o colocará em tempo de recarga."
-"Tip_6_13"		"Como um Heavy, tenha cuidado onde você joga seu Sanduíche. Tanto seus companheiros de equipe quanto seus inimigos podem pegá-lo para curar 50% da vida!"
+"Tip_6_13"		"Como um Heavy, tenha cuidado onde você joga seu Sanduíche. Tanto seus aliado quanto seus inimigos podem pegá-lo para curar 50% da vida!"
 // Fight or Flight
 "Tip_6_14"		"Como um Heavy, seu Canhão Antiaéreo causa alto dano explosivo e é ideal para lidar com multidões e inimigos atrás de paredes."
 "Tip_6_15"		"Como um Heavy, seu Canhão Antiaéreo causa mini-críticos em inimigos aéreos. Use-o para derrubar soldados ou inimigos que estejam usando Plataformas de Salto!"
@@ -316,9 +319,9 @@
 "Tip_7_3"		"Como um Pyro, seu Lança-Chamas causa mais dano quanto mais perto você estiver do inimigo."
 "Tip_7_4"		"Como um Pyro, seu Lança-Chamas consome muita munição. Recolha pacotes de munição e armas caídas para reabastecer seu estoque."
 "Tip_7_5"		"Como um Pyro, embosque os inimigos para pegá-los no curto alcance do seu Lança-Chamas. Use cantos e desníveis a seu favor."
-"Tip_7_6"		"Como um Pyro, a rajada de compressão do Lança-chamas empurra inimigos (inclusive invulneráveis) para longe ou para perigos que tem no cenário. Use %attack2%."
-"Tip_7_7"		"Como um Pyro, seu Lança-Chamas pode extinguir o fogo em companheiros de equipe com %attack2%."
-"Tip_7_8"		"Como um Pyro, troque para sua Escopeta se os inimigos recuarem além do curto alcance do seu Lança-Chamas."
+"Tip_7_6"		"Como um Pyro, a rajada de ar do Lança-chamas empurra inimigos (inclusive invulneráveis) para longe ou para perigos que tem no cenário. Use %attack2%."
+"Tip_7_7"		"Como um Pyro, seu Lança-Chamas pode extinguir aliados em chamas com %attack2%."
+"Tip_7_8"		"Como um Pyro, troque para sua Escopeta se os inimigos recuarem além do alcance do seu Lança-Chamas."
 "Tip_7_9"		"Como um Pyro, seu Machado de Incêndio é uma ótima opção para lidar com inimigos em retirada a curta distância."
 // Death & Taxes
 "Tip_7_10"		"Como um Pyro, sua Arma Sinalizadora pode incendiar inimigos à distância. Isso é ótimo para eliminar inimigos distantes, como franco-atiradores."
@@ -326,7 +329,7 @@
 // Fight or Flight
 "Tip_7_12"		"Como um Pyro, a Cano Duplo pode ser usado para diminuir a distância entre você e seu alvo. Impulsione-se para cima ou em direção aos seus inimigos!"
 "Tip_7_13"		"Como um Pyro, a Cano Duplo não causa dano tão consistentemente quanto sua Escopeta. Se estiver perdendo em combate, use-o para se impulsionar para longe!"
-"Tip_7_14"		"Como um Pyro, the Harvester can build up a guaranteed melee crit, and allows you to heal from your enemies."
+"Tip_7_14"		"Como um Pyro, a Ceifadora pode encher um crítico corpo a corpo garantido, e permite se curar de seus inimigos."
 "Tip_7_15"		"Como um Pyro, morrer com a Ceifadora equipada extinguirá quaisquer incêndios que você tenha incendiado nos inimigos."
 
 // Spy
@@ -348,8 +351,8 @@
 "Tip_8_12"		"Como um Spy, sua Arma Tranquilizadora reduz a velocidade de movimento e a taxa de disparo do alvo. Isso ajuda a criar uma abertura para uma fuga."
 "Tip_8_13"		"Como um Spy, os dardos da sua Arma Tranquilizadora fazem o alvo receber dano crítico garantido em ataques corpo a corpo. Coordene com sua equipe ou elimine sozinho o alvo."
 // Fight or Flight
-"Tip_8_14"		"Como um Spy, L'escampette permite que você se mova rapidamente para dentro ou para fora da base inimiga. Faça fugas rápidas ou infiltrações rápidas!"
-"Tip_8_15"		"Como um Spy, você perde a camuflagem ao sofrer dano com L'escampette equipada. Mantenha-se fora da linha de fogo."
+"Tip_8_14"		"Como um Spy, o L'escampette permite que você se mova rapidamente para dentro ou para fora da base inimiga. Faça fugas ou infiltrações rápidas!"
+"Tip_8_15"		"Como um Spy, você perde a camuflagem ao sofrer dano com o L'escampette equipado. Mantenha-se fora da linha de fogo."
 
 // Engineer
 "Tip_9_Count"	"20"
@@ -366,7 +369,7 @@
 "Tip_9_9"		"Como um Engineer, use o PDA de Construção para posicionar Sentinela e outras contruções de apoio."
 "Tip_9_10"		"Como um Engineer, suas Sentinela não se restringem apenas a medidas defensivas. Instale-as rapidamente em locais escondidos para auxiliar em um ataque."
 "Tip_9_11"		"Como um Engineer, use sua Chave Inglesa para acertar suas Sentinelas e melhorá-las com metal. Cada nível adiciona mais vida e poder de fogo."
-"Tip_9_12"		"Como um Engineer, construa Fornecedores para fornecer vida e munição aos seus companheiros de equipe. Eles também geram metal para você usar."
+"Tip_9_12"		"Como um Engineer, construa Fornecedores para fornecer vida e munição aos seus aliados. Eles também geram metal para você usar."
 "Tip_9_13"		"Como um Engineer, Fornecedores aprimorados gerarão mais vida, munição e metal para você e sua equipe!"
 "Tip_9_14"		"Como um Engineer, construa Teletransportadores ou Saltadores para ajudar sua equipe a chegar à linha de frente mais rapidamente."
 "Tip_9_15"		"Como um Engineer, os Teletransportadores aprimorados recarregarão muito mais rápido, permitindo que sua equipe mantenha a pressão."
@@ -376,23 +379,23 @@
 "Tip_9_18"		"Como um Engineer, a Arma de Bobina causará uma pequena explosão se você a sobrecarregar. Use-a para alcançar áreas antes inacessíveis."
 // Fight or Flight
 "Tip_9_19"		"Como um Engineer, os Saltadores permitem que você e sua equipe consigam alcançar lugares altos. Use os Saltadores também para ajudar aliados com menos mobilidade."
-"Tip_9_20"		"Como um Engineer, os Saltadores permitem que seus companheiros de equipe saltem para a frente com muito impulso. Instale-os em áreas abertas que permitam deslocamentos rápidos."
+"Tip_9_20"		"Como um Engineer, os Saltadores permitem que seus aliados saltem para a frente com muito impulso. Instale-os em áreas abertas que permitam deslocamentos rápidos."
 
 // Civilian
 "Tip_10_Count"	"11"
 // Generic
-"Tip_10_1"		"Como um Civilian, você é um pouco lento. Tente ao máximo acompanhar seus companheiros de equipe para ter uma chance melhor de sobrevivência."
-"Tip_10_2"		"Como um Civilian, você é o mais baixo de toda a sua equipe. Isso pode ser útil para se esconder atrás dos seus companheiros."
+"Tip_10_1"		"Como um Civilian, você é um pouco lento. Tente ao máximo acompanhar seus aliados para ter uma chance melhor de sobrevivência."
+"Tip_10_2"		"Como um Civilian, você é o mais baixo de toda a sua equipe. Isso pode ser útil para se esconder atrás dos seus aliados."
 "Tip_10_3"		"Como um Civilian, você é o único capaz de capturar Pontos de Controle nos modos de jogo VIP e Corrida de VIPs."
 "Tip_10_4"		"Como um Civilian, fique atento aos Snipers e Spies inimigos, pois eles são capazes de eliminá-lo instantaneamente."
 "Tip_10_5"		"Como um Civilian, aliados próximos ganham bônus de moral, recebendo assim um pequeno aumento de defesa e cura. Fique fora da visão inimiga e próximo da sua equipe."
-"Tip_10_6"		"Como um Civilian, pressione %attack2% enquanto estiver olhando para um companheiro de equipe para bancá-lo, dando-lhe uma grande vantagem na batalha."
+"Tip_10_6"		"Como um Civilian, pressione %attack2% enquanto estiver olhando para um aliado para bancá-lo, dando-lhe uma grande vantagem na batalha."
 // Stock
-"Tip_10_7"		"Como um Civilian, seu Guarda-Chuva não é muito eficaz como arma e só deve ser usado em último caso. Deixe seus companheiros de equipe lutarem por você."
-"Tip_10_8"		"Como um Civilian, seu Guarda-Chuva concede mini-críticos a um companheiro de equipe à sua escolha. Banque classes capazes de causar grandes quantidades de dano."
+"Tip_10_7"		"Como um Civilian, seu Guarda-Chuva não é muito eficaz como arma e só deve ser usado em último caso. Deixe seus aliados lutarem por você."
+"Tip_10_8"		"Como um Civilian, seu Guarda-Chuva concede mini-críticos a um aliado à sua escolha. Banque classes capazes de causar grandes quantidades de dano."
 "Tip_10_9"		"Como um Civilian, o aumento de mini-crítico do seu Guarda-Chuva também dará aos Medics uma taxa de cura maior e ganho de ÜberCarga."
 // Double Down
-"Tip_10_10"		"Como um Civilian, sua Bengala de Cabo Curvo pode ser usada para dar um aumento de velocidade a um companheiro de equipe. Isso permite que ele se mova e atire muito mais rápido."
+"Tip_10_10"		"Como um Civilian, sua Bengala de Cabo Curvo pode ser usada para dar um aumento de velocidade a um aliado. Isso permite que ele se mova e atire muito mais rápido."
 "Tip_10_11"		"Como um Civilian, sua Bengala de Cabo Curvo aumenta a taxa de cura dos Medics e a taxa de construção dos Engenheiros."
 
 // Arena
@@ -576,7 +579,7 @@
 "TF_Weapon_PDAJumpPad_Desc"	"Acredite em mim, meu amigo. Essa vai te surpreender."
 // Harvester
 "TF_Weapon_Harvester"		"Ceifadora"
-"TF_Weapon_Harvester_Desc"	"Não pergunte por quem o sino dobra."
+"TF_Weapon_Harvester_Desc"	"Não me perguntes por quem os sinos dobram."
 // Brick
 "TF_Weapon_Brick"		"Tijolo"
 "TF_Weapon_Brick_Desc"	"Não pensei que você fosse TÃO lento."
@@ -586,11 +589,11 @@
 // ----------------------------------------------------------------
 
 // Rejuvenator
-"TF_Weapon_Rejuvenator"			"Rejuvenescedor"
+"TF_Weapon_Rejuvenator"			"Rejuvenescedora"
 "TF_Weapon_Rejuvenator_Desc"	"Tente evitar o contato com a boca e os olhos."
 // Admiralty Anchor
 "TF_Weapon_AdmiraltyAnchor"			"Âncora do Almirantado"
-"TF_Weapon_AdmiraltyAnchor_Desc"	"Não tolerarei piadas grosseiras sobre a Marinha na minha unidade."
+"TF_Weapon_AdmiraltyAnchor_Desc"	"Não irei tolerar piadas grosseiras sobre a Marinha na minha unidade."
 // Derby Cane
 "TF_Weapon_DerbyCane"		"Bengala de Cabo Curvo"
 "TF_Weapon_DerbyCane_Desc"	"Sentindo-se motivado, rapaz? É melhor que esteja."
@@ -641,13 +644,13 @@
 // Building Status
 "Building_hud_hauling"				"Carregando..."
 "Building_hud_upgrading"			"Aprimorando..."
-"Building_hud_jumppad_a_not_built"	"Saltador A\nNão construído"
-"Building_hud_jumppad_b_not_built"	"Saltador B\nNão construído"
+"Building_hud_jumppad_a_not_built"	"Saltador - A\nNão construído"
+"Building_hud_jumppad_b_not_built"	"Saltador - B\nNão construído"
 
 // Jump Pad
 "TF_Object_Jump"					"Saltador"
-"TF_Object_Jump_A"					"Saltador A"
-"TF_Object_Jump_B"					"Saltador B"
+"TF_Object_Jump_A"					"Saltador - A"
+"TF_Object_Jump_B"					"Saltador - B"
 "TF_JumpPad_Mode_A"					"A"
 "TF_JumpPad_Mode_B"					"B"
 
@@ -680,10 +683,10 @@
 "Attrib_MoveSpeed_Bonus_Cloaked"					"+%s1% de velocidade de movimento mais rápida enquanto estiver invisível"
 "Attrib_LoseCloakOnDamage"							"-%s1% de camuflagem ao sofrer dano enquanto camuflado"
 "Attrib_TranqOnHit"									"Ao Atingir: A vítima fica daltônica, tem sua velocidade de ataque e movimento reduzidas por %s1s"
-"Attrib_FishwhackerSweep"							"Causa repulsão em inimigos próximos"
+"Attrib_FishwhackerSweep"							"Causa empurrão em inimigos próximos"
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Auto-Recuo é afetado pelo aumento de dano"
 "Attrib_ApplySelfKnockbackSwing"					"Aplica recuo reverso em si mesmo ao atacar"
-"Attrib_AirblastSelfKnockback"						"Jato de Ar causa repulsão no usuário"
+"Attrib_AirblastSelfKnockback"						"Rajada de Ar causa empurrão no usuário"
 "Attrib_ProximityMine"								"Minas de proximidade explodem em inimigos próximos"
 "Attrib_AltFire_FizzleMines"						"Disparo Alternativo: Desativa minas de proximidade"
 "Attrib_NoStickyChargeTime"							"Sem tempo de carregamento da Stickybomb"
@@ -742,25 +745,25 @@
 "Attrib_HealthFromPacks_Active_Decreased"			"%s1% de vida dos pacotes enquanto ativo"
 "Attrib_DamageDelaysRegeneration"					"Receber dano atrasa a regeneração de vida em %s1s"
 "Attrib_DestroyGrenadesDetonateOwn"					"Explosões destroem granadas inimigas e detonam as suas próprias"
-"Attrib_HoldFirePreventDetonation"					"Ao Manter Pressionado: Impedi a detonação da granada"
+"Attrib_HoldFirePreventDetonation"					"Ao Manter Pressionado: Impede a detonação da granada"
 "Attrib_MiniCritAirborneEnemies"					"100% de mini-críticos contra inimigos no ar"
 "Attrib_CritAirborneEnemies"						"100% de críticos contra inimigos no ar"
 "Attrib_ModCritAirborneDirectHitOnly"				"Acertos críticos apenas em inimigos aéreos com acerto direto."
 "Attrib_ObjectivesGiveCrits"						"100% de críticos contra inimigos capturando, defendendo ou carregando objetivos"
 "Attrib_AddAmmoOnDirectHit"							"Ao Atingir o Alvo Diretamente: Ganhe %s1 de munição."
 "Attrib_AddAmmoOnDirectHitKill"						"Ao eliminar um alvo com Acerto Direto: Ganhe %s1 de munição"
-"Attrib_AddAmmoOnKill"								"Ao matar: ganha %s1 de munição"
+"Attrib_AddAmmoOnKill"								"Ao matar: Ganha %s1 de munição"
 "Attrib_MinicritVsWet"								"100% de mini-críticos contra inimigos molhados"
 "Attrib_TakeMinicritsProjectileAirborne"			"Recebe mini-críticos de projéteis enquanto estiver no ar"
-"Attrib_HealOnSmack"								"Companheiros de equipe atingidos enquanto estiverem com a carga máxima serão totalmente curados"
+"Attrib_HealOnSmack"								"Aliados atingidos enquanto estiverem com a carga máxima serão totalmente curados"
 "Attrib_MultDamageCrit"								"Dano causado por acertos críticos %s1% maior"
 "Attrib_DropTeamHealthPackOnKill"					"Solta um kit de vida para a equipe ao matar"
 "Attrib_PassiveAmmoHolstered"						"Recarrega passivamente a munição enquanto a arma está no coldre"
 "Attrib_Backstab"									"Ataque um inimigo pelas costas para apunhalá-lo com um golpe só"
 "Attrib_UpgradeRepairBuildings"						"Aprimora, repara e acelera a construção de construções aliadas ao acertar"
-"Attrib_AltFire_DetonateStickybombs"				"Disparo alternativo: detona todas as Stickybombs"
-"Attrib_AltFire_Airblast"							"Disparo alternativo: solta uma rajada de ar\nRajada de ar empurra inimigos e projéteis, além de extinguir aliados em chamas"
-"Attrib_AltFire_Cloak"								"Disparo alternativo: camuflar-se"
+"Attrib_AltFire_DetonateStickybombs"				"Disparo alternativo: Detona todas as Stickybombs"
+"Attrib_AltFire_Airblast"							"Disparo alternativo: Solta uma rajada de ar\nRajada de ar empurra inimigos e projéteis, além de extinguir aliados em chamas"
+"Attrib_AltFire_Cloak"								"Disparo alternativo: Camuflar-se"
 "Attrib_SapBuildings"								"Desativa e destrói lentamente as construções inimigas\nNão remove o disfarce ao ser usado"
 "Attrib_ReloadNotActive"							"Esta arma recarregará quando não estiver em uso"
 "Attrib_Sandvich"									"Coma para recuperar até 120 de vida\nDisparo alternativo: compartilha um Sandviche com um aliado (cura 50% de vida)"
@@ -769,8 +772,8 @@
 "Attrib_DisabledByWrench"							"Pode ser desarmado por Chaves Inglesas"
 "Attrib_Coilgun"									"Disparos totalmente carregados ricocheteiam nas paredes e a arma pode explodir na sua mão se for sobrecarregada"
 "Attrib_DamageAffectedByCharge"						"Danos são afetados pela carga atual"
-"Attrib_JumpPadNoUpgrade"							"Saltadores não podem ser melhorados"
-"Attrib_AltFire_HasteBoost"							"Ataque Alternativo: Concede aumento de velocidade a um companheiro de equipe"
+"Attrib_JumpPadNoUpgrade"							"Saltadores não podem ser aprimorados"
+"Attrib_AltFire_HasteBoost"							"Ataque Alternativo: Concede aumento de velocidade a um aliado"
 "Attrib_AltFire_UberBubble"							"Disparo Alternativo: Lança um dispositivo que fornece invulnerabilidade em área"
 
 // ----------------------------------------------------------------
@@ -911,10 +914,10 @@ Apenas combate honrado, espada contra espada!"
 "Gametype_VIPRace_FourTeam"			"Corrida de VIPs (Quatro Equipes)"
 
 // Offline practice descriptions
-"TF_GameModeDesc_VIP"			"A equipe BLU escolta o Civilian até um ponto de controle. A equipe RED precisa detê-los."
-"TF_GameModeDesc_VIPRace"		"Escolte o Civilian de sua equipe até a linha de chegada antes da equipe inimiga."
+"TF_GameModeDesc_VIP"			"O BLU escolta o Civilian. O RED precisa detê-los."
+"TF_GameModeDesc_VIPRace"		"Escolte seu Civilian até a linha de chegada antes do inimigo."
 "TF_GameModeDesc_Domination"	"Capture pontos estratégicos e mantenha-os pelo maior tempo possível."
-"TF_GameModeDesc_Arena"			"Elimine todos os jogadores inimigos ou espere o ponto de controle ser desbloqueado."
+"TF_GameModeDesc_Arena"			"Elimine os inimigos ou aguarde o ponto de controle ser desbloqueado."
 
 "TF_GameModeBrief_VIPRace"		"Corrida de VIPs - Ambas as equipes possuem VIPs"
 
@@ -944,7 +947,7 @@ A equipe BLU pode congelar o progresso da captura de um Ponto de Controle se o V
 "vip_setup_goal_defense"	"Elimine o VIP da equipe inimiga para impedí-lo de alcançar a zona de fuga."
 
 "TF_VIP_Assigned"				"%s1 tornou-se o VIP!"
-"TF_VIP_Tutorial_Annotation_2"	"Ele oferece um aumento defensivo para aqueles ao seu redor e\ntambém pode fortalecer temporariamente um membro de sua equipe com Mini-Críticos!"
+"TF_VIP_Tutorial_Annotation_2"	"Ele oferece um aumento defensivo para aqueles ao seu redor e\ntambém pode fortalecer temporariamente um membro de sua equipe!"
 "TF_VIP_Tutorial_Annotation_3"	"Mas lembre-se, a vida dele é mais importante que a sua, então não deixe ele morrer!"
 
 "Cant_cap_civilian_only"		"Apenas o VIP pode\n capturar este ponto."
@@ -955,7 +958,7 @@ A equipe BLU pode congelar o progresso da captura de um Ponto de Controle se o V
 "vipl_setup_goal_defense"	"Elimine o VIP da equipe inimiga ou impeça-o de alcançar a zona de fuga para vencer."
 
 // VIP (Flags)
-"vip_bring_flag_here"	"Traga o aparelho aqui!"
+"vip_bring_flag_here"	"Traga o dispositivo aqui!"
 "vip_bring_flag"		"Leve o dispositivo para a Sala de Controle!"
 
 "TF_VIP_TakeDeviceToPoint"		"Leve o dispositivo para a Sala de Controle!"
@@ -1120,7 +1123,7 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 // Main Menu
 // ----------------------------------------------------------------
 
-"TF_Menu_Welcome"			"Bem-vindo(a) novamente,"
+"TF_Menu_Welcome"			"Bem-vindo(a) de novo,"
 "TF_Menu_Name"				"%playername%!"
 
 "TF_Menu_HideName"			"[CENSURADO]"
@@ -1129,9 +1132,9 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF_Menu_Mute"				"Silenciar jogadores"
 "TF_Menu_Vote"				"Iniciar votação"
 
-"TF_Menu_FindServers"		"Jogar TF2 Classified"
+"TF_Menu_FindServers"		"Buscar servidores"
 "TF_Menu_CreateServer"		"Criar um servidor"
-"TF_Menu_OfflineTraining"	"Partida offline"
+"TF_Menu_OfflineTraining"	"Treinamento com bots"
 
 "TF_Menu_Loadout"			"Equipamentos"
 
@@ -1409,7 +1412,8 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF_Network_Rate_Tip"       		"Define a taxa de atualização da rede, que inversamente define a quantidade de interpolação.\n\nRecomenda-se testar cada uma e ver qual funciona melhor na sua conexão de rede."
 
 // Video
-"TF2c_Option_BloomScale"	"Escala do efeito \"bloom\""
+"TF2c_Option_BloomScale"			"Escala de bloom"
+"TF2c_Option_FramerateLimit"		"Limite de taxa de quadros"
 
 // ----------------------------------------------------------------
 // Stats
@@ -1493,7 +1497,7 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF2C_ACHIEVEMENT_JUMPPAD_STOMP_NAME"					"Velocidade Terminal"
 "TF2C_ACHIEVEMENT_JUMPPAD_STOMP_DESC"					"Elimine alguém aterrissando sobre essa pessoa após usar um Saltador."
 "TF2C_ACHIEVEMENT_EXTEND_UBER_NAME"						"Maratona Cirúrgica"
-"TF2C_ACHIEVEMENT_EXTEND_UBER_DESC"						"Estenda a ÜberCarga de um Rejuvenescedor para 12 segundos."
+"TF2C_ACHIEVEMENT_EXTEND_UBER_DESC"						"Estenda a ÜberCarga de uma Rejuvenescedora para 12 segundos."
 "TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_NAME"					"Tá em Choque?!"
 "TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_DESC"					"Dê um ataque cardíaco em um Heavy inimigo que tenha o Punho de Tchekhov equipado!"
 "TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_NAME"			"Aeromorto"
@@ -1506,8 +1510,8 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF2C_ACHIEVEMENT_VIPR_TIME_DESC"						"Vença uma rodada de Corrida de VIPs em menos de três minutos."
 "TF2C_ACHIEVEMENT_ARCHAEOLOGY_NAME"						"Arqueologia"
 "TF2C_ACHIEVEMENT_ARCHAEOLOGY_DESC"						"Encontre o tesouro enterrado em Jinn."
-"TF2C_ACHIEVEMENT_AIRHOCKEY_NAME"						"Jogador Exemplar"
-"TF2C_ACHIEVEMENT_AIRHOCKEY_DESC"						"Vença um jogo Hóquei de Ar em 2Bridge."
+"TF2C_ACHIEVEMENT_AIRHOCKEY_NAME"						"Craque"
+"TF2C_ACHIEVEMENT_AIRHOCKEY_DESC"						"Vença uma partida de Air Hockey em 2Bridge."
 "TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_NAME"					"Galinhada"
 "TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_DESC"					"Cause uma morte ambiental a uma galinha."
 "TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_NAME"					"Agente Triplo"
