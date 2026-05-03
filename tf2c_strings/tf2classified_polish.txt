@@ -1,4 +1,4 @@
-"lang"
+﻿"lang"
 {
 "Language" "Polish"
 "Tokens"
@@ -174,10 +174,13 @@
 // Voice Menu
 // ----------------------------------------------------------------
 
-"Voice_Menu_ChargeReady"				"(MEDYK) Stan ÜberCharge"
-"Voice_Menu_ChargeReadySubtitle"		"ÜberCharge gotowy! (100%)"
-"Voice_Menu_ChargeAlmostReadySubtitle"	"ÜberCharge prawie gotowy (%s1%)"
-"Voice_Menu_ChargeNotReadySubtitle"		"ÜberCharge niegotowy! (%s1%)"
+"Voice_Menu_ChargeReady"					"(MEDYK) Stan ÜberCharge"
+"Voice_Menu_ChargeReadySubtitle"			"ÜberCharge gotowy! (100%)"
+"Voice_Menu_ChargeAlmostReadySubtitle"		"ÜberCharge prawie gotowy (%s1%)"
+"Voice_Menu_ChargeNotReadySubtitle"			"ÜberCharge niegotowy! (%s1%)"
+
+"Voice_Menu_SingleChargeReadySubtitle"		"ÜberCharge gotowy! (%s1 ładunek)"
+"Voice_Menu_MultipleChargesReadySubtitle"	"ÜberCharge gotowy! (%s1 ładunki)"
 
 // ----------------------------------------------------------------
 // Class tips
@@ -1296,7 +1299,7 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 "GameUI_RestartText"					"Niektóre zmiany wymagają ponownego uruchomienia gry:"
 "GameUI_OptionsRestart_Revert"			"Cofnij zmiany"
 
-"GameUI_Disconnect_TooManyCommands"		"Rozłączono: zbyt wiele poleceń.
+"GameUI_Disconnect_TooManyCommands"		"Rozłączono: zbyt wiele poleceń."
 
 // Combat
 "TF2C_Option_DamageFeedback"			"Włącz informowanie o obrażeniach"
@@ -1402,6 +1405,7 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 
 // Video
 "TF2c_Option_BloomScale"		"Intensywność Bloom"
+"TF2c_Option_FramerateLimit"	"Limit klatek na sekundę"
 
 // ----------------------------------------------------------------
 // Stats
