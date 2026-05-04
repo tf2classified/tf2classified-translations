@@ -16,7 +16,7 @@
 // Chat Prefixes
 "Chat_All"			    "%s1: %s2"
 "Chat_All_Dead"		    "*HALOTT* %s1: %s2"
-"Chat_All_Spec"		    "*NÉZŐ* %s1 : %s2"
+"Chat_All_Spec"		    "*NÉZŐ* %s1 : %s2"
 "Chat_Team"			    "(CSAPAT) %s1: %s2"
 "Chat_Team_Loc"		    "(CSAPAT) %s1 @ %s3: %s2"
 "Chat_Team_Dead"		"(CSAPAT) *HALOTT* %s1: %s2"
@@ -24,9 +24,9 @@
 "Chat_All_Dev"		    "[FEJL] %s1: %s2"
 "Chat_All_Dev_Dead"	    "*HALOTT* [FEJL] %s1: %s2"
 "Chat_All_Dev_Spec"	    "*NÉZŐ* [FEJL] %s1: %s2"
-"Chat_Team_Dev"		    "(CSAPAT) [FEJL] %s1: %s2"
+"Chat_Team_Dev"		    "(CSAPAT) [FEJL] %s1: %s2"
 "Chat_Team_Dev_Loc"	    "(CSAPAT) [FEJL] %s1 @ %s3: %s2"
-"Chat_Team_Dev_Dead"	"(CSAPAT) *HALOTT* [FEJL] %s1: %s2"
+"Chat_Team_Dev_Dead"	"(CSAPAT) *HALOTT* [FEJL] %s1: %s2"
 "Chat_Team_Dev_Spec"	"(CSAPAT) *NÉZŐ* [FEJL] %s1: %s2"
 "Chat_Voice"			"(HANG) "
 
@@ -46,6 +46,9 @@
 "TF_vote_change_civilian"			"Legyen ez a játékos a VIP: %s1?"
 "TF_vote_change_civilian_caller"	"Ez a játékos akar lenni a VIP: %s1."
 "TF_vote_passed_change_civilian"	"A VIP ez a játékos lesz: %s1..."
+
+// Player list dialog
+"TF_Volume_Generic"			"Hangerő:"
 
 // ----------------------------------------------------------------
 // Teams
@@ -1146,9 +1149,9 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_Menu_Quit"				"Kilépés"
 "TF_Menu_Disconnect"		"Szétkapcsolás"
 
-"TF_Menu_Blog"				"TF2C blog"
-"TF_Menu_LatestUpdate"		"Frissítések"
+"TF_Menu_Blog"				"Weboldal"
 "TF_Menu_ReportBug"			"Hibajelentés"
+"TF_Menu_Donate"			"Adomány"
 
 "TF_Friends_Title"					"Barátok (%friend_count%)"
 "TF_Friends_Status_InTF2C"			"TF2C-vel játszik"
@@ -1404,6 +1407,8 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_Network_Rate_Tip"       		"Hálózatfrissítés mértékének beállítása, amely ellentétesen állítja be a hálózati interpolációt.\n\nAjánlott minden beállítást kipróbálni, hogy meglásd melyik érződik a legjobbnak a saját hálózatodon."
 
 // Video
+"TF2c_Option_ClassicShading"		"Klasszikus árnyékolás"
+"TF2c_Option_ClassicShading_Tip"	"Ha be van kapcsolva, teljes-lamberti árnyékolást fog használni a játékostextúrákon."
 "TF2c_Option_BloomScale"	        "HDR ragyogás mértéke"
 "TF2c_Option_FramerateLimit"		"Képfrissítés limit"
 
