@@ -16,19 +16,32 @@
 // Chat Prefixes
 "Chat_All"				"%s1: %s2"
 "Chat_All_Dead"			"*DEAD* %s1: %s2"
-"Chat_All_Spec"			"*SPEC* %s1 : %s2"
+"Chat_All_Spec"			"*SPEC* %s1: %s2"
 "Chat_Team"				"(TEAM) %s1: %s2"
 "Chat_Team_Loc"			"(TEAM) %s1 @ %s3: %s2"
 "Chat_Team_Dead"		"(TEAM) *DEAD* %s1: %s2"
 "Chat_Team_Spec"		"(TEAM) *SPEC* %s1: %s2"
+
 "Chat_All_Dev"			"[DEV] %s1: %s2"
 "Chat_All_Dev_Dead"		"*DEAD* [DEV] %s1: %s2"
 "Chat_All_Dev_Spec"		"*SPEC* [DEV] %s1: %s2"
-"Chat_Team_Dev"			"(TEAM) [DEV] %s1: %s2"
+"Chat_Team_Dev"			"(TEAM) [DEV] %s1: %s2"
 "Chat_Team_Dev_Loc"		"(TEAM) [DEV] %s1 @ %s3: %s2"
-"Chat_Team_Dev_Dead"	"(TEAM) *DEAD* [DEV] %s1: %s2"
+"Chat_Team_Dev_Dead"	"(TEAM) *DEAD* [DEV] %s1: %s2"
 "Chat_Team_Dev_Spec"	"(TEAM) *SPEC* [DEV] %s1: %s2"
+
 "Chat_Voice"			"(VOICE) "
+
+// Chat Printouts
+"TF_Joined_Game"				"%s1 has joined the game"
+"TF_Left_Game"					"%s1 left the game (%s2)"
+"TF_Joined_Team"				"%s1 joined team %s2"
+"TF_Name_Change"				"* %s1 changed name to %s2"
+
+"TF_Team_Balanced"				"%s1 has been moved to team %s2"
+"TF_Autobalance_TeamChangeDone"	"You have been moved to team %s1"
+
+"TF_VIP_Assigned"				"%s1 is now the VIP!"
 
 // Chat Filters
 "Chat_Filter_Voice"		"Voice Commands"
@@ -46,6 +59,9 @@
 "TF_vote_change_civilian"			"Choose player %s1 to be the VIP?"
 "TF_vote_change_civilian_caller"	"Player %s1 wants to be the VIP."
 "TF_vote_passed_change_civilian"	"The VIP will be player: %s1..."
+
+// Player list dialog
+"TF_Volume_Generic"			"Volume:"
 
 // ----------------------------------------------------------------
 // Teams
@@ -65,17 +81,6 @@
 // Autobalance
 "TF_teamswitch_green"				"You are now on GRN!"
 "TF_teamswitch_yellow"				"You are now on YLW!"
-
-// Chat Printouts
-"TF_Team_Balanced"					"%s1 has been moved to team %s2"
-"TF_Autobalance_TeamChangeDone"		"You have been moved to team %s1"
-"TF_Name_Change"					"* %s1 changed name to %s2"
-"TF_Joined_Game"					"%s1 has joined the game"
-"TF_Left_Game"						"%s1 left the game (%s2)"
-"TF_Joined_Team"					"%s1 joined team %s2"
-"TF_Joined_AutoTeam" 				"%s1 was automatically assigned to team %s2"
-"TF_AutoBalanced"					"%s1 was moved to team %s2 for game balance"
-"TF_AutoBalance_Warning"			"Team imbalance detected"
 
 // ----------------------------------------------------------------
 // Classes
@@ -945,7 +950,6 @@ BLU team can freeze the capture progress of a Control Point if the VIP isn't pre
 "vip_setup_goal_offense"	"Escort the VIP to the Escape Zone."
 "vip_setup_goal_defense"	"Kill the enemy team's VIP to prevent him from reaching the Escape Zone."
 
-"TF_VIP_Assigned"				"%s1 is now the VIP!"
 "TF_VIP_Tutorial_Annotation_2"	"He provides a defensive boost to those around him and\ncan also temporarily buff a member of his team!"
 "TF_VIP_Tutorial_Annotation_3"	"But remember, his life is more important than yours, so don't let him die!"
 
@@ -1146,9 +1150,9 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_Menu_Quit"				"Quit"
 "TF_Menu_Disconnect"		"Disconnect"
 
-"TF_Menu_Blog"				"Official Blog"
-"TF_Menu_LatestUpdate"		"Latest Update"
+"TF_Menu_Blog"				"Website"
 "TF_Menu_ReportBug"			"Report a Bug"
+"TF_Menu_Donate"			"Donate"
 
 "TF_Friends_Title"					"Friends (%friend_count%)"
 "TF_Friends_Status_InTF2C"			"Playing TF2C"
@@ -1404,6 +1408,8 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_Network_Rate_Tip"       		"Sets network update rate, which inversely sets interpolation amount.\n\nRecommended to try each and see which feels best on your network connection."
 
 // Video
+"TF2c_Option_ClassicShading"		"Classic shading"
+"TF2c_Option_ClassicShading_Tip"	"If set, enables full-lambertian shading for player materials"
 "TF2c_Option_BloomScale"			"Bloom scale"
 "TF2c_Option_FramerateLimit"		"Framerate Limit"
 
