@@ -7,6 +7,8 @@
 // Chat
 // ----------------------------------------------------------------
 
+this is a test
+
 // Channels
 "Channel_All"			"ALL"
 "Channel_Team"			"TEAM"
