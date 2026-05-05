@@ -17,10 +17,12 @@
 "Chat_All"				"%s1: %s2"
 "Chat_All_Dead"			"*ÖLÜ* %s1: %s2"
 "Chat_All_Spec"			"*İZL* %s1: %s2"
+"Chat_All_Spec"			"*İZL* %s1: %s2"
 "Chat_Team"				"(TAKIM) %s1: %s2"
 "Chat_Team_Loc"			"(TAKIM) %s1 @ %s3: %s2"
 "Chat_Team_Dead"		"(TAKIM) *ÖLÜ* %s1: %s2"
 "Chat_Team_Spec"		"(TAKIM) *İZL* %s1: %s2"
+
 
 "Chat_All_Dev"			"[GELİŞT] %s1: %s2"
 "Chat_All_Dev_Dead"		"*ÖLÜ* [GELİŞT] %s1: %s2"
@@ -28,9 +30,22 @@
 "Chat_Team_Dev"			"(TAKIM) [GELİŞT] %s1: %s2
 "Chat_Team_Dev_Loc"		"(TAKIM) [GELİŞT] %s1 @ %s3: %s2"
 "Chat_Team_Dev_Dead"	"(TAKIM) *ÖLÜ* [GELİŞT] %s1: %s2"
+"Chat_Team_Dev_Dead"	"(TAKIM) *ÖLÜ* [GELİŞT] %s1: %s2"
 "Chat_Team_Dev_Spec"	"(TAKIM) *İZL* [GELİŞT] %s1: %s2"
 
+
 "Chat_Voice"			"(İLETİŞİM) "
+
+// Chat Printouts
+"TF_Joined_Game"				"%s1 oyuna katıldı"
+"TF_Left_Game"					"%s1 oyundan ayrıldı (%s2)"
+"TF_Joined_Team"				"%s1 %s2 takımına katıldı"
+"TF_Name_Change"				"* %s1 adını %s2 olarak değiştirdi"
+
+"TF_Team_Balanced"				"%s1 %s2 takımına alındı"
+"TF_Autobalance_TeamChangeDone"	"%s1 takımına alındın"
+
+"TF_VIP_Assigned"				"%s1 artık VIP!"
 
 // Chat Printouts
 "TF_Joined_Game"				"%s1 oyuna katıldı"

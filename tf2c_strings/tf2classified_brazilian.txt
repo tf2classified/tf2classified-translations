@@ -16,19 +16,32 @@
 // Chat Prefixes
 "Chat_All"				"%s1: %s2"
 "Chat_All_Dead"			"*MORTO(A)* %s1: %s2"
-"Chat_All_Spec"			"*ESPECTADOR(A)* %s1: %s2"
+"Chat_All_Spec"			"*ESPECTADOR(A)* %s1: %s2"
 "Chat_Team"				"(EQUIPE) %s1: %s2"
 "Chat_Team_Loc"			"(EQUIPE) %s1 @ %s3: %s2"
 "Chat_Team_Dead"		"*MORTO(A)* (EQUIPE) %s1: %s2"
 "Chat_Team_Spec"		"*ESPECTADOR(A)* (EQUIPE) %s1: %s2"
+
 "Chat_All_Dev"			"[DEV] %s1: %s2"
 "Chat_All_Dev_Dead"		"*MORTO(A)* [DEV] %s1: %s2"
 "Chat_All_Dev_Spec"		"*ESPECTADOR(A)* [DEV] %s1: %s2"
-"Chat_Team_Dev"			"(EQUIPE) [DEV] %s1: %s2"
+"Chat_Team_Dev"			"(EQUIPE) [DEV] %s1: %s2"
 "Chat_Team_Dev_Loc"		"(EQUIPE) [DEV] %s1 @ %s3: %s2"
-"Chat_Team_Dev_Dead"	"*MORTO(A)* EQUIPE [DEV] %s1: %s2"
+"Chat_Team_Dev_Dead"	"*MORTO(A)* EQUIPE [DEV] %s1: %s2"
 "Chat_Team_Dev_Spec"	"*ESPECTADOR(A)* (EQUIPE) [DEV] %s1: %s2"
+
 "Chat_Voice"			"(VOZ) "
+
+// Chat Printouts
+"TF_Joined_Game"				"%s1 entrou na partida"
+"TF_Left_Game"					"%s1 saiu da partida (%s2)"
+"TF_Joined_Team"				"%s1 entrou para a equipe %s2"
+"TF_Name_Change"				"* %s1 mudou o nome para %s2"
+
+"TF_Team_Balanced"				"%s1 foi movido(a) para a equipe %s2"
+"TF_Autobalance_TeamChangeDone"	"Você foi movido(a) para a equipe %s1"
+
+"TF_VIP_Assigned"				"%s1 tornou-se o VIP!"
 
 // Chat Filters
 "Chat_Filter_Voice"		"Comandos de voz"
@@ -65,17 +78,6 @@
 // Autobalance
 "TF_teamswitch_green"				"Você agora está na equipe GRN!"
 "TF_teamswitch_yellow"				"Você agora está na equipe YLW!"
-
-// Chat Printouts
-"TF_Team_Balanced"				"%s1 foi movido(a) para a equipe %s2"
-"TF_Autobalance_TeamChangeDone"	"Você foi movido(a) para a equipe %s1"
-"TF_Name_Change"					"* %s1 mudou o nome para %s2"
-"TF_Joined_Game"					"%s1 entrou na partida"
-"TF_Left_Game"						"%s1 saiu da partida (%s2)"
-"TF_Joined_Team"					"%s1 entrou para a equipe %s2"
-"TF_Joined_AutoTeam" 				"%s1 foi automaticamente designado para a equipe %s2"
-"TF_AutoBalanced"					"%s1 foi movido para a equipe %s2 para balancear a partida"
-"TF_AutoBalance_Warning"			"Desequilíbrio de equipes detectado"
 
 "TF_Other_Name"					"OUTRA"
 
@@ -943,7 +945,6 @@ A equipe BLU pode congelar o progresso da captura de um Ponto de Controle se o V
 "vip_setup_goal_offense"	"Escolte o VIP até a zona de fuga."
 "vip_setup_goal_defense"	"Elimine o VIP da equipe inimiga para impedí-lo de alcançar a zona de fuga."
 
-"TF_VIP_Assigned"				"%s1 tornou-se o VIP!"
 "TF_VIP_Tutorial_Annotation_2"	"Ele oferece um aumento defensivo para aqueles ao seu redor e\ntambém pode fortalecer temporariamente um membro de sua equipe com Mini-Críticos!"
 "TF_VIP_Tutorial_Annotation_3"	"Mas lembre-se, a vida dele é mais importante que a sua, então não deixe ele morrer!"
 
