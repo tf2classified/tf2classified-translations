@@ -16,19 +16,32 @@
 // Chat Prefixes
 "Chat_All"				"%s1: %s2"
 "Chat_All_Dead"			"*ÖLÜ* %s1: %s2"
-"Chat_All_Spec"			"*İZL* %s1 : %s2"
+"Chat_All_Spec"			"*İZL* %s1: %s2"
 "Chat_Team"				"(TAKIM) %s1: %s2"
 "Chat_Team_Loc"			"(TAKIM) %s1 @ %s3: %s2"
 "Chat_Team_Dead"		"(TAKIM) *ÖLÜ* %s1: %s2"
 "Chat_Team_Spec"		"(TAKIM) *İZL* %s1: %s2"
+
 "Chat_All_Dev"			"[GELİŞT] %s1: %s2"
 "Chat_All_Dev_Dead"		"*ÖLÜ* [GELİŞT] %s1: %s2"
 "Chat_All_Dev_Spec"		"*İZL* [GELİŞT] %s1: %s2"
-"Chat_Team_Dev"			"(TAKIM) [GELİŞT] %s1: %s2"
+"Chat_Team_Dev"			"(TAKIM) [GELİŞT] %s1: %s2
 "Chat_Team_Dev_Loc"		"(TAKIM) [GELİŞT] %s1 @ %s3: %s2"
-"Chat_Team_Dev_Dead"	"(TAKIM) *ÖLÜ* [GELİŞT] %s1: %s2"
+"Chat_Team_Dev_Dead"	"(TAKIM) *ÖLÜ* [GELİŞT] %s1: %s2"
 "Chat_Team_Dev_Spec"	"(TAKIM) *İZL* [GELİŞT] %s1: %s2"
+
 "Chat_Voice"			"(İLETİŞİM) "
+
+// Chat Printouts
+"TF_Joined_Game"				"%s1 oyuna katıldı"
+"TF_Left_Game"					"%s1 oyundan ayrıldı (%s2)"
+"TF_Joined_Team"				"%s1 %s2 takımına katıldı"
+"TF_Name_Change"				"* %s1 adını %s2 olarak değiştirdi"
+
+"TF_Team_Balanced"				"%s1 %s2 takımına alındı"
+"TF_Autobalance_TeamChangeDone"	"%s1 takımına alındın"
+
+"TF_VIP_Assigned"				"%s1 artık VIP!"
 
 // Chat Filters
 "Chat_Filter_Voice"		"İletişim Komutları"
@@ -46,6 +59,9 @@
 "TF_vote_change_civilian"			"%s1 adlı oyuncuyu VIP olarak seç?"
 "TF_vote_change_civilian_caller"	"%s1 adlı oyuncu VIP olmak istiyor."
 "TF_vote_passed_change_civilian"	"VIP bu oyuncu olacak: %s1..."
+
+// Player list dialog
+"TF_Volume_Generic"			"Ses seviyesi:"
 
 // ----------------------------------------------------------------
 // Teams
@@ -65,17 +81,6 @@
 // Autobalance
 "TF_teamswitch_green"			    "Şimdi GRN Takımındasın!"
 "TF_teamswitch_yellow"			    "Şimdi YLW Takımındasın!"
-
-// Chat Printouts
-"TF_Team_Balanced"					"%s1 %s2 takımına alındı"
-"TF_Autobalance_TeamChangeDone"		"%s1 takımına alındın"
-"TF_Name_Change"					"* %s1 adını %s2 olarak değiştirdi"
-"TF_Joined_Game"					"%s1 oyuna katıldı"
-"TF_Left_Game"						"%s1 oyundan ayrıldı (%s2)"
-"TF_Joined_Team"					"%s1 %s2 takımına katıldı"
-"TF_Joined_AutoTeam" 				"%s1 otomatik olarak %s2 takımına atandı"
-"TF_AutoBalanced"					"%s1 oyun dengesi için %s2 takımına alındı"
-"TF_AutoBalance_Warning"			"Takım dengesizliği tespit edildi"
 
 // ----------------------------------------------------------------
 // Classes
@@ -161,13 +166,13 @@
 "DeathMsg_AirshotKill"			"HAVA ATIŞI!"
 
 // Custom suicides
-"DeathMsg_Suicide_Boioing"		"gökyüzüne yükseldi!"
+"DeathMsg_Suicide_Boioing"		"gökyüzüne çıktı!"
 "DeathMsg_Suicide_Stomp"		"yüksek yer çekimini deneyimledi"
 "DeathMsg_Suicide_Disintegrate"	"küle dönüştü"
 "DeathMsg_Suicide_Decapitate"	"gövdeye indirgendi"
-"DeathMsg_Suicide_Gold"			"altın buldu"
+"DeathMsg_Suicide_Gold"			"saf altına dönüştü"
 "DeathMsg_Suicide_Freeze"		"buz gibi dondu"
-"DeathMsg_Suicide_Fizzle"		"elektriğe kapıldı!"
+"DeathMsg_Suicide_Fizzle"		"elektriklendi!"
 "DeathMsg_Suicide_Disappear"	"yok oldu"
 
 // ----------------------------------------------------------------
@@ -798,8 +803,8 @@ Kacış bölgesi, geçidin yanındaki kontrol odasına çantadaki cihaz teslim e
 
 Eğer BLU takımı cihazı teslim ederse, geçit kapanmadan önce geriden 60 saniye sayıcak."
 
-"Mineside_setup_goal_red"	"VIP'yi öldürerek Kacış Bölgesi'ne ulaşmasını engelle. Cihaz'ı ele geçirmesine izin verme."
-"Mineside_setup_goal_blu"	"VIP'yi Kaçış Bölgesi'ne kadar götür. Geçidi açmak için Cihaz'ı Kontrol Odası'na teslim et."
+"Mineside_setup_goal_red"	"VIP'yi öldürerek Kacış Bölgesi'ne ulaşmasını engelle. Cihazı ele geçirmesine izin verme."
+"Mineside_setup_goal_blu"	"VIP'yi Kaçış Bölgesi'ne kadar götür. Geçidi açmak için cihazı Kontrol Odası'na teslim et."
 
 "Mineside_escape_zone"	"Kaçış Tüneli"
 
@@ -945,7 +950,6 @@ BLU takımı eğer VIP mevcut değilse kontrol noktasının ele geçirme ilerlem
 "vip_setup_goal_offense"	"VIP'yi Kaçış Bölgesi'ne kadar götür."
 "vip_setup_goal_defense"	"VIP'yi öldürerek Kaçış Bölgesi'ne ulaşmasını engelle."
 
-"TF_VIP_Assigned"				"%s1 artık VIP!"
 "TF_VIP_Tutorial_Annotation_2"	"Çevresindekilere savunma desteği sağlar ve\ntakımından birisini geçici olarak güçlendirebilir!"
 "TF_VIP_Tutorial_Annotation_3"	"Ama bunu unutma, onun hayatı seninkinden daha önemli, o yüzden ölmesine izin verme!"
 
@@ -957,12 +961,12 @@ BLU takımı eğer VIP mevcut değilse kontrol noktasının ele geçirme ilerlem
 "vipl_setup_goal_defense"	"Düşman VIP'yi öldür veya Kaçış Bölgesi'ne ulaşmasına izin verme."
 
 // VIP (Flags)
-"vip_bring_flag_here"	"Cihaz'ı buraya getir!"
-"vip_bring_flag"		"Cihaz'ı Kontrol Odası'na götür!"
+"vip_bring_flag_here"	"Cihazı buraya getir!"
+"vip_bring_flag"		"Cihazı Kontrol Odası'na götür!"
 
-"TF_VIP_TakeDeviceToPoint"		"Cihaz'ı Kontrol Odası'na götür!"
+"TF_VIP_TakeDeviceToPoint"		"Cihazı Kontrol Odası'na götür!"
 "TF_VIP_TeamDeviceReturned"		"Cihaz geri döndü! Gidip alın!"
-"TF_VIP_EnemyDeviceReturned"	"Cihaz geri döndü! Cihaz'ın bulunduğu bölgeyi savunun!"
+"TF_VIP_EnemyDeviceReturned"	"Cihaz geri döndü! Cihazın bulunduğu bölgeyi savunun!"
 
 // VIP Race
 "default_vipr_description"	"Amaç:
@@ -1078,7 +1082,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF_ScoreBoard_BonusLabel"			"Bonus:"
 
 "TF_ScoreBoard_UberchargesLabel"	"ÜberŞarjlar:"
-"TF_ScoreBoard_TransportsLabel"		"Ulaşımlar:"
+"TF_ScoreBoard_TransportsLabel"		"Ulaştırmalar:"
 "TF_ScoreBoard_DestructionsLabel"	"Yıkım:"
 "TF_ScoreBoard_HeadshotsLabel"		"Kafadan Vuruşlar:"
 "TF_ScoreBoard_BackstabsLabel"		"Arkadan Bıçaklamalar:"
@@ -1146,9 +1150,9 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF_Menu_Quit"				"Çıkış"
 "TF_Menu_Disconnect"		"Bağlantıyı Kes"
 
-"TF_Menu_Blog"				"Resmî Blog"
-"TF_Menu_LatestUpdate"		"Son Güncelleme"
+"TF_Menu_Blog"				"Web Sitesi"
 "TF_Menu_ReportBug"			"Hata Bildir"
+"TF_Menu_Donate"			"Bağış Yap"
 
 "TF_Friends_Title"					"Arkadaşlar (%friend_count%)"
 "TF_Friends_Status_InTF2C"			"TF2C oynuyor"
@@ -1404,8 +1408,10 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF_Network_Rate_Tip"       		"Ağ güncelleme hızını ayarlar; bu da tersine enterpolasyon miktarını belirler.\n\Hangisinin sizin ağınızda daha iyi hissetirdiğini denemeniz önerilir."
 
 // Video
+"TF2c_Option_ClassicShading"		"Klasik gölgelendirme"
+"TF2c_Option_ClassicShading_Tip"	"Eğer seçiliyse, oyuncu metaryelleri için tam lambert gölgelendirmesini etkinleştirir"
 "TF2c_Option_BloomScale"	        "Bloom etkisi ölçeği"
-"TF2c_Option_FramerateLimit"		"Kare hızı sınırı"
+"TF2c_Option_FramerateLimit"		"FPS sınırı"
 
 // ----------------------------------------------------------------
 // Stats
@@ -1422,8 +1428,8 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 
 "TF_ClassRecord_MostUbercharges"		"Rekor ÜberŞarjlar:"
 "TF_ClassRecord_Alt_MostUbercharges"	"ÜberŞarj(lar)"
-"TF_ClassRecord_MostPadJumps"			"Rekor Trambolin zıplamaları:"
-"TF_ClassRecord_Alt_MostPadJumps"		"Trambolin zıplamaları"
+"TF_ClassRecord_MostPadJumps"			"Rekor Trambolin'den zıplamalar:"
+"TF_ClassRecord_Alt_MostPadJumps"		"Trambolin'den zıplama(lar)"
 
 "StatPanel_Ubercharges_Best"			"Geçen raunt bir önceki rekorundan daha fazla ÜberŞarjlama yaptın."
 "StatPanel_Ubercharges_Tie"				"Geçen raunt bir önceki rekorunla aynı sayıda ÜberŞarjlama yaptın."
@@ -1601,11 +1607,14 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "Winpanel_RedMVPs"			                "RED takımının en iyileri:"
 "Winpanel_TopPlayers"			            "En iyi oyuncular:"
 "Winpanel_WinningCapture"	                "Kazandıran ele geçirme: %s1"
-"TF_Arena_Winpanel_TimeAliveThisRound"		"Yaşam sür.:"
+"TF_Arena_Winpanel_TimeAliveThisRound"		"Yaşam:"
 
 "StatPanel_Format_Close"			    "Bu raunt: %s1  Rekorun: %s2"
 
 "Hud_Menu_Build_Cancel"					"İptal Etmek için '%lastinv%' Tuşuna Bas"
+
+"Hud_Menu_Demolish_Title"				"İmha"
+"Hud_Menu_Build_Title"					"Kurulum"
 
 "Cant_cap_stealthed"	"Görünmezken\n    noktayı ele geçiremezsin."
 "Cant_cap_disguised"	"Kılık değiştirmişken\n    noktayı ele geçiremezsin."
@@ -1621,19 +1630,6 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 
 "hightower_cap_red"		"RED'in Kulesi"
 "hightower_cap_blue"	"BLU'nun Kulesi"
-
-"Dustbowl_cap_1_A"		"Birinci Nokta, Etap Bir"
-"Dustbowl_cap_1_B"		"İkinci Nokta, Etap Bir"
-"Dustbowl_cap_2_A"		"Birinci Nokta, Etap İki"
-"Dustbowl_cap_2_B"		"İkinci Nokta, Etap İki"
-"Dustbowl_cap_3_A"		"Birinci Nokta, Etap Üç"
-
-"Goldrush_cap_1_A"		"Birinci Nokta, Etap Bir"
-"Goldrush_cap_1_B"		"İkinci Nokta, Etap Bir"
-"Goldrush_cap_2_A"		"Birinci Nokta, Etap İki"
-"Goldrush_cap_2_B"		"İkinci Nokta, Etap İki"
-"Goldrush_cap_3_A"		"Birinci Nokta, Etap Üç"
-"Goldrush_cap_3_B"      "İkinci Nokta, Etap Üç"
 
 "pl_hoodoo_final_cp_a2"     "Kontrol Noktası A 2"
 "pl_hoodoo_final_cp_b1"		"Kontrol Noktası B 1"
