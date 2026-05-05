@@ -27,7 +27,7 @@
 "Chat_All_Dev"			"[GELİŞT] %s1: %s2"
 "Chat_All_Dev_Dead"		"*ÖLÜ* [GELİŞT] %s1: %s2"
 "Chat_All_Dev_Spec"		"*İZL* [GELİŞT] %s1: %s2"
-"Chat_Team_Dev"			"(TAKIM) [GELİŞT] %s1: %s2
+"Chat_Team_Dev"			"(TAKIM) [GELİŞT] %s1: %s2"
 "Chat_Team_Dev_Loc"		"(TAKIM) [GELİŞT] %s1 @ %s3: %s2"
 "Chat_Team_Dev_Dead"	"(TAKIM) *ÖLÜ* [GELİŞT] %s1: %s2"
 "Chat_Team_Dev_Dead"	"(TAKIM) *ÖLÜ* [GELİŞT] %s1: %s2"
