@@ -16,19 +16,32 @@
 // Chat Prefixes
 "Chat_All"				"%s1: %s2"
 "Chat_All_Dead"			"*MUERTO* %s1: %s2"
-"Chat_All_Spec"			"*ESPEC* %s1 : %s2"
+"Chat_All_Spec"			"*ESPEC* %s1: %s2"
 "Chat_Team"				"(EQUIPO) %s1: %s2"
 "Chat_Team_Loc"			"(EQUIPO) %s1 @ %s3: %s2"
 "Chat_Team_Dead"		"(EQUIPO) *MUERTO* %s1: %s2"
 "Chat_Team_Spec"		"(EQUIPO) *ESPEC* %s1: %s2"
+
 "Chat_All_Dev"			"[DEV] %s1: %s2"
 "Chat_All_Dev_Dead"		"*MUERTO* [DEV] %s1: %s2"
 "Chat_All_Dev_Spec"		"*ESPEC* [DEV] %s1: %s2"
-"Chat_Team_Dev"			"(EQUIPO) [DEV] %s1: %s2"
+"Chat_Team_Dev"			"(EQUIPO) [DEV] %s1: %s2"
 "Chat_Team_Dev_Loc"		"(EQUIPO) [DEV] %s1 @ %s3: %s2"
-"Chat_Team_Dev_Dead"	"(EQUIPO) *MUERTO* [DEV] %s1: %s2"
+"Chat_Team_Dev_Dead"	"(EQUIPO) *MUERTO* [DEV] %s1: %s2"
 "Chat_Team_Dev_Spec"	"(EQUIPO) *ESPEC* [DEV] %s1: %s2"
+
 "Chat_Voice"			"(VOZ) "
+
+// Chat Printouts
+"TF_Joined_Game"				"%s1 se ha unido a la partida"
+"TF_Left_Game"					"%s1 ha abandonado la partida (%s2)"
+"TF_Joined_Team"				"%s1 se ha unido al equipo %s2"
+"TF_Name_Change"				"* %s1 se ha cambiado el nombre a %s2"
+
+"TF_Team_Balanced"				"%s1 se ha movido a %s2"
+"TF_Autobalance_TeamChangeDone"	"Te han movido a %s1"
+
+"TF_VIP_Assigned"				"¡%s1 es ahora el VIP!"
 
 // Chat Filters
 "Chat_Filter_Voice"		"Comandos de voz"
@@ -65,17 +78,6 @@
 // Autobalance
 "TF_teamswitch_green"				"¡Ahora estás en GRN!"
 "TF_teamswitch_yellow"				"¡Ahora estás en YLW!"
-
-// Chat Printouts
-"TF_Team_Balanced"					"%s1 se ha movido a %s2"
-"TF_Autobalance_TeamChangeDone"		"Te han movido a %s1"
-"TF_Name_Change"					"* %s1 se ha cambiado el nombre a %s2"
-"TF_Joined_Game"					"%s1 se ha unido a la partida"
-"TF_Left_Game"						"%s1 ha abandonado la partida (%s2)"
-"TF_Joined_Team"					"%s1 se ha unido al equipo %s2"
-"TF_Joined_AutoTeam" 				"%s1 se ha asignado automáticamente al equipo %s2"
-"TF_AutoBalanced"					"%s1 se ha movido a %s2 para equilibrar la partida"
-"TF_AutoBalance_Warning"			"Se ha detectado desequilibrio en los equipos"
 
 // ----------------------------------------------------------------
 // Classes
@@ -945,7 +947,6 @@ El equipo BLU puede detener el progreso de captura de un Punto de Control si el 
 "vip_setup_goal_offense"	"Escolta al VIP a la zona de huida. Captura Puntos de Control para bonificaciones opcionales."
 "vip_setup_goal_defense"	"Mata al VIP del enemigo para evitar que llegue a la zona de huida. Defiende Puntos de Control si necesario."
 
-"TF_VIP_Assigned"					"¡%s1 es ahora el VIP!"
 "TF_VIP_Tutorial_Annotation_2"		"¡Proporcionará una mejora de defensa a quien esté alrededor y\ntambién puede dar una mejora de minicríticos temporal a un miembro de su equipo!"
 "TF_VIP_Tutorial_Annotation_3"		"Pero recuerda, su vida es más importante que la tuya, ¡así que no le dejes morir!"
 

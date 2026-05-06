@@ -16,19 +16,32 @@
 // Chat Prefixes
 "Chat_All"				"%s1: %s2"
 "Chat_All_Dead"			"*NIE ŻYJE* %s1: %s2"
-"Chat_All_Spec"			"*WIDZ* %s1 : %s2"
+"Chat_All_Spec"			"*WIDZ* %s1: %s2"
 "Chat_Team"				"(DRUŻYNA) %s1: %s2"
 "Chat_Team_Loc"			"(DRUŻYNA) %s1 @ %s3: %s2"
 "Chat_Team_Dead"		"(DRUŻYNA) *NIE ŻYJE* %s1: %s2"
 "Chat_Team_Spec"		"(DRUŻYNA) *WIDZ* %s1: %s2"
+
 "Chat_All_Dev"			"[DEV] %s1: %s2"
 "Chat_All_Dev_Dead"		"*NIE ŻYJE* [DEV] %s1: %s2"
 "Chat_All_Dev_Spec"		"*WIDZ* [DEV] %s1: %s2"
-"Chat_Team_Dev"			"(DRUŻYNA) [DEV] %s1: %s2"
+"Chat_Team_Dev"			"(DRUŻYNA) [DEV] %s1: %s2"
 "Chat_Team_Dev_Loc"		"(DRUŻYNA) [DEV] %s1 @ %s3: %s2"
-"Chat_Team_Dev_Dead"	"(DRUŻYNA) *NIE ŻYJE* [DEV] %s1: %s2"
+"Chat_Team_Dev_Dead"	"(DRUŻYNA) *NIE ŻYJE* [DEV] %s1: %s2"
 "Chat_Team_Dev_Spec"	"(DRUŻYNA) *WIDZ* [DEV] %s1: %s2"
+
 "Chat_Voice"			"(GŁOS) "
+
+// Chat Printouts
+"TF_Joined_Game"				"Gracz %s1 dołączył do gry"
+"TF_Left_Game"					"Gracz %s1 opuścił grę (%s2)"
+"TF_Joined_Team"				"Gracz %s1 dołączył do drużyny %s2"
+"TF_Name_Change"				"* %s1 zmienia pseudonim na %s2"
+
+"TF_Team_Balanced"				"Gracz %s1 został przeniesiony do drużyny %s2"
+"TF_Autobalance_TeamChangeDone"	"Przeniesiono cię do drużyny %s1"
+
+"TF_VIP_Assigned"				"%s1 został VIP-em!"
 
 // Chat Filters
 "Chat_Filter_Voice"		"Komendy głosowe"
@@ -65,17 +78,6 @@
 // Autobalance
 "TF_teamswitch_green"				"Jesteś teraz w drużynie GRN!"
 "TF_teamswitch_yellow"				"Jesteś teraz w drużynie YLW!"
-
-// Chat Printouts
-"TF_Team_Balanced"					"Gracz %s1 został przeniesiony do drużyny %s2"
-"TF_Autobalance_TeamChangeDone"		"Przeniesiono cię do drużyny %s1"
-"TF_Name_Change"					"* %s1 zmienia pseudonim na %s2"
-"TF_Joined_Game"					"Gracz %s1 dołączył do gry"
-"TF_Left_Game"						"Gracz %s1 opuścił grę (%s2)"
-"TF_Joined_Team"					"Gracz %s1 dołączył do drużyny %s2"
-"TF_Joined_AutoTeam" 				"Gracz %s1 został automatycznie przydzielony do drużyny %s2"
-"TF_AutoBalanced"					"Gracz %s1 został przeniesiony do drużyny %s2 dla zrównoważenia rozgrywki"
-"TF_AutoBalance_Warning"			"Wykryto brak balansu drużyn"
 
 // ----------------------------------------------------------------
 // Classes
@@ -945,7 +947,6 @@ Drużyna BLU może wstrzymać postęp przejmowania punktu kontrolnego, jeśli VI
 "vip_setup_goal_offense"		"Eskortuj VIP-a do strefy ucieczki."
 "vip_setup_goal_defense"		"Zabij wrogiego VIP-a, by powstrzymać go przed dotarciem do strefy ucieczki."
 
-"TF_VIP_Assigned"					"%s1 został VIP-em!"
 "TF_VIP_Tutorial_Annotation_2"		"Zapewnia defensywne wzmocnienie sojusznikom w pobliżu oraz\nmoże tymczasowo wzmocnić członka swojej drużyny!"
 "TF_VIP_Tutorial_Annotation_3"		"Pamiętaj, jego życie jest ważniejsze niż twoje, więc nie pozwól mu zginąć!"
 

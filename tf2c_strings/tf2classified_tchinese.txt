@@ -16,19 +16,32 @@
 // Chat Prefixes
 "Chat_All"				"%s1: %s2"
 "Chat_All_Dead"			"*陣亡* %s1: %s2"
-"Chat_All_Spec"			"*觀眾* %s1 : %s2"
+"Chat_All_Spec"			"*觀眾* %s1: %s2"
 "Chat_Team"				"(團隊) %s1: %s2"
 "Chat_Team_Loc"			"(團隊) %s1 @ %s3: %s2"
 "Chat_Team_Dead"		"(團隊) *陣亡* %s1: %s2"
 "Chat_Team_Spec"		"(團隊) *觀眾* %s1: %s2"
+
 "Chat_All_Dev"			"[DEV] %s1: %s2"
 "Chat_All_Dev_Dead"		"*陣亡* [DEV] %s1: %s2"
 "Chat_All_Dev_Spec"		"*觀眾* [DEV] %s1: %s2"
-"Chat_Team_Dev"			"(團隊) [DEV] %s1: %s2"
+"Chat_Team_Dev"			"(團隊) [DEV] %s1: %s2"
 "Chat_Team_Dev_Loc"		"(團隊) [DEV] %s1 @ %s3: %s2"
-"Chat_Team_Dev_Dead"	"(團隊) *陣亡* [DEV] %s1: %s2"
+"Chat_Team_Dev_Dead"	"(團隊) *陣亡* [DEV] %s1: %s2"
 "Chat_Team_Dev_Spec"	"(團隊) *觀眾* [DEV] %s1: %s2"
+
 "Chat_Voice"			"(聲音) "
+
+// Chat Printouts
+"TF_Joined_Game"				"%s1 加入遊戲"
+"TF_Left_Game"					"%s1 離開遊戲 (%s2)"
+"TF_Joined_Team"				"%s1 加入團隊 %s2"
+"TF_Name_Change"				"* %s1 變更名稱為 %s2"
+
+"TF_Team_Balanced"				"%s1 被移到另一隊 %s2"
+"TF_Autobalance_TeamChangeDone"	"你已被切換至 %s1 隊。"
+
+"TF_VIP_Assigned"				"%s1 已成為 VIP！"
 
 // Chat Filters
 "Chat_Filter_Voice"		"聲音指令"
@@ -65,17 +78,6 @@
 // Autobalance
 "TF_teamswitch_green"			    "你現在是綠隊！"
 "TF_teamswitch_yellow"			    "你現在是黃隊！"
-
-// Chat Printouts
-"TF_Team_Balanced"					"%s1 被移到另一隊 %s2"
-"TF_Autobalance_TeamChangeDone"		"你已被切換至 %s1 隊。"
-"TF_Name_Change"					"* %s1 變更名稱為 %s2"
-"TF_Joined_Game"					"%s1 加入遊戲"
-"TF_Left_Game"						"%s1 離開遊戲 (%s2)"
-"TF_Joined_Team"					"%s1 加入團隊 %s2"
-"TF_Joined_AutoTeam" 				"%s1 被自動分配至 %s2"
-"TF_AutoBalanced"					"%s1 被自動平衡移到另一隊 %s2"
-"TF_AutoBalance_Warning"			"探測到隊伍不平衡"
 
 // ----------------------------------------------------------------
 // Classes
@@ -945,7 +947,6 @@
 "vip_setup_goal_offense"	"護送 VIP 前往撤離區。佔領控制點可獲得額外時間加成。"
 "vip_setup_goal_defense"	"擊殺敵方 VIP，阻止其抵達撤離區。必要時守住控制點！"
 
-"TF_VIP_Assigned"				"%s1 已成為 VIP！"
 "TF_VIP_Tutorial_Annotation_2"	"他會給身邊的隊友護盾加成\n還能給予隊友小爆擊效果！"
 "TF_VIP_Tutorial_Annotation_3"	"記住，他的生命比你的更重要，別讓刺客得手！"
 

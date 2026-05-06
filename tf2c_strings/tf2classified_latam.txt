@@ -14,22 +14,27 @@
 "Switch_Team"			"(Presiona TAB para cambiar a TODOS)"
     
 // Chat Prefixes
-"Chat_All"				"%s1: %s2"
-"Chat_All_Dead"			"*MUERTO* %s1: %s2"
-"Chat_All_Spec"			"*ESPECTADOR* %s1 : %s2"
-"Chat_Team"				"(EQUIPO) %s1: %s2"
-"Chat_Team_Loc"			"(EQUIPO) %s1 @ %s3: %s2"
-"Chat_Team_Dead"		"(EQUIPO) *MUERTO* %s1: %s2"
-"Chat_Team_Spec"		"(EQUIPO) *ESPECTADOR* %s1: %s2"
-"Chat_All_Dev"			"[DEV] %s1: %s2"
-"Chat_All_Dev_Dead"		"*MUERTO* [DEV] %s1: %s2"
-"Chat_All_Dev_Spec"		"*ESPECTADOR* [DEV] %s1: %s2"
-"Chat_Team_Dev"			"(EQUIPO) [DEV] %s1: %s2"
-"Chat_Team_Dev_Loc"		"(EQUIPO) [DEV] %s1 @ %s3: %s2"
-"Chat_Team_Dev_Dead"	"(EQUIPO) *MUERTO* [DEV] %s1: %s2"
-"Chat_Team_Dev_Spec"	"(EQUIPO) *ESPECTADOR* [DEV] %s1: %s2"
+"Chat_All"				"%s1: %s2"
+"Chat_All_Dead"			"*MUERTO* %s1: %s2"
+"Chat_All_Spec"			"*ESPECTADOR* %s1: %s2"
+"Chat_Team"				"(EQUIPO) %s1: %s2"
+"Chat_Team_Loc"			"(EQUIPO) %s1 @ %s3: %s2"
+"Chat_Team_Dead"		"(EQUIPO) *MUERTO* %s1: %s2"
+"Chat_Team_Spec"		"(EQUIPO) *ESPECTADOR* %s1: %s2"
+
+"Chat_All_Dev"			"[DEV] %s1: %s2"
+"Chat_All_Dev_Dead"		"*MUERTO* [DEV] %s1: %s2"
+"Chat_All_Dev_Spec"		"*ESPECTADOR* [DEV] %s1: %s2"
+"Chat_Team_Dev"			"(EQUIPO) [DEV] %s1: %s2"
+"Chat_Team_Dev_Loc"		"(EQUIPO) [DEV] %s1 @ %s3: %s2"
+"Chat_Team_Dev_Dead"	"(EQUIPO) *MUERTO* [DEV] %s1: %s2"
+"Chat_Team_Dev_Spec"	"(EQUIPO) *ESPECTADOR* [DEV] %s1: %s2"
+
 "Chat_Voice"			"(VOZ) "
-    
+
+// Chat Printouts
+"TF_VIP_Assigned"				"¡%s1 es ahora el VIP!"
+
 // Chat Filters
 "Chat_Filter_Voice"		"Comandos de Voz"
     
@@ -922,7 +927,6 @@ El equipo BLU puede congelar el progreso de captura de un Punto de Control si el
 "vip_setup_goal_offense"	"Escolta al VIP hasta la Zona de Escape."
 "vip_setup_goal_defense"	"Asesina al VIP del equipo enemigo para prevenir que llegue a la Zona de Escape."
 
-"TF_VIP_Assigned"				"¡%s1 es ahora el VIP!"
 "TF_VIP_Tutorial_Annotation_2"	"¡Provee defensas a los aliados que esten alrededor\ny tambien puede mejorar temporalmente a un miembro de su equipo con minicríticos!"
 "TF_VIP_Tutorial_Annotation_3"	"Pero recuerda, su vida es mas importante que la tuya, ¡Así que no lo dejes morir!"
 
