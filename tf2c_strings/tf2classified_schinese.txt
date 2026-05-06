@@ -16,19 +16,32 @@
 // Chat Prefixes
 "Chat_All"				"%s1: %s2"
 "Chat_All_Dead"			"*死亡* %s1: %s2"
-"Chat_All_Spec"			"*旁观者* %s1 : %s2"
+"Chat_All_Spec"			"*旁观者* %s1: %s2"
 "Chat_Team"				"(团队) %s1: %s2"
 "Chat_Team_Loc"			"(团队) %s1 @ %s3: %s2"
 "Chat_Team_Dead"		"(团队) *死亡* %s1: %s2"
 "Chat_Team_Spec"		"(团队) *旁观者* %s1: %s2"
+
 "Chat_All_Dev"			"[开发者] %s1: %s2"
 "Chat_All_Dev_Dead"		"*死亡* [开发者] %s1: %s2"
 "Chat_All_Dev_Spec"		"*旁观者* [开发者] %s1: %s2"
-"Chat_Team_Dev"			"(团队) [开发者] %s1: %s2"
+"Chat_Team_Dev"			"(团队) [开发者] %s1: %s2"
 "Chat_Team_Dev_Loc"		"(团队) [开发者] %s1 @ %s3: %s2"
-"Chat_Team_Dev_Dead"	"(团队) *死亡* [开发者] %s1: %s2"
+"Chat_Team_Dev_Dead"	"(团队) *死亡* [开发者] %s1: %s2"
 "Chat_Team_Dev_Spec"	"(团队) *旁观者* [开发者] %s1: %s2"
+
 "Chat_Voice"			"(语音) "
+
+// Chat Printouts
+"TF_Joined_Game"				"%s1 加入了游戏"
+"TF_Left_Game"					"%s1 离开了游戏（%s2）"
+"TF_Joined_Team"				"%s1 加入团队 %s2"
+"TF_Name_Change"				"* %s1 将名称更改为 %s2"
+
+"TF_Team_Balanced"				"%s1 被转移到团队 %s2"
+"TF_Autobalance_TeamChangeDone"	"你已被转移到团队 %s1"
+
+"TF_VIP_Assigned"				"%s1 已成为 VIP！"
 
 // Chat Filters
 "Chat_Filter_Voice"		"语音指令"
@@ -65,17 +78,6 @@
 // Autobalance
 "TF_teamswitch_green"			    "你现在身在绿队！"
 "TF_teamswitch_yellow"			    "你现在身在黄队！"
-
-// Chat Printouts
-"TF_Team_Balanced"					"%s1 被转移到团队 %s2"
-"TF_Autobalance_TeamChangeDone"		"你已被转移到团队 %s1"
-"TF_Name_Change"					"* %s1 将名称更改为 %s2"
-"TF_Joined_Game"					"%s1 加入了游戏"
-"TF_Left_Game"						"%s1 离开了游戏（%s2）"
-"TF_Joined_Team"					"%s1 加入团队 %s2"
-"TF_Joined_AutoTeam" 				"%s1 被自动分配到团队 %s2"
-"TF_AutoBalanced"					"%s1 被自动平衡到团队 %s2"
-"TF_AutoBalance_Warning"			"检测到队伍不平衡"
 
 // ----------------------------------------------------------------
 // Classes
@@ -945,7 +947,6 @@
 "vip_setup_goal_offense"	"护送VIP前往撤离区域。"
 "vip_setup_goal_defense"	"杀死敌方的VIP，阻止他抵达撤离区域。"
 
-"TF_VIP_Assigned"				"%s1 已成为 VIP！"
 "TF_VIP_Tutorial_Annotation_2"	"他为身边的人提供护盾增益\n还能给予队友迷你爆击！"
 "TF_VIP_Tutorial_Annotation_3"	"请记住，他的生命比你的生命更重要，所以不要让他被刺杀！"
 

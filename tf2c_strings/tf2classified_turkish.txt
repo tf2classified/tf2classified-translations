@@ -16,19 +16,32 @@
 // Chat Prefixes
 "Chat_All"				"%s1: %s2"
 "Chat_All_Dead"			"*ÖLÜ* %s1: %s2"
-"Chat_All_Spec"			"*İZL* %s1 : %s2"
+"Chat_All_Spec"			"*İZL* %s1: %s2"
 "Chat_Team"				"(TAKIM) %s1: %s2"
 "Chat_Team_Loc"			"(TAKIM) %s1 @ %s3: %s2"
 "Chat_Team_Dead"		"(TAKIM) *ÖLÜ* %s1: %s2"
 "Chat_Team_Spec"		"(TAKIM) *İZL* %s1: %s2"
+
 "Chat_All_Dev"			"[GELİŞT] %s1: %s2"
 "Chat_All_Dev_Dead"		"*ÖLÜ* [GELİŞT] %s1: %s2"
 "Chat_All_Dev_Spec"		"*İZL* [GELİŞT] %s1: %s2"
-"Chat_Team_Dev"			"(TAKIM) [GELİŞT] %s1: %s2"
+"Chat_Team_Dev"			"(TAKIM) [GELİŞT] %s1: %s2"
 "Chat_Team_Dev_Loc"		"(TAKIM) [GELİŞT] %s1 @ %s3: %s2"
-"Chat_Team_Dev_Dead"	"(TAKIM) *ÖLÜ* [GELİŞT] %s1: %s2"
+"Chat_Team_Dev_Dead"	"(TAKIM) *ÖLÜ* [GELİŞT] %s1: %s2"
 "Chat_Team_Dev_Spec"	"(TAKIM) *İZL* [GELİŞT] %s1: %s2"
+
 "Chat_Voice"			"(İLETİŞİM) "
+
+// Chat Printouts
+"TF_Joined_Game"				"%s1 oyuna katıldı"
+"TF_Left_Game"					"%s1 oyundan ayrıldı (%s2)"
+"TF_Joined_Team"				"%s1 %s2 takımına katıldı"
+"TF_Name_Change"				"* %s1 adını %s2 olarak değiştirdi"
+
+"TF_Team_Balanced"				"%s1 %s2 takımına alındı"
+"TF_Autobalance_TeamChangeDone"	"%s1 takımına alındın"
+
+"TF_VIP_Assigned"				"%s1 artık VIP!"
 
 // Chat Filters
 "Chat_Filter_Voice"		"İletişim Komutları"
@@ -65,17 +78,6 @@
 // Autobalance
 "TF_teamswitch_green"			    "Şimdi GRN Takımındasın!"
 "TF_teamswitch_yellow"			    "Şimdi YLW Takımındasın!"
-
-// Chat Printouts
-"TF_Team_Balanced"					"%s1 %s2 takımına alındı"
-"TF_Autobalance_TeamChangeDone"		"%s1 takımına alındın"
-"TF_Name_Change"					"* %s1 adını %s2 olarak değiştirdi"
-"TF_Joined_Game"					"%s1 oyuna katıldı"
-"TF_Left_Game"						"%s1 oyundan ayrıldı (%s2)"
-"TF_Joined_Team"					"%s1 %s2 takımına katıldı"
-"TF_Joined_AutoTeam" 				"%s1 otomatik olarak %s2 takımına atandı"
-"TF_AutoBalanced"					"%s1 oyun dengesi için %s2 takımına alındı"
-"TF_AutoBalance_Warning"			"Takım dengesizliği tespit edildi"
 
 // ----------------------------------------------------------------
 // Classes
@@ -942,7 +944,6 @@ BLU takımı eğer VIP mevcut değilse kontrol noktasının ele geçirme ilerlem
 "vip_setup_goal_offense"	"VIP'yi kaçış bölgesine kadar götür."
 "vip_setup_goal_defense"	"VIP'yi öldürerek kaçış bölgesine ulaşmasını engelle."
 
-"TF_VIP_Assigned"				"%s1 artık VIP!"
 "TF_VIP_Tutorial_Annotation_2"	"Çevresindekilere savunma desteği sağlar ve\ntakımından birisine geçici olarak mini-kritik takviyesi yapabilir!"
 "TF_VIP_Tutorial_Annotation_3"	"Ama bunu unutma, onun hayatı seninkinden daha önemli, o yüzden ölmesine izin verme!"
 

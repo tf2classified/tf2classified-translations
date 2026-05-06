@@ -15,20 +15,25 @@
 
 // Chat Prefixes
 "Chat_All"				"%s1: %s2"
-"Chat_All_Dead"			"*TOT* %s1: %s2"
-"Chat_All_Spec"			"*ZUSCHAUER* %s1 : %s2"
+"Chat_All_Dead"			"*TOT* %s1: %s2"
+"Chat_All_Spec"			"*ZUSCHAUER* %s1: %s2"
 "Chat_Team"				"(TEAM) %s1: %s2"
 "Chat_Team_Loc"			"(TEAM) %s1 @ %s3: %s2"
 "Chat_Team_Dead"		"(TEAM) *TOT* %s1: %s2"
 "Chat_Team_Spec"		"(TEAM) *ZUSCHAUER* %s1: %s2"
+
 "Chat_All_Dev"			"[ENTW.] %s1: %s2"
 "Chat_All_Dev_Dead"		"*TOT* [ENTW.] %s1: %s2"
 "Chat_All_Dev_Spec"		"*ZUSCHAUER* [ENTW.] %s1: %s2"
-"Chat_Team_Dev"			"(TEAM) [ENTW.] %s1: %s2"
+"Chat_Team_Dev"			"(TEAM) [ENTW.] %s1: %s2"
 "Chat_Team_Dev_Loc"		"(TEAM) [ENTW.] %s1 @ %s3: %s2"
-"Chat_Team_Dev_Dead"	"(TEAM) *TOT* [ENTW.] %s1: %s2"
+"Chat_Team_Dev_Dead"	"(TEAM) *TOT* [ENTW.] %s1: %s2"
 "Chat_Team_Dev_Spec"	"(TEAM) *ZUSCHAUER* [ENTW.] %s1: %s2"
+
 "Chat_Voice"			"(SPRACHE) "
+
+// Chat Printouts
+"TF_VIP_Assigned"				"%s1 ist jetzt der VIP!"
 
 // Chat Filters
 "Chat_Filter_Voice"		"Sprachbefehle"
@@ -911,7 +916,6 @@ Team BLU kann die Kontrollpunkte nicht erobern, wenn der VIP nicht anwesend ist.
 "vip_setup_goal_offense"	"Den VIP zur Fluchtzone eskortieren."
 "vip_setup_goal_defense"	"Gegnerischen VIP töten, um ihn daran zu hindern, die Fluchtzone zu erreichen."
 
-"TF_VIP_Assigned"				"%s1 ist jetzt der VIP!"
 "TF_VIP_Tutorial_Annotation_2"	"Er stärkt die Verteidigung seiner Mitspieler und\n kann ein Mitglied seines Teams vorübergehend mit Boost stärken!"
 "TF_VIP_Tutorial_Annotation_3"	"Aber nicht vergessen: sein Leben ist wichtiger als Ihres, also lassen Sie ihn nicht im Stich!"
 
