@@ -199,8 +199,8 @@
 "Tip_1_5"		"Pistolet świetnie nadaje się do likwidowania wrogów z dużej odległości."
 "Tip_1_6"		"Kij zadaje mniej obrażeń niż inne bronie do walki wręcz, lecz pozwala na szybsze zamachy."
 // Death & Taxes
-"Tip_1_7"		"Gwoździarka zadaje spore obrażenia, nawet z daleka. Pozostań w ruchu i strzelaj po łuku."
-"Tip_1_8"		"Niszczenie działek strażniczych Gwoździarką to bułka z masłem. Używaj jej, gdy masz do czynienia z trudno dostępnymi gniazdami działek."
+"Tip_1_7"		"Pistolet na Gwoździe zadaje spore obrażenia, nawet z daleka. Pozostań w ruchu i strzelaj po łuku."
+"Tip_1_8"		"Niszczenie działek strażniczych Pistoletem na Gwoździe to bułka z masłem. Używaj go, gdy masz do czynienia z trudno dostępnymi działkami."
 // Fight or Flight
 "Tip_1_9"		"Cegła zadaje spore obrażenia i silny odrzut. Odrzuć wrogów w powietrze!"
 "Tip_1_10"		"Cegła zada obrażenia minikrytyczne, gdy rzucisz nią z dużej odległości."
@@ -238,8 +238,8 @@
 "Tip_3_9"		"Kanonierki znacznie redukują utratę zdrowia podczas rakietowych skoków. Używaj ich, gdy mobilność i dobra pozycja są najważniejsze."
 "Tip_3_10"		"Rakiety z R.P.G. lecą po łuku i mogą wylądować za osłoną wroga. Pamiętaj, by dokładnie celować!"
 // Double Down
-"Tip_3_11"		"Obrażenia od trzęsienia ziemi, jakie zadaje Kotwica admiralicji, skalują się wraz z czasem jej dobycia. Dobądź ją, znajdując się jak najwyżej nad ziemią podczas rakietowego skoku!"
-"Tip_3_12"		"Wyposażenie się w Kotwicę admiralicji sprawia, że ​​jesteś podatny na otrzymywanie obrażeń krytycznych od pocisków, kiedy znajdujesz się w powietrzu. Uważaj podczas wzbijania się w powietrze."
+"Tip_3_11"		"Obrażenia od trzęsienia ziemi, jakie zadaje Kotwica Admiralicji, skalują się wraz z czasem jej dobycia. Dobądź ją, znajdując się jak najwyżej nad ziemią podczas rakietowego skoku!"
+"Tip_3_12"		"Wyposażenie się w Kotwicę Admiralicji sprawia, że ​​jesteś podatny na obrażenia krytyczne od pocisków, kiedy jesteś w powietrzu. Uważaj podczas wzbijania się."
 
 // Demoman
 "Tip_4_Count"	"15"
@@ -306,7 +306,7 @@
 "Tip_6_13"		"Uważaj, gdzie rzucasz swoją Kanapkę. Zarówno sojusznicy, jak i wrogowie mogą ją podnieść, by przywrócić sobie 50% maksymalnego zdrowia!"
 // Fight or Flight
 "Tip_6_14"		"Działo przeciwlotnicze zadaje duże obrażenia w krótkim czasie. Sprawdza się idealnie do eliminowania grup wrogów i radzenia sobie z zagrożeniami czyhającymi za osłonami."
-"Tip_6_15"		"Działo przeciwlotnicze zadaje obrażenia minikrytyczne wrogom, którzy znajdują się w powietrzu. Używaj go, by zestrzeliwać z nieba Żołnierzy wykonujących rakietowe skoki i wrogów używających wyskoczni!"
+"Tip_6_15"		"Działo przeciwlotnicze zadaje obrażenia minikrytyczne wrogom, którzy znajdują się w powietrzu. Używaj go, by zestrzeliwać z nieba Żołnierzy wykonujących rakietowe skoki i wrogów używających Skoczni!"
 "Tip_6_16"		"Cios Czechowa przechowuje jedno trafienie krytyczne za każde udane trafienie we wroga. Zgromadzone trafienia krytyczne mogą być użyte z dowolną bronią!"
 "Tip_6_17"		"Wyposażenie się w Cios Czechowa sprawia, że otrzymujesz obrażenia krytyczne od ataków wręcz. Zachowaj ostrożność podczas walki w zwarciu."
 
@@ -366,7 +366,7 @@
 "Tip_9_6"		"Twój pistolet ma dużo zapasowej amunicji. Wykorzystaj to, by zwabić wrogów do siebie i swojego działka strażniczego albo zastosuj bardziej agresywne podejście."
 "Tip_9_7"		"Możesz rozbroić Paczki dynamitu wroga, uderzając je kluczem."
 "Tip_9_8"		"Uderzanie kluczem w konstrukcje sojusznika naprawia je i ulepsza."
-"Tip_9_9"		"Za pomocą PDA konstrukcji możesz stawiać działka strażnicze i inne pomocnicze konstrukcje."
+"Tip_9_9"		"Za pomocą PDA konstrukcji możesz stawiać działka strażnicze i inne pomocne konstrukcje."
 "Tip_9_10"		"Działka strażnicze nie są przeznaczone wyłącznie do obrony. Rozkładaj je szybko w ukrytych miejscach, by wesprzeć atak."
 "Tip_9_11"		"Możesz uderzać kluczem w swoje działko strażnicze, by je ulepszyć posiadanym metalem. Na każdym kolejnym poziomie działko strażnicze zyskuje większą wytrzymałość i siłę ognia."
 "Tip_9_12"		"Buduj zasobniki, które leczą towarzyszy i dostarczają im amunicji. Wytwarzają one również metal na twoje potrzeby."
@@ -378,14 +378,14 @@
 "Tip_9_17"		"W pełni naładowane strzały z Cewkownika odbijają się od ścian i zadają większe obrażenia."
 "Tip_9_18"		"Cewkownik, gdy zostanie przeciążony, spowoduje mały wybuch. Używaj go, by dotrzeć do wcześniej niedostępnych miejsc."
 // Fight or Flight
-"Tip_9_19"		"Wyskocznie pozwalają twojej drużynie dosięgnąć trudno dostępnych miejsc. Postaw je tak, by mniej sprawni członkowie drużyny mogli dostać się na gzymsy i dachy!"
-"Tip_9_20"		"Wyskocznie pozwalają członkom drużyny skakać przed siebie z dużą prędkością. Stawiaj je na otwartym terenie, który pozwala na szybkie przemieszczanie się."
+"Tip_9_19"		"Skocznie pozwalają twojej drużynie dosięgnąć trudno dostępnych miejsc. Postaw je tak, by mniej sprawni członkowie drużyny mogli dostać się na gzymsy i dachy!"
+"Tip_9_20"		"Skocznie pozwalają członkom drużyny skakać naprzód z dużą prędkością. Stawiaj je na otwartym terenie, który pozwala na szybkie przemieszczanie się."
 
 // Civilian
 "Tip_10_Count"	"11"
 // Generic
 "Tip_10_1"		"Jesteś dość wolny. Postaraj się nadążyć za członkami swojej drużyny, by zwiększyć swoje szanse na przetrwanie."
-"Tip_10_2"		"Jesteś najniższy ze wszystkich członków swojej drużyny. Może to być przydatne do ukrywania się za nimi."
+"Tip_10_2"		"Jesteś najniższy ze wszystkich członków swojej drużyny. Może się to przydać do chowania się za nimi."
 "Tip_10_3"		"Tylko Cywil może przejmować punkty kontrolne w trybach VIP i Wyścig VIP-ów."
 "Tip_10_4"		"Uważaj na wrogich Snajperów i Szpiegów, gdyż mogą cię zabić w mgnieniu oka."
 "Tip_10_5"		"Pobliscy członkowie drużyny odczują efekt twojego moralnego wsparcia, przyznając im lekkie wzmocnienie obrony i leczenie. Staraj się unikać pola widzenia wroga i trzymaj się swojej drużyny."
@@ -455,13 +455,13 @@
 "TF_Weapon_SniperRifle_Desc"			"Spełnia swoje zadanie."
 // Minigun
 "TF_Weapon_Minigun"						"Minigun"
-"TF_Weapon_Minigun_Desc"				"Sasza nie słucha się nawet Grubego. Myślisz, że będzie słuchać CIEBIE?"
+"TF_Weapon_Minigun_Desc"				"Sasha nie słucha się nawet Grubego. Myślisz, że posłucha CIEBIE?"
 // SMG
 "TF_Weapon_SMG"							"PM"
-"TF_Weapon_SMG_Desc"					"No i co ty na to? Oboje jesteśmy bardziej niebezpieczni z bliska."
+"TF_Weapon_SMG_Desc"					"No i co ty na to? Obaj jesteśmy bardziej niebezpieczni z bliska."
 // Syringe Gun
 "TF_Weapon_SyringeGun"					"Pistolet strzykawkowy"
-"TF_Weapon_SyringeGun_Desc"				"Och, nadajesz się świetnie na pojemnik na ostrza!"
+"TF_Weapon_SyringeGun_Desc"				"Och, idealny kandydat na poduszkę do igieł!"
 // Rocket Launcher
 "TF_Weapon_RocketLauncher"				"Wyrzutnia rakiet"
 "TF_Weapon_RocketLauncher_Desc"			"Doskonała broń dla doskonałego Żołnierza!"
@@ -476,25 +476,25 @@
 "TF_Weapon_FlameThrower_Desc"			"Robi się gorąco..."
 // Pistol
 "TF_Weapon_Pistol"						"Pistolet"
-"TF_Weapon_Pistol_Desc_Engineer"		"Zacznij tańczyć, chłopcze."
-"TF_Weapon_Pistol_Desc_Scout"			"Wszyscy są poza zasięgiem, póki nie są."
+"TF_Weapon_Pistol_Desc_Engineer"		"Tańcuj jak ci zagram, chłopcze."
+"TF_Weapon_Pistol_Desc_Scout"			"Każdy jest poza zasięgiem. Dopóki nie jest."
 // Revolver
 "TF_Weapon_Revolver"					"Rewolwer"
 "TF_Weapon_Revolver_Desc"				"Kiedy skradanie się nie wchodzi już w grę."
 // PDA: Teleporter (Construction PDA)
 "TF_Weapon_ConstructionPDA"				"PDA budowy"
-"TF_Weapon_ConstructionPDA_Desc"		"Wszystko, co potrzebuje Inżynier taki jak ja, znajduje się w tym malutkim urządzeniu."
-"TF_Weapon_PDATeleporter"				"PDA: teleport"
+"TF_Weapon_ConstructionPDA_Desc"		"W tym małym cudeńku mam wszystko, czego trzeba Inżynierowi."
+"TF_Weapon_PDATeleporter"				"PDA: Teleport"
 // Destruction PDA
 "TF_Weapon_DestructionPDA"				"PDA destrukcji"
 // Disguise Kit
 "TF_Weapon_DisguiseKit"					"Zestaw przebrań"
 // Medi Gun
 "TF_Weapon_Medigun"						"Medigun"
-"TF_Weapon_Medigun_Desc"				"Wszyscy macie tę samą grupę krwi, prawda? Plus minus?"
+"TF_Weapon_Medigun_Desc"				"Wszyscy macie tę samą grupę krwi, czyż nie? Plus minus?"
 // Invis Watch
 "TF_Weapon_InvisWatch"					"Zegarek niewidzialności"
-"TF_Weapon_InvisWatch_Desc"				"Elegancki. Szkoda, że go nigdy nie zobaczą."
+"TF_Weapon_InvisWatch_Desc"				"Elegancki. Szkoda, że nikt go nie zobaczy."
 // Sapper
 "TF_Weapon_Sapper"						"Saper"
 "TF_Weapon_Sapper_Desc"					"Kto to tam zostawił?"
@@ -505,10 +505,10 @@
 
 // Kritzkrieg
 "TF_Weapon_Kritzkrieg"				"Kritzkrieg"
-"TF_Weapon_Kritzkrieg_Desc"			"No dalej, spraw trochę bólu! Dzięki temu oboje utrzymamy się na rynku, ja?"
+"TF_Weapon_Kritzkrieg_Desc"			"No dalej, siej ból! Dzięki temu oboje zachowamy reputację, ja?"
 // Überspritze
 "TF_Weapon_Uberspritze"				"Überstrzykawka"
-"TF_Weapon_Uberspritze_Desc"		"Och, przestań się wiercić, to dla szczytnego celu!"
+"TF_Weapon_Uberspritze_Desc"		"Och, przestań się wiercić, to dla nauki!"
 // Flare Gun
 "TF_Weapon_FlareGun"				"Pistolet sygnałowy"
 "TF_Weapon_FlareGun_Desc"			"Ktoś się pali! Szybko, wyślij sygnał ratunkowy!"
@@ -529,10 +529,10 @@
 
 // Umbrella
 "TF_Weapon_Umbrella"				"Parasol"
-"TF_Weapon_Umbrella_Desc"			"Człowiek z klasą musi pozostać suchy."
+"TF_Weapon_Umbrella_Desc"			"Człowiek z klasą musi pozostawać suchy."
 // Nail Gun
-"TF_Weapon_NailGun"					"Gwoździarka"
-"TF_Weapon_NailGun_Desc"			"Tak, dość szybko straciłem tę pracę."
+"TF_Weapon_NailGun"					"Pistolet na Gwoździe"
+"TF_Weapon_NailGun_Desc"			"Tia, dość szybko straciłem tę pracę."
 // R.P.G.
 "TF_Weapon_RPG"						"R.P.G."
 "TF_Weapon_RPG_Desc"				"Widzisz tę rakietę wystającą z przodu, synu? Ona pragnie wolności. I przysięgam na Boga, że ją dostanie."
@@ -541,7 +541,7 @@
 "TF_Weapon_HuntingRevolver_Desc"	"Z myślą o bardziej agresywnym podejściu."
 // Fishwhacker
 "TF_Weapon_Fishwhacker"				"Śledziobij"
-"TF_Weapon_Fishwhacker_Desc"		"Trzymaj ją mocno, kolego. Ma tendencję do rzucania drzazgami."
+"TF_Weapon_Fishwhacker_Desc"		"Trzymaj ją mocno, kolego. Drzazgi lecą na wszystkie strony."
 // Tranquilizer Gun
 "TF_Weapon_TranquilizerGun"			"Pistolet usypiający"
 "TF_Weapon_TranquilizerGun_Desc"	"W twoich snach, chéri."
@@ -553,7 +553,7 @@
 "TF_Weapon_Coilgun_Desc"			"Bez steku, ale za to dużo skwierczenia."
 // Mine Layer
 "TF_Weapon_MineLayer"				"Rozstawiacz min"
-"TF_Weapon_MineLayer_Desc"			"Ej, miej oczy szeroko otwarte! Heh..."
+"TF_Weapon_MineLayer_Desc"			"Lepiej miej oczy szeroko otwarte! Ha!"
 // Shock Therapy
 "TF_Weapon_ShockTherapy"			"Szokoterapia"
 "TF_Weapon_ShockTherapy_Desc"		"STRZAŁ!"
@@ -567,16 +567,16 @@
 "TF_Weapon_Lescampette_Desc"			"Zrób to szybko."
 // Chekhov's Punch
 "TF_Weapon_ChekhovsPunch"				"Cios Czechowa"
-"TF_Weapon_ChekhovsPunch_Desc"			"Nie płacz! Masz swoje miejsce w życiu Grubego."
+"TF_Weapon_ChekhovsPunch_Desc"			"Nie płacz! Jesteś potrzebny opowieści Grubego."
 // Twin Barrel
 "TF_Weapon_TwinBarrel"					"Dwubeltówka"
 "TF_Weapon_TwinBarrel_Desc"				"(Modyfikacje dokonane po zakupie skutkują unieważnieniem gwarancji)."
 // Anti-Aircraft Cannon
 "TF_Weapon_AntiAircraftCannon"			"Działo przeciwlotnicze"
-"TF_Weapon_AntiAircraftCannon_Desc"		"Którą część ciebie Gruby powinien wysłać do twojej mamusi?"
+"TF_Weapon_AntiAircraftCannon_Desc"		"Którą część ciebie Gruby ma wysłać do twojej mamusi?"
 // PDA: Jump Pad
-"TF_Weapon_PDAJumpPad"					"PDA: wyskocznia"
-"TF_Weapon_PDAJumpPad_Desc"				"Stary, zaufaj mi. To cię zaskoczy."
+"TF_Weapon_PDAJumpPad"					"PDA: Skocznia"
+"TF_Weapon_PDAJumpPad_Desc"				"Zaufaj mi, stary. Skok, którego nie zapomnisz."
 // Harvester
 "TF_Weapon_Harvester"					"Żniwiarz"
 "TF_Weapon_Harvester_Desc"				"Przeto nigdy nie pytaj, komu bije dzwon."
@@ -592,14 +592,14 @@
 "TF_Weapon_Rejuvenator"				"Rewitalizator"
 "TF_Weapon_Rejuvenator_Desc"		"Staraj się unikać kontaktu z ustami i oczami."
 // Admiralty Anchor
-"TF_Weapon_AdmiraltyAnchor"			"Kotwica admiralicji"
-"TF_Weapon_AdmiraltyAnchor_Desc"	"W mojej jednostce nie ma miejsca na prostackie żarty o marynarce wojennej."
+"TF_Weapon_AdmiraltyAnchor"			"Kotwica Admiralicji"
+"TF_Weapon_AdmiraltyAnchor_Desc"	"Żadnych tanich żartów o marynarce w mojej jednostce."
 // Derby Cane
 "TF_Weapon_DerbyCane"				"Laska z Derby"
 "TF_Weapon_DerbyCane_Desc"			"Czujesz się zmotywowany, chłopcze? Mam taką nadzieję."
 // Cyclops
 "TF_Weapon_Cyclops"					"Cyklop"
-"TF_Weapon_Cyclops_Desc"			"W krainie ślepców jesteś królem."
+"TF_Weapon_Cyclops_Desc"			"W królestwie ślepców, tyś jest królem."
 
 // ----------------------------------------------------------------
 // Miscellaneous weapon types
@@ -644,13 +644,13 @@
 // Building Status
 "Building_hud_hauling"					"Przenoszenie..."
 "Building_hud_upgrading"				"Ulepszanie..."
-"Building_hud_jumppad_a_not_built"		"Wyskocznia A\nniezbudowana"
-"Building_hud_jumppad_b_not_built"		"Wyskocznia B\nniezbudowana"
+"Building_hud_jumppad_a_not_built"		"Skocznia A\nniezbudowana"
+"Building_hud_jumppad_b_not_built"		"Skocznia B\nniezbudowana"
 
 // Jump Pad
-"TF_Object_Jump"			"Wyskocznia"
-"TF_Object_Jump_A"			"Wyskocznia A"
-"TF_Object_Jump_B"			"Wyskocznia B"
+"TF_Object_Jump"			"Skocznia"
+"TF_Object_Jump_A"			"Skocznia A"
+"TF_Object_Jump_B"			"Skocznia B"
 "TF_JumpPad_Mode_A"			"A"
 "TF_JumpPad_Mode_B"			"B"
 
@@ -667,7 +667,7 @@
 "Attrib_CreatesEarthquakeFallDamage"					"Gdy broń jest dobyta, wywołuje trzęsienie ziemi po otrzymaniu obrażeń od upadku"
 "Attrib_TakeProjectileCritsAirborne"					"Noszący otrzymuje obrażenia krytyczne od pocisków, gdy znajduje się w powietrzu"
 "Attrib_Gravity_Active_Increased"						"Gdy broń jest dobyta, +%s1% siły grawitacji"
-"Attrib_TeleporterJumpPad"								"Zamienia wejście i wyjście teleportu na wyskocznie"
+"Attrib_TeleporterJumpPad"								"Zamienia wejście i wyjście Teleportu na Skocznie"
 "Attrib_Mod_Horizontal_Spread"							"Wystrzeliwuje śrut ze stałym, szerokim rozrzutem"
 "Attrib_ApplySelfKnockback"								"Stosuje odwrotny efekt samoodrzucenia przy strzale"
 "Attrib_WeaponEnemyKnockback_Bonus"						"+%s1% siły odrzutu wroga"
@@ -715,10 +715,10 @@
 "Attrib_BuildingsMaxLevel"								"Konstrukcje posiadają %s1 maks. poziom"
 "Attrib_UpgradeCost"									"Konstrukcje wymagają %s1 metalu, by je ulepszyć"
 "Attrib_Dispenser_Build_Rate"							"%s1% zwiększona szybkość budowania zasobnika"
-"Attrib_JumpPad_Build_Rate"								"%s1% zwiększona szybkość budowania wyskoczni"
+"Attrib_JumpPad_Build_Rate"								"%s1% zwiększona szybkość budowania Skoczni"
 "Attrib_DispenserBuildCost"								"%s1% kosztu budowy zasobnika"
 "Attrib_SentrygunBuildCost"								"%s1% kosztu budowy działka strażniczego"
-"Attrib_JumpPadBuildCost"								"%s1% kosztu budowy wyskoczni"
+"Attrib_JumpPadBuildCost"								"%s1% kosztu budowy Skoczni"
 "Attrib_NoPrimaryAmmoFromDispensersAlways"				"Zasobniki nie przyznają amunicji"
 "Attrib_MetalOnSentryKill"								"Przy zabiciu wroga działkiem: +%s1 metalu"
 "Attrib_SentryKnockback_Increased"						"+%s1% siły odpychania przez działko strażnicze"
@@ -773,8 +773,8 @@
 "Attrib_DisabledByWrench"								"Może zostać rozbrojona przy pomocy klucza"
 "Attrib_Coilgun"										"W pełni naładowane strzały rykoszetują od ścian, a przeciążenie broni spowoduje eksplozję."
 "Attrib_DamageAffectedByCharge"							"Zadawane obrażenia zależą od aktualnego poziomu naładowania"
-"Attrib_JumpPadNoUpgrade"								"Wyskocznie nie mogą być ulepszane."
-"Attrib_AltFire_HasteBoost"								"Atak alternatywny: zwiększa szybkość ataku i ruchu swojego sojusznika"
+"Attrib_JumpPadNoUpgrade"								"Skocznie nie mogą być ulepszane."
+"Attrib_AltFire_HasteBoost"								"Atak alternatywny: zwiększa szybkość ataku i ruchu sojusznika"
 "Attrib_AltFire_UberBubble"								"Atak alternatywny: rozmieszcza urządzenie generujące pole, które zapewnia niezniszczalność w jego zasięgu"
 
 // ----------------------------------------------------------------
@@ -1214,7 +1214,7 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 "TF2c_KeyboardCategory_UI"				"INTERFEJS"
 "TF2c_KeyboardCategory_Extra"			"DODATKI"
 "TF2c_UseDefaultsButton"				"Zresetuj przypisane klawisze"
-"TF_ClassSkill_Spy_Spywalk"				"SZPIEG: szybkość Szpiega"
+"TF_ClassSkill_Spy_Spywalk"				"SZPIEG: bieg Szpiega"
 "TF_Voice_Menu_0_0"				"Komenda głosowa: MEDYK!"
 "TF_Voice_Menu_0_1"				"Komenda głosowa: Dzięki!"
 "TF_Voice_Menu_1_0"				"Komenda głosowa: Nadchodzą"
@@ -1411,20 +1411,20 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 // ----------------------------------------------------------------
 // Stats
 // ----------------------------------------------------------------
-										   
+
 "TF_Stats_Reset"			"Zresetuj statystyki" // R
 "TF_Stats_Close"			"Zamknij" // Q
 
 "TF_NextTip"				"Następna wskazówka"
-																								   
-"Stat_PadJumps"				"WYSKOCZNIE"
 
-"StatPanel_Label_PadJumps"		"# użyto wyskoczni: "
+"Stat_PadJumps"				"SKOCZNIE"
+
+"StatPanel_Label_PadJumps"		"# użyto Skoczni: "
 
 "TF_ClassRecord_MostUbercharges"		"Naj. Überów:"
 "TF_ClassRecord_Alt_MostUbercharges"	"Über(ów)"
-"TF_ClassRecord_MostPadJumps"			"Naj. skoków na wyskoczni:"
-"TF_ClassRecord_Alt_MostPadJumps"		"skok(ów) na wyskoczni"
+"TF_ClassRecord_MostPadJumps"			"Naj. skoków na Skoczni:"
+"TF_ClassRecord_Alt_MostPadJumps"		"skok(ów) na Skoczni"
 
 "StatPanel_Ubercharges_Best"			"W tej rundzie udało ci się pobić rekord w liczbie użytych ładunków ÜberCharge."
 "StatPanel_Ubercharges_Tie"				"W tej rundzie udało ci się wyrównać rekord w liczbie użytych ładunków ÜberCharge."
@@ -1433,12 +1433,12 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 "StatPanel_MVM_Ubercharges_Tie"			"W tej rundzie Mann vs Maszyny udało ci się wyrównać rekord w liczbie użytych ładunków ÜberCharge."
 "StatPanel_MVM_Ubercharges_Close"		"W tej rundzie Mann vs Maszyny udało ci się zbliżyć do rekordu w liczbie użytych ładunków ÜberCharge."
 
-"StatPanel_PadJumps_Best"			"W tej rundzie udało ci się pobić rekord w liczbie skoków na wyskoczni."
-"StatPanel_PadJumps_Tie"			"W tej rundzie udało ci się wyrównać rekord w liczbie skoków na wyskoczni."
-"StatPanel_PadJumps_Close"			"W tej rundzie udało ci się zbliżyć do rekordu w liczbie skoków na wyskoczni."
-"StatPanel_MVM_PadJumps_Best"		"W tej rundzie Mann vs Maszyny udało ci się pobić rekord w liczbie skoków na wyskoczni."
-"StatPanel_MVM_PadJumps_Tie"		"W tej rundzie Mann vs Maszyny udało ci się wyrównać rekord w liczbie skoków na wyskoczni."
-"StatPanel_MVM_PadJumps_Close"		"W tej rundzie Mann vs Maszyny udało ci się zbliżyć do rekordu w liczbie skoków na wyskoczni."
+"StatPanel_PadJumps_Best"			"W tej rundzie udało ci się pobić rekord w liczbie skoków na Skoczni."
+"StatPanel_PadJumps_Tie"			"W tej rundzie udało ci się wyrównać rekord w liczbie skoków na Skoczni."
+"StatPanel_PadJumps_Close"			"W tej rundzie udało ci się zbliżyć do rekordu w liczbie skoków na Skoczni."
+"StatPanel_MVM_PadJumps_Best"		"W tej rundzie Mann vs Maszyny udało ci się pobić rekord w liczbie skoków na Skoczni."
+"StatPanel_MVM_PadJumps_Tie"		"W tej rundzie Mann vs Maszyny udało ci się wyrównać rekord w liczbie skoków na Skoczni."
+"StatPanel_MVM_PadJumps_Close"		"W tej rundzie Mann vs Maszyny udało ci się zbliżyć do rekordu w liczbie skoków na Skoczni."
 
 // ----------------------------------------------------------------
 // Achievements
@@ -1469,11 +1469,11 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 "TF2C_ACHIEVEMENT_EXTINGUISH_BOMBLETS_NAME"						"Pomyśl życzenie"
 "TF2C_ACHIEVEMENT_EXTINGUISH_BOMBLETS_DESC"						"Jako Pyro, zgaś 20 lasek dynamitu strumieniem sprężonego powietrza."
 "TF2C_ACHIEVEMENT_KILL_SENTRY_WITH_NAILGUN_NAME"				"Obgryzacz gwoździ"
-"TF2C_ACHIEVEMENT_KILL_SENTRY_WITH_NAILGUN_DESC"				"Jako Skaut, zniszcz 5 wrogich działek strażniczych, używając Gwoździarki."
+"TF2C_ACHIEVEMENT_KILL_SENTRY_WITH_NAILGUN_DESC"				"Jako Skaut, zniszcz 5 wrogich działek strażniczych, używając Pistoletu na Gwoździe."
 "TF2C_ACHIEVEMENT_BRICK_NAME"									"Cegła"
 "TF2C_ACHIEVEMENT_BRICK_DESC"									"..."
 "TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_NAME"						"Na dno ze statkiem"
-"TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_DESC"						"Jako Żołnierz, zabij wroga za pomocą trzęsienia ziemi Kotwicy admiralicji, otrzymując przy tym śmiertelne obrażenia od upadku."
+"TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_DESC"						"Jako Żołnierz, zabij wroga za pomocą trzęsienia ziemi Kotwicy Admiralicji, otrzymując przy tym śmiertelne obrażenia od upadku."
 "TF2C_ACHIEVEMENT_SSG_MEATSHOTS_NAME"							"Rozrywaj i rozdzieraj!"
 "TF2C_ACHIEVEMENT_SSG_MEATSHOTS_DESC"							"Jako Pyro, zabij z bliska 10 wrogów, używając Dwubeltówki."
 "TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_NAME"				"Zawrót głowy"
@@ -1489,7 +1489,7 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 "TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_NAME"						"Przygotowanie na rozliczenie"
 "TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_DESC"						"Jako Gruby, zdobądź krytyczne zabójstwo za pomocą Ciosu Czechowa z pełnym zapasem trafień krytycznych."
 "TF2C_ACHIEVEMENT_JUMPPAD_STOMP_NAME"							"Prędkość graniczna"
-"TF2C_ACHIEVEMENT_JUMPPAD_STOMP_DESC"							"Zabij wroga, lądując na nim po użyciu wyskoczni."
+"TF2C_ACHIEVEMENT_JUMPPAD_STOMP_DESC"							"Zabij wroga, lądując na nim po użyciu Skoczni."
 "TF2C_ACHIEVEMENT_EXTEND_UBER_NAME"								"Maraton chirurgiczny"
 "TF2C_ACHIEVEMENT_EXTEND_UBER_DESC"								"Jako Medyk, wydłuż czas trwania ÜberCharge Rewitalizatora do 12 sekund."
 "TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_NAME"							"To nie żyje!"
