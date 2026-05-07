@@ -16,19 +16,27 @@
 // Chat Prefixes
 "Chat_All"				"%s1: %s2"
 "Chat_All_Dead"			"*МЕРТВИЙ* %s1: %s2"
-"Chat_All_Spec"			"*ГЛЯДАЧ* %s1 : %s2"
+"Chat_All_Spec"			"*ГЛЯДАЧ* %s1: %s2"
 "Chat_Team"				"(КОМАНДІ) %s1: %s2"
 "Chat_Team_Loc"			"(КОМАНДІ) %s1 @ %s3: %s2"
 "Chat_Team_Dead"		"(КОМАНДІ) *МЕРТВИЙ* %s1: %s2"
 "Chat_Team_Spec"		"(КОМАНДІ) *ГЛЯДАЧ* %s1: %s2"
+
 "Chat_All_Dev"			"[РОЗРОБНИК] %s1: %s2"
 "Chat_All_Dev_Dead"		"*МЕРТВИЙ* [РОЗРОБНИК] %s1: %s2"
 "Chat_All_Dev_Spec"		"*ГЛЯДАЧ* [РОЗРОБНИК] %s1: %s2"
-"Chat_Team_Dev"			"(КОМАНДІ) [РОЗРОБНИК] %s1: %s2"
+"Chat_Team_Dev"			"(КОМАНДІ) [РОЗРОБНИК] %s1: %s2"
 "Chat_Team_Dev_Loc"		"(КОМАНДІ) [РОЗРОБНИК] %s1 @ %s3: %s2"
-"Chat_Team_Dev_Dead"	"(КОМАНДІ) *МЕРТВИЙ* [РОЗРОБНИК] %s1: %s2"
+"Chat_Team_Dev_Dead"	"(КОМАНДІ) *МЕРТВИЙ* [РОЗРОБНИК] %s1: %s2"
 "Chat_Team_Dev_Spec"	"(КОМАНДІ) *ГЛЯДАЧ* [РОЗРОБНИК] %s1: %s2"
+
 "Chat_Voice"			"(ГОЛОС) "
+
+// Chat Printouts
+"TF_Team_Balanced"				"%s1 перенесено до команди %s2"
+"TF_Autobalance_TeamChangeDone"	"Вас перенесено до команди %s1"
+
+"TF_VIP_Assigned"				"%s1 став VIP!"
 
 // Chat Filters
 "Chat_Filter_Voice"		"Голосові команди"
@@ -65,9 +73,6 @@
 // Autobalance
 "TF_teamswitch_green"			"Тепер ви з GRN!"
 "TF_teamswitch_yellow"			"Тепер ви з YLW!"
-
-"TF_Team_Balanced"				"%s1 перенесено до команди %s2"
-"TF_Autobalance_TeamChangeDone"	"Вас перенесено до команди %s1"
 
 // ----------------------------------------------------------------
 // Classes
@@ -931,7 +936,6 @@ BLU можуть утримувати прогрес захоплення кон
 "vip_setup_goal_offense"	"Проведіть VIP до Зони Евакуації. Захоплюйте контрольні точки щоб отримувати додаткові бонуси."
 "vip_setup_goal_defense"	"Убийте ворожого VIP, щоб він не потрапив до Зони Евакуації. За потреби захищайте контрольні точки."
 
-"TF_VIP_Assigned"				"%s1 став VIP!"
 "TF_VIP_Tutorial_Annotation_2"	"Він посилює захист оточуючих, а також може\nтимчасово надати міні-крити члену своєї команди!"
 "TF_VIP_Tutorial_Annotation_3"	"Але пам’ятайте — його життя важливіше за ваше, тому не дайте йому померти!"
 

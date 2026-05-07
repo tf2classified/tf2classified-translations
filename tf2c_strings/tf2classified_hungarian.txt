@@ -16,19 +16,32 @@
 // Chat Prefixes
 "Chat_All"			    "%s1: %s2"
 "Chat_All_Dead"		    "*HALOTT* %s1: %s2"
-"Chat_All_Spec"		    "*NÉZŐ* %s1 : %s2"
+"Chat_All_Spec"		    "*NÉZŐ* %s1: %s2"
 "Chat_Team"			    "(CSAPAT) %s1: %s2"
 "Chat_Team_Loc"		    "(CSAPAT) %s1 @ %s3: %s2"
 "Chat_Team_Dead"		"(CSAPAT) *HALOTT* %s1: %s2"
 "Chat_Team_Spec"		"(CSAPAT) *NÉZŐ* %s1: %s2"
+
 "Chat_All_Dev"		    "[FEJL] %s1: %s2"
 "Chat_All_Dev_Dead"	    "*HALOTT* [FEJL] %s1: %s2"
 "Chat_All_Dev_Spec"	    "*NÉZŐ* [FEJL] %s1: %s2"
-"Chat_Team_Dev"		    "(CSAPAT) [FEJL] %s1: %s2"
+"Chat_Team_Dev"		    "(CSAPAT) [FEJL] %s1: %s2"
 "Chat_Team_Dev_Loc"	    "(CSAPAT) [FEJL] %s1 @ %s3: %s2"
-"Chat_Team_Dev_Dead"	"(CSAPAT) *HALOTT* [FEJL] %s1: %s2"
+"Chat_Team_Dev_Dead"	"(CSAPAT) *HALOTT* [FEJL] %s1: %s2"
 "Chat_Team_Dev_Spec"	"(CSAPAT) *NÉZŐ* [FEJL] %s1: %s2"
+
 "Chat_Voice"			"(HANG) "
+
+// Chat Printouts
+"TF_Joined_Game"				"%s1 belépett a játékba"
+"TF_Left_Game"					"%s1 elhagyta a játékot (%s2)"
+"TF_Joined_Team"				"%s1 belépett a %s2 csapatba"
+"TF_Name_Change"				"* %s1 neve mostantól %s2"
+
+"TF_Team_Balanced"				"%s1 áthelyezve a %s2 csapatba"
+"TF_Autobalance_TeamChangeDone"	"Áthelyeztek a %s1 csapatba"
+
+"TF_VIP_Assigned"				"%s1 mostantól a VIP!"
 
 // Chat Filters
 "Chat_Filter_Voice"		"Hangparancsok"
@@ -46,6 +59,9 @@
 "TF_vote_change_civilian"			"Legyen ez a játékos a VIP: %s1?"
 "TF_vote_change_civilian_caller"	"Ez a játékos akar lenni a VIP: %s1."
 "TF_vote_passed_change_civilian"	"A VIP ez a játékos lesz: %s1..."
+
+// Player list dialog
+"TF_Volume_Generic"			"Hangerő:"
 
 // ----------------------------------------------------------------
 // Teams
@@ -65,17 +81,6 @@
 // Autobalance
 "TF_teamswitch_green"		    	"Mostantól GRN vagy!"
 "TF_teamswitch_yellow"		    	"Mostantól YLW vagy!"
-
-// Chat Printouts
-"TF_Team_Balanced"					"%s1 áthelyezve a %s2 csapatba"
-"TF_Autobalance_TeamChangeDone"		"Áthelyeztek a %s1 csapatba"
-"TF_Name_Change"					"* %s1 neve mostantól %s2"
-"TF_Joined_Game"					"%s1 belépett a játékba"
-"TF_Left_Game"						"%s1 elhagyta a játékot (%s2)"
-"TF_Joined_Team"					"%s1 belépett a %s2 csapatba"
-"TF_Joined_AutoTeam" 				"%s1 a %s2 csapatba került"
-"TF_AutoBalanced"					"%s1 a %s2 csapatba került erőkiegyenlítés miatt"
-"TF_AutoBalance_Warning"			"Csapaterő-különbség észlelve"
 
 // ----------------------------------------------------------------
 // Classes
@@ -945,7 +950,6 @@ A BLU csapat meg tudja állítani a foglalás állapotát ha nincs jelen a VIP."
 "vip_setup_goal_offense"	"Kísérd el a VIP-t a menekülőzónához."
 "vip_setup_goal_defense"	"Öld meg az ellenséges csapat VIP-ját, hogy megakadályozd a menekülőzóna elérésében."
 
-"TF_VIP_Assigned"				"%s1 mostantól a VIP!"
 "TF_VIP_Tutorial_Annotation_2"	"Védő erősítést biztosít a hozzá közel levő játékosoknak és\nideiglenes erősítést tud adni az egyik csapattársának!"
 "TF_VIP_Tutorial_Annotation_3"	"De tartsd észben azt, hogy az ő élete fontosabb mint a tiéd, szóval ne hagyd meghalni!"
 
@@ -1146,9 +1150,9 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_Menu_Quit"				"Kilépés"
 "TF_Menu_Disconnect"		"Szétkapcsolás"
 
-"TF_Menu_Blog"				"TF2C blog"
-"TF_Menu_LatestUpdate"		"Frissítések"
+"TF_Menu_Blog"				"Weboldal"
 "TF_Menu_ReportBug"			"Hibajelentés"
+"TF_Menu_Donate"			"Adomány"
 
 "TF_Friends_Title"					"Barátok (%friend_count%)"
 "TF_Friends_Status_InTF2C"			"TF2C-vel játszik"
@@ -1404,7 +1408,10 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_Network_Rate_Tip"       		"Hálózatfrissítés mértékének beállítása, amely ellentétesen állítja be a hálózati interpolációt.\n\nAjánlott minden beállítást kipróbálni, hogy meglásd melyik érződik a legjobbnak a saját hálózatodon."
 
 // Video
-"TF2c_Option_BloomScale"	"HDR ragyogás mértéke"
+"TF2c_Option_ClassicShading"		"Klasszikus árnyékolás"
+"TF2c_Option_ClassicShading_Tip"	"Ha be van kapcsolva, teljes-lamberti árnyékolást fog használni a játékostextúrákon."
+"TF2c_Option_BloomScale"	        "HDR ragyogás mértéke"
+"TF2c_Option_FramerateLimit"		"Képfrissítés limit"
 
 // ----------------------------------------------------------------
 // Stats
