@@ -1326,7 +1326,7 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 // ClassSpecific
 "TF_CyclopsDoubleTap"             		"DEMOMAN: wymuś podwójne kliknięcie dla Cyklopa"
 "TF_CyclopsDoubleTap_Tip"        		"Włączenie tej opcji spowoduje, że granaty Cyklopa będą wymagały podwójnego kliknięcia, by je zdetonować, zamiast po puszczeniu przycisku myszy."
-"TF_SapperAwareness"					"INŻYNIER: swiadomość o saperze"
+"TF_SapperAwareness"					"INŻYNIER: świadomość o saperze"
 "TF_SapperAwareness_Tip"				"Włączenie tej opcji spowoduje, że ostrzeżenie o saperze na konstrukcjach będzie w innym kolorze."
 "TF_SniperBell"							"SNAJPER: odtwórz dźwięk, gdy w pełni naładowany"
 "TF_SniperBell_Tip"						"Odtwórz dźwięk, gdy karabin snajperski jest w pełni naładowany."
