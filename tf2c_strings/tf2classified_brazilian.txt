@@ -60,6 +60,9 @@
 "TF_vote_change_civilian_caller"	"O(a) jogador(a) %s1 deseja ser o VIP."
 "TF_vote_passed_change_civilian"	"O VIP será o(a) jogador(a): %s1..."
 
+// Player list dialog
+"TF_Volume_Generic"			"Volume:"
+
 // ----------------------------------------------------------------
 // Teams
 // ----------------------------------------------------------------
@@ -1149,9 +1152,10 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF_Menu_Quit"				"Sair"
 "TF_Menu_Disconnect"		"Desconectar"
 
-"TF_Menu_Blog"				"Blog oficial"
+"TF_Menu_Blog"				"Site oficial"
 "TF_Menu_LatestUpdate"		"Última atualização"
 "TF_Menu_ReportBug"			"Relatar um bug"
+"TF_Menu_Donate"			"Apoiar"
 
 "TF_Friends_Title"					"Amigos (%friend_count%)"
 "TF_Friends_Status_InTF2C"			"Jogando TF2C"
@@ -1292,7 +1296,7 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "GameUI_CloseWithoutSaving"				"Fechar sem salvar"
 "GameUI_CloseWithoutSavingText" 		"Tem certeza de que deseja fechar?\n Todas as alterações não salvas serão perdidas!"
 "GameUI_Legacy"							"Menu antigo"
-"GameUI_Effect_Detail"          		"Detalhes do efeito"
+"GameUI_Effect_Detail"          		"Detalhe dos efeitos"
 "GameUI_VeryLow"               			"Muito baixo"
 "GameUI_Off"               				"Desligado"
 "GameUI_Everyone"               		"Todos"
@@ -1416,6 +1420,8 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 // Video
 "TF2c_Option_BloomScale"			"Escala de bloom"
 "TF2c_Option_FramerateLimit"		"Limite de taxa de quadros"
+"TF2c_Option_ClassicShading"		"Usar sombreadores clássicos"
+"TF2c_Option_ClassicShading_Tip"	"Utiliza sombreadores com base em superfícies luminosas ortotrópicas (superfícies de Lambert) para materiais de jogadores"
 
 // ----------------------------------------------------------------
 // Stats
