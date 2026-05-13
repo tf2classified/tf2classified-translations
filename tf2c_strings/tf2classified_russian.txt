@@ -460,7 +460,7 @@
 "TF_Weapon_Minigun_Desc"	"Саша не слушает меня. Думаешь она послушает ТЕБЯ?"
 // SMG
 "TF_Weapon_SMG"			"Пистолет-пулемёт"
-"TF_Weapon_SMG_Desc"	"Как насчёт этого? Мы оба опаснее вблизи."
+"TF_Weapon_SMG_Desc"	"Запомни, мы оба более опасны вблизи."
 // Syringe Gun
 "TF_Weapon_SyringeGun"		"Шприцемёт"
 "TF_Weapon_SyringeGun_Desc"	"Ух-ты, из тебя можно сделать неплохой отход класса \"Б\"!"
@@ -469,7 +469,7 @@
 "TF_Weapon_RocketLauncher_Desc"	"Идеальное оружие для идеального солдата!"
 // Grenade Launcher
 "TF_Weapon_GrenadeLauncher"			"Гранатомёт"
-"TF_Weapon_GrenadeLauncher_Desc"	"Доверь это мне, приятель."
+"TF_Weapon_GrenadeLauncher_Desc"	"Доверься мне, приятель."
 // Stickybomb Launcher
 "TF_Weapon_StickybombLauncher"		"Липучкомёт"
 "TF_Weapon_StickybombLauncher_Desc"	"Я их всех лично отправлю в небеса!"
@@ -493,7 +493,7 @@
 "TF_Weapon_DisguiseKit"	"Маскировочный набор"
 // Medi Gun
 "TF_Weapon_Medigun"			"Лечебная пушка"
-"TF_Weapon_Medigun_Desc"	"У вас всех примерно одна группа крови, так ведь?"
+"TF_Weapon_Medigun_Desc"	"У вас всех примерно один тип крови, так ведь?"
 // Invis Watch
 "TF_Weapon_InvisWatch"		"Часы невидимости"
 "TF_Weapon_InvisWatch_Desc"	"Стильные. Жаль, что их никто не увидит."
@@ -510,10 +510,10 @@
 "TF_Weapon_Kritzkrieg_Desc"	"Давай, покалечь их всех!"
 // Überspritze
 "TF_Weapon_Uberspritze"			"Убер-шприц"
-"TF_Weapon_Uberspritze_Desc"	"Не ёрзай, это ради благой цели!"
+"TF_Weapon_Uberspritze_Desc"	"Не ёрзай, больно не будет!"
 // Flare Gun
 "TF_Weapon_FlareGun"		"Ракетница"
-"TF_Weapon_FlareGun_Desc"	"Кто-то горит! Скорее, отправьте сигнал бедствия!"
+"TF_Weapon_FlareGun_Desc"	"Кто-то горит! Скорее, пошлите сигнал бедствия!"
 // Sandvich
 "TF_Weapon_Sandvich"		"Бутерброд"
 "TF_Weapon_Sandvich_Desc"	"Подойди-ка сюда, я тебя угощу."
@@ -592,16 +592,16 @@
 
 // Rejuvenator
 "TF_Weapon_Rejuvenator"			"Омолаживатель"
-"TF_Weapon_Rejuvenator_Desc"	"Не допускать попадания в рот и глаза."
+"TF_Weapon_Rejuvenator_Desc"	"При попадании в глаза или рот немедленно промыть водой."
 // Admiralty Anchor
 "TF_Weapon_AdmiraltyAnchor"			"Адмиралтейский якорь"
-"TF_Weapon_AdmiraltyAnchor_Desc"	"Я не потерплю грубых шуток о флоте в моём подразделении."
+"TF_Weapon_AdmiraltyAnchor_Desc"	"Я не потерплю грубых шуток о флоте в моем подразделении."
 // Derby Cane
 "TF_Weapon_DerbyCane"		"Трость Жокея"
 "TF_Weapon_DerbyCane_Desc"	"Тебе достаточно мотивации? По-хорошему, должно быть."
 // Cyclops
 "TF_Weapon_Cyclops"			"Циклоп"
-"TF_Weapon_Cyclops_Desc"	"В царстве слепых зрячий лишь я."
+"TF_Weapon_Cyclops_Desc"	"В царстве слепых, зрячий лишь я."
 
 // ----------------------------------------------------------------
 // Miscellaneous weapon types
@@ -777,7 +777,7 @@
 "Attrib_DamageAffectedByCharge"						"Урон зависит от текущего заряда"
 "Attrib_JumpPadNoUpgrade"							"Катапульты не могут быть улучшены"
 "Attrib_AltFire_HasteBoost"							"Доп. атака: дать эффект ускорения выбранному союзнику"
-"Attrib_AltFire_UberBubble"							"Доп. атака: запускает устройство, дающее неуязвимость в ограниченной области"
+"Attrib_AltFire_UberBubble"							"Доп. атака: запускает устройство, дающее неуязвимость вокруг"
 "Attrib_SetPlayerScale_Wearer_Decreased"            "Уменьшает носителя на %s1%"
 "Attrib_RaptureEffect"                              "Даёт усиление дружественным игрокам, которое позволяет им летать.\nНанесение урона пополняет шкалу ярости."
 
