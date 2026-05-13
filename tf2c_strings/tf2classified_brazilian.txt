@@ -405,15 +405,15 @@
 
 // Arena
 "Tip_arena_Count"		"9"
-"Tip_arena_1"			"Na Arena, fique de olho na contagem de jogadores na parte superior da tela. Isso lhe permitirá saber se você tem vantagem sobre outros jogadores!"
-"Tip_arena_2"			"Na Arena, existem poucas fontes para recuperar sua vida, então certifique-se de proteger seus Medics e Engineers (e compartilhar seu Sanduíche)!"
-"Tip_arena_3"			"Na Arena, o Ponto de Controle no meio do mapa ficará ativo 60 segundos após o início da rodada. Use-o para atrair inimigos escondidos!"
-"Tip_arena_4"			"Na Arena, você não revive, então não morra!"
-"Tip_arena_5"			"Na Arena, diversifique seu repertório! Tente complementar a composição da sua equipe ou neutralizar a do inimigo."
-"Tip_arena_6"			"Na Arena, você só pode trocar de classe no início da partida, antes da abertura dos portões."
-"Tip_arena_7"			"Na Arena, tente permanecer junto com sua equipe e ajudem uns aos outros quando estiverem em perigo. Chegar atrasado a uma luta pode colocá-lo em desvantagem."
-"Tip_arena_8"			"Na Arena, impedir que a equipe inimiga se cure é crucial. Ataque os Medics e os Fornecedores inimigos e negue o acesso deles aos kits de vida sempre que possível!"
-"Tip_arena_9"			"Na Arena, conseguir o Primeiro Abate concede um bônus de crítico. Se você conseguir, aproveite ao máximo! Se um inimigo conseguir, fique na sua e tente esperar o efeito acabar."
+"Tip_arena_1"			"Fique de olho no contador de jogadores no topo da tela para saber se a sua equipe tem uma vantagem."
+"Tip_arena_2"			"Há pouquíssimos meios de recuperar vida no modo Arena, então proteja os Medics e Engineers da sua equipe a todo custo!"
+"Tip_arena_3"			"O ponto de controle no meio do mapa poderá ser capturado 60 segundos após o início da rodada."
+"Tip_arena_4"			"Ninguém renasce no modo Arena, então não morra!"
+"Tip_arena_5"			"Nenhuma classe tem prioridade no modo Arena. Foque-se em combater a composição inteira da outra equipe."
+"Tip_arena_6"			"Você só pode mudar a sua classe no início de uma rodada de Arena, antes que os portões se abram."
+"Tip_arena_7"			"No modo Arena, tente andar junto com sua equipe e ajude uns aos outros quando estiverem em perigo. Chegar atrasado em uma luta pode colocá-lo em desvantagem."
+"Tip_arena_8"			"Impedir a cura da equipe inimiga é crucial no modo Arena. Ataque os Medics e Fornecedores inimigos e impeça acesso aos kits médicos sempre que possível!"
+"Tip_arena_9"			"Causar a primeira morte no modo Arena concede um bônus de crítico. Aproveite ao máximo, ou fique na sua e espere o efeito do inimigo passar."
 
 // ----------------------------------------------------------------
 // Stock weapon strings
