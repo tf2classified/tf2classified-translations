@@ -8,60 +8,60 @@
 // ----------------------------------------------------------------
 
 // Channels
-"Channel_All"			"ALL"
-"Channel_Team"			"TEAM"
-"Switch_All"			"(TAB to switch to TEAM)"
-"Switch_Team"			"(TAB to switch to ALL)"
+"Channel_All"			"全て"
+"Channel_Team"			"チーム"
+"Switch_All"			"(TABを押して「チーム」に切り替える)"
+"Switch_Team"			"(TABを押して「全て」に切り替える)"
 
 // Chat Prefixes
 "Chat_All"				"%s1: %s2"
-"Chat_All_Dead"			"*DEAD* %s1: %s2"
-"Chat_All_Spec"			"*SPEC* %s1: %s2"
-"Chat_Team"				"(TEAM) %s1: %s2"
-"Chat_Team_Loc"			"(TEAM) %s1 @ %s3: %s2"
-"Chat_Team_Dead"		"(TEAM) *DEAD* %s1: %s2"
-"Chat_Team_Spec"		"(TEAM) *SPEC* %s1: %s2"
+"Chat_All_Dead"			"*死亡* %s1: %s2"
+"Chat_All_Spec"			"*観戦* %s1: %s2"
+"Chat_Team"				"(チーム) %s1: %s2"
+"Chat_Team_Loc"			"(チーム) %s1 @ %s3: %s2"
+"Chat_Team_Dead"		"(チーム) *死亡* %s1: %s2"
+"Chat_Team_Spec"		"(チーム) *観戦* %s1: %s2"
 
 "Chat_All_Dev"			"[DEV] %s1: %s2"
-"Chat_All_Dev_Dead"		"*DEAD* [DEV] %s1: %s2"
-"Chat_All_Dev_Spec"		"*SPEC* [DEV] %s1: %s2"
-"Chat_Team_Dev"			"(TEAM) [DEV] %s1: %s2"
-"Chat_Team_Dev_Loc"		"(TEAM) [DEV] %s1 @ %s3: %s2"
-"Chat_Team_Dev_Dead"	"(TEAM) *DEAD* [DEV] %s1: %s2"
-"Chat_Team_Dev_Spec"	"(TEAM) *SPEC* [DEV] %s1: %s2"
+"Chat_All_Dev_Dead"		"*死亡* [DEV] %s1: %s2"
+"Chat_All_Dev_Spec"		"*観戦* [DEV] %s1: %s2"
+"Chat_Team_Dev"			"(チーム) [DEV] %s1: %s2"
+"Chat_Team_Dev_Loc"		"(チーム) [DEV] %s1 @ %s3: %s2"
+"Chat_Team_Dev_Dead"	"(チーム) *死亡* [DEV] %s1: %s2"
+"Chat_Team_Dev_Spec"	"(チーム) *観戦* [DEV] %s1: %s2"
 
-"Chat_Voice"			"(VOICE) "
+"Chat_Voice"			"(音声) "
 
 // Chat Printouts
-"TF_Joined_Game"				"%s1 has joined the game"
-"TF_Left_Game"					"%s1 left the game (%s2)"
-"TF_Joined_Team"				"%s1 joined team %s2"
-"TF_Name_Change"				"* %s1 changed name to %s2"
+"TF_Joined_Game"				"%s1がゲームに参加しました"
+"TF_Left_Game"					"%s1がゲームを退出しました(%s2)"
+"TF_Joined_Team"				"%s1が%s2チームに入りました"
+"TF_Name_Change"				"* %s1は%s2に名前を変更しました"
 
-"TF_Team_Balanced"				"%s1 has been moved to team %s2"
-"TF_Autobalance_TeamChangeDone"	"You have been moved to team %s1"
+"TF_Team_Balanced"				"%s1は%s2チームに移動されました"
+"TF_Autobalance_TeamChangeDone"	"あなたは%s1チームに移動しました"
 
-"TF_VIP_Assigned"				"%s1 is now the VIP!"
+"TF_VIP_Assigned"				"%s1は今やVIPだよ！"
 
 // Chat Filters
-"Chat_Filter_Voice"		"Voice Commands"
+"Chat_Filter_Voice"		"音声コマンド"
 
 // ----------------------------------------------------------------
 // General
 // ----------------------------------------------------------------
 
 // Sentry consent popup
-"TF_SentryReport_Title"				"Send Error Reports?"
-"TF_SentryReport_Message"			"Would you like to allow sending anonymous error reports to the Team Fortress 2 Classified team?"
+"TF_SentryReport_Title"				"エラーレポートを送信するか？"
+"TF_SentryReport_Message"			"Team Fortress 2 Classifiedチームへ、匿名のエラーレポートを送信することを許可しますか？"
 
 // VIP voting
-"Vote_ChangeCivilian"				"Change VIP"
+"Vote_ChangeCivilian"				"VIPを変更"
 "TF_vote_change_civilian"			"Choose player %s1 to be the VIP?"
 "TF_vote_change_civilian_caller"	"Player %s1 wants to be the VIP."
 "TF_vote_passed_change_civilian"	"The VIP will be player: %s1..."
 
 // Player list dialog
-"TF_Volume_Generic"			"Volume:"
+"TF_Volume_Generic"			"音量："
 
 // ----------------------------------------------------------------
 // Teams
@@ -73,14 +73,14 @@
 "TF_GreenTeam_Name"					"GRN"
 "TF_YellowTeam_Name"				"YLW"
 
-"TF_Other_Name"						"OTHER"
+"TF_Other_Name"						"他"
 
 // Disguise Kit global disguise
 "Hud_Menu_Disguise_GlobalTeam"		"Global Disguise: Every enemy will see you as their own team."
 
 // Autobalance
-"TF_teamswitch_green"				"You are now on GRN!"
-"TF_teamswitch_yellow"				"You are now on YLW!"
+"TF_teamswitch_green"				"GRNチームで参戦！"
+"TF_teamswitch_yellow"				"YLWチームで参戦！"
 
 // ----------------------------------------------------------------
 // Classes
@@ -133,15 +133,15 @@
 "TF_playerid_object_upgrading_level"	"Level %s1  -  Upgrading..."
 "TF_playerid_object_building"			"Building..."
 "TF_playerid_object_building_level"		"Level %s1  -  Building..."
-"TF_playerid_teleporter_no_entrance"	"  -  No Teleporter Entrance"
-"TF_playerid_teleporter_no_exit"		"  -  No Teleporter Exit"
-"TF_playerid_object_recharging"			"  -  Recharging: %s1%"
+"TF_playerid_teleporter_no_entrance"	"  -  テレポーターの入口なし"
+"TF_playerid_teleporter_no_exit"		"  -  テレポーターの出口なし"
+"TF_playerid_object_recharging"			"  -  リチャージ中: %s1%"
 "TF_playerid_object_flooded"			"Flooded"
 "TF_playerid_carrying"					"Carrying: %s1"
 "TF_playerid_carrying_lvl"				"Carrying: %s1 (Level %s2)"
 
-"TF_friendly"							"Friendly"
-"TF_enemy"								"Enemy"
+"TF_friendly"							"友"
+"TF_enemy"								"敵"
 
 // ----------------------------------------------------------------
 // Respawning
@@ -158,12 +158,12 @@
 // Kill feed
 // ----------------------------------------------------------------
 
-"DeathMsg_KilledVIP"			"killed the VIP!"
-"DeathMsg_KilledTeamVIP"		"killed the %s1 VIP!"
+"DeathMsg_KilledVIP"			"がVIPを殺害した！"
+"DeathMsg_KilledTeamVIP"		"が%s1 VIPを殺害した！"
 
 "DeathMsg_VIP"					"VIP"
-"DeathMsg_ComboKill"			"COMBO KILL!"
-"DeathMsg_AirshotKill"			"AIRSHOT!"
+"DeathMsg_ComboKill"			"コンボキル！"
+"DeathMsg_AirshotKill"			"エイルショト！"
 
 // Custom suicides
 "DeathMsg_Suicide_Boioing"		"took to the skies!"
@@ -421,85 +421,85 @@
 "TF_Weapon_Bat"			"Bat"
 "TF_Weapon_Bat_Desc"	"Got dozens of these. Ain't afraid to break one on you."
 // Bottle
-"TF_Weapon_Bottle"		"Bottle"
-"TF_Weapon_Bottle_Desc"	"No, no, you're supposed ta drink it!"
+"TF_Weapon_Bottle"		"ボトル"
+"TF_Weapon_Bottle_Desc"	"おい、俺のサイダーの瓶が！"
 // Fire Axe
-"TF_Weapon_FireAxe"			"Fire Axe"
+"TF_Weapon_FireAxe"			"消防斧"
 "TF_Weapon_FireAxe_Desc"	"Teach the valuable lesson of fire safety."
 // Kukri
-"TF_Weapon_Kukri"		"Kukri"
+"TF_Weapon_Kukri"		"ククリ"
 "TF_Weapon_Kukri_Desc"	"Cut up by a sharpshooter. Now that's a folly."
 // Knife
-"TF_Weapon_Knife"		"Knife"
+"TF_Weapon_Knife"		"ナイフ"
 "TF_Weapon_Knife_Desc"	"For the man who loves to watch things unfold."
 // Fists
-"TF_Weapon_Fists"		"Fists"
+"TF_Weapon_Fists"		"拳"
 "TF_Weapon_Fists_Desc"	"I am not done with you yet!"
 // Shovel
-"TF_Weapon_Shovel"		"Shovel"
+"TF_Weapon_Shovel"		"シャベル"
 "TF_Weapon_Shovel_Desc"	"Bury your enemies in times of war, and rob their graves in times of relative peace."
 // Wrench
-"TF_Weapon_Wrench"		"Wrench"
+"TF_Weapon_Wrench"		"レンチ"
 "TF_Weapon_Wrench_Desc"	"I do a little bit of everything."
 // Bonesaw
-"TF_Weapon_Bonesaw"			"Bonesaw"
+"TF_Weapon_Bonesaw"			"骨用電ノコ"
 "TF_Weapon_Bonesaw_Desc"	"Don't worry, it's not my blood! ...Or, now that I look at it, I'm not so sure."
 // Shotgun
-"TF_Weapon_Shotgun"					"Shotgun"
+"TF_Weapon_Shotgun"					"散弾銃"
 "TF_Weapon_Shotgun_Desc_Engineer"	"Sometimes, you just have to do things yourself."
 "TF_Weapon_Shotgun_Desc_Soldier"	"My shotgun disagrees with your will to live, maggot!"
 "TF_Weapon_Shotgun_Desc_Heavy"		"Heavy will make do with this."
 "TF_Weapon_Shotgun_Desc_Pyro"		"Let this do the talking."
 // Scattergun
-"TF_Weapon_Scattergun"		"Scattergun"
+"TF_Weapon_Scattergun"		"スカッターガン"
 "TF_Weapon_Scattergun_Desc"	"Relax, pal, I just winged ya!"
 // Sniper Rifle
-"TF_Weapon_SniperRifle"			"Sniper Rifle"
+"TF_Weapon_SniperRifle"			"狙撃銃"
 "TF_Weapon_SniperRifle_Desc"	"Gets the job done."
 // Minigun
-"TF_Weapon_Minigun"			"Minigun"
+"TF_Weapon_Minigun"			"ミニガン"
 "TF_Weapon_Minigun_Desc"	"Sascha not even listen to Heavy. You think she listen to YOU?"
 // SMG
 "TF_Weapon_SMG"			"SMG"
 "TF_Weapon_SMG_Desc"	"Now how about that? We're both more dangerous up close."
 // Syringe Gun
-"TF_Weapon_SyringeGun"		"Syringe Gun"
+"TF_Weapon_SyringeGun"		"注射銃"
 "TF_Weapon_SyringeGun_Desc"	"Ooh, you make a good sharps container!"
 // Rocket Launcher
-"TF_Weapon_RocketLauncher"		"Rocket Launcher"
+"TF_Weapon_RocketLauncher"		"ロケットランチャー"
 "TF_Weapon_RocketLauncher_Desc"	"The perfect weapon for the perfect Soldier!"
 // Grenade Launcher
-"TF_Weapon_GrenadeLauncher"			"Grenade Launcher"
+"TF_Weapon_GrenadeLauncher"			"榴弾ランチャー"
 "TF_Weapon_GrenadeLauncher_Desc"	"Leave it to me, lad."
 // Stickybomb Launcher
-"TF_Weapon_StickybombLauncher"		"Stickybomb Launcher"
+"TF_Weapon_StickybombLauncher"		"粘着爆弾ランチャー"
 "TF_Weapon_StickybombLauncher_Desc"	"I'll blast 'em straight up inta Heaven meself if I need ta."
 // Flame Thrower
-"TF_Weapon_FlameThrower"		"Flame Thrower"
+"TF_Weapon_FlameThrower"		"火炎放射器"
 "TF_Weapon_FlameThrower_Desc"	"Things are heating up..."
 // Pistol
-"TF_Weapon_Pistol"					"Pistol"
+"TF_Weapon_Pistol"					"チャカ"
 "TF_Weapon_Pistol_Desc_Engineer"	"Start dancin', boy."
 "TF_Weapon_Pistol_Desc_Scout"		"Everyone's outta range 'til they ain't."
 // Revolver
-"TF_Weapon_Revolver"		"Revolver"
+"TF_Weapon_Revolver"		"リボルバー"
 "TF_Weapon_Revolver_Desc"	"For when stealth is no longer an option."
 // PDA: Teleporter (Construction PDA)
-"TF_Weapon_ConstructionPDA"			"Construction PDA"
+"TF_Weapon_ConstructionPDA"			"建設PDA"
 "TF_Weapon_ConstructionPDA_Desc"	"Everything an Engineer like myself needs, all in this little device here."
-"TF_Weapon_PDATeleporter"			"PDA: Teleporter"
+"TF_Weapon_PDATeleporter"			"PDA:テレポーター"
 // Destruction PDA
-"TF_Weapon_DestructionPDA"	"Destruction PDA"
+"TF_Weapon_DestructionPDA"	"破壊PDA"
 // Disguise Kit
-"TF_Weapon_DisguiseKit"	"Disguise Kit"
+"TF_Weapon_DisguiseKit"	"変装キット"
 // Medi Gun
-"TF_Weapon_Medigun"			"Medi Gun"
+"TF_Weapon_Medigun"			"メディガン"
 "TF_Weapon_Medigun_Desc"	"You do all have the same blood type, yes? More or less?"
 // Invis Watch
-"TF_Weapon_InvisWatch"		"Invis Watch"
+"TF_Weapon_InvisWatch"		"透明ウォッチ"
 "TF_Weapon_InvisWatch_Desc"	"Stylish. A shame they'll never see it."
 // Sapper
-"TF_Weapon_Sapper"		"Sapper"
+"TF_Weapon_Sapper"		"サッパー"
 "TF_Weapon_Sapper_Desc"	"Who left that there?"
 
 // ----------------------------------------------------------------
@@ -513,10 +513,10 @@
 "TF_Weapon_Uberspritze"			"Überspritze"
 "TF_Weapon_Uberspritze_Desc"	"Oh, quit squirming, it's for a good cause!"
 // Flare Gun
-"TF_Weapon_FlareGun"		"Flare Gun"
+"TF_Weapon_FlareGun"		"信号拳銃"
 "TF_Weapon_FlareGun_Desc"	"Someone's on fire! Quick, send out a distress signal!"
 // Sandvich
-"TF_Weapon_Sandvich"		"Sandvich"
+"TF_Weapon_Sandvich"		"サンドヴィッチ"
 "TF_Weapon_Sandvich_Desc"	"Come closer! I will give you taste."
 // Huntsman
 "TF_Weapon_Huntsman"		"Huntsman"
