@@ -58,7 +58,7 @@
 "Vote_ChangeCivilian"				"VIPを変更"
 "TF_vote_change_civilian"			"プレイヤー%s1をVIPに選ぶか？"
 "TF_vote_change_civilian_caller"	"プレイヤー%s1がVIPになりたい"
-"TF_vote_passed_change_civilian"	"VIPはプレイヤー：%s1になる..."
+"TF_vote_passed_change_civilian"	"VIPはプレイヤー:%s1になる..."
 
 // Player list dialog
 "TF_Volume_Generic"			"音量："
@@ -76,7 +76,7 @@
 "TF_Other_Name"						"他"
 
 // Disguise Kit global disguise
-"Hud_Menu_Disguise_GlobalTeam"		"Global Disguise: Every enemy will see you as their own team."
+"Hud_Menu_Disguise_GlobalTeam"		"グローバル偽装：すべての敵は、あなたを自軍のチームメンバーとして認識する。"
 
 // Autobalance
 "TF_teamswitch_green"				"GRNチームで参戦！"
@@ -114,19 +114,19 @@
 "TF_playerid_wpn"						"%s1"
 
 // Boosts
-"TF_playerid_healer"					"(Healer) "
-"TF_playerid_healtarget"				"(Healing) "
-"TF_playerid_mediccharge"				"ÜberCharge: %s1%"
-"TF_playerid_mediccharge_wpn"			"%s1  -  ÜberCharge: %s2%"
-"TF_playerid_civiliancharge"			"Boost: %s1%"
-"TF_playerid_civiliancharge_wpn"		"%s1 - Boost: %s2%"
+"TF_playerid_healer"					"(治療者) "
+"TF_playerid_healtarget"				"(回復) "
+"TF_playerid_mediccharge"				"ユーバーチャージ: %s1%"
+"TF_playerid_mediccharge_wpn"			"%s1  -  ユーバーチャージ: %s2%"
+"TF_playerid_civiliancharge"			"ブースト: %s1%"
+"TF_playerid_civiliancharge_wpn"		"%s1 - ブースト: %s2%"
 
 // Buildings
 "TF_playerid_object"					"%s1 (%s2)"
 "TF_playerid_object_diffteam"			"Enemy %s1 (%s2)"
 "TF_playerid_object_mini"				"Mini-%s1 (%s2)"
 "TF_playerid_object_mode"				"%s1 %s3 (%s2) "
-"TF_playerid_object_level"				"Level %s1"
+"TF_playerid_object_level"				"レベル%s1"
 "TF_playerid_object_upgrade"			"Upgrade: %s1"
 "TF_playerid_object_upgrade_level"		"Level %s1  -  Upgrade: %s2"
 "TF_playerid_object_upgrading"			"Upgrading..."
@@ -137,8 +137,8 @@
 "TF_playerid_teleporter_no_exit"		"  -  テレポーターの出口なし"
 "TF_playerid_object_recharging"			"  -  リチャージ中: %s1%"
 "TF_playerid_object_flooded"			"Flooded"
-"TF_playerid_carrying"					"Carrying: %s1"
-"TF_playerid_carrying_lvl"				"Carrying: %s1 (Level %s2)"
+"TF_playerid_carrying"					"運んでいる: %s1"
+"TF_playerid_carrying_lvl"				"運んでいる: %s1 (レベル%s2)"
 
 "TF_friendly"							"友"
 "TF_enemy"								"敵"
@@ -534,7 +534,7 @@
 "TF_Weapon_Umbrella"		"Umbrella"
 "TF_Weapon_Umbrella_Desc"	"A man of quality must remain dry."
 // Nail Gun
-"TF_Weapon_NailGun"			"Nail Gun"
+"TF_Weapon_NailGun"			"ネイルガン"
 "TF_Weapon_NailGun_Desc"	"Yeah, lost that job pretty quick."
 // R.P.G.
 "TF_Weapon_RPG"			"R.P.G."
@@ -601,7 +601,7 @@
 "TF_Weapon_DerbyCane"		"Derby Cane"
 "TF_Weapon_DerbyCane_Desc"	"Feeling motivated, lad? You'd better be."
 // Cyclops
-"TF_Weapon_Cyclops"			"Cyclops"
+"TF_Weapon_Cyclops"			"サイクロプス"
 "TF_Weapon_Cyclops_Desc"	"In the land of the blind, you are king."
 
 // ----------------------------------------------------------------
@@ -923,7 +923,7 @@ Honorable hand to sword combat only!"
 "TF_GameModeDesc_Domination"	"Capture points and hold them for as long as possible."
 "TF_GameModeDesc_Arena"			"Eliminate all enemy players or wait for the control point to unlock."
 
-"TF_GameModeBrief_VIPRace"		"VIP Race - Both teams have VIPs"
+"TF_GameModeBrief_VIPRace"		"VIPレース - 両チームにVIPがいる"
 
 // ----------------------------------------------------------------
 // Gamemode strings
@@ -982,24 +982,24 @@ If Sudden Death occurs, the enemy VIP can be killed to win the round!"
 "vipr_setup_goal"		"Escort your VIP to the Control Points. Stop the enemy VIP from doing the same!"
 "vipr_setup_goal_4team"	"Escort your VIP to the Control Points. Stop the enemy teams from doing the same!"
 
-"vipr_cap_wrong_vip"	"Capture the ENEMY Control Point, dummy!"
+"vipr_cap_wrong_vip"	"敵のコントロールポイントを奪取しろ、バカ！"
 "vipr_own_civ_death"	"Your VIP has been eliminated! Protect him!"
 "vipr_their_civ_death"	"Good job! Their VIP has been eliminated!"
-"vipr_cap_a_reset"		"Control Point A has been reset!"
-"vipr_cap_b_reset"		"Control Point B has been reset!"
-"vipr_cap_a_reset_vip"	"You died! Control Point A has been reset!"
-"vipr_cap_b_reset_vip"	"You died! Control Point B has been reset!"
+"vipr_cap_a_reset"		"コントロールポイントAがリセットした！"
+"vipr_cap_b_reset"		"コントロールポイントBがリセットした！"
+"vipr_cap_a_reset_vip"	"死亡した！コントロールポイントAがリセットした！"
+"vipr_cap_b_reset_vip"	"死亡した！コントロールポイントBがリセットした！"
 
-"vipr_central_point"		"the Central Control Point"
-"vipr_cap_mid_reset"		"The Central Control Point has been reset!"
-"vipr_death_cap_mid_reset"	"You died! The Central Control Point has been reset!"
+"vipr_central_point"		"立てのコントロールポイント"
+"vipr_cap_mid_reset"		"立てのコントロールポイントがリセットした！"
+"vipr_death_cap_mid_reset"	"死亡した！コントロールポイントAがリセットした！"
 
 "vipr_red_civ_death"	"REDのVIPが斃れた！"
 "vipr_blu_civ_death"	"BLUのVIPが斃れた！"
 "vipr_ylw_civ_death"	"YLWのVIPが斃れた！"
 "vipr_grn_civ_death"	"GRNのVIPが斃れた！"
 
-"vipr_escape_zone"	"the Escape Zone"
+"vipr_escape_zone"	"脱出ゾーン"
 
 // Territorial Domination
 "default_td_description"			"Objective:
@@ -1161,9 +1161,9 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_Friends_Status_Idle_InMod"		"他のMODで放置中"
 "TF_Friends_Status_InGame"			"他のゲームをプレイ中"
 "TF_Friends_Status_Idle"			"他のゲームで放置中"
-"TF_Friends_Status_Online"			"Online"
-"TF_Friends_Status_Away"			"Away"
-"TF_Friends_Status_Offline"			"Offline"
+"TF_Friends_Status_Online"			"オンライン"
+"TF_Friends_Status_Away"			"アウェイ"
+"TF_Friends_Status_Offline"			"オフライン"
 
 "ChallengeDetails"					"%s1 as the %s2"
 
@@ -1483,7 +1483,7 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_NAME"		"首が飛ぶぞ"
 "TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_DESC"		"Harvesterで1ライフ中に敵を3人斬首する。"
 "TF2C_ACHIEVEMENT_CYCLOPS_COMBO_NAME"					"スプラッター・コンボ"
-"TF2C_ACHIEVEMENT_CYCLOPS_COMBO_DESC"					"Cyclopsのコンボ爆発1回で敵を3人以上倒す。"
+"TF2C_ACHIEVEMENT_CYCLOPS_COMBO_DESC"					"サイクロプスのコンボ爆発1回で敵を3人以上倒す。"
 "TF2C_ACHIEVEMENT_SANDVICH_MINES_NAME"					"軍縮"
 "TF2C_ACHIEVEMENT_SANDVICH_MINES_DESC"					"ヘビーとして、5秒以上設置されている敵の地雷を近づかずに安全に起爆する。"
 "TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_NAME"					"1、1、1、えと～～～"
@@ -1549,13 +1549,13 @@ Team ownership of Control Points is randomized at the start of each round."
 "ServerBrowser_ServerTypeFilter" 	"Server type"
 "ServerBrowser_MapNameFilter" 		"Map name"
 "ServerBrowser_SortBy" 				"Sort by:"
-"ServerBrowser_SortByName" 			"Name"
-"ServerBrowser_SortByMap" 			"Map"
-"ServerBrowser_SortByPlayers" 		"Players"
+"ServerBrowser_SortByName" 			"名前"
+"ServerBrowser_SortByMap" 			"マップ"
+"ServerBrowser_SortByPlayers" 		"プレイヤー"
 "ServerBrowser_SortByLatency" 		"Latency"
 "ServerBrowser_SortByLastPlayed" 	"Last played"
 "ServerBrowser_UseLegacyBrowser" 	"Use legacy browser"
-"ServerBrowser_CurrentMapHeading" 	"Current map:"
+"ServerBrowser_CurrentMapHeading" 	"今のマップ"
 "ServerBrowser_TagListHeading" 		"Tags:"
 "ServerBrowser_OfficialDetail" 		"このサーバーは公式"
 "ServerBrowser_VerifiedDetail" 		"このサーバーは認証済み"
