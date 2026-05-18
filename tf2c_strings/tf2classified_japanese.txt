@@ -1061,57 +1061,57 @@ Team ownership of Control Points is randomized at the start of each round."
 // Scoreboard
 // ----------------------------------------------------------------
 
-"TF_ScoreBoard_Player"				"%s1 Player"
-"TF_ScoreBoard_Players"				"%s1 Players"
+"TF_ScoreBoard_Player"				"%s1 プレイヤー"
+"TF_ScoreBoard_Players"				"%s1 プレイヤー数"
 
 "ScoreBoard_Spectator"				"%s1 Spectator: %s2"
 "ScoreBoard_Spectators"				"%s1 Spectators: %s2"
 
-"TF_ScoreBoard_KillsLabel"			"Kills:"
-"TF_ScoreBoard_AssistsLabel"		"Assists:"
-"TF_ScoreBoard_DeathsLabel"			"Deaths:"
+"TF_ScoreBoard_KillsLabel"			"キル："
+"TF_ScoreBoard_AssistsLabel"		"アシスト："
+"TF_ScoreBoard_DeathsLabel"			"死亡："
 
-"TF_Scoreboard_DamageLabel"			"Damage:"
-"TF_ScoreBoard_HealingLabel"		"Healing:"
-"TF_Scoreboard_SupportLabel"		"Support:"
+"TF_Scoreboard_DamageLabel"			"ダメージ："
+"TF_ScoreBoard_HealingLabel"		"回復："
+"TF_Scoreboard_SupportLabel"		"サポート："
 
-"TF_ScoreBoard_CapturesLabel"		"Captures:"
-"TF_ScoreBoard_DefensesLabel"		"Defenses:"
-"TF_ScoreBoard_DominationsLabel"	"Dominations:"
-"TF_ScoreBoard_RevengesLabel"		"Revenges:"
-"TF_ScoreBoard_BonusLabel"			"Bonus:"
+"TF_ScoreBoard_CapturesLabel"		"奪取数："
+"TF_ScoreBoard_DefensesLabel"		"防衛数："
+"TF_ScoreBoard_DominationsLabel"	"制圧数："
+"TF_ScoreBoard_RevengesLabel"		"リベンジ："
+"TF_ScoreBoard_BonusLabel"			"ボーナス："
 
-"TF_ScoreBoard_UberchargesLabel"	"ÜberCharges:"
+"TF_ScoreBoard_UberchargesLabel"	"ユーバーチャージ："
 "TF_ScoreBoard_TransportsLabel"		"Transports:"
 "TF_ScoreBoard_DestructionsLabel"	"Destructions:"
-"TF_ScoreBoard_HeadshotsLabel"		"Headshots:"
-"TF_ScoreBoard_BackstabsLabel"		"Backstabs:"
+"TF_ScoreBoard_HeadshotsLabel"		"ヘッドショット："
+"TF_ScoreBoard_BackstabsLabel"		"背後からの襲撃："
 
-"TF_Medal_Developer"				"TF2C Developer"
-"TF_Medal_Contributor"				"TF2C Contributor"
-"TF_Medal_Playtester"				"TF2C Playtester"
+"TF_Medal_Developer"				"TF2C開発者"
+"TF_Medal_Contributor"				"TF2C提供者"
+"TF_Medal_Playtester"				"TF2Cプレイーテスター"
 
 // ----------------------------------------------------------------
 // Win Panel
 // ----------------------------------------------------------------
 
-"Winpanel_Teams1"	"TEAMS"
-"Winpanel_Teams2"	"Teams"
+"Winpanel_Teams1"	"チーム"
+"Winpanel_Teams2"	"チーム"
 
-"Winpanel_TeamWins"		"%s1 %s2 WINS!"
-"Winpanel_TeamLost"		"%s1 %s2 LOST!"
-"Winpanel_TeamAdvances"	"%s1 %s2 SEIZES AREA"
-"Winpanel_TeamDefends"	"%s1 %s2 DEFENDS!"
+"Winpanel_TeamWins"		"%s1 %s2の勝利！"
+"Winpanel_TeamLost"		"%s1 %s2の敗北！"
+"Winpanel_TeamAdvances"	"%s1 %s2がエリアを制圧"
+"Winpanel_TeamDefends"	"%s1 %s2が防御！"
 
 "WinPanel_Green_Team_Wins"	"GRN Team Wins"
 "WinPanel_Yellow_Team_Wins"	"YLW Team Wins"
 
 "Winpanel_GreenWins"		"GRNチームの勝利！"
-"Winpanel_GreenAdvances"	"GRN TEAM SEIZES AREA"
-"Winpanel_GreenDefends"		"GRN TEAM DEFENDS!"
+"Winpanel_GreenAdvances"	"GRNチームがエリアを制圧"
+"Winpanel_GreenDefends"		"GRNチームが防御！"
 "Winpanel_YellowWins"		"YLWチームの勝利！"
-"Winpanel_YellowAdvances"	"YLW TEAM SEIZES AREA"
-"Winpanel_YellowDefends"	"YLW TEAM DEFENDS!"
+"Winpanel_YellowAdvances"	"YLWチームがエリアを制圧"
+"Winpanel_YellowDefends"	"YLWチームが防御！"
 "Winpanel_GreenMVPs"		"GRNのMVP："
 "Winpanel_YellowMVPs"		"YLWのMVP："
 
@@ -1119,8 +1119,8 @@ Team ownership of Control Points is randomized at the start of each round."
 "Winreason_PayloadPushed"		"%s1 pushed the payload to the final terminus"
 "Winreason_ArenaPointCaptured"	"%s1 captured the Control Point"
 "Winreason_RoundScoreLimit"		"%s1 reached %s2 points"
-"Winreason_VIPEscaped"			"The VIP has escaped"
-"Winreason_VIPKilled"			"The VIP was eliminated"
+"Winreason_VIPEscaped"			"VIPが脱出した"
+"Winreason_VIPKilled"			"VIPが殺害された"
 
 // ----------------------------------------------------------------
 // Main Menu
@@ -1129,19 +1129,19 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_Menu_Welcome"			"おかえり、"
 "TF_Menu_Name"				"%playername%！"
 
-"TF_Menu_HideName"			"[REDACTED]"
+"TF_Menu_HideName"			"［検閲済み］"
 
-"TF_Menu_ResumeGame"		"Resume Game"
-"TF_Menu_Mute"				"Mute Players"
-"TF_Menu_Vote"				"Call a Vote"
+"TF_Menu_ResumeGame"		"ゲームに戻る"
+"TF_Menu_Mute"				"プレイヤーをミュートにする"
+"TF_Menu_Vote"				"投票の呼びかけ"
 
-"TF_Menu_FindServers"		"Find Servers"
-"TF_Menu_CreateServer"		"Create Server"
-"TF_Menu_OfflineTraining"	"Offline Training"
+"TF_Menu_FindServers"		"サーバーを探す"
+"TF_Menu_CreateServer"		"サーバーを作成する"
+"TF_Menu_OfflineTraining"	"オフライン・プラクティス"
 
-"TF_Menu_Loadout"			"Loadout"
+"TF_Menu_Loadout"			"装備"
 
-"TF_Menu_Achievements"		"Achievements"
+"TF_Menu_Achievements"		"実績"
 "TF_Menu_Stats"				"データ"
 
 "TF_Menu_Options"			"Options"
@@ -1203,7 +1203,7 @@ Team ownership of Control Points is randomized at the start of each round."
 // Reset inventory
 "TF_ConfirmDefaultInventory_Title"		"Default Loadout"
 "TF_ConfirmDefaultInventory_Message"	"Are you sure you want to return to default items for this class?"
-"TF_ConfirmDefaultInventory_OK"			"Yes"
+"TF_ConfirmDefaultInventory_OK"			"はい"
 
 // ----------------------------------------------------------------
 // Options
