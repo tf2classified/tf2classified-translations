@@ -1144,15 +1144,15 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_Menu_Achievements"		"実績"
 "TF_Menu_Stats"				"データ"
 
-"TF_Menu_Options"			"Options"
-"TF_Menu_Addons"			"Addons (Coming Soon!)"
+"TF_Menu_Options"			"オプション"
+"TF_Menu_Addons"			"アッドン（近日公開！）"
 
-"TF_Menu_Quit"				"Quit"
-"TF_Menu_Disconnect"		"Disconnect"
+"TF_Menu_Quit"				"終了"
+"TF_Menu_Disconnect"		"接続解除"
 
-"TF_Menu_Blog"				"Website"
-"TF_Menu_ReportBug"			"Report a Bug"
-"TF_Menu_Donate"			"Donate"
+"TF_Menu_Blog"				"ウェブサイト"
+"TF_Menu_ReportBug"			"バグを報告"
+"TF_Menu_Donate"			"施す"
 
 "TF_Friends_Title"					"友達(%friend_count%)"
 "TF_Friends_Status_InTF2C"			"TF2Cをプレイ中"
@@ -1165,7 +1165,7 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_Friends_Status_Away"			"アウェイ"
 "TF_Friends_Status_Offline"			"オフライン"
 
-"ChallengeDetails"					"%s1 as the %s2"
+"ChallengeDetails"					"%s2役の%s1"
 
 
 // ----------------------------------------------------------------
@@ -1217,7 +1217,7 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF2c_KeyboardCategory_UI"  		 	"UI"
 "TF2c_KeyboardCategory_Extra"			"EXTRA"
 "TF2c_UseDefaultsButton"				"Reset Binds"
-"TF_ClassSkill_Spy_Spywalk"				"SPY: Spywalk"
+"TF_ClassSkill_Spy_Spywalk"				"スパイ：スパイワック"
 "TF_Voice_Menu_0_0"						"音声コマンド：メディック！"
 "TF_Voice_Menu_0_1"						"音声コマンド：ありがとう！"
 "TF_Voice_Menu_1_0"						"音声コマンド：来るぞ！"
@@ -1449,10 +1449,10 @@ Team ownership of Control Points is randomized at the start of each round."
 // ----------------------------------------------------------------
 
 // Achievement groups
-"Achievement_Group_3000"	"Offense Classes (%s1 of %s2)"
-"Achievement_Group_3100"	"Defense Classes (%s1 of %s2)"
-"Achievement_Group_3200"	"Support Classes (%s1 of %s2)"
-"Achievement_Group_3300"	"Maps and Gamemodes (%s1 of %s2)"
+"Achievement_Group_3000"	"Offense Classes （%s2分の%s1）"
+"Achievement_Group_3100"	"Defense Classes （%s2分の%s1）"
+"Achievement_Group_3200"	"Support Classes （%s2分の%s1）"
+"Achievement_Group_3300"	"Maps and Gamemodes （%s2分の%s1）"
 
 // Launch achievements
 "TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_NAME"			"計算された事故"
