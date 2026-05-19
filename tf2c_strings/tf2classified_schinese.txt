@@ -60,6 +60,9 @@
 "TF_vote_change_civilian_caller"	"玩家 %s1 想成为VIP。"
 "TF_vote_passed_change_civilian"	"VIP将会是：%s1..."
 
+// Player list dialog
+"TF_Volume_Generic"			"音量："
+
 // ----------------------------------------------------------------
 // Teams
 // ----------------------------------------------------------------
@@ -1147,9 +1150,9 @@
 "TF_Menu_Quit"				"退出游戏"
 "TF_Menu_Disconnect"		"断开连接"
 
-"TF_Menu_Blog"				"官方博客"
-"TF_Menu_LatestUpdate"		"最后更新"
+"TF_Menu_Blog"				"官方网站"
 "TF_Menu_ReportBug"			"汇报错误"
+"TF_Menu_Donate"			"贊助"
 
 "TF_Friends_Title"					"好友（%friend_count%）"
 "TF_Friends_Status_InTF2C"		    "正在游玩军团要塞2：秘典"
@@ -1405,6 +1408,8 @@
 "TF_Network_Rate_Tip"       		"设置网络更新的速率，更新越快，系统“猜测补偿”的程度就越小。\n\n建议逐一尝试不同设置，看看在你的网络连接条件下哪种效果最好。"
 
 // Video
+"TF2c_Option_ClassicShading"		"经典人物着色"
+"TF2c_Option_ClassicShading_Tip"	"若选中此选项，将对玩家模型材质启用 full-lambertian 着色。"
 "TF2c_Option_BloomScale"	        "泛光效果（此选项会影响性能。1.0为默认值）"
 "TF2c_Option_FramerateLimit"		"游戏帧数限制"
 

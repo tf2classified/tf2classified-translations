@@ -21,27 +21,14 @@
 "Chat_Team_Loc"			"(КОМАНДЕ) %s1 @ %s3: %s2"
 "Chat_Team_Dead"		"(КОМАНДЕ) *МЁРТВ* %s1: %s2"
 "Chat_Team_Spec"		"(КОМАНДЕ) *НАБЛЮДАТЕЛЬ* %s1: %s2"
-
 "Chat_All_Dev"			"[РАЗРАБОТЧИК] %s1: %s2"
 "Chat_All_Dev_Dead"		"*МЁРТВ* [РАЗРАБОТЧИК] %s1: %s2"
 "Chat_All_Dev_Spec"		"*НАБЛЮДАТЕЛЬ* [РАЗРАБОТЧИК] %s1: %s2"
-"Chat_Team_Dev"			"(КОМАНДЕ) [РАЗРАБОТЧИК] %s1: %s2"
+"Chat_Team_Dev"			"(КОМАНДЕ) [РАЗРАБОТЧИК] %s1: %s2"
 "Chat_Team_Dev_Loc"		"(КОМАНДЕ) [РАЗРАБОТЧИК] %s1 @ %s3: %s2"
-"Chat_Team_Dev_Dead"	"(КОМАНДЕ) *МЁРТВ* [РАЗРАБОТЧИК] %s1: %s2"
+"Chat_Team_Dev_Dead"	"(КОМАНДЕ) *МЁРТВ* [РАЗРАБОТЧИК] %s1: %s2"
 "Chat_Team_Dev_Spec"	"(КОМАНДЕ) *НАБЛЮДАТЕЛЬ* [РАЗРАБОТЧИК] %s1: %s2"
-
 "Chat_Voice"			"(ГОЛОС) "
-
-// Chat Printouts
-"TF_Joined_Game"				"%s1 вступает в игру"
-"TF_Left_Game"					"%s1 покидает игру (%s2)"
-"TF_Joined_Team"				"%s1 присоединяется к команде %s2"
-"TF_Name_Change"				"* %s1 меняет имя на %s2"
-
-"TF_Team_Balanced"				"Игрок %s1 был перемещён в команду %s2"
-"TF_Autobalance_TeamChangeDone"	"Вы были перемещены в команду %s1"
-
-"TF_VIP_Assigned"				"%s1 теперь VIP!"
 
 // Chat Filters
 "Chat_Filter_Voice"		"Голосовые команды"
@@ -59,6 +46,9 @@
 "TF_vote_change_civilian"			"Назначить игроку %s1 роль VIP?"
 "TF_vote_change_civilian_caller"	"Игрок %s1 хочет быть VIP."
 "TF_vote_passed_change_civilian"	"VIP будет игрок: %s1..."
+
+// Player list dialog
+"TF_Volume_Generic"			"Громкость:"
 
 // ----------------------------------------------------------------
 // Teams
@@ -78,6 +68,18 @@
 // Autobalance
 "TF_teamswitch_green"			"Теперь вы с Зелёными!"
 "TF_teamswitch_yellow"			"Теперь вы с Жёлтыми!"
+
+
+// Chat Printouts
+"TF_Team_Balanced"					"Игрок %s1 был перемещён в команду %s2"
+"TF_Autobalance_TeamChangeDone"		"Вы были перемещены в команду %s1"
+"TF_Name_Change"					"* %s1 меняет имя на %s2"
+"TF_Joined_Game"					"%s1 вступает в игру"
+"TF_Left_Game"						"%s1 покидает игру (%s2)"
+"TF_Joined_Team"					"%s1 присоединяется к команде %s2"
+"TF_Joined_AutoTeam" 				"%s1 автоматически присоединяется к команде %s2"
+"TF_AutoBalanced"					"%s1 переходит в команду %s2 для сохранения игрового баланса"
+"TF_AutoBalance_Warning"			"Нарушен баланс команд"
 
 // ----------------------------------------------------------------
 // Classes
@@ -776,6 +778,8 @@
 "Attrib_JumpPadNoUpgrade"							"Катапульты не могут быть улучшены"
 "Attrib_AltFire_HasteBoost"							"Доп. атака: дать эффект ускорения выбранному союзнику"
 "Attrib_AltFire_UberBubble"							"Доп. атака: запускает устройство, дающее неуязвимость вокруг"
+"Attrib_SetPlayerScale_Wearer_Decreased"            "Уменьшает носителя на %s1%"
+"Attrib_RaptureEffect"                              "Даёт усиление дружественным игрокам, которое позволяет им летать.\nНанесение урона пополняет шкалу ярости."
 
 // ----------------------------------------------------------------
 // Map strings
@@ -947,6 +951,7 @@
 "vip_setup_goal_offense"	"Сопроводите VIP до зоны эвакуации."
 "vip_setup_goal_defense"	"Убейте вражеского VIP, чтобы не дать ему достигнуть зоны эвакуации."
 
+"TF_VIP_Assigned"				"%s1 теперь VIP!"
 "TF_VIP_Tutorial_Annotation_2"	"Он даёт прибавку к защите ближайшим союзникам и\nможет временно усилить игрока своей команды!"
 "TF_VIP_Tutorial_Annotation_3"	"Помните, его жизнь важнее вашей, поэтому не дайте ему умереть!"
 
@@ -1147,9 +1152,9 @@
 "TF_Menu_Quit"				"Выйти"
 "TF_Menu_Disconnect"		"Отключиться"
 
-"TF_Menu_Blog"				"Оф. блог"
-"TF_Menu_LatestUpdate"		"Последнее обновление"
+"TF_Menu_Blog"				"Вебсайт"
 "TF_Menu_ReportBug"			"Сообщить об ошибке"
+"TF_Menu_Donate"			"Пожертвовать"
 
 "TF_Friends_Title"					"Друзья (%friend_count%)"
 "TF_Friends_Status_InTF2C"			"Играет в TF2C"
@@ -1405,6 +1410,8 @@
 "TF_Network_Rate_Tip"       		"Задаёт частоту обновления сети, которая пропорционально задаёт уровень интерполяции.\n\nРекомендуется попробовать каждый вариант, чтобы узнать, что работает лучше с вашим интернет-соединением."
 
 // Video
+"TF2c_Option_ClassicShading"		"Классическое затенение"
+"TF2c_Option_ClassicShading_Tip"	"Если включено, затенение игроков будет выполняться по модели Ламберта"
 "TF2c_Option_BloomScale"	"Сила эффекта свечения"
 "TF2c_Option_FramerateLimit"		"Ограничение частоты кадров в секунду"
 

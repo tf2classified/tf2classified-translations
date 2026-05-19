@@ -10,8 +10,8 @@
 // Channels
 "Channel_All"			"ALLE"
 "Channel_Team"			"TEAM"
-"Switch_All"			"(TAB-Taste: ALLE-Chat)"
-"Switch_Team"			"(TAB-Taste: TEAM-Chat)"
+"Switch_All"			"(TAB-Taste: TEAM-Chat)"
+"Switch_Team"			"(TAB-Taste: ALLE-Chat)"
 
 // Chat Prefixes
 "Chat_All"				"%s1: %s2"
@@ -33,6 +33,14 @@
 "Chat_Voice"			"(SPRACHE) "
 
 // Chat Printouts
+"TF_Joined_Game"				"%s1 nimmt jetzt am Spiel teil"
+"TF_Left_Game"					"%s1 hat das Spiel verlassen (%s2)"
+"TF_Joined_Team"				"%s1 ist Team %s2 beigetreten"
+"TF_Name_Change"				"* %s1 änderte Name zu %s2"
+
+"TF_Team_Balanced"				"%s1 wurde zum Team %s2 verschoben"
+"TF_Autobalance_TeamChangeDone"	"Sie wurden zum Team %s1 verschoben"
+
 "TF_VIP_Assigned"				"%s1 ist jetzt der VIP!"
 
 // Chat Filters
@@ -52,6 +60,9 @@
 "TF_vote_change_civilian_caller"	"Spieler %s1 möchte zum VIP werden."
 "TF_vote_passed_change_civilian"	"Der VIP wird Spieler: %s1 sein..."
 
+// Player list dialog
+"TF_Volume_Generic"			"Lautstärke:"
+
 // ----------------------------------------------------------------
 // Teams
 // ----------------------------------------------------------------
@@ -65,7 +76,11 @@
 "TF_Other_Name"	"ANDERE"
 
 // Disguise Kit global disguise
-"Hud_Menu_Disguise_GlobalTeam"	"Polyperspekt. Verkleidung: Alle Feinde werden Sie als Teil ihres eigenen Teams betrachten."
+"Hud_Menu_Disguise_GlobalTeam"	"Polyperspekt. Verkleidung: Alle Feinde werden Sie als Teil Ihres eigenen Teams betrachten."
+
+// Autobalance
+"TF_teamswitch_green"				"Sie sind jetzt in Team GRN!"
+"TF_teamswitch_yellow"				"Sie sind jetzt in Team YLW!"
 
 // ----------------------------------------------------------------
 // Classes
@@ -104,6 +119,7 @@
 "TF_playerid_mediccharge"				"Überladung: %s1%"
 "TF_playerid_mediccharge_wpn"			"%s1  -  Überladung: %s2%"
 "TF_playerid_civiliancharge"			"Boost: %s1%"
+"TF_playerid_civiliancharge_wpn"		"%s1 - Boost: %s2%"
 
 // Buildings
 "TF_playerid_object"					"%s1 gebaut von %s2"
@@ -147,6 +163,7 @@
 "DeathMsg_KilledVIP"		"hat den VIP getötet!"
 "DeathMsg_KilledTeamVIP"	"hat den %s1 VIP getötet!"
 
+"DeathMsg_VIP"			"VIP"
 "DeathMsg_ComboKill"	"KOMBO-KILL!"
 "DeathMsg_AirshotKill"	"IN LUFT GETROFFEN!"
 
@@ -168,6 +185,9 @@
 "Voice_Menu_ChargeReadySubtitle"		"Überladung bereit! (100%)"
 "Voice_Menu_ChargeAlmostReadySubtitle"	"Überladung fast bereit (%s1%)"
 "Voice_Menu_ChargeNotReadySubtitle"		"Überladung noch nicht bereit! (%s1%)"
+
+"Voice_Menu_SingleChargeReadySubtitle"		"Überladung bereit! (%s1 Ladung)"
+"Voice_Menu_MultipleChargesReadySubtitle"	"Überladungen bereit! (%s1 Ladungen)"
 
 // ----------------------------------------------------------------
 // Class tips
@@ -383,6 +403,18 @@
 "Tip_10_10"		"Als Civilian können Sie Ihren Teamkollegen mit Ihrem Derby-Gehstock einen Hast-Boost verpassen. Dadurch können sich die Teamkollegen viel schneller bewegen und angreifen."
 "Tip_10_11"		"Als Civilian erhöht der Derby-Gehstock die Heilgeschwindigkeit des Medics und den Baufortschritt des Engineers."
 
+// Arena
+"Tip_arena_Count"		"9"
+"Tip_arena_1"			"Achten Sie auf die Spieleranzahl oben im Bildschirm, um zu erkennen, ob Ihr Team im Vorteil ist."
+"Tip_arena_2"			"In der Arena gibt es nur wenige Möglichkeiten, die eigene Gesundheit aufzufrischen - verteidigen Sie Ihre Medics und Engineers gut (und teilen Sie auch Ihren Sandvich)!"
+"Tip_arena_3"			"Der Kontrollpunkt in der Kartenmitte wird 60 Sekunden nach Rundenbeginn aktiviert. Erobern Sie den Kontrollpunkt, um versteckte Gegner aufzuspüren!"
+"Tip_arena_4"			"Erneutes Spawnen ist in der Arena nicht möglich, also besser nicht sterben!"
+"Tip_arena_5"			"In der Arena ist keine Klasse besonders überlegen. Versuchen Sie, die Teamzusammenstellung des Gegners zu kontern."
+"Tip_arena_6"			"Sie können Ihre Klasse nur zu Beginn eines Arena-Spiels ändern, solange die Tore noch nicht geöffnet sind."
+"Tip_arena_7"			"Halten Sie in der Arena Ihr Team zusammen, um sich in Gefahrensituationen gegenseitig zu helfen. Zu spät an der Front gelangen, kann Nachteile mit sich bringen."
+"Tip_arena_8"			"In der Arena darf der Feind keine Möglichkeit haben zu heilen. Vernichten Sie die gegnerischen Medics und Dispenser und verhindern Sie auch, dass der Feind keine Gesundheitspakete aufhebt!"
+"Tip_arena_9"			"Wer in der Arena einen ersten Kill erzielt kriegt einen Krit-Bonus. Nutzen Sie Ihr Vorteil aus, wenn Sie es kriegen! Wenn der Feind ihn bekommt, halten Sie sich zurück und warten Sie, bis der Krit-Bonus abklingt."
+
 // ----------------------------------------------------------------
 // Stock weapon strings
 // ----------------------------------------------------------------
@@ -580,7 +612,7 @@
 
 "TF_Weapon_Anchor"					"Anker"
 "TF_Weapon_Boots"					"Schuhe"
-"TF_Weapon_Bow"						"Säge"
+"TF_Weapon_Bow"						"Bogen"
 "TF_Weapon_Cane"					"Gehstock"
 "TF_Weapon_Chains"					"Ketten"
 "TF_Weapon_CigaretteCase"			"...Zigarettenetui?"
@@ -606,7 +638,7 @@
 "TF_Meter_Cloak"	"TARNEN"
 "TF_Meter_Crits"	"KRITS"
 "TF_Meter_Dynamite"	"DYNAMIT"
-"TF_Meter_Harvest"	"HARVEST"
+"TF_Meter_Harvest"	"ERNTEN"
 "TF_Meter_LunchBox"	"NAHRUNG"
 "TF_Meter_Therapy"	"THERAPIE"
 
@@ -853,6 +885,9 @@ Nur mit Nahkampfwaffen kämpfen ist ein ehrenvoller Kampf!"
 "Chopper_cap_A"				"das Radar von RED"
 "Chopper_cap_B"				"das Radar von BLU"
 
+// 4plr_sisyphus
+"Sisyphus_cap_peak"			"der Gipfel"
+
 // ----------------------------------------------------------------
 // Gamemodes
 // ----------------------------------------------------------------
@@ -991,6 +1026,11 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "generic_cap_D"			"Kontrollpunkt D"
 "generic_cap_E"			"Kontrollpunkt E"
 
+// Arena
+"TF_Arena_Welcome"				"Arena-Modus"
+"TF_Arena_Team_SizeIncreased"	"Die Teamgröße von %s1 wurde auf %s2 erhöht."
+"TF_Arena_Team_SizeDecreased"	"Die Teamgröße von %s1 wurde auf %s2 verringert."
+
 // ----------------------------------------------------------------
 // Intro movies
 // ----------------------------------------------------------------
@@ -1060,7 +1100,7 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "Winpanel_Teams2"	"Teams"
 
 "Winpanel_TeamWins"		"%s1 %s2 GEWINNT!"
-"Winpanel_TeamLost"		"%s1 %s2 VERLIERT/VERLIEREN!"
+"Winpanel_TeamLost"		"%s1 %s2 VERLIERT!"
 "Winpanel_TeamAdvances"	"%s1 %s2 EROBERT BEREICH"
 "Winpanel_TeamDefends"	"%s1 %s2 VERTEIDIGT!"
 
@@ -1088,6 +1128,9 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 // ----------------------------------------------------------------
 
 "TF_Menu_Welcome"			"Willkommen zurück,"
+"TF_Menu_Name"				"%playername%!"
+
+"TF_Menu_HideName"			"[ZENSIERT]"
 
 "TF_Menu_ResumeGame"		"Fortsetzen"
 "TF_Menu_Mute"				"Spieler stummschalten"
@@ -1109,6 +1152,8 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "TF_Menu_Disconnect"		"Verbindung trennen"
 
 "TF_Menu_Blog"				"TF2C Webseite"
+"TF_Menu_ReportBug"			"Fehler melden"
+"TF_Menu_Donate"			"Spenden"
 
 "TF_Friends_Title"					"Freunde (%friend_count%)"
 "TF_Friends_Status_InTF2C"			"Spielt TF2C"
@@ -1120,6 +1165,8 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "TF_Friends_Status_Online"			"Online"
 "TF_Friends_Status_Away"			"Abwesend"
 "TF_Friends_Status_Offline"			"Offline"
+
+"ChallengeDetails"					"%s1 als %s2"
 
 
 // ----------------------------------------------------------------
@@ -1194,6 +1241,7 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "TF_Enable"								"Aktivieren"
 "TF_Disable"							"Deaktivieren"
 "TF_RightClick_Enable"					"Rechtsklick zum Aktivieren"
+"TF_RightClick_Enable_Mouse"			"Rechtsklick zum Aktivieren für Maus"
 
 // TF2C custom hit feedback strings
 "tf_dingalingaling_TF2C"				"TF2C"
@@ -1270,6 +1318,8 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "GameUI_RestartText"					"Das Spiel muss neu gestartet werden, damit die Einstellung geändert wird:"
 "GameUI_OptionsRestart_Revert"			"Zurücksetzen"
 
+GameUI_Disconnect_TooManyCommands"		"Verb. getrennt: Zu viele Befehle."
+
 // Combat
 "TF2C_Option_DamageFeedback"				"Schadens-Fedback aktivieren"
 "TF2C_Tooltip_DamageFeedback"				"Schadens-Feedback spielt kontextbezogene Sounds ab, wenn unterschiedliche Arten von Schaden verursacht oder erlitten werden."
@@ -1339,6 +1389,8 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "TF_DeathNoticeMax_Tip"           "Legt die maximale Anzahl Ihrer Todesanzeigen fest, die gleichzeitig angezeigt werden."
 "TF_DeathNoticeTime"              "Todesanzeige - Ablaufzeit (In Sekunden)"
 "TF_DeathNoticeTime_Tip"          "Legt die Ablaufzeit für Todesanzeigen fest."
+"TF_GlowEffects"				  "Leuchteffekte verwenden"
+"TF_GlowEffects_Tip" 			  "Wenn eingeschaltet, werden während der Runde Leuchteffekte für Missionsziele VIPs, Loren und CTF-Geheimmaterialien angezeigt."
 
 
 // ViewModel
@@ -1367,6 +1419,8 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "TF_MessageAlert"				  "Sound für Chatnachrichten aktivieren"
 "TF_MessageAlert_Tip"			  "Wenn eingeschaltet, wird ein Sound abgespielt, wenn eine Chat-Nachricht empfangen wird."
 "TF_MessageVolume"				  "Soundlautstärke der Chatnachricht"
+"TF_ChatCloseOnSend"				"Beim Nachricht versenden Chat schließen"
+"TF_ChatCloseOnSend_Tip"			"Wenn eingeschaltet, wird der Chat nach dem Senden einer Nachricht geschlossen"
 "TF_DownloadFilter_Title"			"Benutzerdef. Dateien von Servern downloaden erlauben"
 "GameUI_DownloadFilter_All"			"Alle Dateien erlauben"
 "GameUI_DownloadFilter_NoSounds"	"Keine benutzerdef. Sounds"
@@ -1376,14 +1430,17 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "TF_Network_Rate_Tip"       		"Legt die Akutalisierungsrate fest, wodurch sich der Einfügungsgrad umgekehrt einstellt. \n\nEs wird empfohlen, beide Optionen auszuprobieren und zu sehen, welche für Ihre Netzwerkverbindung am besten geeignet ist."
 
 // Video
-"TF2c_Option_BloomScale"	"Bloom-Skalierung"
+"TF2c_Option_ClassicShading"		"Klassische Schattierung"
+"TF2c_Option_ClassicShading_Tip"	"Wenn eingeschaltet, wird Lambert-Schattierung für Spielermodell aktivert."
+"TF2c_Option_BloomScale"	        "Bloom-Skalierung"
+"TF2c_Option_FramerateLimit"		"Begrenzung für die Bildrate"
 
 // ----------------------------------------------------------------
 // Stats
 // ----------------------------------------------------------------
 
 
-"TF_Stats_Reset"			"Statistik zurücksetzen" // R
+"TF_Stats_Reset"			"Zurücksetzen" // R
 "TF_Stats_Close"			"Zurück" // Q
 
 "TF_NextTip"							"Nächster Tipp"
@@ -1410,10 +1467,10 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 // ----------------------------------------------------------------
 
 // Achievement groups
-"Achievement_Group_3000"	"Angriffsklassen"
-"Achievement_Group_3100"	"Verteidigungsklassen"
-"Achievement_Group_3200"	"Support-Klassen"
-"Achievement_Group_3300"	"Karten und Spielmodi"
+"Achievement_Group_3000"	"Angriffsklassen (%s1 von %s2)"
+"Achievement_Group_3100"	"Verteidigungsklassen (%s1 von %s2)"
+"Achievement_Group_3200"	"Support-Klassen (%s1 von %s2)"
+"Achievement_Group_3300"	"Karten und Spielmodi (%s1 von %s2)"
 
 // Launch achievements
 "TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_NAME"			"Ein berechneter Unfall"
