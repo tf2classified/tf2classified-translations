@@ -16,19 +16,24 @@
 // Chat Prefixes
 "Chat_All"				"%s1: %s2"
 "Chat_All_Dead"			"*MORTO* %s1: %s2"
-"Chat_All_Spec"			"*ESPEC* %s1 : %s2"
+"Chat_All_Spec"			"*ESPEC* %s1: %s2"
 "Chat_Team"				"(EQUIPA) %s1: %s2"
 "Chat_Team_Loc"			"(EQUIPA) %s1 @ %s3: %s2"
 "Chat_Team_Dead"		"(EQUIPA) *MORTO* %s1: %s2"
 "Chat_Team_Spec"		"(EQUIPA) *ESPEC* %s1: %s2"
+
 "Chat_All_Dev"			"[DEV] %s1: %s2"
 "Chat_All_Dev_Dead"		"*MORTO* [DEV] %s1: %s2"
 "Chat_All_Dev_Spec"		"*ESPEC* [DEV] %s1: %s2"
-"Chat_Team_Dev"			"(EQUIPA) [DEV] %s1: %s2"
+"Chat_Team_Dev"			"(EQUIPA) [DEV] %s1: %s2"
 "Chat_Team_Dev_Loc"		"(EQUIPA) [DEV] %s1 @ %s3: %s2"
-"Chat_Team_Dev_Dead"	"(EQUIPA) *MORTO* [DEV] %s1: %s2"
+"Chat_Team_Dev_Dead"	"(EQUIPA) *MORTO* [DEV] %s1: %s2"
 "Chat_Team_Dev_Spec"	"(EQUIPA) *ESPEC* [DEV] %s1: %s2"
+
 "Chat_Voice"			"(VOZ) "
+
+// Chat Printouts
+"TF_VIP_Assigned"				"%s1 torna-se o VIP"
 
 // Chat Filters
 "Chat_Filter_Voice"		"Comandos de voz"
@@ -910,7 +915,6 @@ A equipa BLU pode congelar o progresso da captura de um ponto de controlo se o V
 "vip_setup_goal_offense"	"Escolta o VIP até à Zona de Fuga. Captura pontos de controlo para obteres bónus opcionais."
 "vip_setup_goal_defense"	"Mata o VIP da equipa inimiga para o impedir de chegar à Zona de Fuga. Defende os pontos de controlo, se necessário."
 
-"TF_VIP_Assigned"					"%s1 torna-se o VIP"
 "TF_VIP_Tutorial_Annotation_2"		"Ele dá um impulso defensivo a todos os que o rodeiam e\npode também melhorar temporalmente um membro da sua equipa com Mini-Críticos!"
 "TF_VIP_Tutorial_Annotation_3"		"Mas lembra-te, a sua vida é mais importante do que a tua, por isso não o deixes morrer!"
 
