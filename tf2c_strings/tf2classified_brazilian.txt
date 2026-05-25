@@ -1329,6 +1329,9 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF_CombatTextDropShadow"           "Exibir texto de combate com sombra projetada"
 "TF_CombatTextDropShadow_Tip"       "Se ativada, exibe uma sombra projetada no texto de combate."
 
+"TF2C_CalloutBubbles"				"Ativar balões de fala para comandos de voz"
+"TF2C_CalloutBubbles_Tip"			"Exibe balões de fala adicionais acima dos jogadores que usarem comandos de voz"
+
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"DEMOMAN: clique-duplo para detonar as granadas do Ciclope"
 "TF_CyclopsDoubleTap_Tip"        	"As granadas do Ciclope exigirão um segundo clique para detonar, em vez de detonarem ao atirar."
