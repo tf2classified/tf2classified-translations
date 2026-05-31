@@ -1326,6 +1326,9 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_CombatTextDropshadow"			"A sebzésszöveg árnyékot vetít ki"
 "TF_CombatTextDropshadow_Tip"		"Ha be van kapcsolva, minden sebzésszöveg árnyékot fog vetni"
 
+"TF2C_CalloutBubbles"				"Jelbuborékok bekapcsolása"
+"TF2C_CalloutBubbles_Tip"			"Ha be van kapcsolva, a hangparancsok jelbuborékokat mutatnak a játékosok felett"
+
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"ROBBANTÓS: Küklopsz „dupla kattintás” bekapcsolása"
 "TF_CyclopsDoubleTap_Tip"        	"Ha be van kapcsolva, a Küklopsz gránátjai egy második kattintás után fognak élesíteni, az elsődleges tűzgomb elengedése helyett"
@@ -1607,5 +1610,43 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_ResetStats"				            "&NULLÁZÁS" // RETRANSLATION, to avoid truncation
 
 "TF_GameModeDesc_Koth"			"Egy csapatnak addig kell birtokolnia a pontot, míg az idő le nem telik."
+
+//STATS PANEL GRAMMAR FIXES
+
+"StatPanel_Kills_Best"				    "Ebben a körben %s1ként többet öltél, mint a korábbi legjobb eredményed."
+"StatPanel_Captures_Best"			    "Ebben a körben %s1ként többször foglaltál, mint a korábbi legjobb eredményed."
+"StatPanel_Defenses_Best"			    "Ebben a körben %s1ként több pontot védtél meg, mint a korábbi legjobb eredményed."
+"StatPanel_DamageDealt_Best"		    "%s1ként többet sebeztél, mint a korábbi legjobb eredményed."
+"StatPanel_PlayTime_Best"			    "Ebben a körben %s1ként tovább maradtál életben, mint a korábbi legjobb eredményed."
+"StatPanel_Healing_Best"			    "Ebben a körben %s1ként többet gyógyítottál, mint a korábbi legjobb eredményed."
+"StatPanel_KillAssists_Best"		    "Ebben a körben %s1ként több ölésnél segítettél, mint a korábbi legjobb eredményed."
+"StatPanel_BuildingsDestroyed_Best"	    "Ebben a körben %s1ként több építményt tettél tönkre, mint a korábbi legjobb eredményed."
+"StatPanel_Dominations_Best"		    "Ebben a körben %s1ként több új ellenfelet aláztál, mint a korábbi legjobb eredményed."
+"StatPanel_Revenge_Best"			    "Ebben a körben %s1ként több ellenfélen álltál bosszút, mint a korábbi legjobb eredményed."
+"StatPanel_PointsScored_Best"		    "Ebben a körben %s1ként több pontot gyűjtöttél, mint a korábbi legjobb eredményed."
+
+"StatPanel_Kills_Tie"				    "Ebben a körben %s1ként ugyanannyit öltél, mint a rekordod."
+"StatPanel_Captures_Tie"			    "Ebben a körben %s1ként ugyanannyiszor foglaltál, mint a rekordod."
+"StatPanel_Defenses_Tie"			    "Ebben a körben %s1ként ugyanannyi védésed volt, mint a rekordod."
+"StatPanel_DamageDealt_Tie"			    "Ebben a körben %s1ként ugyanannyit sebeztél, mint a rekordod."
+"StatPanel_PlayTime_Tie"			    "Ebben a körben %s1ként ugyanaddig voltál életben, mint a rekordod."
+"StatPanel_Healing_Tie"				    "Ebben a körben %s1ként ugyanannyit gyógyítottál, mint a rekordod."
+"StatPanel_KillAssists_Tie"			    "Ebben a körben %s1ként ugyanannyi ölésnél segítettél, mint a rekordod."
+"StatPanel_BuildingsDestroyed_Tie"	    "Ebben a körben %s1ként ugyanannyi építményt tettél tönkre, mint a rekordod."
+"StatPanel_Dominations_Tie"			    "Ebben a körben %s1ként ugyanannyi ellenfelet aláztál, mint a rekordod."
+"StatPanel_Revenge_Tie"				    "Ebben a körben %s1ként ugyanannyiszor álltál bosszút, mint a rekordod."
+"StatPanel_PointsScored_Tie"		    "Ebben a körben %s1ként ugyanannyi pontot szereztél, mint a rekordod."
+
+"StatPanel_Kills_Close"				    "Ebben a körben %s1ként majdnem annyit öltél, mint a rekordod."
+"StatPanel_Captures_Close"			    "Ebben a körben %s1ként majdnem annyiszor foglaltál, mint a rekordod."
+"StatPanel_Defenses_Close"			    "Ebben a körben %s1ként majdnem annyi védésed volt, mint a rekordod."
+"StatPanel_DamageDealt_Close"		    "Ebben a körben %s1ként majdnem annyit sebeztél, mint a rekordod."
+"StatPanel_PlayTime_Close"			    "Ebben a körben %s1ként majdnem addig voltál életben, mint a rekordod."
+"StatPanel_Healing_Close"			    "Ebben a körben %s1ként majdnem annyit gyógyítottál, mint a rekordod."
+"StatPanel_KillAssists_Close"		    "Ebben a körben %s1ként majdnem annyi ölésnél segítettél, mint a rekordod."
+"StatPanel_BuildingsDestroyed_Close"    "Ebben a körben %s1ként majdnem annyi építményt tettél tönkre, mint a rekordod."
+"StatPanel_Dominations_Close"		    "Ebben a körben %s1ként majdnem annyi ellenfelet aláztál, mint a rekordod."
+"StatPanel_Revenge_Close"			    "Ebben a körben %s1ként majdnem annyiszor álltál bosszút, mint a rekordod."
+"StatPanel_PointsScored_Close"		    "Ebben a körben %s1ként majdnem annyi pontot szereztél, mint a rekordod."
 }
 }
