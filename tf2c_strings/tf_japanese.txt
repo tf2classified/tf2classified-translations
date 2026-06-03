@@ -3052,7 +3052,7 @@
 "TF_IM_Basin_RollsBack" "カートは30秒以上停止していると後退を始める"
 "TF_IM_Basin_TimeAdd"	 "カートがチェックポイントを通過すると制限時間が加算される"
 
-"TF_IM_Arena_Intro"	 "ようこそ Team Fortress Arena へ"
+"TF_IM_Arena_Intro"	 "ようこそTeam Fortressアリーナへ"
 "TF_IM_Arena_RandomTeam" "アリーナモードでは、プレイヤーはランダムにチーム分けされます"
 "TF_IM_Arena_ToWin"	 "勝利条件：相手チームのプレイヤーを全滅させる、"
 "TF_IM_Arena_OrCapture"	 "またはラウンド中にアクティブになるコントロールポイントを制圧する"
@@ -5463,7 +5463,7 @@
 "TF_Arena_ProTip"		"ヒント：勝利チームのメンバーに交代はありません。"
 "TF_Arena_Careful"		"要注意！このラウンドで負けると、次のラウンドで別のプレイヤーと交代になる可能性があります。"
 "TF_Arena_SitOut"		"チームは敗北しました。待機中のプレイヤーがいるため、このラウンドでは別のプレイヤーと交代します。"
-"TF_Arena_Welcome"		"Team Fortress 2 Arena"
+"TF_Arena_Welcome"		"Team Fortress 2アリーナ"
 "TF_Arena_NoPlayers"		"あと 1 人参加したらラウンドを開始します。"
 "TF_Arena_TeamSizeIncreased"	"参加中のプレイヤー人数に対応するため、チームサイズが %s1 に拡大されます。"
 "TF_Arena_TeamSizeDecreased"	"参加中のプレイヤー人数に対応するため、チームサイズが %s1 に縮小されます。"
