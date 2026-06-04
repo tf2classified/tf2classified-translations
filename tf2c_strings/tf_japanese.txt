@@ -2789,7 +2789,7 @@
 "TF_NotBuilt"				"作成されていません"
 // Voice Menu
 "Voice_Menu_Medic"		"メディック！"
-"Voice_Menu_Go"			"行け！行け！行け！"
+"Voice_Menu_Go"			"ゴー！ゴー！ゴー！"
 "Voice_Menu_Help"		"助けてくれ！"
 "Voice_Menu_Yes"		"はい"
 "Voice_Menu_No"			"いいえ"
