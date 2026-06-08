@@ -35,10 +35,10 @@
 // Chat Printouts
 "TF_Joined_Game"				"%s1 oyuna katıldı"
 "TF_Left_Game"					"%s1 oyundan ayrıldı (%s2)"
-"TF_Joined_Team"				"%s1 %s2 takımına katıldı"
+"TF_Joined_Team"				"%s1, %s2 takımına katıldı"
 "TF_Name_Change"				"* %s1 adını %s2 olarak değiştirdi"
 
-"TF_Team_Balanced"				"%s1 %s2 takımına alındı"
+"TF_Team_Balanced"				"%s1, %s2 takımına alındı"
 "TF_Autobalance_TeamChangeDone"	"%s1 takımına alındın"
 
 "TF_VIP_Assigned"				"%s1 artık VIP!"
@@ -51,8 +51,8 @@
 // ----------------------------------------------------------------
 
 // Sentry consent popup
-"TF_SentryReport_Title"				"Hata Raporları Yolla?"
-"TF_SentryReport_Message"			"TF2 Classified geliştirici ekibine anonim olarak hata raporları yollamak istermisiniz?"
+"TF_SentryReport_Title"				"Hata Bildirimleri Gönder?"
+"TF_SentryReport_Message"			"Team Fortress 2 Classified ekibine anonim hata bildirimlerinin gönderilmesine izin vermek istiyormusun?"
 
 // VIP voting
 "Vote_ChangeCivilian"				"VIP'yi Değiştir"
@@ -230,7 +230,7 @@
 // Generic
 "Tip_3_1"		"Eğer yaralanırsan, %helpme% tuşuna basarak bir Medic'e seslenebilirsin. Yakınındaki Medic'ler ihtiyacından haberdar edilirler."
 "Tip_3_2"		"Soldier iken, roket zıplaması yaparak oldukça yükseklere çıkmak için ayağına zıplamadan önce roket ateşle."
-"Tip_3_3"		"Soldier iken, maksimum yüksekliğe erişmek için roket zıplamasına hazırlanırken çömelmeyi unutma."
+"Tip_3_3"		"Soldier iken, azami yüksekliğe erişmek için roket zıplamasına hazırlanırken çömelmeyi unutma."
 "Tip_3_4"		"Soldier iken, roketleri düşmanın ayaklarına hedefle ki patlama hasarından kaçamasınlar."
 "Tip_3_5"		"Soldier iken, roketlerinin çok güçlü itme gücüne sahip olduğunu unutma. Bunu düşmanları itmek veya havaya fırlatmak için kullan!"
 // Stock
@@ -239,9 +239,9 @@
 "Tip_3_8"		"Soldier iken, patlama çapı hasarından kaçınmak ve yakın mesafede tutarlı hasar vermek için ikincil ve yakın dövüş silahlarını kullan."
 // Death & Taxes
 "Tip_3_9"		"Soldier iken, Koruyucu Botlar roket zıplamalarından aldığın hasarı oldukça azaltır. Özellikle pozisyon almak ve hızlı hareket etmek önemli olduğunda onları kullan."
-"Tip_3_10"		"Soldier iken, R.P.G.'nin roketleri yay şeklinde ateş eder, ve düşman siperlerine düşebilir. Roketlerini özenle hedeflemeye emin ol!"
+"Tip_3_10"		"Soldier iken, R.P.G.'nin roketleri yay şeklinde ateş eder ve düşman siperlerine düşebilir. Roketlerini özenle hedeflemeye emin ol!"
 // Double Down
-"Tip_3_11"		"Soldier iken, Admiralti Demiri'nin deprem hasarı ne kadar uzun elde tutulduysa o kadar artar. Roket zıplayışının zirvesinde çıkarmayı unutma!"
+"Tip_3_11"		"Soldier iken, Admiralti Demiri'nin deprem hasarı, ne kadar uzun elde tutulduysa o kadar artar. Roket zıplayışının zirvesinde çıkarmayı unutma!"
 "Tip_3_12"		"Soldier iken, Admiralti Demiri'ni kuşanmak havadayken patlayıcı ve özel mermi türlerinden kritik hasar almana neden olur. Gökyüzüne çıkarken dikkatli ol."
 
 // Demoman
@@ -249,7 +249,7 @@
 // Generic
 "Tip_4_1"		"Demoman iken, %attack2% tuşuna basarak uzaktan attığın yapışkan bombaları patlatabilir veya yerleştirdiğin mayınları yok edebilirsin."
 "Tip_4_2"		"Demoman iken, oldukça yükseklere çıkmak için ayağının altında bombalar patlat."
-"Tip_4_3"		"Demoman iken, maksimum yüksekliğe erişmek için patlayıcı zıplamasına hazırlanırken çömelmeyi unutma."
+"Tip_4_3"		"Demoman iken, azami yüksekliğe erişmek için patlayıcı zıplamasına hazırlanırken çömelmeyi unutma."
 // Stock
 "Tip_4_4"		"Demoman iken, direkt çatışmada Bomba Atar kullan. Havadaki bombalar düşmana temas eder etmez patlar."
 "Tip_4_5"		"Demoman iken, Yapışkan Bomba Atar kullanırken ateş tuşuna ne kadar uzun süre basarsan bomban o kadar uzağa gider."
@@ -274,26 +274,26 @@
 "Tip_5_3"		"Medic iken, hazırlık süresinde ÜberŞarj'ın çok daha hızlı dolar."
 "Tip_5_4"		"Medic iken, takım arkadaşlarını iyileştirerek ÜberŞarj'ını doldurabilir ve %attack2% tuşuna basarak kullanabilirsin."
 "Tip_5_5"		"Medic iken, yardım çağrısında bulunan takım arkadaşların için tetikte bekle. Ekrandaki imleçleri takip ederek onları bulabilirsin."
-"Tip_5_6"		"Medic iken, ÜberŞarjlıyken sen ve iyileştirdiğin kişiler Kontrol Noktalarını ele geçiremez veya İstihbarat çantasını alamaz."
+"Tip_5_6"		"Medic iken, ölümsüzken sen ve iyileştirdiğin kişi Kontrol Noktalarını ele geçiremez veya İstihbarat çantasını alamaz."
 // Stock
 "Tip_5_7"		"Medic iken, iğnelerin kavisli ve gecikmeli yol aldığını unutma. İsabet sağlamak için vurmak istediğin hedefin biraz daha yukarısına nişan almalısın."
 "Tip_5_8"		"Medic iken, Sıhhi Silah takım arkadaşlarını iyileştirmek için kullanabilir ve sağlık puanlarını geçici olarak normal sağlıklarının %%150'sine kadar artırabilirsin."
-"Tip_5_9"		"Medic iken, ÜberŞarj ile hem kendin hem de iyileştirdiğin kişi bir süreliğine ölümsüz olur."
+"Tip_5_9"		"Medic iken, Sıhhi Silah'ın ÜberŞarj'ı ile hem kendin hem de iyileştirdiğin kişi bir süreliğine ölümsüz olur."
 "Tip_5_10"		"Medic iken, Kemik Testeresi'ni takım arkadaşlarından ayrı kaldığın zamanlarda kendini savunmak için kullanabilirsin."
 // Death & Taxes
 "Tip_5_11"		"Medic iken, Kritzkrieg'in ÜberŞarj'ı iyileştirdiğin kişiye geçici olarak kritik vuruşlar verir. Bunu güçlü sınıflarda ve düşmanların yoğun olduğu bölgelerde kullan."
-"Tip_5_12"		"Medic iken, Überspritze'yi kullanırken sağlığına dikkat et. Onunla kuşanmışken maksimum sağlığın 10 azalır."
+"Tip_5_12"		"Medic iken, Überspritze'yi kullanırken sağlığına dikkat et. Onunla kuşanmışken azami sağlığın 10 azalır."
 "Tip_5_13"		"Medic iken, Şok Tedavisi şarjı ne kadar yüksekse o kadar fazla hasar verir. Şarj düşmanlara isabet hâlinde tükenir."
 "Tip_5_14"		"Medic iken, Şok Tedavisi, genel iyileştirme oranına karşılık tam şarjlıyken takım arkadaşlarını tamamen iyileştirmek için kullanılabilir."
 // Double Down
-"Tip_5_15"		"Medic iken, Gençleştirici büyük halde gruplanmış takım arkadaşlarını iyileştirmekte aşırı derecede kullanışlıdır. Artırılmış iyileşim ve ÜberŞarj bonusu için direkt isabetler hedefle."
+"Tip_5_15"		"Medic iken, Gençleştirici aynı anda çok sayıda takım arkadaşını iyileştirmek için son derecede kullanışlıdır. Artırılmış iyileşim ve ÜberŞarj bonusu için direkt isabetler hedefle."
 "Tip_5_16"		"Medic iken, Gençleştirici'nin ÜberŞarj'ı içine giren bütün takım arkadaşlarını her türlü hasardan koruyan geçici bir baloncuk kalkanı oluşturur."
 
 // Heavy
 "Tip_6_Count"	"17"
 // Generic
 "Tip_6_1"		"Eğer yaralanırsan, %helpme% tuşuna basarak bir Medic'e seslenebilirsin. Yakınındaki Medic'ler ihtiyacından haberdar edilirler."
-"Tip_6_2"		"Heavy iken, diğer sınıflardan daha fazla maksimum sağlığa sahipsin. Ofansif hücumlar yapmaktan çekinme!"
+"Tip_6_2"		"Heavy iken, diğer sınıflardan daha fazla azami sağlığa sahipsin. Saldırgan hücumlar yapmaktan çekinme!"
 "Tip_6_3"		"Heavy iken, diğer sınıflardan çok daha yavaşsın. Daha hareketli sınıflarla çatışmaya girerken düşünceli ol."
 "Tip_6_4"		"Heavy iken, harika bir Medic dostusun. Medic'inin seni iyileştirebilmesi için onun görüş alanında kalmayı unutma."
 "Tip_6_5"		"Heavy iken, Spy'lara birincil bir hedefsin. Onları uzak tutmak için cephaneliğini kullan, ve arkana sıkça göz atmayı unutma."
@@ -332,14 +332,14 @@
 // Fight or Flight
 "Tip_7_12"		"Pyro iken, İkiz Namlu hedefinle senin arandaki açıklığı kapatmak için kullanılabilir. Kendini düşmanlarının üstüne salmak için kullan!"
 "Tip_7_13"		"Pyro iken, İkiz Namlu, Av Tüfeği kadar güvenilir hasar vermez. Eğer bir karşılaşmada yeniliyorsan, kendini kaçışta geriye itmek için kullan!"
-"Tip_7_14"		"Pyro iken, Biçerdöver bir yakın dövüş kritik vuruşu biriktirebilir, ayrıca düşmanları yakarak iyileşmene de olanak sağlar."
+"Tip_7_14"		"Pyro iken, Biçerdöver bir yakın dövüş kritik vuruşunu biriktirebilir, ayrıca düşmanları yakarak da iyileşmene olanak sağlar."
 "Tip_7_15"		"Pyro iken, Biçerdöver'i kuşanmışken öldüğün zaman ateşe verdiğin herhangi bir düşman söndürülür."
 
 // Spy
 "Tip_8_Count"	"15"
 // Generic
 "Tip_8_1"		"Spy iken, Kılık Değiştirme Seti ile düşman kılığına girebilirsin. Dikkatli ol, çünkü hala düşmanlara çarpabilirsin, ve saldırdığında kılığını kaybedersin."
-"Tip_8_2"		"Spy iken, kılık değiştirmişken %helpme% tuşuna basarak düşman Medic'lere seslenebilirsin."
+"Tip_8_2"		"Spy iken, kılık değiştirdikten sonra %helpme% tuşuna basarak düşman Medic'lere seslenebilirsin."
 "Tip_8_3"		"Spy iken, kılık değiştirdiğinde düşman gibi davranmaya çalış. Düşman takımın üyelerinin nerede olduklarını gözlemle ve onlardan birinin kılığına gir."
 "Tip_8_4"		"Spy iken, kılık değiştirmişken %reload% tuşuna basmak seni düşman takıma silahını dolduruyormuşsun gibi gösterir."
 "Tip_8_5"		"Spy iken, yavaş olan bir sınıfın kılığına girdiğin zaman %speed% tuşuna basarak normal hızında yürüyebilirsin."
@@ -608,7 +608,7 @@
 // Miscellaneous weapon types
 // ----------------------------------------------------------------
 
-"TF_Weapon_Anchor"					"Demir"
+"TF_Weapon_Anchor"					"Çıpa"
 "TF_Weapon_Boots"					"Botlar"
 "TF_Weapon_Bow"						"Yay"
 "TF_Weapon_Cane"					"Baston"
@@ -982,7 +982,7 @@ Eğer Ani Ölüm meydana gelirse, raundu kazanmak için düşman VIP öldürüle
 "vipr_setup_goal"		"VIP'nizi Kontrol Noktalarına kadar götür. Aynısını düşman VIP'nin yapmasına izin verme!"
 "vipr_setup_goal_4team"	"VIP'nizi Kontrol Noktalarına kadar götür. Aynısını düşman takımların yapmasına izin verme!"
 
-"vipr_cap_wrong_vip"	"DÜŞMAN Kontrol Noktasını ele geçir, salak!"
+"vipr_cap_wrong_vip"	"DÜŞMAN Kontrol Noktasını ele geçir, aptal!"
 "vipr_own_civ_death"	"VIP'niz öldürüldü! Onu koruyun!"
 "vipr_their_civ_death"	"Aferin! Düşman VIP öldürüldü!"
 "vipr_cap_a_reset"		"Kontrol Noktası A sıfırlandı!"
@@ -1310,21 +1310,21 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF2C_Tooltip_DamageFeedback"				"Hasar geri bildirimi farklı türlerde hasar verirken veya alırken bağlamsal sesler çalar"
 "TF2C_Option_DamageFeedbackOutgoing"		"Giden hasar geri bildirimini etkinleştir"
 "TF2C_Tooltip_DamageFeedbackOutgoing"		"Giden hasar geri bildirimi düşmanlara hasar verirken çalar"
-"TF2C_Option_DamageFeedbackOutgoingVolume"	"Giden hasar bildirimi ses miktarı"
-"TF2C_Tooltip_DamageFeedbackOutgoingVolume"	"Hasar verildiğinde çalınan bağlamsal seslerin ses miktarı"
+"TF2C_Option_DamageFeedbackOutgoingVolume"	"Giden hasar geri bildirimi ses seviyesi"
+"TF2C_Tooltip_DamageFeedbackOutgoingVolume"	"Hasar verildiğinde çalınan bağlamsal seslerin ses seviyesi"
 "TF2C_Option_DamageFeedbackIncoming"		"Gelen hasar geri bildirimini etkinleştir"
 "TF2C_Tooltip_DamageFeedbackIncoming"		"Gelen hasar geri bildirimi hasar alırken çalar"
-"TF2C_Option_DamageFeedbackIncomingVolume"	"Gelen hasar bildirimi ses miktarı"
-"TF2C_Tooltip_DamageFeedbackIncomingVolume"	"Hasar alındığında çalınan bağlamsal seslerin ses miktarı"
+"TF2C_Option_DamageFeedbackIncomingVolume"	"Gelen hasar geri bildirimi ses seviyesi"
+"TF2C_Tooltip_DamageFeedbackIncomingVolume"	"Hasar alındığında çalınan bağlamsal seslerin ses seviyesi"
 
 "TF_CenterFirePreference"         	"Özel mermi türlerinin ortadan ateşlenmesini tercih et"
 "TF_CenterFirePreference_Tip"    	"Eğer seçiliyse, oyuncuya ait özel mermi türlerinin posizyonunun Y koordinatı 0 olur; uygulamak için oyuncunun sunucudan bağlantıyı kesmesi veya izleyici olması gerekir"
 "TF_BurningDeathAnim"				"Yanarak ölme animasyonlarını etkinleştir"
 "TF_BurningDeathAnim_Tip"			"Eğer seçiliyse, cesetlerin yanarak ölürken özel bir animasyon oynama şansı olur"
-"TF_CombatTextBatchingWindow"		"Biriken mücadele metni hasar olayları arasındaki gecikme"
-"TF_CombatTextBatchingWindow_Tip"	"Parti numaralarına göre hasar olayları arasındaki maksimum gecikme"
-"TF_CombatTextDropShadow"           "Mücadele metnini bırakma gölgesiyle göster"
-"TF_CombatTextDropShadow_Tip"       "Eğer seçiliyse, mücadele metnine gölge efekti ekler"
+"TF_CombatTextBatchingWindow"		"Biriken verilen hasar metni hasar olayları arasındaki gecikme"
+"TF_CombatTextBatchingWindow_Tip"	"Parti numaralarına göre hasar olayları arasındaki azami gecikme"
+"TF_CombatTextDropShadow"           "Verilen hasar metnini bırakma gölgesiyle göster"
+"TF_CombatTextDropShadow_Tip"       "Eğer seçiliyse, verilen hasar metnine gölge efekti ekler"
 
 "TF2C_CalloutBubbles"				"Bilgilendirme balonlarını etkinleştir"
 "TF2C_CalloutBubbles_Tip"			"Eğer seçiliyse, iletişim komutları oyuncuların üzerinde ek bilgilendirme balonları gösterir"
@@ -1371,8 +1371,8 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF_AlternativeTimer_Tip"         "Eğer seçiliyse, eşaralıklı yazı tipli zamanlayıcı kullanacak."
 "TF_DisableDropShadow"            "Bırakma gölgesini devre dışı bırak"
 "TF_DisableDropShadow_Tip"        "Eğer seçiliyse, çoğu metin ve imgelerden bırakma gölgesini kaldırır."
-"TF_DeathNoticeMax"               "Ölüm Duyurusu - Maksimum görünür sayısı"
-"TF_DeathNoticeMax_Tip"           "Aynı anda gözükecek maks. ölüm duyurusu sayısını belirler."
+"TF_DeathNoticeMax"               "Ölüm Duyurusu - Azami görünür sayısı"
+"TF_DeathNoticeMax_Tip"           "Aynı anda gözükecek azami ölüm duyurusu sayısını belirler."
 "TF_DeathNoticeTime"              "Ölüm Duyurusu - Duyuruların geçerlilik süresi (saniye olarak)"
 "TF_DeathNoticeTime_Tip"          "Ölüm duyurularının geçerlilik süresini ayarlar."
 "TF_GlowEffects"				  "Parıltı efektini kullan"
@@ -1547,8 +1547,8 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "ServerBrowser_HasPlayersFilter"    "Oyuncu var"
 "ServerBrowser_NoPasswordFilter"    "Parola yok"
 "ServerBrowser_HasTagsFilter"       "Etiket"
-"ServerBrowser_MaxLatencyFilter"    "Maks. gecikme"
-"ServerBrowser_MaxPlayersFilter"    "Maks. oyuncu"
+"ServerBrowser_MaxLatencyFilter"    "Azami gecikme"
+"ServerBrowser_MaxPlayersFilter"    "Azami oyuncu"
 "ServerBrowser_ServerTypeFilter"    "Sunucu tipi"
 "ServerBrowser_MapNameFilter"       "Harita ismi"
 "ServerBrowser_SortBy"              "Sırala:"
@@ -1570,7 +1570,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "ServerBrowser_CustomWeapons"       "Özel Silahlar"
 
 // ----------------------------------------------------------------
-// tf_turkish.txt Retranslations
+// Live TF2 Retranslations
 // ----------------------------------------------------------------
 
 "TF_ClassSkill_Medic"			    "MEDIC: ÜberŞarjla"
@@ -1592,18 +1592,43 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF_simple_disguise_menu_option"    "SPY: Basit kılık değiştirme menüsünü kullan"
 "Tooltip_simple_disguise_menu_option" "Basit kılık değiştirme menüsü, kılık değiştirme işlemi için daha fazla sayıda tuşa basmayı gerektiren alternatif bir menüdür, ama sadece 1'den 4'e kadar olan numaralı tuşları kullanır."
 
-"TF_Ubercharge"				    "ÜBERŞARJ: %%%charge%"
-"TF_UberchargeMinHUD"			"%%%charge%"
+"TF_Dingaling_Volume"			        "İsabet sesi seviyesi"
+"Tooltip_Dingaling_Volume"		        "'İsabetli vuruş sesleri' yüksekliği"
+"TF_Dingaling_PitchLowDmg"				"Düşük hasar isabet sesi perdesi"
+"TF_Dingaling_PitchHighDmg"				"Yüksek hasar isabet sesi perdesi"
 
-"TF_AttackDefend"		        "Saldırı / Savunma"
-"TF_MedievalAttackDefend"		"Saldırı / Savunma (Orta Çağ)"
+"TF_Dingaling_LastHit_Volume"			"Son isabet sesi seviyesi"
+"TF_Dingaling_LastHit_PitchLowDmg"		"Son isabet sesi düşük hasar perdesi"
+"TF_Dingaling_LastHit_PitchHighDmg"		"Son isabet sesi yüksek hasar perdesi"
+
+"tf_dingalingaling_effect"				"İsabet sesleri"
+"tf_dingalingaling_last_effect"			"Son isabet sesleri"
+
+"TF_LastHitbeeps"			"Düşmanı öldürdüğün zaman son isabet sesini çal"
+"TF_Hitbeeps"				"Düşmana hasar verdiğin zaman isabet sesini çal"
+
+"TF_CombatText"				"Ne kadar hasar verdiğini hedefin üstünde yazıyla göster"
+"TF_CombatTextBatching"		"Birbirine yakın zamanda gerçekleşen verilen hasar sayılarını tek bir miktara topla"
+"Tooltip_CombatTextBatching" "Eğer seçiliyse ve verilen hasar göstergesi seçeneği kullanılıyorsa, aynı hedefe art arda verilen hasar birbirine eklendikten sonra tek bir sayı olarak gösterilir"
+"Tooltip_CombatTextRed"		"Verilen hasar metni: Kırmızı (Varsayılan: 255)"
+"Tooltip_CombatTextGreen"	"Verilen hasar metni: Yeşil (Varsayılan: 0)"
+"Tooltip_CombatTextBlue"	"Verilen hasar metni: Mavi (Varsayılan: 0)"
+
+"game_takesshots"	        "Harita bitiminde skor tablosu ekran görüntüsünü kaydet"
+"Valve_DisableHTMLMOTD"		"HTML GM'leri devre dışı bırak"
+"Valve_UseSteamCloud"		"Steam Cloud ile eşitle"
+"GameUI_DisableSprays"		"Spreyleri devre dışı bırak"
+"GameUI_EnableHUDMinMode"	"Basit Gösterge"
+
+"TF_Close"				"Kapat"
+"TF_ResetStats"			"Sıfırla"
+
+"TF_Ubercharge"		    "ÜBERŞARJ: %%%charge%"
+"TF_UberchargeMinHUD"	"%%%charge%"
+
+"TF_Boost"				"TAKVİYE"
 
 "TF_ClassRecord_MostTeleports"	"Rekor ışınlama:"
-
-"game_spawn_as"				"*%s1 olarak canlanacaksın"
-"game_respawn_as"			"*%s1 olarak canlanacaksın"
-"game_spawn_asrandom"		"*Rastgele bir sınıf olarak canlanacaksın"
-"game_respawn_asrandom"		"*Rastgele bir sınıf olarak canlanacaksın"
 
 "Winpanel_Team1"			"TAKIMI"
 "Winpanel_Team2"			"Takımı"
@@ -1618,13 +1643,23 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 
 "Hud_Menu_Build_Cancel"					"İptal Etmek için '%lastinv%' Tuşuna Bas"
 
-"Hud_Menu_Demolish_Title"				"İmha"
-"Hud_Menu_Build_Title"					"Kurulum"
+"Hud_Menu_Demolish_Title"				"İmha Et"
 
 "Cant_cap_stealthed"	"Görünmezken\n    noktayı ele geçiremezsin."
 "Cant_cap_disguised"	"Kılık değiştirmişken\n    noktayı ele geçiremezsin."
 "Cant_cap_invuln"		"Ölümsüzken\n    noktayı ele geçiremezsin."
 "Cant_cap_stunned"		"Sersemletilmişken\n    noktayı ele geçiremezsin."
+
+"TF_ScoreBoard_VoteKick"			"Oylama ile At"
+"TF_ScoreBoard_Context_UnMute"	    "Sesini Aç"
+"TF_ScoreBoard_Context_Spec"	    "İzle"
+"TF_ScoreBoard_Context_Profile"	    "Steam Profili"
+
+"Msg_Captured"			"ele geçirdi:"
+"Msg_Captured_Multiple"	"ele geçirdiler:"
+"Msg_Defended"			"savundu:"
+"Msg_Revenge"			"İNTİKAM ALDI"
+"Msg_Dominating_What"	"EN İYİ ARKADAŞ"
 
 "Pipeline_cap_1_red"	"RED'in ilk Kontrol Noktası"
 "Pipeline_cap_1_blue"	"BLU'nun ilk Kontrol Noktası"
@@ -1645,29 +1680,14 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 
 "TF_GameModeDesc_Escort"	"BLU, yük vagonunu ray üstünde ilerletir. RED onları durdurmalı."
 
-"TF_LastHitbeeps"			"Düşmanı öldürdüğün zaman son darbe sesini çal"
-"TF_Hitbeeps"				"Düşmana hasar verdiğin zaman isabet sesini çal"
+"TF_AttackDefend"           "Saldırı / Savunma"
+"TF_MedievalAttackDefend"   "Saldırı / Savunma (Orta Çağ)"
 
-"TF_Close"				"Kapat"
-"TF_ResetStats"			"Sıfırla"
+"Achievement_Earned"	"%s1, %s2 başarımını kazandı"
 
-"TF_Boost"				"TAKVİYE"
-
-"Attrib_MaxHealth_Positive"					"Kuşanana +%s1 maksimum sağlık"
-"Attrib_MaxHealth_Negative"					"Kuşanana %s1 maksimum sağlık"
-
-"TF_ScoreBoard_VoteKick"			"Oylama ile At"
-"TF_ScoreBoard_Context_UnMute"	    "Sesini Aç"
-"TF_ScoreBoard_Context_Spec"	    "İzle"
-"TF_ScoreBoard_Context_Profile"	    "Steam Profili"
-
-"TF_vote_changelevel"			    "Şu anki haritayı %s1 olarak değiştir?"
-"TF_vote_passed_nextlevel_extend"	"Şu anki haritanın süresi uzatılıyor"
-
-"Msg_Captured"			"ele geçirdi:"
-"Msg_Captured_Multiple"	"ele geçirdiler:"
-"Msg_Defended"			"savundu:"
-"Msg_Revenge"			"İNTİKAM ALDI"
-"Msg_Dominating_What"	"EN İYİ ARKADAŞ"
+"game_spawn_as"				"*%s1 olarak canlanacaksın"
+"game_respawn_as"			"*%s1 olarak canlanacaksın"
+"game_spawn_asrandom"		"*Rastgele bir sınıf olarak canlanacaksın"
+"game_respawn_asrandom"		"*Rastgele bir sınıf olarak canlanacaksın"
 }
 }
