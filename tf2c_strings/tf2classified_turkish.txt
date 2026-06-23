@@ -127,12 +127,13 @@
 "TF_playerid_object_mini"				"Mini-%s1 (%s2)"
 "TF_playerid_object_mode"				"%s1 %s3 (%s2) "
 "TF_playerid_object_level"				"Seviye %s1"
-"TF_playerid_object_upgrade"			"Seviye Yükseltme: %s1"
-"TF_playerid_object_upgrade_level"		"Seviye %s1  -  Seviye Yükseltme: %s2"
+"TF_playerid_object_upgrade"			"Yükseltme: %s1"
+"TF_playerid_object_upgrade_level"		"Seviye %s1  -  Yükseltme: %s2"
 "TF_playerid_object_upgrading"			"Seviye Yükseltiliyor..."
 "TF_playerid_object_upgrading_level"	"Seviye %s1  -  Seviye Yükseltiliyor..."
 "TF_playerid_object_building"			"Kuruluyor..."
 "TF_playerid_object_building_level"		"Seviye %s1  -  Kuruluyor..."
+"TF_playerid_object_tranq"				" (SABOTE EDİLMİŞ)"
 "TF_playerid_teleporter_no_entrance"	"  -  Işınlayıcı Giriş Yok"
 "TF_playerid_teleporter_no_exit"		"  -  Işınlayıcı Çıkış Yok"
 "TF_playerid_object_recharging"			"  -  Şarj Oluyor: %s1%"
@@ -388,10 +389,10 @@
 "Tip_10_Count"	"11"
 // Generic
 "Tip_10_1"		"Civilian iken, hızın oldukça yavaştır. Hayatta kalma şansını artırmak için takım arkadaşlarınla ilerlemekte elinden geleni yap."
-"Tip_10_2"		"Civilian iken, takımındaki en kısa boylu sensin. Bu, takım arkadaşlarının arkasında saklanırken kullanışlıdır."
+"Tip_10_2"		"Civilian iken, takımındaki en kısa boylu sensin. Bu takım arkadaşlarının arkasında saklanırken kullanışlı olabilir."
 "Tip_10_3"		"Civilian iken, VIP ve VIP Yarışı oyun modlarında Kontrol Noktalarını sadece sen ele geçirebilirsin."
 "Tip_10_4"		"Civilian iken, düşman Spy'lara ve Sniper'lara dikkat etmeyi unutma, çünkü seni anında öldürebilirler."
-"Tip_10_5"		"Civilian iken, yakınındaki takım arkadaşların moral yükseltmenden etkilenir, bu da onlara hafif hasar dayanıklığı ve sağlık yenilemesinde bulunur. Düşman görüş hattının dışında durmaya çalış ve takımına bağlı kal."
+"Tip_10_5"		"Civilian iken, yakınında olan takım arkadaşlarına hafif hasar dayanıklığı ve sağlık yenilemesinde bulunursun. Düşman görüş hattının dışında durmaya çalış ve takımına bağlı kal."
 "Tip_10_6"		"Civilian iken, bir takım arkadaşına bakarken %attack2% tuşuna basarak ona takviye yapabilirsin, verdiğin destek savaşta oldukça iyi bir avantaj kazandırır."
 // Stock
 "Tip_10_7"		"Civilian iken, Şemsiye bir silah olarak etkili değildir, ve yalnızca çaresiz durumlarda kullanılmalıdır. Takımının senin için savaşmasına izin ver."
@@ -639,6 +640,7 @@
 "TF_Meter_Harvest"	"BİÇME"
 "TF_Meter_LunchBox"	"BESLENME"
 "TF_Meter_Therapy"	"TEDAVİ"
+"TF_Meter_Tranq"	"YATIŞTIRICI"
 
 // ----------------------------------------------------------------
 // Buildings
@@ -686,7 +688,8 @@
 "Attrib_MeleeTakenBecomesCritWearer"				"Kuşanana: Alınan yakın dövüş hasarları kritik olur"
 "Attrib_MoveSpeed_Bonus_Cloaked"					"Görünmezken +%s1% daha hızlı hareket hızı"
 "Attrib_LoseCloakOnDamage"							"Görünmezken hasar gördüğün zaman -%s1% pelerin miktarı"
-"Attrib_TranqOnHit"									"İsabet Hâlinde: Kurbanını %s1 saniyeliğine renk körü yapar ve silah ve hareket hızını yavaşlatır"
+"Attrib_TranqOnHit"									"İsabet Hâlinde: Kurbanını %s1 saniyeliğine renk körü yapar ve silah ve hareket hızını yavaşlatır\nYatıştırılmış düşmanlar yakın dövüş saldırılarından kritik hasar alır"
+"Attrib_CloakRegenDisabled"							"Pasif pelerin yenilenmesi yok"
 "Attrib_FishwhackerSweep"							"Yakında olan düşmanlara geri itme uygular"
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Kendini geri itme hasar artışından etkilenir"
 "Attrib_ApplySelfKnockbackSwing"					"Savurduğun zaman kendi kendini geri itme uygular"
@@ -779,6 +782,10 @@
 "Attrib_JumpPadNoUpgrade"							"Trambolinlerin seviyesi yükseltilemez"
 "Attrib_AltFire_HasteBoost"							"Alternatif Atış: Takım arkadaşına hız takviyesi ver"
 "Attrib_AltFire_UberBubble"							"Alternatif Atış: Belirli bir yarıçap içinde ölümsüzlük sağlayan bir cihaz fırlat"
+"Attrib_StickyIsLandmine"							"Kara mayınları fırlatır"
+"Attrib_AutoJumping"								"Kuşanan kişi zıplama tuşuna basılı tutarak otomatikman zıplayabilir"
+"Attrib_SpreadScalesSpeed"							"Mevcut hıza bağlı olarak %s1% daha isabetli"
+"Attrib_DuckJumping"								"Kuşanan kişi çömelirken zıplayabilir"
 
 // ----------------------------------------------------------------
 // Map strings
@@ -789,10 +796,10 @@
 "Amaranth_cap_B"	"RED'in Nakliyat Tesisi"
 
 // 4dom_hydro
-"Hydro_dom_cap_warehouse"	"A, Depo"
-"Hydro_dom_cap_radar_dish"	"B, Radar Çanağı"
-"Hydro_dom_cap_power_plant"	"C, Enerji Santrali"
-"Hydro_dom_cap_dam"			"D, Baraj"
+"Hydro_dom_cap_warehouse"	"A noktası, Depo"
+"Hydro_dom_cap_radar_dish"	"B noktası, Radar Çanağı"
+"Hydro_dom_cap_power_plant"	"C noktası, Enerji Santrali"
+"Hydro_dom_cap_dam"			"D noktası, Baraj"
 
 // vip_mineside
 "vip_mineside_description"	"Amaç:
@@ -929,6 +936,9 @@ Sadece onurlu bir şekilde yumruk yumurğa savaş!"
 // Gamemode strings
 // ----------------------------------------------------------------
 
+// CTF
+"TF_CTF_TeamCannotCapture"	"Takımın bu bayrağı ele geçiremez!"
+
 // Domination
 "default_dom_description"	"Amaç:
 Kazanmak için, her takımdan biri puan elde etmek için kontrol noktalarını ele geçirmeli ve elde tutmalı. Ne kadar kontrol noktasına sahipseniz o kadar hızlı puan elde edersiniz.
@@ -1027,8 +1037,8 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 
 // Arena
 "TF_Arena_Welcome"				"Arena Modu"
-"TF_Arena_Team_SizeIncreased"	"%s1 takımının üye sayısı %s2 sayısına çıkarıldı."
-"TF_Arena_Team_SizeDecreased"	"%s1 takımının üye sayısı %s2 sayısına indirildi."
+"TF_Arena_Team_SizeIncreased"	"%s1 takımının üye sayısı %s2 kişiye çıkarıldı."
+"TF_Arena_Team_SizeDecreased"	"%s1 takımının üye sayısı %s2 kişiye düşürüldü."
 
 // ----------------------------------------------------------------
 // Intro movies
@@ -1326,9 +1336,6 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF_CombatTextDropShadow"           "Verilen hasar metnini bırakma gölgesiyle göster"
 "TF_CombatTextDropShadow_Tip"       "Eğer seçiliyse, verilen hasar metnine gölge efekti ekler"
 
-"TF2C_CalloutBubbles"				"Bilgilendirme balonlarını etkinleştir"
-"TF2C_CalloutBubbles_Tip"			"Eğer seçiliyse, iletişim komutları oyuncuların üzerinde ek bilgilendirme balonları gösterir"
-
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"DEMOMAN: Kiklops'un bombalarını iki kere tıklayarak patlat"
 "TF_CyclopsDoubleTap_Tip"        	"Eğer seçiliyse, Kiklops'un bombalarını patlatmak için atış tuşunu serbest bırakmak yerine ikinci bir tıklama gerekecek"
@@ -1528,7 +1535,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 // Discord Rich Presence
 // ----------------------------------------------------------------
 
-"Discord_InMenu"					"Menülerde"
+"Discord_InMenu"					"Menüde"
 "Discord_InMenu_ToolTip"			"Ana Menü"
 "Discord_IsLoading"					"Şu anda yükleniyor..."
 "Discord_IsLoading_ToolTip"			"Yükleniyor..."
@@ -1558,7 +1565,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "ServerBrowser_SortByLatency"       "Gecikme"
 "ServerBrowser_SortByLastPlayed"    "Son oynanan"
 "ServerBrowser_UseLegacyBrowser"    "Eski tarayıcıyı kullan"
-"ServerBrowser_CurrentMapHeading"   "Şu anki harita:"
+"ServerBrowser_CurrentMapHeading"   "Mevcut harita:"
 "ServerBrowser_TagListHeading"      "Etiket:"
 "ServerBrowser_OfficialDetail"      "Resmî sunucu"
 "ServerBrowser_VerifiedDetail"      "Doğrulanmış sunucu"
@@ -1638,6 +1645,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "Winpanel_TopPlayers"			            "En iyi oyuncular:"
 "Winpanel_WinningCapture"	                "Kazandıran ele geçirme: %s1"
 "TF_Arena_Winpanel_TimeAliveThisRound"		"Yaşam:"
+"TF_Arena_FlawlessVictory"	                "Ezici zafer!"
 
 "StatPanel_Format_Close"			    "Bu raunt: %s1  Rekorun: %s2"
 
