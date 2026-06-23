@@ -1390,7 +1390,7 @@
 "TF_ClassMenu_Music"				"Музика меню вибору класу"
 "TF_StreamerMode"					"Увімкнути режим стримера"
 "TF_StreamerMode_Tip"				"Якщо ввімкнено, вимикає текстовий чат та анонімізує всіх учасників матчу"
-"TF_ModelMuzzleFlash"				"увімкнути бета-моделі дульних спалахів"
+"TF_ModelMuzzleFlash"				"Увімкнути бета-моделі дульних спалахів"
 "TF_ModelMuzzleFlash_Tip"			"Якщо ввімкнено, дульні спалахи використовуватимуть моделі замість ефектів"
 
 // Voice
@@ -1419,12 +1419,12 @@
 // ----------------------------------------------------------------
 // Stats
 // ----------------------------------------------------------------
-
+										   
 "TF_Stats_Reset"						"Скинути" // R
 "TF_Stats_Close"						"Закрити" // Q
 
 "TF_NextTip"							"Наступна порада"
-
+																								 
 "Stat_PadJumps"							"СТРИБКОВІ ПАНЕЛІ"
 
 "StatPanel_Label_PadJumps"				"Стрибків на панелі: "
@@ -1570,8 +1570,130 @@
 "ServerBrowser_CustomWeapons"		"Користувацька зброя"
 
 // ----------------------------------------------------------------
+// Team Fortress 2 overrides
+// (retranslation of some original strings)
+// ----------------------------------------------------------------
+
+// ----------------------------------------------------------------
+// Misc UI
+// ----------------------------------------------------------------
+
+"TF_freezecam_snapshot"	"[%s1] Фото на згадку!"
+
+"TF_VoteKickReason"			"Причина:"
+
+"TF_Highlander_Mode"	"Режим\nHighlander"
+
+"Scoreboard_ChangeOnRoundEndNew"	"Мапа зміниться наприкінці раунду..."
+
+"TF_Spectate"				"ДИВИТИСЯ"
+"TF_Confirm"				"Підтвердити"
+
+"TF_ResetStats"				"&СКИНУТИ"
+"TF_ConfirmResetStats"			"Ви впевнені, що хочете скинути вашу ігрову статистику?"
+"TF_ConfirmResetAchievements_Message"	"Ви впевнені, що хочете скинути всі ваші досягнення?"
+
+"TF_ClassMenu_Cancel"		"НАЗАД (&0)"
+
+"TF_Cloak"					"ЗАРЯД"
+
+"game_spawn_asrandom"			"*Ви з’явитеся випадковим класом"
+"game_respawn_asrandom"			"*Ви відродитеся випадковим класом"
+
+
+"round_restart_in_sec"			"Раунд розпочнеться наново через %s1 с"
+"round_restart_in_secs"			"Раунд розпочнеться наново через %s1 с"
+
+"game_restart_in_sec"			"Гра розпочнеться наново через %s1 с"
+"game_restart_in_secs"			"Гра розпочнеться наново через %s1 с"
+
+"game_switch_in_sec"			"Зміна сторін!\nГра розпочнеться через %s1 с"
+"game_switch_in_secs"			"Зміна сторін!\nГра розпочнеться через %s1 с"
+
+"game_scramble_in_sec"			"Перемішуємо команди!\nГра розпочнеться наново через %s1 с"
+"game_scramble_in_secs"			"Перемішуємо команди!\nГра розпочнеться наново через %s1 с"
+"game_scramble_onrestart"		"Перемішуємо команди!"
+
+"game_auto_team_balance_in"		"Команди буде збалансовано через %s1 с"
+"game_player_was_team_balanced"	"%s1 переміщено в іншу команду для збереження балансу"
+
+"game_idle_kick"			"Гравця %s1 було викинуто через бездіяльність"
+"TF_Vote_kicked"			"Викинуто голосуванням"
+"TF_Idle_kicked"			"Викинуто через неактивність"
+
+"TF_DropFlag"				"Залишити дипломат"
+"TF_call_vote"				"Голосувати"
+"TF_Player_ReadyToggle"			"Перемкнути готовність гравця"
+"Msg_Dominating_What"				"тепер НАЙКРАЩИЙ ДРУГ з"
+
+"TF_Object_Tele_Exit"	"Вихід телепорту"
+
+"TF_ObjStatus_SentryGun_Building"	"Турель зводиться… %s1"
+"TF_ObjStatus_SentryGun_Level1"		"Турель  (Рівень %s1)  Цілісність %s2  Набоїв %s3"
+"TF_ObjStatus_SentryGun_Level3"		"Турель  (Рівень 3)  Цілісність %s1  Набоїв %s2  Ракет %s3"
+
+"TF_ObjStatus_Dispenser_Building"	"Роздавач зводиться… %s1"
+"TF_ObjStatus_Dispenser"			"Роздавач ( Рівень %s1 )  Цілісність %s1"
+
+"TF_ObjStatus_Teleporter_Building"	"Телепорт зводиться… %s1"
+"TF_ObjStatus_Teleporter"			"Телепорт ( Рівень %s1 )  Цілісність %s1  Стан — %s2"
+
+"TF_ObjStatus_Sapper_Building"		"Глушилка встановлюється… %s1"
+"TF_ObjStatus_Sapper"				"Цілісність глушилки %s1  Цілісність об’єкта %s2"
+
+"TF_Obj_Teleporter_State_Idle"		"Пошук відповідного телепорту"
+
+"TF_StartPractice"		"Розпочати"
+"TF_OfflinePractice_NumPlayers"	"Реком. %s1 — %s2"
+
+// "TF_GameModeDesc_Escort"		"BLU штовхають вагонетку колією. RED намагаються їх зупинити."
+
+"Tip_Abuse_Report"		"Щоб повідомити про неприйнятні зображення чи поведінку, натисніть %abuse_report_queue%, щоб зробити знімок екрана та зібрати ігрову інформацію для відправлення у службу підтримки."
+
+"TF_ClassRecord_MostPoints"			"Макс. очок:"
+"TF_ClassRecord_MostKills"			"Макс. убивст:"
+"TF_ClassRecord_MostAssists"		"Макс. підмог:"
+"TF_ClassRecord_MostCaptures"		"Макс. захоплень:"
+"TF_ClassRecord_MostDefenses"		"Макс. оборон:"
+"TF_ClassRecord_MostDamage"			"Макс. шкоди:"
+"TF_ClassRecord_MostDestruction"	"Макс. знищень:"
+"TF_ClassRecord_MostDominations"	"Макс. домінувань:"
+"TF_ClassRecord_LongestLife"		"Найдовше життя:"
+"TF_ClassRecord_MostHealing"		"Макс. лікування:"
+"TF_ClassRecord_MostInvulns"		"Макс. невразливостей:"
+"TF_ClassRecord_MostSentryKills"	"Макс. убито туреллю:"
+"TF_ClassRecord_MostTeleports"		"Макс. телепортацій:"
+"TF_ClassRecord_MostHeadshots"		"Макс. влучань у голову:"
+"TF_ClassRecord_MostBackstabs"		"Макс. ударів у спину:"
+
+"Building_hud_sentry_not_built"			"Турель\nНе зведено"
+"Building_hud_disp_sentry_not_built"	"Додаткова турель\nНе зведено"
+"Building_hud_dispenser_not_built"		"Роздавач\nНе зведено"
+"Building_hud_tele_enter_not_built"		"Вхід\nНе зведено"
+"Building_hud_tele_exit_not_built"		"Вихід\nНе зведено"
+"Building_hud_tele_not_built"			"Вхід телепорту\nНе зведено"
+
+"Building_hud_sentry_not_built_360"			"Турель\nНе зведено"
+"Building_hud_tele_enter_not_built_360"		"Вхід\nНе зведено"
+"Building_hud_tele_exit_not_built_360"		"Вихід\nНе зведено"
+
+"Hud_Menu_Build_Already_Built"			"Уже зведено"
+
+"TF_NotBuilt"				"Не зведено"
+
+"TF_CurrentPlayers"		"Зараз грають"
+
+"StatSummary_Label_PerformanceReport"	"ВАША СТАТИСТИКА"
+
+"EditLoadout"			"СПОРЯДЖЕННЯ"
+
+"TF_Flag_AltFireToDrop"			"Натисність ДОД. АТАКУ, щоб випустити прапор."
+
+"FreezePanel_NoKiller"			"Вас убили"
+"FreezePanel_Callout"			"Ваш шматочок!"
+
+// ----------------------------------------------------------------
 // Level Strings
-// Ці рядки повторюють деякі оригінальні з TF2, але з незначними змінами, як от зайва капіталізація слів та чергування. -Nemejczykun
 // ----------------------------------------------------------------
 
 // Dustbowl level strings
@@ -1698,7 +1820,7 @@
 
 "plr_pipeline_description"		"Мета:\nПроведіть вашу вагонетку до фінішної лінії, до того як це зробить ворог. Стійте біля вагонетки, щоб вона рухалася.\n\nІнші примітки:\nВиграйте один із перших двох раундів, щоб ваша вагонетка мала фору в наступному раунді.\n\nВорог може зупинити вагонетку, наблизившись до неї."
 
-"plr_hightower_event_description"	"Мета:\nДопоможіть привидам Блутарха чи Редмонда Манна виграти Гравійні війни раз і назавжди! Зіштовхніть старого мерця на візку до пекла, перш ніж це зробить команда суперника. Збирайте і використовуйте смертельні заклинання. Стійте біля візка, щоб він рухався.\n\nІнші примітки:\nВороги можуть блокувати візок, наблизившись до нього."
+"plr_hightower_event_description"	"Мета:\nДопоможіть привидам Блутарха чи Редмонда Манна виграти Гравійні війни раз і назавжди! Зіштовхніть старого мерця на візку до пекла, перш ніж це зробить команда суперника. Збирайте використовуйте смертельні заклинання. Стійте біля візка, щоб він рухався.\n\nІнші примітки:\nВороги можуть блокувати візок, наблизившись до нього."
 
 // ----------------------------------------------------------------
 // Source SDK Base 2013 MP overrides
