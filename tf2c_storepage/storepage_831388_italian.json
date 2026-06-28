@@ -1,4 +1,3 @@
-
 {
 	"itemid":"831388",
 	"language":"italian",
@@ -9,16 +8,4 @@
 	"app[content][sysreqs][windows][min][notes]":"Richiede l'installazione di Team Fortress 2",
 	"app[content][sysreqs][linux][min][osversion]":"Debian 13 \/ glibc 2.39+",
 	"app[content][sysreqs][linux][min][notes]":"Richiede l'installazione di Team Fortress 2; il supporto di Vulkan è consigliato"
-=======
-{
-	"itemid":"831388",
-	"language":"italian",
-	"app[content][legal]":"© EMINOMA. Valve, il logo Valve, Steam, il logo Steam, Team Fortress e il logo Team Fortress sono marchi commerciali e/o marchi registrati di Valve Corporation. Team Fortress 2 Classified è una creazione dei fan e non è affiliato a Valve Corporation.",
-	"app[content][about]":"[p][b]Team Fortress 2 Classified[\/b] è una nuova esperienza di Team Fortress 2 basata sulle sue ispirazioni e sul suo tono originale. Partendo da lì, abbiamo aggiunto funzionalità per migliorare la qualità della vita, rifatto e rielaborato contenuti scartati e arricchito il tutto con aggiornamenti completi in omaggio allo stile e al tono senza tempo di TF2.[\/p]\r\n[p][i]Precedentemente noto come [b]Team Fortress 2 Classic[\/b].[\/i][\/p]\r\n[h2]NEW-OLD FEATURES[\/h2]\r\n[img src=&quot;{STEAM_APP_IMAGE}\/extras\/tf2crender1&quot;][\/img]\r\n[list]\r\n[*][p]Incontra il Civile, una nuovissima classe speciale basata sul personaggio storico di Team Fortress, e portalo all'obiettivo praticamente illeso in modalità VIP.[\/p][\/*]\r\n[*][p]Utilizza armi ispirate alle versioni precedenti di TF2, come la sparachiodi, il pacchetto della dinamite e la pistola tranquillante, tutte riprogettate da zero per integrarsi perfettamente con quelle già presenti.[\/p][\/*]\r\n[*][p]Scatena la tua furia nelle mappe Multi-Team, dove GRN e YLW portano il loro stile di violenza unico (ma stranamente identico) in Arena, Re della collina e altro ancora.[\/p][\/*]\r\n[\/list]\r\n[h2]NEW-NEW FEATURES[\/h2]\r\n[img src=&quot;{STEAM_APP_IMAGE}\/extras\/tf2crender2&quot;][\/img]\r\n[list]\r\n[*][p]Nuove modalità di gioco esclusive, tra cui Dominio e gara VIP, tutte giocabili su mappe ufficiali di qualità professionale, e altre ancora in arrivo.[\/p][\/*]\r\n[*][p]Trampolini di lancio, cannoni antiaerei, mattoni, catene avvolte attorno ai pugni: armi realizzate internamente che vanno oltre i semplici accessori e cambiano radicalmente il modo in cui giochi.[\/p][\/*]\r\n[*][p]Ampio supporto per il modding, che consente ai giocatori di personalizzare l'aspetto del loro gioco e consente ai server di ospitare mappe e pacchetti di armi personalizzati avanzati.[\/p][\/*]\r\n[*][p]Un'intera serie di miglioramenti visivi, tra cui texture migliorate, modelli, funzionalità di mappatura e ombreggiature in stile cartone animato ripristinate, per lo più assenti nella versione retail.[\/p][\/*]\r\n[*][p]Un pollo, o almeno così ci hanno fatto credere.[\/p][\/*]\r\n[\/list]\r\n[h2]ACTIVELY UPDATED[\/h2]\r\n[img src=&quot;{STEAM_APP_IMAGE}\/extras\/tf2crender3&quot;][\/img]\r\n[p]Avviato nel 2014 e ufficialmente pubblicato nel luglio 2020, Team Fortress 2 Classified è in lavorazione da oltre un decennio, quasi certamente da più tempo di quanto tu abbia mai vissuto. Anche tra i massicci aggiornamenti che durano più giorni, un team di collaboratori lavora senza sosta a nuovi contenuti, modifiche al bilanciamento e correzioni di bug.[\/p]\r\n[p]Ora che il nostro futuro non è più così incerto e il terrore nei nostri cuori si è placato, la situazione non può che peggiorare. Aspettatevi nuove armi, modalità e personaggi con la crescita di Team Fortress 2 Classified.[\/p]",
-	"app[content][short_description]":"Team Fortress 2 Classified è una nuova esperienza di Team Fortress 2 basata sulle sue ispirazioni e sul suo tono originale. Aggiornata con una grafica rinnovata, nuove modalità di gioco e mappe, nuove armi, nuove squadre e un corpulento magnate del petrolio.",
-	"app[content][sysreqs][windows][min][osversion]":"Windows 10 (64-Bit)",
-	"app[content][sysreqs][windows][min][notes]":"Richiede l'installazione di Team Fortress 2",
-	"app[content][sysreqs][linux][min][osversion]":"Ubuntu 16.04",
-	"app[content][sysreqs][linux][min][notes]":"Richiede l'installazione di Team Fortress 2; supporto Vulkan consigliato"
-
 }

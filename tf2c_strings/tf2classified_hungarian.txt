@@ -133,6 +133,7 @@
 "TF_playerid_object_upgrading_level"	"%s1. szint  -  Fejlesztés..."
 "TF_playerid_object_building"			"Épül..."
 "TF_playerid_object_building_level"		"%s1. szint  -  Épül..."
+"TF_playerid_object_tranq"				" (SZABOTÁLVA)"
 "TF_playerid_teleporter_no_entrance"	"  -  Nincs Teleport bejárat"
 "TF_playerid_teleporter_no_exit"		"  -  Nincs Teleport kijárat"
 "TF_playerid_object_recharging"			"  -  Újratöltés: %s1%"
@@ -639,6 +640,7 @@
 "TF_Meter_Harvest"	"SZÜRET"
 "TF_Meter_LunchBox"	"UZSONNA"
 "TF_Meter_Therapy"	"TERÁPIA"
+"TF_Meter_Tranq"	"ALTATÓ"
 
 // ----------------------------------------------------------------
 // Buildings
@@ -686,7 +688,8 @@
 "Attrib_MeleeTakenBecomesCritWearer"				"Krit elszenvedése közelharci sebzésből a viselőn"
 "Attrib_MoveSpeed_Bonus_Cloaked"					"+%s1%-kal gyorsabb mozgási sebesség álcázva"
 "Attrib_LoseCloakOnDamage"							"-%s1% álca mikor álca alatt sebeznek"
-"Attrib_TranqOnHit"									"Találatkor: A célpont színvak lesz és a mozgási és tüzelési sebessége csökken %s1 másodpercig"
+"Attrib_TranqOnHit"									"Találatkor: A célpont színvak lesz és a mozgási és tüzelési sebessége csökken %s1 másodpercig\nAz elkábult ellenfelek garantált kritikus találatokat szenvednek közelharci támadásokból"
+"Attrib_CloakRegenDisabled"							"Nincs passzív álca töltés"
 "Attrib_FishwhackerSweep"							"A közeli ellenfelek visszalökődnek"
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Az ön-visszalökést befolyásolja a sebzésnövelés"
 "Attrib_ApplySelfKnockbackSwing"					"Visszafele ható ön-visszalökés hintázáskor"
@@ -779,6 +782,10 @@
 "Attrib_JumpPadNoUpgrade"							"Az ugratókat nem lehet fejleszetni"
 "Attrib_AltFire_HasteBoost"							"Alternatív tűz: csapattársak felgyorsítása"
 "Attrib_AltFire_UberBubble"							"Alternatív tűz: eszköz kilövése, amely sérhetetlenséget ad egy burokban"
+"Attrib_StickyIsLandmine"							"Aknákat lő"
+"Attrib_AutoJumping"								"A viselő automatikusan ugrik, ha a ugrás gombot lenyomva tartja"
+"Attrib_SpreadScalesSpeed"							"Akár %s1%-kal pontosabb az aktuális sebesség alapján"
+"Attrib_DuckJumping"								"A viselő guggolva tud ugrani"
 
 // ----------------------------------------------------------------
 // Map strings
@@ -928,6 +935,9 @@ Csak dicsőséges kézitusa és kardvívás!"
 // ----------------------------------------------------------------
 // Gamemode strings
 // ----------------------------------------------------------------
+
+// CTF
+"TF_CTF_TeamCannotCapture"	"A csapatod nem tudja elfoglalni ezt a zászlót!"
 
 // Domination
 "default_dom_description"	"Feladat:
@@ -1325,9 +1335,6 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_CombatTextBatchingWindow_Tip"	"Maximum késleltetési idő összegyűjtött sebzésszöveg-események között"
 "TF_CombatTextDropshadow"			"A sebzésszöveg árnyékot vetít ki"
 "TF_CombatTextDropshadow_Tip"		"Ha be van kapcsolva, minden sebzésszöveg árnyékot fog vetni"
-
-"TF2C_CalloutBubbles"				"Jelbuborékok bekapcsolása"
-"TF2C_CalloutBubbles_Tip"			"Ha be van kapcsolva, a hangparancsok jelbuborékokat mutatnak a játékosok felett"
 
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"ROBBANTÓS: Küklopsz „dupla kattintás” bekapcsolása"
