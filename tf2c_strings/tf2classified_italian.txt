@@ -16,19 +16,32 @@
 // Chat Prefixes
 "Chat_All"				"%s1: %s2"
 "Chat_All_Dead"			"*MORTO* %s1: %s2"
-"Chat_All_Spec"			"*SPETT* %s1 : %s2"
+"Chat_All_Spec"			"*SPETT* %s1 : %s2"
 "Chat_Team"				"(SQUADRA) %s1: %s2"
 "Chat_Team_Loc"			"(SQUADRA) %s1 @ %s3: %s2"
 "Chat_Team_Dead"		"(SQUADRA) *MORTO* %s1: %s2"
 "Chat_Team_Spec"		"(SQUADRA) *SPETT* %s1: %s2"
+
 "Chat_All_Dev"			"[DEV] %s1: %s2"
 "Chat_All_Dev_Dead"		"*MORTO* [DEV] %s1: %s2"
 "Chat_All_Dev_Spec"		"*SPETT* [DEV] %s1: %s2"
-"Chat_Team_Dev"			"(SQUADRA) [DEV] %s1: %s2"
+"Chat_Team_Dev"			"(SQUADRA) [DEV] %s1: %s2"
 "Chat_Team_Dev_Loc"		"(SQUADRA) [DEV] %s1 @ %s3: %s2"
-"Chat_Team_Dev_Dead"	"(SQUADRA) *MORTO* [DEV] %s1: %s2"
+"Chat_Team_Dev_Dead"	"(SQUADRA) *MORTO* [DEV] %s1: %s2"
 "Chat_Team_Dev_Spec"	"(SQUADRA) *SPETT* [DEV] %s1: %s2"
+
 "Chat_Voice"			"(VOCE) "
+
+// Chat Printouts
+"TF_Joined_Game"				"%s1 si è unito alla partita"
+"TF_Left_Game"					"%s1 ha abbandonato la partita (%s2)"
+"TF_Joined_Team"				"%s1 si è unito alla squadra %s2"
+"TF_Name_Change"				"* %s1 ha cambiato nome in %s2"
+
+"TF_Team_Balanced"				"%s1 è stato spostato nella squadra %s2"
+"TF_Autobalance_TeamChangeDone"	"Sei stato spostato nella squadra %s1"
+
+"TF_VIP_Assigned"				"%s1 è diventato il VIP!"
 
 // Chat Filters
 "Chat_Filter_Voice"		"Comandi Vocali"
@@ -59,40 +72,12 @@
 
 "TF_Other_Name"						"ALTRO"
 
-
-
 // Disguise Kit global disguise
-
 "Hud_Menu_Disguise_GlobalTeam"		"Travestimento Globale: Ogni nemico ti vedrà come membro della sua squadra."
 
-
-
 // Autobalance
-
 "TF_teamswitch_green"				"Adesso sei un GRN!"
-
 "TF_teamswitch_yellow"				"Adesso sei un YLW!"
-
-
-
-// Chat Printouts
-"TF_Team_Balanced"					"%s1 è stato spostato nella squadra %s2"
-
-"TF_Autobalance_TeamChangeDone"		"Sei stato spostato nella squadra %s1"
-
-"TF_Name_Change"					"* %s1 ha cambiato nome in %s2"
-
-"TF_Joined_Game"					"%s1 si è unito alla partita"
-
-"TF_Left_Game"						"%s1 ha abbandonato la partita (%s2)"
-
-"TF_Joined_Team"					"%s1 si è unito alla squadra %s2"
-
-"TF_Joined_AutoTeam" 				"%s1 è stato automaticamente assegnato alla squadra %s2"
-
-"TF_AutoBalanced"					"%s1 è stato spostato nella squadra %s2 per bilanciare la partita"
-
-"TF_AutoBalance_Warning"			"È stato rilevato che le squadre non sono bilanciate"
 
 // ----------------------------------------------------------------
 // Classes
@@ -961,7 +946,6 @@ BLU può arrestare il progresso di cattura di un Punto di Controllo se il VIP no
 "vip_setup_goal_offense"	"Scorta il VIP alla Zona di Fuga."
 "vip_setup_goal_defense"	"Uccidi il VIP della squadra nemica per far si che non raggiunga la Zona di Fuga."
 
-"TF_VIP_Assigned"				"%s1 è diventato il VIP!"
 "TF_VIP_Tutorial_Annotation_2"	"Garantisce un potenziamento difensivo a chi gli sta vicino e\npuò anche potenziare un membro della sua squadra temporaneamente!"
 "TF_VIP_Tutorial_Annotation_3"	"Ma ricorda, la sua vita vale molto di più della tua, quindi non lasciarlo morire!"
 
