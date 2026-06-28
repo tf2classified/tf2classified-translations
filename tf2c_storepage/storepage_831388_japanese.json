@@ -1,0 +1,11 @@
+{
+	"itemid":"831388",
+	"language":"japanese",
+	"app[content][legal]":"© EMINOMA. Valve、Valveロゴ、Steam、Steamロゴ、Team Fortress、およびTeam Fortressロゴは、Valve Corporationの商標または登録商標です。「Team Fortress 2 Classified」はファンメイド作品であり、Valve Corporationによって承認・提携・運営されているものではありません。",
+	"app[content][about]":"[p][b]Team Fortress 2 Classified[\/b]は、オリジナル版「Team Fortress 2」の着想や雰囲気を基に構築された、新たなTeam Fortress 2体験です。そこを出発点として、快適性を向上させる機能を追加し、没コンテンツを再制作・再構築し、さらにTF2の時代を超えたスタイルと空気感へのオマージュとして、大規模アップデートを重ねて拡張してきました。[\/p]\r\n[p][i]旧称：[b]Team Fortress 2 Classic[\/b][\/i][\/p]\r\n[h2]古くて新しい要素[\/h2]\r\n[img src=&quot;{STEAM_APP_IMAGE}\/extras\/tf2crender1&quot;][\/img]\r\n[list]\r\n[*][p]クラシックなTeam Fortressに登場したキャラクターを基にした新たな特殊クラス「シビルリアン」が登場。VIPモードでは、彼をなるべく無傷のまま目標地点まで送り届けましょう。[\/p][\/*]\r\n[*][p]ネイルガン、ダイナマイトパック、鎮静剤ガンなど、TF2開発初期版に着想を得た武器を使用可能。既存のゲーム内容に自然に溶け込むよう、一からデザインし直されています。[\/p][\/*]\r\n[*][p]多チームマップで大暴れ。GRNとYLWが、それぞれ独自でありながら妙に似通った暴力性をアリーナ、キング・オブ・ザ・フラッグなどへ持ち込みます。[\/p][\/*]\r\n[\/list]\r\n[h2]完全新規要素[\/h2]\r\n[img src=&quot;{STEAM_APP_IMAGE}\/extras\/tf2crender2&quot;][\/img]\r\n[list]\r\n[*][p]ドミネーションやVIPレースを含む新ゲームモードを収録。いずれも高品質な公式マップ上でプレイ可能で、さらに追加予定です。[\/p][\/*]\r\n[*][p]ジャンプパッド、高射砲、レンガ、拳に巻き付けた鎖などを追加。単なるサイドグレードに留まらない独自武器群が、ゲームプレイを大きく変化させます。[\/p][\/*]\r\n[*][p]充実したMODサポートにより、プレイヤーはゲームの見た目を自由にカスタマイズ可能。サーバー側では高度なカスタム武器パックやマップの導入も行えます。[\/p][\/*]\r\n[*][p]改良されたテクスチャ、モデル、マッピング機能、そして製品版ではほとんど失われていたトゥーン調シェーディングの復元など、多数のビジュアル強化を実装。[\/p][\/*]\r\n[*][p]あとニワトリもいます。たぶん。[\/p][\/*]\r\n[\/list]\r\n[h2]継続的にアップデート中[\/h2]\r\n[img src=&quot;{STEAM_APP_IMAGE}\/extras\/tf2crender3&quot;][\/img]\r\n[p]2014年に開発を開始し、2020年7月に正式リリースされたTeam Fortress 2 Classifiedは、すでに10年以上にわたり開発が続けられています――おそらく、あなたが生きてきた年月より長いでしょう。数日に及ぶ大型アップデートの合間にも、多数の開発寄稿者が休むことなく、新コンテンツ、バランス調整、バグ修正へ取り組み続けています。[\/p]\r\n[p]未来が以前ほど不透明ではなくなり、胸を締め付けていた恐怖も和らいだ今、ここから先は上昇あるのみです。成長を続けるTeam Fortress 2 Classifiedにて、新たな武器、モード、キャラクターの登場をお楽しみに。[\/p]",
+	"app[content][short_description]":"Team Fortress 2 Classifiedは、オリジナル版「Team Fortress 2」の着想や雰囲気を基に構築された、新たなTeam Fortress 2体験です。刷新されたビジュアル、新ゲームモードやマップ、新武器、新チーム、そして恰幅のいい石油王を追加してアップデートされています。"
+	"app[content][sysreqs][windows][min][osversion]":"Windows 10 (64-Bit)",
+	"app[content][sysreqs][windows][min][notes]":"Team Fortress 2のインストールが必要",
+	"app[content][sysreqs][linux][min][osversion]":"Debian 13 \/ glibc 2.39+",
+	"app[content][sysreqs][linux][min][notes]":"Team Fortress 2のインストールが必要; Vulkanのサポートを推奨"
+}

@@ -1,0 +1,2046 @@
+﻿"lang"
+{
+"Language" "Japanese"
+"Tokens"
+{
+// ----------------------------------------------------------------
+// Chat
+// ----------------------------------------------------------------
+
+// Channels
+"Channel_All"			"全て"
+"Channel_Team"			"チーム"
+"Switch_All"			"(TABを押して「チーム」に切り替える)"
+"Switch_Team"			"(TABを押して「全て」に切り替える)"
+
+// Chat Prefixes
+"Chat_All"				"%s1: %s2"
+"Chat_All_Dead"			"*死亡* %s1: %s2"
+"Chat_All_Spec"			"*観戦* %s1: %s2"
+"Chat_Team"				"(チーム) %s1: %s2"
+"Chat_Team_Loc"			"(チーム) %s1 @ %s3: %s2"
+"Chat_Team_Dead"		"(チーム) *死亡* %s1: %s2"
+"Chat_Team_Spec"		"(チーム) *観戦* %s1: %s2"
+
+"Chat_All_Dev"			"[DEV] %s1: %s2"
+"Chat_All_Dev_Dead"		"*死亡* [DEV] %s1: %s2"
+"Chat_All_Dev_Spec"		"*観戦* [DEV] %s1: %s2"
+"Chat_Team_Dev"			"(チーム) [DEV] %s1: %s2"
+"Chat_Team_Dev_Loc"		"(チーム) [DEV] %s1 @ %s3: %s2"
+"Chat_Team_Dev_Dead"	"(チーム) *死亡* [DEV] %s1: %s2"
+"Chat_Team_Dev_Spec"	"(チーム) *観戦* [DEV] %s1: %s2"
+
+"Chat_Voice"			"(音声) "
+
+// Chat Printouts
+"TF_Joined_Game"				"%s1がゲームに参加しました"
+"TF_Left_Game"					"%s1がゲームを退出しました(%s2)"
+"TF_Joined_Team"				"%s1が%s2チームに入りました"
+"TF_Name_Change"				"* %s1は%s2に名前を変更しました"
+
+"TF_Team_Balanced"				"%s1は%s2チームに移動されました"
+"TF_Autobalance_TeamChangeDone"	"あなたは%s1チームに移動しました"
+
+"TF_VIP_Assigned"				"%s1は今やVIPです！"
+
+// Chat Filters
+"Chat_Filter_Voice"		"音声コマンド"
+
+// ----------------------------------------------------------------
+// General
+// ----------------------------------------------------------------
+
+// Sentry consent popup
+"TF_SentryReport_Title"				"エラーレポートを送信するか？"
+"TF_SentryReport_Message"			"Team Fortress 2 Classifiedチームへ、匿名のエラーレポートを送信することを許可しますか？"
+
+// VIP voting
+"Vote_ChangeCivilian"				"VIPを変更"
+"TF_vote_change_civilian"			"プレイヤー「%s1」をVIPに選ぶか？"
+"TF_vote_change_civilian_caller"	"プレイヤー「%s1」がVIPになりたい"
+"TF_vote_passed_change_civilian"	"VIPはプレイヤー:%s1になる..."
+
+// Player list dialog
+"TF_Volume_Generic"			"音量："
+
+// ----------------------------------------------------------------
+// Teams
+// ----------------------------------------------------------------
+
+"TF_GreenTeam" 						"&5 GRN"
+"TF_YellowTeam" 					"&6 YLW"
+
+"TF_GreenTeam_Name"					"GRN"
+"TF_YellowTeam_Name"				"YLW"
+
+"TF_Other_Name"						"他"
+
+// Disguise Kit global disguise
+"Hud_Menu_Disguise_GlobalTeam"		"グローバル偽装：すべての敵は、あなたを自軍のチームメンバーとして認識する。"
+
+// Autobalance
+"TF_teamswitch_green"				"GRNチームで参戦！"
+"TF_teamswitch_yellow"				"YLWチームで参戦！"
+
+// ----------------------------------------------------------------
+// Classes
+// ----------------------------------------------------------------
+
+"TF_Special"	"SPECIAL"
+
+// Civilian
+"TF_Civilian" 				"シビルリアン"
+"TF_Class_Name_Civilian" 	"シビルリアン"
+
+"ClassTips_10_Count"	"3"
+"ClassTips_10_1"		"チームメイトをブーストして戦闘で有利にしよう！"
+"ClassTips_10_1_Icon"	"chalf_circle"
+"ClassTips_10_2"		"チームメイトの近くにいて、ダメージ耐性と受動的な回復を与えよう！"
+"ClassTips_10_2_Icon"	"chalf_circle"
+"ClassTips_10_3"		"戦いでは無力だ！"
+"ClassTips_10_3_Icon"	"chalf_circle"
+
+// ----------------------------------------------------------------
+// Target ID
+// ----------------------------------------------------------------
+
+// General
+"TF_playerid_sameteam"					"%s1%s2"
+"TF_playerid_diffteam"					"%s1(敵) %s2"
+"TF_playerid_noteam"					"%s1"
+"TF_playerid_friendlyspy_disguise"		"変装中 (%s1 %s2)"
+"TF_playerid_wpn_ammo_clip"				"%s1  -  弾薬: %s2 (%s3)"
+"TF_playerid_wpn_ammo"					"%s1  -  弾薬: %s2"
+"TF_playerid_wpn"						"%s1"
+
+// Boosts
+"TF_playerid_healer"					"(治療者) "
+"TF_playerid_healtarget"				"(回復) "
+"TF_playerid_mediccharge"				"ユーバーチャージ: %s1%"
+"TF_playerid_mediccharge_wpn"			"%s1  -  ユーバーチャージ: %s2%"
+"TF_playerid_civiliancharge"			"ブースト: %s1%"
+"TF_playerid_civiliancharge_wpn"		"%s1 - ブースト: %s2%"
+
+// Buildings
+"TF_playerid_object"					"%s1 (%s2)"
+"TF_playerid_object_diffteam"			"敵の%s1 (%s2)"
+"TF_playerid_object_mini"				"ミニ-%s1 (%s2)"
+"TF_playerid_object_mode"				"%s1 %s3 (%s2) "
+"TF_playerid_object_level"				"レベル%s1"
+"TF_playerid_object_upgrade"			"アップグレード: %s1"
+"TF_playerid_object_upgrade_level"		"レベル%s1  -  アップグレード: %s2"
+"TF_playerid_object_upgrading"			"アップグレード中..."
+"TF_playerid_object_upgrading_level"	"レベル%s1  -  アップグレード中..."
+"TF_playerid_object_building"			"建設中..."
+"TF_playerid_object_building_level"		"レベル%s1  -  建設中..."
+"TF_playerid_object_tranq"				" （妨害された）"
+"TF_playerid_teleporter_no_entrance"	"  -  テレポーターの入口なし"
+"TF_playerid_teleporter_no_exit"		"  -  テレポーターの出口なし"
+"TF_playerid_object_recharging"			"  -  リチャージ中: %s1%"
+"TF_playerid_object_flooded"			"浸水中"
+"TF_playerid_carrying"					"運んでいる: %s1"
+"TF_playerid_carrying_lvl"				"運んでいる: %s1 (レベル%s2)"
+
+"TF_friendly"							"友"
+"TF_enemy"								"敵"
+
+// ----------------------------------------------------------------
+// Respawning
+// ----------------------------------------------------------------
+
+"game_respawntime_now"			"リスポーンの準備をしてください"
+"game_respawntime_in_sec"		"1秒後にリスポーン"
+"game_respawntime_in_secs"		"%s1秒後にリスポーン"
+"game_respawntime_stalemate"	"サドンデス中はリスポーン不可"
+"game_respawntime_next_round"	"次のラウンドでリスポーン"
+"TF_Arena_NoRespawning"			"アリーナモード中はリスポーン不可"
+
+// ----------------------------------------------------------------
+// Kill feed
+// ----------------------------------------------------------------
+
+"DeathMsg_KilledVIP"			"がVIPを殺害した！"
+"DeathMsg_KilledTeamVIP"		"が%s1 VIPを殺害した！"
+
+"DeathMsg_VIP"					"VIP"
+"DeathMsg_ComboKill"			"コンボキル！"
+"DeathMsg_AirshotKill"			"エイルショト！"
+
+// Custom suicides
+"DeathMsg_Suicide_Boioing"		"は空へと飛び立った！"
+"DeathMsg_Suicide_Stomp"		"は強烈な重力を体験した"
+"DeathMsg_Suicide_Disintegrate"	"は灰になった"
+"DeathMsg_Suicide_Decapitate"	"は胴体だけになった"
+"DeathMsg_Suicide_Gold"			"は黄金をつかんだ"
+"DeathMsg_Suicide_Freeze"		"は凍りついた"
+"DeathMsg_Suicide_Fizzle"		"は感電した！"
+"DeathMsg_Suicide_Disappear"	"は消えた"
+
+// ----------------------------------------------------------------
+// Voice Menu
+// ----------------------------------------------------------------
+
+"Voice_Menu_ChargeReady"					"（メディック） ユーバーチャージの状態"
+"Voice_Menu_ChargeReadySubtitle"			"ユーバーチャージ準備完了！ (100%)"
+"Voice_Menu_ChargeAlmostReadySubtitle"		"ユーバーチャージもうすぐ準備完了！ (%s1%)"
+"Voice_Menu_ChargeNotReadySubtitle"			"ユーバーチャージまだ準備できていない！ (%s1%)"
+
+"Voice_Menu_SingleChargeReadySubtitle"		"ユーバーチャージ準備完了！ (%s1チャージ)"
+"Voice_Menu_MultipleChargesReadySubtitle"	"ユーバーチャージ準備完了！ (%s1チャージ)"
+
+// ----------------------------------------------------------------
+// Class tips
+// ----------------------------------------------------------------
+
+// Scout
+"Tip_1_Count"	"10"
+// Generic
+"Tip_1_1"		"スカウトとして、空中でダブルジャンプをして素早く方向転換できる。"
+"Tip_1_2"		"スカウトとして、コントロールポイントを他のクラスの2倍の速さで制圧できる。"
+"Tip_1_3"		"スカウトとして、他のどのクラスよりも速い。敵の注意を引きつけ、素早く逃げよう！"
+// Stock
+"Tip_1_4"		"スカウトとして、スカッターガンは至近距離で致命的だ。敵との距離を縮めて大ダメージを与えよう。"
+"Tip_1_5"		"スカウトとして、ピストルは遠距離の敵を狙い撃つのに最適だ。"
+"Tip_1_6"		"スカウトとして、バットは他の近接武器より威力が低いが、はるかに速く振れる。"
+// Death & Taxes
+"Tip_1_7"		"スカウトとして、ネイルガンは遠距離でも安定したチップダメージを与えられる。動き続けてショットを弧状に狙おう。"
+"Tip_1_8"		"スカウトとして、ネイルガンでセントリーガンを簡単に破壊できる。難しい巣を攻略する時に使おう。"
+// Fight or Flight
+"Tip_1_9"		"スカウトとして、レンガは安定したダメージと強力なノックバックを与える。敵を吹き飛ばせ！"
+"Tip_1_10"		"スカウトとして、レンガは遠距離から投げるとミニクリティカルになる。"
+
+// Sniper
+"Tip_2_Count"	"11"
+// Generic
+"Tip_2_1"		"スナイパーとして、敵の頭を狙って大ダメージを与えよう。"
+"Tip_2_2"		"スナイパーとして、%attack2%を押してスナイパーライフルでスコープを覗くか、ハンティングリボルバーでフォーカスできる。"
+// Stock
+"Tip_2_3"		"スナイパーとして、スコープを覗いている時間が長いほどスナイパーライフルのダメージが上がる。"
+"Tip_2_4"		"スナイパーとして、フルチャージのヘッドショットはほとんどのクラスを即死させられる。"
+"Tip_2_5"		"スナイパーとして、SMGは近づいてきた敵を処理するのに不可欠だ。"
+"Tip_2_6"		"スナイパーとして、ククリは最後の防衛手段であり、突然の奇襲に対処するのに役立つ。"
+// Death & Taxes
+"Tip_2_7"		"スナイパーとして、ハンツマンは近距離での攻撃的な戦闘に使えるが、精度は落ちる。"
+"Tip_2_8"		"スナイパーとして、ハンツマンは5秒以上引き絞ると精度が落ちる。%attack2%を押してリセットできる。"
+"Tip_2_9"		"スナイパーとして、ハンティングリボルバーは中距離で優れた選択肢だ。前線を素早く進退しながら高ダメージを与えよう。"
+"Tip_2_10"		"スナイパーとして、ハンティングリボルバーでフォーカスしている時は他の主武器より大幅に速く動ける。"
+"Tip_2_11"		"スナイパーとして、フィッシュワッカーは敵のグループをノックバックさせ出血させる。侵入者を追い払うのに使おう。"
+
+// Soldier
+"Tip_3_Count"	"12"
+// Generic
+"Tip_3_1"		"怪我をしたら%helpme%を押してメディックを呼ぼう。近くのメディックに通知が届く。"
+"Tip_3_2"		"ソルジャーとして、ジャンプしながら足元にロケットを撃ってロケットジャンプで高くまで飛べる。"
+"Tip_3_3"		"ソルジャーとして、ロケットジャンプの準備中にしゃがむと最大の高さを得られる。"
+"Tip_3_4"		"ソルジャーとして、爆発ダメージを避けられないよう敵の足元を狙ってロケットを撃とう。"
+"Tip_3_5"		"ソルジャーとして、ロケットには強力なノックバックがある。敵を揺さぶったり空中に吹き飛ばしたりしよう！"
+// Stock
+"Tip_3_6"		"ソルジャーとして、ロケットランチャーは常に装填しておこう。%reload%を押していつでもリロードできる。"
+"Tip_3_7"		"ソルジャーとして、戦闘中のリロード待ちを避けるためにショットガンを使ってロケットを節約しよう。"
+"Tip_3_8"		"ソルジャーとして、スコップを使えば爆発ダメージを気にせず安定した近距離ダメージを与えられる。"
+// Death & Taxes
+"Tip_3_9"		"ソルジャーとして、ガンボートはロケットジャンプによる体力損失を大幅に減らす。位置取りと機動性が特に重要な時に使おう。"
+"Tip_3_10"		"ソルジャーとして、R.P.G.のロケットは弧を描いて飛び、敵の遮蔽物を越えて着弾できる。慎重に狙おう！"
+// Double Down
+"Tip_3_11"		"ソルジャーとして、アドミラルティ・アンカーの地震ダメージは保持時間が長いほど大きくなる。ロケットジャンプの頂点で使おう！"
+"Tip_3_12"		"ソルジャーとして、アドミラルティ・アンカーを装備していると空中でプロジェクタイルからクリティカルを受けやすい。空を飛ぶ時は注意しよう。"
+
+// Demoman
+"Tip_4_Count"	"15"
+// Generic
+"Tip_4_1"		"デモマンとして、%attack2%を押してスティッキーボムを遠隔起爆したり、設置した地雷を消火したりできる。"
+"Tip_4_2"		"デモマンとして、足元で爆発物を起爆して大きく飛び上がろう。"
+"Tip_4_3"		"デモマンとして、爆発ジャンプの準備中にしゃがむと最大の高さを得られる。"
+// Stock
+"Tip_4_4"		"デモマンとして、直接戦闘にはグレネードランチャーを使おう。空中の手榴弾は敵に当たると即起爆する。"
+"Tip_4_5"		"デモマンとして、スティッキーボムランチャーで%attack%を長押しするほどスティッキーボムが遠くへ飛ぶ。"
+"Tip_4_6"		"デモマンとして、見つかりにくい壁や天井にスティッキーボムを撃ち込もう。"
+"Tip_4_7"		"デモマンとして、爆発ジャンプで敵陣に飛び込んだ後はボトルで近接戦闘しよう。"
+"Tip_4_8"		"デモマンとして、ボトルは割れていても割れていなくても同じダメージを与える。"
+// Death & Taxes
+"Tip_4_9"		"デモマンとして、コントロールポイントが激戦になっている時にダイナマイトパックを投げ込んで敵を一掃しよう。"
+"Tip_4_10"		"デモマンとして、ダイナマイトパックは敵エンジニアに無効化される。セントリーガンの巣に投げ込む時は注意しよう。"
+"Tip_4_11"		"デモマンとして、ガンボートは爆発ジャンプによる体力損失を大幅に減らす。位置取りと機動性が特に重要な時に使おう。"
+"Tip_4_12"		"デモマンとして、マインレイヤーは敵が近づくと自動起爆する近接感知地雷を撃ち出す。自動防衛に使おう！"
+// Double Down
+"Tip_4_13"		"デモマンとして、サイクロプスのEMP手榴弾は離した時だけ起爆する。爆発ジャンプのタイミングに合わせたり、致命的な罠を仕掛けるのに使おう！"
+"Tip_4_14"		"デモマンとして、サイクロプスは自分の爆発物を即座に起爆する。積極的なコンボキルを狙え！"
+"Tip_4_15"		"デモマンとして、サイクロプスを使って近くの敵のスティッキーボム、ダイナマイトパック、地雷を消火できる。"
+
+// Medic
+"Tip_5_Count"	"16"
+// Generic
+"Tip_5_1"		"メディックとして、最近ダメージを受けていないチームメイトははるかに速く回復する！"
+"Tip_5_2"		"メディックとして、より瀕死のチームメイトを治療するほどユーバーチャージが速く溜まる。"
+"Tip_5_3"		"メディックとして、セットアップ時間中はユーバーチャージがはるかに速く溜まる。"
+"Tip_5_4"		"メディックとして、チームメイトを治療してユーバーチャージメーターを満タンにしたら、%attack2%を押してユーバーチャージを発動しよう。"
+"Tip_5_5"		"メディックとして、助けを求めているチームメイトに注意しよう。画面上の十字の吹き出しで彼らを見つけよう。"
+"Tip_5_6"		"メディックとして、無敵状態中はコントロールポイントの制圧やインテリジェンスブリーフケースの回収ができない。"
+// Stock
+"Tip_5_7"		"メディックとして、注射器は弧を描いて飛び、飛行時間がある。ショットをリードして当てよう。"
+"Tip_5_8"		"メディックとして、メディガンで負傷したチームメイトを治療し、通常体力の最大150%%まで超回復させよう。"
+"Tip_5_9"		"メディックとして、メディガンのユーバーチャージはあなたと患者を短時間無敵にする。"
+"Tip_5_10"		"メディックとして、ボーンソーはチームメイトから離れた防衛的な状況で使える。"
+// Death & Taxes
+"Tip_5_11"		"メディックとして、クリッツクリークは患者に一時的にクリティカル確定を与える。強力なクラスに使い、敵が密集したエリアで使おう。"
+"Tip_5_12"		"メディックとして、ユーバースプリッツェを使う時は体力に注意しよう。装備中は最大体力が10減る。"
+"Tip_5_13"		"メディックとして、ショックセラピーはチャージが高いほど多くのダメージを与える。チャージは敵にヒットするたびに減る。"
+"Tip_5_14"		"メディックとして、ショックセラピーはフルチャージ時にチームメイトを完全回復させられるが、全体的な回復速度が下がる。"
+// Double Down
+"Tip_5_15"		"メディックとして、リジュヴィネーターは大勢のチームメイトを同時に回復するのに非常に役立つ。ダイレクトヒットで回復量とユーバーチャージボーナスが増える。"
+"Tip_5_16"		"メディックとして、リジュヴィネーターのユーバーチャージは一時的な無敵シールドを展開し、その中に入ったチームメイトを全ダメージから守る。"
+
+// Heavy
+"Tip_6_Count"	"17"
+// Generic
+"Tip_6_1"		"怪我をしたら%voicemenu 0 0%を押してメディックを呼ぼう。近くのメディックに通知が届く。"
+"Tip_6_2"		"ヘビーとして、他のどのクラスよりも最大体力が多い。大規模な攻撃の先頭に立つことを恐れるな！"
+"Tip_6_3"		"ヘビーとして、他のクラスより大幅に遅い。より機動力のある敵と戦う時は慎重になろう。"
+"Tip_6_4"		"ヘビーとして、メディックと組むのが得意だ。治療を受けられるようメディックと視線を合わせておこう。"
+"Tip_6_5"		"ヘビーとして、スパイに狙われやすい。武器で近づかせないようにし、頻繁に後ろを確認しよう。"
+"Tip_6_6"		"ヘビーとして、%attack2%を押してミニガンまたは対空砲をスピンアップしよう。近づく敵に備えよう！"
+// Stock
+"Tip_6_7"		"ヘビーとして、ミニガンは大量の弾薬を消費する。弾薬パックや落ちた武器を拾って補充しよう。"
+"Tip_6_8"		"ヘビーとして、空中でミニガンをスピンアップしていても勢いを失わない。角を飛び越えて敵を驚かせよう！"
+"Tip_6_9"		"ヘビーとして、ショットガンは高い瞬間ダメージを与えられ、ミニガンをスピンする時より速く動ける。"
+"Tip_6_10"		"ヘビーとして、高い体力のおかげでほとんどの近接戦に勝てる。拳を使うことを恐れるな！"
+// Death & Taxes
+"Tip_6_11"		"ヘビーとして、サンドヴィッチを食べる安全な場所を見つけよう。邪魔されることがある。"
+"Tip_6_12"		"ヘビーとして、サンドヴィッチを何口でも食べて回復できる。ただし%attack2%を押して友達と分けるとクールダウンが発生する。"
+"Tip_6_13"		"ヘビーとして、サンドヴィッチを投げる場所に注意しよう。チームメイトも敵も拾って体力の50%%を回復できる！"
+// Fight or Flight
+"Tip_6_14"		"ヘビーとして、対空砲は高い瞬間ダメージを与え、集団や遮蔽物の後ろの敵を処理するのに最適だ。"
+"Tip_6_15"		"ヘビーとして、対空砲は空中の敵にミニクリティカルを与える。ソルジャーやジャンプパッドを使っている敵を叩き落とすのに使おう！"
+"Tip_6_16"		"ヘビーとして、チェーホフのパンチはヒットするたびにクリティカルを1つ最大3つまでストックする。ストックしたクリティカルはどの武器でも使える！"
+"Tip_6_17"		"ヘビーとして、チェーホフのパンチを装備すると敵の近接攻撃から確定クリティカルを受ける。近接戦闘には注意しよう。"
+
+// Pyro
+"Tip_7_Count"	"15"
+// Generic
+"Tip_7_1"		"パイロとして、燃焼や炎ダメージにほぼ免疫がある。敵のパイロに対しては副武器や近接武器で素早く倒そう。"
+"Tip_7_2"		"パイロとして、敵に火をつけてすぐ退き、後燃えで倒せる。"
+// Stock
+"Tip_7_3"		"パイロとして、フレイムスロワーは敵に近いほど多くのダメージを与える。"
+"Tip_7_4"		"パイロとして、フレイムスロワーは大量の弾薬を消費する。弾薬パックや落ちた武器を拾って補充しよう。"
+"Tip_7_5"		"パイロとして、フレイムスロワーの短射程を活かすため敵を奇襲しよう。角や段差を利用しよう。"
+"Tip_7_6"		"パイロとして、フレイムスロワーの圧縮エアブラストは非常に便利なツールだ。%attack2%を押して敵（無敵状態も含む）を押し出したり、環境ハザードに突き落としたりしよう！"
+"Tip_7_7"		"パイロとして、%attack2%でフレイムスロワーのエアブラストを使って燃えているチームメイトを消火できる。"
+"Tip_7_8"		"パイロとして、敵がフレイムスロワーの射程外に退いたらショットガンに切り替えよう。"
+"Tip_7_9"		"パイロとして、ファイヤーアックスは近距離で逃げる敵を処理するのに最適だ。"
+// Death & Taxes
+"Tip_7_10"		"パイロとして、フレアガンは遠距離の敵に火をつけられる。スナイパーなど遠くの敵を狙い撃つのに効果的だ。"
+"Tip_7_11"		"パイロとして、フレアガンは燃えている敵パイロにクリティカルを当てられる非常に短い時間がある。"
+// Fight or Flight
+"Tip_7_12"		"パイロとして、ツインバレルを使って標的との距離を詰められる。上方向や敵に向かって自分を打ち上げよう！"
+"Tip_7_13"		"パイロとして、ツインバレルはショットガンほど安定したダメージを与えられない。戦闘で押されたら逃げるために使おう！"
+"Tip_7_14"		"パイロとして、ハーベスターは近接クリティカルを蓄積でき、倒した敵から体力を回復できる。"
+"Tip_7_15"		"パイロとして、ハーベスターを装備して死亡すると、火をつけた敵の炎が消える。"
+
+// Spy
+"Tip_8_Count"	"15"
+// Generic
+"Tip_8_1"		"スパイとして、変装キットで敵に変装できる。ただし敵にぶつかると変装が解け、攻撃しても変装が解ける。"
+"Tip_8_2"		"スパイとして、変装中に%helpme%を押して敵のメディックを呼ぼう。"
+"Tip_8_3"		"スパイとして、変装中は敵チームのメンバーらしく振る舞おう。敵チームメンバーの位置を観察し、そのうちの一人に変装しよう。"
+"Tip_8_4"		"スパイとして、変装中に%reload%を押すと敵チームメンバーにリロードしているように見せられる。"
+"Tip_8_5"		"スパイとして、遅いクラスに変装している時は%speed%を押して通常の走行速度で動けるようになる。"
+"Tip_8_6"		"スパイとして、%attack2%を押して透明マントし、短時間完全に透明になれる。"
+"Tip_8_7"		"スパイとして、透明マントで敵陣の裏に回り、変装で敵の中を移動しよう。"
+// Stock
+"Tip_8_8"		"スパイとして、潜入工作がうまくいかない時にリボルバーは非常に役立つ。"
+"Tip_8_9"		"スパイとして、敵の建物にサッパーを設置して無効化・破壊しよう。サッパー設置で変装は解けない。"
+"Tip_8_10"		"スパイとして、サッパーはセントリーガンを破壊する前に無効化する。近くのエンジニアを攻撃する前にセントリーガンをサップしよう。"
+"Tip_8_11"		"スパイとして、ナイフで背後から刺して即死させよう。"
+// Death & Taxes
+"Tip_8_12"		"スパイとして、鎮静剤ガンで標的の移動速度と射撃速度を遅らせる。逃げる隙を作るのに役立つ。"
+"Tip_8_13"		"スパイとして、鎮静剤ガンのダーツに当たった標的は近接攻撃から確定クリティカルを受ける。チームメイトに袋叩きにさせるか、自分でトドメを刺そう。"
+// Fight or Flight
+"Tip_8_14"		"スパイとして、レスカンペットで素早く敵の拠点を往復できる。素早く脱出したり侵入したりしよう！"
+"Tip_8_15"		"スパイとして、レスカンペットを装備している時ダメージを受けると透明マントが解ける。銃撃の届かない場所にいよう。"
+
+// Engineer
+"Tip_9_Count"	"20"
+// Generic
+"Tip_9_1"		"エンジニアとして、建物の建設・修理・アップグレードには金属が必要だ。倒したプレイヤーの武器を回収して金属を補充しよう。"
+"Tip_9_2"		"エンジニアとして、建物の管理だけでなく、ショットガンやピストルで戦闘に参加して建物を守ろう。"
+"Tip_9_3"		"エンジニアとして、敵のスパイが建物にサッパーを設置していないか注意しよう。レンチでサッパーを取り除こう。"
+"Tip_9_4"		"エンジニアとして、建物をアップグレードすることを忘れずに。アップグレードした建物はあなたとチームに大きな恩恵をもたらす！"
+"Tip_9_5"		"エンジニアとして、建物を運んでいる時に%attack2%を押すと設置向きを回転できる。セントリーガンやテレポーターの向きをチームに最適化しよう！"
+// Stock
+"Tip_9_6"		"エンジニアとして、ピストルの予備弾薬は豊富だ。敵をセントリーガンへ誘導するか、より攻撃的に使おう。"
+"Tip_9_7"		"エンジニアとして、レンチで叩いて敵のダイナマイトパックを解除できる。"
+"Tip_9_8"		"エンジニアとして、レンチで味方の建物を叩くと修理・アップグレードできる。"
+"Tip_9_9"		"エンジニアとして、建設PDAを使ってセントリーガンやその他の支援建物を設置しよう。"
+"Tip_9_10"		"エンジニアとして、セントリーガンは防衛だけでなく攻撃的な押し上げに役立つよう隠れた場所に素早く設置しよう。"
+"Tip_9_11"		"エンジニアとして、レンチでセントリーガンを叩いて金属でアップグレードしよう。レベルが上がるほど体力と火力が増す。"
+"Tip_9_12"		"エンジニアとして、ディスペンサーを建ててチームメイトに体力と弾薬を供給しよう。自分の金属も補充される。"
+"Tip_9_13"		"エンジニアとして、アップグレードされたディスペンサーはあなたとチームにより多くの体力・弾薬・金属を供給する！"
+"Tip_9_14"		"エンジニアとして、テレポーターやジャンプパッドを建ててチームが前線に素早く到達できるようにしよう。"
+"Tip_9_15"		"エンジニアとして、アップグレードされたテレポーターははるかに速く充電でき、チームが圧力をかけ続けられる。"
+"Tip_9_16"		"エンジニアとして、テレポーターの入口または出口のどちらかをレンチで叩くと両方修理・アップグレードできる！"
+// Death & Taxes
+"Tip_9_17"		"エンジニアとして、コイルガンのフルチャージショットは壁に跳ね返ってより多くのダメージを与えられる。"
+"Tip_9_18"		"エンジニアとして、コイルガンをオーバーチャージすると小さな爆発が起きる。以前は行けなかった場所に到達するのに使おう。"
+// Fight or Flight
+"Tip_9_19"		"エンジニアとして、ジャンプパッドを使えばあなたとチームが高い場所に到達できる。機動力の低いチームメイトが棚やルーフに上れるよう設置しよう！"
+"Tip_9_20"		"エンジニアとして、ジャンプパッドはチームメイトに大きな勢いで前方に飛ばす。素早い展開ができる開けた場所に設置しよう。"
+
+// Civilian
+"Tip_10_Count"	"11"
+// Generic
+"Tip_10_1"		"シビルリアンとして、かなり遅い。チームメイトに必死についていって生存率を上げよう。"
+"Tip_10_2"		"シビルリアンとして、チームの中で最も背が低い。チームメイトの後ろに隠れるのに役立つ。"
+"Tip_10_3"		"シビルリアンとして、VIPとVIPレースのゲームモードでコントロールポイントを制圧できる唯一の存在だ。"
+"Tip_10_4"		"シビルリアンとして、スナイパーやスパイに注意しよう。彼らはあなたを即死させられる。"
+"Tip_10_5"		"シビルリアンとして、近くのチームメイトはあなたの士気ブーストの恩恵を受け、わずかな防衛ブーストと回復が得られる。敵の視線から離れ、チームと行動しよう。"
+"Tip_10_6"		"シビルリアンとして、チームメイトを見ながら%attack2%を押してブーストし、戦闘で大きな優位を与えよう。"
+// Stock
+"Tip_10_7"		"シビルリアンとして、アンブレラは武器としてあまり効果的ではない。本当に追い詰められた時だけ使おう。チームメイトに戦わせよう。"
+"Tip_10_8"		"シビルリアンとして、アンブレラは選択したチームメイトにミニクリティカルを付与する。大ダメージを与えられるクラスをブーストしよう。"
+"Tip_10_9"		"シビルリアンとして、アンブレラのミニクリティカルブーストはメディックの回復速度とユーバーチャージゲインも増加させる。"
+// Double Down
+"Tip_10_10"		"シビルリアンとして、ダービーケーンでチームメイトに加速ブーストを与えられる。移動速度と射撃速度が大幅に上がる。"
+"Tip_10_11"		"シビルリアンとして、ダービーケーンはメディックの回復速度とエンジニアの建設速度も上昇させる。"
+
+// Arena
+"Tip_arena_Count"		"9"
+"Tip_arena_1"			"アリーナでは、画面上部のプレイヤー数を確認しよう。数的有利かどうかがわかる！"
+"Tip_arena_2"			"アリーナでは、体力を回復できる手段が非常に少ない。メディックとエンジニアを守り（サンドヴィッチを分け合おう）！"
+"Tip_arena_3"			"アリーナでは、マップ中央のコントロールポイントがラウンド開始から60秒後に有効になる。隠れている敵をおびき出すのに使おう！"
+"Tip_arena_4"			"アリーナでは、リスポーンできないから死ぬな！"
+"Tip_arena_5"			"アリーナでは、チームの構成を補完したり、敵の構成に対抗したりしよう！"
+"Tip_arena_6"			"アリーナでは、ゲート開放前のマッチ開始時しかクラスを変更できない。"
+"Tip_arena_7"			"アリーナでは、チームと一緒に行動し、危険な時はお互いを助け合おう。戦闘に遅れて参加すると不利になる。"
+"Tip_arena_8"			"アリーナでは、敵チームの回復機会を奪うことが重要だ。敵メディックとディスペンサーを標的にし、できる限り回復パックへのアクセスを遮断しよう！"
+"Tip_arena_9"			"アリーナでは、ファーストブラッドを取るとクリティカルバフが得られる。取ったら活かせ！敵に取られたら低姿勢でバフが切れるのを待とう。"
+
+// ----------------------------------------------------------------
+// Stock weapon strings
+// ----------------------------------------------------------------
+
+// Bat
+"TF_Weapon_Bat"			"バット"
+"TF_Weapon_Bat_Desc"	"こんなもん山ほどある。お前に使っても全く惜しくはない。"
+// Bottle
+"TF_Weapon_Bottle"		"ボトル"
+"TF_Weapon_Bottle_Desc"	"おい、俺のサイダーの瓶が！"
+// Fire Axe
+"TF_Weapon_FireAxe"			"消防斧"
+"TF_Weapon_FireAxe_Desc"	"防火の大切さを身をもって学ばせてやろう。"
+// Kukri
+"TF_Weapon_Kukri"		"ククリ"
+"TF_Weapon_Kukri_Desc"	"射撃の名手に切り刻まれた。まさに愚かな話だ。"
+// Knife
+"TF_Weapon_Knife"		"ナイフ"
+"TF_Weapon_Knife_Desc"	"物事が展開するのをじっくり眺めるのが好きな男のために。"
+// Fists
+"TF_Weapon_Fists"		"拳"
+"TF_Weapon_Fists_Desc"	"まだお前とは終わってないぞ！"
+// Shovel
+"TF_Weapon_Shovel"		"シャベル"
+"TF_Weapon_Shovel_Desc"	"戦時中は敵を葬り、比較的平和な時代には墓を荒らせ。"
+// Wrench
+"TF_Weapon_Wrench"		"レンチ"
+"TF_Weapon_Wrench_Desc"	"なんでも少しずつやってのける。"
+// Bonesaw
+"TF_Weapon_Bonesaw"			"骨用電ノコ"
+"TF_Weapon_Bonesaw_Desc"	"心配しないで、私の血じゃないから！…よく見たら確かじゃないけど。"
+// Shotgun
+"TF_Weapon_Shotgun"					"散弾銃"
+"TF_Weapon_Shotgun_Desc_Engineer"	"時には自分でやるしかない。"
+"TF_Weapon_Shotgun_Desc_Soldier"	"俺のショットガンはお前の生存意志に反対しているぞ、うじ虫め！"
+"TF_Weapon_Shotgun_Desc_Heavy"		"ヘビーはこれで十分だ。"
+"TF_Weapon_Shotgun_Desc_Pyro"		"これに語らせよう。"
+// Scattergun
+"TF_Weapon_Scattergun"		"スカッターガン"
+"TF_Weapon_Scattergun_Desc"	"落ち着けよ、ちょっとかすっただけだ！"
+// Sniper Rifle
+"TF_Weapon_SniperRifle"			"狙撃銃"
+"TF_Weapon_SniperRifle_Desc"	"仕事はきっちりこなす。"
+// Minigun
+"TF_Weapon_Minigun"			"ミニガン"
+"TF_Weapon_Minigun_Desc"	"サーシャはヘビーの言うことすら聞かない。お前の言うことを聞くと思うか？"
+// SMG
+"TF_Weapon_SMG"			"SMG"
+"TF_Weapon_SMG_Desc"	"そうだろ？俺たち二人とも近距離の方が危険だ。"
+// Syringe Gun
+"TF_Weapon_SyringeGun"		"注射銃"
+"TF_Weapon_SyringeGun_Desc"	"いい注射器入れになってくれるねえ！"
+// Rocket Launcher
+"TF_Weapon_RocketLauncher"		"ロケットランチャー"
+"TF_Weapon_RocketLauncher_Desc"	"完璧なソルジャーのための完璧な武器！"
+// Grenade Launcher
+"TF_Weapon_GrenadeLauncher"			"榴弾ランチャー"
+"TF_Weapon_GrenadeLauncher_Desc"	"任せといてくれ。"
+// Stickybomb Launcher
+"TF_Weapon_StickybombLauncher"		"粘着爆弾ランチャー"
+"TF_Weapon_StickybombLauncher_Desc"	"必要とあらば自分で天国まで吹っ飛ばしてやるぜ。"
+// Flame Thrower
+"TF_Weapon_FlameThrower"		"火炎放射器"
+"TF_Weapon_FlameThrower_Desc"	"だんだん熱くなってきたな..."
+// Pistol
+"TF_Weapon_Pistol"					"チャカ"
+"TF_Weapon_Pistol_Desc_Engineer"	"踊ってみろ、坊や。"
+"TF_Weapon_Pistol_Desc_Scout"		"射程外のやつも、やがては射程内に入る。"
+// Revolver
+"TF_Weapon_Revolver"		"リボルバー"
+"TF_Weapon_Revolver_Desc"	"ステルスがもはや選択肢にない時のために。"
+// PDA: Teleporter (Construction PDA)
+"TF_Weapon_ConstructionPDA"			"建設PDA"
+"TF_Weapon_ConstructionPDA_Desc"	"私のようなエンジニアに必要なものは全てこの小さな機器に入っている。"
+"TF_Weapon_PDATeleporter"			"PDA:テレポーター"
+// Destruction PDA
+"TF_Weapon_DestructionPDA"	"破壊PDA"
+// Disguise Kit
+"TF_Weapon_DisguiseKit"	"変装キット"
+// Medi Gun
+"TF_Weapon_Medigun"			"メディガン"
+"TF_Weapon_Medigun_Desc"	"みんな同じ血液型ですよね？大体は？"
+// Invis Watch
+"TF_Weapon_InvisWatch"		"透明ウォッチ"
+"TF_Weapon_InvisWatch_Desc"	"お洒落だ。残念ながら誰にも見てもらえないが。"
+// Sapper
+"TF_Weapon_Sapper"		"サッパー"
+"TF_Weapon_Sapper_Desc"	"誰がこんなとこに置いたんだ？"
+
+// ----------------------------------------------------------------
+// Achievement weapon strings
+// ----------------------------------------------------------------
+
+// Kritzkrieg
+"TF_Weapon_Kritzkrieg"		"クリッツクリーク"
+"TF_Weapon_Kritzkrieg_Desc"	"さあ、少し害を与えておくれ！二人ともビジネスを続けられるからね？"
+// Überspritze
+"TF_Weapon_Uberspritze"			"ユーバーシプリヰツェ"
+"TF_Weapon_Uberspritze_Desc"	"もぞもぞしないで、いい目的のためだから！"
+// Flare Gun
+"TF_Weapon_FlareGun"		"信号拳銃"
+"TF_Weapon_FlareGun_Desc"	"誰かが燃えている！急いで、救難信号を送れ！"
+// Sandvich
+"TF_Weapon_Sandvich"		"サンドヴィッチ"
+"TF_Weapon_Sandvich_Desc"	"こっちに来い！味を教えてやろう。"
+// Huntsman
+"TF_Weapon_Huntsman"		"ハーンツマン"
+"TF_Weapon_Huntsman_Desc"	"騎士道はどこへ消えたんだ？"
+// Gunboats
+"TF_Weapon_Gunboats"				"ガンボート"
+"TF_Weapon_Gunboats_Desc_Soldier"	"鉛の靴のインソール！陸軍の身体検査を不正合格しようとしている人には最適だ。"
+"TF_Weapon_Gunboats_Desc_Demoman"	"足に螺子を打ち込まれていても気にならないほど最高のブーツ。"
+
+// ----------------------------------------------------------------
+// Death & Taxes weapon strings
+// ----------------------------------------------------------------
+
+// Umbrella
+"TF_Weapon_Umbrella"		"アンブレラ"
+"TF_Weapon_Umbrella_Desc"	"品格のある男は濡れてはいけない。"
+// Nail Gun
+"TF_Weapon_NailGun"			"ネイルガン"
+"TF_Weapon_NailGun_Desc"	"ああ、その仕事はあっという間にクビになったよ。"
+// R.P.G.
+"TF_Weapon_RPG"			"R.P.G."
+"TF_Weapon_RPG_Desc"	"前からロケットが突き出ているのが見えるか？あれは自由を渇望しているんだ。そして神よ、必ずそれを手にするだろう。"
+// Hunting Revolver
+"TF_Weapon_HuntingRevolver"			"ハンティングリボルバー"
+"TF_Weapon_HuntingRevolver_Desc"	"より攻撃的なアプローチのために作られた。"
+// Fishwhacker
+"TF_Weapon_Fishwhacker"			"フィッシュワッカー"
+"TF_Weapon_Fishwhacker_Desc"	"しっかり持ってろ、相棒。棘が飛ぶぞ。"
+// Tranquilizer Gun
+"TF_Weapon_TranquilizerGun"			"鎮静剤ガン"
+"TF_Weapon_TranquilizerGun_Desc"	"夢の中で会いましょう、シェリ。"
+// Dynamite Pack
+"TF_Weapon_DynamitePack"		"ダイナマイトパック"
+"TF_Weapon_DynamitePack_Desc"	"明日にはバラバラになるぞ。"
+// Coilgun
+"TF_Weapon_Coilgun"			"コイルガン"
+"TF_Weapon_Coilgun_Desc"	"ステーキはないが、ジュージューという音は十分だ。"
+// Mine Layer
+"TF_Weapon_MineLayer"		"マインレイヤー"
+"TF_Weapon_MineLayer_Desc"	"ああ、気をつけろよ！ヘヘ..."
+// Shock Therapy
+"TF_Weapon_ShockTherapy"		"ショックセラピー"
+"TF_Weapon_ShockTherapy_Desc"	"どいた！"
+
+// ----------------------------------------------------------------
+// Fight or Flight weapon strings
+// ----------------------------------------------------------------
+
+// L'escampette
+"TF_Weapon_Lescampette"			"L'escampette"
+"TF_Weapon_Lescampette_Desc"	"手短に頼む。"
+// Chekhov's Punch
+"TF_Weapon_ChekhovsPunch"		"チェーホフのパンチ"
+"TF_Weapon_ChekhovsPunch_Desc"	"泣くな！ヘビーの人生にお前は物語の目的を持っているんだ。"
+// Twin Barrel
+"TF_Weapon_TwinBarrel"		"ツインバレル"
+"TF_Weapon_TwinBarrel_Desc"	"（アフターマーケット改造は保証を無効にします。）"
+// Anti-Aircraft Cannon
+"TF_Weapon_AntiAircraftCannon"		"対空砲"
+"TF_Weapon_AntiAircraftCannon_Desc"	"お前のどの部位をお袋に送り届けるべきかな？"
+// PDA: Jump Pad
+"TF_Weapon_PDAJumpPad"		"PDA：ジャンプパッド"
+"TF_Weapon_PDAJumpPad_Desc"	"信じてくれ、相棒。これはぶっ飛ばしてくれるぞ。"
+// Harvester
+"TF_Weapon_Harvester"		"ハーヴェスター"
+"TF_Weapon_Harvester_Desc"	"誰のために鐘が鳴るのか、問うなかれ。"
+// Brick
+"TF_Weapon_Brick"		"レンガ"
+"TF_Weapon_Brick_Desc"	"失せろ、相棒。お前はもう終わりだ。"
+
+// ----------------------------------------------------------------
+// Double Down weapon strings
+// ----------------------------------------------------------------
+
+// Rejuvenator
+"TF_Weapon_Rejuvenator"			"リジュヴィネーター"
+"TF_Weapon_Rejuvenator_Desc"	"口や目には入れないように。"
+// Admiralty Anchor
+"TF_Weapon_AdmiraltyAnchor"			"アドミラルティ・アンカー"
+"TF_Weapon_AdmiraltyAnchor_Desc"	"部隊内での海軍への下品な冗談は一切許さない。"
+// Derby Cane
+"TF_Weapon_DerbyCane"		"ダービーケーン"
+"TF_Weapon_DerbyCane_Desc"	"やる気は出たか？出てなきゃ困るぞ。"
+// Cyclops
+"TF_Weapon_Cyclops"			"サイクロプス"
+"TF_Weapon_Cyclops_Desc"	"盲目の国では、お前が王だ。"
+
+// ----------------------------------------------------------------
+// Miscellaneous weapon types
+// ----------------------------------------------------------------
+
+"TF_Weapon_Anchor"					"錨"
+"TF_Weapon_Boots"					"ブーツ"
+"TF_Weapon_Bow"						"弓"
+"TF_Weapon_Cane"					"杖"
+"TF_Weapon_Chains"					"鎖"
+"TF_Weapon_CigaretteCase"			"...シガレットケース？"
+"TF_Weapon_Club"					"棍棒"
+"TF_Weapon_DoubleBarrelShotgun"		"ダブルバレルショットガン"
+"TF_Weapon_EMPGrenadeLauncher"		"EMPグレネードランチャー"
+"TF_Weapon_Grenade"					"手榴弾"
+"TF_Weapon_HealGrenadeLauncher"		"ヒールグレネードランチャー"
+"TF_Weapon_LunchBox"				"ランチボックス"
+"TF_Weapon_PDA"						"PDA"
+"TF_Weapon_ProximityMineLauncher"	"近接感知地雷ランチャー"
+"TF_Weapon_Scythe"					"大鎌"
+"TF_Weapon_Syringe"					"シリンジ"
+"TF_Weapon_Taser"					"テーザー"
+"TF_Weapon_Throwable"				"投擲物"
+
+// ----------------------------------------------------------------
+// Weapon meters
+// ----------------------------------------------------------------
+
+"TF_Meter_Airtime"	"滞空時間"
+"TF_Meter_Brick"	"レンガ"
+"TF_Meter_Cloak"	"透明マント"
+"TF_Meter_Crits"	"クリティカル"
+"TF_Meter_Dynamite"	"ダイナマイト"
+"TF_Meter_Harvest"	"ハーベスト"
+"TF_Meter_LunchBox"	"ランチボックス"
+"TF_Meter_Therapy"	"セラピー"
+"TF_Meter_Tranq"	"鎮静薬"
+
+// ----------------------------------------------------------------
+// Buildings
+// ----------------------------------------------------------------
+
+// Building Status
+"Building_hud_hauling"				"運搬中..."
+"Building_hud_upgrading"			"アップグレード中..."
+"Building_hud_jumppad_a_not_built"	"ジャンプパッドA\n未設置"
+"Building_hud_jumppad_b_not_built"	"ジャンプパッドB\n未設置"
+
+// Jump Pad
+"TF_Object_Jump"					"ジャンプパッド"
+"TF_Object_Jump_A"					"ジャンプパッドA"
+"TF_Object_Jump_B"					"ジャンプパッドB"
+"TF_JumpPad_Mode_A"					"A"
+"TF_JumpPad_Mode_B"					"B"
+
+// ----------------------------------------------------------------
+// Weapon attributes
+// ----------------------------------------------------------------
+
+"Attrib_CritVsBurning"				"燃えている標的にクリティカルを与える"
+"Attrib_RocketJumpDmgReduction"		"自爆による爆発ダメージ%s1%"
+"Attrib_Scattergun_HasKnockback"	"標的と自分自身にノックバックを与える"
+
+
+"Attrib_RocketGravity"								"ロケットは弧を描いて飛ぶ"
+"Attrib_CreatesEarthquakeFallDamage"				"装備中に落下ダメージを受けると地震を起こす"
+"Attrib_TakeProjectileCritsAirborne"				"装備者：空中にいる間はプロジェクタイルからクリティカルを受ける"
+"Attrib_Gravity_Active_Increased"					"使用中+%s1%の重力"
+"Attrib_TeleporterJumpPad"							"テレポーターの入口と出口をジャンプパッドに置き換える"
+"Attrib_Mod_Horizontal_Spread"						"弾丸が広く水平に散らばる"
+"Attrib_ApplySelfKnockback"							"発砲時に逆方向の自己ノックバックを与える"
+"Attrib_WeaponEnemyKnockback_Bonus"					"敵へのノックバック+%s1%"
+"Attrib_LifestealCrit"								"ヒット時：メーターが満タンの間は標的から体力を奪う"
+"Attrib_FlatHealOnAfterburn_Active"					"使用中は後燃えのティックごとに+%s1の体力回復"
+"Attrib_RememberTargetsRemainingAfterburn"			"死亡した標的の残り後燃え時間を記録する"
+"Attrib_OnDeathRemoveTargetsAfterburn"				"死亡時：燃えている標的の炎を消す"
+"Attrib_Explosive_Bullets"							"爆発するシェルを発射する"
+"Attrib_CannotUseStoredCrits"						"この武器はストックしたクリティカルを使用できない"
+"Attrib_GainStoredCritsOnHit"						"ヒット時：クリティカルを%s1つストックする"
+"Attrib_AlwaysCritsFullStoredCrits"					"この武器はストックが満タンの時しかストックしたクリティカルを使用できない"
+"Attrib_LoseStoredCritsOnMiss"						"外れた時：ストックしたクリティカルを%s1つ失う"
+"Attrib_MeleeTakenBecomesCritWearer"				"装備者：近接ダメージからクリティカルを受ける"
+"Attrib_MoveSpeed_Bonus_Cloaked"					"透明マント中の移動速度+%s1%"
+"Attrib_LoseCloakOnDamage"							"透明マント中にダメージを受けると透明マント-%s1%"
+"Attrib_TranqOnHit"									"ヒット時：%s1秒間標的の視界を妨げ、武器と移動速度を遅らせる\n鎮静状態の敵は、近接攻撃を受けると必ずクリティカルヒットになる"
+"Attrib_CloakRegenDisabled"							"透明マントの自動回復なし"
+"Attrib_FishwhackerSweep"							"近くの敵にノックバックを与える"
+"Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"自己ノックバックはダメージブーストの影響を受ける"
+"Attrib_ApplySelfKnockbackSwing"					"スイング時に逆方向の自己ノックバックを与える"
+"Attrib_AirblastSelfKnockback"						"エアブラストは使用者にノックバックを与える"
+"Attrib_ProximityMine"								"近接感知地雷は敵の近くで爆発する"
+"Attrib_AltFire_FizzleMines"						"副攻撃：近接感知地雷を消火する"
+"Attrib_NoStickyChargeTime"							"スティッキーボムのチャージ時間なし"
+"Attrib_BlastSplashDamage_Decreased"				"爆発の範囲ダメージ%s1%"
+"Attrib_BurningTargetsChargeCrit"					"使用中は燃えている標的がクリティカルメーターを満たす"
+"Attrib_LimitedRange"								"この武器は射程が制限されている"
+"Attrib_GainStoredCritsOnKill"						"キル時：クリティカルを%s1つストックする"
+"Attrib_HealOnKillCrit"								"クリティカルキル時+%s1の体力回復"
+"Attrib_InstantReloadOnDirectHit"					"ダイレクトヒット時：最大%s1弾を即座にリロードする"
+"Attrib_InstantReloadOnHit"							"ヒット時：最大%s1弾を即座にリロードする"
+"Attrib_InstantReloadOnDirectHitKill"				"ダイレクトヒットキル時：最大%s1弾を即座にリロードする"
+"Attrib_InstantReloadOnKill"						"キル時：最大%s1弾を即座にリロードする"
+"Attrib_ViewPunchOnHit"								"ヒット時：標的の視点を揺らす"
+"Attrib_FlinchDecrease"								"ひるみ%s1%減少"
+"Attrib_FlinchIncrease"								"ひるみ+%s1%増加"
+"Attrib_FlinchDecreaseWearer"						"装備者のひるみ%s1%減少"
+"Attrib_FlinchIncreaseWearer"						"装備者のひるみ+%s1%増加"
+"Attrib_FlinchDecreaseAiming"						"照準中のひるみ%s1%減少"
+"Attrib_FlinchIncreaseAiming"						"照準中のひるみ+%s1%増加"
+"Attrib_CritVsBleed"								"出血中のプレイヤーに100%クリティカル"
+"Attrib_MinicritWhileDisguised"						"変装中はミニクリティカルで攻撃する"
+"Attrib_TakeMinicritsWhileDisguised"				"変装中はミニクリティカルダメージを受ける"
+"Attrib_ObjectivesGiveMiniCrits"					"制圧・防衛・目標運搬中の敵にミニクリティカルを与える"
+"Attrib_HeadshotIsMinicrit"							"ヘッドショットはミニクリティカル"
+"Attrib_BuildingsMaxLevel"							"建物の最大レベルは%s1"
+"Attrib_UpgradeCost"								"建物のアップグレードに%s1金属が必要"
+"Attrib_Dispenser_Build_Rate"						"ディスペンサーの建設速度を%s1%上昇"
+"Attrib_JumpPad_Build_Rate"							"ジャンプパッドの建設速度を%s1%上昇"
+"Attrib_DispenserBuildCost"							"ディスペンサーの建設コスト%s1%"
+"Attrib_SentrygunBuildCost"							"セントリーガンの建設コスト%s1%"
+"Attrib_JumpPadBuildCost"							"ジャンプパッドの建設コスト%s1%"
+"Attrib_NoPrimaryAmmoFromDispensersAlways"			"ディスペンサーは弾薬を補給しない"
+"Attrib_MetalOnSentryKill"							"セントリーキル時：+%s1金属"
+"Attrib_SentryKnockback_Increased"					"セントリーガンのノックバック+%s1%"
+"Attrib_SentryKnockback_Decreased"					"セントリーガンのノックバック%s1%"
+"Attrib_SentryTurnRate_Increased"					"セントリーガンの旋回速度+%s1%"
+"Attrib_SentryTurnRate_Decreased"					"セントリーガンの旋回速度%s1%低下"
+"Attrib_HealingMedigunReceivedBonus"				"装備者のメディガンからの体力回復+%s1%"
+"Attrib_HealingMedigunReceivedPenalty"				"装備者のメディガンからの体力回復%s1%"
+"Attrib_HealingMedigunReceivedActiveBonus"			"使用中はメディガンからの体力回復+%s1%"
+"Attrib_HealingMedigunReceivedActivePenalty"		"使用中はメディガンからの体力回復%s1%"
+"Attrib_HealingDispenserReceivedBonus"				"装備者のディスペンサーからの体力回復+%s1%"
+"Attrib_HealingDispenserReceivedPenalty"			"装備者のディスペンサーからの体力回復%s1%"
+"Attrib_HealingDispenserReceivedActiveBonus"		"使用中はディスペンサーからの体力回復+%s1%"
+"Attrib_HealingDispenserReceivedActivePenalty"		"使用中はディスペンサーからの体力回復%s1%"
+"Attrib_DispenserCanOverhealOnWearer"				"装備者はディスペンサーで超回復できる"
+"Attrib_DispenserCanOverhealOnActive"				"使用中はディスペンサーで超回復できる"
+"Attrib_EverythingCanOverhealOnWearer"				"装備者は何でも超回復できる"
+"Attrib_EverythingCanOverhealOnActive"				"使用中は何でも超回復できる"
+"Attrib_NoCritHeals"								"クリティカル回復なし：戦闘離脱中の標的への回復速度が上がらない"
+"Attrib_HealthKitsCanOverhealOnWearer"				"装備者は回復パックで超回復できる"
+"Attrib_HealthKitsCanOverhealOnActive"				"使用中は回復パックで超回復できる"
+"Attrib_HealingReceivedActiveBonus"					"使用中は回復者からの体力回復+%s1%"
+"Attrib_HealingReceivedActivePenalty"				"使用中は回復者からの体力回復%s1%"
+"Attrib_HealthFromPacks_Active_Increased"			"使用中は回復パックからの体力+%s1%"
+"Attrib_HealthFromPacks_Active_Decreased"			"使用中は回復パックからの体力%s1%"
+"Attrib_DamageDelaysRegeneration"					"ダメージを受けるとHP再生が%s1秒遅れる"
+"Attrib_DestroyGrenadesDetonateOwn"					"爆発で敵の手榴弾を破壊し、自分の手榴弾を起爆する"
+"Attrib_HoldFirePreventDetonation"					"発射ボタン長押し：手榴弾の起爆を防ぐ"
+"Attrib_MiniCritAirborneEnemies"					"空中の敵にミニクリティカル"
+"Attrib_CritAirborneEnemies"						"空中の敵にクリティカル"
+"Attrib_ModCritAirborneDirectHitOnly"				"ダイレクトヒット時のみ空中の敵にクリティカル"
+"Attrib_ObjectivesGiveCrits"						"制圧・防衛・目標運搬中の敵にクリティカルを与える"
+"Attrib_AddAmmoOnDirectHit"							"ダイレクトヒット時：弾薬を%s1つ獲得"
+"Attrib_AddAmmoOnDirectHitKill"						"ダイレクトヒットキル時：弾薬を%s1つ獲得"
+"Attrib_AddAmmoOnKill"								"キル時：弾薬を%s1つ獲得"
+"Attrib_MinicritVsWet"								"濡れたプレイヤーに100%ミニクリティカル"
+"Attrib_TakeMinicritsProjectileAirborne"			"空中にいる間はプロジェクタイルからミニクリティカルを受ける"
+"Attrib_HealOnSmack"								"フルチャージ時に殴ったチームメイトを完全回復する"
+"Attrib_MultDamageCrit"								"クリティカルヒットのダメージ+%s1%"
+"Attrib_DropTeamHealthPackOnKill"					"キル時に味方用回復パックをドロップする"
+"Attrib_PassiveAmmoHolstered"						"収納中は弾薬を受動的に補充する"
+"Attrib_Backstab"									"背後から攻撃して一撃必殺のバックスタブを決める"
+"Attrib_UpgradeRepairBuildings"						"ヒット時に味方の建物をアップグレード・修理・建設促進する"
+"Attrib_AltFire_DetonateStickybombs"				"副攻撃：全スティッキーボムを起爆する"
+"Attrib_AltFire_Airblast"							"副攻撃：エアブラストを放つ\nエアブラストは敵やプロジェクタイルを弾き、燃えているチームメイトの炎を消す"
+"Attrib_AltFire_Cloak"								"副攻撃：透明マントする"
+"Attrib_SapBuildings"								"敵の建物を無効化しゆっくり破壊する\n使用しても変装を解かない"
+"Attrib_ReloadNotActive"							"非装備中にリロードする"
+"Attrib_Sandvich"									"食べて最大120の体力を回復\n副攻撃：友達にサンドヴィッチを分ける（中サイズの回復パック）"
+"Attrib_AltFire_MinicritBoost"						"副攻撃：チームメイトにミニクリティカルブーストを与える"
+"Attrib_SplitsIntoBomblets"							"爆発時に4つの小さな爆弾に分裂する"
+"Attrib_DisabledByWrench"							"レンチで解除できる"
+"Attrib_Coilgun"									"フルチャージ時のショットは壁に跳ね返り、オーバーチャージすると手の中で爆発する"
+"Attrib_DamageAffectedByCharge"						"ダメージは現在のチャージ量に左右される"
+"Attrib_JumpPadNoUpgrade"							"ジャンプパッドはアップグレードできない"
+"Attrib_AltFire_HasteBoost"							"副攻撃：チームメイトに加速ブーストを与える"
+"Attrib_AltFire_UberBubble"							"副攻撃：範囲内で無敵を付与する装置を発射する"
+"Attrib_StickyIsLandmine"							"地雷を放つ"
+"Attrib_AutoJumping"								"ジャンプボタンを長押しすることで、自動的にジャンプ出来る"
+"Attrib_SpreadScalesSpeed"							"現在の速度に基づき、最大%s1%高精度"
+"Attrib_DuckJumping"								"着用者はしゃがんだ状態でジャンプ出来る"
+
+// ----------------------------------------------------------------
+// Map strings
+// ----------------------------------------------------------------
+
+// cp_amaranth
+"Amaranth_cap_A"	"倉庫群"
+"Amaranth_cap_B"	"REDの出荷施設"
+
+// 4dom_hydro
+"Hydro_dom_cap_warehouse"	"A、倉庫"
+"Hydro_dom_cap_radar_dish"	"B、レーダーアンテナ"
+"Hydro_dom_cap_power_plant"	"C、発電所"
+"Hydro_dom_cap_dam"			"D、ダム"
+
+// vip_mineside
+"vip_mineside_description"	"目標：
+REDチームはVIPが脱出ゾーンに到達するのを阻止すれば勝利。BLUチームはVIPを脱出ゾーンまで護衛すれば勝利。
+
+補足：
+脱出ゾーンのゲート付近のコントロールルームにスーツケース装置を届けるまで、脱出ゾーンは開かない。
+
+BLUがスーツケース装置を届けると、ゲートのタイマーが60秒からカウントダウンし、その後再び閉まる。"
+
+"Mineside_setup_goal_red"	"VIPを倒して脱出ゾーンへの到達を阻止しろ。装置を奪われないようにせよ。"
+"Mineside_setup_goal_blu"	"VIPを脱出ゾーンまで護衛せよ。装置をコントロールルームに届けてゲートを開けろ。"
+
+"Mineside_escape_zone"	"脱出トンネル"
+
+// dom_oilcanyon
+"Oilcanyon_cap_A"	"A、峡谷"
+"Oilcanyon_cap_B"	"B、レーザー砲"
+"Oilcanyon_cap_C"	"C、精製所"
+
+// vip_trainyard
+"Trainyard_escape_zone"	"脱出車両"
+
+// vip_harbor
+"Harbor_cap_1"			"荷積み場"
+"Harbor_cap_2"			"水際"
+"Harbor_cap_3"			"倉庫"
+
+// 4dom_krepost
+"dom_krepost_description"	"目標：
+勝つには、各チームが現在有効なコントロールポイントを制圧・保持してポイントを稼がなければならない。
+
+有効なコントロールポイントは60秒ごとにランダムなチームの拠点に切り替わる。
+
+補足：
+コントロールポイントを争うと、敵がポイントを獲得できなくなる。
+
+新しいコントロールポイントが選ばれると、現在の有効ポイントはロックされる。
+
+名誉ある剣戦のみ！"
+
+"Krepost_cap_red"	"REDの城"
+"Krepost_cap_blu"	"BLUの城"
+"Krepost_cap_grn"	"GRNの城"
+"Krepost_cap_ylw"	"YLWの城"
+
+"Krepost_attack_red"	"REDのゲートが開いた！"
+"Krepost_attack_blu"	"BLUのゲートが開いた！"
+"Krepost_attack_grn"	"GRNのゲートが開いた！"
+"Krepost_attack_ylw"	"YLWのゲートが開いた！"
+
+// td_caper
+"Caper_cap_A"	"A、レーザータワー"
+"Caper_cap_B"	"B、サイロ"
+"Caper_cap_C"	"C、下水道"
+
+// vipr_2bridge
+"2Bridge_cap_A"	"REDの橋"
+"2Bridge_cap_B"	"BLUの橋"
+
+// vipr_drizzle
+"Drizzle_cap_A"	"REDの鉱山入口"
+"Drizzle_cap_B"	"BLUの鉱山入口"
+
+// dom_railway
+"Railway_cap_A"	"A、ガレージ"
+"Railway_cap_B"	"B、荷積みホール"
+"Railway_cap_C"	"C、ストックヤード"
+
+// dom_sawtooth
+"Sawtooth_cap_A"	"A、見張り台"
+"Sawtooth_cap_B"	"B、製材所"
+"Sawtooth_cap_C"	"C、電波塔"
+
+// td_sunnyside
+"Sunnyside_cap_A"	"A、農小屋"
+"Sunnyside_cap_B"	"B、タンク"
+"Sunnyside_cap_C"	"C、鶏小屋"
+
+// vip_avanti
+"Avanti_red_setup_goal"		"坂を下って敵チームのVIPを倒し、脱出ゾーンへの到達を阻止せよ！"
+"Avanti_blue_setup_goal"	"坂を上ってVIPを脱出ゾーンまで護衛せよ！"
+"Avanti_cap_1"				"倉庫室"
+"Avanti_cap_2"				"テラス"
+"Avanti_cap_3"				"鐘楼"
+"Avanti_cap_4"				"正門"
+
+// vipr_chopper
+"Chopper_cap_A"				"REDレーダー"
+"Chopper_cap_B"				"BLUレーダー"
+
+// 4plr_sisyphus
+"Sisyphus_cap_peak"			"峰"
+
+// ----------------------------------------------------------------
+// Gamemodes
+// ----------------------------------------------------------------
+
+"Gametype_CTF_Penguin"		"ペンギンを奪え" // We have fun here
+"Gametype_Domination"		"ドミネーション"
+"Gametype_MedDomination"	"ドミネーション（中世）"
+"Gametype_KOTF"				"キング・オブ・ザ・フラッグ"
+"Gametype_TD"				"テリトリアルドミネーション"
+"Gametype_VIP"				"VIP"
+"Gametype_VIPRace"			"VIPレース"
+
+"Gametype_FourTeam"			"四チーム戦"
+
+"Gametype_Arena_FourTeam"			"アリーナ（四チーム戦）"
+"Gametype_AttackDefense_FourTeam"	"攻撃 / 防衛（四チーム戦）"
+"Gametype_CP_FourTeam"				"コントロールポイント（四チーム戦）"
+"Gametype_CTF_FourTeam"				"キャプチャー・ザ・フラッグ（四チーム戦）"
+"Gametype_Domination_FourTeam"		"ドミネーション（四チーム戦）"
+"Gametype_MedDomination_FourTeam"	"ドミネーション（四チーム戦・中世）"
+"Gametype_KOTF_FourTeam"			"キング・オブ・ザ・フラッグ（四チーム戦）"
+"Gametype_Koth_FourTeam"			"キング・オブ・ザ・ヒル（四チーム戦）"
+"Gametype_Escort_FourTeam"			"ペイロード（四チーム戦）"
+"Gametype_EscortRace_FourTeam"		"ペイロードレース（四チーム戦）"
+"Gametype_SD_FourTeam"				"スペシャルデリバリー（四チーム戦）"
+"Gametype_TD_FourTeam"				"テリトリアルドミネーション（四チーム戦）"
+"Gametype_Training_FourTeam"		"トレーニングモード（四チーム戦）"
+"Gametype_VIP_FourTeam"				"VIP（四チーム戦）"
+"Gametype_VIPRace_FourTeam"			"VIPレース（四チーム戦）"
+
+// Offline practice descriptions
+"TF_GameModeDesc_VIP"			"BLUはシビルリアンをコントロールポイントまで護衛する。REDはこれを阻止しなければならない。"
+"TF_GameModeDesc_VIPRace"		"相手チームより先にシビルリアンをゴールまで護衛せよ。"
+"TF_GameModeDesc_Domination"	"ポイントを制圧し、できるだけ長く保持せよ。"
+"TF_GameModeDesc_Arena"			"敵プレイヤーを全員倒すか、コントロールポイントが解放されるまで待て。"
+
+"TF_GameModeBrief_VIPRace"		"VIPレース - 両チームにVIPがいる"
+
+// ----------------------------------------------------------------
+// Gamemode strings
+// ----------------------------------------------------------------
+
+// CTF
+"TF_CTF_TeamCannotCapture"	"あなたのチームはこの旗を奪取できない！"
+
+// Domination
+"default_dom_description"	"目標：
+勝つには、各チームがコントロールポイントを制圧・保持してポイントを稼がなければならない。保有するポイントが多いほど、得点速度が上がる。
+
+補足：
+コントロールポイントを争うと、そのポイントで敵がポイントを獲得できなくなる。
+
+チームが劣勢なら、全コントロールポイントを制圧してスコアボーナスを得よう。"
+
+"domination_setup_goal"	"コントロールポイントを制圧して時間経過でポイントを稼げ。複数のポイントを制圧するほど勝利に近づく！"
+
+// VIP
+"default_vip_description"	"目標：
+BLUチームは時間切れ前にVIPを脱出ゾーンまで護衛すれば勝利。REDチームはVIPの脱出を阻止すれば勝利。
+
+補足：
+VIPが不在の場合、BLUチームはコントロールポイントの制圧進行を停止できる。"
+
+"vip_setup_goal_offense"	"VIPを脱出ゾーンまで護衛せよ。"
+"vip_setup_goal_defense"	"敵チームのVIPを倒して脱出ゾーンへの到達を阻止せよ。"
+
+"TF_VIP_Tutorial_Annotation_2"	"VIPは周囲の仲間に防衛ブーストを与え、\nさらにチームメンバーを一時的にバフできる！"
+"TF_VIP_Tutorial_Annotation_3"	"だが忘れるな、彼の命はお前の命より大切だ。絶対に死なせるな！"
+
+"Cant_cap_civilian_only"		"このポイントを制圧できるのは\n VIPだけだ。"
+"Cant_cap_civilian_only_frozen"	"制圧停止中\n このポイントを制圧できるのは\n VIPだけだ。"
+
+// VIP (Lives)
+"vipl_setup_goal_offense"	"VIPを脱出ゾーンまで護衛し、撃破されないようにせよ。"
+"vipl_setup_goal_defense"	"敵チームのVIPを倒すか、脱出ゾーンへの到達を阻止して勝利せよ。"
+
+// VIP (Flags)
+"vip_bring_flag_here"	"装置をここへ持ってこい！"
+"vip_bring_flag"		"装置をコントロールルームへ持っていけ！"
+
+"TF_VIP_TakeDeviceToPoint"		"装置をコントロールルームへ持っていけ！"
+"TF_VIP_TeamDeviceReturned"		"装置が戻った！取りに行け！"
+"TF_VIP_EnemyDeviceReturned"	"装置が戻った！ドロップ地点を守れ！"
+
+// VIP Race
+"default_vipr_description"	"目標：
+VIPをコントロールポイント経由で脱出ゾーンまで護衛して勝利せよ。敵VIPを倒すと、そのチームが制圧したコントロールポイントがリセットされる。
+
+補足：
+VIPが死亡すると、そのVIPが制圧したコントロールポイントを失う。
+
+VIPが不在の場合、どのチームもコントロールポイントの制圧進行を停止できる。
+
+サドンデス発生時、敵VIPを倒せばラウンド勝利！"
+
+"vipr_setup_goal"		"VIPをコントロールポイントへ護衛せよ。敵VIPの同じ行動を阻止しろ！"
+"vipr_setup_goal_4team"	"VIPをコントロールポイントへ護衛せよ。敵チームの同じ行動を阻止しろ！"
+
+"vipr_cap_wrong_vip"	"敵のコントロールポイントを奪取しろ、バカ！"
+"vipr_own_civ_death"	"味方のVIPが倒された！守れ！"
+"vipr_their_civ_death"	"よし！敵のVIPを倒した！"
+"vipr_cap_a_reset"		"コントロールポイントAがリセットした！"
+"vipr_cap_b_reset"		"コントロールポイントBがリセットした！"
+"vipr_cap_a_reset_vip"	"死亡した！コントロールポイントAがリセットした！"
+"vipr_cap_b_reset_vip"	"死亡した！コントロールポイントBがリセットした！"
+
+"vipr_central_point"		"立てのコントロールポイント"
+"vipr_cap_mid_reset"		"立てのコントロールポイントがリセットした！"
+"vipr_death_cap_mid_reset"	"死亡した！コントロールポイントAがリセットした！"
+
+"vipr_red_civ_death"	"REDのVIPが斃れた！"
+"vipr_blu_civ_death"	"BLUのVIPが斃れた！"
+"vipr_ylw_civ_death"	"YLWのVIPが斃れた！"
+"vipr_grn_civ_death"	"GRNのVIPが斃れた！"
+
+"vipr_escape_zone"	"脱出ゾーン"
+
+// Territorial Domination
+"default_td_description"			"目標：
+勝つには、各チームが全コントロールポイントを制圧しなければならない。
+
+補足：
+自チームが保有するコントロールポイントからスポーンする。
+
+コントロールポイントの帰属は各ラウンド開始時にランダムに決まる。"
+
+// Payload Race (Four-Team)
+"4plr_goal"	"カートをトラックの終点まで押し進めて勝利せよ！"
+
+"4plr_cap_red"	"REDの制圧ポイント"
+"4plr_cap_blu"	"BLUの制圧ポイント"
+"4plr_cap_grn"	"GRNの制圧ポイント"
+"4plr_cap_ylw"	"YLWの制圧ポイント"
+
+// Useful generic stuff for mappers
+"generic_cap_A"			"コントロールポイントA"
+"generic_cap_B"			"コントロールポイントB"
+"generic_cap_C"			"コントロールポイントC"
+"generic_cap_D"			"コントロールポイントD"
+"generic_cap_E"			"コントロールポイントE"
+
+// Arena
+"TF_Arena_Welcome"				"アリーナモード"
+"TF_Arena_Team_SizeIncreased"	"%s1チームの人数が%s2に増えた。"
+"TF_Arena_Team_SizeDecreased"	"%s1チームの人数が%s2に減った。"
+
+// ----------------------------------------------------------------
+// Intro movies
+// ----------------------------------------------------------------
+
+// cp_coldfront
+"TF_IM_Coldfront_Intro"	"Coldfrontはコントロールポイントマップだ"
+
+// cp_steel
+"TF_IM_Steel_Intro"	"Steelは攻撃・防衛マップだ。"
+"TF_IM_Steel_BlueWin"	"BLUはラウンドに勝つためにポイントEを制圧しなければならない。"
+"TF_IM_Steel_PlotTwist"	"しかし..."
+"TF_IM_Steel_FinalCap"	"ポイントEは常に制圧可能だ。BLUはいつでも制圧できる。"
+"TF_IM_Steel_Points"	"A、B、C、Dのポイントを制圧するとEを奪いやすくなる！"
+"TF_IM_Steel_CapA"	"Aを制圧するとBとEへの追加ルートが開く。"
+"TF_IM_Steel_CapB"	"Bを制圧するとREDのスポーンルームが移動し、Cへの追加ルートも開く。"
+"TF_IM_Steel_CapC"	"Cを制圧するとEへの橋が伸びる。"
+"TF_IM_Steel_CapD"	"Dを制圧するとREDがEへ容易に到達できなくなる。"
+"TF_IM_Steel_Bridge"	"橋がなければ、誰もEに到達できない。"
+"TF_IM_Steel_Pit"	"落とし穴に注意！"
+
+// VIP Race
+"TF_IM_VIPR_Intro"	"VIPレースのゲームモードへようこそ"
+"TF_IM_VIPR_ToWin"	"勝つには、VIPが敵のコントロールポイントを制圧するのを助けなければならない..."
+"TF_IM_VIPR_Escape"	"...そして敵チームより先にVIPを脱出ゾーンまで護衛せよ！"
+"TF_IM_VIPR_Death"	"VIPが死亡すると、そのVIPが制圧したポイントは全てリセットされる"
+"TF_IM_VIPR_HUD"	"両チームのVIPの状態と進行状況は画面下部で確認できる"
+
+// ----------------------------------------------------------------
+// Scoreboard
+// ----------------------------------------------------------------
+
+"TF_ScoreBoard_Player"				"%s1 プレイヤー"
+"TF_ScoreBoard_Players"				"%s1 プレイヤー数"
+
+"ScoreBoard_Spectator"				"%s1 観戦： %s2"
+"ScoreBoard_Spectators"				"%s1 観戦数： %s2"
+
+"TF_ScoreBoard_KillsLabel"			"キル："
+"TF_ScoreBoard_AssistsLabel"		"アシスト："
+"TF_ScoreBoard_DeathsLabel"			"死亡："
+
+"TF_Scoreboard_DamageLabel"			"ダメージ："
+"TF_ScoreBoard_HealingLabel"		"回復："
+"TF_Scoreboard_SupportLabel"		"サポート："
+
+"TF_ScoreBoard_CapturesLabel"		"奪取数："
+"TF_ScoreBoard_DefensesLabel"		"防衛数："
+"TF_ScoreBoard_DominationsLabel"	"制圧数："
+"TF_ScoreBoard_RevengesLabel"		"リベンジ："
+"TF_ScoreBoard_BonusLabel"			"ボーナス："
+
+"TF_ScoreBoard_UberchargesLabel"	"ユーバーチャージ："
+"TF_ScoreBoard_TransportsLabel"		"テレポート："
+"TF_ScoreBoard_DestructionsLabel"	"破壊数："
+"TF_ScoreBoard_HeadshotsLabel"		"ヘッドショット："
+"TF_ScoreBoard_BackstabsLabel"		"背後からの襲撃："
+
+"TF_Medal_Developer"				"TF2C開発者"
+"TF_Medal_Contributor"				"TF2C提供者"
+"TF_Medal_Playtester"				"TF2Cプレイーテスター"
+
+// ----------------------------------------------------------------
+// Win Panel
+// ----------------------------------------------------------------
+
+"Winpanel_Teams1"	"チーム"
+"Winpanel_Teams2"	"チーム"
+
+"Winpanel_TeamWins"		"%s1%s2の勝利！"
+"Winpanel_TeamLost"		"%s1%s2の敗北！"
+"Winpanel_TeamAdvances"	"%s1%s2がエリアを制圧"
+"Winpanel_TeamDefends"	"%s1%s2が防御！"
+
+"WinPanel_Green_Team_Wins"	"GRNチームの勝利"
+"WinPanel_Yellow_Team_Wins"	"YLWチームの勝利"
+
+"Winpanel_GreenWins"		"GRNチームの勝利！"
+"Winpanel_GreenAdvances"	"GRNチームがエリアを制圧"
+"Winpanel_GreenDefends"		"GRNチームが防御！"
+"Winpanel_YellowWins"		"YLWチームの勝利！"
+"Winpanel_YellowAdvances"	"YLWチームがエリアを制圧"
+"Winpanel_YellowDefends"	"YLWチームが防御！"
+"Winpanel_GreenMVPs"		"GRNのMVP："
+"Winpanel_YellowMVPs"		"YLWのMVP："
+
+"Winreason_KOTHPointHeld"		"%s1が時間切れまでコントロールポイントを保持した"
+"Winreason_PayloadPushed"		"%s1がペイロードを終点まで押し進めた"
+"Winreason_ArenaPointCaptured"	"%s1がコントロールポイントを制圧した"
+"Winreason_RoundScoreLimit"		"%s1が%s2ポイントに達した"
+"Winreason_VIPEscaped"			"VIPが脱出した"
+"Winreason_VIPKilled"			"VIPが殺害された"
+
+// ----------------------------------------------------------------
+// Main Menu
+// ----------------------------------------------------------------
+
+"TF_Menu_Welcome"			"おかえり、"
+"TF_Menu_Name"				"%playername%！"
+
+"TF_Menu_HideName"			"［検閲済み］"
+
+"TF_Menu_ResumeGame"		"ゲームに戻る"
+"TF_Menu_Mute"				"プレイヤーをミュートにする"
+"TF_Menu_Vote"				"投票の呼びかけ"
+
+"TF_Menu_FindServers"		"サーバーを探す"
+"TF_Menu_CreateServer"		"サーバーを作成する"
+"TF_Menu_OfflineTraining"	"オフライン・プラクティス"
+
+"TF_Menu_Loadout"			"装備"
+
+"TF_Menu_Achievements"		"実績"
+"TF_Menu_Stats"				"データ"
+
+"TF_Menu_Options"			"オプション"
+"TF_Menu_Addons"			"アッドン（近日公開！）"
+
+"TF_Menu_Quit"				"終了"
+"TF_Menu_Disconnect"		"接続解除"
+
+"TF_Menu_Blog"				"ウェブサイト"
+"TF_Menu_ReportBug"			"バグを報告"
+"TF_Menu_Donate"			"施す"
+
+"TF_Friends_Title"					"友達(%friend_count%)"
+"TF_Friends_Status_InTF2C"			"TF2Cをプレイ中"
+"TF_Friends_Status_Idle_InTF2C"		"TF2Cで放置中"
+"TF_Friends_Status_InMod"			"他のMODをプレイ中"
+"TF_Friends_Status_Idle_InMod"		"他のMODで放置中"
+"TF_Friends_Status_InGame"			"他のゲームをプレイ中"
+"TF_Friends_Status_Idle"			"他のゲームで放置中"
+"TF_Friends_Status_Online"			"オンライン"
+"TF_Friends_Status_Away"			"アウェイ"
+"TF_Friends_Status_Offline"			"オフライン"
+
+"ChallengeDetails"					"%s2役の%s1"
+
+
+// ----------------------------------------------------------------
+// Loadout
+// ----------------------------------------------------------------
+
+// Loadout gamemode indicator
+"TF_Loadout_Modifier_StockItemsOnly"		"デフォルト装備のみ！"
+"TF_Loadout_Modifier_MedievalItemsOnly"		"「中世」アイテムのみ！"
+"TF_Loadout_Modifier_RandomizerClasses"		"クラスがランダム化！"
+"TF_Loadout_Modifier_RandomizerItems"		"アイテムがランダム化！"
+"TF_Loadout_Modifier_RandomizerAttributes"	"属性がランダム化！"
+"TF_Loadout_Modifier_RandomizerMayhem"		"ランダマイザー大混乱！"
+"TF_Loadout_Modifier_CustomWeaponsEnabled"	"カスタム武器有効！"
+
+// Item slot types
+"TF_Loadout_Slot_Invalid"		"無効"
+"TF_Loadout_Slot_Primary"		"メイン武器"
+"TF_Loadout_Slot_Secondary"		"サブ武器"
+"TF_Loadout_Slot_Melee"			"近接武器"
+"TF_Loadout_Slot_Utility"		"ユティリティー"
+"TF_Loadout_Slot_Building"		"建築物"
+"TF_Loadout_Slot_PDA1"			"PDA"
+"TF_Loadout_Slot_PDA2"			"PDA2"
+
+// Item slot vanity names
+"TF_Loadout_Slot_Secondary_Medic"	"メディガン"
+"TF_Loadout_Slot_Building_Spy"		"サッパー"
+"TF_Loadout_Slot_PDA2_Spy"			"ウォッチ"
+
+"TF_Loadout_Close"				"閉じる"
+"TF_Loadout_Back"				"戻る"
+"TF_Loadout_Defaults"			"デフォルト"
+
+// Reset inventory
+"TF_ConfirmDefaultInventory_Title"		"デフォルト装備"
+"TF_ConfirmDefaultInventory_Message"	"このクラスのデフォルトアイテムに戻してよろしいですか？"
+"TF_ConfirmDefaultInventory_OK"			"はい"
+
+// ----------------------------------------------------------------
+// Options
+// ----------------------------------------------------------------
+
+// TODO this is one big mess
+// Keyboard Options
+"TF2c_KeyboardCategory_Movement"        "移動"
+"TF2c_KeyboardCategory_Combat"          "戦闘"
+"TF2c_KeyboardCategory_Communication"   "コミュニケーション"
+"TF2c_KeyboardCategory_UI"  		 	"UI"
+"TF2c_KeyboardCategory_Extra"			"その他"
+"TF2c_UseDefaultsButton"				"キーバインドをリセット"
+"TF_ClassSkill_Spy_Spywalk"				"スパイ：スパイワック"
+"TF_Voice_Menu_0_0"						"音声コマンド：メディック！"
+"TF_Voice_Menu_0_1"						"音声コマンド：ありがとう！"
+"TF_Voice_Menu_1_0"						"音声コマンド：来るぞ！"
+"TF_Voice_Menu_1_1"						"音声コマンド：スパイだ！"
+"TF_Voice_Menu_1_2"						"音声コマンド：前方にセントリーガン！"
+"TF_Voice_Menu_1_3"						"音声コマンド：テレポーターをここに"
+"TF_Voice_Menu_1_4"						"音声コマンド：ディスペンサーをここに"
+"TF_Voice_Menu_1_5"						"音声コマンド：セントリーガンをここに"
+"TF_Voice_Menu_1_6"						"音声コマンド：チャージを頼む！"
+"TF_Voice_Menu_1_7"						"音声コマンド：（メディック）ユーバーチャージの準備完了"
+"TF_Voice_Menu_2_0"						"音声コマンド：助けてくれ！"
+"TF_Spec_Next"							"次の観戦対象"
+"TF_Spec_Prev"							"前の観戦対象"
+"TF_Spec_Mode"							"観戦モードを切り替える"
+"TF_Use"								"使用（インタラクト）"
+"TF_Kill"								"殺す（自分）"
+"TF_Explode"							"炸裂する（自分）"
+
+// Scoreboard Options
+"TF_Enable"								"有効"
+"TF_Disable"							"無効"
+"TF_RightClick_Enable"					"右クリックで有効化"
+"TF_RightClick_Enable_Mouse"			"右クリックでマウスを有効化"
+
+// UI options
+"TF_Open_Charinfo"						"キャラクター装備を開く"
+
+"TF2c_EnableGamepad"					"ゲームパッドを有効化"
+
+"TF2c_MouseRawInput"					"ロー入力"
+"TF2c_MouseSensitivity"					"マウス感度"
+"TF2c_MouseSmoothing"					"マウス・スムージング"
+"TF2c_MouseAcceleration"				"マウス加速"
+"TF2c_MouseAccelerationStrength"		"マウス加速の強度"
+
+"TF2c_Options_Game"                     "ゲーム"
+"TF2c_Options_Input"                    "入力"
+"TF2c_Options_Video"                    "ビデオ"
+"TF2c_Options_Audio"                    "音響"
+"TF2c_Options_MultiPlayer"              "ムルティプラヤー"
+
+"TF2c_OptionCategory_Mouse"				"マウス"
+"TF2c_OptionCategory_Joystick"			"ゲームパッド"
+"TF2c_OptionCategory_Keyboard"			"キーボード"
+
+"TF2c_OptionCategory_Graphics"			"グラフィック"
+"TF2c_OptionCategory_Video"				"ビデオ"
+
+"TF2c_OptionCategory_Volume"			"音量"
+"TF2c_OptionCategory_Device"			"デバイス"
+"TF2c_OptionCategory_Language"			"言語"
+"TF2c_OptionCategory_Voice"				"音声"
+
+"TF2c_OptionCategory_Combat"			"戦闘"
+"TF2c_OptionCategory_HUD"				"HUD"
+"TF2c_OptionCategory_ViewModel"			"ヴューモデル"
+"TF2c_OptionCategory_ClassSpecific"		"クラス別設定"
+"TF2c_OptionCategory_Performance"		"パフォーマンス"
+"TF2c_OptionCategory_Misc"				"その他"
+"TF2c_OptionCategory_Replay"			"リプレイ"
+"TF2c_OptionCategory_DemoSupport"		"デモ"
+"TF2c_OptionCategory_Communication"		"通信"
+
+"TF2c_OptionCategory_CustomizationMultiplayer"			"カスタマイズ"
+"TF2c_OptionCategory_Network"							"ネットワーク"
+
+"TF2c_MuteUnfocused"					"非フォーカス時にミュート"
+
+"TF2c_Options_Custom"					"カスタム"
+
+"TF2c_ChatFilterSettingsButton"			"設定を開く"
+
+"GameUI_CloseWithoutSaving"				"保存せずに閉じる"
+"GameUI_CloseWithoutSavingText" 		"本当に閉じますか？\n 保存していない変更はすべて失われます！"
+"GameUI_Legacy"							"レガシーメニュー"
+"GameUI_Effect_Detail"          		"エフェクト品質"
+"GameUI_VeryLow"               			"最低"
+"GameUI_Off"               				"オフ"
+"GameUI_Everyone"               		"皆"
+"GameUI_FriendsOnly"               		"友達のみ"
+
+"GameUI_Restart"						"再起動が必要"
+"GameUI_RestartText"					"加えた変更の一部を反映するにはゲームの再起動が必要です："
+"GameUI_OptionsRestart_Revert"			"変更を元に戻す"
+
+"GameUI_Disconnect_TooManyCommands"		"切断：コマンドが多すぎます"
+
+// Combat
+"TF2C_Option_DamageFeedback"				"ダメージフィードバックを有効化"
+"TF2C_Tooltip_DamageFeedback"				"ダメージフィードバックは、異なる種類のダメージを与えたり受けたりした際に状況に応じた音を再生します"
+"TF2C_Option_DamageFeedbackOutgoing"		"発信ダメージフィードバックを有効化"
+"TF2C_Tooltip_DamageFeedbackOutgoing"		"発信ダメージフィードバック音は、敵にダメージを与えた際に再生されます"
+"TF2C_Option_DamageFeedbackOutgoingVolume"	"発信ダメージフィードバックの音量"
+"TF2C_Tooltip_DamageFeedbackOutgoingVolume"	"ダメージを与えた際に再生される状況音の音量"
+"TF2C_Option_DamageFeedbackIncoming"		"受信ダメージフィードバックを有効化"
+"TF2C_Tooltip_DamageFeedbackIncoming"		"受信ダメージフィードバック音は、ダメージを受けた際に再生されます"
+"TF2C_Option_DamageFeedbackIncomingVolume"	"受信ダメージフィードバックの音量"
+"TF2C_Tooltip_DamageFeedbackIncomingVolume"	"ダメージを受けた際に再生される状況音の音量"
+
+"TF_CenterFirePreference"         	"プロジェクタイルを中央から発射することを優先する"
+"TF_CenterFirePreference_Tip"    	"有効にすると、プレイヤーのプロジェクタイル発射位置のY座標が0に設定されます。適用には切断または観戦状態が必要です"
+"TF_BurningDeathAnim"				"燃焼死亡アニメーションを有効化"
+"TF_BurningDeathAnim_Tip"			"有効にすると、炎で死亡したラグドールが特殊な死亡アニメーションを再生することがあります"
+"TF_CombatTextBatchingWindow"		"蓄積された戦闘テキストのダメージイベント間の遅延"
+"TF_CombatTextBatchingWindow_Tip"	"数字をまとめるためのダメージイベント間の最大遅延"
+"TF_CombatTextDropShadow"           "戦闘テキストにドロップシャドウを表示する"
+"TF_CombatTextDropShadow_Tip"       "有効にすると、戦闘テキストにドロップシャドウが表示されます"
+
+"TF2C_CalloutBubbles"				"吹き出しを有効化"
+"TF2C_CalloutBubbles_Tip"			"有効にすると、音声コマンドを使用すると、プレイヤーの上に吹き出しが表示されます"
+
+// ClassSpecific
+"TF_CyclopsDoubleTap"             	"デモマン：サイクロプスのダブルタップを有効化"
+"TF_CyclopsDoubleTap_Tip"        	"有効にすると、サイクロプスの手榴弾は主攻撃ボタンを離す代わりに、もう一度クリックして起爆する必要があります"
+"TF_SapperAwareness"                "エンジニア：サッパー検知"
+"TF_SapperAwareness_Tip"            "有効にすると、建物へのサッパー警告が別の色で表示されます"
+"TF_SniperBell"					    "スナイパー：フルチャージ時に音を再生"
+"TF_SniperBell_Tip"					"スナイパーライフルがフルチャージになったときに音を再生します"
+"TF_ZoomSensitivityRatio"			"スナイパー：ズーム感度の比率"
+"TF_ZoomSensitivityRatio_Tip"		"スコープ時のズーム感度を調整します"
+"TF_SpywalkInverted"				"スパイ：デフォルトでスパイウォークを使用"
+"TF_SpywalkInverted_Tip"			"有効にすると、デフォルトでスパイウォーク速度を使用し、スパイウォークバインドで通常の移動速度になります"
+"TF_ViewModelCloakTint"				"スパイ：ビューモデルの透明マントの色"
+"TF_ViewModelCloakTint_Tip"			"透明マント中にビューモデルを着色できるようにします"
+"TF_AvoidBecomingVIP"				"シビルリアン：VIPになることを避ける"
+"TF_AvoidBecomingVIP_Tip"			"有効にすると、ゲームがVIPを選ぶ際に通常は候補から外れます。ただし全員がこのオプションを設定している場合や投票で選ばれた場合はVIPになる可能性があります"
+
+// HUD
+"TF_LoadoutGrid"                  "装備グリッドを有効化"
+"TF_LoadoutGrid_Tip"              "有効にすると、武器装備ページがグリッド表示になります"
+"TF_HighlightAmmo"				  "落とした武器に発光アウトラインを表示"
+"TF_HighlightAmmo_Tip"			  "有効にすると、落とした武器に発光アウトラインが表示されて位置がわかりやすくなります"
+"TF_ScoreBoardShowAvatars"		  "スコアボードにアバターを表示"
+"TF_ShowCurrentWeapon"		  	  "現在装備中の武器を表示"
+"TF_OverlayToastPosition"         "Steamオーバーレイ通知の位置"
+"TF_TopLeft"                      "左上"
+"TF_TopRight"                     "右上"
+"TF_BottomLeft"                   "左下"
+"TF_BottomRight"                  "右下"
+"TF_OverlayToastInsetHoriz"       "Steam通知の水平オフセット"
+"TF_OverlayToastInsetVert"        "Steam通知の垂直オフセット"
+"TF_TargetID_Floating_Health"	  "ターゲットID - フローティング体力バーを有効化"
+"TF_TargetID_Floating_Health_Tip" "有効にすると、キャラクターの上に体力バーが表示されます"
+"TF_TargetID_Alpha"				  "ターゲットID - ネームプレート背景の透明度"
+"TF_TargetID_Alpha_Tip"			  "ターゲットIDのネームプレート背景の半透明度を設定します"
+"TF_TargetID_Show_Avatars"		  "ターゲットID - アバターを表示"
+"TF_TargetID_Show_Avatars_Tip"	  "ターゲットIDにSteamアバターを表示します"
+"TF_HideKeybinds"                 "ゲーム内のキーバインド表示を隠す"
+"TF_HideKeybinds_Tip"			  "ゲーム内HUDに表示されるキーバインドの表示を無効にします。"
+"TF_AlternativeTimer"             "代替ゲーム内タイマーを使用"
+"TF_AlternativeTimer_Tip"         "有効にすると、代替の等幅フォントタイマーが使用されます"
+"TF_DisableDropShadow"            "ドロップシャドウを無効化"
+"TF_DisableDropShadow_Tip"        "有効にすると、ほとんどのテキストと画像からドロップシャドウが削除されます"
+"TF_DeathNoticeMax"               "デスノーティス - 最大表示件数"
+"TF_DeathNoticeMax_Tip"           "同時に表示されるデスノーティスの最大件数を設定します。"
+"TF_DeathNoticeTime"              "デスノーティス - エントリーの表示時間（秒）"
+"TF_DeathNoticeTime_Tip"          "デスノーティスの表示時間を設定します"
+"TF_GlowEffects"				  "発光エフェクトを使用"
+"TF_GlowEffects_Tip" 			  "有効にすると、試合中にVIP、ペイロードカート、CTFブリーフケースなどの目標に発光エフェクトが表示されます"
+
+// ViewModel
+"TF_ViewModelFOV"				"ビューモデルの視野角"
+"TF_FlipViewModels"				"ビューモデルを反転"
+"TF_InvisibleArms"				"腕の非表示ビューモデルを使用"
+"TF_ViewModelOpacity"			"ビューモデルの不透明度"
+
+// Misc
+"TF_ClassAutoKill"					"クラス選択後に強制リスポーン"
+"TF_ClassAutoKill_Tip"				"有効にすると、フィールドにいる間にクラスを変更するたびに即座に強制リスポーンします。\n\n無効にすると、リスポーン時にクラスを変更します。"
+"TF_ClassMenu_Music"				"クラス選択メニューの音楽"
+"TF_StreamerMode"					"ストリーマーモードを有効化"
+"TF_StreamerMode_Tip"				"有効にすると、すべてのテキストチャットを非表示にし、自分を含む全員を匿名化します"
+"TF_ModelMuzzleFlash"				"ベータモデルのマズルフラッシュを有効化"
+"TF_ModelMuzzleFlash_Tip"			"有効にすると、マズルフラッシュにパーティクルではなくモデルが使用されます"
+
+// Voice
+"TF2c_Option_Proximity_Voice_Local"	"近接ボイスチャットを有効化"
+
+// Multiplayer
+"TF_MessageAlert"				    "チャットメッセージ受信音を有効化"
+"TF_MessageAlert_Tip"			    "有効にすると、チャットメッセージを受信した際に音が再生されます"
+"TF_MessageVolume"				    "チャットメッセージ音の音量"
+"TF_ChatCloseOnSend"				"メッセージ送信時にチャットを閉じる"
+"TF_ChatCloseOnSend_Tip"			"有効にすると、メッセージ送信後にチャットを閉じます"
+"TF_DownloadFilter_Title"			"サーバーからダウンロードするカスタムファイルの許可設定"
+"GameUI_DownloadFilter_All"			"すべてのカスタムファイルを許可"
+"GameUI_DownloadFilter_NoSounds"	"カスタムサウンドなし"
+"GameUI_DownloadFilter_MapsOnly"	"マップファイルのみ"
+"GameUI_DownloadFilter_None"		"カスタムファイルなし"
+"TF_Network_Rate"       			"ネットワーク更新レート"
+"TF_Network_Rate_Tip"       		"ネットワーク更新レートを設定します。これにより補間量が逆に設定されます。\n\nご自身のネットワーク環境で最適なものを試してみることをお勧めします"
+
+// Video
+"TF2c_Option_ClassicShading"		"クラシックシェーディング"
+"TF2c_Option_ClassicShading_Tip"	"有効にすると、プレイヤーマテリアルに完全なランバートシェーディングが適用されます"
+"TF2c_Option_BloomScale"			"ブルームのスケール"
+"TF2c_Option_FramerateLimit"		"フレームレート制限"
+
+// ----------------------------------------------------------------
+// Stats
+// ----------------------------------------------------------------
+										   
+"TF_Stats_Reset"						"データをリセット" // R
+"TF_Stats_Close"						"閉じる" // Q
+
+"TF_NextTip"							"次のヒント"
+																								   
+"Stat_PadJumps"							"ジャンプパッド"
+
+"StatPanel_Label_PadJumps"				"ジャンプパッド数："
+
+"TF_ClassRecord_MostUbercharges"		"最多ユーバーチャージ数："
+"TF_ClassRecord_Alt_MostUbercharges"	"ユーバーチャージ数"
+"TF_ClassRecord_MostPadJumps"			"最多ジャンプパッド使用回数："
+"TF_ClassRecord_Alt_MostPadJumps"		"ジャンプパッド"
+
+"StatPanel_Ubercharges_Best"			"このラウンドでは、不死身になった回数が自己ベストを上回りました。"
+"StatPanel_Ubercharges_Tie"				"このラウンドでは、不死身になった回数が自己記録に並びました。"
+"StatPanel_Ubercharges_Close"			"このラウンドでは、不死身になった回数が自己記録に迫りました。"
+"StatPanel_MVM_Ubercharges_Best"		"このMann vs. Machineラウンドでは、不死身になった回数が自己ベストを上回りました。"
+"StatPanel_MVM_Ubercharges_Tie"			"このMann vs. Machineラウンドでは、不死身になった回数が自己記録に並びました。"
+"StatPanel_MVM_Ubercharges_Close"		"このMann vs. Machineラウンドでは、不死身になった回数が自己記録に迫りました。"
+
+"StatPanel_PadJumps_Best"				"そのラウンドのジャンプパッド使用回数が自己ベストを更新した。"
+"StatPanel_PadJumps_Tie"				"そのラウンドのジャンプパッド使用回数で記録に並んだ。"
+"StatPanel_PadJumps_Close"				"そのラウンドのジャンプパッド使用回数で記録に近づいた。"
+"StatPanel_MVM_PadJumps_Best"			"Mann vs. Machineのそのラウンドのジャンプパッド使用回数が自己ベストを更新した。"
+"StatPanel_MVM_PadJumps_Tie"			"Mann vs. Machineのそのラウンドのジャンプパッド使用回数で記録に並んだ。"
+"StatPanel_MVM_PadJumps_Close"			"Mann vs. Machineのそのラウンドのジャンプパッド使用回数で記録に近づいた。"
+// ----------------------------------------------------------------
+// Achievements
+// ----------------------------------------------------------------
+
+// Achievement groups
+"Achievement_Group_3000"	"攻撃クラス （%s2分の%s1）"
+"Achievement_Group_3100"	"防衛クラス （%s2分の%s1）"
+"Achievement_Group_3200"	"サポートクラス （%s2分の%s1）"
+"Achievement_Group_3300"	"マップとゲームモード （%s2分の%s1）"
+
+// Launch achievements
+"TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_NAME"			"計算された事故"
+"TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_DESC"			"放物線を描くロケットで、遠距離から敵プレイヤーを殺す。"
+"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_NAME"			"経験豊富な世界旅行者"
+"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_DESC"			"Dustbowl、2Fort、Badlands (CP)、Well (CTF)、およびAvantiで、ゲームを最後までプレイする。"
+"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_CP_DUSTBOWL"	"Dustbowl"
+"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_CTF_2FORT"	"2Fort"
+"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_CP_BADLANDS"	"Badlands (CP)"
+"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_CTF_WELL"	"Well (CTF)"
+"TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_VIP_AVANTI"	"Avanti"
+"TF2C_ACHIEVEMENT_KILL_BUILDINGS_WITH_MIRV_NAME"		"ドドーン！"
+"TF2C_ACHIEVEMENT_KILL_BUILDINGS_WITH_MIRV_DESC"		"ダイナマイトパックでエンジニアの建造物を5つ破壊する。"
+"TF2C_ACHIEVEMENT_DEFUSE_MIRV_NAME"						"導火線の拒絶"
+"TF2C_ACHIEVEMENT_DEFUSE_MIRV_DESC"						"レンチを使って敵デモマンのダイナマイトパックを解除する。"
+"TF2C_ACHIEVEMENT_TRANQ_MELEE_KILL_NAME"				"熟睡"
+"TF2C_ACHIEVEMENT_TRANQ_MELEE_KILL_DESC"				"スパイとして、鎮静状態のプレイヤーを近接武器で10人殺す。"
+"TF2C_ACHIEVEMENT_EXTINGUISH_BOMBLETS_NAME"				"誕生日のバースト"
+"TF2C_ACHIEVEMENT_EXTINGUISH_BOMBLETS_DESC"				"エアブラストでダイナマイトパックを20本消火する。"
+"TF2C_ACHIEVEMENT_KILL_SENTRY_WITH_NAILGUN_NAME"		"死の爪"
+"TF2C_ACHIEVEMENT_KILL_SENTRY_WITH_NAILGUN_DESC"		"ネイルガンでセントリーガンを5台破壊する。"
+"TF2C_ACHIEVEMENT_BRICK_NAME"							"レンガ"
+"TF2C_ACHIEVEMENT_BRICK_DESC"							"..."
+"TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_NAME"				"船の投錨"
+"TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_DESC"				"致命的な落下ダメージを受けながら、アドミラルティ・アンカーの地震で敵を倒す。"
+"TF2C_ACHIEVEMENT_SSG_MEATSHOTS_NAME"					"引き裂き、切り刻め！"
+"TF2C_ACHIEVEMENT_SSG_MEATSHOTS_DESC"					"ツインバレルでミートショットキルを10回達成する。"
+"TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_NAME"		"首が飛ぶぞ"
+"TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_DESC"		"ハーヴェスターで1ライフ中に敵を3人斬首する。"
+"TF2C_ACHIEVEMENT_CYCLOPS_COMBO_NAME"					"スプラッター・コンボ"
+"TF2C_ACHIEVEMENT_CYCLOPS_COMBO_DESC"					"サイクロプスのコンボ爆発1回で敵を3人以上倒す。"
+"TF2C_ACHIEVEMENT_SANDVICH_MINES_NAME"					"軍縮"
+"TF2C_ACHIEVEMENT_SANDVICH_MINES_DESC"					"ヘビーとして、5秒以上設置されている敵の地雷を近づかずに安全に起爆する。"
+"TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_NAME"					"1、1、1、えと..."
+"TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_DESC"					"爆発物の設定ミスにより、敵を倒す。"
+"TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_NAME"				"封じ込めのポリシー"
+"TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_DESC"				"対空砲を使い、自爆せずに1ライフで2000ダメージを与える。"
+"TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_NAME"				"準備とペイオフ"
+"TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_DESC"				"チェーホフのパンチのクリティカル蓄積最大時にクリティカルキルを達成する。"
+"TF2C_ACHIEVEMENT_JUMPPAD_STOMP_NAME"					"終端速度"
+"TF2C_ACHIEVEMENT_JUMPPAD_STOMP_DESC"					"ジャンプパッド使用後、敵の上に着地して倒す。"
+"TF2C_ACHIEVEMENT_EXTEND_UBER_NAME"						"マラソンの手術"
+"TF2C_ACHIEVEMENT_EXTEND_UBER_DESC"						"リジュヴィネーターのユーバーチャージを12秒間維持する。"
+"TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_NAME"					"死んだ！"
+"TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_DESC"					"チェーホフのパンチを装備した敵ヘビーに心臓発作を起こさせる！"
+"TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_NAME"			"死の空気"
+"TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_DESC"			"空中にいる敵をヘッドショットで倒す"
+"TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_NAME"				"フランス人を襲う"
+"TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_DESC"				"ダメージを与えて透明状態のL'escampetteスパイを発見する。"
+"TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_NAME"			"起業家"
+"TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_DESC"			"シビルリアンとして、一度も死なずにVIPラウンドに勝利する。"
+"TF2C_ACHIEVEMENT_VIPR_TIME_NAME"						"加速状態"
+"TF2C_ACHIEVEMENT_VIPR_TIME_DESC"						"3分未満でVIPレースラウンドに勝利する。"
+"TF2C_ACHIEVEMENT_ARCHAEOLOGY_NAME"						"考古学"
+"TF2C_ACHIEVEMENT_ARCHAEOLOGY_DESC"						"Jinnに埋められた財宝を発見する。"
+"TF2C_ACHIEVEMENT_AIRHOCKEY_NAME"						"司令塔"
+"TF2C_ACHIEVEMENT_AIRHOCKEY_DESC"						"2Bridgeのエアホッケーで他プレイヤーに勝利する。"
+"TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_NAME"					"めんどりのめまい"
+"TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_DESC"					"ニワトリを追い立てて、環境キルを狙う。"
+"TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_NAME"					"三重スパイ"
+"TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_DESC"					"四チーム戦の1ラウンド中に、敵対する全3チームのプレイヤーをそれぞれ1人ずつ、背後から刺す。"
+"TF2C_ACHIEVEMENT_HOLD_ALLPOINTS_DOMINATION_NAME"		"完全支配"
+"TF2C_ACHIEVEMENT_HOLD_ALLPOINTS_DOMINATION_DESC"		"ドミネーションラウンド中、チームで全コントロールポイントを制圧する。"
+"TF2C_ACHIEVEMENT_SHAME_NAME"							"恥のバッジ"
+"TF2C_ACHIEVEMENT_SHAME_DESC"							"敵のVIPに倒された。お前には烙印が押された。"
+"TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_NAME"				"破壊的な批判"
+"TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_DESC"				"提供者メダルを持つプレイヤーをドミネートする。"
+
+// ----------------------------------------------------------------
+// Discord Rich Presence
+// ----------------------------------------------------------------
+
+"Discord_InMenu"					"メニュー中"
+"Discord_InMenu_ToolTip"			"メインメニュー"
+"Discord_IsLoading"					"読み込み中..."
+"Discord_IsLoading_ToolTip"			"ロード中..."
+"Discord_InOfficialMap"				"公式マップ: %s1"
+"Discord_InCommunityMap"			"コミュニティマップ: %s1"
+"Discord_InServer_Info"				"サーバー: %s1"
+
+// ----------------------------------------------------------------
+// Server Browser
+// ----------------------------------------------------------------
+"ServerBrowser_PlayerCount" 		"%s1/%s2"
+"ServerBrowser_LatencyDetail" 		"レイテンシ: %s1"
+"ServerBrowser_IPAddressDetail" 	"IPアドレス: %s1"
+"ServerBrowser_PlayerListHeading"	"プレイヤー (%s1/%s2、%s3ボット):"
+"ServerBrowser_NotFullFilter" 		"空きがあるサーバー"
+"ServerBrowser_HasPlayersFilter" 	"プレイヤーがいる"
+"ServerBrowser_NoPasswordFilter" 	"パスワードなし"
+"ServerBrowser_HasTagsFilter" 		"タグあり"
+"ServerBrowser_MaxLatencyFilter" 	"最大レイテンシ"
+"ServerBrowser_MaxPlayersFilter" 	"最大プレイヤー数"
+"ServerBrowser_ServerTypeFilter" 	"サーバーの種類"
+"ServerBrowser_MapNameFilter" 		"マップ名"
+"ServerBrowser_SortBy" 				"並び替え："
+"ServerBrowser_SortByName" 			"名前"
+"ServerBrowser_SortByMap" 			"マップ"
+"ServerBrowser_SortByPlayers" 		"プレイヤー"
+"ServerBrowser_SortByLatency" 		"レイテンシ"
+"ServerBrowser_SortByLastPlayed" 	"最終プレイ日時"
+"ServerBrowser_UseLegacyBrowser" 	"レガシーブラウザを使用"
+"ServerBrowser_CurrentMapHeading" 	"今のマップ"
+"ServerBrowser_TagListHeading" 		"タグ："
+"ServerBrowser_OfficialDetail" 		"このサーバーは公式"
+"ServerBrowser_VerifiedDetail" 		"このサーバーは認証済み"
+"ServerBrowser_Any" 				"任意"
+"ServerBrowser_Official" 			"公式"
+"ServerBrowser_Verified" 			"認証済み"
+"ServerBrowser_OfficialOrVerified" 	"公式または認証済み"
+"ServerBrowser_CustomRules"			"カスタムルール"
+"ServerBrowser_CustomWeapons" 		"カスタム武器"
+
+//TF2 tf_japanese.txt fixes
+"TF_Team_PartyLeader"		"チーム%s"
+
+"game_player_joined_game"	"プレイヤー「%s1」がゲームに参加しました"
+"game_player_left_game"		"プレイヤー「%s1」がゲームを退出しました（%s2）"
+"game_player_joined_team"	"プレイヤー「%s1」が%s2チームに入りました"
+"game_player_joined_team_party_leader"	"プレイヤー「%s1」が%s2に参加しました"
+"game_player_joined_autoteam" "プレイヤー「%s1」は自動的に%s2チームに割り当てられました"
+"game_player_joined_autoteam_party_leader" "プレイヤー「%s1」は自動的に%s2に割り当てられました"
+"game_player_changed_name"	"プレイヤー「%s1」が「%s2」に名前を変更しました"
+
+"TF_ScoreBoard_Player"			"%s1プレイヤー"
+"TF_ScoreBoard_Players"			"%s1プレイヤー"
+"ScoreBoard_Spectator"		"%s1観戦者：%s2"
+"ScoreBoard_Spectators"		"%s1観戦者：%s2"
+"ScoreBoard_Coach"		"%s1人のコーチ：%s2"
+"ScoreBoard_Coaches"		"%s1人のコーチ：%s2"
+
+"TF_Scoreboard_Ping"			"ピング"
+"TF_ScoreBoard_Point"			"%s1ポイント"
+"TF_ScoreBoard_Points"			"%s1ポイント"
+
+"Scoreboard_TimeLeft"			"サーバーのマップ残り時間：%s1：%s2：%s3"
+"Scoreboard_TimeLeftNoHours"		"サーバーのマップ残り時間：%s1：%s2"
+"Scoreboard_NoTimeLimit"		"サーバーのマップ残り時間：時間制限なし"
+"Scoreboard_ChangeOnRoundEnd"		"（次のラウンドからマップが変更されます...）サーバーのマップ残り時間：00：00"
+
+"Game_connected"			"%s1が接続しました"
+
+"game_spawn_as"				"*%s1として出現します"
+"game_respawn_as"			"*%s1として復活します"
+
+"round_restart_in_sec"			"%s1秒後にラウンドを再開します"
+"round_restart_in_secs"			"%s1秒後にラウンドを再開します"
+
+"game_restart_in_sec"			"%s1秒後にゲームを再開します"
+"game_restart_in_secs"			"%s1秒後にゲームを再開します"
+
+"game_switch_in_sec"			"チームの切り替え中！\n%s1秒後にゲームを再開します"
+"game_switch_in_secs"			"チームの切り替え中！\n%s1秒後にゲームを再開します"
+
+"game_scramble_in_sec"			"チームをシャッフル中！\n%s1秒後にゲームを再開します"
+"game_scramble_in_secs"			"チームをシャッフル中！\n%s1秒後にゲームを再開します"
+
+"game_respawntime_in_sec"		"復活：1秒後"
+"game_respawntime_in_secs"		"復活：%s1秒後"
+
+"game_auto_team_balance_in"		"チーム人数が%s1秒後に自動調整されます。"
+"game_player_was_team_balanced"	"ゲーム人数を調整するために、%s1は他のチームに移動されました"
+
+"game_idle_kick"			"%s1は無操作時間が長すぎたため追放されました"
+
+"TF_playerid_object"			"%s2が作成した%s1"
+"TF_playerid_object_mini"		"%s2が作成したアバター%s1"
+"TF_playerid_object_mode"		"%s2が作成した%s1%s3"
+"TF_playerid_object_level"			"（レベル%s1）"
+"TF_playerid_object_upgrading_level"	"（レベル%s1）アップグレードの進捗状況：%s2"
+"TF_playerid_object_diffteam"		"%s2 が作成した敵の%s1"
+"TF_playerid_friendlyspy_disguise"	"%s1%s2に変装"
+"TF_playerid_noheal"			"%s1が回復を妨害！"
+
+"Econ_MarketTooltipFormat"			"（Steamコミュニティで%s1個入手可能、最低価格は%s2）"
+
+"TF_Weapon_Shotgun"		"散弾銃"
+"TF_Weapon_SniperRifle"		"狙撃銃"
+"TF_Weapon_SuperSMG"		"スーパーSMG"
+"TF_Weapon_Scattergun"		"スカッターガン"
+"TF_Weapon_Jar"			"ジャラ手（ジャーを用いた空手）"
+"TF_Weapon_GardenRake"		"ガーデンレーキ"
+"TF_Weapon_RiftFireAxe"		"RIFT火の斧"
+"TF_Weapon_RiftFireMace"	"RIFT火のメイス"
+
+"TF_ObjStatus_SentryGun_Building"	"セントリーガンの作成中...%s1"
+"TF_ObjStatus_SentryGun_Level1"		"セントリーガン（レベル%s1）ヘルス%s2  弾薬%s3"
+"TF_ObjStatus_SentryGun_Level3"		"セントリーガン（レベル3）ヘルス%s1  弾薬%s2  ロケット%s3"
+
+"TF_ObjStatus_Dispenser_Building"	"ディスペンサーの作成中...%s1"
+"TF_ObjStatus_Dispenser"			"ディスペンサー（レベル%s1）ヘルス%s1"
+
+"TF_ObjStatus_Teleporter_Building"	"テレポーター装置...%s1"
+"TF_ObjStatus_Teleporter"			"テレポーター（レベル%s1）ヘルス%s1  ステータス：%s2"
+
+"TF_ObjStatus_Sapper_Building"		"サッパーの作成中...%s1"
+"TF_ObjStatus_Sapper"				"サッパー  ヘルス%s1  ターゲットのヘルス%s2"
+
+
+// Generic CP level strings
+"CP5_red_setup_goal"			"ゲームに勝つには、5つのコントロールポイントをすべて奪え！"
+"CP5_blue_setup_goal"			"ゲームに勝つには、5つのコントロールポイントをすべて奪え！"
+"CP_setup_30sec"			"30秒後にゲーム開始！"
+"CP_setup_10sec"			"10秒後にゲーム開始！"
+"CP_cap_red_cp1"			"REDチームの陣地"
+"CP_cap_blue_cp1"			"BLUチームの陣地"
+
+// Dustbowl level strings
+"Dustbowl_red_setup_goal"		"BLUチームからコントロールポイントを守れ！"
+"Dustbowl_red_final_goal"		"最後の2つのコントロールポイントを守れ。さもないと、敵がゲームに勝ってしまうぞ！"
+"Dustbowl_blue_final_goal"		"ゲームに勝つには、最後の2つのコントロールポイントを奪え！"
+"Dustbowl_you_secure_one"		"コマンドポイント\n1を確保した！！"
+"Dustbowl_you_secure_two"		"コマンドポイント\n2を確保した！！"
+"Dustbowl_take_flag_one"		"旗を\nコマンドポイント1に運べ。"
+"Dustbowl_take_flag_two"		"旗を\nコマンドポイント2に運べ。"
+"Dustbowl_blue_secures_one"		"BLUチームがコマンドポイント\n1を確保した！！"
+"Dustbowl_blue_secures_two"		"BLUチームがコマンドポイント\n2を確保した！！"
+"Dustbowl_90_secs"			"ゲートが開くまであと90秒。"
+"Dustbowl_60_secs"			"ゲートが開くまであと60秒。"
+"Dustbowl_30_secs"			"ゲートが開くまであと30秒。"
+"Dustbowl_10_secs"			"ゲートが開くまであと10秒。"
+"Dustbowl_five_minutes_left"		"残り時間：\n5分"
+"Dustbowl_four_minutes_left"		"残り時間：\n4分"
+"Dustbowl_three_minutes_left"		"残り時間：\n3分"
+"Dustbowl_two_minutes_left"		"残り時間：\n2分"
+"Dustbowl_sixty_seconds_left"		"残り時間：\n60秒"
+"Dustbowl_thirty_seconds_left"		"残り時間：\n30秒"
+"Dustbowl_cap_1_A"		"第1奪取ポイント、ステージ1"
+"Dustbowl_cap_1_B"		"第2奪取ポイント、ステージ1"
+"Dustbowl_cap_2_A"		"第1奪取ポイント、ステージ2"
+"Dustbowl_cap_2_B"		"第2奪取ポイント、ステージ2"
+"Dustbowl_cap_3_A"		"第1奪取ポイント、ステージ3"
+
+// Goldrush level strings
+"Goldrush_cap_1_A"		"第1奪取ポイント、ステージ1"
+"Goldrush_cap_1_B"		"第2奪取ポイント、ステージ1"
+"Goldrush_cap_2_A"		"第1奪取ポイント、ステージ2"
+"Goldrush_cap_2_B"		"第2奪取ポイント、ステージ2"
+"Goldrush_cap_3_A"		"第1奪取ポイント、ステージ3"
+"Goldrush_cap_3_B"		"第2奪取ポイント、ステージ3"
+
+// Thunder Mountain level strings
+"Thunderm_cap_1_A"		"甲板スロープ、ステージ1"
+"Thunderm_cap_1_B"		"メインプラットフォーム、ステージ1"
+"Thunderm_cap_2_A"		"製材所、ステージ2"
+"Thunderm_cap_2_B"		"炭鉱、ステージ2"
+"Thunderm_cap_3_A"		"ビルディングA、ステージ3"
+"Thunderm_cap_3_B"		"ビルディングB、ステージ3"
+"Thunderm_cap_3_C"		"タワー、最終戦"
+
+// Granary level strings
+"Granary_red_setup_goal"		"ゲームに勝つには、5つのコントロールポイントをすべて奪え！"
+"Granary_blue_setup_goal"		"ゲームに勝つには、5つのコントロールポイントをすべて奪え！"
+"Granary_cap_cp3"			"センターコントロールポイント"
+"Granary_cap_red_cp2"			"REDチームの倉庫"
+"Granary_cap_red_cp1"			"REDチームの陣地"
+"Granary_cap_blue_cp2"			"BLUチームの倉庫"
+"Granary_cap_blue_cp1"			"BLUチームの陣地"
+
+// Gravelpit level strings
+"Gravelpit_red_setup_goal"		"ゲームに勝つには、BLUチームから3つのコントロールポイントをすべて守れ！"
+"Gravelpit_blue_setup_goal"		"3つのコントロールポイントをすべて奪えば勝ちだ！最初にAとBを奪ってからCに移動しろ。"
+"Gravelpit_cap_A"			"奪取ポイントA、無線塔"
+"Gravelpit_cap_B"			"奪取ポイントB、レーダー"
+"Gravelpit_cap_C"			"奪取ポイントC、レーザーガン"
+
+// Hydro level strings
+"Hydro_red_setup_goal"			"ラウンドに勝つには、BLUチームのコントロールポイントを 1 つ奪い、RED チームに同じことをされないように防御しろ！"
+"Hydro_blue_setup_goal"			"ラウンドに勝つには、REDチームのコントロールポイントを 1 つ奪い、BLU チームに同じことをされないように防御しろ！"
+"Hydro_red_base_attack"			"ゲームに勝つには、BLUチームの最終コントロールポイントを奪え！"
+"Hydro_red_base_defend"			"味方の最終コントロールポイントを BLUチームから守れ。さもないと負けるぞ！"
+"Hydro_blue_base_attack"		"ゲームに勝つには、REDチームの最終コントロールポイントを奪え！"
+"Hydro_blue_base_defend"		"味方の最終コントロールポイントをREDチームから守れ。さもないと負けるぞ！"
+"Hydro_cap_red_base"		"REDチームの陣地"
+"Hydro_cap_blue_base"		"BLUチームの陣地"
+
+// Well level strings
+"Well_red_setup_goal"			"ゲームに勝つには、5つのコントロールポイントをすべて奪え！"
+"Well_blue_setup_goal"			"ゲームに勝つには、5つのコントロールポイントをすべて奪え！"
+"Well_setup_30sec"			"30秒後にゲーム開始！"
+"Well_setup_10sec"			"10秒後にゲーム開始！"
+"Well_cap_red_two"			"REDチームの倉庫"
+"Well_cap_red_rocket"			"REDチームの陣地"
+"Well_cap_blue_two"			"BLUチームの倉庫"
+"Well_cap_blue_rocket"			"BLUチームの陣地"
+
+"Pipeline_cap_1_red"			"REDチームの第1奪取ポイント"
+"Pipeline_cap_1_blue"			"BLUチームの第1奪取ポイント"
+"Pipeline_cap_2_red"			"REDチームの第2奪取ポイント"
+"Pipeline_cap_2_blue"			"BLUチームの第2奪取ポイント"
+"Pipeline_cap_3_red"			"REDチームの最終奪取ポイント"
+"Pipeline_cap_3_blue"			"BLUチームの最終奪取ポイント"
+
+"hightower_cap_red"			"RED　のHighTower"
+"hightower_cap_blue"			"BLU　のHighTower"
+"Foundry_cap_red_cp1"			"REDチームの陣地"
+"Foundry_cap_blue_cp1"			"BLUチームの陣地"
+
+// Win panel strings
+"Winpanel_BlueWins"			"BLUチームの勝利！"
+"Winpanel_BlueAdvances"			"BLUチームがエリアを制圧"
+"Winpanel_BlueDefends"			"BLUチームが防御！"
+"Winpanel_RedWins"			"BREDチームの勝利！"
+"Winpanel_RedAdvances"			"BREDチームがエリアを制圧"
+"Winpanel_RedDefends"			"BREDチームが防御！"
+
+"Winpanel_TeamWins"			"%s1%s2の勝利！"
+"Winpanel_TeamLost"			"%s1%s2の敗北！"
+"Winpanel_TeamAdvances"			"%s1%s2がエリアを制圧"
+"Winpanel_TeamDefends"			"%s1%s2が防衛に成功！"
+
+"Winpanel_BlueMVPs"			"BLUチームのMVP："
+"Winpanel_RedMVPs"			"REDチームのMVP："
+"Winpanel_CapturePointsRemaining"	"勝利まであと%s1エリア"
+"Winpanel_CapturePointRemaining"	"勝利まであと%s1エリア"
+"Winreason_AllPointsCaptured"		"%s1が全コントロールポイントを奪った"
+"Winreason_FlagCaptureLimit"		"%s1が敵の機密情報を %s2 回奪った"
+"Winreason_OpponentsDead"		"%s1がサドンデス中に敵を全員倒した"
+"Winreason_DefendedUntilTimeLimit"	"%s1が制限時間まで守りきった"
+"Winreason_WinDiffLimit"		"%s1が勝利に必要なリードを奪った"
+"Winreason_Arena"			"%s1が敵を全員倒した"
+"Winreason_PayloadRace"			"%s1がペイロードレースに勝利した"
+
+"Tournament_Countdown"			"開始まであと%s1秒... （キャンセル：F4 キー）"
+"Tournament_Countdown_Sec"		"%s1秒で開始... 'F4'でキャンセル"
+"Tournament_Countdown_NoCancel"		"%s1秒で開始..."
+"Tournament_Countdown_Sec_NoCancel"	"%s1秒で開始..."
+
+// Misc. strings
+"TF_Gates_90_secs"			"ゲートが開くまであと90秒。"
+"TF_Gates_60_secs"			"ゲートが開くまであと60秒。"
+"TF_Gates_30_secs"			"ゲートが開くまであと30秒。"
+"TF_Gates_10_secs"			"ゲートが開くまであと10秒。"
+"TF_Gates_open"				"ゲートが開いている！！"
+"TF_Time_FiveMinutesLeft"		"残り時間：\n5分"
+"TF_Time_FourMinutesLeft"		"残り時間：\n4分"
+"TF_Time_ThreeMinutesLeft"		"残り時間：\n3分"
+"TF_Time_TwoMinutesLeft"		"残り時間：\n2分"
+"TF_Time_SixtySecondsLeft"		"残り時間：\n60秒"
+"TF_Time_ThirtySecondsLeft"		"残り時間：\n30秒"
+
+// Attack/Defend strings
+"TF_AD_TakeFlagToPoint"			"旗を\nコマンドポイントまで運べ。"
+"TF_AD_YouSecuredPoint"			"コマンドポイント\n%s1を確保した！！"
+
+"TF_Autobalance_TeamChangeDone"	"チームを%s1に変更されました。"
+
+"FreezePanel_Item"				"%killername%が運んでいるのは以下のものです："
+"FreezePanel_ItemOtherOwner"	"%killername%が%ownername%の以下のものを運んでいます："
+
+"game_stalemate_cant_change_class"	"%s1秒経過。\nサドンデスモードのため、現在クラスを変更することはできません！"
+
+// Intro
+"Gametype_Koth"					"キング・オブ・ザ・ヒル"
+
+// Gravelpit intro
+"Intro_attack_defense_intro"		"これは攻防マップです。  \nBLUチームがエリアを奪取しようとし、REDチームがそれを阻止しようとします。"
+"Intro_attack_defense_capping"		"BLUチームはコントロールポイントの近くに立つと、ポイントを獲得できます。\nHUDには、奪取の進捗状況が表示されます。"
+"Intro_attack_defense_cap_b"		"コントロールポイントBの両方を奪う必要があります。  \nどの順でポイントを奪うかは自由です。"
+"Intro_attack_defense_cap_final"	"BLUチームがコントロールポイントAとコントロールポイントBを奪うと、最終コントロールポイントのロックが解除されます"
+"Intro_attack_defense_cap_timer"        "BLUチームは、ポイントの奪取に成功するたびに、タイマーの時間を3分稼げます。REDチームは、BLUチームに奪われたポイントを奪い返すことはできません。"
+
+// Hints
+"Hint_ClassMenu"					"プレイヤークラスを変更するには「%changeclass%」を押します。"
+
+// Altfires
+"Hint_altfire_sniperrifle"			"「%attack2%」を押すと、スナイパーライフルでズームできます。"
+"Hint_altfire_grenadelauncher"		"「%attack2%」を押すと、グレネードランチャーの使用中でも粘着爆弾を爆発させることができます。"
+"Hint_altfire_pipebomblauncher"		"「%attack2%」を押すと、粘着爆弾ランチャーで発射した粘着爆弾を爆発させることができます。"
+"Hint_altfire_rotate_building"		"「%attack2%」を押すと、装置を配置する前に回転させることができます。"
+
+// Soldier specific
+"Hint_Soldier_rpg_reload"			"「%reload%」を押すと、ロケットランチャーをリロードできます。\n戦闘を離れるたびにリロードしましょう！"
+
+// Engineer specific
+"Hint_Engineer_build_sentrygun"		"自陣を守るには、セントリーガンを作ります。\n武器選択の4番目のスロットには装置が入ります。"
+"Hint_Engineer_build_dispenser"		"チームメイトの補給を支援するには、ディスペンサーを作ります。\n武器選択の4番目のスロットには装置が入ります。"
+"Hint_Engineer_build_teleporters"	"味方チームの前線防衛を支援するには、テレポーターを作ります。\n武器選択の4番目のスロットには装置が入ります。"
+"Hint_Engineer_upgrade_sentrygun"	"セントリーガンをレンチでたたくと、アップグレードできます。\n最終的にはレベル3までアップグレード出来ます！"
+"Hint_object_has_sapper"		"この装置は、サッパーに破壊されようとしています！\nサッパーを撃って破壊してください！"
+
+"Hint_object_your_object_sapped"	"装置の1つが破壊されようとしています！"
+
+"StatPanel_Kills_Best"				"このラウンドでは%s1として、キル数がこれまでの自己ベストを上回りました。"
+"StatPanel_Captures_Best"			"このラウンドでは%s1として、奪取数がこれまでの自己ベストを上回りました。"
+"StatPanel_Defenses_Best"			"このラウンドでは%s1として、防衛したポイント数がこれまでの自己ベストを上回りました。"
+"StatPanel_DamageDealt_Best"			"%s1として、与えたダメージがこれまでの自己ベストを上回りました。"
+"StatPanel_PlayTime_Best"			"このラウンドでは%s1として、生存時間がこれまでの自己ベストを上回りました。"
+"StatPanel_Healing_Best"			"このラウンドでは%s1として、回復数がこれまでの自己ベストを上回りました。"
+"StatPanel_KillAssists_Best"			"このラウンドでは%s1として、キルのアシスト数がこれまでの自己ベストを上回りました。"
+"StatPanel_BuildingsDestroyed_Best"		"このラウンドでは%s1として、破壊した装置の数がこれまでの自己ベストを上回りました。"
+"StatPanel_Dominations_Best"			"このラウンドでは%s1として、制圧した新たな敵の数がこれまでの自己ベストを上回りました。"
+"StatPanel_Revenge_Best"			"このラウンドでは%s1として、リベンジした敵の数がこれまでの自己ベストを上回りました。"
+"StatPanel_PointsScored_Best"			"このラウンドでは%s1として、ポイントがこれまでの自己ベストを上回りました。"
+
+"StatPanel_Kills_Tie"				"このラウンドでは%s1として、キル数が自己記録に並びました。"
+"StatPanel_Captures_Tie"			"このラウンドでは%s1として、奪取数が自己記録に並びました。"
+"StatPanel_Defenses_Tie"			"このラウンドでは%s1として、防衛数が自己記録に並びました。"
+"StatPanel_DamageDealt_Tie"			"このラウンドでは%s1として、与えたダメージが自己記録に並びました。"
+"StatPanel_PlayTime_Tie"			"このラウンドでは%s1として、生存時間が自己記録に並びました。"
+"StatPanel_Healing_Tie"				"このラウンドでは%s1として、回復数が自己記録に並びました。"
+"StatPanel_KillAssists_Tie"			"このラウンドでは%s1として、キルのアシスト数が自己記録に並びました。"
+"StatPanel_BuildingsDestroyed_Tie"		"このラウンドでは%s1として、破壊した装置の数が自己記録に並びました。"
+"StatPanel_Dominations_Tie"			"このラウンドでは%s1として、制圧した敵の数が自己記録に並びました。"
+"StatPanel_Revenge_Tie"				"このラウンドでは%s1として、リベンジ数が自己記録に並びました。"
+"StatPanel_PointsScored_Tie"			"このラウンドでは%s1として、ポイントが自己記録に並びました。"
+
+"StatPanel_Kills_Close"				"このラウンドでは%s1として、キル数が自己記録に迫りました。"
+"StatPanel_Captures_Close"			"このラウンドでは%s1として、奪取数が自己記録に迫りました。"
+"StatPanel_Defenses_Close"			"このラウンドでは%s1として、防衛数が自己記録に迫りました。"
+"StatPanel_DamageDealt_Close"			"このラウンドでは%s1として、与えたダメージが自己記録に迫りました。"
+"StatPanel_PlayTime_Close"			"このラウンドでは%s1として、生存時間が自己記録に迫りました。"
+"StatPanel_Healing_Close"			"このラウンドでは%s1として、回復数が自己記録に迫りました。"
+"StatPanel_KillAssists_Close"			"このラウンドでは%s1として、キルのアシスト数が自己記録に迫りました。"
+"StatPanel_BuildingsDestroyed_Close"		"このラウンドでは%s1として、破壊した装置の数が自己記録に迫りました。"
+"StatPanel_Dominations_Close"			"このラウンドでは%s1として、制圧した敵の数が自己記録に迫りました。"
+"StatPanel_Revenge_Close"			"このラウンドでは%s1として、リベンジ数が自己記録に迫りました。"
+"StatPanel_PointsScored_Close"			"このラウンドでは%s1として、ポイントが自己記録に迫りました。"
+
+"Hud_Menu_Build_Cancel"					"キャンセルするには「%lastinv%」を押します"
+
+"Hud_Menu_Spy_Minus_Toggle"				"チームを切り替えるには「%disguiseteam%」か「%reload%」を押します"
+
+"TF_PlayerMatch_Title"		"Xbox LIVEプレイヤーマッチ"
+"TF_PlayerMatch_Desc"		"Xbox LIVEでゲームをプレイします。\nデータは追跡されません。"
+"TF_RankedMatch_Title"		"Xbox LIVEランクマッチ"
+"TF_RankedMatch_Desc"		"Xbox LIVEでランクマッチをプレイします。\nプレイヤーデータも記録されます。"
+
+"TF_Paused_Title"		"Team Fortressオプション"
+
+"TF_Achievements_Dialog_Title"	"Team Fortress 2の実績"
+
+"TF_MaxTimeFmt"			"%s1分"
+"TF_GameSizeFmt"		"%s1プレイヤー"
+
+"TF_IM_Goldrush_Intro"	"Gold Rushは3ステージから構成される「ペイロード」マップです。"
+"TF_IM_Goldrush_BlueWin"	"BLUチームの勝利条件：制限時間内にREDチームの最終奪取ポイントまでカートを移動させる"
+"TF_IM_Goldrush_RedWin"	"REDチームの勝利条件：カートを自陣の最終奪取ポイントまで移動するのを防ぐ"
+"TF_IM_Goldrush_MoveCart"	"カートはBLUチームのプレイヤーが近くにいると前進する"
+"TF_IM_Goldrush_CartHeals"	"BLUチームはカートからヘルスや弾薬を補給できる"
+"TF_IM_Goldrush_RollsBack"	"カートは30秒以上停止していると後退を始める"
+
+"TF_IM_Basin_Intro"	 "Badwater Basinは1ステージの「ペイロード」マップです。"
+"TF_IM_Basin_BlueWin"	 "BLUチームの勝利条件：制限時間内にREDチームの最終奪取ポイントまでカートを移動させる"
+"TF_IM_Basin_RedWin"	 "REDチームの勝利条件：カートを自陣の最終奪取ポイントまで移動するのを防ぐ"
+"TF_IM_Basin_MoveCart"	 "カートはBLUチームのプレイヤーが近くにいると前進する"
+"TF_IM_Basin_CartHeals" "BLUチームはカートからヘルスや弾薬を補給できる"
+"TF_IM_Basin_RollsBack" "カートは30秒以上停止していると後退を始める"
+
+"TF_IM_Arena_Intro"	 "ようこそTeam Fortressアリーナへ"
+
+"LoadoutSlot_pda"		"メインPDA"
+"LoadoutSlot_pda2"		"サブPDA"
+"LoadoutSlot_Taunt"		"挑発1"
+"LoadoutSlot_Taunt2"	"挑発2"
+"LoadoutSlot_Taunt3"	"挑発3"
+"LoadoutSlot_Taunt4"	"挑発4"
+"LoadoutSlot_Taunt5"	"挑発5"
+"LoadoutSlot_Taunt6"	"挑発6"
+"LoadoutSlot_Taunt7"	"挑発7"
+"LoadoutSlot_Taunt8"	"挑発8"
+
+"ItemTypeDesc"			"レベル%s1%s2"		// s1 is the level number, s2 is the item type. Example: "Level 4 Medigun"
+"ItemTypeDescNoLevel"	"レベル%s1"			// s1 is the level number. Example: "Level 12"
+
+"ItemTypeDescLimited"	"%s3レベル%s1%s2"		// s1 is the level number, s2 is the item type. %s3 is Limited Tag, Example: "Limited Edition Level 4 Medigun"
+
+"RT_MP_A"				"%s1を精錬"
+"RT_C_A"				"%s1を合成"
+"RT_F_A"				"%s1を加工"
+"RT_R_A"				"%s1を修復"
+"RT_M_A"				"%s1を変更"
+"RT_Rn_A"				"%s1の名前を変更"
+
+"TF_SupplyCrate"			"Mann Co.物資箱"
+"TF_SupplyCrate_Desc"			"この箱を開けるにはMann Co.物資箱の鍵が必要です。\n 鍵はMann. Coストアで販売されています。"
+"TF_SupplyCrateRare_Desc"			"この箱を開けるにはMann Co.物資箱の鍵が必要です。\n 鍵はMann. Coストアで販売されています。"
+"TF_SupplyCrateRare2"			"予備のMann Co.物資箱を選択"
+
+"Attrib_HealOnHit_Positive"					"命中時:ヘルス +%s1"
+"Attrib_HealOnHit_Negative"					"命中時:ヘルス %s1"
+"Attrib_AddUber_OnHit_Positive"				"命中時:ユーバーチャージ %s1% 増加"
+"Attrib_DamageDoneBonus_Positive"			"命中時:ダメージボーナス +%s1%"
+
+"TF_Arena_Welcome"		"Team Fortress 2アリーナ"
+"TF_Arena_PlayingTo"		"%s1連勝中"
+"TF_Arena_MaxStreak"		"%s1チームの勝利数が%s2に到達しました！チームメンバーをシャッフルしています。"
+"TF_Arena_Menu_Fight"	"始め！"
+"TF_Arena_ScoreBoard_Spectator"		"%s2でプレイ待機中のプレイヤー数：%s1"
+"TF_Arena_ScoreBoard_Spectators"		"%s2でプレイ待機中のプレイヤー数：%s1"
+
+"TF_UseGlowEffect"		"PLおよびCTFマップの目的地に発光エフェクトを使用する。"
+
+"ViewBlog"			"TF2ブログを見る"
+
+"WelcomeBack"			"おかえりなさい、%playername%さん"
+
+"MMenu_PracticeHighlight_Button"	"オフライン・プラクティスに挑戦しましょう"
+
+"MMenu_StoreHighlightPanel_Title"		"Mann Co.ストア"
+
+"LoadoutExplanation_Text"		"TF2をプレイすると、新しいアイテムを発見する場合があります。各クラスの装備で身に付ければ、見つけたアイテムを使用することができます。\n\n\n\n各クラスの装備画面を表示するには、画像をクリックしてください。"
+"TradingExplanation_Text"		"ここでは、バックパックに入っているアイテムを他のTF2プレイヤーとトレードできます。"
+
+"TR_Eng1_Intro"			"Dustbowlへようこそ。これからあなたにはREDチームの第2コントロールポイントを防衛してもらいます。"
+
+"TR_Dustbowl_EndDialog"		"おめでとうございます。%s1で勝利したため、デモマントレーニングが解除されました！\n\nエンジニアやメディックなど、他のクラスを試したいですか？\n\n 迷わず、オフライン プラクティス セッションを試しましょう。\n\n他のプレイヤーとオンラインでプレイする場合には、メインメニューで［プレイを検索］を選択してください。"
+
+"TR_Progress"				"%s1%完了"
+
+"TF_UseBackpackExpander_Text"		   "本当にバックパックを%new_size%スロットまで拡張しますか？(%item_name% はインベントリから消去されるまで後 %uses_left% 回使用できます)"
+
+"TF_Coach_AskCoachForFriend_Text"		"%friend%がTeam Fortress 2で上達するため、あなたにコーチになって欲しいそうです！%friend%のコーチになりますか？"
+"TF_Coach_FoundCoach_Title"		"成功！"
+"TF_Coach_FoundCoach_Text"		"%coachname%はあなたのゲームに参加するよう要請を受けました。"
+
+"TF_Coach_MannVsMachine_Title"	"Mann vs. Machineでは"
+"TF_Coach_MannVsMachine_Text"	"Mann vs. Machineプレイ中にはコーチのリクエストは出来ません。"
+
+"TF_MM_GenericFailure"			"Steamサーバーとの通信中に問題が発生しました。 Steamにサインインしていることを確認し、 後でもう一度お試しください。"
+
+"TF_MM_NotCurrentVersionMessage"	"最新版をダウンロードするためにTeam Fortressを再起動してください。"
+
+"TF_Quickplay_MaxPlayers_Default" "24人(デフォルト)"
+"TF_Quickplay_MaxPlayers_Increased" "30+人"
+"TF_Quickplay_MaxPlayers_Increased_Summary" "30+人"
+"TF_Quickplay_MaxPlayers_DontCare" "何でもいい"
+"TF_Quickplay_MaxPlayers_DontCare_Summary" "24+人"
+
+"TF_TradeStartDialog_SelectProfile"		"Steamプロフィール"
+"TF_TradeStartDialog_FriendsNone"		"TF2をプレイ中の\nフレンドがいません。"
+"TF_TradeStartDialog_ProfileHelp"		"URLの形式は、次のどちらかにする必要があります。\nhttp://steamcommunity.com/id/<プロフィール名>\nhttp://steamcommunity.com/profiles/<プロフィール番号>"
+
+"TF_Player_OptionalVision"		"%player%はローマビジョンを有効にするHardy Laurelを持っており、全員に共有されます！"
+
+"TF_Armory_Item_ToolUsage"				"このアイテムには、次の工具を使用できます。"
+"TF_Armory_Item_Bundle"					"このバンドルには、次のアイテムが含まれています。"
+
+"TF_Armory_Item_Gift1"				"このアクションアイテムを使用すると、サーバーにいる別の1人のプレイヤーに、アイテムをランダムに与えることができます。"
+
+"TF_SelectPlayer_SelectFriends"		"フレンドリスト"
+"TF_SelectPlayer_Friends"			"友達の選択："
+"TF_SelectPlayer_FriendsNone"		"TF2をプレイ中の\n友達がいません。"
+
+"TF_vote_passed_kick_player"	"プレイヤー:%s1を追放しています..."
+"TF_vote_passed_ban_player"		"プレイヤー：%s1は禁止されました。"
+
+"TF_vote_changelevel"			"現在のマップを%s1に変えますか?"
+"TF_vote_nextlevel"			"次のマップを%s1に設定しますか?"
+"TF_vote_passed_changelevel"		"マップを%s1に変更中..."
+"TF_vote_passed_nextlevel"		"次のマップを%s1に設定しました..."
+
+"Vote_notification_text"		"%initiator%は投票を呼びかけました"
+
+"TF_Trial_SelectMostHelpfulFriend_Text"  "Team Fortress 2をあなたに紹介したのは誰ですか？誰が一番助けてくれましたか？Steamオーバーレイを開いて、フレンドを追加しましょう。"
+"TF_Trial_Alert_SelectFriend"	"ここから、あなたにTeam Fortress 2を紹介した人または一番助けてくれた人に感謝できます！"
+
+"IT_NoModel"		"＜未選択＞"
+
+"GameUI_HudPlayerClassUsePlayerModelDialogTitle"	"HUD 3Dキャラクター"
+
+// TF Advanced options dialog
+"TF_AdvancedOptions"			"TF2詳細設定"
+
+"TF_OthersGun"	"%s1の\n%s2"
+
+"TF_ImportFile_AnimationVCD"	"VCD(オプション)"
+"TF_ImportFile_EditVMT0"		"VMT1を編集"
+"TF_ImportFile_EditVMT1"		"VMT2を編集"
+
+"TF_ImportFile_EditQC"			"QCを編集"
+"TF_ImportFile_EditQCI"			"QCIを編集"
+
+// Unique item names
+"TF_Unique_Prepend_Proper"			""			// the space at the end is important
+"TF_Unique_Prepend_Proper_Quality"	""			// no space; English-only
+}
+}
