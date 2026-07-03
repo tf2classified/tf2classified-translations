@@ -785,7 +785,7 @@
 "Attrib_AltFire_UberBubble"							"Disparo Alternativo: Lança um dispositivo que fornece invulnerabilidade em área"
 "Attrib_StickyIsLandmine"							"Atira minas terrestres"
 "Attrib_AutoJumping"								"Usuário pode pular automaticamente ao segurar o botão de pular"
-"Attrib_SpreadScalesSpeed"							"Até %s1% mais preciso com base na velocidade atual Up to %s1% more accurate based on current speed"
+"Attrib_SpreadScalesSpeed"							"Até %s1% mais preciso com base na velocidade atual"
 "Attrib_DuckJumping"								"Usuário pode pular enquanto estiver agachando"
 
 // ----------------------------------------------------------------
