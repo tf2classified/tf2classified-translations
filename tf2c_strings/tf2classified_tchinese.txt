@@ -133,6 +133,7 @@
 "TF_playerid_object_upgrading_level"	"(第 %s1 級)  -  升級中..."
 "TF_playerid_object_building"			"建造中..."
 "TF_playerid_object_building_level"		"(第 %s1 級)  -  建造中..."
+"TF_playerid_object_tranq"				" （被侵入）"
 "TF_playerid_teleporter_no_entrance"	"  -  沒有符合的傳送裝置入口！"
 "TF_playerid_teleporter_no_exit"		"  -  沒有符合的傳送裝置出口！"
 "TF_playerid_object_recharging"			"  -  充電中：%s1%"
@@ -639,6 +640,7 @@
 "TF_Meter_Harvest"	"收成能量"
 "TF_Meter_LunchBox"	"午餐盒"
 "TF_Meter_Therapy"	"治療"
+"TF_Meter_Tranq"	"麻醉針"
 
 // ----------------------------------------------------------------
 // Buildings
@@ -686,7 +688,8 @@
 "Attrib_MeleeTakenBecomesCritWearer"				"穿戴時：受到的近戰傷害造成爆擊"
 "Attrib_MoveSpeed_Bonus_Cloaked"					"隱形時移動速度 +%s1%"
 "Attrib_LoseCloakOnDamage"							"隱形時受傷會失去 -%s1% 能量"
-"Attrib_TranqOnHit"									"擊中時：使目標色盲、移動速度降低，並在 %s1 秒內減少遠程武器傷害"
+"Attrib_TranqOnHit"									"擊中時：使目標色盲、移動速度降低，並在 %s1 秒內減少遠程武器傷害\n近戰攻擊被麻醉的敵人時，必定造成爆擊。"
+"Attrib_CloakRegenDisabled"							"不會被動恢復隱形能量"
 "Attrib_FishwhackerSweep"							"對附近的敵人產生擊退"
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"擊退作用受武器傷害影響"
 "Attrib_ApplySelfKnockbackSwing"					"揮舞時給自己一個反向擊退"
@@ -779,6 +782,10 @@
 "Attrib_JumpPadNoUpgrade"							"彈射板無法升級"
 "Attrib_AltFire_HasteBoost"							"次要攻擊：給予隊友急速加成"
 "Attrib_AltFire_UberBubble"							"次要攻擊：發射一個裝置，在一定範圍內提供無敵效果"
+"Attrib_StickyIsLandmine"                           "發射地雷"
+"Attrib_AutoJumping"                                "持續按住跳躍鍵即可自動跳躍"
+"Attrib_SpreadScalesSpeed"                          "根據目前速度，最多提高 %s1% 精準度"
+"Attrib_DuckJumping"                                "蹲下時可以跳躍"
 
 // ----------------------------------------------------------------
 // Map strings
@@ -928,6 +935,9 @@
 // ----------------------------------------------------------------
 // Gamemode strings
 // ----------------------------------------------------------------
+
+// CTF
+"TF_CTF_TeamCannotCapture"	"你的隊伍無法奪取此情報！"
 
 // Domination
 "default_dom_description"	"目標：

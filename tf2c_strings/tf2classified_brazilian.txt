@@ -135,6 +135,7 @@
 "TF_playerid_object_upgrading_level"	"( Nível %s1 ) Aprimorando..."
 "TF_playerid_object_building"			"Construindo..."
 "TF_playerid_object_building_level"		"( Nível %s1 ) Construindo..."
+"TF_playerid_object_tranq"				" (SABOTADO)"
 "TF_playerid_teleporter_no_entrance"	"  -  Sem entrada"
 "TF_playerid_teleporter_no_exit"		"  -  Sem saída"
 "TF_playerid_object_recharging"			"  -  Recarregando: %s1%"
@@ -641,6 +642,7 @@
 "TF_Meter_Harvest"	"COLHEITA"
 "TF_Meter_LunchBox"	"LANCHE"
 "TF_Meter_Therapy"	"TERAPIA"
+"TF_Meter_Tranq"	"SEDATIVO"
 
 // ----------------------------------------------------------------
 // Buildings
@@ -687,7 +689,8 @@
 "Attrib_MeleeTakenBecomesCritWearer"				"Ao Usar: Receba acertos críticos de dano corpo a corpo"
 "Attrib_MoveSpeed_Bonus_Cloaked"					"+%s1% de velocidade de movimento mais rápida enquanto estiver invisível"
 "Attrib_LoseCloakOnDamage"							"-%s1% de camuflagem ao sofrer dano enquanto camuflado"
-"Attrib_TranqOnHit"									"Ao Atingir: A vítima fica daltônica, tem sua velocidade de ataque e movimento reduzidas por %s1s"
+"Attrib_TranqOnHit"									"Ao acertar: deixe o alvo daltônico e reduza as velocidades de ataque e movimento do alvo por %s1s\nAtaques corpo a corpo causam críticos garantidos em inimigos tranquilizados"
+"Attrib_CloakRegenDisabled"                         "Regeneração passiva da camuflagem desativada"
 "Attrib_FishwhackerSweep"							"Causa empurrão em inimigos próximos"
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Auto-Recuo é afetado pelo aumento de dano"
 "Attrib_ApplySelfKnockbackSwing"					"Aplica recuo reverso em si mesmo ao atacar"
@@ -780,6 +783,10 @@
 "Attrib_JumpPadNoUpgrade"							"Saltadores não podem ser aprimorados"
 "Attrib_AltFire_HasteBoost"							"Ataque Alternativo: Concede aumento de velocidade a um aliado"
 "Attrib_AltFire_UberBubble"							"Disparo Alternativo: Lança um dispositivo que fornece invulnerabilidade em área"
+"Attrib_StickyIsLandmine"							"Atira minas terrestres"
+"Attrib_AutoJumping"								"Usuário pode pular automaticamente ao segurar o botão de pular"
+"Attrib_SpreadScalesSpeed"							"Até %s1% mais preciso com base na velocidade atual"
+"Attrib_DuckJumping"								"Usuário pode pular enquanto estiver agachando"
 
 // ----------------------------------------------------------------
 // Map strings
@@ -929,6 +936,9 @@ Apenas combate honrado, espada contra espada!"
 // ----------------------------------------------------------------
 // Gamemode strings
 // ----------------------------------------------------------------
+
+// CTF
+"TF_CTF_TeamCannotCapture"	"A sua equipe não pode capturar esta bandeira!"
 
 // Domination
 "default_dom_description"	"Objetivo:
