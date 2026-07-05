@@ -1,0 +1,32 @@
+﻿"lang"
+{
+"Language" "English"
+"Tokens"
+{
+"Tools_Run"						"Run"
+"Tools_Open"					"Open"
+"Tools_OpenInExplorer"			"Open in Explorer"
+
+"Tools_Applications"			"Applications"
+"Tools_Documentation"			"Documentation"
+"Tools_Other"					"Other"
+
+"Tools_InvokeInvalid"			"This tool has an invalid definition. Try verifying integrity of the game files."
+"Tools_InvokeUnknown"			"Unknown error has occured trying to invoke this tool."
+"Tools_InvokeAlreadyRunning"	"Only a single instance of this tool can be running at once."
+
+"Tools_UpdateStatusOK"			"OK"
+"Tools_UpdateStatusFailed"		"FAILED"
+"Tools_UpdateStatusChecking"	"Checking for updates..."
+"Tools_UpdateStatusDownloading"	"Downloading update..."
+"Tools_UpdateStatusInstalling"	"Installing update..."
+
+"Tools_DescHammer"				"Create and edit maps"
+"Tools_DescHLMV"				"Load and preview MDLs"
+"Tools_DescFacePoser"			"Create and choreograph scenes"
+"Tools_DescEngineTools"			"Launch engine tools"
+"Tools_TitleMapSources"			"Map Source Files"
+"Tools_DescMapSources"			"VMFs for various TF2C maps"
+"Tools_TitleScriptSamples"		"VScript Examples"
+}
+}
