@@ -1,0 +1,32 @@
+﻿"lang"
+{
+"Language" "Hungarian"
+"Tokens"
+{
+"Tools_Run"						"Futtatás"
+"Tools_Open"					"Megnyitás"
+"Tools_OpenInExplorer"			"Megnyitás a Fájlkezelőben"
+
+"Tools_Applications"			"Alkalmazások"
+"Tools_Documentation"			"Dokumentáció"
+"Tools_Other"					"Egyéb"
+
+"Tools_InvokeInvalid"			"Ennek az eszköznek érvénytelen a meghatározása. Ellenőrizd a játék fájljainak épségét."
+"Tools_InvokeUnknown"			"Ismeretlen hiba következett be az eszköz indítása során."
+"Tools_InvokeAlreadyRunning"	"Egyszerre csak egy példánya futhat ennek az eszköznek."
+
+"Tools_UpdateStatusOK"			"OK"
+"Tools_UpdateStatusFailed"		"SIKERTELEN"
+"Tools_UpdateStatusChecking"	"Frissítések keresése..."
+"Tools_UpdateStatusDownloading"	"Frissítés letöltése..."
+"Tools_UpdateStatusInstalling"	"Frissítés telepítése..."
+
+"Tools_DescHammer"				"Pályák készítése és szerkesztése"
+"Tools_DescHLMV"				"Modellek betöltése és előnézete"
+"Tools_DescFacePoser"			"Jelenetek készítése és koreografálása"
+"Tools_DescEngineTools"			"Játékmotor eszközök indítása"
+"Tools_TitleMapSources"			"Pálya forrásfájlok"
+"Tools_DescMapSources"			"A TF2C számos pályáihoz tartozó forrásfájlok"
+"Tools_TitleScriptSamples"		"VScript példák"
+}
+}
