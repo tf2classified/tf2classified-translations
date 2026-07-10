@@ -12,14 +12,21 @@
 "Tools_Other"					"Other"
 
 "Tools_InvokeInvalid"			"This tool has an invalid definition. Try verifying integrity of the game files."
-"Tools_InvokeUnknown"			"Unknown error has occured trying to invoke this tool."
+"Tools_InvokeUnknown"			"Unknown error has occured while invoking this tool."
 "Tools_InvokeAlreadyRunning"	"Only a single instance of this tool can be running at once."
+"Tools_InvokeWin32Error"		"An error has occured while invoking this tool:\n\n%s1"
 
 "Tools_UpdateStatusOK"			"OK"
 "Tools_UpdateStatusFailed"		"FAILED"
 "Tools_UpdateStatusChecking"	"Checking for updates..."
 "Tools_UpdateStatusDownloading"	"Downloading update..."
 "Tools_UpdateStatusInstalling"	"Installing update..."
+
+"Tools_UpdateReasonBadRequest"	"Failed to send HTTP request. Make sure:\n    - You have a stable internet connection.\n    - Your firewall is not blocking the request.\n    - Your ISP is not blocking access to the domain."
+"Tools_UpdateReasonToolMissing"	"Failed to download update: The latest release is invalid or doesn't contain the requested tool. See the console for more information."
+"Tools_UpdateReasonRateLimit"	"Failed to download update: You've been rate-limited. Try again in up to an hour."
+"Tools_UpdateReasonNoDiskSpace"	"Failed to install update: Not enough disk space."
+"Tools_UpdateReasonCorrupted"	"Failed to install update: The downloaded package is corrupted."
 
 "Tools_DescHammer"				"Create and edit maps"
 "Tools_DescHLMV"				"Load and preview MDLs"

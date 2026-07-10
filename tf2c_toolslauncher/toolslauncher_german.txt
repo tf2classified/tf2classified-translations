@@ -1,0 +1,32 @@
+﻿"lang"
+{
+"Language" "German"
+"Tokens"
+{
+"Tools_Run"						"Ausführen"
+"Tools_Open"					"Öffnen"
+"Tools_OpenInExplorer"			"In Explorer öffnen"
+
+"Tools_Applications"			"Anwendungen"
+"Tools_Documentation"			"Dokumentation"
+"Tools_Other"					"Weitere"
+
+"Tools_InvokeInvalid"			"Dieses Tool hat eine ungültige Definition. Versuchen Sie, die gesamte Spieldateien zu verifizieren."
+"Tools_InvokeUnknown"			"Beim Starten dieses Tool ist ein unbekannter Fehler aufgetreten."
+"Tools_InvokeAlreadyRunning"	"Dieses Tool kann nicht gleichzeitig ausgeführt werden."
+
+"Tools_UpdateStatusOK"			"OK"
+"Tools_UpdateStatusFailed"		"FEHLER"
+"Tools_UpdateStatusChecking"	"Updates werden überprüft..."
+"Tools_UpdateStatusDownloading"	"Update wird heruntergeladen..."
+"Tools_UpdateStatusInstalling"	"Update wird installiert..."
+
+"Tools_DescHammer"				"Karten erstellen und editieren"
+"Tools_DescHLMV"				"MDLs laden und anzeigen"
+"Tools_DescFacePoser"			"Szenen choreografieren und erstellen"
+"Tools_DescEngineTools"			"Engine-Tools starten"
+"Tools_TitleMapSources"			"Source-Dateien für Karte"
+"Tools_DescMapSources"			"VMFs für unterschiedliche TF2C-Karten"
+"Tools_TitleScriptSamples"		"VScript-Beispiele"
+}
+}

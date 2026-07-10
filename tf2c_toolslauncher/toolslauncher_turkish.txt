@@ -1,0 +1,32 @@
+﻿"lang"
+{
+"Language" "Turkish"
+"Tokens"
+{
+"Tools_Run"						"Çalıştır"
+"Tools_Open"					"Aç"
+"Tools_OpenInExplorer"			"Dosya Gezgini'nde Aç"
+
+"Tools_Applications"			"Uygulamalar"
+"Tools_Documentation"			"Dokümantasyon"
+"Tools_Other"					"Diğer"
+
+"Tools_InvokeInvalid"			"Bu aracın geçersiz bir tanımı var. Oyun dosyalarının bütünlüğünü doğrulamayı deneyin."
+"Tools_InvokeUnknown"			"Bu aracı çalıştırmaya çalışırken bilinmeyen bir hata oluştu."
+"Tools_InvokeAlreadyRunning"	"Bu aracın aynı anda yalnızca tek bir örneği çalıştırılabilir."
+
+"Tools_UpdateStatusOK"			"BAŞARILI"
+"Tools_UpdateStatusFailed"		"BAŞARISIZ"
+"Tools_UpdateStatusChecking"	"Güncellemeler denetleniyor..."
+"Tools_UpdateStatusDownloading"	"Güncelleme indiriliyor..."
+"Tools_UpdateStatusInstalling"	"Güncelleme kuruluyor..."
+
+"Tools_DescHammer"				"Haritalar oluşturun ve düzenleyin"
+"Tools_DescHLMV"				"MDL dosyalarını yükleyin ve önizleyin"
+"Tools_DescFacePoser"			"Sahneler oluşturun ve koreografisini yapın"
+"Tools_DescEngineTools"			"Motor araçlarını başlatın"
+"Tools_TitleMapSources"			"Harita Kaynak Dosyaları"
+"Tools_DescMapSources"			"Çeşitli TF2C haritalarının VMF dosyaları"
+"Tools_TitleScriptSamples"		"VScript Örnekleri"
+}
+}
