@@ -12,14 +12,21 @@
 "Tools_Other"					"Egyéb"
 
 "Tools_InvokeInvalid"			"Ennek az eszköznek érvénytelen a meghatározása. Ellenőrizd a játék fájljainak épségét."
-"Tools_InvokeUnknown"			"Ismeretlen hiba következett be az eszköz indítása során."
+"Tools_InvokeUnknown"			"Ismeretlen hiba lépett fel az eszköz indítása során."
 "Tools_InvokeAlreadyRunning"	"Egyszerre csak egy példánya futhat ennek az eszköznek."
+"Tools_InvokeWin32Error"		"E hiba lépett fel az eszköz indítása során: \n\n%s1"
 
 "Tools_UpdateStatusOK"			"OK"
 "Tools_UpdateStatusFailed"		"SIKERTELEN"
 "Tools_UpdateStatusChecking"	"Frissítések keresése..."
 "Tools_UpdateStatusDownloading"	"Frissítés letöltése..."
 "Tools_UpdateStatusInstalling"	"Frissítés telepítése..."
+
+"Tools_UpdateReasonBadRequest"	"HTTP kérés küldése sikertelen. Győződj meg róla, hogy:\n    - Stabil az internetkapcsolatod.\n    - A tűzfalad nem tiltja meg a kérést.\n    - Az internetszolgáltatód nem tiltja a hozzáférést a domainhez."
+"Tools_UpdateReasonToolMissing"	"Frissítés letöltése sikertelen: A legutóbbi kiadás érvénytelen vagy nem tartalmazza a kívánt eszközt. További információért lásd a konzolt."
+"Tools_UpdateReasonRateLimit"	"Frissítés letöltése sikertelen: Elérted a maximális letöltési sebességet. Próbáld újra legfeljebb egy órán belül."
+"Tools_UpdateReasonNoDiskSpace"	"Frissítés telepítése sikertelen: Nincs elég lemezterület."
+"Tools_UpdateReasonCorrupted"	"Frissítés telepítése sikertelen: A letöltött csomag sérült."
 
 "Tools_DescHammer"				"Pályák készítése és szerkesztése"
 "Tools_DescHLMV"				"Modellek betöltése és előnézete"
