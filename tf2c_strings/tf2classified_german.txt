@@ -133,6 +133,7 @@
 "TF_playerid_object_upgrading_level"	"Level %s1  -  Wird upgegradet..."
 "TF_playerid_object_building"			"Wird gebaut..."
 "TF_playerid_object_building_level"		"Level %s1  -  Wird gebaut..."
+"TF_playerid_object_tranq"				" (SABOTIERT)"
 "TF_playerid_teleporter_no_entrance"	"  -  Kein Eingang-Teleporter"
 "TF_playerid_teleporter_no_exit"		"  -  Kein Ausgang-Teleporter"
 "TF_playerid_object_recharging"			"  -  Neu laden: %s1%"
@@ -200,7 +201,7 @@
 "Tip_1_2"		"Als Scout erobern Sie Kontrollpunkte und schieben die Frachtlore doppelt so schnell wie andere Klassen."
 "Tip_1_3"		"Als Scout sind Sie die schnellste Klasse. Lenken Sie die Aufmerksamkeit der gefährlichen Klassen auf sich und dann hauen Sie ab!"
 // Stock
-"Tip_1_4"		"Als Scout fügt Ihre Scattergun auf kurze Entfernungen großen Schaden zu und kann die meisten Klassen dabei mit 2 Schüssen erledigen."
+"Tip_1_4"		"Als Scout fügt Ihre Scattergun auf kurze Distanz großen Schaden zu und kann die meisten Klassen dabei mit 2 Schüssen erledigen."
 "Tip_1_5"		"Als Scout eignet sich Ihre Pistole hervorragend dafür, Gegnern aus größerer Distanz Schaden zuzufügen."
 "Tip_1_6"		"Als Scout richtet Ihr Schläger weniger Schaden an als normale Nahkampfwaffen, schwingt aber viel schneller."
 // Death & Taxes
@@ -208,7 +209,7 @@
 "Tip_1_8"		"Mit der Nagelpistole können Sie als Scout die Sentryguns mit links zerstören. Perfekt geeignet, wenn Sie mit mehreren Sentryguns konfrontiert sind."
 // Fight or Flight
 "Tip_1_9"		"Als Scout verursacht der Ziegelstein einen starken Rückstoß und Schaden. Lass die Vollspasten fliegen!"
-"Tip_1_10"		"Als Scout verursacht der Ziegelstein einen Mini-Krit aus großer Entfernung."
+"Tip_1_10"		"Als Scout verursacht der Ziegelstein einen Mini-Krit aus großer Distanz."
 
 // Sniper
 "Tip_2_Count"	"11"
@@ -224,7 +225,7 @@
 "Tip_2_7"		"Als Sniper kann der Huntsman für einen zuverlässigeren Nahkampf eingesetzt werden, allerdings auf Kosten der Genauigkeit."
 "Tip_2_8"		"Als Sniper verfehlt Ihr Schuss in der Regel, wenn der Huntsman länger als fünf Sekunden gespannt ist. Setzen Sie ihn mit %attack2% zurück."
 "Tip_2_9"		"Als Sniper ist der Jagdrevolver eine großartige Option für die mittlere Distanz. Verwenden Sie ihn, um Schaden zu verursachen, während Sie sich schnell in die Frontlinie hinein- und herausbewegen."
-"Tip_2_10"		"Als Sniper bewegen Sie sich mit dem Jagdrevolver relativ schnell, wenn Sie sich im Zoom-Modus befinden. Bleiben Sie im Zoom-Modus in Bewegung, um ein schwer zu treffendes Ziel zu sein."
+"Tip_2_10"		"Als Sniper bewegen Sie sich mit dem Jagdrevolver im Zoom-Modus schneller als mit anderen Primärwaffen."
 "Tip_2_11"		"Als Sniper sorgt der Fischknüppel dafür, Gegnern zu verbluten und wegzustoßen. Stoßen Sie die Eindringlinge aus dem Weg."
 
 // Soldier
@@ -238,9 +239,9 @@
 // Stock
 "Tip_3_6"		"Als Soldier sollten Sie den Raketenwerfer immer geladen haben. Drücken Sie %reload%, um jederzeit nachzuladen."
 "Tip_3_7"		"Benutzen Sie Ihre Schrotflinte als Soldier, um Raketen zu sparen und das Nachladen Ihres Raketenwerfers inmitten eines Feuergefechts zu vermeiden."
-"Tip_3_8"		"Als Soldier können Sie mit der Schaufel in den Nahkampf gehen, um nicht Nachladen zu müssen."
+"Tip_3_8"		"Als Soldier können Sie mit der Schaufel in den Nahkampf gehen, ohne dabei sich selbst Schaden zuzufügen."
 // Death & Taxes
-"Tip_3_9"		"Die Explosionsstiefel des Soldiers reduzieren den Schaden enorm, den Sie durch Raketensprünge nehmen. Rüsten Sie sich mit den Explosionsstiefeln aus, wenn Position und Beweglichkeit von besonderer Bedeutung sind."
+"Tip_3_9"		"Die Explosionsstiefel des Soldiers reduzieren den Schaden enorm, den Sie durch Raketensprünge nehmen. Rüsten Sie sich mit den Explosionsstiefeln aus, wenn Positionierung und Mobilität besonders wichtig sind."
 "Tip_3_10"		"Als Soldier können Sie mit ihrer Panzerfaust über Deckung schießen. Zielen Sie ihre Raketen sorgfältig!"
 // Double Down
 "Tip_3_11"		"Als Soldier gilt: Je länger Sie die Schusstaste mit dem Admiralitätsanker gedrückt halten, desto stärker wird das Erdbeben. Halten Sie also die Taste beim Raketensprung gedrückt!"
@@ -259,7 +260,7 @@
 "Tip_4_7"		"Als Demoman kann Ihre Flasche im Nahkampf eingesetzt werden, nachdem Sie mit einem Explosionssprung in feindliches Gebiet vorgedrungen sind."
 "Tip_4_8"		"Als Demoman ist es egal, ob Ihre Flasche zerbrochen ist oder nicht. Sie verursacht immer noch den gleichen Schaden."
 // Death & Taxes
-"Tip_4_9"		"Werfen Sie als Demoman Ihr Dynamitbündel auf Kontrollpunkte, um Feinde loszuwerden."
+"Tip_4_9"		"Werfen Sie als Demoman Ihr Dynamitbündel auf Kontrollpunkte, um Feinde zu verscheuchen."
 "Tip_4_10"		"Der Dynamitbündel von Demoman kann von feindlichen Engineer zerstört werden. Schießen Sie lieber mit Ihrem Granatwerfer auf die Sentryguns."
 "Tip_4_11"		"Als Demoman reduzieren die Explosionsstiefel den Gesundheitsverlust durch Sprünge mit Haftbomben erheblich. Verwenden Sie sie, wenn Positionierung und Mobilität besonders wichtig sind."
 "Tip_4_12"		"Als Demoman schießt die Minenleger Annäherungsminen, die explodieren, wenn ein Feind in ihrer Nähe steht. Verwenden Sie es, um Kontrollpunkte zu verteidigen!"
@@ -283,8 +284,8 @@
 "Tip_5_9"		"Als Medic werden Sie und Ihr Medigun-Ziel durch Ihre Überladung kurzzeitig unverwundbar."
 "Tip_5_10"		"Als Medic kann Ihre Knochensäge zur Verteidigung in Situationen eingesetzt werden, wenn Sie von Ihrem Teamkameraden getrennt sind."
 // Death & Taxes
-"Tip_5_11"		"Als Medic verleiht Ihr Kritzkrieg Ihrem verbundenen Teamkollegen Krits. Verwenden Sie es in stärkeren Klassen, in denen es viele Feinde gibt."
-"Tip_5_12"		"Achten Sie als Medic auf Ihre Gesundheit, wenn Sie die Überspritze benutzen. Sie haben 140 Gesundheitspunkte, wenn Sie damit ausgerüstet sind."
+"Tip_5_11"		"Als Medic verleiht Ihr Kritzkrieg Ihrem verbundenen Teamkollegen Krits. Verwenden Sie es auf stärkeren Klassen, wenn mehrere Feinde im Gebiet sind."
+"Tip_5_12"		"Achten Sie als Medic auf Ihre Gesundheit, wenn Sie die Überspritze benutzen. Sie haben 140 Gesundheit, wenn Sie damit ausgerüstet sind."
 "Tip_5_13"		"Als Medic verursacht die Schocktherapie mehr Schaden, je mehr sie aufgeladen ist. Die Ladung wird bei jedem Treffer, den Sie auf Feinden landen, vollständig aufgebraucht."
 "Tip_5_14"		"Als Medic kann die Schocktherapie eingesetzt werden, um einen Teamkameraden bei voller Aufladung vollständig zu heilen, senkt aber die eigene Hauptheilungsrate."
 // Double Down
@@ -295,16 +296,16 @@
 "Tip_6_Count"	"17"
 // Generic
 "Tip_6_1"		"Drücken Sie %helpme%, um einen Medic zu rufen, falls Sie verletzt sind. Die Medics in der Nähe werden über Ihren Bedarf informiert."
-"Tip_6_2"		"Als Heavy haben Sie die höchste Gesundheitspunkten als alle andere Klasse. Haben Sie keine Angst, vorzustoßen!"
-"Tip_6_3"		"Als Heavy sind Sie die langsamste Klasse. Seine Sie auf der Hut, wenn Sie gegen beweglicheren Gegnern wie Scouts kämpfen."
+"Tip_6_2"		"Als Heavy haben Sie die höchste Gesundheit als alle andere Klasse. Haben Sie keine Angst, vorzustoßen!"
+"Tip_6_3"		"Als Heavy sind Sie die langsamste Klasse. Seine Sie auf der Hut, wenn Sie gegen mobile Gegnern wie Scouts kämpfen."
 "Tip_6_4"		"Als Heavy sind Sie ein guter Partner des Medic. Halten Sie die Sicht zum Medic frei, damit die Medigun wirken kann."
 "Tip_6_5"		"Sie sind als Heavy ein Hauptziel für Spys. Nutzen Sie ihr Arsenal, um sie in Schach zu halten, und achten Sie auf ihren Rücken."
 "Tip_6_6"		"Halten Sie als Heavy %attack2% gedrückt, um die Minigun drehen zu lassen - bereit für nahende Feinde."
 // Stock
-"Tip_6_7"		"Als Heavy braucht Ihre Minigun eine Menge Munition. Sammeln Sie fallen gelassene Waffen oder Munitionskisten, um Ihre Vorräte aufzufüllen."
+"Tip_6_7"		"Als Heavy verbraucht Ihre Minigun eine Menge Munition. Sammeln Sie fallen gelassene Waffen oder Munitionskisten, um Ihre Vorräte aufzufüllen."
 "Tip_6_8"		"Als Heavy werden Sie nicht langsamer, wenn Sie Ihre Minigun im Sprung schussbereit machen. Nutzen Sie diese Technik, um Gegner hinter Ecken zu überraschen!"
 "Tip_6_9"		"Als Heavy kann Ihre Schrotflinte hohen Schaden verursachen und Sie können sich beim Angreifen schneller bewegen als mit Ihrer Minigun."
-"Tip_6_10"		"Dank Heavys hohen Gesundheitspunkten können sie als Heavy in meisten Nahkämpfe gewinnen. Haben Sie keine Angst, ihre Fäuste einzusetzen!"
+"Tip_6_10"		"Dank Heavys hohen Gesundheit können Sie in meisten Nahkämpfen gewinnen. Haben Sie keine Angst, ihre Fäuste einzusetzen!"
 // Death & Taxes
 "Tip_6_11"		"Achten Sie als Heavy darauf, einen sicheren Ort zu finden, an dem Sie ihr Sandvich essen können, da Sie sonst unhöflich unterbrochen werden."
 "Tip_6_12"		"Als Heavy können Sie so oft Ihren Sandvich aufessen, wie Sie wollen, um zu heilen. Doch wenn Sie %attack2% drücken, um es mit einem Freund zu teilen, wird es auf Abklingzeit gesetzt."
@@ -312,8 +313,8 @@
 // Fight or Flight
 "Tip_6_14"		"Als Heavy verursacht Ihre Flugabwehrkanone hohen Explosionsschaden und ist ideal für den Umgang mit mehreren Gegner."
 "Tip_6_15"		"Als Heavy verursacht Ihre Flugabwehrkanone Mini-Krits bei Feinden in der Luft. Verwenden Sie sie, um Soldiers oder Feinde mit Sprungplattform umzuwerfen."
-"Tip_6_16"		"Als Heavy sichert der Tschechow-Ketten für jeden Treffer einen kritischen Treffer, bis zu max. 3. Benutze Sie ihn mit ihrer Minigun für garantierte kritische Treffer!"
-"Tip_6_17"		"Sie erleiden als Heavy mit ihrem Tschechow-Ketten garantiert kritischen Schaden durch gegnerische Nahkampfangriffe. Seien Sie im Nahkampf vorsichtig."
+"Tip_6_16"		"Als Heavy sichert der Tschechow-Ketten für jeden Treffer einen kritischen Treffer, bis zu max. 3. Benutze Sie ihn mit Ihrer Minigun für garantierte kritische Treffer!"
+"Tip_6_17"		"Sie erleiden als Heavy mit Ihrem Tschechow-Ketten garantiert kritischen Schaden durch gegnerische Nahkampfangriffe. Seien Sie im Nahkampf vorsichtig."
 
 // Pyro
 "Tip_7_Count"	"15"
@@ -323,18 +324,18 @@
 // Stock
 "Tip_7_3"		"Als Pyro ist der Schaden durch Ihren Flammenwerfer umso größer, je näher Sie am Feind sind."
 "Tip_7_4"		"Als Pyro braucht Ihr Flammenwerfer eine Menge Munition. Sammeln Sie fallen gelassene Waffen oder Munitionskisten, um Ihre Ausrüstung aufzufüllen."
-"Tip_7_5"		"Greifen Sie als Pyro aus dem Hinterhalt an, um aus der Nähe mit Ihrem Flammenwerfer maximalen Schaden anzurichten. Nutzen Sie Ecken zu Ihrem Vorteil."
+"Tip_7_5"		"Greifen Sie als Pyro aus dem Hinterhalt an, um aus der Nähe mit Ihrem Flammenwerfer maximalen Schaden anzurichten. Nutzen Sie Ecken oder springen Sie aus höhere Ebenen zu Ihrem Vorteil."
 "Tip_7_6"		"Als Pyro ist der Kompressionsstoß des Flammenwerfers (%attack2%) sehr nützlich. Verwenden Sie ihn, um Feinde (auch die unverwundbaren) wegzuschubsen oder in Umwelteinflüssen zu bringen."
 "Tip_7_7"		"Löschen Sie als Pyro die Flammen des Teamkameraden mit %attack2%."
 "Tip_7_8"		"Wechseln Sie als Pyro zu Ihrer Schrotflinte, wenn Feinde aus der Reichweite des Flammenwerfers sind."
 "Tip_7_9"		"Als Pyro ist Ihre Feueraxt eine gute Wahl, um die gegnerischen Pyros zu zerhacken."
 // Death & Taxes
-"Tip_7_10"		"Als Pyro können Sie mit Ihrer Signalpistole Feinde auf weite Entfernung in Brand setzen. Das funktioniert gut gegen Feinden aus der Ferne, vor allem gegen feindliche Snipers."
+"Tip_7_10"		"Als Pyro können Sie mit Ihrer Signalpistole Feinde aus großer Distanz in Brand setzen. Das funktioniert gut gegen Feinden aus der Ferne, vor allem gegen feindliche Snipers."
 "Tip_7_11"		"Mit Ihrer Signalpistole als Pyro haben Sie ein sehr kleines Zeitfenster, die feindliche Pyros einen kritischen Treffer auszuführen, wenn sie brennen."
 // Fight or Flight
 "Tip_7_12"		"Als Pyro können Sie mit Ihrer Doppelflinte schleudern, damit Sie sich leichter an die Feinde annähern können!"
 "Tip_7_13"		"Als Pyro verursacht Ihre Doppelflinte nicht so viel Schaden wie die Schrotflinte. Schleudern Sie sich mit der Waffe weg, falls Sie in einem Kampf keine Chance haben."
-"Tip_7_14"		"Als Pyro kann der Harvester einen garantierten kritischen Treffer erzielen und erlaubt es ihnen, sich von ihren Feinden zu heilen."
+"Tip_7_14"		"Als Pyro kann der Harvester einen garantierten kritischen Treffer erzielen und erlaubt es Ihnen, sich von Ihren Feinden zu heilen."
 "Tip_7_15"		"Wenn Sie als Pyro mit dem Harvester sterben, werden alle Flammen der Feinde, die Sie in Brand gesetzt haben, ausgelöscht."
 
 // Spy
@@ -349,15 +350,15 @@
 "Tip_8_7"		"Verwenden Sie als Spy Ihre Tarnung, um unsichtbar auf die feindliche Seite zu gelangen und sich dort zu bewegen."
 // Stock
 "Tip_8_8"		"Als Spy ist Ihr Revolver sehr nützlich, wenn eine Tarnung keine Option mehr ist."
-"Tip_8_9"		"Platzieren Sie als Spy Ihre Elektro-Sapper auf feindlichen Sentryguns, und zerstören Sie sie. Verkleidungen bleiben beim Platzieren von Sappern erhalten."
-"Tip_8_10"		"Als Spy deaktivieren Ihre Elektro-Sapper Sentryguns zunächst, bevor Sie sie zerstören. Platzieren Sie einen Sapper auf der Sentrygun, bevor Sie den Engineer angreifen."
+"Tip_8_9"		"Platzieren Sie als Spy Ihren Elektro-Sapper auf feindlichen Sentryguns, und zerstören Sie sie. Verkleidungen bleiben beim Platzieren von Sappern erhalten."
+"Tip_8_10"		"Als Spy deaktivieren Ihren Elektro-Sapper Sentryguns zunächst, bevor Sie sie zerstören. Platzieren Sie einen Sapper auf der Sentrygun, bevor Sie den Engineer angreifen."
 "Tip_8_11"		"Als Spy können Sie mit dem Messer Feinde sofort durch einen Rückenstich erledigen."
 // Death & Taxes
 "Tip_8_12"		"Verwenden Sie als Spy Ihre Betäubungsspistole, um Feinde zu verlangsamen und den Schaden der Waffen zu verringern. Dies hilft für einen guten Flucht."
 "Tip_8_13"		"Als Spy garantieren die Pfeile der Betäubungsspistole, dass Ihr Ziel kritische Treffer durch Nahkampfschaden erleidet. Lassen Sie Ihre Teamkollegen auf sie eindreschen oder versuchen Sie es selbst mit einem Treffer."
 // Fight or Flight
 "Tip_8_14"		"Als Spy können Sie sich mit der L'escampette schnell zum oder vom feindlichen Basen bewegen. Fliehen Sie schnell oder verstecken Sie schnell!"
-"Tip_8_15"		"Als Spy verlieren Sie, mit der Verwendung von L'escampette, mehr Tarnleiste, wenn Sie angegriffen werden. Halten Sie sich aus der Schusslinie heraus."
+"Tip_8_15"		"Als Spy verlieren Sie, mit der Verwendung von L'escampette, mehr Tarnleiste, wenn Sie unter Beschuss stehen. Halten Sie sich aus der Schusslinie heraus."
 
 // Engineer
 "Tip_9_Count"	"20"
@@ -390,11 +391,11 @@
 "Tip_10_Count"	"11"
 // Generic
 "Tip_10_1"		"Als Civilian sind Sie ziemlich langsam. Geben Sie Ihr Bestes, um mit Ihren Teamkollegen Schritt zu halten."
-"Tip_10_2"		"Als Civilian sind Sie die kleinste Klasse im Spiel. Dies kann nützlich sein, wenn Sie sich hinter Teammitgliedern verstecken."
+"Tip_10_2"		"Als Civilian sind Sie die kleinste Klasse im Spiel. Dies kann nützlich sein, wenn Sie sich hinter Teamkollegen verstecken."
 "Tip_10_3"		"Als Civilian sind Sie die einzige Klasse, die im Spielmodus VIP und VIP-Rennen Kontrollpunkte erobern kann."
 "Tip_10_4"		"Achten Sie als Civilian auf feindliche Spys und Sniper, da sie dazu fähig sind, Sie sofort zu töten."
 "Tip_10_5"		"Als Civilian werden Teamkollegen in der Nähe von Ihrem Moralschub beeinflusst, wodurch sie einen leichten Verteidigungsschub und eine höhere Gesundheitsleiste erhalten. Versuchen Sie, sich aus der Sichtlinie des Feindes zu halten."
-"Tip_10_6"		"Zielen Sie als Civilian auf Ihren Teamkameraden und drücken Sie %attack2%, um ihm einen Boost zu verpassen und ihm einen großen Vorteil im Kampf zu verschaffen."
+"Tip_10_6"		"Zielen Sie als Civilian auf Ihren Teamkameraden und drücken Sie %attack2%, um ihm einen Boost zu verpassen und einen großen Vorteil im Kampf zu verschaffen."
 // Stock
 "Tip_10_7"		"Als Civilian ist Ihr Regenschirm als Waffe nicht sehr effektiv. Lassen Sie Ihre Teamkollegen für Sie kämpfen."
 "Tip_10_8"		"Als Civilian gewährt Ihr Schirm einem Teamkameraden Ihrer Wahl Mini-Krits. Verstärkt Klassen, die viel Schaden anrichten können."
@@ -405,15 +406,15 @@
 
 // Arena
 "Tip_arena_Count"		"9"
-"Tip_arena_1"			"Achten Sie auf die Spieleranzahl oben im Bildschirm, um zu erkennen, ob Ihr Team im Vorteil ist."
+"Tip_arena_1"			"Achten Sie in der Arena auf die Spieleranzahl oben im Bildschirm, um zu erkennen, ob Ihr Team im Vorteil ist."
 "Tip_arena_2"			"In der Arena gibt es nur wenige Möglichkeiten, die eigene Gesundheit aufzufrischen - verteidigen Sie Ihre Medics und Engineers gut (und teilen Sie auch Ihren Sandvich)!"
-"Tip_arena_3"			"Der Kontrollpunkt in der Kartenmitte wird 60 Sekunden nach Rundenbeginn aktiviert. Erobern Sie den Kontrollpunkt, um versteckte Gegner aufzuspüren!"
+"Tip_arena_3"			"In der Arena wird der Kontrollpunkt in der Kartenmitte 60 Sekunden nach Rundenbeginn aktiviert. Erobern Sie den Kontrollpunkt, um versteckte Gegner aufzuspüren!"
 "Tip_arena_4"			"Erneutes Spawnen ist in der Arena nicht möglich, also besser nicht sterben!"
 "Tip_arena_5"			"In der Arena ist keine Klasse besonders überlegen. Versuchen Sie, die Teamzusammenstellung des Gegners zu kontern."
 "Tip_arena_6"			"Sie können Ihre Klasse nur zu Beginn eines Arena-Spiels ändern, solange die Tore noch nicht geöffnet sind."
 "Tip_arena_7"			"Halten Sie in der Arena Ihr Team zusammen, um sich in Gefahrensituationen gegenseitig zu helfen. Zu spät an der Front gelangen, kann Nachteile mit sich bringen."
 "Tip_arena_8"			"In der Arena darf der Feind keine Möglichkeit haben zu heilen. Vernichten Sie die gegnerischen Medics und Dispenser und verhindern Sie auch, dass der Feind keine Gesundheitspakete aufhebt!"
-"Tip_arena_9"			"Wer in der Arena einen ersten Kill erzielt kriegt einen Krit-Bonus. Nutzen Sie Ihr Vorteil aus, wenn Sie es kriegen! Wenn der Feind ihn bekommt, halten Sie sich zurück und warten Sie, bis der Krit-Bonus abklingt."
+"Tip_arena_9"			"Wer in der Arena einen ersten Kill erzielt, kriegt einen Krit-Bonus. Nutzen Sie Ihr Vorteil aus, wenn Sie es kriegen! Wenn der Feind ihn bekommt, halten Sie sich zurück und warten Sie, bis der Krit-Bonus abklingt."
 
 // ----------------------------------------------------------------
 // Stock weapon strings
@@ -641,6 +642,7 @@
 "TF_Meter_Harvest"	"ERNTEN"
 "TF_Meter_LunchBox"	"NAHRUNG"
 "TF_Meter_Therapy"	"THERAPIE"
+"TF_Meter_Tranq"	"BETÄUBEN"
 
 // ----------------------------------------------------------------
 // Buildings
@@ -688,7 +690,7 @@
 "Attrib_MeleeTakenBecomesCritWearer"				"Nahkampfschaden wird Krit für Träger"
 "Attrib_MoveSpeed_Bonus_Cloaked"					"+%s1% schnellere Laufgeschwindigkeit bei Tarnung"
 "Attrib_LoseCloakOnDamage"							"-%s1% Tarnung, wenn Sie unter Tarnung verletzt wurden"
-"Attrib_TranqOnHit"									"Bei Treffer: Gegner farbenblind machen & ihre Laufgeschw. und Waffen um %s1s verlangsamen"
+"Attrib_TranqOnHit"									"Bei Treffer: Gegner farbenblind machen & ihre Laufgeschw. und Waffen um %s1s verlangsamen\nBetäubte Feinde erleiden beim Nahkampf garantiert kritische Treffer"
 "Attrib_FishwhackerSweep"							"Verursacht Rückstoß bei Feinden in der Nähe"
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Selbststoß ist von der Schadenserhöhung betroffen"
 "Attrib_ApplySelfKnockbackSwing"					"Wendet bei einem Schwung einen umgekehrten Selbststoß an"
@@ -767,7 +769,7 @@
 "Attrib_Backstab"									"Stechen Sie einen Feind von hinten ab mit einem Rückenstich"
 "Attrib_UpgradeRepairBuildings"						"Verbündete Gebäude draufschlagen, um den Bauvorgang zu beschleunigen, upzugraden und zu reparieren"
 "Attrib_AltFire_DetonateStickybombs"				"Alt.-Feuer: Detoniert alle Haftbomben"
-"Attrib_AltFire_Airblast"							"Alt.-Feuer: Gibt einen Airblast aus"
+"Attrib_AltFire_Airblast"							"Alt.-Feuer: Gibt einen Airblast aus\nAirblast stößt Feinde und Projektile zurück, und löscht brennende Teamkollegen"
 "Attrib_AltFire_Cloak"								"Alt.-Feuer: Sie werden unsichtbar"
 "Attrib_SapBuildings"								"Deaktiviert und zerstört langsam feindliche Gebäude\nSie enttarnen sich nicht bei Verwendung"
 "Attrib_ReloadNotActive"							"Diese Waffe lädt autom. nach, wenn nicht aktiv"
@@ -780,6 +782,10 @@
 "Attrib_JumpPadNoUpgrade"							"Sprungplattform kann nicht upgegradet werden"
 "Attrib_AltFire_HasteBoost"							"Alt.-Feuer: Ein Teammitglied Hast-Boost geben"
 "Attrib_AltFire_UberBubble"							"Alt.-Feuer: Feuert ein Gerät und erzeugt eine Blase der Unverwundbarkeit im näheren Umkreis"
+"Attrib_StickyIsLandmine"							"Feuert Landminen"
+"Attrib_AutoJumping"								"Sprungtaste gedrückt halten, um automatisch zu springen möglich"
+"Attrib_SpreadScalesSpeed"							"Bis zu %s1% genauer, je nach aktuellen Geschwindigkeit"
+"Attrib_DuckJumping"								"Springen im Duck-Modus möglich"
 
 // ----------------------------------------------------------------
 // Map strings
@@ -1074,17 +1080,17 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 
 "TF_Scoreboard_DamageLabel"			"Schaden:"
 "TF_ScoreBoard_HealingLabel"		"Heilung:"
-"TF_Scoreboard_SupportLabel"		"Unterst:"
+"TF_Scoreboard_SupportLabel"		"Unterstützung:"
 
 "TF_ScoreBoard_CapturesLabel"		"Eroberungen:"
-"TF_ScoreBoard_DefensesLabel"		"Verteid.:"
-"TF_ScoreBoard_DominationsLabel"	"Domin.:"
+"TF_ScoreBoard_DefensesLabel"		"Verteidigung:"
+"TF_ScoreBoard_DominationsLabel"	"Dominierung:"
 "TF_ScoreBoard_RevengesLabel"		"Rache:"
 "TF_ScoreBoard_BonusLabel"			"Bonus:"
 
 "TF_ScoreBoard_UberchargesLabel"	"Unverwundb.:"
 "TF_ScoreBoard_TransportsLabel"		"Befördert:"
-"TF_ScoreBoard_DestructionsLabel"	"Zerstör.:"
+"TF_ScoreBoard_DestructionsLabel"	"Zerstörungen:"
 "TF_ScoreBoard_HeadshotsLabel"		"Kopfschüsse:"
 "TF_ScoreBoard_BackstabsLabel"		"Rückenstiche:"
 
@@ -1241,7 +1247,7 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "TF_Enable"								"Aktivieren"
 "TF_Disable"							"Deaktivieren"
 "TF_RightClick_Enable"					"Rechtsklick zum Aktivieren"
-"TF_RightClick_Enable_Mouse"			"Rechtsklick zum Aktivieren für Maus"
+"TF_RightClick_Enable_Mouse"			"Rechtsklick: Mausmodus"
 
 // TF2C custom hit feedback strings
 "tf_dingalingaling_TF2C"				"TF2C"
