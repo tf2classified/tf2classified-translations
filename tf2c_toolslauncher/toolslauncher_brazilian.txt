@@ -29,7 +29,7 @@
 "Tools_UpdateReasonCorrupted"	"Falha ao instalar atualização: O pacote baixado foi corrompido."
 
 "Tools_DescHammer"				"Crie e edite mapas"
-"Tools_DescHLMV"				"Carrege e visualize arquivos MDL"
+"Tools_DescHLMV"				"Carregue e visualize arquivos MDL"
 "Tools_DescFacePoser"			"Crie e coreografe cenas"
 "Tools_DescEngineTools"			"Inicie as ferramentas da engine"
 "Tools_TitleMapSources"			"Arquivos-fonte de mapas"
