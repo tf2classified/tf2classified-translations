@@ -1,0 +1,32 @@
+﻿"lang"
+{
+"Language" "schinese"
+"Tokens"
+{
+"Tools_Run"						"运行"
+"Tools_Open"					"打开"
+"Tools_OpenInExplorer"			"在资源管理器中打开"
+
+"Tools_Applications"			"应用程序"
+"Tools_Documentation"			"文档"
+"Tools_Other"					"其他"
+
+"Tools_InvokeInvalid"			"此工具的定义无效。请尝试验证游戏文件的完整性。"
+"Tools_InvokeUnknown"			"尝试调用此工具时发生未知错误。"
+"Tools_InvokeAlreadyRunning"	"此工具同时只能运行一个实例。"
+
+"Tools_UpdateStatusOK"			"成功"
+"Tools_UpdateStatusFailed"		"失败"
+"Tools_UpdateStatusChecking"	"正在检查更新..."
+"Tools_UpdateStatusDownloading"	"正在下载更新..."
+"Tools_UpdateStatusInstalling"	"正在安装更新..."
+
+"Tools_DescHammer"				"创建和编辑地图"
+"Tools_DescHLMV"				"加载和预览 MDLs"
+"Tools_DescFacePoser"			"创建和编排场景"
+"Tools_DescEngineTools"			"启动引擎工具"
+"Tools_TitleMapSources"			"地图源文件"
+"Tools_DescMapSources"			"TF2C 各地图的 VMF 源文件"
+"Tools_TitleScriptSamples"		"VScript 示例"
+}
+}

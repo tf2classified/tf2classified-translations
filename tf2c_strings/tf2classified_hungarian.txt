@@ -133,6 +133,7 @@
 "TF_playerid_object_upgrading_level"	"%s1. szint  -  Fejlesztés..."
 "TF_playerid_object_building"			"Épül..."
 "TF_playerid_object_building_level"		"%s1. szint  -  Épül..."
+"TF_playerid_object_tranq"				" (SZABOTÁLVA)"
 "TF_playerid_teleporter_no_entrance"	"  -  Nincs Teleport bejárat"
 "TF_playerid_teleporter_no_exit"		"  -  Nincs Teleport kijárat"
 "TF_playerid_object_recharging"			"  -  Újratöltés: %s1%"
@@ -202,7 +203,7 @@
 "Tip_1_5"		"Felderítőként a pisztolyod remek távoli ellenségek levadászására."
 "Tip_1_6"		"Felderítőként az ütőd kevesebbet sebez mint az átlag közelharci fegyver, de gyorsabban tudsz vele ütni."
 // Death & Taxes
-"Tip_1_7"		"Felderítőként a Tűpisztollyal hatékonyan le tudod faragni az ellenfeled életerejét, még akár távolról is. Tartsd magad mozgásban és íveld a lövéseidet."
+"Tip_1_7"		"Felderítőként a Tűpisztollyal hatékonyan le tudod faragni az ellenfeled életerejét, akár távolról is. Tartsd magad mozgásban és íveld a lövéseidet."
 "Tip_1_8"		"Felderítőként az Őrtornyok ledarálása könnyebb a Tűpisztollyal. Használd akkor, ha egy sűrű Őrtorony-fészekkel van dolgod."
 // Fight or Flight
 "Tip_1_9"		"Felderítőként a Tégla megbízhatóan sebez és nagymértékű visszalökést okoz. Törd be a koponyáikat!"
@@ -221,14 +222,14 @@
 // Death & Taxes
 "Tip_2_7"		"Mesterlövészként a Levadászt megbízható közelharcra is használhatod, a pontosság árán."
 "Tip_2_8"		"Mesterlövészként a Levadász lövése általában célt fog téveszteni, ha öt másodpercnél tovább tartod felhúzva. Engedd le a(z) %attack2% megnyomásával."
-"Tip_2_9"		"Mesterlövészként a Vadászrevolver remek választás közép-távolságra. Használd az ellenfeleid sebzésére miközben gyorsan ki- és belépsz a frontvonalakra."
+"Tip_2_9"		"Mesterlövészként a Vadászrevolver remek választás közép-távolságra. Használd az ellenfeleid sebzésére miközben gyorsan ki- és belépsz a frontvonalra."
 "Tip_2_10"		"Mesterlövészként sokkal gyorsabban mozogsz, ha rá vagy közelítve a Vadászrevolverrel, mint a többi elsődleges fegyvereddel."
 "Tip_2_11"		"Mesterlövészként a Halcsapó találatkor visszalöki az ellenfeleid csoportjait és vérzést okoz nekik. Tartsd távol ezzel az illetéktelen behatolókat."
 
 // Soldier
 "Tip_3_Count"	"12"
 // Generic
-"Tip_3_1"		"Hívj Szanitécet a(z) %helpme% megnyomásával ha megsérültél. A közeli Szanitécek értesítve lesznek az szükségeidről."
+"Tip_3_1"		"Hívj Szanitécet a(z) %helpme% megnyomásával ha megsérültél. A közeli Szanitécek értesítve lesznek a szükségeidről."
 "Tip_3_2"		"Katonaként nagy magasságokba, vagy távolságokra rakétaugorhatsz úgy, hogy egyszerre ugrasz és lősz ki egy rakétát egy közeli felület felé."
 "Tip_3_3"		"Katonaként guggolj le, amikor rakétaugrásra készülsz, hogy maximális ugrási magasságot érj el."
 "Tip_3_4"		"Katonaként célozz a rakétákkal az ellenség lába elé, ezzel biztosítva, hogy ne tudják elkerülni a robbanás sebzését."
@@ -292,7 +293,7 @@
 // Heavy
 "Tip_6_Count"	"17"
 // Generic
-"Tip_6_1"		"Hívj Szanitécet a(z) %helpme% megnyomásával ha megsérültél. A közeli Szanitécek értesítve lesznek az szükségeidről."
+"Tip_6_1"		"Hívj Szanitécet a(z) %helpme% megnyomásával ha megsérültél. A közeli Szanitécek értesítve lesznek a szükségeidről."
 "Tip_6_2"		"Gépágyúsként több életerőd van, mint bármely más osztálynak a csapatodban. Vállald bátran a nagy támadások vezetését!"
 "Tip_6_3"		"Gépágyúsként sokkal lassabb vagy mint a többi osztály. Gondolj erre mielőtt hadba szállnál mozgékonyabb ellenfelekkel."
 "Tip_6_4"		"Gépágyúsként a Szanitécek remek társa vagy. Maradj mindig a Szanitéced látómezőjében, hogy rajtad tarthassa a gyógypuskáját."
@@ -639,6 +640,7 @@
 "TF_Meter_Harvest"	"SZÜRET"
 "TF_Meter_LunchBox"	"UZSONNA"
 "TF_Meter_Therapy"	"TERÁPIA"
+"TF_Meter_Tranq"	"ALTATÓ"
 
 // ----------------------------------------------------------------
 // Buildings
@@ -671,12 +673,12 @@
 "Attrib_TakeProjectileCritsAirborne"				"Krit elszenvedése a lövedékektől a levegőben a viselőn"
 "Attrib_Gravity_Active_Increased"					"+%s1% gravitáció amikor aktív"
 "Attrib_TeleporterJumpPad"							"Kicseréli a Teleport ki- és bejáratokat Ugratókra"
-"Attrib_Mod_Horizontal_Spread"						"Széles, vízszintes szóródása van"
-"Attrib_ApplySelfKnockback"							"Visszafele ható ön-visszalökés tüzeléskor"
+"Attrib_Mod_Horizontal_Spread"						"A töltényeknek széles vízszintes szóródása van"
+"Attrib_ApplySelfKnockback"							"Lövéskor hátralöki a használóját"
 "Attrib_WeaponEnemyKnockback_Bonus"					"+%s1% visszalökés az ellenfélen"
 "Attrib_LifestealCrit"								"Találatkor: életerő elszívása a célponttól amíg a mérce tele van"
-"Attrib_FlatHealOnAfterburn_Active"					"+%s1 életerő nyereség utánégés-tickenként amikor aktív"
-"Attrib_RememberTargetsRemainingAfterburn"			"Követi a maradék utánégést a halott célpontokról"
+"Attrib_FlatHealOnAfterburn_Active"					"+%s1 életerő nyereség továbbégés sebzésütemenként amikor aktív"
+"Attrib_RememberTargetsRemainingAfterburn"			"Követi az elesett célpontokon hátralévő továbbégést"
 "Attrib_OnDeathRemoveTargetsAfterburn"				"Halálkor: az általad felgyújtott ellenségek eloltódnak"
 "Attrib_Explosive_Bullets"							"Robbanótöltetet lő"
 "Attrib_CannotUseStoredCrits"						"A fegyver nem használhat raktározott kriteket"
@@ -686,10 +688,11 @@
 "Attrib_MeleeTakenBecomesCritWearer"				"Krit elszenvedése közelharci sebzésből a viselőn"
 "Attrib_MoveSpeed_Bonus_Cloaked"					"+%s1%-kal gyorsabb mozgási sebesség álcázva"
 "Attrib_LoseCloakOnDamage"							"-%s1% álca mikor álca alatt sebeznek"
-"Attrib_TranqOnHit"									"Találatkor: A célpont színvak lesz és a mozgási és tüzelési sebessége csökken %s1 másodpercig"
+"Attrib_TranqOnHit"									"Találatkor: A célpont színvak lesz és a mozgási és tüzelési sebessége csökken %s1 másodpercig\nAz elkábult ellenfelek garantált kritikus találatokat szenvednek közelharci támadásokból"
+"Attrib_CloakRegenDisabled"							"Nincs passzív álca töltés"
 "Attrib_FishwhackerSweep"							"A közeli ellenfelek visszalökődnek"
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Az ön-visszalökést befolyásolja a sebzésnövelés"
-"Attrib_ApplySelfKnockbackSwing"					"Visszafele ható ön-visszalökés hintázáskor"
+"Attrib_ApplySelfKnockbackSwing"					"Ütéskor hátralöki a használóját"
 "Attrib_AirblastSelfKnockback"						"A léglöket visszalöki a használót"
 "Attrib_ProximityMine"								"A távaknák felrobbannak közeli ellenfeleknél"
 "Attrib_AltFire_FizzleMines"						"Alternatív tűz: távaknák elporlasztása"
@@ -747,12 +750,12 @@
 "Attrib_HealingReceivedActivePenalty"				"%s1% életerő a gyógyítóktól amikor aktív"
 "Attrib_HealthFromPacks_Active_Increased"			"+%s1% életerő mentőládákból amikor aktív"
 "Attrib_HealthFromPacks_Active_Decreased"			"%s1% életerő mentőládákból amikor aktív"
-"Attrib_DamageDelaysRegeneration"					"A sebzés elszenvedése késlelteti az életerő regenerálódását %s1 mp-vel"
+"Attrib_DamageDelaysRegeneration"					"A sebződés %s1 másodperccel késlelteti az életerő-regenerációt"
 "Attrib_DestroyGrenadesDetonateOwn"					"A robbanás elpusztítja az ellenséges gránátokat és élesíti a sajátjaid"
 "Attrib_HoldFirePreventDetonation"					"Tűzgomb nyomva tartása: gránát élesítés megakadályozása"
 "Attrib_MiniCritAirborneEnemies"			        "Mini-kritek a légi célpontokra"
-"Attrib_CritAirborneEnemies"						"Kritikus sebzés a légi célpontokra"
-"Attrib_ModCritAirborneDirectHitOnly"				"Kritikus sebzés a légi célpontokra csak telitalálatkor"
+"Attrib_CritAirborneEnemies"						"Kritikus sebzés a légi célpontokon"
+"Attrib_ModCritAirborneDirectHitOnly"				"Kritikus sebzés a légi célpontokon telitalálatkor"
 "Attrib_ObjectivesGiveCrits"						"Kritet okoz azoknak az ellenfeleknek, akik épp elfoglalják, megvédik vagy viszik a játékcélt"
 "Attrib_AddAmmoOnDirectHit"							"Telitalálatkor: %s1 lőszer visszanyerése"
 "Attrib_AddAmmoOnDirectHitKill"						"Telitalálati öléskor: %s1 lőszer visszanyerése"
@@ -779,6 +782,10 @@
 "Attrib_JumpPadNoUpgrade"							"Az ugratókat nem lehet fejleszetni"
 "Attrib_AltFire_HasteBoost"							"Alternatív tűz: csapattársak felgyorsítása"
 "Attrib_AltFire_UberBubble"							"Alternatív tűz: eszköz kilövése, amely sérhetetlenséget ad egy burokban"
+"Attrib_StickyIsLandmine"							"Aknákat lő"
+"Attrib_AutoJumping"								"A viselő automatikusan ugrik, ha az ugrás gombot lenyomva tartja"
+"Attrib_SpreadScalesSpeed"							"Akár %s1%-kal pontosabb az aktuális sebesség alapján"
+"Attrib_DuckJumping"								"A viselő guggolva tud ugrani"
 
 // ----------------------------------------------------------------
 // Map strings
@@ -928,6 +935,9 @@ Csak dicsőséges kézitusa és kardvívás!"
 // ----------------------------------------------------------------
 // Gamemode strings
 // ----------------------------------------------------------------
+
+// CTF
+"TF_CTF_TeamCannotCapture"	"A csapatod nem tudja elfoglalni ezt a zászlót!"
 
 // Domination
 "default_dom_description"	"Feladat:
@@ -1485,11 +1495,11 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF2C_ACHIEVEMENT_CYCLOPS_COMBO_NAME"					"Kilapító kombó"
 "TF2C_ACHIEVEMENT_CYCLOPS_COMBO_DESC"					"Ölj meg legalább 3 ellenfelet egyetlen Küklöpsz kombó robbantással."
 "TF2C_ACHIEVEMENT_SANDVICH_MINES_NAME"					"Lefegyverzés"
-"TF2C_ACHIEVEMENT_SANDVICH_MINES_DESC"					"Gépágyúsként aktiválj egy ellenséges Aknát ami legalább 5 mp-je lett lerakva, anélkül, hogy közel mennél hozzá."
+"TF2C_ACHIEVEMENT_SANDVICH_MINES_DESC"					"Gépágyúsként aktiválj egy 5 másodperce telepített Aknát, anélkül, hogy közel mennél hozzá."
 "TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_NAME"					"1, 1, 1, ööö..."
 "TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_DESC"					"Ölj meg egy ellenfelet egy rosszul beütött élesítőkóddal."
 "TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_NAME"				"Az önkontroll elve"
-"TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_DESC"				"A Légvédelmi Ágyút használva, okozz 2000 sebzést, egyetlen életben anélkül, hogy sebeznéd magad."
+"TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_DESC"				"A Légvédelmi Ágyút használva, okozz 2000 sebzést egyetlen életben anélkül, hogy sebeznéd magad."
 "TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_NAME"				"Felkészítés, végeredmény"
 "TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_DESC"				"Ölj meg valakit egy krittel a Csehov Taslijával úgy, hogy a maximum krittartalékod van."
 "TF2C_ACHIEVEMENT_JUMPPAD_STOMP_NAME"					"Végsebesség"
@@ -1501,7 +1511,7 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_NAME"			"Légpangás"
 "TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_DESC"			"Lőj fejbe egy ellenfelet miközben a levegőben van."
 "TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_NAME"				"Vadászd le a franciát"
-"TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_DESC"				"Fedj fel egy láthatatlan L'escampette-es Kémet."
+"TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_DESC"				"Fedj fel egy láthatatlan Kémet akinél a L'escampette van."
 "TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_NAME"			"A vállalkozó"
 "TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_DESC"			"Nyerj meg egy VIP kört Civilként anélkül, hogy meghalnál."
 "TF2C_ACHIEVEMENT_VIPR_TIME_NAME"						"A játékban az idő a tét"
@@ -1607,5 +1617,43 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_ResetStats"				            "&NULLÁZÁS" // RETRANSLATION, to avoid truncation
 
 "TF_GameModeDesc_Koth"			"Egy csapatnak addig kell birtokolnia a pontot, míg az idő le nem telik."
+
+//STATS PANEL GRAMMAR FIXES
+
+"StatPanel_Kills_Best"				    "Ebben a körben %s1ként többet öltél, mint a korábbi legjobb eredményed."
+"StatPanel_Captures_Best"			    "Ebben a körben %s1ként többször foglaltál, mint a korábbi legjobb eredményed."
+"StatPanel_Defenses_Best"			    "Ebben a körben %s1ként több pontot védtél meg, mint a korábbi legjobb eredményed."
+"StatPanel_DamageDealt_Best"		    "%s1ként többet sebeztél, mint a korábbi legjobb eredményed."
+"StatPanel_PlayTime_Best"			    "Ebben a körben %s1ként tovább maradtál életben, mint a korábbi legjobb eredményed."
+"StatPanel_Healing_Best"			    "Ebben a körben %s1ként többet gyógyítottál, mint a korábbi legjobb eredményed."
+"StatPanel_KillAssists_Best"		    "Ebben a körben %s1ként több ölésnél segítettél, mint a korábbi legjobb eredményed."
+"StatPanel_BuildingsDestroyed_Best"	    "Ebben a körben %s1ként több építményt tettél tönkre, mint a korábbi legjobb eredményed."
+"StatPanel_Dominations_Best"		    "Ebben a körben %s1ként több új ellenfelet aláztál, mint a korábbi legjobb eredményed."
+"StatPanel_Revenge_Best"			    "Ebben a körben %s1ként több ellenfélen álltál bosszút, mint a korábbi legjobb eredményed."
+"StatPanel_PointsScored_Best"		    "Ebben a körben %s1ként több pontot gyűjtöttél, mint a korábbi legjobb eredményed."
+
+"StatPanel_Kills_Tie"				    "Ebben a körben %s1ként ugyanannyit öltél, mint a rekordod."
+"StatPanel_Captures_Tie"			    "Ebben a körben %s1ként ugyanannyiszor foglaltál, mint a rekordod."
+"StatPanel_Defenses_Tie"			    "Ebben a körben %s1ként ugyanannyi védésed volt, mint a rekordod."
+"StatPanel_DamageDealt_Tie"			    "Ebben a körben %s1ként ugyanannyit sebeztél, mint a rekordod."
+"StatPanel_PlayTime_Tie"			    "Ebben a körben %s1ként ugyanaddig voltál életben, mint a rekordod."
+"StatPanel_Healing_Tie"				    "Ebben a körben %s1ként ugyanannyit gyógyítottál, mint a rekordod."
+"StatPanel_KillAssists_Tie"			    "Ebben a körben %s1ként ugyanannyi ölésnél segítettél, mint a rekordod."
+"StatPanel_BuildingsDestroyed_Tie"	    "Ebben a körben %s1ként ugyanannyi építményt tettél tönkre, mint a rekordod."
+"StatPanel_Dominations_Tie"			    "Ebben a körben %s1ként ugyanannyi ellenfelet aláztál, mint a rekordod."
+"StatPanel_Revenge_Tie"				    "Ebben a körben %s1ként ugyanannyiszor álltál bosszút, mint a rekordod."
+"StatPanel_PointsScored_Tie"		    "Ebben a körben %s1ként ugyanannyi pontot szereztél, mint a rekordod."
+
+"StatPanel_Kills_Close"				    "Ebben a körben %s1ként majdnem annyit öltél, mint a rekordod."
+"StatPanel_Captures_Close"			    "Ebben a körben %s1ként majdnem annyiszor foglaltál, mint a rekordod."
+"StatPanel_Defenses_Close"			    "Ebben a körben %s1ként majdnem annyi védésed volt, mint a rekordod."
+"StatPanel_DamageDealt_Close"		    "Ebben a körben %s1ként majdnem annyit sebeztél, mint a rekordod."
+"StatPanel_PlayTime_Close"			    "Ebben a körben %s1ként majdnem addig voltál életben, mint a rekordod."
+"StatPanel_Healing_Close"			    "Ebben a körben %s1ként majdnem annyit gyógyítottál, mint a rekordod."
+"StatPanel_KillAssists_Close"		    "Ebben a körben %s1ként majdnem annyi ölésnél segítettél, mint a rekordod."
+"StatPanel_BuildingsDestroyed_Close"    "Ebben a körben %s1ként majdnem annyi építményt tettél tönkre, mint a rekordod."
+"StatPanel_Dominations_Close"		    "Ebben a körben %s1ként majdnem annyi ellenfelet aláztál, mint a rekordod."
+"StatPanel_Revenge_Close"			    "Ebben a körben %s1ként majdnem annyiszor álltál bosszút, mint a rekordod."
+"StatPanel_PointsScored_Close"		    "Ebben a körben %s1ként majdnem annyi pontot szereztél, mint a rekordod."
 }
 }

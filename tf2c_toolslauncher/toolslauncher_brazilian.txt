@@ -1,0 +1,39 @@
+﻿"lang"
+{
+"Language" "Brazilian"
+"Tokens"
+{
+"Tools_Run"						"Executar"
+"Tools_Open"					"Abrir"
+"Tools_OpenInExplorer"			"Abrir no Explorer"
+
+"Tools_Applications"			"Aplicativos"
+"Tools_Documentation"			"Documentação"
+"Tools_Other"					"Outros"
+
+"Tools_InvokeInvalid"			"Esta ferramenta possui uma configuração inválida. Tente verificar a integridade dos arquivos da ferramenta para repará-la."
+"Tools_InvokeUnknown"			"Ocorreu um erro desconhecido ao executar esta ferramenta."
+"Tools_InvokeAlreadyRunning"	"Uma instância desta ferramenta já está em execução."
+"Tools_InvokeWin32Error"		"Ocorreu um erro ao executar esta ferramenta:\n\n%s1"
+
+"Tools_UpdateStatusOK"			"OK"
+"Tools_UpdateStatusFailed"		"FALHOU"
+"Tools_UpdateStatusChecking"	"Verificando se há atualizações..."
+"Tools_UpdateStatusDownloading"	"Baixando atualização..."
+"Tools_UpdateStatusInstalling"	"Instalando atualização..."
+
+"Tools_UpdateReasonBadRequest"	"Falha ao enviar uma solicitação HTTP. Certifique-se que:\n    - Você possui uma conexão de internet estável.\n    - O seu firewall não está bloqueando a solicitação.\n    - O seu provedor de internet não está bloqueando acesso ao domínio."
+"Tools_UpdateReasonToolMissing"	"Falha ao baixar atualização: A versão mais recente está corrompida ou não possui a ferramenta solicitada. Veja o console para mais informações."
+"Tools_UpdateReasonRateLimit"	"Falha ao baixar atualização: O seu acesso foi limitado. Tente novamente em uma hora."
+"Tools_UpdateReasonNoDiskSpace"	"Falha ao instalar atualização: Não há espaço em disco suficiente."
+"Tools_UpdateReasonCorrupted"	"Falha ao instalar atualização: O pacote baixado foi corrompido."
+
+"Tools_DescHammer"				"Crie e edite mapas"
+"Tools_DescHLMV"				"Carregue e visualize arquivos MDL"
+"Tools_DescFacePoser"			"Crie e coreografe cenas"
+"Tools_DescEngineTools"			"Inicie as ferramentas da engine"
+"Tools_TitleMapSources"			"Arquivos-fonte de mapas"
+"Tools_DescMapSources"			"VMFs de vários mapas de TF2C"
+"Tools_TitleScriptSamples"		"Exemplos de VScript"
+}
+}

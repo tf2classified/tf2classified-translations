@@ -1,9 +1,9 @@
-name: Convert to UTF-16LE
+name: Convert to UTF-16LE ( Authoring Tools )
 
 on:
   push:
     paths:
-      - "tf2c_strings/**"
+      - "tf2c_toolslauncher/**"
     branches: [ "main" ]
     
   workflow_dispatch:
@@ -17,9 +17,9 @@ jobs:
 
       - name: Convert UTF-8 to UTF-16LE
         run: |
-          mkdir -p converted_tf2c_strings
-          find tf2c_strings -type f | while read -r file; do
-            out="converted_tf2c_strings/${file#tf2c_strings/}"
+          mkdir -p converted_tf2c_toolslauncher
+          find tf2c_toolslauncher -type f | while read -r file; do
+            out="converted_tf2c_toolslauncher/${file#tf2c_toolslauncher/}"
             mkdir -p "$(dirname "$out")"
             iconv -f UTF-8 -t UTF-16LE "$file" -o "$out"
           done
@@ -27,5 +27,5 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: tf2c_strings_utf16le
-          path: converted_tf2c_strings/
+          name: tf2c_toolslauncher_utf16le
+          path: converted_tf2c_toolslauncher/

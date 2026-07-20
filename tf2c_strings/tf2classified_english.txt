@@ -133,6 +133,7 @@
 "TF_playerid_object_upgrading_level"	"Level %s1  -  Upgrading..."
 "TF_playerid_object_building"			"Building..."
 "TF_playerid_object_building_level"		"Level %s1  -  Building..."
+"TF_playerid_object_tranq"				" (SABOTAGED)"
 "TF_playerid_teleporter_no_entrance"	"  -  No Teleporter Entrance"
 "TF_playerid_teleporter_no_exit"		"  -  No Teleporter Exit"
 "TF_playerid_object_recharging"			"  -  Recharging: %s1%"
@@ -639,6 +640,7 @@
 "TF_Meter_Harvest"	"HARVEST"
 "TF_Meter_LunchBox"	"LUNCHBOX"
 "TF_Meter_Therapy"	"THERAPY"
+"TF_Meter_Tranq"	"SEDATIVE"
 
 // ----------------------------------------------------------------
 // Buildings
@@ -686,7 +688,8 @@
 "Attrib_MeleeTakenBecomesCritWearer"				"On Wearer: Take crits from melee damage"
 "Attrib_MoveSpeed_Bonus_Cloaked"					"+%s1% faster move speed while cloaked"
 "Attrib_LoseCloakOnDamage"							"-%s1% cloak when damaged under cloak"
-"Attrib_TranqOnHit"									"On Hit: Color blind victim and slow their weapon and movement speed for %s1s"
+"Attrib_TranqOnHit"									"On Hit: Color blind victim and slow their weapon and movement speed for %s1s\nTranquilized enemies take guaranteed crits from melee attacks"
+"Attrib_CloakRegenDisabled"							"No passive cloak regeneration"
 "Attrib_FishwhackerSweep"							"Deals knockback to nearby enemies"
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Self-Knockback is affected by damage boost"
 "Attrib_ApplySelfKnockbackSwing"					"Applies reverse self-knockback on a swing"
@@ -779,6 +782,10 @@
 "Attrib_JumpPadNoUpgrade"							"Jump Pads cannot be upgraded"
 "Attrib_AltFire_HasteBoost"							"Alt-Fire: Give haste boost to a teammate"
 "Attrib_AltFire_UberBubble"							"Alt-Fire: Launch a device that grants invulnerability in a radius"
+"Attrib_StickyIsLandmine"							"Fires Landmines"
+"Attrib_AutoJumping"								"Wearer can automatically jump by holding the jump button"
+"Attrib_SpreadScalesSpeed"							"Up to %s1% more accurate based on current speed"
+"Attrib_DuckJumping"								"Wearer can jump while crouching"
 
 // ----------------------------------------------------------------
 // Map strings
@@ -789,10 +796,10 @@
 "Amaranth_cap_B"	"RED's Shipping Facility"
 
 // 4dom_hydro
-"Hydro_dom_cap_warehouse"	"A, the Warehouse"
-"Hydro_dom_cap_radar_dish"	"B, the Radar Dish"
-"Hydro_dom_cap_power_plant"	"C, the Power Plant"
-"Hydro_dom_cap_dam"			"D, the Dam"
+"Hydro_dom_cap_warehouse"	"cap A, the Warehouse"
+"Hydro_dom_cap_radar_dish"	"cap B, the Radar Dish"
+"Hydro_dom_cap_power_plant"	"cap C, the Power Plant"
+"Hydro_dom_cap_dam"			"cap D, the Dam"
 
 // vip_mineside
 "vip_mineside_description"	"Objective:
@@ -928,6 +935,9 @@ Honorable hand to sword combat only!"
 // ----------------------------------------------------------------
 // Gamemode strings
 // ----------------------------------------------------------------
+
+// CTF
+"TF_CTF_TeamCannotCapture"	"Your team cannot capture this flag!"
 
 // Domination
 "default_dom_description"	"Objective:
@@ -1322,15 +1332,15 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_BurningDeathAnim"				"Enable burning death animations"
 "TF_BurningDeathAnim_Tip"			"If set, ragdolls will have a chance to play a special death animation when dying from fire"
 "TF_CombatTextBatchingWindow"		"Delay between accumulated combat text damage events"
-"TF_CombatTextBatchingWindow_Tip"	"Maximum delay between damage events in order to batch numbers."
+"TF_CombatTextBatchingWindow_Tip"	"Maximum delay between damage events in order to batch numbers"
 "TF_CombatTextDropShadow"           "Display combat text with drop shadow"
-"TF_CombatTextDropShadow_Tip"       "If set, shows drop shadow on combat text."
+"TF_CombatTextDropShadow_Tip"       "If set, shows drop shadow on combat text"
 
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"DEMOMAN: Enable Cyclops double-tap"
-"TF_CyclopsDoubleTap_Tip"        	"If set, Cyclops grenades will require a second click to detonate, instead of letting go of primary fire."
+"TF_CyclopsDoubleTap_Tip"        	"If set, Cyclops grenades will require a second click to detonate, instead of letting go of primary fire"
 "TF_SapperAwareness"                "ENGINEER: Sapper awareness"
-"TF_SapperAwareness_Tip"            "If set, sapper warning on buildings alerts in an alternative color."
+"TF_SapperAwareness_Tip"            "If set, sapper warning on buildings alerts in an alternative color"
 "TF_SniperBell"					    "SNIPER: Play Sound on Full Charge"
 "TF_SniperBell_Tip"					"Play a sound when the Sniper rifle is fully charged"
 "TF_ZoomSensitivityRatio"			"SNIPER: Zoom sensitivity ratio"

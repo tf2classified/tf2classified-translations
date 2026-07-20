@@ -135,6 +135,7 @@
 "TF_playerid_object_upgrading_level"	"( Nível %s1 ) Aprimorando..."
 "TF_playerid_object_building"			"Construindo..."
 "TF_playerid_object_building_level"		"( Nível %s1 ) Construindo..."
+"TF_playerid_object_tranq"				" (SABOTADO)"
 "TF_playerid_teleporter_no_entrance"	"  -  Sem entrada"
 "TF_playerid_teleporter_no_exit"		"  -  Sem saída"
 "TF_playerid_object_recharging"			"  -  Recarregando: %s1%"
@@ -405,15 +406,15 @@
 
 // Arena
 "Tip_arena_Count"		"9"
-"Tip_arena_1"			"Na Arena, fique de olho na contagem de jogadores na parte superior da tela. Isso lhe permitirá saber se você tem vantagem sobre outros jogadores!"
-"Tip_arena_2"			"Na Arena, existem poucas fontes para recuperar sua vida, então certifique-se de proteger seus Medics e Engineers (e compartilhar seu Sanduíche)!"
-"Tip_arena_3"			"Na Arena, o Ponto de Controle no meio do mapa ficará ativo 60 segundos após o início da rodada. Use-o para atrair inimigos escondidos!"
-"Tip_arena_4"			"Na Arena, você não revive, então não morra!"
-"Tip_arena_5"			"Na Arena, diversifique seu repertório! Tente complementar a composição da sua equipe ou neutralizar a do inimigo."
-"Tip_arena_6"			"Na Arena, você só pode trocar de classe no início da partida, antes da abertura dos portões."
-"Tip_arena_7"			"Na Arena, tente permanecer junto com sua equipe e ajudem uns aos outros quando estiverem em perigo. Chegar atrasado a uma luta pode colocá-lo em desvantagem."
-"Tip_arena_8"			"Na Arena, impedir que a equipe inimiga se cure é crucial. Ataque os Medics e os Fornecedores inimigos e negue o acesso deles aos kits de vida sempre que possível!"
-"Tip_arena_9"			"Na Arena, conseguir o Primeiro Abate concede um bônus de crítico. Se você conseguir, aproveite ao máximo! Se um inimigo conseguir, fique na sua e tente esperar o efeito acabar."
+"Tip_arena_1"			"Fique de olho no contador de jogadores no topo da tela para saber se a sua equipe tem uma vantagem."
+"Tip_arena_2"			"Há pouquíssimos meios de recuperar vida no modo Arena, então proteja os Medics e Engineers da sua equipe a todo custo!"
+"Tip_arena_3"			"O ponto de controle no meio do mapa poderá ser capturado 60 segundos após o início da rodada."
+"Tip_arena_4"			"Ninguém renasce no modo Arena, então não morra!"
+"Tip_arena_5"			"Nenhuma classe tem prioridade no modo Arena. Foque-se em combater a composição inteira da outra equipe."
+"Tip_arena_6"			"Você só pode mudar a sua classe no início de uma rodada de Arena, antes que os portões se abram."
+"Tip_arena_7"			"No modo Arena, tente andar junto com sua equipe e ajude uns aos outros quando estiverem em perigo. Chegar atrasado em uma luta pode colocá-lo em desvantagem."
+"Tip_arena_8"			"Impedir a cura da equipe inimiga é crucial no modo Arena. Ataque os Medics e Fornecedores inimigos e impeça acesso aos kits médicos sempre que possível!"
+"Tip_arena_9"			"Causar a primeira morte no modo Arena concede um bônus de crítico. Aproveite ao máximo, ou fique na sua e espere o efeito do inimigo passar."
 
 // ----------------------------------------------------------------
 // Stock weapon strings
@@ -641,6 +642,7 @@
 "TF_Meter_Harvest"	"COLHEITA"
 "TF_Meter_LunchBox"	"LANCHE"
 "TF_Meter_Therapy"	"TERAPIA"
+"TF_Meter_Tranq"	"SEDATIVO"
 
 // ----------------------------------------------------------------
 // Buildings
@@ -687,7 +689,8 @@
 "Attrib_MeleeTakenBecomesCritWearer"				"Ao Usar: Receba acertos críticos de dano corpo a corpo"
 "Attrib_MoveSpeed_Bonus_Cloaked"					"+%s1% de velocidade de movimento mais rápida enquanto estiver invisível"
 "Attrib_LoseCloakOnDamage"							"-%s1% de camuflagem ao sofrer dano enquanto camuflado"
-"Attrib_TranqOnHit"									"Ao Atingir: A vítima fica daltônica, tem sua velocidade de ataque e movimento reduzidas por %s1s"
+"Attrib_TranqOnHit"									"Ao acertar: deixe o alvo daltônico e reduza as velocidades de ataque e movimento do alvo por %s1s\nAtaques corpo a corpo causam críticos garantidos em inimigos tranquilizados"
+"Attrib_CloakRegenDisabled"                         "Regeneração passiva da camuflagem desativada"
 "Attrib_FishwhackerSweep"							"Causa empurrão em inimigos próximos"
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Auto-Recuo é afetado pelo aumento de dano"
 "Attrib_ApplySelfKnockbackSwing"					"Aplica recuo reverso em si mesmo ao atacar"
@@ -780,6 +783,10 @@
 "Attrib_JumpPadNoUpgrade"							"Saltadores não podem ser aprimorados"
 "Attrib_AltFire_HasteBoost"							"Ataque Alternativo: Concede aumento de velocidade a um aliado"
 "Attrib_AltFire_UberBubble"							"Disparo Alternativo: Lança um dispositivo que fornece invulnerabilidade em área"
+"Attrib_StickyIsLandmine"							"Atira minas terrestres"
+"Attrib_AutoJumping"								"Usuário pode pular automaticamente ao segurar o botão de pular"
+"Attrib_SpreadScalesSpeed"							"Até %s1% mais preciso com base na velocidade atual"
+"Attrib_DuckJumping"								"Usuário pode pular enquanto estiver agachando"
 
 // ----------------------------------------------------------------
 // Map strings
@@ -929,6 +936,9 @@ Apenas combate honrado, espada contra espada!"
 // ----------------------------------------------------------------
 // Gamemode strings
 // ----------------------------------------------------------------
+
+// CTF
+"TF_CTF_TeamCannotCapture"	"A sua equipe não pode capturar esta bandeira!"
 
 // Domination
 "default_dom_description"	"Objetivo:
@@ -1328,6 +1338,9 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF_CombatTextBatchingWindow_Tip"	"Atraso máximo entre eventos de dano para agrupar os números."
 "TF_CombatTextDropShadow"           "Exibir texto de combate com sombra projetada"
 "TF_CombatTextDropShadow_Tip"       "Se ativada, exibe uma sombra projetada no texto de combate."
+
+"TF2C_CalloutBubbles"				"Ativar balões de fala para comandos de voz"
+"TF2C_CalloutBubbles_Tip"			"Exibe balões de fala adicionais acima dos jogadores que usarem comandos de voz"
 
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"DEMOMAN: clique-duplo para detonar as granadas do Ciclope"
