@@ -1,0 +1,12 @@
+{{
+	"itemid":"834948",
+	"language":"tchinese",
+	"app[content][legal]":"© EMINOMA。Valve、Valve 標誌、Steam、Steam 標誌、Team Fortress 與 Team Fortress 標誌皆為 Valve Corporation 的商標及\/或註冊商標。Team Fortress 2 Classified 為粉絲創作，與 Valve Corporation 並無任何關聯。",
+
+	"app[content][about]":"[p][b]Off the Record[\/b] 收錄了目前於 [b]Team Fortress 2 Classified[/b] 主選單及宣傳媒體中使用的原創音樂，由 Magnus、MrModez 與 Ram99 三位才華洋溢的作曲家共同創作。[\/p][p]多年來，無論是在執行鎮靜任務、埋設地雷、護送億萬富翁，或只是剛完成這些工作後，你都曾伴隨著這些原創樂曲。現在，只要播放這張專輯，就能體驗 TF2 Classified 獨特的音樂氛圍，而不用再一邊聽那些投資理財 Podcast，或是你平常放得震天價響的 Avenged Sevenfold 專輯。[\/p]",
+
+	"app[content][short_description]":"《Off the Record》是《Team Fortress 2 Classified》的原聲帶。這些充滿間諜電影風格、融合大樂團爵士（Big Band）元素的曲目，廣泛運用於 TF2 Classified 的宣傳短片與遊戲選單中。"
+}}
+
+{
+	
