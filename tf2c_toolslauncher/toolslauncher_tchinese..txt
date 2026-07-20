@@ -1,0 +1,32 @@
+﻿"lang"
+{
+"Language" "tchinese."
+"Tokens"
+{
+"Tools_Run"						"執行"
+"Tools_Open"					"開啟"
+"Tools_OpenInExplorer"			"在檔案總管中開啟"
+
+"Tools_Applications"			"應用程式"
+"Tools_Documentation"			"文件"
+"Tools_Other"					"其他"
+
+"Tools_InvokeInvalid"			"此工具的定義無效。請嘗試驗證遊戲檔案完整性。"
+"Tools_InvokeUnknown"			"啟動此工具時發生未知錯誤。"
+"Tools_InvokeAlreadyRunning"	"同一時間只能執行一個此工具的執行個體。"
+
+"Tools_UpdateStatusOK"			"正常"
+"Tools_UpdateStatusFailed"		"失敗"
+"Tools_UpdateStatusChecking"	"正在檢查更新..."
+"Tools_UpdateStatusDownloading"	"正在下載更新..."
+"Tools_UpdateStatusInstalling"	"正在安裝更新..."
+
+"Tools_DescHammer"				"建立與編輯地圖"
+"Tools_DescHLMV"				"載入並預覽 MDL 模型"
+"Tools_DescFacePoser"			"建立並編排場景"
+"Tools_DescEngineTools"			"啟動引擎工具"
+"Tools_TitleMapSources"			"地圖原始檔"
+"Tools_DescMapSources"			"各種 TF2C 地圖的 VMF 原始檔"
+"Tools_TitleScriptSamples"		"VScript 範例"
+}
+}
