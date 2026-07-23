@@ -111,8 +111,8 @@
 "TF_playerid_diffteam"			        "%s1Inimigo(a): %s2"
 "TF_playerid_noteam"					"%s1"
 "TF_playerid_friendlyspy_disguise"		"Disfarçado como um %s2 %s1"
-"TF_playerid_wpn_ammo_clip"				"%s1  -  Munição: %s2 (%s3)"
-"TF_playerid_wpn_ammo"					"%s1  -  Munição: %s2"
+"TF_playerid_wpn_ammo_clip"				"%s1\nMunição: %s2 / %s3"
+"TF_playerid_wpn_ammo"					"%s1\nMunição: %s2"
 "TF_playerid_wpn"						"%s1"
 
 // Boosts
