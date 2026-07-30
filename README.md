@@ -1,6 +1,8 @@
 # Team Fortress 2 Classified Translations
 This repository is for translating TF2 Classified's in-game and Steam platform texts. If you would like to see your changes implemented in-game, please [fork this repository](https://github.com/tf2classified/tf2classified-translations/fork) and then [open a pull request](https://github.com/tf2classified/tf2classified-translations/compare) with your work.
 
+If your contribution gets accepted, please [send us your SteamID64](https://tf2classified.com/contact) and we will grant you an in-game Contributor medal.
+
 ## For Translators
 - Please make sure that your **file encoding matches that of the English files (always UTF-8 BOM)** found in this repository.
 - Some lines use control characters to manage special properties. Please make sure you are retaining these.

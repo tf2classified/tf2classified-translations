@@ -111,8 +111,8 @@
 "TF_playerid_diffteam"			        "%s1Inimigo(a): %s2"
 "TF_playerid_noteam"					"%s1"
 "TF_playerid_friendlyspy_disguise"		"Disfarçado como um %s2 %s1"
-"TF_playerid_wpn_ammo_clip"				"%s1  -  Munição: %s2 (%s3)"
-"TF_playerid_wpn_ammo"					"%s1  -  Munição: %s2"
+"TF_playerid_wpn_ammo_clip"				"%s1\nMunição: %s2 / %s3"
+"TF_playerid_wpn_ammo"					"%s1\nMunição: %s2"
 "TF_playerid_wpn"						"%s1"
 
 // Boosts
@@ -510,22 +510,22 @@
 // ----------------------------------------------------------------
 
 // Kritzkrieg
-"TF_Weapon_Kritzkrieg"		"Kritzkrieg"
+"TF_Weapon_Kritzkrieg"		"A Kritzkrieg"
 "TF_Weapon_Kritzkrieg_Desc"	"Vai lá, faça um pouquinho de caos! Assim a gente se mantém nos negócios, beleza?"
 // Überspritze
-"TF_Weapon_Uberspritze"			"Überspritze"
+"TF_Weapon_Uberspritze"			"A Überspritze"
 "TF_Weapon_Uberspritze_Desc"	"Ah, pare de se contorcer, é por uma boa causa!"
 // Flare Gun
 "TF_Weapon_FlareGun"		"Arma Sinalizadora"
 "TF_Weapon_FlareGun_Desc"	"Tem alguém pegando fogo! Rápido, enviem um sinal de socorro!"
 // Sandvich
-"TF_Weapon_Sandvich"		"Sandviche"
+"TF_Weapon_Sandvich"		"O Sandviche"
 "TF_Weapon_Sandvich_Desc"	"Chega mais! Vô te dá um pedaço."
 // Huntsman
 "TF_Weapon_Huntsman"		"O Caçador"
 "TF_Weapon_Huntsman_Desc"	"O que aconteceu com a cavalaria?"
 // Gunboats
-"TF_Weapon_Gunboats"				"Canhoneiras"
+"TF_Weapon_Gunboats"				"As Canhoneiras"
 "TF_Weapon_Gunboats_Desc_Soldier"	"Palmilhas de chumbo! Perfeitas para quem quer trapacear no exame físico do exército."
 "TF_Weapon_Gunboats_Desc_Demoman"	"Botas tão boas que você nem vai se preocupar com os parafusos perfurados nos seus pés."
 
@@ -546,7 +546,7 @@
 "TF_Weapon_HuntingRevolver"			"Revólver de Caça"
 "TF_Weapon_HuntingRevolver_Desc"	"Concebido para uma abordagem mais ofensiva."
 // Fishwhacker
-"TF_Weapon_Fishwhacker"			"Peixorrete"
+"TF_Weapon_Fishwhacker"			"O Peixorrete"
 "TF_Weapon_Fishwhacker_Desc"	"Segura ela firme, camarada. Ela tem tendência a soltar farpas."
 // Tranquilizer Gun
 "TF_Weapon_TranquilizerGun"			"Arma Tranquilizadora"
@@ -558,10 +558,10 @@
 "TF_Weapon_Coilgun"			"Arma de Bobina"
 "TF_Weapon_Coilgun_Desc"	"Muita faísca, pouco impacto."
 // Mine Layer
-"TF_Weapon_MineLayer"		"Campo Minado"
+"TF_Weapon_MineLayer"		"O Campo Minado"
 "TF_Weapon_MineLayer_Desc"	"Isso aí, fique de olho! Heh..."
 // Shock Therapy
-"TF_Weapon_ShockTherapy"		"Terapia de Choque"
+"TF_Weapon_ShockTherapy"		"A Terapia de Choque"
 "TF_Weapon_ShockTherapy_Desc"	"AFASTEM-SE!"
 
 // ----------------------------------------------------------------
@@ -572,7 +572,7 @@
 "TF_Weapon_Lescampette"			"L'escampette"
 "TF_Weapon_Lescampette_Desc"	"Seja rápido."
 // Chekhov's Punch
-"TF_Weapon_ChekhovsPunch"		"Punho de Tcheckhov"
+"TF_Weapon_ChekhovsPunch"		"Os Punhos de Tcheckhov"
 "TF_Weapon_ChekhovsPunch_Desc"	"Não chore! Você tem um papel importante na história de Heavy."
 // Twin Barrel
 "TF_Weapon_TwinBarrel"		"Cano Duplo"
@@ -584,7 +584,7 @@
 "TF_Weapon_PDAJumpPad"		"PDA: Saltadores"
 "TF_Weapon_PDAJumpPad_Desc"	"Acredite em mim, meu amigo. Essa vai te surpreender."
 // Harvester
-"TF_Weapon_Harvester"		"Ceifadora"
+"TF_Weapon_Harvester"		"A Ceifadora"
 "TF_Weapon_Harvester_Desc"	"Não me perguntes por quem os sinos dobram."
 // Brick
 "TF_Weapon_Brick"		"Tijolo"
@@ -595,16 +595,16 @@
 // ----------------------------------------------------------------
 
 // Rejuvenator
-"TF_Weapon_Rejuvenator"			"Rejuvenescedora"
+"TF_Weapon_Rejuvenator"			"A Rejuvenescedora"
 "TF_Weapon_Rejuvenator_Desc"	"Tente evitar o contato com a boca e os olhos."
 // Admiralty Anchor
-"TF_Weapon_AdmiraltyAnchor"			"Âncora do Almirantado"
+"TF_Weapon_AdmiraltyAnchor"			"A Âncora do Almirantado"
 "TF_Weapon_AdmiraltyAnchor_Desc"	"Não irei tolerar piadas grosseiras sobre a Marinha na minha unidade."
 // Derby Cane
 "TF_Weapon_DerbyCane"		"Bengala de Cabo Curvo"
 "TF_Weapon_DerbyCane_Desc"	"Sentindo-se motivado, rapaz? É melhor que esteja."
 // Cyclops
-"TF_Weapon_Cyclops"			"Ciclope"
+"TF_Weapon_Cyclops"			"O Cíclope"
 "TF_Weapon_Cyclops_Desc"	"Em terra de cegos, você é o rei."
 
 // ----------------------------------------------------------------
@@ -617,8 +617,8 @@
 "TF_Weapon_Cane"					"Bengala"
 "TF_Weapon_Chains"					"Correntes"
 "TF_Weapon_CigaretteCase"			"...Caixa de Cigarros?"
-"TF_Weapon_Club"					"Club"
-"TF_Weapon_DoubleBarrelShotgun"		"Double Barrel Shotgun"
+"TF_Weapon_Club"					"Porrete"
+"TF_Weapon_DoubleBarrelShotgun"		"Espingarda de Cano Duplo"
 "TF_Weapon_EMPGrenadeLauncher"		"Lança-Granadas PEM"
 "TF_Weapon_Grenade"					"Granada"
 "TF_Weapon_HealGrenadeLauncher"		"Lança-Granadas de Cura"
@@ -669,38 +669,38 @@
 "Attrib_RocketJumpDmgReduction"		"%s1% de dano explosivo sofrido por saltos com foguete"
 "Attrib_Scattergun_HasKnockback"	"Alvo e atirador são arremessados para trás"
 
-"Attrib_RocketGravity"								"Os foguetes viajam em arco"
+"Attrib_RocketGravity"								"Projéteis viajam em arco"
 "Attrib_CreatesEarthquakeFallDamage"				"Cria um terremoto ao sofrer dano de queda enquanto estiver ativo"
-"Attrib_TakeProjectileCritsAirborne"				"Ao Usar: Receba acertos críticos de projéteis enquanto estiver no ar"
-"Attrib_Gravity_Active_Increased"					"+%s1% de gravidade enquanto ativo"
+"Attrib_TakeProjectileCritsAirborne"				"Projéteis causam acertos críticos no usuário enquanto estiver no ar"
+"Attrib_Gravity_Active_Increased"					"+%s1% de gravidade enquanto empunhada"
 "Attrib_TeleporterJumpPad"							"Substitui a entrada e saída do Teletransportador por Saltadores"
-"Attrib_Mod_Horizontal_Spread"						"As balas têm uma dispersão ampla e horizontal"
+"Attrib_Mod_Horizontal_Spread"						"As balas têm dispersão ampla e horizontal"
 "Attrib_ApplySelfKnockback"							"Aplica recuo reverso em um tiro"
 "Attrib_WeaponEnemyKnockback_Bonus"					"+%s1% de repulsão no inimigo"
-"Attrib_LifestealCrit"								"Ao Acertar: Roube a vida da sua vítima enquanto a barra estiver cheia"
-"Attrib_FlatHealOnAfterburn_Active"					"+%s1 de ganho de vida por pulso de queimadura enquanto ativo"
+"Attrib_LifestealCrit"								"Ao acertar: roube a vida de sua vítima enquanto a barra de crítico estiver cheia"
+"Attrib_FlatHealOnAfterburn_Active"					"+%s1 de ganho de vida por pulso de queimadura enquanto empunhada"
 "Attrib_RememberTargetsRemainingAfterburn"			"Rastros de queima residual em alvos destruídos"
 "Attrib_OnDeathRemoveTargetsAfterburn"				"Inimigos em chamas são extinguidos ao morrer"
 "Attrib_Explosive_Bullets"							"Dispara projéteis explosivos"
 "Attrib_CannotUseStoredCrits"						"Esta arma não pode usar acertos críticos armazenados"
-"Attrib_GainStoredCritsOnHit"						"Ao Acertar: Armazene %s1 acerto crítico"
+"Attrib_GainStoredCritsOnHit"						"Ao acertar: armazene %s1 crítico garantido"
 "Attrib_AlwaysCritsFullStoredCrits"					"Esta arma não pode usar acertos críticos armazenados a menos que esteja com a capacidade máxima"
 "Attrib_LoseStoredCritsOnMiss"						"Ao Errar: Perde %s1 do acerto crítico armazenado"
-"Attrib_MeleeTakenBecomesCritWearer"				"Ao Usar: Receba acertos críticos de dano corpo a corpo"
-"Attrib_MoveSpeed_Bonus_Cloaked"					"+%s1% de velocidade de movimento mais rápida enquanto estiver invisível"
+"Attrib_MeleeTakenBecomesCritWearer"				"Usuário sofre críticos de dano corpo a corpo"
+"Attrib_MoveSpeed_Bonus_Cloaked"					"+%s1% de velocidade de movimento enquanto estiver invisível"
 "Attrib_LoseCloakOnDamage"							"-%s1% de camuflagem ao sofrer dano enquanto camuflado"
-"Attrib_TranqOnHit"									"Ao acertar: deixe o alvo daltônico e reduza as velocidades de ataque e movimento do alvo por %s1s\nAtaques corpo a corpo causam críticos garantidos em inimigos tranquilizados"
+"Attrib_TranqOnHit"									"Ao acertar: deixe o alvo daltônico e reduza as velocidades de ataque e movimento por %s1s\nAtaques corpo a corpo causam críticos garantidos em inimigos tranquilizados"
 "Attrib_CloakRegenDisabled"                         "Regeneração passiva da camuflagem desativada"
-"Attrib_FishwhackerSweep"							"Causa empurrão em inimigos próximos"
+"Attrib_FishwhackerSweep"							"Inimigos próximos são arremessados para trás"
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Auto-Recuo é afetado pelo aumento de dano"
 "Attrib_ApplySelfKnockbackSwing"					"Aplica recuo reverso em si mesmo ao atacar"
 "Attrib_AirblastSelfKnockback"						"Rajada de Ar causa empurrão no usuário"
 "Attrib_ProximityMine"								"Minas de proximidade explodem em inimigos próximos"
-"Attrib_AltFire_FizzleMines"						"Disparo Alternativo: Desativa minas de proximidade"
+"Attrib_AltFire_FizzleMines"						"Disparo-alt: desativa as minas de proximidade"
 "Attrib_NoStickyChargeTime"							"Sem tempo de carregamento da Stickybomb"
 "Attrib_BlastSplashDamage_Decreased"				"%s1% de dano por explosão"
-"Attrib_BurningTargetsChargeCrit"					"Vítimas em chamas preenchem a barra de crítico enquanto estão ativas"
-"Attrib_LimitedRange"								"A arma tem alcance limitado"
+"Attrib_BurningTargetsChargeCrit"					"Vítimas em chamas preencherão a barra de crítico enquanto empunhada"
+"Attrib_LimitedRange"								"Esta arma tem alcance limitado"
 "Attrib_GainStoredCritsOnKill"						"Ao Matar: Armazene %s1 de acerto crítico"
 "Attrib_HealOnKillCrit"								"+%s1 de vida restaurada ao matar com um golpe crítico"
 "Attrib_InstantReloadOnDirectHit"					"Ao Atingir o Alvo Diretamente: Recarrega instantaneamente até %s1 de munição"
@@ -753,36 +753,36 @@
 "Attrib_HealthFromPacks_Active_Decreased"			"%s1% de vida dos pacotes enquanto ativo"
 "Attrib_DamageDelaysRegeneration"					"Receber dano atrasa a regeneração de vida em %s1s"
 "Attrib_DestroyGrenadesDetonateOwn"					"Explosões destroem granadas inimigas e detonam as suas próprias"
-"Attrib_HoldFirePreventDetonation"					"Ao Manter Pressionado: Impede a detonação da granada"
-"Attrib_MiniCritAirborneEnemies"					"100% de mini-críticos contra inimigos no ar"
+"Attrib_HoldFirePreventDetonation"					"Segure o botão de disparo para impedir a detonação da granada"
+"Attrib_MiniCritAirborneEnemies"					"100% de minicrits contra inimigos no ar"
 "Attrib_CritAirborneEnemies"						"100% de críticos contra inimigos no ar"
 "Attrib_ModCritAirborneDirectHitOnly"				"Acertos críticos apenas em inimigos aéreos com acerto direto."
 "Attrib_ObjectivesGiveCrits"						"100% de críticos contra inimigos capturando, defendendo ou carregando objetivos"
 "Attrib_AddAmmoOnDirectHit"							"Ao Atingir o Alvo Diretamente: Ganhe %s1 de munição."
 "Attrib_AddAmmoOnDirectHitKill"						"Ao eliminar um alvo com Acerto Direto: Ganhe %s1 de munição"
 "Attrib_AddAmmoOnKill"								"Ao matar: Ganha %s1 de munição"
-"Attrib_MinicritVsWet"								"100% de mini-críticos contra inimigos molhados"
+"Attrib_MinicritVsWet"								"100% de minicrits contra inimigos molhados"
 "Attrib_TakeMinicritsProjectileAirborne"			"Recebe mini-críticos de projéteis enquanto estiver no ar"
-"Attrib_HealOnSmack"								"Aliados atingidos enquanto estiverem com a carga máxima serão totalmente curados"
+"Attrib_HealOnSmack"								"Aliados atingidos com a carga máxima serão completamente curados"
 "Attrib_MultDamageCrit"								"Dano causado por acertos críticos %s1% maior"
 "Attrib_DropTeamHealthPackOnKill"					"Solta um kit de vida para a equipe ao matar"
 "Attrib_PassiveAmmoHolstered"						"Recarrega passivamente a munição enquanto a arma está no coldre"
 "Attrib_Backstab"									"Ataque um inimigo pelas costas para apunhalá-lo com um golpe só"
 "Attrib_UpgradeRepairBuildings"						"Aprimora, repara e acelera a construção de construções aliadas ao acertar"
-"Attrib_AltFire_DetonateStickybombs"				"Disparo alternativo: Detona todas as Stickybombs"
-"Attrib_AltFire_Airblast"							"Disparo alternativo: Solta uma rajada de ar\nRajada de ar empurra inimigos e projéteis, além de extinguir aliados em chamas"
-"Attrib_AltFire_Cloak"								"Disparo alternativo: Camuflar-se"
+"Attrib_AltFire_DetonateStickybombs"				"Disparo-alt: detona todas as Stickybombs"
+"Attrib_AltFire_Airblast"							"Disparo-alt: solta uma rajada de ar que empurra inimigos e projéteis, além de extinguir aliados em chamas"
+"Attrib_AltFire_Cloak"								"Disparo-alt: camuflar-se"
 "Attrib_SapBuildings"								"Desativa e destrói lentamente as construções inimigas\nNão remove o disfarce ao ser usado"
-"Attrib_ReloadNotActive"							"Esta arma recarregará quando não estiver em uso"
-"Attrib_Sandvich"									"Coma para recuperar até 120 de vida\nDisparo alternativo: compartilha um Sandviche com um aliado (cura 50% de vida)"
-"Attrib_AltFire_MinicritBoost"						"Disparo alternativo: fornece um bônus de mini-críticos a um aliado"
-"Attrib_SplitsIntoBomblets"							"Ao explodir, se divide em 4 pequenas bombas"
+"Attrib_ReloadNotActive"							"Esta arma recarregará automaticamente quando não estiver atirando"
+"Attrib_Sandvich"									"Coma para recuperar até 120 de vida\nDisparo-alt: compartilha um Sandviche com um aliado (cura 50% de vida)"
+"Attrib_AltFire_MinicritBoost"						"Disparo-alt: fornece um bônus de minicrits a um aliado"
+"Attrib_SplitsIntoBomblets"							"Divide-se em 4 bombas pequenas ao explodir"
 "Attrib_DisabledByWrench"							"Pode ser desarmado por Chaves Inglesas"
 "Attrib_Coilgun"									"Disparos totalmente carregados ricocheteiam nas paredes e a arma pode explodir na sua mão se for sobrecarregada"
-"Attrib_DamageAffectedByCharge"						"Danos são afetados pela carga atual"
+"Attrib_DamageAffectedByCharge"						"Dano é afetado pela carga atual"
 "Attrib_JumpPadNoUpgrade"							"Saltadores não podem ser aprimorados"
 "Attrib_AltFire_HasteBoost"							"Ataque Alternativo: Concede aumento de velocidade a um aliado"
-"Attrib_AltFire_UberBubble"							"Disparo Alternativo: Lança um dispositivo que fornece invulnerabilidade em área"
+"Attrib_AltFire_UberBubble"							"Disparo-alt: lança um dispositivo que fornece invulnerabilidade em área"
 "Attrib_StickyIsLandmine"							"Atira minas terrestres"
 "Attrib_AutoJumping"								"Usuário pode pular automaticamente ao segurar o botão de pular"
 "Attrib_SpreadScalesSpeed"							"Até %s1% mais preciso com base na velocidade atual"
@@ -926,7 +926,7 @@ Apenas combate honrado, espada contra espada!"
 "Gametype_VIPRace_FourTeam"			"Corrida de VIPs (Quatro Equipes)"
 
 // Offline practice descriptions
-"TF_GameModeDesc_VIP"			"O BLU escolta o Civilian. O RED precisa detê-los."
+"TF_GameModeDesc_VIP"			"A equipe BLU escolta o Civilian. A equipe RED precisa detê-los."
 "TF_GameModeDesc_VIPRace"		"Escolte seu Civilian até a linha de chegada antes do inimigo."
 "TF_GameModeDesc_Domination"	"Capture pontos estratégicos e mantenha-os pelo maior tempo possível."
 "TF_GameModeDesc_Arena"			"Elimine os inimigos ou aguarde o ponto de controle ser desbloqueado."
@@ -1186,13 +1186,13 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 // ----------------------------------------------------------------
 
 // Loadout gamemode indicator
-"TF_Loadout_Modifier_StockItemsOnly"		"Somente Itens Padrões!"
-"TF_Loadout_Modifier_MedievalItemsOnly"		"Apenas Itens \"Medievais\"!"
-"TF_Loadout_Modifier_RandomizerClasses"		"Classes Aleatórias!"
-"TF_Loadout_Modifier_RandomizerItems"		"Itens Aleatórios!"
-"TF_Loadout_Modifier_RandomizerAttributes"	"Atributos Aleatórios!"
-"TF_Loadout_Modifier_RandomizerMayhem"		"Caos Aleatórios!"
-"TF_Loadout_Modifier_CustomWeaponsEnabled"	"Armas Personalizadas Ativadas!"
+"TF_Loadout_Modifier_StockItemsOnly"		"Apenas itens padrões!"
+"TF_Loadout_Modifier_MedievalItemsOnly"		"Apenas itens \"medievais\"!"
+"TF_Loadout_Modifier_RandomizerClasses"		"Classes aleatórias!"
+"TF_Loadout_Modifier_RandomizerItems"		"Itens aleatórios!"
+"TF_Loadout_Modifier_RandomizerAttributes"	"Atributos aleatórios!"
+"TF_Loadout_Modifier_RandomizerMayhem"		"Caos aleatório!"
+"TF_Loadout_Modifier_CustomWeaponsEnabled"	"Armas personalizadas ativadas!"
 
 // Item slot types
 "TF_Loadout_Slot_Invalid"		"Inválido"

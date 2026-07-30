@@ -12,14 +12,21 @@
 "Tools_Other"					"Diğer"
 
 "Tools_InvokeInvalid"			"Bu aracın geçersiz bir tanımı var. Oyun dosyalarının bütünlüğünü doğrulamayı deneyin."
-"Tools_InvokeUnknown"			"Bu aracı çalıştırmaya çalışırken bilinmeyen bir hata oluştu."
+"Tools_InvokeUnknown"			"Bu aracı çalıştırırken bilinmeyen bir hata oluştu."
 "Tools_InvokeAlreadyRunning"	"Bu aracın aynı anda yalnızca tek bir örneği çalıştırılabilir."
+"Tools_InvokeWin32Error"		"Bu aracı çalıştırırken bir hata oluştu:\n\n%s1"
 
 "Tools_UpdateStatusOK"			"BAŞARILI"
 "Tools_UpdateStatusFailed"		"BAŞARISIZ"
 "Tools_UpdateStatusChecking"	"Güncellemeler denetleniyor..."
 "Tools_UpdateStatusDownloading"	"Güncelleme indiriliyor..."
 "Tools_UpdateStatusInstalling"	"Güncelleme kuruluyor..."
+
+"Tools_UpdateReasonBadRequest"	"HTTP isteği gönderilemedi. Şunlardan emin olun:\n    - Stabil internet bağlantınız var.\n    - Güvenlik duvarınız isteği engellemiyor.\n    - İnternet sağlayıcınız alan adına erişimi engellemiyor."
+"Tools_UpdateReasonToolMissing"	"Güncelleme indirilemedi: En son sürüm geçersiz veya istenen aracı içermiyor. Daha fazla bilgi için konsola bakınız."
+"Tools_UpdateReasonRateLimit"	"Güncelleme indirilemedi: Erişim hızınız sınırlandırıldı. Bir saat sonra yeniden deneyin."
+"Tools_UpdateReasonNoDiskSpace"	"Güncelleme kurulamadı: Yetersiz disk alanı."
+"Tools_UpdateReasonCorrupted"	"Güncelleme kurulamadı: İndirilen paket bozuk."
 
 "Tools_DescHammer"				"Haritalar oluşturun ve düzenleyin"
 "Tools_DescHLMV"				"MDL dosyalarını yükleyin ve önizleyin"
