@@ -1,6 +1,6 @@
 ﻿"lang"
 {
-"Language" "tchinese."
+"Language" "tchinese"
 "Tokens"
 {
 "Tools_Run"						"執行"
