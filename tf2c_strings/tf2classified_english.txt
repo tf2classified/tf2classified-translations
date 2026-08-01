@@ -47,6 +47,18 @@
 "Chat_Filter_Voice"		"Voice Commands"
 
 // ----------------------------------------------------------------
+// Scrambling
+// ----------------------------------------------------------------
+
+"TF_Scramble_ScoreDiff"			"Teams will be auto-scrambled (Large score difference between teams)"
+"TF_Scramble_NoCap"				"Teams will be auto-scrambled (Not enough objective progress was made this round)"
+"TF_Scramble_WinStreak"			"Teams will be auto-scrambled (%s1 team has won %s2 times in a row)"
+"TF_Scramble_Manual_NextRound"	"A team scramble has been manually scheduled for next round"
+"TF_Scramble_NextRound"			"A team scramble has been scheduled for next round"
+"TF_Scramble_Manual_Now"		"Teams are being manually scrambled"
+"TF_Scramble_Now"				"Teams are being scrambled"
+
+// ----------------------------------------------------------------
 // General
 // ----------------------------------------------------------------
 
@@ -1070,6 +1082,8 @@ Team ownership of Control Points is randomized at the start of each round."
 // ----------------------------------------------------------------
 // Scoreboard
 // ----------------------------------------------------------------
+
+"TF_ScoreBoard_NextLevel"			"Next Level: %s1"
 
 "TF_ScoreBoard_Player"				"%s1 Player"
 "TF_ScoreBoard_Players"				"%s1 Players"
