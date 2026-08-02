@@ -47,6 +47,18 @@
 "Chat_Filter_Voice"		"Hangparancsok"
 
 // ----------------------------------------------------------------
+// Scrambling
+// ----------------------------------------------------------------
+
+"TF_Scramble_ScoreDiff"			"A csapatok automatikusan újra lesznek osztva (Túl nagy a csapatok közötti pont különbség)"
+"TF_Scramble_NoCap"				"A csapatok automatikusan újra lesznek osztva (A játékcél nem haladt eleget ebben a körben)"
+"TF_Scramble_WinStreak"			"A csapatok automatikusan újra lesznek osztva (A %s1 csapat %s2 alkalommal nyert egyhuzamban)"
+"TF_Scramble_Manual_NextRound"	"A csapatok újraosztása manuálisan ütemezve lett a következő körre"
+"TF_Scramble_NextRound"			"A csapatok újraosztása ütemezve lett a következő körre"
+"TF_Scramble_Manual_Now"		"A csapatok manuálisan lesznek újraosztva"
+"TF_Scramble_Now"				"A csapatok újraosztásra kerülnek"
+
+// ----------------------------------------------------------------
 // General
 // ----------------------------------------------------------------
 
@@ -1071,6 +1083,8 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 // Scoreboard
 // ----------------------------------------------------------------
 
+"TF_ScoreBoard_NextLevel"			"Következő pálya: %s1"
+
 "TF_ScoreBoard_Player"				"%s1 játékos"
 "TF_ScoreBoard_Players"				"%s1 játékos"
 
@@ -1125,10 +1139,10 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "Winpanel_GreenMVPs"		"A GRN csapat legjobbjai:"
 "Winpanel_YellowMVPs"		"A YLW csapat legjobbjai:"
 
-"Winreason_KOTHPointHeld"		"%s1 sikeresen védte az ellenőrzőpontját az idő lejártáig"
-"Winreason_PayloadPushed"		"%s1 eltolta a bombát az utolsó pontig"
-"Winreason_ArenaPointCaptured"	"%s1 elfoglalta az ellenőrzőpontot"
-"Winreason_RoundScoreLimit"		"%s1 %s2 pontot ért el"
+"Winreason_KOTHPointHeld"		"A %s1 sikeresen védte az ellenőrzőpontját az idő lejártáig"
+"Winreason_PayloadPushed"		"A %s1 csapat eltolta a bombát az utolsó pontig"
+"Winreason_ArenaPointCaptured"	"A %s1 csapat elfoglalta az ellenőrzőpontot"
+"Winreason_RoundScoreLimit"		"A %s1 csapat %s2 pontot ért el"
 "Winreason_VIPEscaped"			"A VIP megszökött"
 "Winreason_VIPKilled"			"A VIP meghalt"
 
@@ -1328,9 +1342,9 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF2C_Tooltip_DamageFeedbackIncomingVolume"	"Az elszenvedett sebzés visszajelzésének hangereje"
 
 "TF_CenterFirePreference"         	"Középről kilövő lövedékek előnyben részesítése"
-"TF_CenterFirePreference_Tip"    	"Ha be van kapcsolva, a lövedékek születési Y koordináta pozíciója 0 lesz a játékosnak; az alkalmazáshoz a játékosnak ehhez a menüben kell lennie, vagy nézőnek kell lennie"
+"TF_CenterFirePreference_Tip"    	"Ha be van kapcsolva, a lövedékek születési Y koordináta pozíciója 0 lesz a játékosnál; az érvényesítéshez a játékosnak lecsatlakozottnak vagy nézőnek kell lennie"
 "TF_BurningDeathAnim"				"„Elégés” halálanimációk bekapcsolása"
-"TF_BurningDeathAnim_Tip"			"Ha be van kapcsolva, a hullák lehet, hogy lejátszák ezeket a különleges halálanimációkat amikor elégnek"
+"TF_BurningDeathAnim_Tip"			"Ha be van kapcsolva, a hullák lehet, hogy lejátszanak egy különleges halálanimációt amikor elégnek"
 "TF_CombatTextBatchingWindow"		"Harci sebzésszöveg-esemény összegyűjtések közötti késleltetés"
 "TF_CombatTextBatchingWindow_Tip"	"Maximum késleltetési idő összegyűjtött sebzésszöveg-események között"
 "TF_CombatTextDropshadow"			"A sebzésszöveg árnyékot vetít ki"
@@ -1575,6 +1589,7 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "ServerBrowser_OfficialOrVerified" 	"Hivatalos vagy megbízható"
 "ServerBrowser_CustomRules"			"Egyedi szabályok"
 "ServerBrowser_CustomWeapons" 		"Egyedi fegyverek"
+
 
 // ----------------------------------------------------------------
 // RETRANSLATIONS BELOW
