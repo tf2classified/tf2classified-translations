@@ -1,0 +1,39 @@
+﻿"lang"
+{
+"Language" "French"
+"Tokens"
+{
+"Tools_Run"						"Éxecuter"
+"Tools_Open"					"Ouvrir"
+"Tools_OpenInExplorer"			"Ouvrir dans l'Explorateur"
+
+"Tools_Applications"			"Applications"
+"Tools_Documentation"			"Documentation"
+"Tools_Other"					"Autre"
+
+"Tools_InvokeInvalid"			"Cet outil a une définition invalide. Veuillez vérifier l'intégrité des fichiers."
+"Tools_InvokeUnknown"			"Une erreur inconnue est remontée lors du lancement de cet outil."
+"Tools_InvokeAlreadyRunning"	"Vous ne pouvez lancer qu'une seule instance de cet outil à la fois."
+"Tools_InvokeWin32Error"		"Une erreur est remontée lors du lancement de cet outil :\n\n%s1"
+
+"Tools_UpdateStatusOK"			"OK"
+"Tools_UpdateStatusFailed"		"ÉCHEC"
+"Tools_UpdateStatusChecking"	"Vérification des mises à jour..."
+"Tools_UpdateStatusDownloading"	"Téléchargement de la mise à jour..."
+"Tools_UpdateStatusInstalling"	"Installation de la mise à jour..."
+
+"Tools_UpdateReasonBadRequest"	"Échec de l'envoi de la requête HTTP. Vérifiez que :\n    - Vous disposez d'une connexion Internet stable.\n    - Votre pare-feu ne bloque pas la requête.\n    - Votre FAI ne bloque pas l'accès à ce domaine."
+"Tools_UpdateReasonToolMissing"	"Échec du téléchargement de la mise à jour : la dernière version n'est pas valide ou ne contient pas l'outil demandé. Consultez la console pour plus d'informations."
+"Tools_UpdateReasonRateLimit"	"Échec du téléchargement de la mise à jour : vous avez atteint la limite de fréquences de requêtes. Veuillez réessayer dans une heure maximum."
+"Tools_UpdateReasonNoDiskSpace"	"Échec de l'installation de la mise à jour : espace disque insuffisant."
+"Tools_UpdateReasonCorrupted"	"Échec de l'installation de la mise à jour : le fichier téléchargé est corrompu."
+
+"Tools_DescHammer"				"Créez et modifiez des Cartes"
+"Tools_DescHLMV"				"Chargez et visualisez des fichiers MDLs"
+"Tools_DescFacePoser"			"Créez des scènes et chorégraphies"
+"Tools_DescEngineTools"			"Lancez les outils du moteur"
+"Tools_TitleMapSources"			"Fichiers source de la Carte"
+"Tools_DescMapSources"			"Les VMFs de différentes Cartes de TF2C"
+"Tools_TitleScriptSamples"		"Exemples de VScript"
+}
+}
