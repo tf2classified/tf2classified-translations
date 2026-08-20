@@ -47,6 +47,18 @@
 "Chat_Filter_Voice"		"Comandos de voz"
 
 // ----------------------------------------------------------------
+// Scrambling
+// ----------------------------------------------------------------
+
+"TF_Scramble_ScoreDiff"			"As equipes serão misturadas automaticamente (há uma diferença significativa de pontuação entre ambas as equipes)"
+"TF_Scramble_NoCap"				"As equipes serão misturadas automaticamente (não houve progressão de objetivos nesta rodada)"
+"TF_Scramble_WinStreak"			"As equipes serão misturadas automaticamente (a equipe %s1 ganhou %s2 vezes seguidas)"
+"TF_Scramble_Manual_NextRound"	"As equipes serão misturadas manualmente na próxima rodada"
+"TF_Scramble_NextRound"			"As equipes serão misturadas na próxima rodada"
+"TF_Scramble_Manual_Now"		"As equipes estão sendo misturadas manualmente"
+"TF_Scramble_Now"				"As equipes estão sendo misturadas"
+
+// ----------------------------------------------------------------
 // General
 // ----------------------------------------------------------------
 
@@ -1072,6 +1084,9 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 // ----------------------------------------------------------------
 // Scoreboard
 // ----------------------------------------------------------------
+
+"TF_ScoreBoard_NextLevel"			"Próximo mapa: %s1"
+
 
 "TF_ScoreBoard_Player"				"%s1 jogador"
 "TF_ScoreBoard_Players"				"%s1 jogadores"

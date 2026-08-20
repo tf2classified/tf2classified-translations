@@ -47,6 +47,18 @@
 "Chat_Filter_Voice"		"Sprachbefehle"
 
 // ----------------------------------------------------------------
+// Scrambling
+// ----------------------------------------------------------------
+
+"TF_Scramble_ScoreDiff"			"Teams werden automatisch gemischt (Großer Unterschied der Punkte zwischen den Teams)"
+"TF_Scramble_NoCap"				"Teams werden automatisch gemischt (Nicht genügend Fortschritte wurden in dieser Runde erzielt)"
+"TF_Scramble_WinStreak"			"Teams werden automatisch gemischt (Team %s1 hat %s2 Mal hintereinander gewonnen)"
+"TF_Scramble_Manual_NextRound"	"Ein Team wird in der nächsten Runde manuell gemischt"
+"TF_Scramble_NextRound"			"Ein Team wird in der nächsten Runde gemischt"
+"TF_Scramble_Manual_Now"		"Teams werden manuell gemischt"
+"TF_Scramble_Now"				"Teams werden gemischt"
+
+// ----------------------------------------------------------------
 // General
 // ----------------------------------------------------------------
 
@@ -1067,6 +1079,8 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 // ----------------------------------------------------------------
 // Scoreboard
 // ----------------------------------------------------------------
+
+"TF_ScoreBoard_NextLevel"			"Nächstes Level: %s1"
 
 "TF_ScoreBoard_JumppadJumpsLabel"	"Sprungpl.:"
 "TF_ScoreBoard_Player"				"%s1 Spieler"
