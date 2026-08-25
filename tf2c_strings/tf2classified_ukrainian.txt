@@ -144,19 +144,21 @@
 "TF_playerid_object_building"			"Зводиться..."
 
 "TF_playerid_object_level"				"Рівень %s1"
-"TF_playerid_object_level_upgrade"		"(Рівень %s1)  -  Покращення: %s2"
-"TF_playerid_object_level_upgrading"	"(Рівень %s1)  -  Покращення..."
-"TF_playerid_object_level_building"		"(Рівень %s1)  -  Зводиться..."
+"TF_playerid_object_level_upgrade"		"Рівень %s1  -  Поліпшення: %s2"
+"TF_playerid_object_level_upgrading"	"Рівень %s1  -  Поліпшується..."
+"TF_playerid_object_level_building"		"Рівень %s1  -  Зводиться..."
 
-"TF_playerid_teleporter_no_entrance"	"  -  Немає входу телепорту"
-"TF_playerid_teleporter_no_exit"		"  -  Немає виходу телепорту"
-"TF_playerid_object_recharging"			"  -  Перезарядка: %s1%"
+"TF_playerid_teleporter_no_entrance"	"  -  Немає входу!"
+"TF_playerid_teleporter_no_exit"		"  -  Немає виходу!"
+"TF_playerid_object_recharging"			"  -  Відновлення: %s1%"
 
 "TF_playerid_object_status_effect"		"(%s1) "
+"TF_playerid_object_disabled"			"Вимкнено"
 "TF_playerid_object_flooded"			"Затоплено"
+"TF_playerid_object_sapped"				"Саботовано"
 
-"TF_playerid_carrying"					"Транспортує: %s1"
-"TF_playerid_carrying_lvl"				"Транспортує: %s1 (Рівень %s2)"
+"TF_playerid_carrying"					"Переносить: %s1"
+"TF_playerid_carrying_lvl"				"Переносить: %s1 (Рівень %s2)"
 
 "TF_friendly"							"Дружній"
 "TF_enemy"								"Ворожий"
@@ -666,6 +668,7 @@
 // Building Status
 "Building_hud_hauling"				"Транспортується..."
 "Building_hud_upgrading"			"Поліпшується..."
+"Building_hud_ready"				"Готово"
 "Building_hud_jumppad_a_not_built"	"Панель А\nНе зведена"
 "Building_hud_jumppad_b_not_built"	"Панель Б\nНе зведена"
 
@@ -915,15 +918,19 @@ RED переможуть, якщо не дадуть VIP дістатися зо
 // Gamemodes
 // ----------------------------------------------------------------
 
-"Gametype_CTF_Penguin"		"Захоплення пінгвіна" // We have fun here
-"Gametype_Domination"		"Панування"
-"Gametype_MedDomination"	"Панування (Середньовіччя)"
-"Gametype_KOTF"				"Король прапора"
-"Gametype_TD"				"Територіальне панування"
-"Gametype_VIP"				"VIP"
-"Gametype_VIPRace"			"VIP-перегони"
+"Gametype_CTF_Penguin"				"Захоплення пінгвіна" // We have fun here
+"Gametype_Domination"				"Панування"
+"Gametype_MedDomination"			"Панування (Середньовіччя)"
+"Gametype_KOTF"						"Король прапора"
+"Gametype_TD"						"Територіальне панування"
+"Gametype_VIP"						"VIP"
+"Gametype_VIPRace"					"VIP-перегони"
+"Gametype_DM"						"Бій насмерть"
+"Gametype_TDM"						"Командний бій насмерть"
+"Gametype_RCTF"						"Зворотне захоплення прапора"
+"Gametype_FF"						"Fortress Forever"
 
-"Gametype_FourTeam"			"Чотири команди"
+"Gametype_FourTeam"					"Чотири команди"
 
 "Gametype_Arena_FourTeam"			"Арена (Чотири команди)"
 "Gametype_AttackDefense_FourTeam"	"Захоплення / Оборона (Чотири команди)"
@@ -940,12 +947,14 @@ RED переможуть, якщо не дадуть VIP дістатися зо
 "Gametype_Training_FourTeam"		"Режим тренування (Чотири команди)"
 "Gametype_VIP_FourTeam"				"VIP (Чотири команди)"
 "Gametype_VIPRace_FourTeam"			"VIP-перегони (Чотири команди)"
+"Gametype_TDM_FourTeam"				"Командний бій насмерть (Чотири команди)"
+"Gametype_RCTF_FourTeam"			"Зворотне захоплення прапора (Чотири команди)"
 
 // Offline practice descriptions
-"TF_GameModeDesc_VIP"			"BLU проводять Цивільного до точки, RED намагаються їх зупинити."
-"TF_GameModeDesc_VIPRace"		"Проведіть Цивільного до останньої точки, перш ніж це зробить ворожа команда."
-"TF_GameModeDesc_Domination"	"Захоплюйте точки та утримуйте їх якомога довше."
-"TF_GameModeDesc_Arena"			"Убийте всіх ворогів або дочекайтеся активації контрольної точки."
+"TF_GameModeDesc_VIP"				"BLU проводять Цивільного до точки, RED намагаються їх зупинити."
+"TF_GameModeDesc_VIPRace"			"Проведіть Цивільного до останньої точки, перш ніж це зробить ворожа команда."
+"TF_GameModeDesc_Domination"		"Захоплюйте точки та утримуйте їх якомога довше."
+"TF_GameModeDesc_Arena"				"Убийте всіх ворогів або дочекайтеся активації контрольної точки."
 
 "TF_GameModeBrief_VIPRace"		"VIP-перегони — обидві команди мають VIP"
 
@@ -982,6 +991,8 @@ BLU можуть утримувати поступ захоплення конт
 
 "Cant_cap_civilian_only"		"Лише VIP може\n захопити цю точку."
 "Cant_cap_civilian_only_frozen"	"Захоплення призупинено\n Лише VIP може\n захопити цю точку."
+
+"TF_CantChangeClassAsVIP"		"Як VIP, ви не можете змінювати клас."
 
 // VIP (Lives)
 "vipl_setup_goal_offense"	"Проведіть VIP до зони евакуації.\nНе дайте його вбити."
@@ -1056,6 +1067,10 @@ BLU можуть утримувати поступ захоплення конт
 "TF_Arena_Welcome"				"Режим арени"
 "TF_Arena_Team_SizeIncreased"	"Розмір команди %s1 збільшено до %s2."
 "TF_Arena_Team_SizeDecreased"	"Розмір команди %s1 збільшено до %s2."
+
+// Randomizer
+"TF_CantChangeClassDuringClassRandomizer"	"Ви не можете змінювати клас у режимі випадкових класів."
+"Hint_randomizer_check_loadout"				"Натисніть «%s1», щоб побачити випадкове спорядження."
 
 // ----------------------------------------------------------------
 // Intro movies
@@ -1156,9 +1171,9 @@ BLU можуть утримувати поступ захоплення конт
 // ----------------------------------------------------------------
 
 "TF_Menu_Welcome"			"З поверненням,"
-"TF_Menu_Name"				"%playername%!"
+"TF_Menu_Name"				"%playername%"
 
-"TF_Menu_HideName"			"[ВИДАЛЕНО]"
+"TF_Menu_StreamerMode"		"Режим стримера"
 
 "TF_Menu_ResumeGame"		"Продовжити гру"
 "TF_Menu_Mute"				"Вимкнути голос гравців"
@@ -1180,8 +1195,11 @@ BLU можуть утримувати поступ захоплення конт
 "TF_Menu_Disconnect"		"Від’єднатися"
 
 "TF_Menu_Blog"				"Офіційний блоґ"
-"TF_Menu_LatestUpdate"		"Останнє оновлення"
 "TF_Menu_ReportBug"			"Повідомити про вади"
+"TF_Menu_Donate"			"Підтримати"
+
+"TF_Menu_ShowFriends"		"Показати друзів"
+"TF_Menu_HideFriends"		"Приховати друзів"
 
 "TF_Friends_Title"					"Друзі (%friend_count%)"
 "TF_Friends_Status_InTF2C"			"Грає в TF2 Classic"
@@ -1194,8 +1212,13 @@ BLU можуть утримувати поступ захоплення конт
 "TF_Friends_Status_Away"			"Байдикує"
 "TF_Friends_Status_Offline"			"Не в мережі"
 
-"ChallengeDetails"					"%s1 як %s2"
+"TF_RichPresence_State_InServer"				"%maptype% - %mapname%"
+"TF_RichPresence_State_InServer_MapNameOnly"	"%mapname%"
+"TF_RichPresence_State_JoiningServer"			"Приєднання до сервера"
 
+"ChallengeDetails"								"%s1 як %s2"
+
+"TF_NextChallenge"								"Наступне випробування"
 
 // ----------------------------------------------------------------
 // Loadout
@@ -1345,6 +1368,12 @@ BLU можуть утримувати поступ захоплення конт
 "TF2C_Tooltip_DamageFeedbackIncoming"		"Звуки, що грають при влучанні по гравцеві"
 "TF2C_Option_DamageFeedbackIncomingVolume"	"Гучність звуків влучань по гравцеві"
 "TF2C_Tooltip_DamageFeedbackIncomingVolume"	"Гучність контекстуальних звуків, що грають при влучанні по гравцеві"
+"TF2C_Option_LowHealthSound"				"Увімкнути попередження про низьке здоровʼя"
+"TF2C_Tooltip_LowHealthSound"				"Якщо ввімкнено, то гратиме попереджувальний звук, коли здоровʼя падатиме нижче вказаного відсотка"
+"TF2C_Option_LowHealthSoundThreshold"		"Пороговий відсоток попередження про низьке здоровʼя"
+"TF2C_Tooltip_LowHealthSoundThreshold"		"Відсоток, при якому гратимуть попереджувальні звуки про низьке здоров'я"
+"TF2C_Option_CalloutBubbles"				"Увімкнути бульбашки команд"
+"TF2C_Tooltip_CalloutBubbles"				"Якщо ввімкнено, відображатиме бульбашки для більшості команд з голосового меню."
 
 "TF_CenterFirePreference"         	"Надавати перевагу стрільбі з центру для снарядів"
 "TF_CenterFirePreference_Tip"    	"Якщо ввімкнено, координата Y позиції снарядів, вистрілених гравцем, дорівнюватиме 0. Гравець має від’єднатись або бути глядачем, щоб перемкнути"
@@ -1358,8 +1387,6 @@ BLU можуть утримувати поступ захоплення конт
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"ПІДРИВНИК: Альтернативний метод атаки Циклопа"
 "TF_CyclopsDoubleTap_Tip"        	"Якщо ввімкнено, гранати Циклопа вибухають після другого натискання, замість відпускання кнопки атаки."
-"TF_SapperAwareness"                "ІНЖЕНЕР: Посилена увага на глушилках"
-"TF_SapperAwareness_Tip"            "Якщо ввімкнено, більшість звуків будуть приглушені, коли на ваших сподурах встановлена глушилка"
 "TF_SniperBell"					    "СНАЙПЕР: Відтворювати звук, коли снайперська гвинтівка повністю заряджена"
 "TF_SniperBell_Tip"					"Якщо ввімкнено, снайперська гвинтівка відтворюватиме звук при повному заряді"
 "TF_ZoomSensitivityRatio"			"СНАЙПЕР: Коефіцієнт чутливості прицілювання"
@@ -1441,6 +1468,12 @@ BLU можуть утримувати поступ захоплення конт
 "TF2c_Option_ClassicShading_Tip"	"Якщо ввімкнено, активує повне ламбертівське освітлення для матеріалів гравців"
 "TF2c_Option_BloomScale"			"Сила сяйва"
 "TF2c_Option_FramerateLimit"		"Обмеження частоти кадрів"
+"TF2c_Option_Brightness"			"Яскравість"
+"TF2c_Option_Brightness_Tip"		"[ТІЛЬКИ В ПОВНОЕКРАННОМУ РЕЖИМІ] Керує гамма-корекцією монітора"
+
+// TF30
+"TF_EnableClassicVision"			"Увімкнути «Класичне бачення»"
+"TF_EnableClassicVision_Tip"		"Використовувати зміст 30-ї річниці Team Fortress.\nЯкщо перемкнуто під час гри, то зміни відбудуться лише після відʼєднання або коли сервер змінюватиме рівень."
 
 // ----------------------------------------------------------------
 // Stats
@@ -1549,6 +1582,33 @@ BLU можуть утримувати поступ захоплення конт
 "TF2C_ACHIEVEMENT_SHAME_DESC"							"Загиньте від ворожого VIP. Це ваше клеймо."
 "TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_NAME"				"Деструктивна критика"
 "TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_DESC"				"Домінуйте над гравцем з медаллю за внесок у гру."
+// TF30 Achievements
+"TF2C_ACHIEVEMENT_JUMPPAD_ENEMY_SPY_BACKSTAB_NAME"		"«Скайфолл»"
+"TF2C_ACHIEVEMENT_JUMPPAD_ENEMY_SPY_BACKSTAB_DESC"		"Зробіть убивство в спину нездовзі після приземлення з ворожої стрибкової панелі."
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_NAME"				"Фен-сервіс"
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_DESC"				"Нехай інші гравці скористуються вашими стрибковими панелями 1,000 разів."
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_ASSIST_NAME"		"Стрибок до успіху"
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_ASSIST_DESC"		"Нехай ваші товариші вб'ють 20 ворогів нездовзі після використання ваших стрибкових панелей."
+"TF2C_ACHIEVEMENT_VIP_PROTECT_UNSEEN_NAME"				"Бос під прикриттям"
+"TF2C_ACHIEVEMENT_VIP_PROTECT_UNSEEN_DESC"				"Як Цивільний, допоможіть вашим товаришам витримати 2000 шкоди, поки ви ховаєтеся."
+"TF2C_ACHIEVEMENT_VIP_TEAMMATE_KILLSTREAK_NAME"			"Усім босам бос"
+"TF2C_ACHIEVEMENT_VIP_TEAMMATE_KILLSTREAK_DESC"			"Допоможіть товаришу вбити 3 ворогів, посиливши його Парасолькою."
+"TF2C_ACHIEVEMENT_KILL_VIP_DAMAGERS_NAME"				"Наглядач за малечею"
+"TF2C_ACHIEVEMENT_KILL_VIP_DAMAGERS_DESC"				"Убийте 20 ворогів, які завдавали шкоди вашому VIP, поки він досі живий."
+"TF2C_ACHIEVEMENT_REVOLVER_KILLS_SINGLE_LIFE_NAME"		"Je Suis James"
+"TF2C_ACHIEVEMENT_REVOLVER_KILLS_SINGLE_LIFE_DESC"		"Убийте 3 ворогів Револьвером за єдине життя."
+"TF2C_ACHIEVEMENT_FIRE_AXE_DEATH_AFTERBURN_NAME"		"Запальний спогад"
+"TF2C_ACHIEVEMENT_FIRE_AXE_DEATH_AFTERBURN_DESC"		"Як Піро, завдайте 1000 шкоди від догарання посмертно."
+"TF2C_ACHIEVEMENT_TELEPORTER_PROGRESSION_NAME"			"Теле-мандри"
+"TF2C_ACHIEVEMENT_TELEPORTER_PROGRESSION_DESC"			"Телепортуйте інших гравців на відстань понад 10 кілометрів."
+"TF2C_ACHIEVEMENT_HARVESTER_COUNTER_LOW_HEALTH_NAME"	"Не бійся женця"
+"TF2C_ACHIEVEMENT_HARVESTER_COUNTER_LOW_HEALTH_DESC"	"Урятуйте 5 товаришів від догаряння, убивши ворожих Піро зі Жнецем."
+"TF2C_ACHIEVEMENT_HEAVY_SHOTGUN_CRITS_NAME"				"Чехо-що?"
+"TF2C_ACHIEVEMENT_HEAVY_SHOTGUN_CRITS_DESC"				"Як Кулеметник, убийте 10 ворогів критами з Рушниці."
+"TF2C_ACHIEVEMENT_BATTLE_MEDIC_NAME"					"Лусни бульбашку"
+"TF2C_ACHIEVEMENT_BATTLE_MEDIC_DESC"					"Як Медик, убийте 5 ворогів, поки знаходитеся в убер-бульбашці Омолоджувача."
+"TF2C_ACHIEVEMENT_CANEASSIST_NAME"						"Очі бояться, а руки роблять"
+"TF2C_ACHIEVEMENT_CANEASSIST_DESC"						"Як Цивільний, допоможіть товаришам убити 50 ворогів, підсиливши їх Біговою тростиною."
 
 // ----------------------------------------------------------------
 // Discord Rich Presence
@@ -1594,6 +1654,13 @@ BLU можуть утримувати поступ захоплення конт
 "ServerBrowser_OfficialOrVerified"	"Офіційний або перевірений"
 "ServerBrowser_CustomRules"			"Користувацькі правила"
 "ServerBrowser_CustomWeapons"		"Користувацька зброя"
+
+// ----------------------------------------------------------------
+// MOTD titles
+// ----------------------------------------------------------------
+
+"TF_Welcome_birthday"			"Вітаємо, і з днем народження TF2!"
+"TF_Welcome_qwtf_birthday"		"Вітаємо, і з днем народження QWTF!"
 
 // ----------------------------------------------------------------
 // Team Fortress 2 overrides
