@@ -153,7 +153,9 @@
 "TF_playerid_object_recharging"			"  -  Újratöltés: %s1%"
 
 "TF_playerid_object_status_effect"		"(%s1) "
+"TF_playerid_object_disabled"			"Leállítva"
 "TF_playerid_object_flooded"			"Elárasztva"
+"TF_playerid_object_sapped"				"Mentesítve"
 
 "TF_playerid_carrying"					"Épületet visz: %s1"
 "TF_playerid_carrying_lvl"				"Épületet visz: %s1 (%s2. szint)"
@@ -664,8 +666,9 @@
 // ----------------------------------------------------------------
 
 // Building Status
-"Building_hud_hauling"              "Épületet visz..."
+"Building_hud_hauling"              "Szállítás alatt..."
 "Building_hud_upgrading"			"Fejlesztés..."
+"Building_hud_ready"				"Üzemkész"
 "Building_hud_jumppad_a_not_built"	"Ugrató A\nNincs építve"
 "Building_hud_jumppad_b_not_built"	"Ugrató B\nNincs építve"
 
@@ -915,15 +918,19 @@ Csak dicsőséges kézitusa és kardvívás!"
 // Gamemodes
 // ----------------------------------------------------------------
 
-"Gametype_CTF_Penguin"		"Pingvinrablás" // We have fun here
-"Gametype_Domination"		"Uralom"
-"Gametype_MedDomination"	"Uralom (Középkori)"
-"Gametype_KOTF"				"A Zászló Királya"
-"Gametype_TD"				"Terület-uralom"
-"Gametype_VIP"				"VIP"
-"Gametype_VIPRace"			"VIP-verseny"
+"Gametype_CTF_Penguin"				"Pingvinrablás" // We have fun here
+"Gametype_Domination"				"Uralom"
+"Gametype_MedDomination"			"Uralom (Középkori)"
+"Gametype_KOTF"						"A Zászló Királya"
+"Gametype_TD"						"Terület-uralom"
+"Gametype_VIP"						"VIP"
+"Gametype_VIPRace"					"VIP-verseny"
+"Gametype_DM"						"Deathmatch"
+"Gametype_TDM"						"Deathmatch (Csapatjáték)"
+"Gametype_RCTF"						"Inverz Zászlórablás"
+"Gametype_FF"						"Fortress Forever"
 
-"Gametype_FourTeam"	        "Négy-Csapatos"
+"Gametype_FourTeam"	        		"Négy-Csapatos"
 
 "Gametype_Arena_FourTeam"			"Aréna (Négy-Csapatos)"
 "Gametype_AttackDefense_FourTeam"	"Támadó / Védekező (Négy-Csapatos)"
@@ -940,14 +947,16 @@ Csak dicsőséges kézitusa és kardvívás!"
 "Gametype_Training_FourTeam"		"Kiképzés mód (Négy-Csapatos)"
 "Gametype_VIP_FourTeam"				"VIP (Négy-Csapatos)"
 "Gametype_VIPRace_FourTeam"			"VIP-verseny (Négy-Csapatos)"
+"Gametype_TDM_FourTeam"				"Deathmatch (Négy-Csapatos)"
+"Gametype_RCTF_FourTeam"			"Inverz Zászlórablás (Négy-Csapatos)"
 
 // Offline practice descriptions
-"TF_GameModeDesc_VIP"			"A BLU elkíséri a Civilt. A RED-nek ezt meg kell akadályoznia."
-"TF_GameModeDesc_VIPRace"		"Kísérjétek el a Civileteket a célhoz mielőtt a másik csapat ugyan ezt tenné."
-"TF_GameModeDesc_Domination"	"Foglaljatok el ellenőrzőpontokat és minél tovább tartsátok meg őket."
-"TF_GameModeDesc_Arena"			"Öljetek meg mindenkit vagy várjátok meg amíg megnyílik az ellenőrzőpont."
+"TF_GameModeDesc_VIP"				"A BLU elkíséri a Civilt. A RED-nek ezt meg kell akadályoznia."
+"TF_GameModeDesc_VIPRace"			"Kísérjétek el a Civileteket a célhoz mielőtt a másik csapat ugyan ezt tenné."
+"TF_GameModeDesc_Domination"		"Foglaljatok el ellenőrzőpontokat és minél tovább tartsátok meg őket."
+"TF_GameModeDesc_Arena"				"Öljetek meg mindenkit vagy várjátok meg amíg megnyílik az ellenőrzőpont."
 
-"TF_GameModeBrief_VIPRace"		"VIP Verseny - Mindkét csapat rendelkezik VIP-val"
+"TF_GameModeBrief_VIPRace"			"VIP Verseny - Mindkét csapat rendelkezik VIP-val"
 
 // ----------------------------------------------------------------
 // Gamemode strings
@@ -982,6 +991,8 @@ A BLU csapat meg tudja állítani a foglalás állapotát ha nincs jelen a VIP."
 
 "Cant_cap_civilian_only"		"Csak a VIP\n foglalhatja el ezt a pontot."
 "Cant_cap_civilian_only_frozen"	"Foglalás befagyasztva\n Csak a VIP\n foglalhatja el ezt a pontot."
+
+"TF_CantChangeClassAsVIP"		"VIP-ként nem tudsz osztályt váltani."
 
 // VIP (Lives)
 "vipl_setup_goal_offense"	"Kísérd el a VIP-t a menekülőzónához. Ne hagyd, hogy megöljék őt."
@@ -1056,6 +1067,10 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_Arena_Welcome"				"Aréna mód"
 "TF_Arena_Team_SizeIncreased"	"A %s1 csapat mérete növelve: %s2"
 "TF_Arena_Team_SizeDecreased"	"A %s1 csapat mérete csökkentve: %s2"
+
+// Randomizer
+"TF_CantChangeClassDuringClassRandomizer"	"Nem tudsz osztályt váltani, ha azok randomizálva vannak."
+"Hint_randomizer_check_loadout"				"A(z) %s1 megnyomásával megnézheted a randomizált felszerelésed."
 
 // ----------------------------------------------------------------
 // Intro movies
@@ -1183,6 +1198,9 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_Menu_ReportBug"			"Hibajelentés"
 "TF_Menu_Donate"			"Adomány"
 
+"TF_Menu_ShowFriends"		"Barátok mutatása"
+"TF_Menu_HideFriends"		"Barátok elrejtése"
+
 "TF_Friends_Title"					"Barátok (%friend_count%)"
 "TF_Friends_Status_InTF2C"			"TF2C-vel játszik"
 "TF_Friends_Status_Idle_InTF2C"		"TF2C-ben tétlen"
@@ -1194,7 +1212,13 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_Friends_Status_Away"			"Távol van"
 "TF_Friends_Status_Offline"			"Offline"
 
-"ChallengeDetails"					"%s1 mint a(z) %s2"
+"TF_RichPresence_State_InServer"				"%maptype% - %mapname%"
+"TF_RichPresence_State_InServer_MapNameOnly"	"%mapname%"
+"TF_RichPresence_State_JoiningServer"			"Szerverre csatlakozik"
+
+"ChallengeDetails"					"%s1, mint %s2"
+
+"TF_NextChallenge"								"Következő kihívás"
 
 
 // ----------------------------------------------------------------
@@ -1345,6 +1369,12 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF2C_Tooltip_DamageFeedbackIncoming"		"Az elszenvedett sebzéshangokat akkor hallod, ha épp sebeznek"
 "TF2C_Option_DamageFeedbackIncomingVolume"	"Elszenvedett sebzéshang hangereje"
 "TF2C_Tooltip_DamageFeedbackIncomingVolume"	"Az elszenvedett sebzés visszajelzésének hangereje"
+"TF2C_Option_LowHealthSound"				"Figyelmeztető hang alacsony életerőnél"
+"TF2C_Tooltip_LowHealthSound"				"Ha be van kapcsolva, figyelmeztető hangot fogsz hallani ha egy bizonyos százalék alá csökken az életerőd"
+"TF2C_Option_LowHealthSoundThreshold"		"Figyelmeztető hang küszöbértéke"
+"TF2C_Tooltip_LowHealthSoundThreshold"		"Életerő százalék, amely alatt a figyelmeztető hang lejátszódik"
+"TF2C_Option_CalloutBubbles"				"Jelbuborékok bekapcsolása"
+"TF2C_Tooltip_CalloutBubbles"				"Ha be van kapcsolva, a legtöbb hangparancs buborékként jelenik a játékosok feje felett."
 
 "TF_CenterFirePreference"         	"Középről kilövő lövedékek előnyben részesítése"
 "TF_CenterFirePreference_Tip"    	"Ha be van kapcsolva, a lövedékek születési Y koordináta pozíciója 0 lesz a játékosnál; az érvényesítéshez a játékosnak lecsatlakozottnak vagy nézőnek kell lennie"
@@ -1358,8 +1388,6 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"ROBBANTÓS: Küklopsz „dupla kattintás” bekapcsolása"
 "TF_CyclopsDoubleTap_Tip"        	"Ha be van kapcsolva, a Küklopsz gránátjai egy második kattintás után fognak élesíteni, az elsődleges tűzgomb elengedése helyett"
-"TF_SapperAwareness"                "MÉRNÖK: Mentesítő figyelem"
-"TF_SapperAwareness_Tip"            "Ha be van kapcsolva, az épületeken egy alternatív színnel fog figyelmeztetni, ha azt mentesítik"
 "TF_SniperBell"					    "MESTERLÖVÉSZ: Hangjelzés teljes töltöttségkor"
 "TF_SniperBell_Tip"					"A mesterlövész puskák automatikus hangjelzést adnak, amikor teljesen fel vannak töltve"
 "TF_ZoomSensitivityRatio"			"MESTERLÖVÉSZ: Ráközelítés érzékenységi értéke"
@@ -1441,6 +1469,12 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF2c_Option_ClassicShading_Tip"	"Ha be van kapcsolva, teljes-lamberti árnyékolást fog használni a játékostextúrákon."
 "TF2c_Option_BloomScale"	        "HDR ragyogás mértéke"
 "TF2c_Option_FramerateLimit"		"Képfrissítés limit"
+"TF2c_Option_Brightness"			"Fényerő"
+"TF2c_Option_Brightness_Tip"		"[CSAK TELJESKÉPERNYŐN] Monitor fényerejének beállítása"
+
+// TF30
+"TF_EnableClassicVision"			"Klassziklátás bekapcsolása"
+"TF_EnableClassicVision_Tip"		"A Team Fortress 30. évfordulói tartalmának használata.\nHa játék közben van bekapcsolva, a változások csak lecsatlakozáskor vagy pályaváltáskor lesznek érvényesek."
 
 // ----------------------------------------------------------------
 // Stats
@@ -1549,6 +1583,33 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF2C_ACHIEVEMENT_SHAME_DESC"							"Ess áldozatul az ellenséges VIP-nak. Ezennel meg lettél bélyegezve."
 "TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_NAME"				"Romboló kritika"
 "TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_DESC"				"Alázz le egy játékost akinek hozzájárulói medálja van."
+// TF30 Achievements
+"TF2C_ACHIEVEMENT_JUMPPAD_ENEMY_SPY_BACKSTAB_NAME"		"Zuhanórepülés"
+"TF2C_ACHIEVEMENT_JUMPPAD_ENEMY_SPY_BACKSTAB_DESC"		"Döfj le valakit rövidesen egy ellenséges Ugrató használata után."
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_NAME"				"Kedvenc szolgáltató"
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_DESC"				"Haszálják az Ugratódat 1,000 alkalommal."
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_ASSIST_NAME"		"Egérút"
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_ASSIST_DESC"		"Öljenek meg 20 ellenfelet a csapattársaid rövidesen az Ugratód használata után."
+"TF2C_ACHIEVEMENT_VIP_PROTECT_UNSEEN_NAME"				"A titkos főnök"
+"TF2C_ACHIEVEMENT_VIP_PROTECT_UNSEEN_DESC"				"Civilként, segíts a csapattársaidnak 2000 sebzéspontot ellenállni ameddig te fedezékben vagy."
+"TF2C_ACHIEVEMENT_VIP_TEAMMATE_KILLSTREAK_NAME"			"A világ legjobb főnöke"
+"TF2C_ACHIEVEMENT_VIP_TEAMMATE_KILLSTREAK_DESC"			"Öljön meg a csapattársad 3 ellenfelet az Esernyőd erősítésével."
+"TF2C_ACHIEVEMENT_KILL_VIP_DAMAGERS_NAME"				"Vigyázzatok az apróságra"
+"TF2C_ACHIEVEMENT_KILL_VIP_DAMAGERS_DESC"				"Ölj meg 20 ellenfelet akik nemrég sebezték a csapatod VIP-ját, miközben még él."
+"TF2C_ACHIEVEMENT_REVOLVER_KILLS_SINGLE_LIFE_NAME"		"Je Suis James"
+"TF2C_ACHIEVEMENT_REVOLVER_KILLS_SINGLE_LIFE_DESC"		"Ölj meg 3 ellenfelet a Revolverrel egyetlen élet alatt."
+"TF2C_ACHIEVEMENT_FIRE_AXE_DEATH_AFTERBURN_NAME"		"Egy égő emlék"
+"TF2C_ACHIEVEMENT_FIRE_AXE_DEATH_AFTERBURN_DESC"		"Piróként, okozz 1000 továbbégési sebzést miután már meghaltál."
+"TF2C_ACHIEVEMENT_TELEPORTER_PROGRESSION_NAME"			"Tele-turizmus"
+"TF2C_ACHIEVEMENT_TELEPORTER_PROGRESSION_DESC"			"Teleportálj más játékosokat több mint 10 kilóméterre."
+"TF2C_ACHIEVEMENT_HARVESTER_COUNTER_LOW_HEALTH_NAME"	"Ne féld a kaszást"
+"TF2C_ACHIEVEMENT_HARVESTER_COUNTER_LOW_HEALTH_DESC"	"Ments meg 5 csapattársat a halálra égéstől úgy, hogy megölsz egy ellenséges Pirót akinél a Betakarító van."
+"TF2C_ACHIEVEMENT_HEAVY_SHOTGUN_CRITS_NAME"				"Csehov mije?"
+"TF2C_ACHIEVEMENT_HEAVY_SHOTGUN_CRITS_DESC"				"Gépágyúsként szerezz 10 kritkus ölést a Sörétes puskáddal."
+"TF2C_ACHIEVEMENT_BATTLE_MEDIC_NAME"					"Buborékpukkasztó"
+"TF2C_ACHIEVEMENT_BATTLE_MEDIC_DESC"					"Ölj meg 5 ellenfelet miközben a Fiatalító ÜberTöltés-buborékjában vagy."
+"TF2C_ACHIEVEMENT_CANEASSIST_NAME"						"Gyorsan és rombolva"
+"TF2C_ACHIEVEMENT_CANEASSIST_DESC"						"Civilként, segítsd csapattársaidat 50 ellenfél megölésében a Derbi pálca gyorsításával."
 
 // ----------------------------------------------------------------
 // Discord Rich Presence
@@ -1595,6 +1656,12 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "ServerBrowser_CustomRules"			"Egyedi szabályok"
 "ServerBrowser_CustomWeapons" 		"Egyedi fegyverek"
 
+// ----------------------------------------------------------------
+// MOTD titles
+// ----------------------------------------------------------------
+
+"TF_Welcome_birthday"			"Üdvözlet és boldog születésnapot TF2!"
+"TF_Welcome_qwtf_birthday"		"Üdvözlet és boldog születésnapot QWTF!"
 
 // ----------------------------------------------------------------
 // RETRANSLATIONS BELOW
