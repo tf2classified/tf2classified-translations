@@ -150,7 +150,7 @@
 
 "TF_playerid_teleporter_no_entrance"	"  -  Немає входу!"
 "TF_playerid_teleporter_no_exit"		"  -  Немає виходу!"
-"TF_playerid_object_recharging"			"  -  Відновлення: %s1%"
+"TF_playerid_object_recharging"			"  -  Перезарядка: %s1%"
 
 "TF_playerid_object_status_effect"		"(%s1) "
 "TF_playerid_object_disabled"			"Вимкнено"
