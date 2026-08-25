@@ -121,9 +121,10 @@
 "TF_playerid_diffteam"					"feindlicher %s1 %s2"
 "TF_playerid_noteam"					"%s1"
 "TF_playerid_friendlyspy_disguise"		"Verkleidet als %s1 %s2"
-"TF_playerid_wpn_ammo_clip"				"%s1  -  Muni: %s2 (%s3)"
-"TF_playerid_wpn_ammo"					"%s1  -  Muni: %s2"
+
 "TF_playerid_wpn"						"%s1"
+"TF_playerid_wpn_ammo"					"%s1  -  Muni: %s2"
+"TF_playerid_wpn_ammo_clip"				"%s1  -  Muni: %s2 (%s3)"
 
 // Boosts
 "TF_playerid_healer"					"Heiler: "
@@ -136,27 +137,29 @@
 // Buildings
 "TF_playerid_object"					"%s1 gebaut von %s2"
 "TF_playerid_object_diffteam"			"%s1 gebaut vom Gegner %s2"
-"TF_playerid_object_mini"				"Mini-%s1 gebaut von %s2"
-"TF_playerid_object_mode"				"%s1 %s3 gebaut von %s2"
-"TF_playerid_object_level"				"Level %s1"
-"TF_playerid_object_upgrade"			"Upgrade-Fortschritt: %s1"
-"TF_playerid_object_upgrade_level"		"Level %s1  -  Upgrade-Fortschritt: %s2"
-"TF_playerid_object_upgrading"			"Wird upgegradet..."
-"TF_playerid_object_upgrading_level"	"Level %s1  -  Wird upgegradet..."
+"TF_playerid_object_mini"				"Mini-%s1 (%s2)"
+"TF_playerid_object_mode"				"%s1 %s3 (%s2)"
+"TF_playerid_object_ownerless"			"%s1"
+
 "TF_playerid_object_building"			"Wird gebaut..."
-"TF_playerid_object_building_level"		"Level %s1  -  Wird gebaut..."
-"TF_playerid_object_tranq"				" (SABOTIERT)"
+
+"TF_playerid_object_level"				"Level %s1"
+"TF_playerid_object_level_upgrade"		"(Level %s1) Upgrade-Fortschritt: %s2"
+"TF_playerid_object_level_upgrading"	"(Level %s1) Wird upgegradet..."
+"TF_playerid_object_level_building"		"(Level %s1) Wird gebaut..."
+
 "TF_playerid_teleporter_no_entrance"	"  -  Kein Eingang-Teleporter"
 "TF_playerid_teleporter_no_exit"		"  -  Kein Ausgang-Teleporter"
 "TF_playerid_object_recharging"			"  -  Neu laden: %s1%"
-"TF_playerid_object_inactive"			"Inaktiv"
-"TF_playerid_object_ready"				"Bereit"
+
+"TF_playerid_object_status_effect"		"(%s1) "
 "TF_playerid_object_flooded"			"Überflutet"
+
 "TF_playerid_carrying"					"Gebäude: %s1"
 "TF_playerid_carrying_lvl"				"Gebäude: %s1 (Level %s2)"
 
-"TF_friendly"	"verbündeter"
-"TF_enemy"		"gegnerischer"
+"TF_friendly"							"verbündeter"
+"TF_enemy"								"gegnerischer"
 
 // ----------------------------------------------------------------
 // Respawning

@@ -112,13 +112,14 @@
 "TF_playerid_diffteam"					"%s1Враг: %s2"
 "TF_playerid_noteam"					"%s1"
 "TF_playerid_friendlyspy_disguise"		"Выглядит как %s1 %s2"
-"TF_playerid_wpn_ammo_clip"				"%s1  -  Патроны: %s2 (%s3)"
-"TF_playerid_wpn_ammo"					"%s1  -  Патроны: %s2"
+
 "TF_playerid_wpn"						"%s1"
+"TF_playerid_wpn_ammo"					"%s1  -  Патроны: %s2"
+"TF_playerid_wpn_ammo_clip"				"%s1  -  Патроны: %s2 (%s3)"
 
 // Boosts
-"TF_playerid_healer"					"Вас лечит: "
-"TF_playerid_healtarget"				"Пациент: "
+"TF_playerid_healer"					"(Вас лечит) "
+"TF_playerid_healtarget"				"(Пациент) "
 "TF_playerid_mediccharge"				"Убер-заряд: %s1%"
 "TF_playerid_mediccharge_wpn"			"%s1  -  Убер-заряд: %s2%"
 "TF_playerid_civiliancharge"			"Усиление: %s1%"
@@ -129,22 +130,27 @@
 "TF_playerid_object_diffteam"			"Враг %s1 (%s2)"
 "TF_playerid_object_mini"				"Мини-%s1 (%s2)"
 "TF_playerid_object_mode"				"%s1 %s3 (%s2) "
-"TF_playerid_object_level"				"Уровень %s1"
-"TF_playerid_object_upgrade"			"Улучшение: %s1"
-"TF_playerid_object_upgrade_level"		"Уровень %s1  -  Улучшение: %s2"
-"TF_playerid_object_upgrading"			"Улучшается..."
-"TF_playerid_object_upgrading_level"	"Уровень %s1  -  Улучшается..."
+"TF_playerid_object_ownerless"			"%s1"
+
 "TF_playerid_object_building"			"Возводится..."
-"TF_playerid_object_building_level"		"Уровень %s1  -  Возводится..."
+
+"TF_playerid_object_level"				"Уровень %s1"
+"TF_playerid_object_level_upgrade"		"(Уровень %s1) Улучшение: %s2"
+"TF_playerid_object_level_upgrading"	"(Уровень %s1) Улучшается..."
+"TF_playerid_object_level_building"		"(Уровень %s1) Возводится..."
+
 "TF_playerid_teleporter_no_entrance"	"  -  Нет входа"
 "TF_playerid_teleporter_no_exit"		"  -  Нет выхода"
 "TF_playerid_object_recharging"			"  -  Перезарядка: %s1%"
+
+"TF_playerid_object_status_effect"		"(%s1) "
 "TF_playerid_object_flooded"			"Под водой"
+
 "TF_playerid_carrying"					"Несет: %s1"
 "TF_playerid_carrying_lvl"				"Несет: %s1 (Уровень %s2)"
 
-"TF_friendly"	"дружественный"
-"TF_enemy"		"вражеский"
+"TF_friendly"							"дружественный"
+"TF_enemy"								"вражеский"
 
 // ----------------------------------------------------------------
 // Respawning

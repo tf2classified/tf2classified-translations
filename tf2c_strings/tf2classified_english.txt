@@ -121,9 +121,10 @@
 "TF_playerid_diffteam"					"%s1(Enemy) %s2"
 "TF_playerid_noteam"					"%s1"
 "TF_playerid_friendlyspy_disguise"		"Disguised (%s1 %s2)"
-"TF_playerid_wpn_ammo_clip"				"%s1  -  Ammo: %s2 (%s3)"
-"TF_playerid_wpn_ammo"					"%s1  -  Ammo: %s2"
+
 "TF_playerid_wpn"						"%s1"
+"TF_playerid_wpn_ammo"					"%s1  -  Ammo: %s2"
+"TF_playerid_wpn_ammo_clip"				"%s1  -  Ammo: %s2 (%s3)"
 
 // Boosts
 "TF_playerid_healer"					"(Healer) "
@@ -138,20 +139,26 @@
 "TF_playerid_object_diffteam"			"Enemy %s1 (%s2)"
 "TF_playerid_object_mini"				"Mini-%s1 (%s2)"
 "TF_playerid_object_mode"				"%s1 %s3 (%s2) "
-"TF_playerid_object_level"				"Level %s1"
-"TF_playerid_object_upgrade"			"Upgrade: %s1"
-"TF_playerid_object_upgrade_level"		"Level %s1  -  Upgrade: %s2"
-"TF_playerid_object_upgrading"			"Upgrading..."
-"TF_playerid_object_upgrading_level"	"Level %s1  -  Upgrading..."
+"TF_playerid_object_ownerless"			"%s1"
+
 "TF_playerid_object_building"			"Building..."
-"TF_playerid_object_building_level"		"Level %s1  -  Building..."
-"TF_playerid_object_tranq"				" (SABOTAGED)"
-"TF_playerid_teleporter_no_entrance"	"  -  No Teleporter Entrance"
-"TF_playerid_teleporter_no_exit"		"  -  No Teleporter Exit"
+
+"TF_playerid_object_level"				"Level %s1"
+"TF_playerid_object_level_upgrade"		"Level %s1  -  Upgrade: %s2"
+"TF_playerid_object_level_upgrading"	"Level %s1  -  Upgrading..."
+"TF_playerid_object_level_building"		"Level %s1  -  Building..."
+
+"TF_playerid_object_no_entrance"		"  -  No Teleporter Entrance!"
+"TF_playerid_object_no_exit"			"  -  No Teleporter Exit!"
 "TF_playerid_object_recharging"			"  -  Recharging: %s1%"
+
+"TF_playerid_object_status_effect"		"(%s1) "
+"TF_playerid_object_disabled"			"Disabled"
 "TF_playerid_object_flooded"			"Flooded"
-"TF_playerid_carrying"					"Carrying: %s1"
-"TF_playerid_carrying_lvl"				"Carrying: %s1 (Level %s2)"
+"TF_playerid_object_sapped"				"Sapped"
+
+"TF_playerid_carrying"					"Hauling: %s1"
+"TF_playerid_carrying_lvl"				"Hauling: %s1 (Level %s2)"
 
 "TF_friendly"							"Friendly"
 "TF_enemy"								"Enemy"
@@ -661,6 +668,7 @@
 // Building Status
 "Building_hud_hauling"				"Hauling..."
 "Building_hud_upgrading"			"Upgrading..."
+"Building_hud_ready"				"Ready"
 "Building_hud_jumppad_a_not_built"	"Jump Pad A\nNot Built"
 "Building_hud_jumppad_b_not_built"	"Jump Pad B\nNot Built"
 
@@ -910,15 +918,19 @@ Honorable hand to sword combat only!"
 // Gamemodes
 // ----------------------------------------------------------------
 
-"Gametype_CTF_Penguin"		"Capture the Penguin" // We have fun here
-"Gametype_Domination"		"Domination"
-"Gametype_MedDomination"	"Domination (Medieval)"
-"Gametype_KOTF"				"King of the Flag"
-"Gametype_TD"				"Territorial Domination"
-"Gametype_VIP"				"VIP"
-"Gametype_VIPRace"			"VIP Race"
+"Gametype_CTF_Penguin"				"Capture the Penguin" // We have fun here
+"Gametype_Domination"				"Domination"
+"Gametype_MedDomination"			"Domination (Medieval)"
+"Gametype_KOTF"						"King of the Flag"
+"Gametype_TD"						"Territorial Domination"
+"Gametype_VIP"						"VIP"
+"Gametype_VIPRace"					"VIP Race"
+"Gametype_DM"						"Deathmatch"
+"Gametype_TDM"						"Team Deathmatch"
+"Gametype_RCTF"						"Reverse Capture the Flag"
+"Gametype_FF"						"Fortress Forever"
 
-"Gametype_FourTeam"			"Four-Team"
+"Gametype_FourTeam"					"Four-Team"
 
 "Gametype_Arena_FourTeam"			"Arena (Four-Team)"
 "Gametype_AttackDefense_FourTeam"	"Attack / Defense (Four-Team)"
@@ -935,14 +947,16 @@ Honorable hand to sword combat only!"
 "Gametype_Training_FourTeam"		"Training Mode (Four-Team)"
 "Gametype_VIP_FourTeam"				"VIP (Four-Team)"
 "Gametype_VIPRace_FourTeam"			"VIP Race (Four-Team)"
+"Gametype_TDM_FourTeam"				"Team Deathmatch (Four-Team)"
+"Gametype_RCTF_FourTeam"			"Reverse Capture the Flag (Four-Team)"
 
 // Offline practice descriptions
-"TF_GameModeDesc_VIP"			"BLU escorts the Civilian to a control point. RED needs to stop them."
-"TF_GameModeDesc_VIPRace"		"Escort your Civilian to the finish line before the opposing team does."
-"TF_GameModeDesc_Domination"	"Capture points and hold them for as long as possible."
-"TF_GameModeDesc_Arena"			"Eliminate all enemy players or wait for the control point to unlock."
+"TF_GameModeDesc_VIP"				"BLU escorts the Civilian to a control point. RED needs to stop them."
+"TF_GameModeDesc_VIPRace"			"Escort your Civilian to the finish line before the opposing team does."
+"TF_GameModeDesc_Domination"		"Capture points and hold them for as long as possible."
+"TF_GameModeDesc_Arena"				"Eliminate all enemy players or wait for the control point to unlock."
 
-"TF_GameModeBrief_VIPRace"		"VIP Race - Both teams have VIPs"
+"TF_GameModeBrief_VIPRace"			"VIP Race - Both teams have VIPs"
 
 // ----------------------------------------------------------------
 // Gamemode strings
@@ -977,6 +991,8 @@ BLU team can freeze the capture progress of a Control Point if the VIP isn't pre
 
 "Cant_cap_civilian_only"		"Only the VIP can\n capture this point."
 "Cant_cap_civilian_only_frozen"	"Capture Frozen\n Only the VIP can\n capture this point."
+
+"TF_CantChangeClassAsVIP"		"You can't change class as the VIP."
 
 // VIP (Lives)
 "vipl_setup_goal_offense"	"Escort the VIP to the Escape Zone. Prevent him from being eliminated."
@@ -1051,6 +1067,10 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_Arena_Welcome"				"Arena Mode"
 "TF_Arena_Team_SizeIncreased"	"%s1 Team size increased to %s2."
 "TF_Arena_Team_SizeDecreased"	"%s1 Team size decreased to %s2."
+
+// Randomizer
+"TF_CantChangeClassDuringClassRandomizer"	"You can't change class while they're randomized."
+"Hint_randomizer_check_loadout"				"Press '%s1' key to view randomized loadout."
 
 // ----------------------------------------------------------------
 // Intro movies
@@ -1151,9 +1171,9 @@ Team ownership of Control Points is randomized at the start of each round."
 // ----------------------------------------------------------------
 
 "TF_Menu_Welcome"			"Welcome back,"
-"TF_Menu_Name"				"%playername%!"
+"TF_Menu_Name"				"%playername%"
 
-"TF_Menu_HideName"			"[REDACTED]"
+"TF_Menu_StreamerMode"		"Streamer Mode"
 
 "TF_Menu_ResumeGame"		"Resume Game"
 "TF_Menu_Mute"				"Mute Players"
@@ -1178,18 +1198,27 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_Menu_ReportBug"			"Report a Bug"
 "TF_Menu_Donate"			"Donate"
 
-"TF_Friends_Title"					"Friends (%friend_count%)"
-"TF_Friends_Status_InTF2C"			"Playing TF2C"
-"TF_Friends_Status_Idle_InTF2C"		"Idle in TF2C"
-"TF_Friends_Status_InMod"			"Playing other mod"
-"TF_Friends_Status_Idle_InMod"		"Idle in other mod"
-"TF_Friends_Status_InGame"			"Playing other game"
-"TF_Friends_Status_Idle"			"Idle in other game"
-"TF_Friends_Status_Online"			"Online"
-"TF_Friends_Status_Away"			"Away"
-"TF_Friends_Status_Offline"			"Offline"
+"TF_Menu_ShowFriends"		"Show Friends"
+"TF_Menu_HideFriends"		"Hide Friends"
 
-"ChallengeDetails"					"%s1 as the %s2"
+"TF_Friends_Title"								"Friends (%friend_count%)"
+"TF_Friends_Status_InTF2C"						"Playing TF2C"
+"TF_Friends_Status_Idle_InTF2C"					"Idle in TF2C"
+"TF_Friends_Status_InMod"						"Playing other mod"
+"TF_Friends_Status_Idle_InMod"					"Idle in other mod"
+"TF_Friends_Status_InGame"						"Playing other game"
+"TF_Friends_Status_Idle"						"Idle in other game"
+"TF_Friends_Status_Online"						"Online"
+"TF_Friends_Status_Away"						"Away"
+"TF_Friends_Status_Offline"						"Offline"
+
+"TF_RichPresence_State_InServer"				"%maptype% - %mapname%"
+"TF_RichPresence_State_InServer_MapNameOnly"	"%mapname%"
+"TF_RichPresence_State_JoiningServer"			"Joining Server"
+
+"ChallengeDetails"								"%s1 as the %s2"
+
+"TF_NextChallenge"								"Next Challenge"
 
 
 // ----------------------------------------------------------------
@@ -1340,6 +1369,12 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF2C_Tooltip_DamageFeedbackIncoming"		"Incoming damage feedback sounds play when taking damage"
 "TF2C_Option_DamageFeedbackIncomingVolume"	"Damage feedback incoming volume"
 "TF2C_Tooltip_DamageFeedbackIncomingVolume"	"The volume of the contextual sounds played when taking damage"
+"TF2C_Option_LowHealthSound"				"Enable low health warning sound"
+"TF2C_Tooltip_LowHealthSound"				"If set, plays a warning sound when health drops below a set percentage"
+"TF2C_Option_LowHealthSoundThreshold"		"Low health warning sound threshold percentage"
+"TF2C_Tooltip_LowHealthSoundThreshold"		"The percentage at which the low health warning sound will play"
+"TF2C_Option_CalloutBubbles"				"Enable callout bubbles"
+"TF2C_Tooltip_CalloutBubbles"				"If set, shows callout bubbles for most voice menu commands."
 
 "TF_CenterFirePreference"         	"Prefer projectiles to fire from the center"
 "TF_CenterFirePreference_Tip"    	"If set, projectiles' spawn position Y coordinate is set to 0 for player; requires player to be disconnected or spectating to apply"
@@ -1353,8 +1388,6 @@ Team ownership of Control Points is randomized at the start of each round."
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"DEMOMAN: Enable Cyclops double-tap"
 "TF_CyclopsDoubleTap_Tip"        	"If set, Cyclops grenades will require a second click to detonate, instead of letting go of primary fire"
-"TF_SapperAwareness"                "ENGINEER: Sapper awareness"
-"TF_SapperAwareness_Tip"            "If set, sapper warning on buildings alerts in an alternative color"
 "TF_SniperBell"					    "SNIPER: Play Sound on Full Charge"
 "TF_SniperBell_Tip"					"Play a sound when the Sniper rifle is fully charged"
 "TF_ZoomSensitivityRatio"			"SNIPER: Zoom sensitivity ratio"
@@ -1436,6 +1469,12 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF2c_Option_ClassicShading_Tip"	"If set, enables full-lambertian shading for player materials"
 "TF2c_Option_BloomScale"			"Bloom scale"
 "TF2c_Option_FramerateLimit"		"Framerate Limit"
+ "TF2c_Option_Brightness"			"Brightness level"
+"TF2c_Option_Brightness_Tip"		"[FULLSCREEN ONLY] Adjust monitor gamma level"
+
+// TF30
+"TF_EnableClassicVision"			"Enable Classic-Vision"
+"TF_EnableClassicVision_Tip"		"Use the Team Fortress 30th Anniversary content.\nIf toggled while in-game, the change will only take effect after disconnecting or when the server changes level."
 
 // ----------------------------------------------------------------
 // Stats
@@ -1528,7 +1567,7 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_DESC"				"Expose an invisible L'escampette Spy by damaging him."
 "TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_NAME"			"The Entrepreneur"
 "TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_DESC"			"Win a round of VIP as the Civilian without dying once."
-"TF2C_ACHIEVEMENT_VIPR_TIME_NAME"						"Fast-track Status"
+"TF2C_ACHIEVEMENT_VIPR_TIME_NAME"						"Fast-Track Status"
 "TF2C_ACHIEVEMENT_VIPR_TIME_DESC"						"Win a round of VIP Race in under three minutes."
 "TF2C_ACHIEVEMENT_ARCHAEOLOGY_NAME"						"Archaeology"
 "TF2C_ACHIEVEMENT_ARCHAEOLOGY_DESC"						"Discover the buried treasure in Jinn."
@@ -1544,6 +1583,33 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF2C_ACHIEVEMENT_SHAME_DESC"							"Die to the enemy VIP. You have been branded."
 "TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_NAME"				"Destructive Criticism"
 "TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_DESC"				"Dominate a player with a contributor medal."
+// TF30 Achievements
+"TF2C_ACHIEVEMENT_JUMPPAD_ENEMY_SPY_BACKSTAB_NAME"		"Skyfall"
+"TF2C_ACHIEVEMENT_JUMPPAD_ENEMY_SPY_BACKSTAB_DESC"		"Get a backstab kill shortly after using an enemy Jump Pad."
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_NAME"				"Fan Service"
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_DESC"				"Have other players use your Jump Pads 1,000 times."
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_ASSIST_NAME"		"Jumpstarter"
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_ASSIST_DESC"		"Have teammates get 20 kills shortly after using your Jump Pads."
+"TF2C_ACHIEVEMENT_VIP_PROTECT_UNSEEN_NAME"				"Undercover Boss"
+"TF2C_ACHIEVEMENT_VIP_PROTECT_UNSEEN_DESC"				"As the Civilian, help your teammates resist 2000 damage from enemies while you're behind cover."
+"TF2C_ACHIEVEMENT_VIP_TEAMMATE_KILLSTREAK_NAME"			"World's Best Boss"
+"TF2C_ACHIEVEMENT_VIP_TEAMMATE_KILLSTREAK_DESC"			"Have a teammate buffed by your Umbrella kill 3 enemies."
+"TF2C_ACHIEVEMENT_KILL_VIP_DAMAGERS_NAME"				"Look Out for the Little Guy"
+"TF2C_ACHIEVEMENT_KILL_VIP_DAMAGERS_DESC"				"Kill 20 enemies that recently damaged your VIP while he is still alive."
+"TF2C_ACHIEVEMENT_REVOLVER_KILLS_SINGLE_LIFE_NAME"		"Je Suis James"
+"TF2C_ACHIEVEMENT_REVOLVER_KILLS_SINGLE_LIFE_DESC"		"Get 3 kills with the Revolver in a single life."
+"TF2C_ACHIEVEMENT_FIRE_AXE_DEATH_AFTERBURN_NAME"		"A Burning Memory"
+"TF2C_ACHIEVEMENT_FIRE_AXE_DEATH_AFTERBURN_DESC"		"As a Pyro, deal a total of 1000 afterburn damage while dead."
+"TF2C_ACHIEVEMENT_TELEPORTER_PROGRESSION_NAME"			"Tele Tourism"
+"TF2C_ACHIEVEMENT_TELEPORTER_PROGRESSION_DESC"			"Teleport other players over 10 kilometers."
+"TF2C_ACHIEVEMENT_HARVESTER_COUNTER_LOW_HEALTH_NAME"	"Don't Fear the Reaper"
+"TF2C_ACHIEVEMENT_HARVESTER_COUNTER_LOW_HEALTH_DESC"	"Save 5 teammates from burning to death by killing enemy Pyros wielding the Harvester."
+"TF2C_ACHIEVEMENT_HEAVY_SHOTGUN_CRITS_NAME"				"Chekhov's What?"
+"TF2C_ACHIEVEMENT_HEAVY_SHOTGUN_CRITS_DESC"				"As a Heavy, get 10 critical kills with the Shotgun."
+"TF2C_ACHIEVEMENT_BATTLE_MEDIC_NAME"					"Burst Your Bubble"
+"TF2C_ACHIEVEMENT_BATTLE_MEDIC_DESC"					"As a Medic, get 5 kills while ÜberCharging yourself with the Rejuvenator."
+"TF2C_ACHIEVEMENT_CANEASSIST_NAME"						"Move Fast and Break Things"
+"TF2C_ACHIEVEMENT_CANEASSIST_DESC"						"As the Civilian, assist your allies in killing 50 enemies with your Derby Cane's speed boost."
 
 // ----------------------------------------------------------------
 // Discord Rich Presence
@@ -1589,5 +1655,12 @@ Team ownership of Control Points is randomized at the start of each round."
 "ServerBrowser_OfficialOrVerified" 	"Official or Verified"
 "ServerBrowser_CustomRules"			"Custom Rules"
 "ServerBrowser_CustomWeapons" 		"Custom Weapons"
+
+// ----------------------------------------------------------------
+// MOTD titles
+// ----------------------------------------------------------------
+
+"TF_Welcome_birthday"			"Welcome and Happy Birthday TF2!"
+"TF_Welcome_qwtf_birthday"		"Welcome and Happy Birthday QWTF!"
 }
 }

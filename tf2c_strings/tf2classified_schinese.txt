@@ -47,6 +47,18 @@
 "Chat_Filter_Voice"		"语音指令"
 
 // ----------------------------------------------------------------
+// Scrambling
+// ----------------------------------------------------------------
+
+"TF_Scramble_ScoreDiff"			"队伍将自动重新平衡（双方比分差距过大）"
+"TF_Scramble_NoCap"				"队伍将自动重新平衡（本回合未取得足够的目标进度）"
+"TF_Scramble_WinStreak"			"队伍将自动重新平衡（%s2 已连续获胜 %s1 次）"
+"TF_Scramble_Manual_NextRound"	"队伍平衡已手动安排在下一回合"
+"TF_Scramble_NextRound"			"队伍平衡已安排在下一回合"
+"TF_Scramble_Manual_Now"		"正在手动重新平衡队伍"
+"TF_Scramble_Now"				"正在重新平衡队伍"
+
+// ----------------------------------------------------------------
 // General
 // ----------------------------------------------------------------
 
@@ -109,9 +121,10 @@
 "TF_playerid_diffteam"					"%s1敌人：%s2"
 "TF_playerid_noteam"					"%s1"
 "TF_playerid_friendlyspy_disguise"		"伪装成 %s1 %s2"
-"TF_playerid_wpn_ammo_clip"				"%s1  -  弹药：%s2 (%s3)"
-"TF_playerid_wpn_ammo"					"%s1  -  弹药：%s2"
+
 "TF_playerid_wpn"						"%s1"
+"TF_playerid_wpn_ammo"					"%s1  -  弹药：%s2"
+"TF_playerid_wpn_ammo_clip"				"%s1  -  弹药：%s2 (%s3)"
 
 // Boosts
 "TF_playerid_healer"					"（治疗者） "
@@ -126,23 +139,27 @@
 "TF_playerid_object_diffteam"			"敌人 %s1 (%s2)"
 "TF_playerid_object_mini"				"迷你%s1 (%s2)"
 "TF_playerid_object_mode"				"%s1 %s3 (%s2) "
-"TF_playerid_object_level"				"等级：%s1"
-"TF_playerid_object_upgrade"			"升级进度：%s1"
-"TF_playerid_object_upgrade_level"		"等级：%s1  -  升级进度 %s2"
-"TF_playerid_object_upgrading"			"正在升级..."
-"TF_playerid_object_upgrading_level"	"等级：%s1  -  正在升级..."
+"TF_playerid_object_ownerless"			"%s1"
+
 "TF_playerid_object_building"			"正在建造..."
-"TF_playerid_object_building_level"		"等级：%s1  -  正在建造..."
-"TF_playerid_object_tranq"				" （被入侵）"
+
+"TF_playerid_object_level"				"等级：%s1"
+"TF_playerid_object_level_upgrade"		"(等级：%s1) 升级进度 %s2"
+"TF_playerid_object_level_upgrading"	"(等级：%s1) 正在升级..."
+"TF_playerid_object_level_building"		"(等级：%s1) 正在建造..."
+
 "TF_playerid_teleporter_no_entrance"	"  -  没有匹配的传送装置入口!"
 "TF_playerid_teleporter_no_exit"		"  -  没有匹配的传送装置出口!"
 "TF_playerid_object_recharging"			"  -  重新充能中：%s1%"
+
+"TF_playerid_object_status_effect"		"(%s1) "
 "TF_playerid_object_flooded"			"被水淹没"
+
 "TF_playerid_carrying"					"正在搬运：%s1"
 "TF_playerid_carrying_lvl"				"正在搬运：%s1（等级：%s2）"
 
-"TF_friendly"	"友方"
-"TF_enemy"		"敌方"
+"TF_friendly"							"友方"
+"TF_enemy"								"敌方"
 
 // ----------------------------------------------------------------
 // Respawning
@@ -649,6 +666,7 @@
 // Building Status
 "Building_hud_hauling"				"建造中..."
 "Building_hud_upgrading"			"正在升级..."
+"Building_hud_ready"				"就绪"
 "Building_hud_jumppad_a_not_built"	"跳板 A\n未建造"
 "Building_hud_jumppad_b_not_built"	"跳板 B\n未建造"
 
@@ -688,7 +706,7 @@
 "Attrib_MeleeTakenBecomesCritWearer"				"穿戴时：受到的近战伤害造成爆击"
 "Attrib_MoveSpeed_Bonus_Cloaked"					"隐身时 +%s1% 移动速度"
 "Attrib_LoseCloakOnDamage"							"隐身时受伤 -%s1% 隐身能量"
-"Attrib_TranqOnHit"									"击中时：给予受害者色盲效果，并在 %s1 秒内降低目标的移动速度和远程武器伤害\n被麻醉的敌人受到近战攻击必定造成爆击伤害。"
+"Attrib_TranqOnHit"									"击中时：给予受害者色盲效果，并在 %s1 秒内降低目标的移动速度和远程武器伤害\n被麻醉的敌人受到近战攻击必定造成爆击伤害"
 "Attrib_CloakRegenDisabled"							"不会主动恢复隐身能量"
 "Attrib_FishwhackerSweep"							"对附近的敌人产生击退"
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"击退作用受武器伤害影响"
@@ -966,6 +984,8 @@
 "Cant_cap_civilian_only"		"只有VIP才能\n占领这个控制点。"
 "Cant_cap_civilian_only_frozen"	"无法占领\n只有VIP才能\n占领这个控制点。"
 
+"TF_CantChangeClassAsVIP"		"作为 VIP 时无法更换兵种"
+
 // VIP (Lives)
 "vipl_setup_goal_offense"	"护送VIP前往撤离区域，保护他免受刺客追杀。"
 "vipl_setup_goal_defense"	"杀死敌方的VIP或阻止他抵达撤离区域即可获胜。"
@@ -1040,6 +1060,10 @@
 "TF_Arena_Team_SizeIncreased"	"%s1 团队人数已增加至 %s2。"
 "TF_Arena_Team_SizeDecreased"	"%s1 团队人数已减少至 %s2。"
 
+// Randomizer
+"TF_CantChangeClassDuringClassRandomizer"	"你无法在随机兵种期间更换兵种"
+"Hint_randomizer_check_loadout"				"按下 '%s1' 键查看随机配置。"
+
 // ----------------------------------------------------------------
 // Intro movies
 // ----------------------------------------------------------------
@@ -1070,6 +1094,8 @@
 // ----------------------------------------------------------------
 // Scoreboard
 // ----------------------------------------------------------------
+
+"TF_ScoreBoard_NextLevel"			"下一张地图：%s1"
 
 "TF_ScoreBoard_Player"				"%s1 位玩家"
 "TF_ScoreBoard_Players"				"%s1 位玩家"
@@ -1137,9 +1163,9 @@
 // ----------------------------------------------------------------
 
 "TF_Menu_Welcome"			"欢迎回来，"
-"TF_Menu_Name"				"%playername%！"
+"TF_Menu_Name"				"%playername%"
 
-"TF_Menu_HideName"			"[已编辑]"
+"TF_Menu_StreamerMode"		"直播模式"
 
 "TF_Menu_ResumeGame"		"回到游戏"
 "TF_Menu_Mute"				"屏蔽玩家"
@@ -1164,6 +1190,9 @@
 "TF_Menu_ReportBug"			"汇报错误"
 "TF_Menu_Donate"			"贊助"
 
+"TF_Menu_ShowFriends"		"显示好友列表"
+"TF_Menu_HideFriends"		"隐藏好友列表"
+
 "TF_Friends_Title"					"好友（%friend_count%）"
 "TF_Friends_Status_InTF2C"		    "正在游玩军团要塞2：秘典"
 "TF_Friends_Status_Idle_InTF2C"	    "在军团要塞2：秘典里闲置"
@@ -1175,7 +1204,12 @@
 "TF_Friends_Status_Away"		    "离开"
 "TF_Friends_Status_Offline"		    "离线"
 
+"TF_RichPresence_State_InServer"		"在服务器里 - %mapname% (%maptype%)"
+"TF_RichPresence_State_JoiningServer"	"加入服务器"
+
 "ChallengeDetails"					"%s1 作为 %s2"
+
+"TF_NextChallenge"					"下一项挑战"
 
 
 // ----------------------------------------------------------------
@@ -1326,6 +1360,8 @@
 "TF2C_Tooltip_DamageFeedbackIncoming"		"受到伤害时会播放受击命中反馈音效。"
 "TF2C_Option_DamageFeedbackIncomingVolume"	"受击命中反馈音效音量"
 "TF2C_Tooltip_DamageFeedbackIncomingVolume"	"受到伤害时播放的命中反馈音效音量。"
+"TF2C_Option_CalloutBubbles"				"启用语音指令气泡"
+"TF2C_Tooltip_CalloutBubbles"				"若选中此选项，将会在大多数语音菜单指令上显示人物语音气泡。"
 
 "TF_CenterFirePreference"         	"首选从中心区域发射子弹"
 "TF_CenterFirePreference_Tip"    	"若选中此选项，玩家的子弹生成位置将变为中心位置发射；需要玩家重新连接或处于旁观状态才能应用。"
@@ -1339,8 +1375,6 @@
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"爆破手：启用独眼巨炮双击引爆"
 "TF_CyclopsDoubleTap_Tip"        	"若选中此选项，独眼巨炮的榴弹需要双击两次才会引爆，而不是松开开火键。"
-"TF_SapperAwareness"                "工程师：电子工兵感应"
-"TF_SapperAwareness_Tip"            "若选中此选项，将以另一种颜色显示建筑物上的电子工兵警告提示。"
 "TF_SniperBell"					    "狙击步枪完全充能时播放提示音"
 "TF_SniperBell_Tip"					"当狙击步枪完全充能时会播放提示音效。"
 "TF_ZoomSensitivityRatio"			"狙击手：狙击枪瞄准镜缩放灵敏度"
@@ -1366,12 +1400,12 @@
 "TF_BottomRight"                  "右下角"
 "TF_OverlayToastInsetHoriz"       "Steam 游戏内通知显示水平线方向"
 "TF_OverlayToastInsetVert"        "Steam 游戏内通知显示垂直线方向"
-"TF_TargetID_Floating_Health"	  "Target ID - 启用悬浮生命值图标"
+"TF_TargetID_Floating_Health"	  "目标ID - 启用悬浮生命值图标"
 "TF_TargetID_Floating_Health_Tip" "若选中此选项，会在角色上方显示生命值图标。"
-"TF_TargetID_Alpha"				  "Target ID - 名称面板背景透明度"
-"TF_TargetID_Alpha_Tip"			  "设置Target ID的名称面板背景透明度。"
-"TF_TargetID_Show_Avatars"		  "Target ID - 在Target ID上显示头像"
-"TF_TargetID_Show_Avatars_Tip"	  "在Target ID上显示玩家的Steam头像。"
+"TF_TargetID_Alpha"				  "目标ID - 名称面板背景透明度"
+"TF_TargetID_Alpha_Tip"			  "设置目标ID的名称面板背景透明度。"
+"TF_TargetID_Show_Avatars"		  "目标ID - 在目标ID上显示头像"
+"TF_TargetID_Show_Avatars_Tip"	  "在目标ID上显示玩家的Steam头像。"
 "TF_HideKeybinds"                 "隐藏显示游戏内键位绑定"
 "TF_HideKeybinds_Tip"			  "禁用游戏HUD上键位绑定显示功能。"
 "TF_AlternativeTimer"             "使用替代的游戏内倒计时界面"
@@ -1422,6 +1456,12 @@
 "TF2c_Option_ClassicShading_Tip"	"若选中此选项，将对玩家模型材质启用 full-lambertian 着色。"
 "TF2c_Option_BloomScale"	        "泛光效果（此选项会影响性能。1.0为默认值）"
 "TF2c_Option_FramerateLimit"		"游戏帧数限制"
+ "TF2c_Option_Brightness"			"亮度等级"
+"TF2c_Option_Brightness_Tip"		"[仅限全屏] 调整显示器伽马值"
+
+// TF30
+"TF_EnableClassicVision"			"启用经典视觉效果"
+"TF_EnableClassicVision_Tip"		"使用军团要塞 30 周年纪念内容。\n如果在游戏中启用并切换，此更改将在断开服务器连接后或服务器切换地图时才会生效。"
 
 // ----------------------------------------------------------------
 // Stats
@@ -1483,7 +1523,7 @@
 "TF2C_ACHIEVEMENT_EXTINGUISH_BOMBLETS_NAME"				"生日狂欢"
 "TF2C_ACHIEVEMENT_EXTINGUISH_BOMBLETS_DESC"				"通过压缩空气反弹 20 个集束炸药。"
 "TF2C_ACHIEVEMENT_KILL_SENTRY_WITH_NAILGUN_NAME"		"钉破防线"
-"TF2C_ACHIEVEMENT_KILL_SENTRY_WITH_NAILGUN_DESC"		"用钉枪摧毁 5 座步哨枪。"
+"TF2C_ACHIEVEMENT_KILL_SENTRY_WITH_NAILGUN_DESC"		"使用钉枪摧毁 5 座步哨枪炮塔。"
 "TF2C_ACHIEVEMENT_BRICK_NAME"							"石专"
 "TF2C_ACHIEVEMENT_BRICK_DESC"							"..."
 "TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_NAME"				"破釜沉舟"
@@ -1530,6 +1570,33 @@
 "TF2C_ACHIEVEMENT_SHAME_DESC"							"被敌方 VIP 杀死。简直就是耻辱。"
 "TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_NAME"				"毁灭性批判"
 "TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_DESC"				"控制一名获得贡献者勋章的玩家。"
+// TF30 Achievements
+"TF2C_ACHIEVEMENT_JUMPPAD_ENEMY_SPY_BACKSTAB_NAME"		"信仰之跃"
+"TF2C_ACHIEVEMENT_JUMPPAD_ENEMY_SPY_BACKSTAB_DESC"		"在使用敌方跳板后的一段时间内获得背刺击杀。"
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_NAME"				"一帆风顺"
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_DESC"				"让其他玩家使用你的跳板次数累计达到 1000 次。"
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_ASSIST_NAME"		"快速弹射"
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_ASSIST_DESC"		"让队友使用你的跳板后一段时间内累计获得 20 次击杀。"
+"TF2C_ACHIEVEMENT_VIP_PROTECT_UNSEEN_NAME"				"神秘头目"
+"TF2C_ACHIEVEMENT_VIP_PROTECT_UNSEEN_DESC"				"作为平民，在你被掩护的同时帮助你的队友在敌人火力下承受 2000 点伤害。"
+"TF2C_ACHIEVEMENT_VIP_TEAMMATE_KILLSTREAK_NAME"			"世上最好的老板"
+"TF2C_ACHIEVEMENT_VIP_TEAMMATE_KILLSTREAK_DESC"			"让你的队友在你雨伞的增益效果加强下杀死 3 名敌人。"
+"TF2C_ACHIEVEMENT_KILL_VIP_DAMAGERS_NAME"				"看着点那位小人物"
+"TF2C_ACHIEVEMENT_KILL_VIP_DAMAGERS_DESC"				"在护送目标还活着的情况下杀死 20 个攻击你护送目标的敌人。"
+"TF2C_ACHIEVEMENT_REVOLVER_KILLS_SINGLE_LIFE_NAME"		"我，詹姆斯邦德"
+"TF2C_ACHIEVEMENT_REVOLVER_KILLS_SINGLE_LIFE_DESC"		"在一次生命内使用左轮手枪击杀 3 名敌人。"
+"TF2C_ACHIEVEMENT_FIRE_AXE_DEATH_AFTERBURN_NAME"		"燃烧的记忆"
+"TF2C_ACHIEVEMENT_FIRE_AXE_DEATH_AFTERBURN_DESC"		"作为火焰兵，在你死后造成 1000 点后续燃烧伤害。"
+"TF2C_ACHIEVEMENT_TELEPORTER_PROGRESSION_NAME"			"传送之旅"
+"TF2C_ACHIEVEMENT_TELEPORTER_PROGRESSION_DESC"			"使用传送装置传送其他玩家的距离综合到达 10 千米。"
+"TF2C_ACHIEVEMENT_HARVESTER_COUNTER_LOW_HEALTH_NAME"	"无惧死神"
+"TF2C_ACHIEVEMENT_HARVESTER_COUNTER_LOW_HEALTH_DESC"	"杀掉使用收割者的敌方火焰兵，拯救 5 名即将被烧死的队友。"
+"TF2C_ACHIEVEMENT_HEAVY_SHOTGUN_CRITS_NAME"				"契诃夫的啥？"
+"TF2C_ACHIEVEMENT_HEAVY_SHOTGUN_CRITS_DESC"				"作为机枪手，使用散弹枪达成 10 个爆击击杀。"
+"TF2C_ACHIEVEMENT_BATTLE_MEDIC_NAME"					"戳破你的幻想"
+"TF2C_ACHIEVEMENT_BATTLE_MEDIC_DESC"					"使用妙手回春炮激活 Ubercharg 的同时获得 5 次击杀。"
+"TF2C_ACHIEVEMENT_CANEASSIST_NAME"						"快速行动，打破常规"
+"TF2C_ACHIEVEMENT_CANEASSIST_DESC"						"作为平民，利用德比手杖的急速增益协助队友杀死 50 名敌人。"
 
 // ----------------------------------------------------------------
 // Discord Rich Presence
@@ -1575,5 +1642,12 @@
 "ServerBrowser_OfficialOrVerified"  "官方或者已验证"
 "ServerBrowser_CustomRules"	        "自定义规则"
 "ServerBrowser_CustomWeapons"       "自定义武器"
+
+// ----------------------------------------------------------------
+// MOTD titles
+// ----------------------------------------------------------------
+
+"TF_Welcome_birthday"			"欢迎，祝军团要塞2生日快乐！"
+"TF_Welcome_qwtf_birthday"		"欢迎，祝雷神之锤军团要塞生日快乐！"
 }
 }

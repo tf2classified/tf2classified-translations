@@ -106,9 +106,10 @@
 "TF_playerid_diffteam"				"%s1(Wróg) %s2"
 "TF_playerid_noteam"				"%s1"
 "TF_playerid_friendlyspy_disguise"	"Przebrany (%s1 %s2)"
-"TF_playerid_wpn_ammo_clip"			"%s1  -  Amunicja: %s2 (%s3)"
-"TF_playerid_wpn_ammo"				"%s1  -  Amunicja: %s2"
+
 "TF_playerid_wpn"					"%s1"
+"TF_playerid_wpn_ammo"				"%s1  -  Amunicja: %s2"
+"TF_playerid_wpn_ammo_clip"			"%s1  -  Amunicja: %s2 (%s3)"
 
 // Boosts
 "TF_playerid_healer"				"(Leczący) "
@@ -123,17 +124,22 @@
 "TF_playerid_object_diffteam"			"Wróg %s1 (%s2)"
 "TF_playerid_object_mini"				"Mini-%s1 (%s2)"
 "TF_playerid_object_mode"				"%s1 %s3 (%s2) "
-"TF_playerid_object_level"				"Poziom %s1."
-"TF_playerid_object_upgrade"			"Postęp ulepszania: %s1"
-"TF_playerid_object_upgrade_level"		"Poziom %s1.  -  Postęp ulepszania: %s2"
-"TF_playerid_object_upgrading"			"Ulepszanie..."
-"TF_playerid_object_upgrading_level"	"Poziom %s1.  -  Ulepszanie..."
+"TF_playerid_object_ownerless"			"%s1"
+
 "TF_playerid_object_building"			"Budowanie..."
-"TF_playerid_object_building_level"		"Poziom %s1.  -  Budowanie..."
+
+"TF_playerid_object_level"				"Poziom %s1"
+"TF_playerid_object_level_upgrade"		"(Poziom %s1) Postęp ulepszania: %s2"
+"TF_playerid_object_level_upgrading"	"(Poziom %s1) Ulepszanie..."
+"TF_playerid_object_level_building"		"(Poziom %s1) Budowanie..."
+
 "TF_playerid_teleporter_no_entrance"	"  -  Brak wejścia teleportu"
 "TF_playerid_teleporter_no_exit"		"  -  Brak wyjścia teleportu"
 "TF_playerid_object_recharging"			"  -  Ponowne ładowanie: %s1%"
+
+"TF_playerid_object_status_effect"		"(%s1) "
 "TF_playerid_object_flooded"			"Pod wodą"
+
 "TF_playerid_carrying"					"Przenoszenie: %s1"
 "TF_playerid_carrying_lvl"				"Przenoszenie: %s1 (Poziom %s2.)"
 

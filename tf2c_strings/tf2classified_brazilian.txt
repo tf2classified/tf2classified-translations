@@ -123,40 +123,46 @@
 "TF_playerid_diffteam"			        "%s1Inimigo(a): %s2"
 "TF_playerid_noteam"					"%s1"
 "TF_playerid_friendlyspy_disguise"		"Disfarçado como um %s2 %s1"
-"TF_playerid_wpn_ammo_clip"				"%s1\nMunição: %s2 / %s3"
-"TF_playerid_wpn_ammo"					"%s1\nMunição: %s2"
+
 "TF_playerid_wpn"						"%s1"
+"TF_playerid_wpn_ammo"					"%s1\nMunição: %s2"
+"TF_playerid_wpn_ammo_clip"				"%s1\nMunição: %s2 / %s3"
 
 // Boosts
-"TF_playerid_healer"					"Cura por: "
-"TF_playerid_healtarget"				"Curando: "
+"TF_playerid_healer"					"(Cura por) "
+"TF_playerid_healtarget"				"(Curando) "
 "TF_playerid_mediccharge"				"ÜberCarga: %s1"
 "TF_playerid_mediccharge_wpn"			"ÜberCarga: %s1 (%s2%)"
 "TF_playerid_civiliancharge"			"Bancando: %s1"
 "TF_playerid_civiliancharge_wpn"		"Bancando: %s1 (%s2%)"
 
 // Buildings
-"TF_playerid_object"					"%s1: construção de %s2"
-"TF_playerid_object_diffteam"			"%s1 do inimigo: construção de %s2"
-"TF_playerid_object_mini"				"Mini-%s1: construção de %s2"
-"TF_playerid_object_mode"				"%s1 - %s3: construção de %s2"
-"TF_playerid_object_level"				"( Nível %s1 )"
-"TF_playerid_object_upgrade"			"Aprimoramento: %s1"
-"TF_playerid_object_upgrade_level"		"( Nível %s1 ) Aprimoramento: %s2"
-"TF_playerid_object_upgrading"			"Aprimorando..."
-"TF_playerid_object_upgrading_level"	"( Nível %s1 ) Aprimorando..."
+"TF_playerid_object"					"%s1 (%s2)"
+"TF_playerid_object_diffteam"			"%s1 do inimigo (%s2)"
+"TF_playerid_object_mini"				"Mini-%s1 (%s2)"
+"TF_playerid_object_mode"				"%s1 %s3 (%s2)"
+"TF_playerid_object_ownerless"			"%s1"
+
 "TF_playerid_object_building"			"Construindo..."
-"TF_playerid_object_building_level"		"( Nível %s1 ) Construindo..."
-"TF_playerid_object_tranq"				" (SABOTADO)"
+
+"TF_playerid_object_level"				"Nível %s1"
+"TF_playerid_object_level_upgrade"		"(Nível %s1) Aprimoramento: %s2"
+"TF_playerid_object_level_upgrading"	"(Nível %s1) Aprimorando..."
+"TF_playerid_object_level_building"		"(Nível %s1) Construindo..."
+
+
 "TF_playerid_teleporter_no_entrance"	"  -  Sem entrada"
 "TF_playerid_teleporter_no_exit"		"  -  Sem saída"
 "TF_playerid_object_recharging"			"  -  Recarregando: %s1%"
-"TF_playerid_object_flooded"			"Inundado"
-"TF_playerid_carrying"					"Carregando: %s1"
-"TF_playerid_carrying_lvl"				"Carregando: %s1 ( Nível %s2 )"
 
-"TF_friendly"	"Aliado"
-"TF_enemy"		"Inimigo"
+"TF_playerid_object_status_effect"		"(%s1) "
+"TF_playerid_object_flooded"			"Inundado"
+
+"TF_playerid_carrying"					"Carregando: %s1"
+"TF_playerid_carrying_lvl"				"Carregando: %s1 (Nível %s2)"
+
+"TF_friendly"							"Aliado"
+"TF_enemy"								"Inimigo"
 
 // ----------------------------------------------------------------
 // Respawning

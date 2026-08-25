@@ -121,9 +121,10 @@
 "TF_playerid_diffteam"					"%s1(Ellenség) %s2"
 "TF_playerid_noteam"					"%s1"
 "TF_playerid_friendlyspy_disguise"		"Jelmezben (%s1 %s2)"
-"TF_playerid_wpn_ammo_clip"				"%s1  -  Lőszer: %s2 (%s3)"
-"TF_playerid_wpn_ammo"					"%s1  -  Lőszer: %s2"
+
 "TF_playerid_wpn"						"%s1"
+"TF_playerid_wpn_ammo"					"%s1  -  Lőszer: %s2"
+"TF_playerid_wpn_ammo_clip"				"%s1  -  Lőszer: %s2 (%s3)"
 
 // Boosts
 "TF_playerid_healer"					"(Gyógyító) "
@@ -138,23 +139,27 @@
 "TF_playerid_object_diffteam"			"Ellenséges %s1 (%s2)"
 "TF_playerid_object_mini"				"Mini-%s1 (%s2)"
 "TF_playerid_object_mode"				"%s1 %s3 (%s2) "
-"TF_playerid_object_level"				"%s1. szint"
-"TF_playerid_object_upgrade"			"Fejl. állapot: %s1"
-"TF_playerid_object_upgrade_level"		"%s1. szint  -  Fejl. állapot: %s2"
-"TF_playerid_object_upgrading"			"Fejlesztés..."
-"TF_playerid_object_upgrading_level"	"%s1. szint  -  Fejlesztés..."
+"TF_playerid_object_ownerless"			"%s1"
+
 "TF_playerid_object_building"			"Épül..."
-"TF_playerid_object_building_level"		"%s1. szint  -  Épül..."
-"TF_playerid_object_tranq"				" (SZABOTÁLVA)"
+
+"TF_playerid_object_level"				"%s1 szint"
+"TF_playerid_object_level_upgrade"		"%s1 szint) Fejl. állapot: %s2"
+"TF_playerid_object_level_upgrading"	"(%s1 szint) Fejlesztés..."
+"TF_playerid_object_level_building"		"(%s1 szint) Épül..."
+
 "TF_playerid_teleporter_no_entrance"	"  -  Nincs Teleport bejárat"
 "TF_playerid_teleporter_no_exit"		"  -  Nincs Teleport kijárat"
 "TF_playerid_object_recharging"			"  -  Újratöltés: %s1%"
+
+"TF_playerid_object_status_effect"		"(%s1) "
 "TF_playerid_object_flooded"			"Elárasztva"
+
 "TF_playerid_carrying"					"Épületet visz: %s1"
 "TF_playerid_carrying_lvl"				"Épületet visz: %s1 (%s2. szint)"
 
-"TF_friendly"	"Baráti"
-"TF_enemy"		"Ellenséges"
+"TF_friendly"							"Baráti"
+"TF_enemy"								"Ellenséges"
 
 // ----------------------------------------------------------------
 // Respawning

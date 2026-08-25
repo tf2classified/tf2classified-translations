@@ -94,13 +94,14 @@
 "TF_playerid_diffteam"					"%s1Inimigo %s2"
 "TF_playerid_noteam"					"%s1"
 "TF_playerid_friendlyspy_disguise"		"Disfarçado de %s1 %s2"
-"TF_playerid_wpn_ammo_clip"				"%s1  -  Munições: %s2 (%s3)"
-"TF_playerid_wpn_ammo"					"%s1  -  Munições: %s2"
+
 "TF_playerid_wpn"						"%s1"
+"TF_playerid_wpn_ammo"					"%s1  -  Munições: %s2"
+"TF_playerid_wpn_ammo_clip"				"%s1  -  Munições: %s2 (%s3)"
 
 // Boosts
-"TF_playerid_healer"					"Curado por: "
-"TF_playerid_healtarget"				"A curar: "
+"TF_playerid_healer"					"(Curado por) "
+"TF_playerid_healtarget"				"(A curar) "
 "TF_playerid_mediccharge"				"ÜberCarga: %s1%"
 "TF_playerid_mediccharge_wpn"			"ÜberCarga: %s1% (%s2)"
 "TF_playerid_civiliancharge"            "Reforço: %s1%"
@@ -111,17 +112,22 @@
 "TF_playerid_object_diffteam"			"%s1 do inimigo: construção de %s2"
 "TF_playerid_object_mini"				"Mini-%s1: construção de %s2"
 "TF_playerid_object_mode"				"%s1 %s3: construção de %s2"
-"TF_playerid_object_level"				"(Nível %s1)"
-"TF_playerid_object_upgrade"			"Melhoria: %s1"
-"TF_playerid_object_upgrade_level"		"(Nível %s1) Melhoria: %s2"
-"TF_playerid_object_upgrading"			"Progresso da Melhoria: %s1"
-"TF_playerid_object_upgrading_level"	"(Nível %s1) Progresso da Melhoria: %s2"
+"TF_playerid_object_ownerless"			"%s1"
+
 "TF_playerid_object_building"			"A construir..."
-"TF_playerid_object_building_level"		"(Nível %s1) A construir..."
+
+"TF_playerid_object_level"				"Nível %s1"
+"TF_playerid_object_level_upgrade"		"(Nível %s1) Melhoria: %s2"
+"TF_playerid_object_level_upgrading"	"(Nível %s1) Progresso da Melhoria: %s2"
+"TF_playerid_object_level_building"		"(Nível %s1) A construir..."
+
 "TF_playerid_teleporter_no_entrance"	"Sem entrada!"
 "TF_playerid_teleporter_no_exit"		"Sem saída!"
 "TF_playerid_object_recharging"			"A recarregar: %s1%"
+
+"TF_playerid_object_status_effect"		"(%s1) "
 "TF_playerid_object_flooded"			"Inundado"
+
 "TF_playerid_carrying"					"A carregar: %s1"
 "TF_playerid_carrying_lvl"				"A carregar: %s1 (Nível %s2)"
 

@@ -109,9 +109,10 @@
 "TF_playerid_diffteam"					"%s1(Düşman) %s2"
 "TF_playerid_noteam"					"%s1"
 "TF_playerid_friendlyspy_disguise"		"%s1 %s2 Kılığında"
-"TF_playerid_wpn_ammo_clip"				"%s1  -  Cephane: %s2 (%s3)"
-"TF_playerid_wpn_ammo"					"%s1  -  Cephane: %s2"
+
 "TF_playerid_wpn"						"%s1"
+"TF_playerid_wpn_ammo"					"%s1  -  Cephane: %s2"
+"TF_playerid_wpn_ammo_clip"				"%s1  -  Cephane: %s2 (%s3)"
 
 // Boosts
 "TF_playerid_healer"					"(İyileştiren) "
@@ -126,18 +127,22 @@
 "TF_playerid_object_diffteam"			"Düşman %s1 (%s2)"
 "TF_playerid_object_mini"				"Mini-%s1 (%s2)"
 "TF_playerid_object_mode"				"%s1 %s3 (%s2) "
-"TF_playerid_object_level"				"Seviye %s1"
-"TF_playerid_object_upgrade"			"Yükseltme: %s1"
-"TF_playerid_object_upgrade_level"		"Seviye %s1  -  Yükseltme: %s2"
-"TF_playerid_object_upgrading"			"Seviye Yükseltiliyor..."
-"TF_playerid_object_upgrading_level"	"Seviye %s1  -  Seviye Yükseltiliyor..."
+"TF_playerid_object_ownerless"			"%s1"
+
 "TF_playerid_object_building"			"Kuruluyor..."
-"TF_playerid_object_building_level"		"Seviye %s1  -  Kuruluyor..."
-"TF_playerid_object_tranq"				" (SABOTE EDİLMİŞ)"
+
+"TF_playerid_object_level"				"Seviye %s1"
+"TF_playerid_object_level_upgrade"		"(Seviye %s1) Yükseltme: %s2"
+"TF_playerid_object_level_upgrading"	"(Seviye %s1) Seviye Yükseltiliyor..."
+"TF_playerid_object_level_building"		"(Seviye %s1) Kuruluyor..."
+
 "TF_playerid_teleporter_no_entrance"	"  -  Giriş Yok"
 "TF_playerid_teleporter_no_exit"		"  -  Çıkış Yok"
 "TF_playerid_object_recharging"			"  -  Şarj Oluyor: %s1%"
+
+"TF_playerid_object_status_effect"		"(%s1) "
 "TF_playerid_object_flooded"			"Batık"
+
 "TF_playerid_carrying"					"Taşıyor: %s1"
 "TF_playerid_carrying_lvl"				"Taşıyor: %s1 (Seviye %s2)"
 

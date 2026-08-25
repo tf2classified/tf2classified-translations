@@ -109,9 +109,10 @@
 "TF_playerid_diffteam"					"%s1（敵人） %s2"
 "TF_playerid_noteam"					"%s1"
 "TF_playerid_friendlyspy_disguise"		"偽裝成 (%s1 %s2)"
-"TF_playerid_wpn_ammo_clip"				"%s1  -  彈藥：%s2 (%s3)"
-"TF_playerid_wpn_ammo"					"%s1  -  彈藥：%s2"
+
 "TF_playerid_wpn"						"%s1"
+"TF_playerid_wpn_ammo"					"%s1  -  彈藥：%s2"
+"TF_playerid_wpn_ammo_clip"				"%s1  -  彈藥：%s2 (%s3)"
 
 // Boosts
 "TF_playerid_healer"					"（治療者）"
@@ -126,23 +127,27 @@
 "TF_playerid_object_diffteam"			"敵人 %s1 (%s2)"
 "TF_playerid_object_mini"				"迷你-%s1 (%s2)"
 "TF_playerid_object_mode"				"%s1 %s3 (%s2) "
-"TF_playerid_object_level"				"(第 %s1 級)"
-"TF_playerid_object_upgrade"			"升級進度：%s1"
-"TF_playerid_object_upgrade_level"		"(第 %s1 級)  -  升級進度：%s2"
-"TF_playerid_object_upgrading"			"升級中..."
-"TF_playerid_object_upgrading_level"	"(第 %s1 級)  -  升級中..."
+"TF_playerid_object_ownerless"			"%s1"
+
 "TF_playerid_object_building"			"建造中..."
-"TF_playerid_object_building_level"		"(第 %s1 級)  -  建造中..."
-"TF_playerid_object_tranq"				" （被侵入）"
+
+"TF_playerid_object_level"				"第 %s1 級"
+"TF_playerid_object_level_upgrade"		"(第 %s1 級) 升級進度：%s2"
+"TF_playerid_object_level_upgrading"	"(第 %s1 級) 升級中..."
+"TF_playerid_object_level_building"		"(第 %s1 級) 建造中..."
+
 "TF_playerid_teleporter_no_entrance"	"  -  沒有符合的傳送裝置入口！"
 "TF_playerid_teleporter_no_exit"		"  -  沒有符合的傳送裝置出口！"
 "TF_playerid_object_recharging"			"  -  充電中：%s1%"
+
+"TF_playerid_object_status_effect"		"(%s1) "
 "TF_playerid_object_flooded"			"被淹沒"
+
 "TF_playerid_carrying"					"正在搬運：%s1"
 "TF_playerid_carrying_lvl"				"正在搬運：%s1 （第 %s2 級）"
 
-"TF_friendly"	"友方"
-"TF_enemy"		"敵方"
+"TF_friendly"							"友方"
+"TF_enemy"								"敵方"
 
 // ----------------------------------------------------------------
 // Respawning

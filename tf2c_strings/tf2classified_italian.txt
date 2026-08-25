@@ -106,9 +106,10 @@
 "TF_playerid_diffteam"					"%s1(Nemico) %s2"
 "TF_playerid_noteam"					"%s1"
 "TF_playerid_friendlyspy_disguise"		"Travestito (%s1 %s2)"
-"TF_playerid_wpn_ammo_clip"				"%s1  -  Munizioni: %s2 (%s3)"
-"TF_playerid_wpn_ammo"					"%s1  -  Munizioni: %s2"
+
 "TF_playerid_wpn"						"%s1"
+"TF_playerid_wpn_ammo"					"%s1  -  Munizioni: %s2"
+"TF_playerid_wpn_ammo_clip"				"%s1  -  Munizioni: %s2 (%s3)"
 
 // Boosts
 "TF_playerid_healer"					"(Curatore) "
@@ -123,22 +124,27 @@
 "TF_playerid_object_diffteam"			"Nemico %s1 (%s2)"
 "TF_playerid_object_mini"				"Mini-%s1 (%s2)"
 "TF_playerid_object_mode"				"%s1 %s3 (%s2) "
-"TF_playerid_object_level"				"Livello %s1"
-"TF_playerid_object_upgrade"			"Miglioramento: %s1"
-"TF_playerid_object_upgrade_level"		"Livello %s1  -  Miglioramento: %s2"
-"TF_playerid_object_upgrading"			"Migliorando..."
-"TF_playerid_object_upgrading_level"	"Livello %s1  -  Migliorando..."
+"TF_playerid_object_ownerless"			"%s1"
+
 "TF_playerid_object_building"			"In costruzione..."
-"TF_playerid_object_building_level"		"Livello %s1  -  In costruzione..."
+
+"TF_playerid_object_level"				"Livello %s1"
+"TF_playerid_object_level_upgrade"		"(Livello %s1) Miglioramento: %s2"
+"TF_playerid_object_level_upgrading"	"(Livello %s1) Migliorando..."
+"TF_playerid_object_level_building"		"(Livello %s1) In costruzione..."
+
 "TF_playerid_teleporter_no_entrance"	"  -  Nessuna Entrata Teletrasporto"
 "TF_playerid_teleporter_no_exit"		"  -  Nessuna Uscita Teletrasporto"
 "TF_playerid_object_recharging"			"  -  Ricaricando: %s1%"
+
+"TF_playerid_object_status_effect"		"(%s1) "
 "TF_playerid_object_flooded"			"Flooded"
+
 "TF_playerid_carrying"					"Trasportando: %s1"
 "TF_playerid_carrying_lvl"				"Trasportando: %s1 (Level %s2)"
 
-"TF_friendly"	"Alleato"
-"TF_enemy"		"Nemico"
+"TF_friendly"							"Alleato"
+"TF_enemy"								"Nemico"
 
 // ----------------------------------------------------------------
 // Respawning
