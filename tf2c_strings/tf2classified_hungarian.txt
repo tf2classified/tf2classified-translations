@@ -1201,22 +1201,23 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_Menu_ShowFriends"		"Barátok mutatása"
 "TF_Menu_HideFriends"		"Barátok elrejtése"
 
-"TF_Friends_Title"					"Barátok (%friend_count%)"
-"TF_Friends_Status_InTF2C"			"TF2C-vel játszik"
-"TF_Friends_Status_Idle_InTF2C"		"TF2C-ben tétlen"
-"TF_Friends_Status_InMod"			"Más moddal játszik"
-"TF_Friends_Status_Idle_InMod"		"Tétlen más modban"
-"TF_Friends_Status_InGame"			"Más játékkal játszik"
-"TF_Friends_Status_Idle"			"Más játékban tétlen"
-"TF_Friends_Status_Online"			"Online"
-"TF_Friends_Status_Away"			"Távol van"
-"TF_Friends_Status_Offline"			"Offline"
+"TF_Friends_Title"								"Barátok (%friend_count%)"
+"TF_Friends_Status_InTF2C"						"TF2C-vel játszik"
+"TF_Friends_Status_Idle_InTF2C"					"TF2C-ben tétlen"
+"TF_Friends_Status_InMod"						"Más moddal játszik"
+"TF_Friends_Status_Idle_InMod"					"Tétlen más modban"
+"TF_Friends_Status_InGame"						"Más játékkal játszik"
+"TF_Friends_Status_Idle"						"Más játékban tétlen"
+"TF_Friends_Status_Online"						"Online"
+"TF_Friends_Status_Away"						"Távol van"
+"TF_Friends_Status_Offline"						"Offline"
+"TF_Friends_InviteServer"						"Meghívás játékra"
 
-"TF_RichPresence_State_InServer"				"%maptype% - %mapname%"
+"TF_RichPresence_State_InServer"				"%mapname% (%maptype%)"
 "TF_RichPresence_State_InServer_MapNameOnly"	"%mapname%"
 "TF_RichPresence_State_JoiningServer"			"Szerverre csatlakozik"
 
-"ChallengeDetails"					"%s1, mint %s2"
+"ChallengeDetails"								"%s1, mint %s2"
 
 "TF_NextChallenge"								"Következő kihívás"
 
@@ -1351,6 +1352,7 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "GameUI_Off"               				"Kikapcsolva"
 "GameUI_Everyone"               		"Mindenki"
 "GameUI_FriendsOnly"               		"Csak barátoknak"
+"GameUI_Alpha"							"Alfa"
 
 "GameUI_Restart"						"Újraindítás szükséges"
 "GameUI_RestartText"					"Néhány változtatás miatt újra kell indítanod a játékot:"
