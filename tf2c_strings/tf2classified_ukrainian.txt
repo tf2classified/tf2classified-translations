@@ -1351,7 +1351,7 @@ BLU можуть утримувати поступ захоплення конт
 "GameUI_Off"               				"Вимкнуто"
 "GameUI_Everyone"               		"Усі"
 "GameUI_FriendsOnly"               		"Лише друзі"
-"GameUI_Alpha"							"Альфа"
+"GameUI_CrosshairAlpha"					"Альфа"
 
 "GameUI_Restart"						"Потрібно перезавантажити"
 "GameUI_RestartText"					"Деякі внесені вами зміни, вимагають перезавантаження гри:"
