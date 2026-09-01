@@ -1352,7 +1352,7 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "GameUI_Off"               				"Kikapcsolva"
 "GameUI_Everyone"               		"Mindenki"
 "GameUI_FriendsOnly"               		"Csak barátoknak"
-"GameUI_Alpha"							"Alfa"
+"GameUI_CrosshairAlpha"					"Áttetszőség"
 
 "GameUI_Restart"						"Újraindítás szükséges"
 "GameUI_RestartText"					"Néhány változtatás miatt újra kell indítanod a játékot:"
