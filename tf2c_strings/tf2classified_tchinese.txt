@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 "Language" "tchinese"
 "Tokens"
@@ -55,7 +55,7 @@
 "TF_Scramble_WinStreak"			"隊伍將自動重新分隊（%s1 隊伍已連續獲勝 %s2 次）"
 "TF_Scramble_Manual_NextRound"	"已手動安排於下一回合重新分隊"
 "TF_Scramble_NextRound"			"已安排於下一回合重新分隊"
-"TF_Scramble_Manual_Now"			"正在手動重新分隊"
+"TF_Scramble_Manual_Now"		"正在手動重新分隊"
 "TF_Scramble_Now"				"正在重新分隊"
 
 // ----------------------------------------------------------------
@@ -232,7 +232,7 @@
 "Tip_2_Count"	"11"
 // Generic
 "Tip_2_1"		"身為狙擊手，瞄準頭部來造成爆擊。"
-"Tip_2_2"		"身為狙擊手，按 %attack2% 來開啟狙擊槍的瞄準鏡和調整獵殺左輪槍的瞄準範圍。"
+"Tip_2_2"		"身為狙擊手，按 %attack2% 來開啟狙擊槍的瞄準鏡和調整獵殺左輪的瞄準範圍。"
 // Stock
 "Tip_2_3"		"身為狙擊手，你花越多時間用狙擊鏡瞄準，射擊造成的傷害就越大。"
 "Tip_2_4"		"身為狙擊手，使用充電全滿的狙擊槍爆頭時，可以馬上殺死大部分的兵種。"
@@ -241,8 +241,8 @@
 // Death & Taxes
 "Tip_2_7"		"身為狙擊手，獵人長弓更適合近距離作戰，但是對付遠處的敵人則會顯得不太精準。"
 "Tip_2_8"		"身為狙擊手，獵人長弓的拉弓時間超過 5 秒，你將會失去準度。請按 %attack2% 重新拉弓。"
-"Tip_2_9"		"身為狙擊手，獵殺左輪槍是在中距離作戰時的不錯選擇。善用它快速輸出傷害，並靈活進出戰場。"
-"Tip_2_10"		"身為狙擊手，獵殺左輪槍在瞄準時能讓你比其他主武器移動得更快。"
+"Tip_2_9"		"身為狙擊手，獵殺左輪是在中距離作戰時的不錯選擇。善用它快速輸出傷害，並靈活進出戰場。"
+"Tip_2_10"		"身為狙擊手，獵殺左輪在瞄準時能讓你比其他主武器移動得更快。"
 "Tip_2_11"		"身為狙擊手，殺魚棒可擊退敵人並造成失血傷害。用它對付逼近的敵人，將他們打退。"
 
 // Soldier
@@ -267,12 +267,12 @@
 // Demoman
 "Tip_4_Count"	"15"
 // Generic
-"Tip_4_1"		"身為爆破兵，你可以按 %attack2% 遠程引爆粘彈或消除地雷部署器發射的地雷。"
+"Tip_4_1"		"身為爆破兵，你可以按 %attack2% 遠程引爆黏彈或消除埋雷者發射的地雷。"
 "Tip_4_2"		"身為爆破兵，按 %attack% 可發射黏性炸彈，並在之後使用 %attack2% 來引爆。"
 "Tip_4_3"		"身為爆破兵，準備黏彈跳的瞬間在半空中蹲下可以獲得最高的跳躍高度。"
 // Stock
 "Tip_4_4"		"身為爆破兵，正面交戰時請使用榴彈發射器應戰。除非先碰到地面，要不然榴彈直接擊中敵人會直接爆炸的。"
-"Tip_4_5"		"身為爆破兵，當使用黏性炸彈發射器時，你按住開火鍵越久，射擊的距離會越長。"
+"Tip_4_5"		"身為爆破兵，當使用黏彈發射器時，你按住開火鍵越久，射擊的距離會越長。"
 "Tip_4_6"		"身為爆破兵，要將黏性炸彈射在敵人不容易察覺的牆上與天花板上。"
 "Tip_4_7"		"身為爆破兵，在爆炸跳躍到敵人領地內時，你的瓶子可以用於近戰。"
 "Tip_4_8"		"身為爆破兵，無論你手中的瓶子有沒有碎掉，造成的傷害值都是一樣的。"
@@ -280,7 +280,7 @@
 "Tip_4_9"		"身為爆破兵，把捆綁炸藥丟到控制點，清理敵人！"
 "Tip_4_10"		"身為爆破兵，你的捆綁炸藥會被敵方工程師拆掉。投入步哨槍巢之前注意敵方工程師！"
 "Tip_4_11"		"身為爆破兵，鐵砲護靴能減少爆炸跳自傷，想快速到位就裝上它！"
-"Tip_4_12"		"身為爆破兵，地雷部署器能放感應地雷，敵人靠近就會引爆。用它來搭建自動化防禦！"
+"Tip_4_12"		"身為爆破兵，埋雷者能放感應地雷，敵人靠近就會引爆。用它來搭建自動化防禦！"
 // Double Down
 "Tip_4_13"		"身為爆破兵，獨眼大炮的榴彈需手動引爆，在爆炸之前把握時機進行榴彈跳躍或者用來設置陷阱。"
 "Tip_4_14"		"身為爆破兵，獨眼大炮可瞬間引爆自己發射的爆炸物和捆綁炸藥，大膽進攻！用爆炸連殺敵人更有效率！"
@@ -306,8 +306,8 @@
 "Tip_5_13"		"身為醫護兵，休克治療儀的能量條越滿，傷害越高。每擊中敵人，能量條就會消耗掉。"
 "Tip_5_14"		"身為醫護兵，休克治療儀在能量條滿時可以完全治療一名隊友，但會降低你的主要治療速度。"
 // Double Down
-"Tip_5_15"		"身為醫護兵，再生癒合炮在治療大群隊友時非常有效。直擊目標可增加治療量並獲得 UberCharge 獎勵。"
-"Tip_5_16"		"身為醫護兵，再生癒合炮的 UberCharge 激活後會部署臨時護盾，任何進入範圍內的隊友將免疫所有傷害。"
+"Tip_5_15"		"身為醫護兵，萬象回春在治療大群隊友時非常有效。直擊目標可增加治療量並獲得 UberCharge 獎勵。"
+"Tip_5_16"		"身為醫護兵，萬象回春的 UberCharge 激活後會部署臨時護盾，任何進入範圍內的隊友將免疫所有傷害。"
 
 // Heavy
 "Tip_6_Count"	"17"
@@ -328,8 +328,8 @@
 "Tip_6_12"		"身為重裝兵，你可以使用很多次三明治來恢復你的生命值。不過按 %attack2% 把它分享給隊友會使它進入冷卻狀態。"
 "Tip_6_13"		"身為重裝兵，把你的三明治扔出去時要小心。隊友和敵人都可以用它回覆 50%% 的生命值！"
 // Fight or Flight
-"Tip_6_14"		"身為重裝兵，防空加農炮擁有高爆發傷害，是對付群集敵人和清理掩體後面的好幫手。"
-"Tip_6_15"		"身為重裝兵，防空加農炮對空中目標也能造成小爆擊傷害。用它打落火箭兵或使用彈射板的敵人吧。"
+"Tip_6_14"		"身為重裝兵，制空火砲擁有高爆發傷害，是對付群集敵人和清理掩體後面的好幫手。"
+"Tip_6_15"		"身為重裝兵，制空火砲對空中目標也能造成小爆擊傷害。用它打落火箭兵或使用彈射板的敵人吧。"
 "Tip_6_16"		"身為重裝兵，契訶夫之拳擊中敵人後會儲存最大 3 次爆擊量。搭配格林機槍使用效果更佳。"
 "Tip_6_17"		"身為重裝兵，契訶夫之拳會增加你受到近戰攻擊時的傷害。與敵人近戰時務必小心。"
 
@@ -352,8 +352,8 @@
 // Fight or Flight
 "Tip_7_12"		"身為火焰兵，超級霰彈槍可用來拉近與目標的距離。利用後坐力向上或將自己推向敵人！"
 "Tip_7_13"		"身為火焰兵，超級霰彈槍傷害不如霰彈槍穩定。遇到劣勢時，可利用後坐力快速撤退。"
-"Tip_7_14"		"身為火焰兵，使用死神之刃可累積爆擊能量，並從點燃的敵人身上獲得治療。"
-"Tip_7_15"		"身為火焰兵，裝備死神之刃時死亡會撲滅你點燃的敵人。"
+"Tip_7_14"		"身為火焰兵，使用收割者可累積爆擊能量，並從點燃的敵人身上獲得治療。"
+"Tip_7_15"		"身為火焰兵，裝備收割者時死亡會撲滅你點燃的敵人。"
 
 // Spy
 "Tip_8_Count"	"15"
@@ -492,7 +492,7 @@
 "TF_Weapon_GrenadeLauncher"			"榴彈發射器"
 "TF_Weapon_GrenadeLauncher_Desc"	"放心交給我，小子。"
 // Stickybomb Launcher
-"TF_Weapon_StickybombLauncher"		"黏性炸彈發射器"
+"TF_Weapon_StickybombLauncher"		"黏彈發射器"
 "TF_Weapon_StickybombLauncher_Desc"	"真要我動手，我就親自把他們炸飛直上天堂！"
 // Flame Thrower
 "TF_Weapon_FlameThrower"		"火焰噴射器"
@@ -500,7 +500,7 @@
 // Pistol
 "TF_Weapon_Pistol"					"手槍"
 "TF_Weapon_Pistol_Desc_Engineer"	"來跳個舞吧，小子。"
-"TF_Weapon_Pistol_Desc_Scout"		"所有人都在射程外—直到他們不再是。"
+"TF_Weapon_Pistol_Desc_Scout"		"大家都還在射程外，直到有人進了射程。"
 // Revolver
 "TF_Weapon_Revolver"		"左輪手槍"
 "TF_Weapon_Revolver_Desc"	"當隱身不是你的首要目的時，你還有另一個選擇。"
@@ -560,7 +560,7 @@
 "TF_Weapon_RPG"			"R.P.G."
 "TF_Weapon_RPG_Desc"	"看見火箭從筒口探出來了嗎，小子？它渴望自由—而老天作證，它一定會得到。"
 // Hunting Revolver
-"TF_Weapon_HuntingRevolver"			"獵殺左輪槍"
+"TF_Weapon_HuntingRevolver"			"獵殺左輪"
 "TF_Weapon_HuntingRevolver_Desc"	"專為更具進攻性的打法而設計。"
 // Fishwhacker
 "TF_Weapon_Fishwhacker"			"殺魚棒"
@@ -575,8 +575,8 @@
 "TF_Weapon_Coilgun"			"充能手槍"
 "TF_Weapon_Coilgun_Desc"	"雖然你不是牛排，但保證讓你嗞嗞作響。"
 // Mine Layer
-"TF_Weapon_MineLayer"		"地雷部署器"
-"TF_Weapon_MineLayer_Desc"	"哎，看著點腳下，呵呵...."
+"TF_Weapon_MineLayer"		"埋雷者"
+"TF_Weapon_MineLayer_Desc"	"喂，當心腳下啊! 嘻...."
 // Shock Therapy
 "TF_Weapon_ShockTherapy"		"休克治療儀"
 "TF_Weapon_ShockTherapy_Desc"	"離遠點！"
@@ -595,13 +595,13 @@
 "TF_Weapon_TwinBarrel"		"超級霰彈槍"
 "TF_Weapon_TwinBarrel_Desc"	"（私自改裝？保固作廢。）"
 // Anti-Aircraft Cannon
-"TF_Weapon_AntiAircraftCannon"		"防空加農炮"
+"TF_Weapon_AntiAircraftCannon"		"制空火砲"
 "TF_Weapon_AntiAircraftCannon_Desc"	"重裝兵應該撿起你哪一部分要寄回家給你老媽呢？"
 // PDA: Jump Pad
 "TF_Weapon_PDAJumpPad"		"建造工具：彈射板"
 "TF_Weapon_PDAJumpPad_Desc"	"相信我，夥計！這玩意會把你嚇一跳的。"
 // Harvester
-"TF_Weapon_Harvester"		"死神之刃"
+"TF_Weapon_Harvester"		"收割者"
 "TF_Weapon_Harvester_Desc"	"別問死亡之鐘為誰而鳴。"
 // Brick
 "TF_Weapon_Brick"		"磚塊"
@@ -612,7 +612,7 @@
 // ----------------------------------------------------------------
 
 // Rejuvenator
-"TF_Weapon_Rejuvenator"			"再生癒合炮"
+"TF_Weapon_Rejuvenator"			"萬象回春"
 "TF_Weapon_Rejuvenator_Desc"	"請盡量避免讓它進到你的嘴裡或眼睛裡。"
 // Admiralty Anchor
 "TF_Weapon_AdmiraltyAnchor"			"海軍錨"
@@ -641,7 +641,7 @@
 "TF_Weapon_HealGrenadeLauncher"		"治療榴彈發射器"
 "TF_Weapon_LunchBox"				"午餐盒"
 "TF_Weapon_PDA"						"PDA"
-"TF_Weapon_ProximityMineLauncher"	"感應式地雷部署器"
+"TF_Weapon_ProximityMineLauncher"	"感應式地雷佈署器"
 "TF_Weapon_Scythe"					"鐮刀"
 "TF_Weapon_Syringe"					"注射器"
 "TF_Weapon_Taser"					"電擊槍"
@@ -651,7 +651,7 @@
 // Weapon meters
 // ----------------------------------------------------------------
 
-"TF_Meter_Airtime"	"飛行時間"
+"TF_Meter_Airtime"	"滯空時間"
 "TF_Meter_Brick"	"磚頭"
 "TF_Meter_Cloak"	"隱形"
 "TF_Meter_Crits"	"爆擊"
@@ -921,28 +921,34 @@
 "Gametype_CTF_Penguin"		"搶奪企鵝" // We have fun here
 "Gametype_Domination"		"統治"
 "Gametype_MedDomination"	"統治（中世紀）"
-"Gametype_KOTF"				"旗幟之王"
+"Gametype_KOTF"				"山丘之王"
 "Gametype_TD"				"地區統治"
 "Gametype_VIP"				"VIP"
 "Gametype_VIPRace"			"VIP 比賽"
+"Gametype_DM"				"死鬥"
+"Gametype_TDM"				"團隊死鬥"
+"Gametype_RCTF"				"反向奪旗"
+"Gametype_FF"				"Fortress Forever"
 
-"Gametype_FourTeam"			"四名隊伍模式"
+"Gametype_FourTeam"			"四方會戰／四隊制模式"
 
-"Gametype_Arena_FourTeam"			"競技場（四名隊伍）"
-"Gametype_AttackDefense_FourTeam"	"攻擊 ／ 防守（四名隊伍）"
-"Gametype_CP_FourTeam"				"控制點（四名隊伍）"
-"Gametype_CTF_FourTeam"				"搶奪情報箱（四名隊伍）"
-"Gametype_Domination_FourTeam"		"統治（四名隊伍）"
-"Gametype_MedDomination_FourTeam"	"統治（四名隊伍-中世紀）"
-"Gametype_KOTF_FourTeam"			"旗幟之王（四名隊伍）"
-"Gametype_Koth_FourTeam"			"山丘之王（四名隊伍）"
-"Gametype_Escort_FourTeam"			"推車護送（四名隊伍）"
-"Gametype_EscortRace_FourTeam"		"推車護送比賽（四名隊伍）"
-"Gametype_SD_FourTeam"				"限時專送（四名隊伍）"
-"Gametype_TD_FourTeam"				"地區統治（四名隊伍）"
-"Gametype_Training_FourTeam"		"訓練模式（四名隊伍）"
-"Gametype_VIP_FourTeam"				"VIP（四名隊伍）"
-"Gametype_VIPRace_FourTeam"			"VIP 比賽（四名隊伍）"
+"Gametype_Arena_FourTeam"			"競技場（四方會戰）"
+"Gametype_AttackDefense_FourTeam"	"攻擊 ／ 防守（四方會戰）"
+"Gametype_CP_FourTeam"				"控制點（四方會戰）"
+"Gametype_CTF_FourTeam"				"搶奪情報箱（四方會戰）"
+"Gametype_Domination_FourTeam"		"統治（四方會戰）"
+"Gametype_MedDomination_FourTeam"	"統治（四方會戰-中世紀）"
+"Gametype_KOTF_FourTeam"			"山丘之王（四方會戰）"
+"Gametype_Koth_FourTeam"			"山丘之王（四方會戰）"
+"Gametype_Escort_FourTeam"			"推車護送（四方會戰）"
+"Gametype_EscortRace_FourTeam"		"推車護送比賽（四方會戰）"
+"Gametype_SD_FourTeam"				"限時專送（四方會戰）"
+"Gametype_TD_FourTeam"				"地區統治（四方會戰）"
+"Gametype_Training_FourTeam"		"訓練模式（四方會戰）"
+"Gametype_VIP_FourTeam"				"VIP（四方會戰）"
+"Gametype_VIPRace_FourTeam"			"VIP 比賽（四方會戰）"
+"Gametype_TDM_FourTeam"				"團隊死鬥（四方會戰）"
+"Gametype_RCTF_FourTeam"			"反向奪旗（四方會戰）"
 
 // Offline practice descriptions
 "TF_GameModeDesc_VIP"			"藍隊必須護送平民到達控制點，紅隊需要阻止他們。"
@@ -1185,7 +1191,7 @@
 "TF_Menu_Options"			"選項"
 "TF_Menu_Addons"			"附加元件（即將推出！）"
 
-"TF_Menu_Quit"				"離開遊戲"
+"TF_Menu_QuitGame"			"離開遊戲"
 "TF_Menu_Disconnect"		"斷線"
 
 "TF_Menu_Blog"				"官方網站"
@@ -1205,8 +1211,10 @@
 "TF_Friends_Status_Online"		    "線上"
 "TF_Friends_Status_Away"		    "離開"
 "TF_Friends_Status_Offline"		    "離線"
+"TF_Friends_InviteServer"			"邀請加入遊戲"
 
 "TF_RichPresence_State_InServer"		"遊戲中 - %mapname%（%maptype%）"
+"TF_RichPresence_State_InServer_MapNameOnly"	"%mapname%"
 "TF_RichPresence_State_JoiningServer"	"正在加入伺服器"
 
 "ChallengeDetails"					"%s1 扮演 %s2"
@@ -1326,6 +1334,7 @@
 "TF2c_OptionCategory_Replay"			"REPLAY"
 "TF2c_OptionCategory_DemoSupport"		"DEMO"
 "TF2c_OptionCategory_Communication"		"通訊"
+"TF2c_OptionCategory_Discord"			"DISCORD"
 
 "TF2c_OptionCategory_CustomizationMultiplayer"			"自訂"
 "TF2c_OptionCategory_Network"							"網路"
@@ -1351,19 +1360,25 @@
 
 "GameUI_Disconnect_TooManyCommands"		"中斷連線：送出的指令數量過多。"
 
+"GameUI_DontShowThisAgain"               	"不再顯示"
+
 // Combat
-"TF2C_Option_DamageFeedback"				"啟用傷害回饋音效"
-"TF2C_Tooltip_DamageFeedback"				"傷害回饋會在造成或承受不同類型的傷害時播放對應的提示音效。"
-"TF2C_Option_DamageFeedbackOutgoing"		"啟用輸出傷害回饋音效"
-"TF2C_Tooltip_DamageFeedbackOutgoing"		"當你對敵人造成傷害時，會播放輸出傷害回饋音效。"
-"TF2C_Option_DamageFeedbackOutgoingVolume"	"輸出傷害回饋音效音量"
-"TF2C_Tooltip_DamageFeedbackOutgoingVolume"	"調整造成傷害時播放回饋音效音量。"
-"TF2C_Option_DamageFeedbackIncoming"		"啟用承受傷害回饋音效"
-"TF2C_Tooltip_DamageFeedbackIncoming"		"當你承受傷害時，會播放承受傷害回饋音效。"
-"TF2C_Option_DamageFeedbackIncomingVolume"	"承受傷害回饋音效音量"
-"TF2C_Tooltip_DamageFeedbackIncomingVolume"	"調整承受傷害時播放回饋音效音量。"
-"TF2C_Option_CalloutBubbles"				"啟用語音提示"
-"TF2C_Tooltip_CalloutBubbles"				"啟用後，大多數語音選單指令會顯示提示泡泡。"
+"TF2C_Option_DamageFeedback"					"啟用傷害回饋"
+"TF2C_Tooltip_DamageFeedback"				"造成或受到不同類型的傷害時播放相應的提示音"
+"TF2C_Option_DamageFeedbackOutgoing"		"啟用造成傷害回饋"
+"TF2C_Tooltip_DamageFeedbackOutgoing"		"對敵人造成傷害時播放傷害回饋提示音"
+"TF2C_Option_DamageFeedbackOutgoingVolume"	"造成傷害回饋音量"
+"TF2C_Tooltip_DamageFeedbackOutgoingVolume"	"造成傷害時播放的提示音音量"
+"TF2C_Option_DamageFeedbackIncoming"		"啟用受到傷害回饋"
+"TF2C_Tooltip_DamageFeedbackIncoming"		"受到傷害時播放傷害回饋提示音"
+"TF2C_Option_DamageFeedbackIncomingVolume"	"受到傷害回饋音量"
+"TF2C_Tooltip_DamageFeedbackIncomingVolume"	"受到傷害時播放的提示音音量"
+"TF2C_Option_LowHealthSound"				"啟用低生命值警告音效"
+"TF2C_Tooltip_LowHealthSound"				"啟用後，生命值低於設定百分比時會播放警告音效"
+"TF2C_Option_LowHealthSoundThreshold"		"低生命值警告音效臨界值百分比"
+"TF2C_Tooltip_LowHealthSoundThreshold"		"低生命值警告音效播放的生命值百分比"
+"TF2C_Option_CalloutBubbles"				"啟用語音提示泡泡"
+"TF2C_Tooltip_CalloutBubbles"				"啟用後，大多數語音選單指令會顯示語音提示泡泡。"
 
 "TF_CenterFirePreference"         	"從中心區域發射子彈（首選）"
 "TF_CenterFirePreference_Tip"    	"若勾選，玩家的子彈生成位置 Y 座標將設為 0；需要玩家重新連接或處於旁觀狀態才能應用。"
@@ -1404,6 +1419,8 @@
 "TF_OverlayToastInsetVert"        "Steam 通知垂直內縮"
 "TF_TargetID_Floating_Health"	  "目標稱號 ─ 啟用浮動生命值圖示"
 "TF_TargetID_Floating_Health_Tip" "若勾選，會在角色上方顯示生命值圖示。"
+"TF_TargetID_Floating_Health_Offset"       "浮動生命條偏移"
+"TF_TargetID_Floating_Health_Offset_Tip"   "調整浮動生命條與目標頂部的距離"
 "TF_TargetID_Alpha"				  "目標稱號：名稱板背景透明度"
 "TF_TargetID_Alpha_Tip"			  "設定目標稱號名稱板背景的透明度。"
 "TF_TargetID_Show_Avatars"		  "目標稱號：顯示頭像"
@@ -1421,11 +1438,15 @@
 "TF_GlowEffects"				  "使用發光效果"
 "TF_GlowEffects_Tip" 			  "若勾選，在遊戲中的彈頭車，情報箱，VIP及（重生後一段時間內）隊友將會有發光效果。"
 
-// ViewModel
-"TF_ViewModelFOV"				"檢視模型視野"
-"TF_FlipViewModels"				"翻轉檢視模型"
-"TF_InvisibleArms"				"啟用檢視模型隱形手臂"
-"TF_ViewModelOpacity"			"檢視模型透明度"
+/// ViewModel
+"TF_ViewModelFOV"                    "第一人稱模型視野"
+"TF_FlipViewModels"                  "翻轉第一人稱模型"
+"TF_InvisibleArms"                   "使用隱形手臂模型"
+"TF_ViewModelOpacity"                "第一人稱模型透明度"
+"TF2C_Option_ViewmodelOffset"        "啟用第一人稱模型位置偏移"
+"TF2C_Option_ViewmodelOffsetX"       "第一人稱模型 X 軸偏移"
+"TF2C_Option_ViewmodelOffsetY"       "第一人稱模型 Y 軸偏移"
+"TF2C_Option_ViewmodelOffsetZ"       "第一人稱模型 Z 軸偏移"
 
 // Misc
 "TF_ClassAutoKill"					"選擇玩家職業後自殺"
@@ -1440,11 +1461,18 @@
 "TF2c_Option_Proximity_Voice_Local"	"啟用距離語音聊天。"
 
 // MULTIPLAYER
+"GameUI_CrosshairAlpha"				"透明度"
 "TF_MessageAlert"				    "啟用文字聊天提示音效"
 "TF_MessageAlert_Tip"			    "若勾選，收到聊天消息時會播放提示音。"
 "TF_MessageVolume"				    "文字聊天提示音效音量"
 "TF_ChatCloseOnSend"				"傳送訊息後關閉聊天"
 "TF_ChatCloseOnSend_Tip"			"若勾選，傳送訊息後會自動關閉聊天視窗。"
+"TF2C_Option_Discord_ServerInfo"    "顯示伺服器資訊"
+"TF2C_Option_Discord_ServerInfo_Tip" "啟用後，在 Discord Rich Presence 活動中顯示你目前所在的伺服器"
+"TF2C_Option_Discord_MapInfo"       "顯示地圖資訊"
+"TF2C_Option_Discord_MapInfo_Tip"   "啟用後，在 Discord Rich Presence 活動中顯示目前的地圖"
+"TF2C_Option_Discord_ClassInfo"     "顯示職業資訊"
+"TF2C_Option_Discord_ClassInfo_Tip" "啟用後，在 Discord Rich Presence 活動中顯示你目前使用的職業"
 "TF_DownloadFilter_Title"			"從伺服器下載的自訂檔案權限"
 "GameUI_DownloadFilter_All"			"允許所有自訂檔案"
 "GameUI_DownloadFilter_NoSounds"	"不允許自訂音效"
@@ -1458,12 +1486,8 @@
 "TF2c_Option_ClassicShading_Tip"	"若勾選，玩家角色模型材質將使用 full-lambertian 著色。"
 "TF2c_Option_BloomScale"	        "泛光強度"
 "TF2c_Option_FramerateLimit"		"幀數限制"
- "TF2c_Option_Brightness"			"亮度"
+"TF2c_Option_Brightness"		    "亮度"
 "TF2c_Option_Brightness_Tip"		"【僅限全螢幕】調整螢幕伽瑪值"
-
-// TF30
-"TF_EnableClassicVision"			"啟用 Classic-Vision"
-"TF_EnableClassicVision_Tip"		"使用《Team Fortress》30 週年紀念內容。\n如果在遊戲中切換此選項，變更將在離開目前伺服器或伺服器切換地圖後生效。"
 
 // ----------------------------------------------------------------
 // Stats
@@ -1508,7 +1532,7 @@
 
 // Launch achievements
 "TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_NAME"			"精心策劃的意外"
-"TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_DESC"			"使用拋物線飛行的火箭，從遠距離擊殺一名敵人。"
+"TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_DESC"			""從遠距離用拋物線火箭擊殺敵方玩家。"
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_NAME"			"環球旅行者"
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_DESC"			"在 Dustbowl、2Fort、Badlands（控制點）與 Well（搶奪情報箱），Avanti 中各完成一場完整的遊戲。"
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_CP_DUSTBOWL"	"Dustbowl"
@@ -1524,7 +1548,7 @@
 "TF2C_ACHIEVEMENT_TRANQ_MELEE_KILL_DESC"				"身為間諜，使用近戰武器擊殺 10 名被麻醉的玩家。"
 "TF2C_ACHIEVEMENT_EXTINGUISH_BOMBLETS_NAME"				"生日大爆發"
 "TF2C_ACHIEVEMENT_EXTINGUISH_BOMBLETS_DESC"				"使用壓縮氣爆反彈並熄滅 20 個捆綁炸藥。"
-"TF2C_ACHIEVEMENT_KILL_SENTRY_WITH_NAILGUN_NAME"		"釘得你心驚膽顫"
+"TF2C_ACHIEVEMENT_KILL_SENTRY_WITH_NAILGUN_NAME"		"釘險萬分"
 "TF2C_ACHIEVEMENT_KILL_SENTRY_WITH_NAILGUN_DESC"		"使用釘槍摧毀 5 座步哨槍。"
 "TF2C_ACHIEVEMENT_BRICK_NAME"							"石專"
 "TF2C_ACHIEVEMENT_BRICK_DESC"							"..."
@@ -1533,7 +1557,7 @@
 "TF2C_ACHIEVEMENT_SSG_MEATSHOTS_NAME"					"開膛破肚！"
 "TF2C_ACHIEVEMENT_SSG_MEATSHOTS_DESC"					"使用超級霰彈槍取得 10 次近距離貼臉擊殺。"
 "TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_NAME"		"斬首狂熱"
-"TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_DESC"		"在一次生命中使用死神之刃斬首 3 名敵人。"
+"TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_DESC"		"在一次生命中使用收割者斬首 3 名敵人。"
 "TF2C_ACHIEVEMENT_CYCLOPS_COMBO_NAME"					"連鎖爆裂"
 "TF2C_ACHIEVEMENT_CYCLOPS_COMBO_DESC"					"使用獨眼大砲的一次連擊爆炸擊殺至少 3 名敵人。"
 "TF2C_ACHIEVEMENT_SANDVICH_MINES_NAME"					"解除武裝"
@@ -1547,7 +1571,7 @@
 "TF2C_ACHIEVEMENT_JUMPPAD_STOMP_NAME"					"終端速度"
 "TF2C_ACHIEVEMENT_JUMPPAD_STOMP_DESC"					"使用彈射板後，落在敵人身上將其踩死。"
 "TF2C_ACHIEVEMENT_EXTEND_UBER_NAME"						"馬拉松式手術"
-"TF2C_ACHIEVEMENT_EXTEND_UBER_DESC"						"將再生癒合炮的 UberCharge 延長至 12 秒。"
+"TF2C_ACHIEVEMENT_EXTEND_UBER_DESC"						"將萬象回春的 UberCharge 延長至 12 秒。"
 "TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_NAME"					"它死定了！"
 "TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_DESC"					"讓一名裝備契訶夫之拳的敵方重裝兵心臟病發作！"
 "TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_NAME"			"空中喪命"
@@ -1592,11 +1616,11 @@
 "TF2C_ACHIEVEMENT_TELEPORTER_PROGRESSION_NAME"			"傳送觀光"
 "TF2C_ACHIEVEMENT_TELEPORTER_PROGRESSION_DESC"			"將其他玩家傳送超過 10 公里。"
 "TF2C_ACHIEVEMENT_HARVESTER_COUNTER_LOW_HEALTH_NAME"	"毋懼死神"
-"TF2C_ACHIEVEMENT_HARVESTER_COUNTER_LOW_HEALTH_DESC"	"擊殺手持死神之刃的敵方火焰兵，讓 5 名隊友免於被燒死。"
+"TF2C_ACHIEVEMENT_HARVESTER_COUNTER_LOW_HEALTH_DESC"	"擊殺手持收割者的敵方火焰兵，讓 5 名隊友免於被燒死。"
 "TF2C_ACHIEVEMENT_HEAVY_SHOTGUN_CRITS_NAME"				"契訶夫的什麼？"
 "TF2C_ACHIEVEMENT_HEAVY_SHOTGUN_CRITS_DESC"				"作為重裝兵，使用霰彈槍取得 10 次爆擊擊殺。"
 "TF2C_ACHIEVEMENT_BATTLE_MEDIC_NAME"					"戳破幻想"
-"TF2C_ACHIEVEMENT_BATTLE_MEDIC_DESC"					"使用再生癒合炮對自己進行 ÜberCharge 時取得 5 次擊殺。"
+"TF2C_ACHIEVEMENT_BATTLE_MEDIC_DESC"					"使用萬象回春對自己進行 ÜberCharge 時取得 5 次擊殺。"
 "TF2C_ACHIEVEMENT_CANEASSIST_NAME"						"迅猛行動"
 "TF2C_ACHIEVEMENT_CANEASSIST_DESC"						"作為平民，利用德比手杖的速度加成，協助盟友擊殺 50 名敵人。"
 
