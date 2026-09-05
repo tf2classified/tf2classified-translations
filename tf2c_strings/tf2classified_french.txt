@@ -1,6 +1,6 @@
-﻿"lang"
+"lang"
 {
-"Language" "French"
+"Language" "french"
 "Tokens"
 {
 // ----------------------------------------------------------------
@@ -29,28 +29,22 @@
 "Chat_Team_Dev_Loc"		"(ÉQUIPE) [DEV] %s1 @ %s3 : %s2"
 "Chat_Team_Dev_Dead"	"(ÉQUIPE) *MORT* [DEV] %s1 : %s2"
 "Chat_Team_Dev_Spec"	"(ÉQUIPE) *SPEC* [DEV] %s1 : %s2"
+
 "Chat_Voice"			"(VOIX) "
+
+// Chat Printouts
+"TF_Joined_Game"				"Le joueur %s1 a rejoint la partie."
+"TF_Left_Game"					"%s1 a quitté la partie (%s2)."
+"TF_Joined_Team"				"%s1 a rejoint l'équipe %s2."
+"TF_Name_Change"				"* %s1 %s1 a changé de nom, il s'appelle maintenant %s2"
+
+"TF_Team_Balanced"				"%s1 est passé(e) dans l'équipe %s2."
+"TF_Autobalance_TeamChangeDone"	"Vous avez été déplacé dans l'équipe %s1"
+
+"TF_VIP_Assigned"				"%s1 est dorénavant le VIP !"
 
 // Chat Filters
 "Chat_Filter_Voice"		"Commandes vocales"
-
-// Chat Printouts
-"TF_Team_Balanced"					"%s1 a été déplacé dans l'équipe %s2."
-"TF_Autobalance_TeamChangeDone"		"Vous avez été déplacé dans l'équipe %s1."
-"TF_Name_Change"					"* Le joueur %s1 a changé de nom, il s'appelle maintenant %s2."
-"TF_Joined_Game"					"Le joueur %s1 a rejoint la partie."
-"TF_Left_Game"						"%s1 a quitté la partie (%s2)."
-
-"TF_Joined_Team"					"%s1 a rejoint l'équipe %s2."
-"TF_Joined_AutoTeam" 				"%s1 a rejoint automatiquement l'équipe %s2."
-
-"TF_AutoBalanced"					"%s1 est passé dans l'équipe %s2 pour équilibrer la partie."
-"TF_Autobalance_TeamChangeDone"	    "Vous avez été déplacé dans l'équipe %s1"
-
-"TF_VIP_Assigned"				    "%s1 est dorénavant le VIP !"
-
-// Chat Filters
-"Chat_Filter_Voice"		            "Commandes vocales"
 
 // ----------------------------------------------------------------
 // Scrambling
@@ -61,8 +55,8 @@
 "TF_Scramble_WinStreak"			"Les équipes seront automatiquement mélangées (l'équipe %s1 à entammé une série de %s2 vicoires)."
 "TF_Scramble_Manual_NextRound"	"Un rééquilibrage automatique des équipes a été programmée manuellement pour la prochaines manche."
 "TF_Scramble_NextRound"			"Un rééquilibrage automatique des équipes a été programmée pour la prochaine manche."
-"TF_Scramble_Manual_Now"		"Les équipes vont être mélangées manuellement"
-"TF_Scramble_Now"				"Les équipes vont être mélangées"
+"TF_Scramble_Manual_Now"		"Les équipes vont être mélangées manuellement."
+"TF_Scramble_Now"				"Les équipes vont être mélangées."
 
 // ----------------------------------------------------------------
 // General
@@ -78,15 +72,12 @@
 "TF_vote_change_civilian_caller"	"Le joueur %s1 veut être le VIP."
 "TF_vote_passed_change_civilian"	"Le joueur %s1 va être le VIP..."
 
+// Player list dialog
 "TF_Volume_Generic"			"Volume :"
 
 // ----------------------------------------------------------------
 // Teams
 // ----------------------------------------------------------------
-
-"TF_Offense"				         "OFFENSE"
-"TF_Defense"				         "DÉFENSE"
-"TF_Support"				         "SOUTIEN"
 
 "TF_GreenTeam" 						"&5 GRN"
 "TF_YellowTeam" 					"&6 YLW"
@@ -129,7 +120,8 @@
 "TF_playerid_sameteam"					"%s1%s2"
 "TF_playerid_diffteam"					"%s1(Ennemi) %s2"
 "TF_playerid_noteam"					"%s1"
-"TF_playerid_friendlyspy_disguise"		"Déguisé (%s2 %s1)"
+"TF_playerid_friendlyspy_disguise"		"Déguisé(e) (%s2 %s1)"
+
 "TF_playerid_wpn_ammo_clip"				"%s1  -  Munitions : %s2 (%s3)"
 "TF_playerid_wpn_ammo"					"%s1  -  Munitions : %s2"
 "TF_playerid_wpn"						"%s1"
@@ -147,17 +139,24 @@
 "TF_playerid_object_diffteam"			"%s1 de l'ennemi (%s2)"
 "TF_playerid_object_mini"				"Mini-%s1 (%s2)"
 "TF_playerid_object_mode"				"%s1 %s3 (%s2) "
-"TF_playerid_object_level"				"Niveau %s1"
-"TF_playerid_object_upgrade"			"Progression de l'amélioration : %s1"
-"TF_playerid_object_upgrade_level"		"Niveau %s1  -  Progression de l'amélioration : %s2"
-"TF_playerid_object_upgrading"			"Amélioration..."
-"TF_playerid_object_upgrading_level"	"Niveau %s1  -  Amélioration..."
+"TF_playerid_object_ownerless"			"%s1"
+
 "TF_playerid_object_building"			"Montage..."
-"TF_playerid_object_building_level"		"Niveau %s1  -  Montage..."
+
+"TF_playerid_object_level"				"Niveau %s1"
+"TF_playerid_object_level_upgrade"		"Niveau %s1  -  Progression de l'amélioration : %s2"
+"TF_playerid_object_level_upgrading"	"Niveau %s1  -  Amélioration..."
+"TF_playerid_object_level_building"		"Niveau %s1  -  Montage..."
+
 "TF_playerid_teleporter_no_entrance"	"  -  Aucune entrée de téléporteur"
 "TF_playerid_teleporter_no_exit"		"  -  Aucune sortie de téléporteur"
 "TF_playerid_object_recharging"			"  -  Rechargement : %s1%"
-"TF_playerid_object_flooded"			"Immergé"
+
+"TF_playerid_object_status_effect"		"(%s1) "
+"TF_playerid_object_disabled"			"Désactivé(e)"
+"TF_playerid_object_flooded"			"Immergé(e)"
+"TF_playerid_object_sapped"				"Saboté(e)"
+
 "TF_playerid_carrying"					"Transporte : %s1"
 "TF_playerid_carrying_lvl"				"Transporte : %s1 (Niveau %s2)"
 
@@ -172,7 +171,7 @@
 "game_respawntime_in_sec"		"Réapparition dans 1 seconde"
 "game_respawntime_in_secs"		"Réapparition dans %s1 secondes"
 "game_respawntime_stalemate"	"Pas de réapparition en Mort Subite"
-"game_respawntime_next_round"	"Réapparition au prochain round"
+"game_respawntime_next_round"	"Réapparition à la prochaine manche"
 "TF_Arena_NoRespawning"			"Pas de réapparition en Mort Subite"
 
 // ----------------------------------------------------------------
@@ -185,7 +184,6 @@
 "DeathMsg_VIP"					"VIP"
 "DeathMsg_ComboKill"			"COMBO !"
 "DeathMsg_AirshotKill"			"A ABATTU !"
-"TF_Dominated"				    "A HUMILIÉ"
 
 // Custom suicides
 "DeathMsg_Suicide_Boioing"		"s'est envolé(e) vers d'autres cieux !"
@@ -201,10 +199,13 @@
 // Voice Menu
 // ----------------------------------------------------------------
 
-"Voice_Menu_ChargeReady"				"(MEDIC) État de l'ÜberCharge"
-"Voice_Menu_ChargeReadySubtitle"		"ÜberCharge prête ! (100%)"
-"Voice_Menu_ChargeAlmostReadySubtitle"	"ÜberCharge bientôt prête (%s1%)"
-"Voice_Menu_ChargeNotReadySubtitle"		"ÜberCharge non prête ! (%s1%)"
+"Voice_Menu_ChargeReady"				    "(MEDIC) État de l'ÜberCharge"
+"Voice_Menu_ChargeReadySubtitle"		    "ÜberCharge prête ! (100%)"
+"Voice_Menu_ChargeAlmostReadySubtitle"	    "ÜberCharge bientôt prête (%s1%)"
+"Voice_Menu_ChargeNotReadySubtitle"		    "ÜberCharge non prête ! (%s1%)"
+
+"Voice_Menu_SingleChargeReadySubtitle"		"ÜberCharge prête ! (%s1 charge)"
+"Voice_Menu_MultipleChargesReadySubtitle"	"ÜberCharge prête ! (%s1 charges)"
 
 // ----------------------------------------------------------------
 // Class tips
@@ -233,8 +234,8 @@
 "Tip_2_1"		"En tant que Sniper, visez les têtes de vos ennemis pour une efficacité maximale."
 "Tip_2_2"		"En tant que Sniper, vous pouvez utiliser la lunette de votre Fusil de sniper ou focaliser avec votre revolver de chasse en appuyant sur %attack2%."
 // Stock
-"Tip_2_3"		"En tant que Sniper, plus vous zoomez avec sa lunette, plus votre fusil de sniper inflige de dégâts."
-"Tip_2_4"		"En tant que Sniper, un tir en pleine tête avec votre fusil de sniper complètement chargé peut tuer instantanément la plupart des classes."
+"Tip_2_3"		"En tant que Sniper, plus vous zoomez avec sa lunette, plus votre Fusil de sniper inflige de dégâts."
+"Tip_2_4"		"En tant que Sniper, un tir en pleine tête avec votre Fusil de sniper complètement chargé peut tuer instantanément la plupart des classes."
 "Tip_2_5"		"En tant que Sniper, votre Mitraillette est essentielle pour vous débarrasser des ennemis qui s'approchent de trop près."
 "Tip_2_6"		"En tant que Sniper, votre Kukri peut s'avérer utile comme dernière recourt pour vous défendre en cas d'embuscades surprises."
 // Death & Taxes
@@ -258,10 +259,11 @@
 "Tip_3_8"		"En tant que Soldier, utilisez votre Pelle pour infliger des dégâts importants de près sans avoir à vous soucier des dégâts de zone."
 // Death & Taxes
 "Tip_3_9"		"En tant que Soldier, les bottes de sûreté réduisent grandement les dégâts reçus lors d'un saut propulsé. Utilisez-les lorsque la mobilité et le positionnement sont d'une importance stratégique."
-"Tip_3_10"		"En tant que Soldier, les roquettes de votre R.P.G. suivent une trajectoire en arc, et peut passer au dessus des couvertures. Assurez-vous de toujours bien placer vos roquettes !"
+"Tip_3_10"		"En tant que Soldier, les roquettes de votre R.P.G. suivent une trajectoire en arc-de-cercle et peut passer par dessus des couvertures. Assurez-vous de toujours bien placer vos roquettes !"
 // Double Down
 "Tip_3_11"		"En tant que Soldier, les dégâts de l'onde de choc de votre Ancre d'Amirauté augmentent en fonction de la durée de maintien. Déployez-la au sommet d'un saut propulsé !"
 "Tip_3_12"		"En tant que Soldier, équiper l'Ancre d'Amirauté vous rend vulnérable aux projectiles en les transformant en coups critiques lorsque vous êtes dans les airs. Envolez-vous prudemment."
+
 
 // Demoman
 "Tip_4_Count"	"15"
@@ -276,14 +278,14 @@
 "Tip_4_7"		"En tant que Demoman, votre Bouteille est utile pour les combats rapprochés après avoir effectué un saut explosif en plein territoire ennemi."
 "Tip_4_8"		"En tant que Demoman, votre Bouteille inflige exactement les mêmes dégâts qu'elle soit cassée ou non."
 // Death & Taxes
-"Tip_4_9"		"En tant que Demoman, jetez votre Paquet de dynamite sur les points de contrôle occupés pour vous débarrasser des ennemis."
-"Tip_4_10"		"En tant que Demoman, votre ¨Paquet de dynamite peut être désactivé par des Engineers ennemis. Soyez attentif lorsque vous le lancez vers des mitrailleuses."
+"Tip_4_9"		"En tant que Demoman, jetez votre Pack de dynamite sur les points de contrôle occupés pour vous débarrasser des ennemis."
+"Tip_4_10"		"En tant que Demoman, votre ¨Pack de dynamite peut être désactivé par des Engineers ennemis. Soyez attentif lorsque vous le lancez vers des mitrailleuses."
 "Tip_4_11"		"En tant que Demoman, les Bottes de sûreté réduisent grandement les dégâts reçus lors d'un saut propulsé. Utilisez-les lorsque la mobilité et le positionnement sont d'une importance stratégique."
 "Tip_4_12"		"En tant que Demoman, les projectiles du lanceur de mines explosent automatiquement à proximité des ennemis. Utilisez-le pour automatiser votre défense !"
 // Double Down
 "Tip_4_13"		"En tant que Demoman, les grenades IEM du Cyclope ne détonent que sur commande. Servez-vous en pour effectuer des sauts explosifs ou préparer un piège mortel !"
 "Tip_4_14"		"En tant que Demoman, le Cyclope provoque la détonation instantanée de vos explosifs. Utilisez-le pour effectué des combos agressifs !"
-"Tip_4_15"		"En tant que Demoman, vous pouvez utiliser le Cyclope pour neutraliser les bombes collantes, les packs de dynamite et les mines ennemies proches."
+"Tip_4_15"		"En tant que Demoman, vous pouvez utiliser le Cyclope pour neutraliser les bombes collantes, les Packs de dynamite et les mines ennemies proches."
 
 // Medic
 "Tip_5_Count"	"16"
@@ -291,7 +293,7 @@
 "Tip_5_1"		"En tant que Medic, les coéquipiers n'ayant pas subit de dégâts pendant une courte période de temps seront plus rapides à soigner."
 "Tip_5_2"		"En tant que Medic, plus les soins dispensés à vos coéquipiers sont importants, plus vite vous remplissez l'indicateur d'ÜberCharge."
 "Tip_5_3"		"En tant que Medic, votre indicateur d'ÜberCharge se remplit plus vite pendant le temps de configuration."
-"Tip_5_4"		"En tant que Medic, remplissez votre indicateur d'ÜberCharge en soignant vos coéquipiers, puis appuyez sur %attack2% pour activer l'ÜberCharge."
+"Tip_5_4"		"En tant que Medic, remplissez votre indicateur d'ÜberCharge en soignant vos coéquipiers, puis appuyez sur %attack2% pour prodiguer l'ÜberCharge."
 "Tip_5_5"		"En tant que Medic, restez attentif aux appels de vos coéquipiers. Utilisez les bulles d'appels à l'écran pour les repérer."
 "Tip_5_6"		"En tant que Medic, vous ne pouvez pas capturer un point de contrôle ou voler les documents tant que vous êtes invulnérable."
 // Stock
@@ -311,7 +313,7 @@
 // Heavy
 "Tip_6_Count"	"17"
 // Generic
-"Tip_6_1"		"Si vous êtes blessé, appuyez sur %helpme% pour demander des soins. Les Medics à proximité seront avertis."
+"Tip_6_1"		"Si vous êtes blessé, appuyez sur %voicemenu 0 0% pour demander des soins. Les Medics à proximité seront avertis."
 "Tip_6_2"		"En tant que Heavy, votre santé est nettement supérieur à celui des autres classes. Ne craignez pas d'engager les adversaires de front !"
 "Tip_6_3"		"En tant que Heavy, vous êtes beaucoup plus lent que les autres classes. Soyez prudent lorsque vous engagez le combat contre des ennemis plus mobiles."
 "Tip_6_4"		"En tant que Heavy, vous êtes le grand pote du Medic. Le champ doit être libre entre le Medic et vous pour qu'il puisse vous soigner."
@@ -330,8 +332,7 @@
 "Tip_6_14"		"En tant que Heavy, votre Canon antiaérien inflige des dégâts élevés, et est idéal pour gérer les foules et controler les angles morts."
 "Tip_6_15"		"En tant que Heavy, votre Canon antiaérien inflige des mini-crits aux ennemis qui sont dans les airs. Utilisez-le pour dégommer les Soldiers en plein vol ou les ennemis utilisant des tremplins."
 "Tip_6_16"		"En tant que Heavy, le coup de poing de Tchekhov emmagasine un coup critique sur un coup réussi. Utilisez-le avec votre Minigun pour des coups critiques garantis !"
-"Tip_6_17"		"En tant que Heavy, en portant le coup de poing de Tchekhov, vous subissez des coups critiques à chaques coups au corps à corps infligés par l'ennemi. Restez prudent lors des affrontements au combat rapproché."
-
+"Tip_6_17"		"En tant que Heavy, en portant le Coup de poing de Tchekhov, vous subissez des coups critiques à chaques coups au corps à corps infligés par l'ennemi. Restez prudent lors des affrontements au combat rapproché."
 // Pyro
 "Tip_7_Count"	"15"
 // Generic
@@ -381,21 +382,21 @@
 // Generic
 "Tip_9_1"		"En tant qu'Engineer, il vous faut du métal pour monter, réparer et améliorer vos constructions. Récupérez les armes des joueurs tués pour récupérer plus de métal."
 "Tip_9_2"		"En tant qu'Engineer, vous pouvez faire bien plus que vous occuper de vos constructions. Utilisez votre Fusil à pompe et votre Pistolet pour aider vos coéquipiers au combat et défendre vos constructions."
-"Tip_9_3"		"En tant qu'Engineer, vérifiez qu'aucun Spy ennemi n'a fixé de saboteur à vos constructions. Utilisez la clé pour les décrocher."
+"Tip_9_3"		"En tant qu'Engineer, vérifiez qu'aucun Spy ennemi n'a fixé de saboteur à vos constructions. Utilisez la Clé pour les décrocher."
 "Tip_9_4"		"En tant qu'Engineer, pensez à améliorer vos constructions. Vous ainsi que votre équipe bénéficiez grandement de l'aide apportée par des constructions améliorées."
 "Tip_9_5"		"En tant qu'Engineer, appuyez sur %attack2% pour pivoter vos constructions avant d'appuyer sur %attack% pour les déployer. Orientez ainsi les mitrailleuses ou les téléporteurs afin qu'ils soient bien plus utiles."
 // Stock
 "Tip_9_6"		"En tant qu'Engineer, votre Pistolet a beaucoup de munitions en réserve. Utilisez-le pour attirer les ennemis vers vous et votre Mitrailleuse, ou essayez une approche plus agressive."
 "Tip_9_7"		"En tant qu'Engineer, vous pouvez désamorcer les Paquets de dynamite ennemis en les frappant avec votre clé."
-"Tip_9_8"		"En tant qu'Engineer, frappez les constructions alliées avec votre clé pour les réparer et les améliorer."
+"Tip_9_8"		"En tant qu'Engineer, frappez les constructions alliées avec votre Clé pour les réparer et les améliorer."
 "Tip_9_9"		"En tant qu'Engineer, utilisez votre PDA de construction pour monter des mitrailleuses, des distributeurs et des téléporteurs."
-"Tip_9_10"		"En tant qu'Engineer, les mitrailleuses peuvent être utilisées dans un autre but que celui de défendre. Installez-les rapidement dans des recoins cachés pour faciliter les offensives de votre équipe."
+"Tip_9_10"		"En tant qu'Engineer, les Mitrailleuses peuvent être utilisées dans un autre but que celui de défendre. Installez-les rapidement dans des recoins cachés pour faciliter les offensives de votre équipe."
 "Tip_9_11"		"En tant qu'Engineer, donnez à la Mitrailleuse un coup de clé pour l'améliorer à l'aide de métal. Chaque niveau augmente l'intégrité et la puissance."
 "Tip_9_12"		"En tant qu'Engineer, montez des Distributeurs pour approvisionner votre équipe en santé et munitions. Ils vous fourniront aussi du métal."
 "Tip_9_13"		"En tant qu'Engineer, améliorez vos Distributeurs pour qu'ils fournissent plus de santé, de munitions et de métal à vous et à votre équipe !"
-"Tip_9_14"		"En tant qu'Engineer, montez des Téléporteurs ou des tremplins pour accélérer l'offensive de votre équipe."
-"Tip_9_15"		"En tant qu'Engineer, améliorez vos téléporteurs afin qu'ils se rechargent plus rapidement et permettent à votre équipe de maintenir la pression."
-"Tip_9_16"		"En tant qu'Engineer, tapez sur l'entrée ou la sortie de votre téléporteur avec votre clé pour réparer et améliorer les deux côtés."
+"Tip_9_14"		"En tant qu'Engineer, montez des Téléporteurs ou des Tremplins pour accélérer l'offensive de votre équipe."
+"Tip_9_15"		"En tant qu'Engineer, améliorez vos Téléporteurs afin qu'ils se rechargent plus rapidement et permettent à votre équipe de maintenir la pression."
+"Tip_9_16"		"En tant qu'Engineer, tapez sur l'entrée ou la sortie de votre Téléporteur avec votre clé pour réparer et améliorer les deux côtés."
 // Death & Taxes
 "Tip_9_17"		"En tant qu'Engineer, les tirs pleinement chargés de votre Pistolet à induction peuvent ricocher sur les murs et infliger plus de dégâts."
 "Tip_9_18"		"En tant qu'Engineer, le Pistolet à induction provoque une petite explosion si vous le surchargez pendant plus de trois secondes. Utilisez-le pour atteindre des zones autrement inaccessibles."
@@ -417,11 +418,10 @@
 "Tip_10_8"		"En tant que Civilian, votre Parapluie accorde des mini-crits à un coéquipier de votre choix. offrez ce bonus aux classes capables d'infliger beaucoup de dégâts."
 "Tip_10_9"		"En tant que Civilian, votre bonus de mini-crits donne également aux Medics un taux de soins et un gain d'ÜberCharge plus rapide."
 // Double Down
-"Tip_10_10"		"En tant que Civilian, votre Canne Derby peut être utilisée pour donner un boost de rapidité à un allié. Cela lui permettra de se déplacer et tirer bien plus rapidement."
+"Tip_10_10"		"En tant que Civilian, votre Canne Derby peut être utilisée pour donner un bonus de célérité à un allié. Cela lui permettra de se déplacer et tirer bien plus rapidement."
 "Tip_10_11"		"En tant que Civilian, votre Canne Derby améliore le taux de soins des Medics et la vitesse de construction des Engineers."
 
 // Arena
-"Tip_arena_Count"		"9"
 "Tip_arena_1"			"En mode Arena, gardez un œil sur le nombre des joueurs en haut de l'écran. Cela vous permettra de savoir quand votre équipe a l'avantage !"
 "Tip_arena_2"			"En mode Arena, étant donné qu'il y a très peu de kits de soins, les Medics et les Engineers sont extrêmement précieux. Protégez-les à tout prix (et partagez votre sandvich) !"
 "Tip_arena_3"			"En mode Arena, le point de contrôle au centre de la carte deviendra actif 60 secondes après le début du match. Utilisez-le pour faire sortir les ennemis cachés !"
@@ -436,7 +436,6 @@
 // Stock weapon strings
 // ----------------------------------------------------------------
 
-// Bat
 "TF_Weapon_Bat"			"Batte"
 "TF_Weapon_Bat_Desc"	"J'en ai des dizaines. Pas peur d'en fracasser une sur toi."
 // Bottle
@@ -527,7 +526,7 @@
 
 // Kritzkrieg
 "TF_Weapon_Kritzkrieg"		"Kritzkrieg"
-"TF_Weapon_Kritzkrieg_Desc"	"Zest le moment, vas propager la douleur ! Faire tourner la boutique, ja ?"
+"TF_Weapon_Kritzkrieg_Desc"	"Z'est le moment, vas propager la douleur ! Faire tourner la boutique, ja ?"
 // Überspritze
 "TF_Weapon_Uberspritze"			"Überspritze"
 "TF_Weapon_Uberspritze_Desc"	"Oh, cesse de gigoter, z'est pour la bonne cause !"
@@ -568,7 +567,7 @@
 "TF_Weapon_TranquilizerGun"			"Pistolet tranquillisant"
 "TF_Weapon_TranquilizerGun_Desc"	"Faites de beaux rêves, dear."
 // Dynamite Pack
-"TF_Weapon_DynamitePack"		"Paquet de dynamite"
+"TF_Weapon_DynamitePack"		"Pack de dynamite"
 "TF_Weapon_DynamitePack_Desc"	"Faudra recoller tes morceaux au lendemain matin."
 // Coilgun
 "TF_Weapon_Coilgun"			"Pistolet à induction"
@@ -578,7 +577,7 @@
 "TF_Weapon_MineLayer_Desc"	"Ouaip, garde un œil ouvert ! Hé hé..."
 // Shock Therapy
 "TF_Weapon_ShockTherapy"		"Électrochoc"
-"TF_Weapon_ShockTherapy_Desc"	"DÉGAGEZ !"
+"TF_Weapon_ShockTherapy_Desc"	"DÉGAGEZ LE PASSAGE !"
 
 // ----------------------------------------------------------------
 // Fight or Flight weapon strings
@@ -652,7 +651,6 @@
 
 "TF_Meter_Airtime"	"VIT. CHUTE"
 "TF_Meter_Brick"	"BRIQUE"
-"TF_Boost"			"STIMULANT"
 "TF_Meter_Cloak"	"INVISIBLE"
 "TF_Meter_Crits"	"CRITIQUES"
 "TF_Meter_Dynamite"	"DYNAMITE"
@@ -668,6 +666,7 @@
 // Building Status
 "Building_hud_hauling"				"Transport..."
 "Building_hud_upgrading"			"Amélioration..."
+"Building_hud_ready"				"Prêt"
 "Building_hud_jumppad_a_not_built"	"Tremplin A\nnon monté"
 "Building_hud_jumppad_b_not_built"	"Tremplin B\nnon monté"
 
@@ -707,7 +706,8 @@
 "Attrib_MeleeTakenBecomesCritWearer"				"Au porteur : subissez des coups critiques garantis au corps à corps"
 "Attrib_MoveSpeed_Bonus_Cloaked"					"Vitesse de déplacement +%s1% plus rapide si invisible"
 "Attrib_LoseCloakOnDamage"							"Invisibilité réduite de %s1% si le joueur subit des dégâts en étant invisible"
-"Attrib_TranqOnHit"									"Lorsque vous touchez : rend la victime daltonienne et ralentit des armes et sa vitesse de déplacement pendant %s1 s"
+"Attrib_TranqOnHit"									"Lorsque vous touchez : rend la victime daltonienne et ralentit des armes et sa vitesse de déplacement pendant %s1 secondes\nLes victimes sous sédatif subissent des coups critiques au corps à corps"
+"Attrib_CloakRegenDisabled"							"Pas de rechargement passif de la montre"
 "Attrib_FishwhackerSweep"							"Inflige du recul aux ennemis proches"
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Le contrecoup est affecté par le bonus de dégâts"
 "Attrib_ApplySelfKnockbackSwing"					"Applique du contrecoup sur soi à chaque coup"
@@ -757,13 +757,13 @@
 "Attrib_HealingDispenserReceivedPenalty"			"Soins reçus des distributeurs %s1% pour le porteur"
 "Attrib_HealingDispenserReceivedActiveBonus"		"Soins reçus des distributeurs +%s1% lorsque actif"
 "Attrib_HealingDispenserReceivedActivePenalty"		"Soins reçus des distributeurs %s1% lorsque actif"
-"Attrib_DispenserCanOverhealOnWearer"				"Les distributeurs peuvent donner du bonus d'extra-santé lorsque actif"
-"Attrib_DispenserCanOverhealOnActive"				"Les distributeurs peuvent donner du bonus d'extra-santé pour le porteur"
-"Attrib_EverythingCanOverhealOnWearer"				"Vous pouvez recevoir du bonus d'extra-santé par n'importe quoi lorsque actif"
-"Attrib_EverythingCanOverhealOnActive"				"Vous pouvez recevoir du bonus d'extra-santé par n'importe quoi"
+"Attrib_DispenserCanOverhealOnWearer"				"Les distributeurs peuvent accorder un bonus d'extra-santé lorsque actif"
+"Attrib_DispenserCanOverhealOnActive"				"Les distributeurs peuvent accorder un bonus d'extra-santé pour le porteur"
+"Attrib_EverythingCanOverhealOnWearer"				"Vous pouvez recevoir un bonus d'extra-santé par n'importe quoi lorsque actif"
+"Attrib_EverythingCanOverhealOnActive"				"Vous pouvez recevoir un bonus d'extra-santé par n'importe quoi"
 "Attrib_NoCritHeals"								"Pas de soins critiques : le taux de soin n'augmente pas en soignant une cible hors-de-combat"
-"Attrib_HealthKitsCanOverhealOnWearer"				"Les kits de soins peuvent donner du bonus d'extra-santé pour le porteur"
-"Attrib_HealthKitsCanOverhealOnActive"				"Les kits de soins peuvent donner du bonus d'extra-santé lorsque actif"
+"Attrib_HealthKitsCanOverhealOnWearer"				"Les kits de soins peuvent accorder un bonus d'extra-santé pour le porteur"
+"Attrib_HealthKitsCanOverhealOnActive"				"Les kits de soins peuvent accorder un bonus d'extra-santé lorsque actif"
 "Attrib_HealingReceivedActiveBonus"					"Soins reçus par des soigneurs +%s1% lorsque actif"
 "Attrib_HealingReceivedActivePenalty"				"Soins reçus par des soigneurs %s1% lorsque actif"
 "Attrib_HealthFromPacks_Active_Increased"			"Soins reçus avec kits de soins +%s1% lorsque actif"
@@ -805,55 +805,6 @@
 "Attrib_SpreadScalesSpeed"							"Jusqu'à %s1% de précision supplémentaire en fonction de la vitesse actuelle"
 "Attrib_DuckJumping"								"Le porteur peut sauter en étant accroupi"
 
-// Live tf2 attribute string fixes do not remove
-"Attrib_WpnBurnDmg_Increased"				        "Bonus de dégâts de postcombustion +%s1%"
-"Attrib_WpnBurnDmg_Reduced"					        "Pénalité de dégâts de postcombustion %s1%"
-"Attrib_WpnBurnTime_Increased"				        "Durée de la postcombustion de +%s1%"
-"Attrib_WpnBurnTime_Reduced"				        "Durée de la postcombustion de %s1%"
-
-"Attrib_ConstructionRate_Increased"			        "Vitesse de montage %s1% fois plus rapide"
-"Attrib_ConstructionRate_Decreased"			        "Vitesse de montage %s1% fois plus lente"
-
-"Attrib_HealthFromPacks_Increased"			        "Soins reçus avec kits de soins +%s1% quand équipé"
-"Attrib_HealthFromPacks_Decreased"			        "Soins reçus avec kits de soins %s1% quand équipé"
-"Attrib_EffectBarRechargeRateIncreased"		        "Taux de recharge de +%s1%"
-"Attrib_MaxammoGrenades1_Increased"			        "Munitions diverses quand équipé +%s1%"
-
-"Attrib_EngyBuildingHealthBonus"			        "Santé max. des constructions +%s1%"
-"Attrib_EngyBuildingHealthPenalty"			        "Santé max. des constructions +%s1%"
-"Attrib_EngySentryDamageBonus"				        "Bonus de dégâts de la mitrailleuse +%s1%"
-
-"Attrib_SentryFireRate_Increased"		            "Cadence de tir de la mitrailleuse +%s1%"
-"Attrib_SentryRadius_Increased"			            "Portée de la mitrailleuse +%s1%"
-"Attrib_DispenserRadius_Increased"		            "Portée du distributeur +%s1%"
-
-"Attrib_MoveSpeed_Bonus_shortdesc"				    "Vitesse de déplacement +%s1%"
-"Attrib_JumpHeightBonus_shortdesc"				    "Hauteur de saut +%s1%"
-"Attrib_AmmoRegen_shortdesc"					    "Régénération de munitions +%s1%"
-"Attrib_MetalRegen_shortdesc"					    "Régénération de métal +%s1%"
-"Attrib_HealthRegen_shortdesc"					    "Régénération de santé" +%s1%
-"Attrib_DmgTaken_From_Fire_Reduced_shortdesc"		"Résistance au feu +%s1%"
-"Attrib_DmgTaken_From_Crit_Reduced_shortdesc"		"Résistance aux critiques +%s1%"
-"Attrib_DmgTaken_From_Blast_Reduced_shortdesc"		"Résistance aux explosions +%s1%"
-"Attrib_DmgTaken_From_Bullets_Reduced_shortdesc"	"Résistance aux balles +%s1%"
-
-"Attrib_ClipSize_Positive_shortdesc"			    "Capacité du chargeur +%s1%"
-"Attrib_MaxammoPrimary_Increased_shortdesc"		    "Capacité de munitions +%s1%"
-"Attrib_MaxammoSecondary_Increased_shortdesc"	    "Capacité de munitions +%s1%"
-"Attrib_FastReload_shortdesc"					    "Vitesse de rechargement +%s1%"
-"Attrib_DamageDone_Positive_shortdesc"			    "Dégâts +%s1%"
-"Attrib_FireRate_Positive_shortdesc"			    "Cadence de tir +%s1%"
-"Attrib_MeleeRate_Positive_shortdesc"			    "Vitesse d'attaque +%s1%"
-"Attrib_ProjectileSpeed_Increased_shortdesc"	    "Vitesse des projectiles +%s1%"
-"Attrib_Penetration_shortdesc"					    "Pénétration des projectiles +%s1%"
-"Attrib_HealOnKill_shortdesc"					    "Santé par victime +%s1"
-
-"Attrib_RageOnDamage_shortdesc"					    "Fureur Repoussante"
-
-"Attrib_BuffTime_Increased_shortdesc"			    "Durée du bonus +%s1%"
-"Attrib_WpnBurnDmg_Increased_shortdesc"			    "Dégâts de la postcombustion +%s1%"
-"Attrib_WpnBurnTime_Increased_shortdesc"		    "Durée de la postcombustion +%s1%"
-
 // ----------------------------------------------------------------
 // Map strings
 // ----------------------------------------------------------------
@@ -890,11 +841,6 @@ Si BLU délivre l'appareil, la minuterie de la zone d'évacuation comptera à pa
 // vip_trainyard
 "Trainyard_escape_zone"	"le véhicule d'évacuation"
 
-// vip_harbor
-"Harbor_cap_1"			"le quai de chargement"
-"Harbor_cap_2"			"le front d'eau"
-"Harbor_cap_3"			"l'entrepôt"
-
 // 4dom_krepost
 "dom_krepost_description"	"Objectif :
 Pour gagner, chaque équipe doit capturer et tenir le point de contrôle actuellement actif pour récupérer des points.
@@ -919,7 +865,7 @@ Les plus vertueux relèveront le défi à l'épée !"
 "Krepost_attack_ylw"	"La porte des YLW est ouverte !"
 
 // td_caper
-"Caper_cap_A"	"le point A, la tour du laser"
+"Caper_cap_A"	"le point A, la tour du fusil électromagnétique"
 "Caper_cap_B"	"le point B, les silos"
 "Caper_cap_C"	"le point C, les égouts"
 
@@ -934,7 +880,7 @@ Les plus vertueux relèveront le défi à l'épée !"
 // dom_railway
 "Railway_cap_A"	"le point A, le garage"
 "Railway_cap_B"	"le point B, la zone de chargment"
-"Railway_cap_C"	"le point C, le parc à bétail"
+"Railway_cap_C"	"le point C, le parc à bestiaux"
 
 // dom_sawtooth
 "Sawtooth_cap_A"	"le point A, la tour de guet"
@@ -961,24 +907,6 @@ Les plus vertueux relèveront le défi à l'épée !"
 // 4plr_sisyphus
 "Sisyphus_cap_peak"			"le sommet"
 
-// pl_goldrush
-"Goldrush_blue_setup_goal"		"Déplacez le wagon vers les points de contrôle pour remporter la manche et progresser !"
-"Goldrush_cap_1_A"		"Première capture, Étape 1"
-"Goldrush_cap_1_B"		"Deuxième capture, Étape 1"
-"Goldrush_cap_2_A"		"Première capture, Étape 2"
-"Goldrush_cap_2_B"		"Deuxième capture, Étape 2"
-"Goldrush_cap_3_A"		"Première capture, Étape 3"
-"Goldrush_cap_3_B"		"Deuxième capture, Étape 3"
-"Goldrush_cap_3_C"		"Silo atomique, Terminus"
-
-// pl_thundermountain
-"Thunderm_cap_1_A"		"Pont, Étape 1"
-"Thunderm_cap_1_B"		"Plateforme principale, Étape 1"
-"Thunderm_cap_2_A"		"Scierie, Étape 2"
-"Thunderm_cap_2_B"		"La Fosse, Étape 2"
-"Thunderm_cap_3_A"		"Bâtiment A, Étape 3"
-"Thunderm_cap_3_B"		"Bâtiment B, Étape 3"
-"Thunderm_cap_3_C"		"Tour, Terminus"
 // ----------------------------------------------------------------
 // Gamemodes
 // ----------------------------------------------------------------
@@ -1032,7 +960,7 @@ Les plus vertueux relèveront le défi à l'épée !"
 
 // Domination
 "default_dom_description"	"Objectif :
-Pour gagner, chaque équipe doit capturer et tenir les points de contrôle pour récupérer des points. Plus vous tenez de points de contrôle, plus vite vous obtenez les points.
+Pour gagner, chaque équipe doit capturer et tenir les points de contrôle pour marquer des points. Plus vous tenez de points de contrôle, plus vite vous obtenez les points.
 
 Note additionnelle :
 Un point de contrôle en état de capture ne génère pas de points.
@@ -1052,11 +980,11 @@ L'équipe BLU peut geler la progression de capture d'un point de contrôle si le
 "vip_setup_goal_defense"	"Tuez le VIP de l'équipe adverse pour l'empếcher d'atteindre la zone d'évacuation."
 
 "TF_VIP_Assigned"				"%s1 est maintenant le VIP !"
-"TF_VIP_Tutorial_Annotation_2"	"Il octroie un bonus défensif à ceux qui l'entourent, et peut aussi\ntemporairement donner un bonus de spécial à un membre de son équipe !"
+"TF_VIP_Tutorial_Annotation_2"	"Il octroie un bonus défensif à ceux qui l'entourent, et peut aussi\ntemporairement donner un bonus spécial à un membre de son équipe !"
 "TF_VIP_Tutorial_Annotation_3"	"Mais n'oubliez pas, sa vie est plus importante que la votre, donc ne le laissez pas mourir !"
 
-"Cant_cap_civilian_only"		"Seul le VIP peut\n capturer ce point."
-"Cant_cap_civilian_only_frozen"	"La capture est gelée\n Seul le VIP peut\n capturer ce point."
+"Cant_cap_civilian_only"		"Impossible de prendre le point\nSeul le VIP peut\n capturer ce point."
+"Cant_cap_civilian_only_frozen"	"Gèle\nde la prise\n.Seul le VIP peut\n capturer ce point."
 
 // VIP (Lives)
 "vipl_setup_goal_offense"	"Escortez le VIP vers la zone d'évacuation. Empêchez-le d'être éliminé."
@@ -1067,8 +995,8 @@ L'équipe BLU peut geler la progression de capture d'un point de contrôle si le
 "vip_bring_flag"		"Apportez l'appareil à la salle de contrôle !"
 
 "TF_VIP_TakeDeviceToPoint"		"Emmenez l'appareil vers la salle de contrôle !"
-"TF_VIP_TeamDeviceReturned"		"L'appareil est revenu ! Récupérez-le !"
-"TF_VIP_EnemyDeviceReturned"	"L'appareil est revenu ! Défendez le site de dépôt !"
+"TF_VIP_TeamDeviceReturned"		"L'appareil réinitialisé ! Récupérez-le !"
+"TF_VIP_EnemyDeviceReturned"	"L'appareil réinitialisé ! Défendez le site de dépôt !"
 
 // VIP Race
 "default_vipr_description"	"Objectif :
@@ -1084,7 +1012,7 @@ En Mort Subite, tuez le VIP des ennemis pour instantanément gagner la partie !
 "vipr_setup_goal"		"Escortez votre VIP vers les points de contrôle. Empêchez-les de faire de même !"
 "vipr_setup_goal_4team"	"Escortez votre VIP vers les points de contrôle. Empêchez-les de faire de même !"
 
-"vipr_cap_wrong_vip"	"Capturez le point de contrôle ADVERSE, Pignouf !"
+"vipr_cap_wrong_vip"	"Capturez le point de contrôle ADVERSE, pignouf !"
 "vipr_own_civ_death"	"Votre VIP a été élminé ! Protégez-le !"
 "vipr_their_civ_death"	"Beau travail ! Leur VIP a été éliminé !"
 "vipr_cap_a_reset"		"Le point de contrôle A a été réinitialisé !"
@@ -1115,10 +1043,10 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 // Payload Race (Four-Team)
 "4plr_goal"	"Escortez votre wagon jusqu'au terminus pour gagner !"
 
-"4plr_cap_red"	"le point de capture des RED"
-"4plr_cap_blu"	"le point de capture des BLU"
-"4plr_cap_grn"	"le point de capture des GRN"
-"4plr_cap_ylw"	"le point de capture des YLW"
+"4plr_cap_red"	"le point de contrôle des RED"
+"4plr_cap_blu"	"le point de contrôle des BLU"
+"4plr_cap_grn"	"le point de contrôle des GRN"
+"4plr_cap_ylw"	"le point de contrôle des YLW"
 
 // Useful generic stuff for mappers
 "generic_cap_A"			"le point de contrôle A"
@@ -1163,28 +1091,11 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 "TF_IM_VIPR_Death"	"Si un VIP meurt, les points précédemment capturés seront réinitialisés"
 "TF_IM_VIPR_HUD"	"L'état et la progression des deux VIPs peuvent être observés en bas de l'écran"
 
-//Live TF2 Intro movies fixes
-
-// Frontier level strings
-"frontier_setup_goal_red"		"Empêchez les BLU d'escorter la charge jusqu'au fusil électromagnétique !"
-
-// plr_nightfall
-"plr_nightfall_final_objective"			"Déplacez votre wagon pour détruire l'objectif neutre avant que l'autre équipe ne fasses de même !"
-
-// Gravelpit level strings
-"Gravelpit_cap_C"			"capture C, le fusil électromagnétique"
-
-// Hydro level strings
-"Hydro_red_setup_goal"			"Prenez le point de contrôle des BLU pour remporter la manche. Empêchez-les de faire de même !"
-"Hydro_blue_setup_goal"			"Prenez le point de contrôle des RED pour remporter la manche. Empêchez-les de faire de même !"
-"Hydro_red_base_attack"			"Prenez l'ultime point de contrôle des BLU pour gagner la partie !"
-"Hydro_blue_base_attack"		"Prenez l'ultime point de contrôle des RED pour gagner la partie !"
-
 // ----------------------------------------------------------------
 // Scoreboard
 // ----------------------------------------------------------------
 
-"TF_Dominated_lodef"			    "HUM"
+"TF_ScoreBoard_NextLevel"			"Niveau suivant : %s1"
 
 "TF_ScoreBoard_Player"				"%s1 joueur"
 "TF_ScoreBoard_Players"				"%s1 joueurs"
@@ -1198,7 +1109,7 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 
 "TF_Scoreboard_DamageLabel"			"Dếgats :"
 "TF_ScoreBoard_HealingLabel"		"Soins :"
-"TF_Scoreboard_SupportLabel"		"Support :"
+"TF_Scoreboard_SupportLabel"		"Soutien :"
 
 "TF_ScoreBoard_CapturesLabel"		"Captures :"
 "TF_ScoreBoard_DefensesLabel"		"Défenses :"
@@ -1215,6 +1126,9 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 "TF_Medal_Developer"				"Développeur TF2C"
 "TF_Medal_Contributor"				"Contributeur TF2C"
 "TF_Medal_Playtester"				"Testeur TF2C"
+
+"TF_ClassRecord_MostDominations"	"Humiliations :"
+"TF_ClassRecord_Alt_MostDominations"	"Humiliation(s)"
 
 // ----------------------------------------------------------------
 // Win Panel
@@ -1279,24 +1193,28 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 "TF_Menu_LatestUpdate"		"Dernière mise à jour"
 "TF_Menu_ReportBug"			"Signaler un bug"
 
-"TF_Friends_Title"					"Amis (%friend_count%)"
-"TF_Friends_Status_InTF2C"			"Joue à TF2C"
-"TF_Friends_Status_Idle_InTF2C"		"AFK sur TF2C"
-"TF_Friends_Status_InMod"			"Joue à un autre mod"
-"TF_Friends_Status_Idle_InMod"		"AFK sur un autre mod"
-"TF_Friends_Status_InGame"			"Joue à un autre jeu"
-"TF_Friends_Status_Idle"			"AFK sur un autre jeu"
-"TF_Friends_Status_Online"			"En ligne"
-"TF_Friends_Status_Away"			"Absent"
-"TF_Friends_Status_Offline"			"Hors ligne"
+"TF_Menu_ShowFriends"		"Montrer amis"
+"TF_Menu_HideFriends"		"Cacher amis"
 
-"TF_RichPresence_State_InServer"				"%maptype% - %mapname%"
+"TF_Friends_Title"					            "Amis (%friend_count%)"
+"TF_Friends_Status_InTF2C"			            "Joue à TF2C"
+"TF_Friends_Status_Idle_InTF2C"		            "AFK sur TF2C"
+"TF_Friends_Status_InMod"			            "Joue à un autre mod"
+"TF_Friends_Status_Idle_InMod"		            "AFK sur un autre mod"
+"TF_Friends_Status_InGame"			            "Joue à un autre jeu"
+"TF_Friends_Status_Idle"			            "AFK sur un autre jeu"
+"TF_Friends_Status_Online"			            "En ligne"
+"TF_Friends_Status_Away"			            "Absent"
+"TF_Friends_Status_Offline"			            "Hors ligne"
+"TF_Friends_InviteServer"						"Inviter dans la partie"
+
+"TF_RichPresence_State_InServer"				"%mapname% (%maptype%)"
 "TF_RichPresence_State_InServer_MapNameOnly"	"%mapname%"
 "TF_RichPresence_State_JoiningServer"			"Rejoint un serveur"
 
-"ChallengeDetails"					"%s1 en tant que %s2"
+"ChallengeDetails"					            "%s1 en tant que %s2"
 
-"TF_NextChallenge"					"Prochain défi"
+"TF_NextChallenge"					            "Prochain défi"
 
 
 // ----------------------------------------------------------------
@@ -1309,7 +1227,7 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 "TF_Loadout_Modifier_RandomizerClasses"		"Classes aléatoires !"
 "TF_Loadout_Modifier_RandomizerItems"		"Objets aléatoires !"
 "TF_Loadout_Modifier_RandomizerAttributes"	"Attributs aléatoires !"
-"TF_Loadout_Modifier_RandomizerMayhem"		"Chaos du randomiseur !"
+"TF_Loadout_Modifier_RandomizerMayhem"		"Randomiseur chaotique !"
 "TF_Loadout_Modifier_CustomWeaponsEnabled"	"Armes personnalisées !"
 
 // Item slot types
@@ -1411,6 +1329,7 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 "TF2c_OptionCategory_Replay"			"REDIFFUSION"
 "TF2c_OptionCategory_DemoSupport"		"DÉMO"
 "TF2c_OptionCategory_Communication"		"COMMS"
+"TF2c_OptionCategory_Discord"			"DISCORD"
 
 "TF2c_OptionCategory_CustomizationMultiplayer"			"Personnalisation"
 "TF2c_OptionCategory_Network"							"RÉSEAU"
@@ -1435,6 +1354,8 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 "GameUI_OptionsRestart_Revert"			"Annuler les changements"
 
 "GameUI_Disconnect_TooManyCommands"		"Déconnecté : trop de commandes."
+
+"GameUI_DontShowThisAgain"               	"Ne plus afficher"
 
 // Combat
 "TF2C_Option_DamageFeedback"				"Retour de dégâts"
@@ -1466,8 +1387,6 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"DEMOMAN : activer le double clic pour le Cyclope"
 "TF_CyclopsDoubleTap_Tip"        	"Si l'option est activée, les grenades du Cyclope demanderont un deuxième clic gauche pour détoner, au lieu de relacher la touche de tir."
-"TF_SapperAwareness"                "ENGINEER : alerte de saboteurs
-"TF_SapperAwareness_Tip"            "Si l'option est activée, la plupart des sons seront grandement abaissés lorsque vos constructions sont en train d'être sabotées"
 "TF_SniperBell"					    "SNIPER : jouer un son lors d'une charge complète"
 "TF_SniperBell_Tip"					"Jouer un son lorsque le Fusil du Sniper est entièrement chargé"
 "TF_ZoomSensitivityRatio"			"SNIPER : taux de sensibilité de la visée"
@@ -1517,26 +1436,37 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 "TF_FlipViewModels"				"Inverser le modèle de vue"
 "TF_InvisibleArms"				"Rendre les bras invisibles sur le modèle de vue"
 "TF_ViewModelOpacity"			"Opacité du modèle de vue"
+"TF2C_Option_ViewmodelOffset"		"Activer les décalages du modèle de vue"
+"TF2C_Option_ViewmodelOffsetX"		"Décalage axe X"
+"TF2C_Option_ViewmodelOffsetY"		"Décalage axet Y"
+"TF2C_Option_ViewmodelOffsetZ"		"Décalage axe Z"
 
 // Misc
 "TF_ClassAutoKill"					"Suicide après avoir choisi une classe de joueur"
 "TF_ClassAutoKill_Tip"				"Si l'option est activée, vous vous suiciderez immédiatement lorsque vous changez de classe en dehors d'une salle de réapprovisionnement.\n\nSi elle n'est pas activée, vous changez de classe lorsque vous réapparaissez."
 "TF_ClassMenu_Music"				"Bande son de l'écran de séléction des classe"
 "TF_StreamerMode"					"Activer le mode instavidéaste (streamer)"
-"TF_StreamerMode_Tip"				"Si l'option est activée, elle masquera le chat et anonymisera tout le monde, y compris vous"
+"TF_StreamerMode_Tip"				"Si l'option est activée, elle masquera le chat et anonymisera tout le monde, y compris vous."
 "TF_ModelMuzzleFlash"				"Activer les modèles de tir bêta"
-"TF_ModelMuzzleFlash_Tip"			"Si l'option est activée, les tirs d'armes utiliseront un modèle à la place des particules"
+"TF_ModelMuzzleFlash_Tip"			"Si l'option est activée, les tirs d'armes utiliseront un modèle à la place des particules."
 
-// Voice
+/ Voice
 "TF2c_Option_Proximity_Voice_Local"	"Activer le chat vocale de proximité"
 
 // Multiplayer
+"GameUI_CrosshairAlpha"				"Alpha"
 "TF_MessageAlert"					"Activer le son des messages du chat"
-"TF_MessageAlert_Tip"				"Si l'option est activée, un son sera joué chaque fois qu'un message sera reçu dans le chat"
+"TF_MessageAlert_Tip"				"Si l'option est activée, un son sera joué chaque fois qu'un message sera reçu dans le chat."
 "TF_MessageVolume"					"Volume du son des messages du chat"
 "TF_ChatCloseOnSend"				"Fermer le chat sur l'envoi d'un message"
-"TF_ChatCloseOnSend_Tip"			"Si l'option est activée, envoyer un message fermera le chat"
-"TF_DownloadFilter_Title"			"Permissions pour les fichiers téléchargés depuis les serveurs"
+"TF_ChatCloseOnSend_Tip"			"Si l'option est activée, envoyer un message fermera le chat."
+"TF2C_Option_Discord_ServerInfo"	"Afficher les informations du serveur"
+"TF2C_Option_Discord_ServerInfo_Tip" "Si cette option est activée, votre serveur actuel s'affiche dans votre activité Présence enrichie Discord.."
+"TF2C_Option_Discord_MapInfo"		"Afficher les informations de la carte"
+"TF2C_Option_Discord_MapInfo_Tip"	"Si cette option est activée, la carte actuelle s'affiche dans votre activité Présence enrichie Discord."
+"TF2C_Option_Discord_ClassInfo"		"Afficher les informations de votre classe"
+"TF2C_Option_Discord_ClassInfo_Tip"	"Si cette option est activée, votre classe actuelle s'affiche dans votre activité Présence enrichie Discord."
+"TF_DownloadFilter_Title"			"Permissions pour les fichiers téléchargés depuis les serveurs."
 "GameUI_DownloadFilter_All"			"Autoriser tous les fichiers"
 "GameUI_DownloadFilter_NoSounds"	"Aucuns sons"
 "GameUI_DownloadFilter_MapsOnly"	"Seulement les cartes"
@@ -1548,13 +1478,9 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 "TF2c_Option_ClassicShading"		"Ombrage classique"
 "TF2c_Option_ClassicShading_Tip"	"Si cette option est activée, elle permet un ombrage entièrement lambertien pour les matériaux du joueur."
 "TF2c_Option_BloomScale"			"Échelle des éclats"
-"TF2c_Option_FramerateLimit"		"Limite de fréquence d'images"
+"TF2c_Option_FramerateLimit"		"Limite de fréquence d'images."
  "TF2c_Option_Brightness"			"Niveau de luminosité"
-"TF2c_Option_Brightness_Tip"		"[Plein écran uniquement] Ajuster le niveau de gamma du moniteur"
-
-// TF30
-"TF_EnableClassicVision"			"Activer la Classic-Vision"
-"TF_EnableClassicVision_Tip"		"Utilisez le contenu du 30e anniversaire de Team Fortress.\nSi le paramètre est modifié en cours de partie, le changement ne prendra effet qu'après une déconnexion ou lors d'un changement de niveau du serveur."
+"TF2c_Option_Brightness_Tip"		"[Plein écran uniquement] Ajuster le niveau de gamma du moniteur."
 
 // ----------------------------------------------------------------
 // Stats
@@ -1580,76 +1506,14 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 "StatPanel_MVM_Ubercharges_Best"		"Vous avez battu votre record d'ÜberCharges pendant cette manche de Mann vs. Machine."
 "StatPanel_MVM_Ubercharges_Tie"		"Vous avez égalé votre record d'ÜberCharges pendant cette manche de Mann vs. Machine."
 "StatPanel_MVM_Ubercharges_Close"		"Vous avez frôlé votre record d'ÜberCharges pendant cette manche de Mann vs. Machine."
-
-"StatPanel_PadJumps_Best"				"Vous avez battu votre record d'envole par tremplin pendant cette manche."
-"StatPanel_PadJumps_Tie"				"Vous avez égalé votre record d'envole par tremplin pendant cette manche."
-"StatPanel_PadJumps_Close"				"Vous avez frôlé votre record d'envole par tremplin pendant cette manche."
-"StatPanel_MVM_PadJumps_Best"			"Vous avez battu votre record d'envole par tremplin pendant cette manche de Mann vs. Machine."
-"StatPanel_MVM_PadJumps_Tie"			"Vous avez égalé votre record d'envole par tremplin pendant cette manche de Mann vs. Machine."
-"StatPanel_MVM_PadJumps_Close"			"Vous avez frôlé votre record d'envole par tremplin pendant cette manche de Mann vs. Machine."
-
-// Live TF2 Stats fix.
-"StatPanel_Kills_Best"				"Vous avez battu votre record de victimes en tant que %s1 pendant cette manche."
-"StatPanel_Captures_Best"			"Vous avez battu votre record de captures en tant que %s1 pendant cette manche."
-"StatPanel_Defenses_Best"			"Vous avez battu votre record de points défendus en tant que %s1 pendant cette manche."
-"StatPanel_DamageDealt_Best"			"Vous avez battu votre record de dégâts en tant que %s1 pendant cette manche."
-"StatPanel_PlayTime_Best"			"Vous avez battu votre record de survie en tant que %s1 pendant cette manche."
-"StatPanel_Healing_Best"			"Vous avez battu votre record de soin en tant que %s1 pendant cette manche."
-"StatPanel_KillAssists_Best"			"Vous avez battu votre record de coopérations en tant que %s1 pendant cette manche."
-"StatPanel_Backstabs_Best"			"Vous avez battu votre record de poignardages pendant cette manche."
-"StatPanel_HealthLeached_Best"			"Vous avez battu votre record de vols de médicaments et de distributeurs pendant cette manche."
-"StatPanel_BuildingsBuilt_Best"			"Vous avez battu votre record de montages pendant cette manche."
-"StatPanel_BuildingsDestroyed_Best"		"Vous avez battu votre record de destructions en tant que %s1 pendant cette manche."
-"StatPanel_Headshots_Best"			"Vous avez battu votre record de tirs en pleine tête pendant cette manche."
-"StatPanel_SentryKills_Best"			"Vous avez battu votre record de victimes à la mitrailleuse pendant cette manche."
-"StatPanel_Teleports_Best"			"Vous avez battu votre record d'utilisation du téléporteur pendant cette manche."
-"StatPanel_Dominations_Best"			"Vous avez battu votre record d'ennemis humiliés en tant que %s1 pendant cette manche."
-"StatPanel_Revenge_Best"			"Vous avez battu votre record de vengeances en tant que %s1 pendant cette manche."
-"StatPanel_PointsScored_Best"			"Vous avez battu votre record de points en tant que %s1 pendant cette manche."
-
-"StatPanel_Kills_Tie"				"Vous avez égalé votre record de victimes en tant que %s1 pendant cette manche."
-"StatPanel_Captures_Tie"			"Vous avez égalé votre record de captures en tant que %s1 pendant cette manche."
-"StatPanel_Defenses_Tie"			"Vous avez égalé votre record de défenses en tant que %s1 pendant cette manche."
-"StatPanel_DamageDealt_Tie"			"Vous avez égalé votre record de dégâts en tant que %s1 pendant cette manche."
-"StatPanel_PlayTime_Tie"			"Vous avez égalé votre record de survie en tant que %s1 pendant cette manche."
-"StatPanel_Healing_Tie"				"Vous avez égalé votre record de soins en tant que %s1 pendant cette manche."
-"StatPanel_KillAssists_Tie"			"Vous avez égalé votre record de coopérations en tant que %s1 pendant cette manche."
-"StatPanel_Backstabs_Tie"			"Vous avez égalé votre record de poignardages pendant cette manche."
-"StatPanel_HealthLeached_Tie"			"Vous avez égalé votre record de vols de santé à l'ennemi pendant cette manche."
-"StatPanel_BuildingsBuilt_Tie"			"Vous avez égalé votre record de montages pendant cette manche."
-"StatPanel_BuildingsDestroyed_Tie"		"Vous avez égalé votre record de destructions en tant que %s1 pendant cette manche."
-"StatPanel_Headshots_Tie"			"Vous avez égalé votre record de tirs en pleine tête pendant cette manche."
-"StatPanel_SentryKills_Tie"			"Vous avez égalé votre record de victimes à la mitrailleuse pendant cette manche."
-"StatPanel_Teleports_Tie"			"Vous avez égalé votre record de téléportations pendant cette manche."
-"StatPanel_Dominations_Tie"			"Vous avez égalé votre record d'ennemis humiliés en tant que %s1 pendant cette manche."
-"StatPanel_Revenge_Tie"				"Vous avez égalé votre record de vengeances en tant que %s1 pendant cette manche."
-"StatPanel_PointsScored_Tie"			"Vous avez égalé votre record de points marqués en tant que %s1 pendant cette manche."
-
-"StatPanel_Kills_Close"				"Vous avez frôlé votre record de victimes en tant que %s1 pendant cette manche."
-"StatPanel_Captures_Close"			"Vous avez frôlé votre record de captures en tant que %s1 pendant cette manche."
-"StatPanel_Defenses_Close"			"Vous avez frôlé votre record de défenses en tant que %s1 pendant cette manche."
-"StatPanel_DamageDealt_Close"			"Vous avez frôlé votre record de dégâts en tant que %s1 pendant cette manche."
-"StatPanel_PlayTime_Close"			"Vous avez frôlé votre record de survie en tant que %s1 pendant cette manche."
-"StatPanel_Healing_Close"			"Vous avez frôlé votre record de soins en tant que %s1 pendant cette manche."
-"StatPanel_KillAssists_Close"			"Vous avez frôlé votre record de coopérations en tant que %s1 pendant cette manche."
-"StatPanel_Backstabs_Close"			"Vous avez frôlé votre record de poignardages pendant cette manche."
-"StatPanel_HealthLeached_Close"			"Vous avez frôlé votre record de vol de santé à l'ennemi pendant cette manche."
-"StatPanel_BuildingsBuilt_Close"		"Vous avez frôlé votre record de montages pendant cette manche."
-"StatPanel_BuildingsDestroyed_Close"		"Vous avez frôlé votre record de destructions en tant que %s1 pendant cette manche."
-"StatPanel_Headshots_Close"			"Vous avez frôlé votre record de tirs en pleine tête pendant cette manche."
-"StatPanel_SentryKills_Close"			"Vous avez frôlé votre record de victimes à la mitrailleuse pendant cette manche."
-"StatPanel_Teleports_Close"			"Vous avez frôlé votre record de téléportations pendant cette manche."
-"StatPanel_Dominations_Close"			"Vous avez frôlé votre record d'ennemis humiliés en tant que %s1 pendant cette manche."
-"StatPanel_Revenge_Close"			"Vous avez frôlé votre record de vengeances en tant que %s1 pendant cette manche."
-"StatPanel_PointsScored_Close"			"Vous avez frôlé votre record de points marqués en tant que %s1 pendant cette manche."
 // ----------------------------------------------------------------
 // Achievements
 // ----------------------------------------------------------------
 
 // Achievement groups
-"Achievement_Group_3000"	"Classes d'attaque (%s1 sur %s2)"
-"Achievement_Group_3100"	"Classes de défense (%s1 sur %s2)"
-"Achievement_Group_3200"	"Classes de support (%s1 sur %s2)"
+"Achievement_Group_3000"	"Classes offensive (%s1 sur %s2)"
+"Achievement_Group_3100"	"Classes défensive (%s1 sur %s2)"
+"Achievement_Group_3200"	"Classes de soutien (%s1 sur %s2)"
 "Achievement_Group_3300"	"Cartes et modes de jeu (%s1 sur %s2)"
 
 // Launch achievements
@@ -1663,9 +1527,9 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_CTF_WELL"	"Well (CTF)"
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_VIP_AVANTI"	"Avanti"
 "TF2C_ACHIEVEMENT_KILL_BUILDINGS_WITH_MIRV_NAME"		"BADABOUM !"
-"TF2C_ACHIEVEMENT_KILL_BUILDINGS_WITH_MIRV_DESC"		"Détruisez 5 constructions d'Engineer ennemis avec le Paquet de dynamite."
+"TF2C_ACHIEVEMENT_KILL_BUILDINGS_WITH_MIRV_DESC"		"Détruisez 5 constructions d'Engineer ennemis avec le Pack de dynamite."
 "TF2C_ACHIEVEMENT_DEFUSE_MIRV_NAME"						"Refus catégorique"
-"TF2C_ACHIEVEMENT_DEFUSE_MIRV_DESC"						"Désamorcez un Paquet de dynamite d'un Demoman ennemi avec votre clé."
+"TF2C_ACHIEVEMENT_DEFUSE_MIRV_DESC"						"Désamorcez un Pack de dynamite d'un Demoman ennemi avec votre clé."
 "TF2C_ACHIEVEMENT_TRANQ_MELEE_KILL_NAME"				"Sommeil de plomb"
 "TF2C_ACHIEVEMENT_TRANQ_MELEE_KILL_DESC"				"En tant que Spy, tuez 10 joueurs tranquillisés avec votre arme de corps à corps."
 "TF2C_ACHIEVEMENT_EXTINGUISH_BOMBLETS_NAME"				"Fais un voeu !"
@@ -1798,25 +1662,292 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 "TF_Welcome_birthday"			"Bienvenue et joyeux anniversaire TF2 !"
 "TF_Welcome_qwtf_birthday"		"Bienvenue et joyeux anniversaire QWTF !"
 
+// //////////////////////////////////////////////////////////////////////////
+// Live TF2 String fixes 
+// DO NOT CHANGE NOR REMOVE THOSES STRINGS, THANK YOU.
+// // ///////////////////////////////////////////////////////////////////////
+
 // ----------------------------------------------------------------
-// Live TF2 String fixes
+// Teams
 // ----------------------------------------------------------------
 
-// DO NOT CHANGE NOR REMOVE THOSES STRINGS, THANK YOU.
+"TF_Offense"				         "OFFENSE"
+"TF_Defense"				         "DÉFENSE"
+"TF_Support"				         "SOUTIEN"
+
+// ----------------------------------------------------------------
+// Kill feed
+// ----------------------------------------------------------------
+
+"TF_Dominated"				    "A HUMILIÉ"
+
+// ----------------------------------------------------------------
+// Weapon attributes
+// ----------------------------------------------------------------
+
+"Attrib_WpnBurnDmg_Increased"				        "Bonus de dégâts de postcombustion +%s1%"
+"Attrib_WpnBurnDmg_Reduced"					        "Pénalité de dégâts de postcombustion %s1%"
+"Attrib_WpnBurnTime_Increased"				        "Durée de la postcombustion de +%s1%"
+"Attrib_WpnBurnTime_Reduced"				        "Durée de la postcombustion de %s1%"
+
+"Attrib_ConstructionRate_Increased"			        "Vitesse de montage %s1% fois plus rapide"
+"Attrib_ConstructionRate_Decreased"			        "Vitesse de montage %s1% fois plus lente"
+
+"Attrib_HealthFromPacks_Increased"			        "Soins reçus avec kits de soins +%s1% quand équipé"
+"Attrib_HealthFromPacks_Decreased"			        "Soins reçus avec kits de soins %s1% quand équipé"
+"Attrib_EffectBarRechargeRateIncreased"		        "Taux de recharge de +%s1%"
+"Attrib_MaxammoGrenades1_Increased"			        "Munitions diverses quand équipé +%s1%"
+
+"Attrib_EngyBuildingHealthBonus"			        "Santé max. des constructions +%s1%"
+"Attrib_EngyBuildingHealthPenalty"			        "Santé max. des constructions +%s1%"
+"Attrib_EngySentryDamageBonus"				        "Bonus de dégâts de la mitrailleuse +%s1%"
+
+"Attrib_SentryFireRate_Increased"		            "Cadence de tir de la mitrailleuse +%s1%"
+"Attrib_SentryRadius_Increased"			            "Portée de la mitrailleuse +%s1%"
+"Attrib_DispenserRadius_Increased"		            "Portée du distributeur +%s1%"
+
+"Attrib_MoveSpeed_Bonus_shortdesc"				    "Vitesse de déplacement +%s1%"
+"Attrib_JumpHeightBonus_shortdesc"				    "Hauteur de saut +%s1%"
+"Attrib_AmmoRegen_shortdesc"					    "Régénération de munitions +%s1%"
+"Attrib_MetalRegen_shortdesc"					    "Régénération de métal +%s1%"
+"Attrib_HealthRegen_shortdesc"					    "Régénération de santé" +%s1%
+"Attrib_DmgTaken_From_Fire_Reduced_shortdesc"		"Résistance au feu +%s1%"
+"Attrib_DmgTaken_From_Crit_Reduced_shortdesc"		"Résistance aux critiques +%s1%"
+"Attrib_DmgTaken_From_Blast_Reduced_shortdesc"		"Résistance aux explosions +%s1%"
+"Attrib_DmgTaken_From_Bullets_Reduced_shortdesc"	"Résistance aux balles +%s1%"
+
+"Attrib_ClipSize_Positive_shortdesc"			    "Capacité du chargeur +%s1%"
+"Attrib_MaxammoPrimary_Increased_shortdesc"		    "Capacité de munitions +%s1%"
+"Attrib_MaxammoSecondary_Increased_shortdesc"	    "Capacité de munitions +%s1%"
+"Attrib_FastReload_shortdesc"					    "Vitesse de rechargement +%s1%"
+"Attrib_DamageDone_Positive_shortdesc"			    "Dégâts +%s1%"
+"Attrib_FireRate_Positive_shortdesc"			    "Cadence de tir +%s1%"
+"Attrib_MeleeRate_Positive_shortdesc"			    "Vitesse d'attaque +%s1%"
+"Attrib_ProjectileSpeed_Increased_shortdesc"	    "Vitesse des projectiles +%s1%"
+"Attrib_Penetration_shortdesc"					    "Pénétration des projectiles +%s1%"
+"Attrib_HealOnKill_shortdesc"					    "Santé par victime +%s1"
+
+"Attrib_RageOnDamage_shortdesc"					    "Fureur Repoussante"
+
+"Attrib_BuffTime_Increased_shortdesc"			    "Durée du bonus +%s1%"
+"Attrib_WpnBurnDmg_Increased_shortdesc"			    "Dégâts de la postcombustion +%s1%"
+"Attrib_WpnBurnTime_Increased_shortdesc"		    "Durée de la postcombustion +%s1%"
+
+Tip_MvM_2_Count"	"1"
+"Tip_MvM_2_1"		"Astuce : Améliorez le bonus de votre étendard pour multiplier les dégâts de tous les coéquipiers à proximité"
+
+"Tip_MvM_5_Count"	"1"
+"Tip_MvM_5_1"		"Astuce : achetez l'amélioration de la fureur pour repousser vos ennemis tandis que vous leur tirez dessus"
+
+// ----------------------------------------------------------------
+// Miscellaneous weapon types
+// ----------------------------------------------------------------
+
+"TF_Weapon_RiftFireAxe"		"Hache fissurée"
+"TF_Weapon_RiftFireMace"	"Masse usée"
+"TF_Weapon_RocketPack"		"Réacteur dorsal"
+"TF_Weapon_Slap"			"Gifle"
+
+// ----------------------------------------------------------------
+// Weapon meters
+// ----------------------------------------------------------------
+
+"TF_Boost"			"STIMULANT"
+
+// ----------------------------------------------------------------
+// Map strings
+// ----------------------------------------------------------------
+
+"Dustbowl_cap_1_A"		"Première capture, Étape 1"
+"Dustbowl_cap_1_B"		"Deuxième capture, Étape 1"
+"Dustbowl_cap_2_A"		"Première capture, Étape 2"
+"Dustbowl_cap_2_B"		"Deuxième capture, Étape 2"
+"Dustbowl_cap_3_A"		"Première capture, Étape 3"
+"Dustbowl_cap_3_B"		"Missile balistique, ultime capture"
+
+"Goldrush_cap_1_A"		"Première capture, Étape 1"
+"Goldrush_cap_1_B"		"Deuxième capture, Étape 1"
+"Goldrush_cap_2_A"		"Première capture, Étape 1"
+"Goldrush_cap_2_B"		"Deuxième capture, Étape 1"
+"Goldrush_cap_3_A"		"Première capture, Étape 1"
+"Goldrush_cap_3_B"		"Deuxième capture, Étape 1"
+"Goldrush_cap_3_C"		"Silo à missile, ultime capture"
+
+// Badwater level strings
+"Badwater_cap_1"		"Première capture"
+"Badwater_cap_2"		"Deuxième capture"
+"Badwater_cap_3"		"Troisième capture"
+"Badwater_cap_4"		"Cache d'explosifs, terminus"
+
+// Thunder Mountain level strings
+"Thunderm_cap_1_A"		"Pont, Étape 1"
+"Thunderm_cap_1_B"		"Plateforme principale, Étape 1"
+"Thunderm_cap_2_A"		"Scierie, Étape 2"
+"Thunderm_cap_2_B"		"La Fosse, Étape 2"
+"Thunderm_cap_3_A"		"Bâtiment A, Étape 3"
+"Thunderm_cap_3_B"		"Bâtiment B, Étape 3"
+"Thunderm_cap_3_C"		"Tour, terminus"
+
+// Hightower
+"hightower_cap_red"			"Tour des RED, terminus"
+"hightower_cap_blue"			"Tour des BLU, terminus"
+
+// Gravelpit level strings
+"Gravelpit_cap_C"			"capture C, le fusil électromagnétique"
+
+// Pipeline level strings
+"Pipeline_setup_goal"			"Escortez votre wagon jusqu'au terminus pour remporter la manche !"
+"Pipeline_final_goal"			"Utilisez votre wagon pour détruire la base ennemie avant que vos adversaires ne fassent de même !"
+"Pipeline_cap_1_red"			"Première capture des RED"
+"Pipeline_cap_1_blue"			"Première capture des BLU"
+"Pipeline_cap_2_red"			"Deuxième capture des RED"
+"Pipeline_cap_2_blue"			"Deuxième capture des BLU"
+"Pipeline_cap_3_red"			"Terminus des RED"
+"Pipeline_cap_3_blue"			"Terminus des BLU"
+
+// KOTH Viaduct strings
+"koth_viaduct_cap"			"le point de contrôle"
+
+// Medieval
+"medieval_cap_c"			"Donjon des RED"
+
+//Mann manor
+"cp_manor_event_first_cp"				"Première capture"
+"cp_manor_event_second_cp"				"Deuxième capture"
+"cp_manor_event_third_cp"				"Troisième capture"
+
+//pl_borneo
+"pl_borneo_cp1"							"Première capture"
+"pl_borneo_cp2"							"Deuxième capture"
+"pl_borneo_cp3"							"Troisième capture"
+"pl_borneo_cp4"							"Terminus"
+
+// ----------------------------------------------------------------
+// Intro movies
+// ----------------------------------------------------------------
+
+// Frontier level strings
+"frontier_setup_goal_red"		"Empêchez les BLU d'escorter la charge utile jusqu'au fusil électromagnétique !"
+
+// plr_nightfall
+"plr_nightfall_final_objective"			"Escortez votre wagon pour détruire l'objectif neutre avant que l'autre équipe ne fasses de même !"
+
+// Hydro level strings
+"Hydro_red_setup_goal"			"Prenez le point de contrôle des BLU pour remporter la manche. Empêchez-les de faire de même !"
+"Hydro_blue_setup_goal"			"Prenez le point de contrôle des RED pour remporter la manche. Empêchez-les de faire de même !"
+"Hydro_red_base_attack"			"Prenez l'ultime point de contrôle des BLU pour gagner la partie !"
+"Hydro_blue_base_attack"		"Prenez l'ultime point de contrôle des RED pour gagner la partie !"
+
+// KOTH Viaduct strings
+"koth_setup_goal"			"Capturez et tenez le point de contrôle pour remporter la partie !"
+
+// Medieval
+"medieval_setup_goal_red"		"Capturez et tenez l'ultime point de contrôle pour remporter la partie !"
+"medieval_setup_goal_blue"		"Ouvrez la grille et capturez l'ultime point de contrôle pour remporter la partie !"
+
+// Steel
+"steel_setup_goal_red"		"Défendez le point principal tout en défendant également le point secondaire en jeu !"
+"steel_setup_goal_blue"		"Prenez le point principal des Red pour gagner la partie. Capturer les points secondaires augmentera vos chances de victoire !"
+
+// Frontier
+"frontier_setup_goal_red"		"Empêchez les BLU d'escorter la charge jusqu'au fusil électromagnétique !"
+
+
+// ----------------------------------------------------------------
+// Win Panel
+// ----------------------------------------------------------------
+
+"Winreason_DefendedUntilTimeLimit"	"Les %s1 ont assuré la défense jusqu'à la fin de la manche !"
+
+// ----------------------------------------------------------------
+// Misc. strings
+// ----------------------------------------------------------------
+
+"Winpanel_PointsThisRound"		"Points dans cette manche :"
+
+"Tournament_WinConditionsRounds"	"manches"
 
 "TF_CTF_PlayerCapture"		"Vous avez SÉCURISÉ les DOCUMENTS de l'ENNEMI."
+"TF_CTF_PlayerTeamCapture"	"Votre équipe a SÉCURISÉ les DOCUMENTS de l'ENNEMI."
+"TF_CTF_OtherTeamCapture"	"Vos documents ont été SÉCURISÉS."
 
 "TF_Invade_PlayerCapture"		"Vous avez SÉCURISÉ le DRAPEAU."
+"TF_Invade_PlayerTeamCapture"		"Votre équipe a SÉCURISÉ le DRAPEAU."
+"TF_Invade_OtherTeamCapture"		"L'ENNEMI a SÉCURISÉ le DRAPEAU."
 
-"game_respawntime_next_manche"		"Réapparition dans : La prochaine manche"
 
-"TF_ClassRecord_MostDominations"	"Humiliation :"
+// ----------------------------------------------------------------
+// Scoreboard
+// ----------------------------------------------------------------
 
-"TF_ClassRecord_Alt_MostDominations"	"humiliation(s)"
+"TF_Dominated_lodef"			    "HUM"
 
-//Voice menu
+"TF_MvMScoreboard_Money"		"Crédits"
+
+// ----------------------------------------------------------------
+// Stats
+// ----------------------------------------------------------------
+
+"StatPanel_Title_Alive"				"Eh, pas mal du tout ! Dernière manche :"
+										   
+"StatPanel_Kills_Best"				"Vous avez battu votre record de victimes en tant que %s1 pendant cette manche."
+"StatPanel_Captures_Best"			"Vous avez battu votre record de captures en tant que %s1 pendant cette manche."
+"StatPanel_Defenses_Best"			"Vous avez battu votre record de points défendus en tant que %s1 pendant cette manche."
+"StatPanel_DamageDealt_Best"			"Vous avez battu votre record de dégâts en tant que %s1 pendant cette manche."
+"StatPanel_PlayTime_Best"			"Vous avez battu votre record de survie en tant que %s1 pendant cette manche."
+"StatPanel_Healing_Best"			"Vous avez battu votre record de soin en tant que %s1 pendant cette manche."
+"StatPanel_KillAssists_Best"			"Vous avez battu votre record de coopérations en tant que %s1 pendant cette manche."
+"StatPanel_Backstabs_Best"			"Vous avez battu votre record de poignardages pendant cette manche."
+"StatPanel_HealthLeached_Best"			"Vous avez battu votre record de vols de médicaments et de distributeurs pendant cette manche."
+"StatPanel_BuildingsBuilt_Best"			"Vous avez battu votre record de montages pendant cette manche."
+"StatPanel_BuildingsDestroyed_Best"		"Vous avez battu votre record de destructions en tant que %s1 pendant cette manche."
+"StatPanel_Headshots_Best"			"Vous avez battu votre record de tirs en pleine tête pendant cette manche."
+"StatPanel_SentryKills_Best"			"Vous avez battu votre record de victimes à la mitrailleuse pendant cette manche."
+"StatPanel_Teleports_Best"			"Vous avez battu votre record d'utilisation du téléporteur pendant cette manche."
+"StatPanel_Dominations_Best"			"Vous avez battu votre record d'ennemis humiliés en tant que %s1 pendant cette manche."
+"StatPanel_Revenge_Best"			"Vous avez battu votre record de vengeances en tant que %s1 pendant cette manche."
+"StatPanel_PointsScored_Best"			"Vous avez battu votre record de points en tant que %s1 pendant cette manche."
+
+"StatPanel_Kills_Tie"				"Vous avez égalé votre record de victimes en tant que %s1 pendant cette manche."
+"StatPanel_Captures_Tie"			"Vous avez égalé votre record de captures en tant que %s1 pendant cette manche."
+"StatPanel_Defenses_Tie"			"Vous avez égalé votre record de défenses en tant que %s1 pendant cette manche."
+"StatPanel_DamageDealt_Tie"			"Vous avez égalé votre record de dégâts en tant que %s1 pendant cette manche."
+"StatPanel_PlayTime_Tie"			"Vous avez égalé votre record de survie en tant que %s1 pendant cette manche."
+"StatPanel_Healing_Tie"				"Vous avez égalé votre record de soins en tant que %s1 pendant cette manche."
+"StatPanel_KillAssists_Tie"			"Vous avez égalé votre record de coopérations en tant que %s1 pendant cette manche."
+"StatPanel_Backstabs_Tie"			"Vous avez égalé votre record de poignardages pendant cette manche."
+"StatPanel_HealthLeached_Tie"			"Vous avez égalé votre record de vols de santé à l'ennemi pendant cette manche."
+"StatPanel_BuildingsBuilt_Tie"			"Vous avez égalé votre record de montages pendant cette manche."
+"StatPanel_BuildingsDestroyed_Tie"		"Vous avez égalé votre record de destructions en tant que %s1 pendant cette manche."
+"StatPanel_Headshots_Tie"			"Vous avez égalé votre record de tirs en pleine tête pendant cette manche."
+"StatPanel_SentryKills_Tie"			"Vous avez égalé votre record de victimes à la mitrailleuse pendant cette manche."
+"StatPanel_Teleports_Tie"			"Vous avez égalé votre record de téléportations pendant cette manche."
+"StatPanel_Dominations_Tie"			"Vous avez égalé votre record d'ennemis humiliés en tant que %s1 pendant cette manche."
+"StatPanel_Revenge_Tie"				"Vous avez égalé votre record de vengeances en tant que %s1 pendant cette manche."
+"StatPanel_PointsScored_Tie"			"Vous avez égalé votre record de points marqués en tant que %s1 pendant cette manche."
+
+"StatPanel_Kills_Close"				"Vous avez frôlé votre record de victimes en tant que %s1 pendant cette manche."
+"StatPanel_Captures_Close"			"Vous avez frôlé votre record de captures en tant que %s1 pendant cette manche."
+"StatPanel_Defenses_Close"			"Vous avez frôlé votre record de défenses en tant que %s1 pendant cette manche."
+"StatPanel_DamageDealt_Close"			"Vous avez frôlé votre record de dégâts en tant que %s1 pendant cette manche."
+"StatPanel_PlayTime_Close"			"Vous avez frôlé votre record de survie en tant que %s1 pendant cette manche."
+"StatPanel_Healing_Close"			"Vous avez frôlé votre record de soins en tant que %s1 pendant cette manche."
+"StatPanel_KillAssists_Close"			"Vous avez frôlé votre record de coopérations en tant que %s1 pendant cette manche."
+"StatPanel_Backstabs_Close"			"Vous avez frôlé votre record de poignardages pendant cette manche."
+"StatPanel_HealthLeached_Close"			"Vous avez frôlé votre record de vol de santé à l'ennemi pendant cette manche."
+"StatPanel_BuildingsBuilt_Close"		"Vous avez frôlé votre record de montages pendant cette manche."
+"StatPanel_BuildingsDestroyed_Close"		"Vous avez frôlé votre record de destructions en tant que %s1 pendant cette manche."
+"StatPanel_Headshots_Close"			"Vous avez frôlé votre record de tirs en pleine tête pendant cette manche."
+"StatPanel_SentryKills_Close"			"Vous avez frôlé votre record de victimes à la mitrailleuse pendant cette manche."
+"StatPanel_Teleports_Close"			"Vous avez frôlé votre record de téléportations pendant cette manche."
+"StatPanel_Dominations_Close"			"Vous avez frôlé votre record d'ennemis humiliés en tant que %s1 pendant cette manche."
+"StatPanel_Revenge_Close"			"Vous avez frôlé votre record de vengeances en tant que %s1 pendant cette manche."
+"StatPanel_PointsScored_Close"			"Vous avez frôlé votre record de points marqués en tant que %s1 pendant cette manche."
+
+// ----------------------------------------------------------------
+// Voice menu
+// ----------------------------------------------------------------
+
 "Voice_Menu_MoveUp"		"Ramenez vos constructions !"
-
-"TF_MatchOption_Rounds"		"Manches :"
 }
 }
