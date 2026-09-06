@@ -1191,7 +1191,7 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_Menu_Options"			"Beállítások"
 "TF_Menu_Addons"			"Kiegészítők (Hamarosan!)"
 
-"TF_Menu_Quit"				"Kilépés"
+"TF_Menu_QuitGame"			"Kilépés"
 "TF_Menu_Disconnect"		"Szétkapcsolás"
 
 "TF_Menu_Blog"				"Weboldal"
@@ -1334,6 +1334,7 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF2c_OptionCategory_Replay"			"VISSZAJÁTSZÁS"
 "TF2c_OptionCategory_DemoSupport"		"DEMÓ"
 "TF2c_OptionCategory_Communication"		"KOMM."
+"TF2c_OptionCategory_Discord"			"DISCORD"
 
 "TF2c_OptionCategory_CustomizationMultiplayer"			"Testreszabás"
 "TF2c_OptionCategory_Network"							"HÁLÓZAT"
@@ -1352,13 +1353,14 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "GameUI_Off"               				"Kikapcsolva"
 "GameUI_Everyone"               		"Mindenki"
 "GameUI_FriendsOnly"               		"Csak barátoknak"
-"GameUI_CrosshairAlpha"					"Áttetszőség"
 
 "GameUI_Restart"						"Újraindítás szükséges"
 "GameUI_RestartText"					"Néhány változtatás miatt újra kell indítanod a játékot:"
 "GameUI_OptionsRestart_Revert"			"Visszaállítás"
 
 "GameUI_Disconnect_TooManyCommands"		"Szétkapcsolva: Túl sok parancs."
+
+"GameUI_DontShowThisAgain"               	"Ne mutasd többet"
 
 // Combat
 "TF2C_Option_DamageFeedback"				"Sebzés-visszajelző bekapcsolása"
@@ -1417,6 +1419,8 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_OverlayToastInsetVert"        "Steam értesítés függőleges beágyazódása"
 "TF_TargetID_Floating_Health"	  "Célpont-azonosító - Lebegő életerő bekapcsolása"
 "TF_TargetID_Floating_Health_Tip" "Ha be van kapcsolva, a célpont felett megjelenik az életereje"
+"TF_TargetID_Floating_Health_Offset" 		"Lebegő életerő eltolása"
+"TF_TargetID_Floating_Health_Offset_Tip" 	"Lebegő életerő eltolása a célpont tetejétől"
 "TF_TargetID_Alpha"				  "Célpont-azonosító - Névtábla hátterének átlátszósága"
 "TF_TargetID_Alpha_Tip"			  "Beállítja a célpont-azonosító névtábla hátterének az átlátszóságát"
 "TF_TargetID_Show_Avatars"		  "Célpont-azonosító - Profilképek megjelenítése"
@@ -1435,10 +1439,14 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_GlowEffects_Tip" 			  "Ha be van kapcsolva, ragyogó effektek fogják körvonalazni a pálya céljait, mint a VIP-kat, bombás kocsikat és az információs aktatáskákat."
 
 // ViewModel
-"TF_ViewModelFOV"				"Nézetmodell látómezeje"
-"TF_FlipViewModels"				"Nézetmodellek megfordítása"
-"TF_InvisibleArms"				"Láthatatlan nézetmodell-karok"
-"TF_ViewModelOpacity"			"Nézetmodell áttetszősége"
+"TF_ViewModelFOV"					"Nézetmodell látómezeje"
+"TF_FlipViewModels"					"Nézetmodellek megfordítása"
+"TF_InvisibleArms"					"Láthatatlan nézetmodell-karok"
+"TF_ViewModelOpacity"				"Nézetmodell áttetszősége"
+"TF2C_Option_ViewmodelOffset"		"Nézetmodell eltolások bekapcsolása"
+"TF2C_Option_ViewmodelOffsetX"		"Nézetmodell eltolás X"
+"TF2C_Option_ViewmodelOffsetY"		"Nézetmodell eltolás Y"
+"TF2C_Option_ViewmodelOffsetZ"		"Nézetmodell eltolás Z"
 
 // Misc
 "TF_ClassAutoKill"					"Osztályválasztás utáni öngyilkosság"
@@ -1453,11 +1461,18 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF2c_Option_Proximity_Voice_Local"	"Távérzékeny hangos csevegő bekapcsolása"
 
 // Multiplayer
+"GameUI_CrosshairAlpha"				"Áttetszőség"
 "TF_MessageAlert"				    "Üzenetjelző hang bekapcsolása"
 "TF_MessageAlert_Tip"			    "Ha be van kapcsolva, üzenetjelző hangot fogsz hallani valahányszor üzenet érkezik a szöveges csevegőre"
 "TF_MessageVolume"				    "Üzenetjelző hang hangereje"
 "TF_ChatCloseOnSend"				"Csevegő bezárása üzenetküldés után"
 "TF_ChatCloseOnSend_Tip"			"Ha be van kapcsolva, bezárja a csevegőt üzenetküldés után"
+"TF2C_Option_Discord_ServerInfo"	"Szerverinformáció mutatása"
+"TF2C_Option_Discord_ServerInfo_Tip" "Ha be van kapcsolva, megjeleníti a jelenleg játszott szervered a Discord Rich Presence tevékenységedben"
+"TF2C_Option_Discord_MapInfo"		"Pályainformáció mutatása"
+"TF2C_Option_Discord_MapInfo_Tip"	"Ha be van kapcsolva, megjeleníti a jelenleg játszott pályád a Discord Rich Presence tevékenységedben"
+"TF2C_Option_Discord_ClassInfo"		"Osztályinformáció mutatása"
+"TF2C_Option_Discord_ClassInfo_Tip"	"Ha be van kapcsolva, megjeleníti a jelenlegi osztályod a Discord Rich Presence tevékenységedben"
 "TF_DownloadFilter_Title"			"A szerverekről letöltött egyedi fájlok engedélyei"
 "GameUI_DownloadFilter_All"			"Egyedi fájlok engedélyezése"
 "GameUI_DownloadFilter_NoSounds"	"Egyedi hangok tiltása"
@@ -1472,11 +1487,7 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF2c_Option_BloomScale"	        "HDR ragyogás mértéke"
 "TF2c_Option_FramerateLimit"		"Képfrissítés limit"
 "TF2c_Option_Brightness"			"Fényerő"
-"TF2c_Option_Brightness_Tip"		"[CSAK TELJESKÉPERNYŐN] Monitor fényerejének beállítása"
-
-// TF30
-"TF_EnableClassicVision"			"Klassziklátás bekapcsolása"
-"TF_EnableClassicVision_Tip"		"A Team Fortress 30. évfordulói tartalmának használata.\nHa játék közben van bekapcsolva, a változások csak lecsatlakozáskor vagy pályaváltáskor lesznek érvényesek."
+"TF2c_Option_Brightness_Tip"		"[CSAK TELJES KÉPERNYŐN] Monitor fényerejének beállítása"
 
 // ----------------------------------------------------------------
 // Stats
