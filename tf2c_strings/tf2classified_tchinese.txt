@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 "Language" "tchinese"
 "Tokens"
@@ -183,7 +183,7 @@
 
 "DeathMsg_VIP"					"VIP"
 "DeathMsg_ComboKill"			"爆炸連殺！"
-"DeathMsg_AirshotKill"			"空接了！"
+"DeathMsg_AirshotKill"			"接殺了！"
 
 // Custom suicides
 "DeathMsg_Suicide_Boioing"		"昇天了！"
@@ -306,8 +306,8 @@
 "Tip_5_13"		"身為醫護兵，休克治療儀的能量條越滿，傷害越高。每擊中敵人，能量條就會消耗掉。"
 "Tip_5_14"		"身為醫護兵，休克治療儀在能量條滿時可以完全治療一名隊友，但會降低你的主要治療速度。"
 // Double Down
-"Tip_5_15"		"身為醫護兵，萬象回春在治療大群隊友時非常有效。直擊目標可增加治療量並獲得 UberCharge 獎勵。"
-"Tip_5_16"		"身為醫護兵，萬象回春的 UberCharge 激活後會部署臨時護盾，任何進入範圍內的隊友將免疫所有傷害。"
+"Tip_5_15"		"身為醫護兵，活力發射器在治療大群隊友時非常有效。直擊目標可增加治療量並獲得 UberCharge 獎勵。"
+"Tip_5_16"		"身為醫護兵，活力發射器的 UberCharge 激活後會部署臨時護盾，任何進入範圍內的隊友將免疫所有傷害。"
 
 // Heavy
 "Tip_6_Count"	"17"
@@ -612,7 +612,7 @@
 // ----------------------------------------------------------------
 
 // Rejuvenator
-"TF_Weapon_Rejuvenator"			"萬象回春"
+"TF_Weapon_Rejuvenator"			"活力發射器"
 "TF_Weapon_Rejuvenator_Desc"	"請盡量避免讓它進到你的嘴裡或眼睛裡。"
 // Admiralty Anchor
 "TF_Weapon_AdmiraltyAnchor"			"海軍錨"
@@ -1532,7 +1532,7 @@
 
 // Launch achievements
 "TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_NAME"			"精心策劃的意外"
-"TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_DESC"			""從遠距離用拋物線火箭擊殺敵方玩家。"
+"TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_DESC"			"從遠距離用拋物線火箭擊殺敵方玩家。"
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_NAME"			"環球旅行者"
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_DESC"			"在 Dustbowl、2Fort、Badlands（控制點）與 Well（搶奪情報箱），Avanti 中各完成一場完整的遊戲。"
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_CP_DUSTBOWL"	"Dustbowl"
@@ -1571,7 +1571,7 @@
 "TF2C_ACHIEVEMENT_JUMPPAD_STOMP_NAME"					"終端速度"
 "TF2C_ACHIEVEMENT_JUMPPAD_STOMP_DESC"					"使用彈射板後，落在敵人身上將其踩死。"
 "TF2C_ACHIEVEMENT_EXTEND_UBER_NAME"						"手術馬拉松"
-"TF2C_ACHIEVEMENT_EXTEND_UBER_DESC"						"將萬象回春的 UberCharge 延長至 12 秒。"
+"TF2C_ACHIEVEMENT_EXTEND_UBER_DESC"						"將活力發射器的 UberCharge 延長至 12 秒。"
 "TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_NAME"					"它死定了！"
 "TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_DESC"					"讓一名裝備契訶夫之拳的敵方重裝兵心臟病發作！"
 "TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_NAME"			"空中喪命"
@@ -1620,7 +1620,7 @@
 "TF2C_ACHIEVEMENT_HEAVY_SHOTGUN_CRITS_NAME"				"契訶夫的什麼？"
 "TF2C_ACHIEVEMENT_HEAVY_SHOTGUN_CRITS_DESC"				"作為重裝兵，使用霰彈槍取得 10 次爆擊擊殺。"
 "TF2C_ACHIEVEMENT_BATTLE_MEDIC_NAME"					"戳破幻想"
-"TF2C_ACHIEVEMENT_BATTLE_MEDIC_DESC"					"使用萬象回春對自己進行 ÜberCharge 時取得 5 次擊殺。"
+"TF2C_ACHIEVEMENT_BATTLE_MEDIC_DESC"					"使用活力發射器對自己進行 ÜberCharge 時取得 5 次擊殺。"
 "TF2C_ACHIEVEMENT_CANEASSIST_NAME"						"迅猛行動"
 "TF2C_ACHIEVEMENT_CANEASSIST_DESC"						"作為平民，利用德比手杖的速度加成，協助盟友擊殺 50 名敵人。"
 
