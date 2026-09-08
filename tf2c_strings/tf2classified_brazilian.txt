@@ -1191,7 +1191,7 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF_Menu_Options"			"Opções"
 "TF_Menu_Addons"			"Complementos (em breve!)"
 
-"TF_Menu_Quit"				"Sair"
+"TF_Menu_QuitGame"			"Sair"
 "TF_Menu_Disconnect"		"Desconectar"
 
 "TF_Menu_Blog"				"Site oficial"
@@ -1335,6 +1335,7 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF2c_OptionCategory_Replay"			"REPLAY"
 "TF2c_OptionCategory_DemoSupport"		"GRAVAÇÕES"
 "TF2c_OptionCategory_Communication"		"COMUNICAÇÃO"
+"TF2c_OptionCategory_Discord"			"DISCORD"
 
 "TF2c_OptionCategory_CustomizationMultiplayer"			"Personalização"
 "TF2c_OptionCategory_Network"							"REDE"
@@ -1353,7 +1354,6 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "GameUI_Off"               				"Desligado"
 "GameUI_Everyone"               		"Todos"
 "GameUI_FriendsOnly"               		"Apenas amigos"
-"GameUI_Alpha"                          "Alfa"
 
 "GameUI_Restart"						"É necessário reiniciar"
 "GameUI_RestartText"					"Algumas alterações que você fez exigem que o jogo seja reiniciado:"
@@ -1442,6 +1442,10 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF_FlipViewModels"				"Inverter modelo em primeira pessoa"
 "TF_InvisibleArms"				"Ocultar braços do modelo em primeira pessoa"
 "TF_ViewModelOpacity"			"Opacidade do modelo em primeira pessoa"
+"TF2C_Option_ViewmodelOffset"		"Ativar deslocamento do modelo em primeira pessoa"
+"TF2C_Option_ViewmodelOffsetX"		"Deslocamento no eixo X"
+"TF2C_Option_ViewmodelOffsetY"		"Deslocamento no eixo Y"
+"TF2C_Option_ViewmodelOffsetZ"		"Deslocamento no eixo Z"
 
 // Misc
 "TF_ClassAutoKill"					"Suicidar-se após escolher uma classe de jogador"
@@ -1457,11 +1461,18 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 
 // MULTIPLAYER
 
+"GameUI_CrosshairAlpha"             "Transparência"
 "TF_MessageAlert"				    "Tocar um som ao receber mensagens de texto"
 "TF_MessageAlert_Tip"			    "Ative para tocar um som quando uma mensagem de texto for recebida"
 "TF_MessageVolume"				    "Volume das mensagens recebidas"
 "TF_ChatCloseOnSend"				"Fechar a janela de conversa ao enviar uma mensagem"
 "TF_ChatCloseOnSend_Tip"			"Ative para fechar a janela de conversa ao enviar uma mensagem"
+"TF2C_Option_Discord_ServerInfo"	"Exibir informações do servidor"
+"TF2C_Option_Discord_ServerInfo_Tip" "Ative para exibir o servidor que você está conectado na atividade do Discord"
+"TF2C_Option_Discord_MapInfo"		"Exibir informações do mapa"
+"TF2C_Option_Discord_MapInfo_Tip"	"Ative para exibir o mapa que você está jogando na atividade do Discord"
+"TF2C_Option_Discord_ClassInfo"		"Exibir informações de classe"
+"TF2C_Option_Discord_ClassInfo_Tip"	"Ative para exibir a sua classe atual na atividade do Discord"
 "TF_DownloadFilter_Title"			"Quando um servidor tenta baixar conteúdo personalizado para o seu computador"
 "GameUI_DownloadFilter_All"			"Permitir todos"
 "GameUI_DownloadFilter_NoSounds"	"Nenhum som personalizado"
