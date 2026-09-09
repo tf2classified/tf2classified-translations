@@ -47,6 +47,18 @@
 "Chat_Filter_Voice"		"İletişim Komutları"
 
 // ----------------------------------------------------------------
+// Scrambling
+// ----------------------------------------------------------------
+
+"TF_Scramble_ScoreDiff"			"Takımlar otomatik olarak karıştırılacak (Takımlar arasında büyük puan farkı var)"
+"TF_Scramble_NoCap"				"Takımlar otomatik olarak karıştırılacak (Bu raunt yeterince görev ilerlemesi yapılmadı)"
+"TF_Scramble_WinStreak"			"Takımlar otomatik olarak karıştırılacak (%s1 takımı art artda %s2 kez kazandı)"
+"TF_Scramble_Manual_NextRound"	"Bir sonraki raunt için takım karıştırması manuel olarak ayarlandı"
+"TF_Scramble_NextRound"			"Bir sonraki raunt için takım karıştırması ayarlandı"
+"TF_Scramble_Manual_Now"		"Takımlar manuel olarak karıştırılıyor"
+"TF_Scramble_Now"				"Takımlar karıştırılıyor"
+
+// ----------------------------------------------------------------
 // General
 // ----------------------------------------------------------------
 
@@ -136,12 +148,14 @@
 "TF_playerid_object_level_upgrading"	"(Seviye %s1) Seviye Yükseltiliyor..."
 "TF_playerid_object_level_building"		"(Seviye %s1) Kuruluyor..."
 
-"TF_playerid_teleporter_no_entrance"	"  -  Giriş Yok"
-"TF_playerid_teleporter_no_exit"		"  -  Çıkış Yok"
+"TF_playerid_object_no_entrance"		"  -  Giriş Yok!"
+"TF_playerid_object_no_exit"			"  -  Çıkış Yok!"
 "TF_playerid_object_recharging"			"  -  Şarj Oluyor: %s1%"
 
 "TF_playerid_object_status_effect"		"(%s1) "
+"TF_playerid_object_disabled"			"Devre Dışı"
 "TF_playerid_object_flooded"			"Batık"
+"TF_playerid_object_sapped"				"Bozuldu"
 
 "TF_playerid_carrying"					"Taşıyor: %s1"
 "TF_playerid_carrying_lvl"				"Taşıyor: %s1 (Seviye %s2)"
@@ -218,18 +232,18 @@
 "Tip_2_Count"	"11"
 // Generic
 "Tip_2_1"		"Sniper iken, kritik vuruşlar yapmak için kafaya nişan al."
-"Tip_2_2"		"Sniper iken, %attack2% tuşuna basarak tüfeklerinle nişan alabilirsin."
+"Tip_2_2"		"Sniper iken, %attack2% tuşuna basarak Tüfek'in dürbününü açabilir veya Altıpatlar Tüfek ile odaklanabilirsin."
 // Stock
 "Tip_2_3"		"Sniper iken, Tüfek'in dürbünüyle ne kadar uzun süre nişan alırsan atışın o kadar yüksek hasar verir."
 "Tip_2_4"		"Sniper iken, tam sarjlı bir Tüfek çoğu sınıfı anında kafadan vurarak öldürebilir."
-"Tip_2_5"		"Sniper iken, SMG sana çok yaklaşan düşmanlarla ilgilenmek için kullanışlıdır."
+"Tip_2_5"		"Sniper iken, SMG sana çok yaklaşan düşmanlarla ilgilenmekle kullanışlıdır."
 "Tip_2_6"		"Sniper iken, Gurka Kaması son savunma hattındır, ayrıca pusu saldırılarıyla başa çıkmada faydalıdır."
 // Death & Taxes
-"Tip_2_7"		"Sniper iken, Avcı, isabet hassasiyeti pahasına daha ofansif yakın mesafe çatışmaları için kullanılabılır."
+"Tip_2_7"		"Sniper iken, Avcı, isabet hassasiyeti pahasına daha ofansif yakın mesafe çatışmaları için kullanılabilir."
 "Tip_2_8"		"Sniper iken, Avcı, 5 saniyeden daha fazla geri çekildiği halde isabet hassasiyeti kaybeder. %attack2% tuşuna basarak sıfırlayabilirsin."
-"Tip_2_9"		"Sniper iken, Altıpatlar Av Tüfeği çok iyi bir orta mesafe seçeneğidir. Ön saflara hızlıca girip çıkarken yüksek hasar vermek için kullan."
-"Tip_2_10"		"Sniper iken, diğer birincil silahlarına kıyasla Altıpatlar Av Tüfeği ile nişan alırken daha hızlı hareket edersin."
-"Tip_2_11"		"Sniper iken, Balıkdöver düşman gruplarını geriye savurabilir ve kanamalarına sebep olur. Davetsiz misafirleri uzağa itmek için kullan."
+"Tip_2_9"		"Sniper iken, Altıpatlar Tüfek çok iyi bir orta mesafe seçeneğidir. Ön saflara hızlıca girip çıkarken yüksek hasar vermek için kullan."
+"Tip_2_10"		"Sniper iken, diğer birincil silahlarına kıyasla Altıpatlar Tüfek ile odaklanırken çok daha hızlı hareket edersin."
+"Tip_2_11"		"Sniper iken, Balıkdöver düşmanları geriye savurur ve kanamalarına sebep olur. Davetsiz misafirleri uzağa itmek için kullan."
 
 // Soldier
 "Tip_3_Count"	"12"
@@ -247,7 +261,7 @@
 "Tip_3_9"		"Soldier iken, Koruyucu Botlar roket zıplamalarından aldığın hasarı oldukça azaltır. Özellikle pozisyon almak ve hızlı hareket etmek önemli olduğunda onları kullan."
 "Tip_3_10"		"Soldier iken, R.P.G.'nin roketleri yay şeklinde ateş eder ve düşman siperlerine düşebilir. Roketlerini özenle hedeflemeye emin ol!"
 // Double Down
-"Tip_3_11"		"Soldier iken, Admiralti Demiri'nin deprem hasarı, ne kadar uzun elde tutulduysa o kadar artar. Roket zıplayışının zirvesinde çıkarmayı unutma!"
+"Tip_3_11"		"Soldier iken, Admiralti Demiri'nin deprem hasarı ne kadar uzun elde tutulduysa o kadar artar. Roket zıplayışının zirvesinde çıkarmayı unutma!"
 "Tip_3_12"		"Soldier iken, Admiralti Demiri'ni kuşanmak havadayken patlayıcı ve özel mermi türlerinden kritik hasar almana neden olur. Gökyüzüne çıkarken dikkatli ol."
 
 // Demoman
@@ -263,7 +277,7 @@
 "Tip_4_7"		"Demoman iken, Şişe, düşman bölgesine patlama zıplaması yaptıktan sonra göğüs göğüse çarpışmalarda kullanılabilir."
 "Tip_4_8"		"Demoman iken, Şişe, kırılsa da kırılmasa da aynı hasarı verir."
 // Death & Taxes
-"Tip_4_9"		"Demoman iken, Dinamit Paketi'ni düşmanları ortadan kaldırmak için kalabalık Kontrol Noktalarına fırlat."
+"Tip_4_9"		"Demoman iken, Dinamit Paketi'ni düşmanların yoğun olduğu Kontrol Noktalarına fırlatarak onları ortadan kaldırabilirsin."
 "Tip_4_10"		"Demoman iken, Dinamit Paketi düşman Engineer'lar tarafından devre dışı bırakılabilir. Taretlere fırlatırken düşünceli ol."
 "Tip_4_11"		"Demoman iken, Koruyucu Botlar patlama zıplamalarından aldığın hasarı oldukça azaltır. Özellikle pozisyon almak ve hızlı hareket etmek önemli olduğunda onları kullan."
 "Tip_4_12"		"Demoman iken, Mayın Döşeyici düşmanlar çok yaklaşınca otomatik olarak patlayan mayınlar fırlatır. Bunu otomatikleştirilmiş bir savunma için kullan!"
@@ -293,7 +307,7 @@
 "Tip_5_14"		"Medic iken, Şok Tedavisi, genel iyileştirme oranına karşılık tam şarjlıyken takım arkadaşlarını tamamen iyileştirmek için kullanılabilir."
 // Double Down
 "Tip_5_15"		"Medic iken, Gençleştirici aynı anda çok sayıda takım arkadaşını iyileştirmek için son derecede kullanışlıdır. Artırılmış iyileşim ve ÜberŞarj bonusu için direkt isabetler hedefle."
-"Tip_5_16"		"Medic iken, Gençleştirici'nin ÜberŞarj'ı içine giren bütün takım arkadaşlarını her türlü hasardan koruyan geçici bir baloncuk kalkanı oluşturur."
+"Tip_5_16"		"Medic iken, Gençleştirici'nin ÜberŞarj'ı içine giren bütün takım arkadaşlarını her türlü hasardan koruyan geçici bir balon kalkanı oluşturur."
 
 // Heavy
 "Tip_6_Count"	"17"
@@ -314,8 +328,8 @@
 "Tip_6_12"		"Heavy iken, iyileşmek için Sandviç'ten istediğin kadar lokma alabilirsin. Fakat, %attack2% tuşuna basarak bir arkadaşla paylaşmak bekleme süresine koyar."
 "Tip_6_13"		"Heavy iken, Sandviç'ini nereye fırlattığına dikkat et. Takım arkadaşların yanı sıra düşmanlar da iyileşmek için yerden kapabilirler!"
 // Fight or Flight
-"Tip_6_14"		"Heavy iken, Uçaksavar Topu yüksek patlama çapı hasarı verir, kalabalık yerler ve köşelerle ilgilenmekte idealdir."
-"Tip_6_15"		"Heavy iken, Uçaksavar Topu havadaki düşmanlara mini-kritik hasar verir. Bunu Soldier'ları ya da Trambolin kullanan düşmanları yere devirmek için kullan!"
+"Tip_6_14"		"Heavy iken, Uçaksavar Topu yüksek patlama çapı hasarı verir, kalabalık yerler ve köşelerle ilgilenmekle idealdir."
+"Tip_6_15"		"Heavy iken, Uçaksavar Topu havadaki düşmanlara mini-kritik hasar verir. Bunu Soldier'ları ya da Trambolin ile zıplayan düşmanları yere devirmek için kullan!"
 "Tip_6_16"		"Heavy iken, Çehov'un Yumruğu her başarılı vuruşunda 3'e kadar bir kritik depolar. Depolanan kritikleri herhangi bir silahta kullanabilirsin!"
 "Tip_6_17"		"Heavy iken, Çehov'un Yumruğu düşman yakın dövüş saldırılarından kritik hasar almana sebep olur. Yakın mesafeli çatışmalarda tedbirli ol."
 
@@ -357,10 +371,10 @@
 "Tip_8_10"		"Spy iken, Bozucu, Taretleri yok etmeden önce devre dışı bırakır. Engineer'a saldırmadan önce Taret'ini boz."
 "Tip_8_11"		"Spy iken, bıçağını düşmanının sırtına saplayarak onu anında öldürebilirsin."
 // Death & Taxes
-"Tip_8_12"		"Spy iken, Sakinleştirici Tabanca hedeflerinin hareket etme ve ateş etme hızlarını yavaşlatır. Bu kaçman için bir fırsat oluşturur."
-"Tip_8_13"		"Spy iken, Sakinleştirici Tabanca hedefinin yakın dövüşte kritik hasar almasına sebep olur. Takım arkadaşlarının ona karşı birleşmesine izin ver, veya tek başına işini bitir."
+"Tip_8_12"		"Spy iken, Sakinleştirici hedefinin hareket etme ve ateş etme hızını yavaşlatır. Bu kaçman için bir fırsat oluşturur."
+"Tip_8_13"		"Spy iken, Sakinleştirici'nin dartları hedefinin yakın dövüşte kritik hasar almasına sebep olur. Takım arkadaşlarının ona karşı birleşmesine izin ver, veya tek başına işini bitir."
 // Fight or Flight
-"Tip_8_14"		"Spy iken, L'escampette düşman üssüne hızla gidip gelmeni sağlar. Hızlı kaçışlar, veya hızlı sızıntılar yap!"
+"Tip_8_14"		"Spy iken, L'escampette ile düşman üssüne hızla gidip gelebilirsin. Hızlı kaçışlar, veya hızlı sızıntılar yap!"
 "Tip_8_15"		"Spy iken, L'escampette'i kuşanmışken hasar gördüğün zaman pelerin kaybedersin. Atış hattının dışında dur."
 
 // Engineer
@@ -453,7 +467,7 @@
 // Shotgun
 "TF_Weapon_Shotgun"					"Av Tüfeği"
 "TF_Weapon_Shotgun_Desc_Engineer"	"Kimi zaman, bazı şeyleri bizzat kendin halletmelisin."
-"TF_Weapon_Shotgun_Desc_Soldier"	"Tüfeğim, senin yaşam isteğinle aynı fikirde değil, kurtçuk!"
+"TF_Weapon_Shotgun_Desc_Soldier"	"Tüfeğim, senin yaşama isteğinle aynı fikirde değil, kurtçuk!"
 "TF_Weapon_Shotgun_Desc_Heavy"		"Heavy bununla idare edecek."
 "TF_Weapon_Shotgun_Desc_Pyro"		"Konuşmayı buna bırak."
 // Scattergun
@@ -546,13 +560,13 @@
 "TF_Weapon_RPG"			"R.P.G."
 "TF_Weapon_RPG_Desc"	"Roketlerin nasıl önden çıkıverdiğini görüyormusun, evlat? Özgürlüğün hasretini çekiyor. Ve Tanrı şahidim, ona sahip olacak."
 // Hunting Revolver
-"TF_Weapon_HuntingRevolver"			"Altıpatlar Av Tüfeği"
+"TF_Weapon_HuntingRevolver"			"Altıpatlar Tüfek"
 "TF_Weapon_HuntingRevolver_Desc"	"Daha saldırgan bir yaklaşım için tasarlandı."
 // Fishwhacker
 "TF_Weapon_Fishwhacker"			"Balıkdöver"
 "TF_Weapon_Fishwhacker_Desc"	"Sıkı tust dostum. Bu şey bazenleri kıymık döküyor."
 // Tranquilizer Gun
-"TF_Weapon_TranquilizerGun"			"Sakinleştirici Tabanca"
+"TF_Weapon_TranquilizerGun"			"Sakinleştirici"
 "TF_Weapon_TranquilizerGun_Desc"	"Rüyalarında, chéri."
 // Dynamite Pack
 "TF_Weapon_DynamitePack"		"Dinamit Paketi"
@@ -576,7 +590,7 @@
 "TF_Weapon_Lescampette_Desc"	"Çabuk ol."
 // Chekhov's Punch
 "TF_Weapon_ChekhovsPunch"		"Çehov'un Yumruğu"
-"TF_Weapon_ChekhovsPunch_Desc"	"Ağlama! Heavy'nin hayatında anlatısal bir amacın var."
+"TF_Weapon_ChekhovsPunch_Desc"	"Ağlama! Heavy'nin hayatında anlatısal amacın var."
 // Twin Barrel
 "TF_Weapon_TwinBarrel"		"İkiz Namlu"
 "TF_Weapon_TwinBarrel_Desc"	"(Satış sonrası modifikasyon garantiyi geçersiz kılar.)"
@@ -654,6 +668,7 @@
 // Building Status
 "Building_hud_hauling"				"Taşınıyor..."
 "Building_hud_upgrading"			"Seviye Yükseltiliyor..."
+"Building_hud_ready"				"Hazır"
 "Building_hud_jumppad_a_not_built"	"Trambolin A\nKurulmadı"
 "Building_hud_jumppad_b_not_built"	"Trambolin B\nKurulmadı"
 
@@ -682,8 +697,8 @@
 "Attrib_ApplySelfKnockback"							"Atış halinde kendi kendini geri itme uygular"
 "Attrib_WeaponEnemyKnockback_Bonus"					"Düşmanlara karşı +%s1% geri itme"
 "Attrib_LifestealCrit"								"İsabet Hâlinde: Kritik vuruş doluyken kurbanının sağlığını emersin"
-"Attrib_FlatHealOnAfterburn_Active"					"Aktif iken her alev sonrası hasar tikinde +%s1 sağlık kazanımı"
-"Attrib_RememberTargetsRemainingAfterburn"			"Ölmüş hedeflerin kalan alev sonrası hasarını izler"
+"Attrib_FlatHealOnAfterburn_Active"					"Aktif iken her yanma hasarı tikinde +%s1 sağlık kazanımı"
+"Attrib_RememberTargetsRemainingAfterburn"			"Ölmüş hedeflerin kalan yanma hasarını izler"
 "Attrib_OnDeathRemoveTargetsAfterburn"				"Öldüğün zaman yaktığın düşmanlar söndürülür"
 "Attrib_Explosive_Bullets"							"Patlayıcı mermiler ateşler"
 "Attrib_CannotUseStoredCrits"						"Bu silah depolanmış kritikleri kullanamaz"
@@ -903,15 +918,19 @@ Sadece onurlu bir şekilde yumruk yumurğa savaş!"
 // Gamemodes
 // ----------------------------------------------------------------
 
-"Gametype_CTF_Penguin"		"Penguen Kapmaca" // We have fun here
-"Gametype_Domination"		"Hakimiyet"
-"Gametype_MedDomination"	"Hakimiyet (Orta Çağ)"
-"Gametype_KOTF"				"Bayrağın Hakimi"
-"Gametype_TD"				"Bölgesel Hakimiyet"
-"Gametype_VIP"				"VIP"
-"Gametype_VIPRace"			"VIP Yarışı"
+"Gametype_CTF_Penguin"		        "Penguen Kapmaca" // We have fun here
+"Gametype_Domination"		        "Hakimiyet"
+"Gametype_MedDomination"	        "Hakimiyet (Orta Çağ)"
+"Gametype_KOTF"				        "Bayrağın Hakimi"
+"Gametype_TD"				        "Bölgesel Hakimiyet"
+"Gametype_VIP"				        "VIP"
+"Gametype_VIPRace"			        "VIP Yarışı"
+"Gametype_DM"						"Ölüm Maçı"
+"Gametype_TDM"						"Takım Ölüm Maçı"
+"Gametype_RCTF"						"Ters Bayrak Kapmaca"
+"Gametype_FF"						"Fortress Forever"
 
-"Gametype_FourTeam"			"Dört Takım"
+"Gametype_FourTeam"			        "Dört Takım"
 
 "Gametype_Arena_FourTeam"			"Arena (Dört Takım)"
 "Gametype_AttackDefense_FourTeam"	"Saldırı / Savunma (Dört Takım)"
@@ -930,12 +949,12 @@ Sadece onurlu bir şekilde yumruk yumurğa savaş!"
 "Gametype_VIPRace_FourTeam"			"VIP Yarışı (Dört Takım)"
 
 // Offline practice descriptions
-"TF_GameModeDesc_VIP"			"BLU, Civilian'ı bir kontrol noktasına kadar götürür. RED onları durdurmalı."
-"TF_GameModeDesc_VIPRace"		"Civilian'ı diğer takımdan önce bitiş çizgisine kadar götür."
-"TF_GameModeDesc_Domination"	"Noktaları ele geçir ve mümküm olduğuncaya kadar elde tut."
-"TF_GameModeDesc_Arena"			"Bütün düşmanları öldür veya kontrol noktasının kilidinin açılmasını bekle."
+"TF_GameModeDesc_VIP"			    "BLU, Civilian'ı bir kontrol noktasına kadar götürür. RED onları durdurmalı."
+"TF_GameModeDesc_VIPRace"		    "Civilian'ı diğer takımdan önce bitiş çizgisine kadar götür."
+"TF_GameModeDesc_Domination"	    "Noktaları ele geçir ve mümküm olduğuncaya kadar elde tut."
+"TF_GameModeDesc_Arena"			    "Bütün düşmanları öldür veya kontrol noktasının kilidinin açılmasını bekle."
 
-"TF_GameModeBrief_VIPRace"		"VIP Yarışı - İki takımında VIP'si var"
+"TF_GameModeBrief_VIPRace"		    "VIP Yarışı - İki takımında VIP'si var"
 
 // ----------------------------------------------------------------
 // Gamemode strings
@@ -970,6 +989,8 @@ BLU takımı eğer VIP mevcut değilse kontrol noktasının ele geçirme ilerlem
 
 "Cant_cap_civilian_only"		"Bu noktayı sadece\n VIP ele geçirebilir."
 "Cant_cap_civilian_only_frozen"	"Ele geçirme donuk\n Bu noktayı sadece\n VIP ele geçirebilir."
+
+"TF_CantChangeClassAsVIP"		"VIP iken sınıf değiştiremezsin."
 
 // VIP (Lives)
 "vipl_setup_goal_offense"	"VIP'yi Kaçış Bölgesi'ne kadar götür. Öldürülmesine izin verme."
@@ -1045,6 +1066,10 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF_Arena_Team_SizeIncreased"	"%s1 takımının üye sayısı %s2 kişiye çıkarıldı."
 "TF_Arena_Team_SizeDecreased"	"%s1 takımının üye sayısı %s2 kişiye düşürüldü."
 
+// Randomizer
+"TF_CantChangeClassDuringClassRandomizer"	"Sınıflar rastgellenmişken değiştirilemez."
+"Hint_randomizer_check_loadout"				"Rastgellenmiş ekipmanı görmek için '%s1' tuşuna bas."
+
 // ----------------------------------------------------------------
 // Intro movies
 // ----------------------------------------------------------------
@@ -1076,29 +1101,31 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 // Scoreboard
 // ----------------------------------------------------------------
 
+"TF_ScoreBoard_NextLevel"			"Sıradaki Harita: %s1"
+
 "TF_ScoreBoard_Player"				"%s1 Oyuncu"
 "TF_ScoreBoard_Players"				"%s1 Oyuncu"
 
 "ScoreBoard_Spectator"				"%s1 İzleyici: %s2"
 "ScoreBoard_Spectators"				"%s1 İzleyici: %s2"
 
-"TF_ScoreBoard_KillsLabel"			"Leş:"
-"TF_ScoreBoard_AssistsLabel"		"Asist:"
-"TF_ScoreBoard_DeathsLabel"			"Ölüm:"
+"TF_ScoreBoard_KillsLabel"			"Leşler:"
+"TF_ScoreBoard_AssistsLabel"		"Asistler:"
+"TF_ScoreBoard_DeathsLabel"			"Ölümler:"
 
 "TF_Scoreboard_DamageLabel"			"Hasar:"
 "TF_ScoreBoard_HealingLabel"		"İyileştirme:"
 "TF_Scoreboard_SupportLabel"		"Destek:"
 
-"TF_ScoreBoard_CapturesLabel"		"Ele Geçirme:"
-"TF_ScoreBoard_DefensesLabel"		"Savunma:"
-"TF_ScoreBoard_DominationsLabel"	"Hükmetme:"
-"TF_ScoreBoard_RevengesLabel"		"İntikam:"
+"TF_ScoreBoard_CapturesLabel"		"Ele Geçirme.:"
+"TF_ScoreBoard_DefensesLabel"		"Savunmalar:"
+"TF_ScoreBoard_DominationsLabel"	"Hükmetmeler:"
+"TF_ScoreBoard_RevengesLabel"		"İntikamlar:"
 "TF_ScoreBoard_BonusLabel"			"Bonus:"
 
-"TF_ScoreBoard_UberchargesLabel"	"ÜberŞarjlama:"
-"TF_ScoreBoard_TransportsLabel"		"Ulaştırma:"
-"TF_ScoreBoard_DestructionsLabel"	"Yıkım:"
+"TF_ScoreBoard_UberchargesLabel"	"ÜberŞarjlar:"
+"TF_ScoreBoard_TransportsLabel"		"Ulaştırmalar:"
+"TF_ScoreBoard_DestructionsLabel"	"Yıkımlar:"
 "TF_ScoreBoard_HeadshotsLabel"		"Kaf. Vuruş.:"
 "TF_ScoreBoard_BackstabsLabel"		"Ark. Bıçak.:"
 
@@ -1142,9 +1169,9 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 // ----------------------------------------------------------------
 
 "TF_Menu_Welcome"			"Tekrar hoş geldin,"
-"TF_Menu_Name"				"%playername%!"
+"TF_Menu_Name"				"%playername%"
 
-"TF_Menu_HideName"			"[GİZLİ]"
+"TF_Menu_StreamerMode"		"Yayıncı Modu"
 
 "TF_Menu_ResumeGame"		"Oyuna Devam Et"
 "TF_Menu_Mute"				"Oyuncuları Sustur"
@@ -1162,25 +1189,35 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF_Menu_Options"			"Seçenekler"
 "TF_Menu_Addons"			"Eklentiler (Çok Yakında!)"
 
-"TF_Menu_Quit"				"Çıkış"
+"TF_Menu_QuitGame"			"Oyundan Çık"
 "TF_Menu_Disconnect"		"Bağlantıyı Kes"
 
 "TF_Menu_Blog"				"Web Sitesi"
 "TF_Menu_ReportBug"			"Hata Bildir"
 "TF_Menu_Donate"			"Bağış Yap"
 
-"TF_Friends_Title"					"Arkadaşlar (%friend_count%)"
-"TF_Friends_Status_InTF2C"			"TF2C oynuyor"
-"TF_Friends_Status_Idle_InTF2C"		"TF2C'de boşta duruyor"
-"TF_Friends_Status_InMod"			"Başka bir mod oynuyor"
-"TF_Friends_Status_Idle_InMod"		"Başka bir modda boşta duruyor"
-"TF_Friends_Status_InGame"			"Başka bir oyun oynuyor"
-"TF_Friends_Status_Idle"			"Başka bir oyunda boşta duruyor"
-"TF_Friends_Status_Online"			"Çevrimiçi"
-"TF_Friends_Status_Away"			"Uzakta"
-"TF_Friends_Status_Offline"			"Çevrimdışı"
+"TF_Menu_ShowFriends"		"Arkadaşları Göster"
+"TF_Menu_HideFriends"		"Arkadaşları Gizle"
 
-"ChallengeDetails"					"%s1 olarak %s2"
+"TF_Friends_Title"								"Arkadaşlar (%friend_count%)"
+"TF_Friends_Status_InTF2C"						"TF2C oynuyor"
+"TF_Friends_Status_Idle_InTF2C"					"TF2C'de boşta"
+"TF_Friends_Status_InMod"						"Başka bir mod oynuyor"
+"TF_Friends_Status_Idle_InMod"					"Başka bir modda boşta"
+"TF_Friends_Status_InGame"						"Başka bir oyun oynuyor"
+"TF_Friends_Status_Idle"						"Başka bir oyunda boşta"
+"TF_Friends_Status_Online"						"Çevrimiçi"
+"TF_Friends_Status_Away"						"Uzakta"
+"TF_Friends_Status_Offline"						"Çevrimdışı"
+"TF_Friends_InviteServer"						"Oyuna davet et"
+
+"TF_RichPresence_State_InServer"				"%mapname% (%maptype%)"
+"TF_RichPresence_State_InServer_MapNameOnly"	"%mapname%"
+"TF_RichPresence_State_JoiningServer"			"Sunucuya Katılıyor"
+
+"ChallengeDetails"					            "%s2 olarak %s1"
+
+"TF_NextChallenge"								"Sonraki Mücadele"
 
 
 // ----------------------------------------------------------------
@@ -1295,6 +1332,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF2c_OptionCategory_Replay"			"TEKRAR"
 "TF2c_OptionCategory_DemoSupport"		"DEMO"
 "TF2c_OptionCategory_Communication"		"İLETİŞİM"
+"TF2c_OptionCategory_Discord"			"DISCORD"
 
 "TF2c_OptionCategory_CustomizationMultiplayer"			"Özelleştirme"
 "TF2c_OptionCategory_Network"							"AĞ"
@@ -1318,7 +1356,9 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "GameUI_RestartText"					"Yaptığınız bazı değişiklikler oyunun yeniden başlatılmasını gerektiriyor:"
 "GameUI_OptionsRestart_Revert"			"Değişiklikleri geri al"
 
-"GameUI_Disconnect_TooManyCommands"		"Bağlantı kesildi: Çok fazla komut."
+"GameUI_Disconnect_TooManyCommands"		"Bağlantı kesildi: Sunucuya çok fazla komut gönderildi."
+
+"GameUI_DontShowThisAgain"              "Bunu yeniden gösterme"
 
 // Combat
 "TF2C_Option_DamageFeedback"				"Hasar geri bildirimini etkinleştir"
@@ -1331,9 +1371,15 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF2C_Tooltip_DamageFeedbackIncoming"		"Gelen hasar geri bildirimi hasar alırken çalar"
 "TF2C_Option_DamageFeedbackIncomingVolume"	"Gelen hasar geri bildirimi ses seviyesi"
 "TF2C_Tooltip_DamageFeedbackIncomingVolume"	"Hasar alındığında çalınan bağlamsal seslerin ses seviyesi"
+"TF2C_Option_LowHealthSound"				"Düşük sağlık seviyesi uyarısı sesini etkinleştir"
+"TF2C_Tooltip_LowHealthSound"				"Eğer seçiliyse, sağlık seviyesi belirli bir yüzdenin altına düştüğünde uyarı sesi çalar."
+"TF2C_Option_LowHealthSoundThreshold"		"Düşük sağlık seviyesi uyarısı sesinin yüzdesi"
+"TF2C_Tooltip_LowHealthSoundThreshold"		"Düşük sağlık seviyesi sesinin çalınacağı yüzde"
+"TF2C_Option_CalloutBubbles"				"Açıklama baloncuklarını etkinleştir"
+"TF2C_Tooltip_CalloutBubbles"				"Eğer seçiliyse, çoğu iletişim menüsü komutu için oyuncuların üzerinde açıklama baloncukları gösterir."
 
 "TF_CenterFirePreference"         	"Özel mermi türlerinin ortadan ateşlenmesini tercih et"
-"TF_CenterFirePreference_Tip"    	"Eğer seçiliyse, oyuncuya ait özel mermi türlerinin posizyonunun Y koordinatı 0 olur; uygulamak için oyuncunun sunucudan bağlantıyı kesmesi veya izleyici olması gerekir"
+"TF_CenterFirePreference_Tip"    	"Eğer seçiliyse, oyuncuya ait özel mermi türlerinin (roketler, bombalar, fırlatılabilirler, çiviler, şırıngalar) posizyonunun Y koordinatı 0 olur.\nUygulamak için oyuncunun sunucudan bağlantıyı kesmesi veya izleyici olması gerekir."
 "TF_BurningDeathAnim"				"Yanarak ölme animasyonlarını etkinleştir"
 "TF_BurningDeathAnim_Tip"			"Eğer seçiliyse, cesetlerin yanarak ölürken özel bir animasyon oynama şansı olur"
 "TF_CombatTextBatchingWindow"		"Biriken verilen hasar metni hasar olayları arasındaki gecikme"
@@ -1344,8 +1390,6 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"DEMOMAN: Kiklops'un bombalarını iki kere tıklayarak patlat"
 "TF_CyclopsDoubleTap_Tip"        	"Eğer seçiliyse, Kiklops'un bombalarını patlatmak için atış tuşunu serbest bırakmak yerine ikinci bir tıklama gerekecek"
-"TF_SapperAwareness"                "ENGINEER: Bozucu farkındalığı"
-"TF_SapperAwareness_Tip"            "Eğer seçiliyse, yapılarına yerleştirilen bozucu uyarısı alternatif bir renkte olur"
 "TF_SniperBell"					    "SNIPER: Tam şarjda bir ses çal"
 "TF_SniperBell_Tip"					"Tüfeğin şarjı dolduğu zaman bir ses çal"
 "TF_ZoomSensitivityRatio"			"SNIPER: Yakınlaştırma hassasiyet oranı"
@@ -1371,16 +1415,18 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF_BottomRight"                  "Sağ alt"
 "TF_OverlayToastInsetHoriz"       "Steam bildirimlerinin yatay eki"
 "TF_OverlayToastInsetVert"        "Steam bildirimlerinin dikey eki"
-"TF_TargetID_Floating_Health"	  "Hedef Kimliği - Havadaki sağlık barını etkinleştir"
-"TF_TargetID_Floating_Health_Tip" "Eğer seçiliyse, sağlık barını karakterin üzerinde gösterecek"
-"TF_TargetID_Alpha"				  "Hedef Kimliği - İsim levhası arka planının yarı saydamlılığı"
-"TF_TargetID_Alpha_Tip"			  "Hedef kimliği levhası arka planının yarı saydamlılığını ayarlayın"
+"TF_TargetID_Floating_Health"	  "Hedef Kimliği - Havadaki sağlık çubuğunu etkinleştir"
+"TF_TargetID_Floating_Health_Tip" "Eğer seçiliyse, sağlık çubuğu hedefin tepesinde gözükür"
+"TF_TargetID_Floating_Health_Offset" 		"Havadaki sağlık çubuğunun uzaklığı"
+"TF_TargetID_Floating_Health_Offset_Tip" 	"Sağlık çubuğunun hedefin tepesinden uzaklığı"
+"TF_TargetID_Alpha"				  "Hedef Kimliği - İsim levhası arka planının şeffaflığı"
+"TF_TargetID_Alpha_Tip"			  "Hedef kimliği levhası arka planının şeffaflığı ayarlayın"
 "TF_TargetID_Show_Avatars"		  "Hedef Kimliği - Hedef kimliğinde avatarları göster"
 "TF_TargetID_Show_Avatars_Tip"	  "Hedef kimliğinde Steam avatarlarını göster"
 "TF_HideKeybinds"                 "Oyun içinde gösterilen tuş atamalarını gizle"
 "TF_HideKeybinds_Tip"			  "Oyun içindeki göstergede gözüken tuş atamalarını gizle."
 "TF_AlternativeTimer"             "Alternatif oyun içi zamanlayıcı kullan"
-"TF_AlternativeTimer_Tip"         "Eğer seçiliyse, eşaralıklı yazı tipli zamanlayıcı kullanacak."
+"TF_AlternativeTimer_Tip"         "Eğer seçiliyse, alternatif bir eşaralıklı (mono) yazı tipi zamanlayıcısı kullanılır."
 "TF_DisableDropShadow"            "Bırakma gölgesini devre dışı bırak"
 "TF_DisableDropShadow_Tip"        "Eğer seçiliyse, çoğu metin ve imgelerden bırakma gölgesini kaldırır."
 "TF_DeathNoticeMax"               "Ölüm Duyurusu - Azami görünür sayısı"
@@ -1388,19 +1434,23 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF_DeathNoticeTime"              "Ölüm Duyurusu - Duyuruların geçerlilik süresi (saniye olarak)"
 "TF_DeathNoticeTime_Tip"          "Ölüm duyurularının geçerlilik süresini ayarlar."
 "TF_GlowEffects"				  "Parıltı efektini kullan"
-"TF_GlowEffects_Tip" 			  "Eğer seçiliyse, parlama efektleri görevli maçlarda VIP'ler, Yük Vagonları, Bayrak Kapmaca istihbaratı gibi çeşitli ortamlarda etkinleştirilecektir."
+"TF_GlowEffects_Tip" 			  "Eğer seçiliyse, parlama efektleri görevli maçlarda; VIP'ler, Yük Vagonları, Bayrak Kapmaca istihbaratı gibi çeşitli ortamlarda etkinleştirilecektir."
 
 // ViewModel
-"TF_ViewModelFOV"				"Görünüm modelinin görüş açısı"
-"TF_FlipViewModels"				"Görünüm modelini diğer kola taşı"
-"TF_InvisibleArms"				"Görünüm modeli kollarını görünmez yap"
-"TF_ViewModelOpacity"			"Görünüm modeli opaklığı"
+"TF_ViewModelFOV"				    "Görünüm modelinin görüş açısı"
+"TF_FlipViewModels"				    "Görünüm modelini diğer kola taşı"
+"TF_InvisibleArms"				    "Görünüm modeli kollarını görünmez yap"
+"TF_ViewModelOpacity"			    "Görünüm modeli opaklığı"
+"TF2C_Option_ViewmodelOffset"		"Görünüm modeli ofsetlerini etkinleştir"
+"TF2C_Option_ViewmodelOffsetX"		"Görünüm modeli X ofseti"
+"TF2C_Option_ViewmodelOffsetY"		"Görünüm modeli Y ofseti"
+"TF2C_Option_ViewmodelOffsetZ"		"Görünüm modeli Z ofseti"
 
 // Misc
 "TF_ClassAutoKill"					"Sınıf seçtikten sonra zorla yeniden canlan"
-"TF_ClassAutoKill_Tip"				"Eğer seçiliyse, canlanma odasında değilken sınıf değiştirildiği zaman zorla yeniden canlandırır.\n\nSeçiliyse deyilse, yeniden canlanınca değişir."
+"TF_ClassAutoKill_Tip"				"Eğer seçiliyse, canlanma odasında değilken sınıf değiştirdiğin zaman zorla yeniden canlanırsın.\n\nSeçiliyse deyilse, yeniden canlanınca seçtiğin sınıf olursun."
 "TF_ClassMenu_Music"				"Sınıf seçim menüsü müziği"
-"TF_StreamerMode"					"Canlı yayıncı modunu etkinleştir"
+"TF_StreamerMode"					"Yayıncı modunu etkinleştir"
 "TF_StreamerMode_Tip"				"Eğer seçiliyse, yazılı sohbeti gizler ve sen dahil olmak üzere herkesi anonimleştirir"
 "TF_ModelMuzzleFlash"				"Beta model namlu alevini etkinleştir"
 "TF_ModelMuzzleFlash_Tip"			"Eğer seçiliyse, namlu alevleri etkiler yerine modeller kullanır"
@@ -1409,11 +1459,18 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF2c_Option_Proximity_Voice_Local"	"Yakınlık sesli sohbetini etkinleştir."
 
 // Multiplayer
+"GameUI_CrosshairAlpha"				"Şeffaflık"
 "TF_MessageAlert"				    "Sohbet mesajı sesini etkinleştir"
-"TF_MessageAlert_Tip"			    "Eğer seçiliyse, yazılı sohbette mesaj geldiği zaman bir ses çalacak"
+"TF_MessageAlert_Tip"			    "Eğer seçiliyse, yazılı sohbette mesaj geldiği zaman bir ses çalar"
 "TF_MessageVolume"				    "Sohbet mesajı ses miktarı"
 "TF_ChatCloseOnSend"				"Mesaj gönderilidiği zaman sohbeti kapat"
-"TF_ChatCloseOnSend_Tip"			"Eğer seçiliyse, mesaj gönderilidikten sonra sohbeti kapatır"
+"TF_ChatCloseOnSend_Tip"			"Eğer seçiliyse, mesaj gönderilidikten sonra sohbeti kapatır" 
+"TF2C_Option_Discord_ServerInfo"	"Sunu bilgilerini göster"
+"TF2C_Option_Discord_ServerInfo_Tip" "Eğer seçiliyse, bulunduğun sunucuyu Discord Rich Presence etkinliğinde gösterir"
+"TF2C_Option_Discord_MapInfo"		"Harita bilgilerini göster"
+"TF2C_Option_Discord_MapInfo_Tip"	"Eğer seçiliyse, bulunduğun haritayı Discord Rich Presence etkinliğinde gösterir"
+"TF2C_Option_Discord_ClassInfo"		"Sınıf bilgilerini göster"
+"TF2C_Option_Discord_ClassInfo_Tip"	"Eğer seçiliyse, olduğun sınıfı Discord Rich Presence etkinliğinde gösterir"
 "TF_DownloadFilter_Title"			"Sunuculardan indirilen özel dosyalar için izinler"
 "GameUI_DownloadFilter_All"			"Bütün özel dosyalara izin ver"
 "GameUI_DownloadFilter_NoSounds"	"Özel seslere izin verme"
@@ -1427,6 +1484,8 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF2c_Option_ClassicShading_Tip"	"Eğer seçiliyse, oyuncu metaryelleri için tam lambert gölgelendirmesini etkinleştirir"
 "TF2c_Option_BloomScale"	        "Bloom etkisi ölçeği"
 "TF2c_Option_FramerateLimit"		"FPS sınırı"
+"TF2c_Option_Brightness"			"Parlaklık seviyesi"
+"TF2c_Option_Brightness_Tip"		"[TAM EKRAN İÇİN] Monitör gama seviyesini ayarla"
 
 // ----------------------------------------------------------------
 // Stats
@@ -1442,9 +1501,9 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "StatPanel_Label_PadJumps"				"Trambolin zıplama #: "
 
 "TF_ClassRecord_MostUbercharges"		"Rekor ÜberŞarjlar:"
-"TF_ClassRecord_Alt_MostUbercharges"	"ÜberŞarj(lar)"
+"TF_ClassRecord_Alt_MostUbercharges"	"ÜberŞarj"
 "TF_ClassRecord_MostPadJumps"			"Rekor trambolin zıp.:"
-"TF_ClassRecord_Alt_MostPadJumps"		"trambolin zıp."
+"TF_ClassRecord_Alt_MostPadJumps"		"Trambolin kullanımı"
 
 "StatPanel_Ubercharges_Best"			"Geçen raunt bir önceki rekorundan daha fazla ÜberŞarjlama yaptın."
 "StatPanel_Ubercharges_Tie"				"Geçen raunt bir önceki rekorunla aynı sayıda ÜberŞarjlama yaptın."
@@ -1471,7 +1530,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 
 // Launch achievements
 "TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_NAME"			"Hesaplanmış Bir Kaza"
-"TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_DESC"			"Bir düşmanı uzak mesafeden yay çizerek ilerleyen bir roketle öldür."
+"TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_DESC"			"Bir düşmanı uzak mesafeden gelen bir R.P.G. roketi ile öldür."
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_NAME"			"Deneyimli Bir Dünya Gezgini"
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_DESC"			"Dustbowl, 2Fort, Badlands (KN), Well (BK), ve Avanti'de oyun tamamla."
 "TF2C_ACHIEVEMENT_PLAY_GAME_CLASSICMAPS_1_GOAL_CP_DUSTBOWL"	"Dustbowl"
@@ -1487,12 +1546,12 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF2C_ACHIEVEMENT_TRANQ_MELEE_KILL_DESC"				"Spy iken, yakın dövüş sılahın ile 10 tane sakinleştirilmiş düşmanı öldür."
 "TF2C_ACHIEVEMENT_EXTINGUISH_BOMBLETS_NAME"				"Doğum Günü Üflemesi"
 "TF2C_ACHIEVEMENT_EXTINGUISH_BOMBLETS_DESC"				"Hava püskürtmesiyle 20 tane Dinamit Paketi çubuğunu söndür."
-"TF2C_ACHIEVEMENT_KILL_SENTRY_WITH_NAILGUN_NAME"		"Çivi Çakıcı"
+"TF2C_ACHIEVEMENT_KILL_SENTRY_WITH_NAILGUN_NAME"		"Uzman İnşaatçı"
 "TF2C_ACHIEVEMENT_KILL_SENTRY_WITH_NAILGUN_DESC"		"Çivi Tabancası ile 5 tane Taret'i yok et."
 "TF2C_ACHIEVEMENT_BRICK_NAME"							"Tuğla"
 "TF2C_ACHIEVEMENT_BRICK_DESC"							"..."
 "TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_NAME"				"Gemiyle Beraber Batmak"
-"TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_DESC"				"Admiralti Demiri depremi ile bir düşmanı ölümcül düşme hasarı alırken öldür."
+"TF2C_ACHIEVEMENT_ANCHOR_DEATHKILL_DESC"				"Admiralti Demiri depremi ile ölümcül düşme hasarı alacakken bir düşmanı öldür."
 "TF2C_ACHIEVEMENT_SSG_MEATSHOTS_NAME"					"Yırt ve Parçala!"
 "TF2C_ACHIEVEMENT_SSG_MEATSHOTS_DESC"					"İkiz Namlu ile 10 kişiyi yakın mesafede tüm saçma tanelerini isabet ettirerek öldür."
 "TF2C_ACHIEVEMENT_HARVESTER_DECAP_SINGLE_LIFE_NAME"		"Baş Dönmesi"
@@ -1501,24 +1560,24 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF2C_ACHIEVEMENT_CYCLOPS_COMBO_DESC"					"Bir Kiklops kombo patlaması ile en az 3 kişiyi öldür."
 "TF2C_ACHIEVEMENT_SANDVICH_MINES_NAME"					"Silahsızlandırma"
 "TF2C_ACHIEVEMENT_SANDVICH_MINES_DESC"					"Heavy iken, en az 5 saniye önce yerleştirilmiş bir düşmana ait mayını onun yanından geçmeyerek güvenli bir şekilde tetikle."
-"TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_NAME"					"1, 1, 1, Ahh..."
+"TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_NAME"					"1, 1, 1, Eee..."
 "TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_DESC"					"Bir düşmanı aksi giden bir patlayıcı yapılandırması ile öldür."
 "TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_NAME"				"Çevreleme Politikası"
 "TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_DESC"				"Uçaksavar Topu ile tek bir yaşamda kendini vurmadan toplam 2000 hasar ver."
-"TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_NAME"				"Kurulum ve Getirisi"
-"TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_DESC"				"Çehov'un Yumruğu'nun kapasitesi dolu iken kritik hasarla birisini öldür."
+"TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_NAME"				"Ne Ekersen Onu Biçersin"
+"TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_DESC"				"Çehov'un Yumruğu ile kapasitesi dolu iken kritik hasarla birisini öldür."
 "TF2C_ACHIEVEMENT_JUMPPAD_STOMP_NAME"					"Son Sürat"
 "TF2C_ACHIEVEMENT_JUMPPAD_STOMP_DESC"					"Bir Trambolin'i kullandıktan sonra birisinin üstüne düşerek onu öldür."
 "TF2C_ACHIEVEMENT_EXTEND_UBER_NAME"						"Maraton Ameliyatı"
 "TF2C_ACHIEVEMENT_EXTEND_UBER_DESC"						"Bir Gençleştirici ÜberŞarj'ını 12 saniyeye kadar uzat."
 "TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_NAME"					"Öldü!"
 "TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_DESC"					"Çehov'un Yumruğu'nu kuşanmış bir düşman Heavy'nin kalp krizi geçirmesine neden ol!"
-"TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_NAME"			"Uçuş Kesintisi"
+"TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_NAME"			"Uçuş Sonlandırıldı"
 "TF2C_ACHIEVEMENT_HEADSHOT_KILL_MIDFLIGHT_DESC"			"Havada olan bir düşmanı kafa vuruşu ile öldür."
 "TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_NAME"				"Hunt Down the Frenchman"
 "TF2C_ACHIEVEMENT_SPEEDWATCH_COUNTER_DESC"				"L'escampette kullanan bir görünmez Spy'ı ona hasar vererek açığa çıkar."
 "TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_NAME"			"Girişimci"
-"TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_DESC"			"Civilian olarak hiç ölmeden bir VIP raundunu kazan."
+"TF2C_ACHIEVEMENT_WIN_CIVILIAN_NODEATHS_DESC"			"Civilian iken hiç ölmeden bir VIP raundunu kazan."
 "TF2C_ACHIEVEMENT_VIPR_TIME_NAME"						"Kısa Bir Tur"
 "TF2C_ACHIEVEMENT_VIPR_TIME_DESC"						"Üç dakikadan kısa bir sürede bir VIP Yarışı raundunu kazan."
 "TF2C_ACHIEVEMENT_ARCHAEOLOGY_NAME"						"Arkeoloji"
@@ -1535,6 +1594,33 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF2C_ACHIEVEMENT_SHAME_DESC"							"Düşman VIP'ye öl. Damgalandın."
 "TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_NAME"				"Yıkıcı Eleştiri"
 "TF2C_ACHIEVEMENT_DOMINATE_DEVELOPER_DESC"				"Katkıda bulunan madalyasına sahip bir oyuncuya hükmet."
+// TF30 Achievements
+"TF2C_ACHIEVEMENT_JUMPPAD_ENEMY_SPY_BACKSTAB_NAME"		"Sağanak Yağış"
+"TF2C_ACHIEVEMENT_JUMPPAD_ENEMY_SPY_BACKSTAB_DESC"		"Bir düşmana ait Trambolin'i kullandıktan hemen sonra birisini arkadan bıçakla."
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_NAME"				"Hava Akışı"
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_DESC"				"Diğer oyuncular senin Trambolinlerini 1000 kez kullansın."
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_ASSIST_NAME"		"İtici Güç"
+"TF2C_ACHIEVEMENT_JUMPPAD_PROGRESSION_ASSIST_DESC"		"Takım arkadaşların senin Trambolinlerini kullandıktan hemen sonra 20 kişiyi öldürsün."
+"TF2C_ACHIEVEMENT_VIP_PROTECT_UNSEEN_NAME"				"Gizli Patron"
+"TF2C_ACHIEVEMENT_VIP_PROTECT_UNSEEN_DESC"				"Civilian iken, saklanırken takım arkadaşlarının düşmanlardan gelen 2000 hasara karşı koymasına yardımcı ol."
+"TF2C_ACHIEVEMENT_VIP_TEAMMATE_KILLSTREAK_NAME"			"Dünyanın En İyi Patronu"
+"TF2C_ACHIEVEMENT_VIP_TEAMMATE_KILLSTREAK_DESC"			"Şemsiye'n ile güçlendirilmiş bir takım arkadaşın 3 düşmanı öldürsün."
+"TF2C_ACHIEVEMENT_KILL_VIP_DAMAGERS_NAME"				"Küçük Adama Sahip Çık"
+"TF2C_ACHIEVEMENT_KILL_VIP_DAMAGERS_DESC"				"VIP'niz hayatta iken ona yakın zamanda hasar vermiş 20 düşmanı öldur."
+"TF2C_ACHIEVEMENT_REVOLVER_KILLS_SINGLE_LIFE_NAME"		"Je Suis James"
+"TF2C_ACHIEVEMENT_REVOLVER_KILLS_SINGLE_LIFE_DESC"		"Tek bir yaşamda Altıpatlar ile 3 kişiyi öldür."
+"TF2C_ACHIEVEMENT_FIRE_AXE_DEATH_AFTERBURN_NAME"		"Alevli Ruh"
+"TF2C_ACHIEVEMENT_FIRE_AXE_DEATH_AFTERBURN_DESC"		"Pyro iken, ölüyken toplam 1000 yanma hasarında bulun."
+"TF2C_ACHIEVEMENT_TELEPORTER_PROGRESSION_NAME"			"Işınlayıcı Turizmi"
+"TF2C_ACHIEVEMENT_TELEPORTER_PROGRESSION_DESC"			"Diğer oyuncuları toplam 10 kilometre ışınla."
+"TF2C_ACHIEVEMENT_HARVESTER_COUNTER_LOW_HEALTH_NAME"	"Ölüm Meleğinden Korkma"
+"TF2C_ACHIEVEMENT_HARVESTER_COUNTER_LOW_HEALTH_DESC"	"Biçerdöver kullanan düşman Pyro'ları öldürerek 5 takım arkadaşını yanarak ölmekten kurtar."
+"TF2C_ACHIEVEMENT_HEAVY_SHOTGUN_CRITS_NAME"				"Çehov'un Neyi?"
+"TF2C_ACHIEVEMENT_HEAVY_SHOTGUN_CRITS_DESC"				"Heavy iken, Av Tüfeği ile 10 kritik leş elde et."
+"TF2C_ACHIEVEMENT_BATTLE_MEDIC_NAME"					"Konfor Alanı"
+"TF2C_ACHIEVEMENT_BATTLE_MEDIC_DESC"					"Medic iken, Gençleştirici ile kendini ÜberŞarjlarken 5 kişiyi öldür."
+"TF2C_ACHIEVEMENT_CANEASSIST_NAME"						"Hızlı ve Öfkeli"
+"TF2C_ACHIEVEMENT_CANEASSIST_DESC"						"Civilian iken, Derby Bastonu'nun hız takviyesi ile takım arkadaşlarının 50 düşmanı öldürmesine yardımcı ol."
 
 // ----------------------------------------------------------------
 // Discord Rich Presence
@@ -1580,6 +1666,13 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "ServerBrowser_OfficialOrVerified"  "Resmî veya Doğrulanmış"
 "ServerBrowser_CustomRules"	        "Özel Kurallar"
 "ServerBrowser_CustomWeapons"       "Özel Silahlar"
+
+// ----------------------------------------------------------------
+// MOTD titles
+// ----------------------------------------------------------------
+
+"TF_Welcome_birthday"			"Hoş Geldiniz ve Doğum Günün Kutlu Olsun TF2!"
+"TF_Welcome_qwtf_birthday"		"Hoş Geldiniz ve Doğum Günün Kutlu Olsun QWTF!"
 
 // ----------------------------------------------------------------
 // Live TF2 Retranslations
@@ -1702,5 +1795,20 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "game_respawn_as"			"*%s1 olarak canlanacaksın"
 "game_spawn_asrandom"		"*Rastgele bir sınıf olarak canlanacaksın"
 "game_respawn_asrandom"		"*Rastgele bir sınıf olarak canlanacaksın"
+
+"TF_ClassRecord_Alt_MostPoints"			"puan"
+"TF_ClassRecord_Alt_MostKills"			"leş"
+"TF_ClassRecord_Alt_MostAssists"		"asist"
+"TF_ClassRecord_Alt_MostCaptures"		"ele geçirme"
+"TF_ClassRecord_Alt_MostDefenses"		"savunma"
+"TF_ClassRecord_Alt_MostDamage"			"hasar"
+"TF_ClassRecord_Alt_MostDestruction"	"yok edilen yapı"
+"TF_ClassRecord_Alt_MostDominations"	"hükmetme"
+"TF_ClassRecord_Alt_LongestLife"		"yaşam süresi"
+"TF_ClassRecord_Alt_MostHealing"		"iyileştirme"
+"TF_ClassRecord_Alt_MostSentryKills"	"taret leşi"
+"TF_ClassRecord_Alt_MostTeleports"		"ışınlama"
+"TF_ClassRecord_Alt_MostHeadshots"		"kafadan vuruş"
+"TF_ClassRecord_Alt_MostBackstabs"		"arkadan bıçaklama"
 }
 }
