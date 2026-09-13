@@ -1181,7 +1181,7 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "TF_Menu_Options"			"Optionen"
 "TF_Menu_Addons"			"Addons (Kommt bald!)"
 
-"TF_Menu_Quit"				"Spiel beenden"
+"TF_Menu_QuitGame"			"Spiel beenden"
 "TF_Menu_Disconnect"		"Verbindung trennen"
 
 "TF_Menu_Blog"				"Webseite"
@@ -1335,6 +1335,7 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "TF2c_OptionCategory_Replay"			"AUFNAHMEN"
 "TF2c_OptionCategory_DemoSupport"		"DEMO"
 "TF2c_OptionCategory_Communication"		"KOMMUNIK."
+"TF2c_OptionCategory_Discord"			"DISCORD"
 
 "TF2c_OptionCategory_CustomizationMultiplayer"			"Anpassen"
 "TF2c_OptionCategory_Network"					"NETZWERK"	
@@ -1360,6 +1361,8 @@ Der Besitz von Kontrollpunkten durch die Teams wird zu Beginn jeder Runde zufäl
 "GameUI_OptionsRestart_Revert"			"Zurücksetzen"
 
 GameUI_Disconnect_TooManyCommands"		"Verb. getrennt: Zu viele Befehle."
+
+"GameUI_DontShowThisAgain"               	"Nicht erneut anzeigen"
 
 // Combat
 "TF2C_Option_DamageFeedback"				"Schadens-Fedback aktivieren"
@@ -1422,6 +1425,8 @@ GameUI_Disconnect_TooManyCommands"		"Verb. getrennt: Zu viele Befehle."
 "TF_OverlayToastInsetVert"        "Vertikale Einblendung von Steam-Benachrichtigungen"
 "TF_TargetID_Floating_Health"	  "Ziel-ID - Schwebende Gesundheitsleisten deaktivieren"
 "TF_TargetID_Floating_Health_Tip" "Wenn eingeschaltet, wird die Ziel-ID-Gesundheitsleiste im Charakternamensschild angezeigt"
+"TF_TargetID_Floating_Health_Offset" 		"Gesundheitsleisten versetzen"
+"TF_TargetID_Floating_Health_Offset_Tip" 	"Versetzt die schwebende Gesundheitsleisten über des Ziels"
 "TF_TargetID_Alpha"				  "Zeil-ID - Transparenz des Namensschilds"
 "TF_TargetID_Alpha_Tip"			  "Legt die Transparenz des Ziel-ID-Namensschildes fest"
 "TF_TargetID_Show_Avatars"		  "Ziel-ID - Profilbilder auf Ziel-ID anzeigen"
@@ -1445,6 +1450,10 @@ GameUI_Disconnect_TooManyCommands"		"Verb. getrennt: Zu viele Befehle."
 "TF_FlipViewModels"				"Ansichtsmodellsausrichtung ändern"
 "TF_InvisibleArms"				"Arme in Ansichtsmodellen deaktivieren"
 "TF_ViewModelOpacity"			"Durchsichtige Ansichtsmodelle"
+"TF2C_Option_ViewmodelOffset"	"Achsen der Ansichtsmodellen ändern"
+"TF2C_Option_ViewmodelOffsetX"	"Ansichtsmodell-Achse: X"
+"TF2C_Option_ViewmodelOffsetY"	"Ansichtsmodell-Achse: Y"
+"TF2C_Option_ViewmodelOffsetZ"	"Ansichtsmodell-Achse: Z"
 
 // Misc
 "TF_ClassAutoKill"					"Erneutes Spawnen nach Wahl einer Spielerklasse"
@@ -1459,11 +1468,18 @@ GameUI_Disconnect_TooManyCommands"		"Verb. getrennt: Zu viele Befehle."
 "TF2c_Option_Proximity_Voice_Local"	"Proximity-Sprachchat aktivieren."
 
 // Multiplayer
+"GameUI_CrosshairAlpha"				"Alpha"
 "TF_MessageAlert"				  "Sound für Chatnachrichten aktivieren"
 "TF_MessageAlert_Tip"			  "Wenn eingeschaltet, wird ein Sound abgespielt, wenn eine Chat-Nachricht empfangen wird"
 "TF_MessageVolume"				  "Soundlautstärke der Chatnachricht"
 "TF_ChatCloseOnSend"				"Beim Nachricht versenden Chat schließen"
 "TF_ChatCloseOnSend_Tip"			"Wenn eingeschaltet, wird der Chat nach dem Senden einer Nachricht geschlossen"
+"TF2C_Option_Discord_ServerInfo"	"Serverinfo anzeigen"
+"TF2C_Option_Discord_ServerInfo_Tip" "Wenn eingeschaltet, können andere Discord-Benutzer Ihren aktuellen Serverinformationen sehen"
+"TF2C_Option_Discord_MapInfo"		"Karteninfo zeigen"
+"TF2C_Option_Discord_MapInfo_Tip"	"Wenn eingeschaltet, können andere Discord-Benutzer Ihren aktuellen Karteninformationen sehen"
+"TF2C_Option_Discord_ClassInfo"		"Klasseninfo zeigen"
+"TF2C_Option_Discord_ClassInfo_Tip"	"Wenn eingeschaltet, können andere Discord-Benutzer Ihre aktuelle Klasse und Ihr Team sehen"
 "TF_DownloadFilter_Title"			"Benutzerdef. Dateien von Servern downloaden erlauben"
 "GameUI_DownloadFilter_All"			"Alle Dateien erlauben"
 "GameUI_DownloadFilter_NoSounds"	"Keine benutzerdef. Sounds"
@@ -1478,13 +1494,8 @@ GameUI_Disconnect_TooManyCommands"		"Verb. getrennt: Zu viele Befehle."
 "TF2c_Option_BloomScale"	        "Bloom-Skalierung"
 "TF2c_Option_FramerateLimit"		"Begrenzung für die Bildrate"
 "TF2c_Option_FramerateLimit"		"Bildrate-Limit"
- "TF2c_Option_Brightness"			"Helligkeitsstufe"
+"TF2c_Option_Brightness"			"Helligkeitsstufe"
 "TF2c_Option_Brightness_Tip"		"[NUR VOLLBILD] Gammastufe des Monitors anpassen"
-
-// TF30
-"TF_EnableClassicVision"			"Classic-Vision aktivieren"
-"TF_EnableClassicVision_Tip"		"Verwendet die Inhalte für Team Fortress 30. Jubiläum.\nWenn im Spiel eingeschaltet, wird die Änderung nur beim Trennung der Verbindung oder wenn der Server die Karte wechselt übernommen."
-
 
 // ----------------------------------------------------------------
 // Stats

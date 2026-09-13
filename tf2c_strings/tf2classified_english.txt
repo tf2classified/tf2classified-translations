@@ -1191,7 +1191,7 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_Menu_Options"			"Options"
 "TF_Menu_Addons"			"Addons (Coming Soon!)"
 
-"TF_Menu_Quit"				"Quit"
+"TF_Menu_QuitGame"			"Quit Game"
 "TF_Menu_Disconnect"		"Disconnect"
 
 "TF_Menu_Blog"				"Website"
@@ -1334,6 +1334,7 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF2c_OptionCategory_Replay"			"REPLAY"
 "TF2c_OptionCategory_DemoSupport"		"DEMO"
 "TF2c_OptionCategory_Communication"		"COMMS"
+"TF2c_OptionCategory_Discord"			"DISCORD"
 
 "TF2c_OptionCategory_CustomizationMultiplayer"			"Customization"
 "TF2c_OptionCategory_Network"							"NETWORK"
@@ -1352,13 +1353,14 @@ Team ownership of Control Points is randomized at the start of each round."
 "GameUI_Off"               				"Off"
 "GameUI_Everyone"               		"Everyone"
 "GameUI_FriendsOnly"               		"Friends Only"
-"GameUI_CrosshairAlpha"					"Alpha"
 
 "GameUI_Restart"						"Restart required"
 "GameUI_RestartText"					"Some changes you have made require the game to be restarted:"
 "GameUI_OptionsRestart_Revert"			"Revert changes"
 
 "GameUI_Disconnect_TooManyCommands"		"Disconnect: Too many commands."
+
+"GameUI_DontShowThisAgain"               	"Don't show this again"
 
 // Combat
 "TF2C_Option_DamageFeedback"				"Enable damage feedback"
@@ -1417,6 +1419,8 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_OverlayToastInsetVert"        "Vertical inset of Steam notifications"
 "TF_TargetID_Floating_Health"	  "Target ID - Enable floating healthbar"
 "TF_TargetID_Floating_Health_Tip" "If set, displays healthbar above character"
+"TF_TargetID_Floating_Health_Offset" 		"Floating healthbar offset"
+"TF_TargetID_Floating_Health_Offset_Tip" 	"Floating healthbar offset away from the top of the target"
 "TF_TargetID_Alpha"				  "Target ID - Name plate background transparency"
 "TF_TargetID_Alpha_Tip"			  "Set the translucency the TargetID name plate background"
 "TF_TargetID_Show_Avatars"		  "Target ID - Display Avatars on Target ID"
@@ -1435,10 +1439,14 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_GlowEffects_Tip" 			  "If set, glow effects will be enabled during the match for objectives like VIPs, Payload carts, and CTF intelligence briefcases."
 
 // ViewModel
-"TF_ViewModelFOV"				"Viewmodel Field of View"
-"TF_FlipViewModels"				"Flip Viewmodels"
-"TF_InvisibleArms"				"Use Invisible Arm Viewmodels"
-"TF_ViewModelOpacity"			"Viewmodel Opacity"
+"TF_ViewModelFOV"					"Viewmodel field of view"
+"TF_FlipViewModels"					"Flip viewmodels"
+"TF_InvisibleArms"					"Use invisible arm viewmodels"
+"TF_ViewModelOpacity"				"Viewmodel opacity"
+"TF2C_Option_ViewmodelOffset"		"Enable viewmodel offsets"
+"TF2C_Option_ViewmodelOffsetX"		"Viewmodel offset X"
+"TF2C_Option_ViewmodelOffsetY"		"Viewmodel offset Y"
+"TF2C_Option_ViewmodelOffsetZ"		"Viewmodel offset Z"
 
 // Misc
 "TF_ClassAutoKill"					"Force respawn after choosing player class"
@@ -1453,11 +1461,18 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF2c_Option_Proximity_Voice_Local"	"Enable Proximity Voice Chat."
 
 // Multiplayer
+"GameUI_CrosshairAlpha"				"Alpha"
 "TF_MessageAlert"				    "Enable chat message sound"
 "TF_MessageAlert_Tip"			    "If set, a sound will play when a chat message is received"
 "TF_MessageVolume"				    "Chat message sound volume"
 "TF_ChatCloseOnSend"				"Close chat on message send"
 "TF_ChatCloseOnSend_Tip"			"If set, closes chat after sending a message"
+"TF2C_Option_Discord_ServerInfo"	"Show server info"
+"TF2C_Option_Discord_ServerInfo_Tip" "If set, displays your current server in Discord Rich Presence activity"
+"TF2C_Option_Discord_MapInfo"		"Show map info"
+"TF2C_Option_Discord_MapInfo_Tip"	"If set, displays the current map in Discord Rich Presence activity"
+"TF2C_Option_Discord_ClassInfo"		"Show class info"
+"TF2C_Option_Discord_ClassInfo_Tip"	"If set, displays your current class in Discord Rich Presence activity"
 "TF_DownloadFilter_Title"			"Permissions for custom files downloaded from servers"
 "GameUI_DownloadFilter_All"			"Allow all custom files"
 "GameUI_DownloadFilter_NoSounds"	"No custom sounds"
@@ -1471,12 +1486,8 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF2c_Option_ClassicShading_Tip"	"If set, enables full-lambertian shading for player materials"
 "TF2c_Option_BloomScale"			"Bloom scale"
 "TF2c_Option_FramerateLimit"		"Framerate Limit"
- "TF2c_Option_Brightness"			"Brightness level"
+"TF2c_Option_Brightness"			"Brightness level"
 "TF2c_Option_Brightness_Tip"		"[FULLSCREEN ONLY] Adjust monitor gamma level"
-
-// TF30
-"TF_EnableClassicVision"			"Enable Classic-Vision"
-"TF_EnableClassicVision_Tip"		"Use the Team Fortress 30th Anniversary content.\nIf toggled while in-game, the change will only take effect after disconnecting or when the server changes level."
 
 // ----------------------------------------------------------------
 // Stats
