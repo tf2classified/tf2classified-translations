@@ -118,9 +118,9 @@
 
 // General
 "TF_playerid_sameteam"					"%s1%s2"
-"TF_playerid_diffteam"					"%s1（敌人） %s2"
+"TF_playerid_diffteam"					"%s1（敌人）%s2"
 "TF_playerid_noteam"					"%s1"
-"TF_playerid_friendlyspy_disguise"		"伪装成（%s1 %s2）"
+"TF_playerid_friendlyspy_disguise"		"伪装成（%s1%s2）"
 
 "TF_playerid_wpn"						"%s1"
 "TF_playerid_wpn_ammo"					"%s1  -  弹药：%s2"
@@ -148,8 +148,8 @@
 "TF_playerid_object_level_upgrading"	"等级：%s1  -  正在升级..."
 "TF_playerid_object_level_building"		"等级：%s1  -  正在建造..."
 
-"TF_playerid_object_no_entrance"		"  -  没有传送装置入口!"
-"TF_playerid_object_no_exit"			"  -  没有传送装置出口!"
+"TF_playerid_object_no_entrance"		"  -  没有传送装置入口！"
+"TF_playerid_object_no_exit"			"  -  没有传送装置出口！"
 "TF_playerid_object_recharging"			"  -  重新充能：%s1%"
 
 "TF_playerid_object_status_effect"		"(%s1) "
@@ -659,7 +659,7 @@
 "TF_Meter_Harvest"	"收割能量"
 "TF_Meter_LunchBox"	"午餐盒"
 "TF_Meter_Therapy"	"治疗"
-"TF_Meter_Tranq"	"麻醉针"
+"TF_Meter_Tranq"	"麻醉程度"
 
 // ----------------------------------------------------------------
 // Buildings
@@ -744,7 +744,7 @@
 "Attrib_JumpPad_Build_Rate"							"跳板建造速度提升 %s1%"
 "Attrib_DispenserBuildCost"							"补给器建造只需要 %s1% 金属"
 "Attrib_SentrygunBuildCost"							"步哨枪建造只需要 %s1% 金属"
-"Attrib_JumpPadBuildCost"							"跳版建造只需要 %s1% 金属"
+"Attrib_JumpPadBuildCost"							"跳板建造只需要 %s1% 金属"
 "Attrib_NoPrimaryAmmoFromDispensersAlways"			"补给器不提供弹药"
 "Attrib_MetalOnSentryKill"							"步哨击杀：+%s1 金属"
 "Attrib_SentryKnockback_Increased"					"步哨枪击退效果 +%s1%"
@@ -797,7 +797,7 @@
 "Attrib_AltFire_MinicritBoost"						"辅助开火能力：给予队友迷你爆击增益"
 "Attrib_SplitsIntoBomblets"							"爆炸后会分裂成 4 个小炸弹"
 "Attrib_DisabledByWrench"							"可以被扳手拆除"
-"Attrib_Coilgun"									"充满能的子弹会在墙壁上反弹，充能时间过长还会在手中爆炸"
+"Attrib_Coilgun"									"完全充能后的子弹会在墙壁上反弹，充能时间过长还会在手中爆炸"
 "Attrib_DamageAffectedByCharge"						"伤害受能量条影响"
 "Attrib_JumpPadNoUpgrade"							"跳板无法升级"
 "Attrib_AltFire_HasteBoost"							"辅助开火能力：给予队友急速增益"
