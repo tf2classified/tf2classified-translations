@@ -98,19 +98,75 @@
 // Classes
 // ----------------------------------------------------------------
 
-"TF_Special"	"特殊"
+"TF_Special"				"SPECIAL"
+
+// Scout
+"ClassTips_1_Count"			"1"
+"ClassTips_1_1"				"在空中使用双重跳跃！"
+
+"ClassTips_1_Count_Escort"	"1"
+"ClassTips_1_1_Escort"		"你推车的速度比其他兵种快！"
+
+"ClassTips_1_Count_default"	"1"
+"ClassTips_1_1_default"		"你占领控制点的速度比其他兵种快！"
+
+// Sniper
+"ClassTips_2_Count"			"2"
+"ClassTips_2_1"				"当你瞄准时，你的狙击步枪会蓄能，能造成更高的伤害！"
+"ClassTips_2_2"				"瞄准头部射击来造成爆击！"
+
+// Soldier
+"ClassTips_3_Count"			"2"
+"ClassTips_3_1"				"瞄准敌人脚底发射火箭造成爆炸伤害！"
+"ClassTips_3_2"				"跳跃时朝脚下发射火箭，进行火箭跳！"
+
+// Demoman
+"ClassTips_4_Count"			"2"
+"ClassTips_4_1"				"敌人靠近粘性炸弹时，远程引爆它!"
+"ClassTips_4_2"				"在脚下放置粘性炸弹，跳起时将其引爆，进行粘弹跳!"
+
+// Medic
+"ClassTips_5_Count"			"3"
+"ClassTips_5_1"				"治疗你的队友可以补充你的 UberCharge 能量！"
+"ClassTips_5_2"				"释放蓄能完毕的 UberCharge 可以让你和你的治疗对象无敌！"
+"ClassTips_5_3"				"你能够被动恢复生命值！"
+
+// Heavy
+"ClassTips_6_Count"			"2"
+"ClassTips_6_1"				"使用你的转轮机枪瞄准敌人扫射！"
+"ClassTips_6_2"				"在拐角处提前预热机枪，准备迎接到来的敌人！"
+
+// Pyro
+"ClassTips_7_Count"			"2"
+"ClassTips_7_1"				"使用火焰喷射器对敌人造成燃烧伤害！"
+"ClassTips_7_2"				"发射压缩空气击退敌人和飞行物，或者给队友灭火！"
+
+// Spy
+"ClassTips_8_Count"			"4"
+"ClassTips_8_1"				"将自己伪装成敌人，潜入敌方基地！"
+"ClassTips_8_2"				"隐形，防止你被敌人发现！"
+"ClassTips_8_3"				"用刀子背刺敌人，一击必杀！"
+"ClassTips_8_4"				"向敌人的建筑上放置电子工兵，将其摧毁！"
+
+// Engineer
+"ClassTips_9_Count"			"4"
+"ClassTips_9_1"				"修建步哨枪来防御你的基地！把它升到3级！"
+"ClassTips_9_2"				"你的补给器能够给队友治疗并补充弹药！"
+"ClassTips_9_3"				"修建传送装置帮助队友快速到达前线！"
+"ClassTips_9_4"				"捡起敌人掉落的武器并获得金属来进行建造！"
 
 // Civilian
 "TF_Civilian" 				"平民"
 "TF_Class_Name_Civilian" 	"平民"
 
-"ClassTips_10_Count"	"3"
-"ClassTips_10_1"		"为你的队友提供增益效果，在战斗中占据优势！"
-"ClassTips_10_1_Icon"	"chalf_circle"
-"ClassTips_10_2"		"靠近你的队友，给予他们伤害抗性和被动治疗效果！"
-"ClassTips_10_2_Icon"	"chalf_circle"
-"ClassTips_10_3"		"你在面对战斗时手无缚鸡之力！"
-"ClassTips_10_3_Icon"	"chalf_circle"
+"ClassTips_10_Count"		"3"
+"ClassTips_10_1"			"为你的队友提供增益效果，在战斗中占据优势！"
+"ClassTips_10_2"			"靠近你的队友，给予他们伤害抗性和被动治疗效果！"
+"ClassTips_10_3"			"你在面对战斗时手无缚鸡之力！"
+
+// Random
+"ClassTips_12_Count"		"1"
+"ClassTips_12_1"			"让游戏为你随机选择兵种。"
 
 // ----------------------------------------------------------------
 // Target ID
@@ -194,6 +250,7 @@
 "DeathMsg_Suicide_Freeze"		"变成了冰雕像！"
 "DeathMsg_Suicide_Fizzle"		"试图触碰高压电！"
 "DeathMsg_Suicide_Disappear"	"蒸发了！"
+"DeathMsg_Suicide_Toss"			"被抛飞了出去！"
 
 // ----------------------------------------------------------------
 // Voice Menu
@@ -411,7 +468,7 @@
 "Tip_10_2"		"作为平民，你是游戏中最矮的兵种。在队友身后躲避攻击时非常有用。"
 "Tip_10_3"		"作为平民，你是唯一能在护送VIP模式与护送VIP竞赛模式下占领控制点的兵种。"
 "Tip_10_4"		"作为平民，时刻留意敌方狙击手和间谍，因为他们能立即杀死你。"
-"Tip_10_5"		"作为平民，附近的队友会受到你提供的护盾增益，降低受到的伤害并回复生命值。请试着避开敌人的视线，与团队共同行动。"
+"Tip_10_5"		"作为平民，附近的队友会受到你提供的护盾增益降低受到的伤害并回复生命值。请试着避开敌人的视线，与团队共同行动。"
 "Tip_10_6"		"作为平民，对队友按下 %attack2% 可以给予他们增益，让他们在战斗中获得巨大优势。"
 // Stock
 "Tip_10_7"		"作为平民，你的雨伞除了挡雨与血外并不是一件合格的武器。命令你的队友为你战斗吧。"
@@ -641,7 +698,7 @@
 "TF_Weapon_HealGrenadeLauncher"		"治疗榴弹发射器"
 "TF_Weapon_LunchBox"				"午餐盒"
 "TF_Weapon_PDA"						"PDA"
-"TF_Weapon_ProximityMineLauncher"	"感应式地雷发射器"
+"TF_Weapon_TripmineLauncher"		"绊雷发射器"
 "TF_Weapon_Scythe"					"镰刀"
 "TF_Weapon_Syringe"					"注射器"
 "TF_Weapon_Taser"					"电击枪"
@@ -696,7 +753,7 @@
 "Attrib_Mod_Horizontal_Spread"						"拥有水平线弹道散射"
 "Attrib_ApplySelfKnockback"							"开火时对自身施加反向击退"
 "Attrib_WeaponEnemyKnockback_Bonus"					"+%s1% 击退作用"
-"Attrib_LifestealCrit"								"击中时：满蓄能会迅速窃取目标的生命值"
+"Attrib_LifestealCrit"								"满蓄能攻击可以击中多名敌人并恢复生命值"
 "Attrib_FlatHealOnAfterburn_Active"					"手持时：后续燃烧时生命值每刻 +%s1"
 "Attrib_RememberTargetsRemainingAfterburn"			"记录处于后续燃烧的目标并充能"
 "Attrib_OnDeathRemoveTargetsAfterburn"				"死亡时：被你燃烧的敌人将会熄灭身上的火焰"
@@ -714,11 +771,11 @@
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"击退作用受武器伤害影响"
 "Attrib_ApplySelfKnockbackSwing"					"挥舞时给自己一个反向击退"
 "Attrib_AirblastSelfKnockback"						"压缩空气对使用者造成击退"
-"Attrib_ProximityMine"								"地雷在敌人靠近时引爆"
-"Attrib_AltFire_FizzleMines"						"辅助开火能力：消除附近的地雷"
+"Attrib_ProximityMine"								"绊雷在敌人接触到激光时引爆"
+"Attrib_AltFire_FizzleMines"						"辅助开火能力：消除附近的所有绊雷"
 "Attrib_NoStickyChargeTime"							"无粘弹蓄力时间"
 "Attrib_BlastSplashDamage_Decreased"				"%s1% 溅射爆炸伤害"
-"Attrib_BurningTargetsChargeCrit"					"手持时：燃烧目标会积攒能量条获得爆击"
+"Attrib_BurningTargetsChargeCrit"					"燃烧目标会积攒能量条获得爆击"
 "Attrib_LimitedRange"								"此武器拥有距离限制"
 "Attrib_GainStoredCritsOnKill"						"击杀时：得到 %s1 个爆击"
 "Attrib_HealOnKillCrit"								"爆击击杀时生命值 +%s1"
@@ -806,6 +863,17 @@
 "Attrib_AutoJumping"								"装备时：按住跳跃键时会自动跳跃"
 "Attrib_SpreadScalesSpeed"							"根据当前移动速度，精准度最高提高 %s1%"
 "Attrib_DuckJumping"								"装备时：可以蹲着跳跃"
+"Attrib_NoZoom"										"无法开镜"
+"Attrib_PostFireDelayScoped"						"瞄准时射速降低 %s1%"
+"Attrib_NoDmgFalloff"								"伤害不会受到距离衰减"
+"Attrib_ReloadTimeDecreasedWhileRJ"					"火箭跳时装填速度提高 %s1%"
+"Attrib_DmgCritFalloff"								"爆击伤害受距离影响"
+"Attrib_BurnTimeSelf"								"所有武器的后续燃烧时间缩短 %s1% "
+"Attrib_HuntingRevolver_Explain_1"					"爆头不受瞄准影响"
+"Attrib_HuntingRevolver_Explain_2"					"未瞄准时爆头造成迷你爆击伤害"
+"Attrib_Minelayer_Explain_1"						"绊雷可以造成连锁爆炸"
+"Attrib_Minelayer_Explain_2"						"绊雷的伤害和爆炸范围提高"
+"Attrib_Minelayer_Explain_3"						"最多可激活 4 枚绊雷"
 
 // ----------------------------------------------------------------
 // Map strings
@@ -1017,6 +1085,21 @@
 
 在骤死赛下，杀死敌方 VIP 即可赢得本回合！"
 
+// VIPR Drizzle Event
+"vipr_drizzle_event_description"    "目标：
+护送 VIP 抵达控制点，然后前往撤离区域即可获胜。击杀敌方 VIP 可以重置他们占领的控制点。
+
+小心幽灵平民！
+
+其他说明：
+幽灵平民会惊吓到正前方的敌人！
+
+如果你的 VIP 阵亡，你将失去 VIP 占领的任何控制点。
+
+如果自己的 VIP 不在场，任何一名团队都可以冻结控制点的占领进度。
+
+在骤死赛下，杀死敌方 VIP 即可赢得本回合！"
+
 "vipr_setup_goal"		"护送你的VIP前往控制点，防止敌方VIP采取同样行动！"
 "vipr_setup_goal_4team"	"护送你的VIP前往控制点，防止敌方VIP采取同样行动！"
 
@@ -1107,6 +1190,11 @@
 
 "TF_ScoreBoard_Player"				"%s1 位玩家"
 "TF_ScoreBoard_Players"				"%s1 位玩家"
+
+"TF_ScoreBoard_Player_And_Bot"		"%s1 位玩家（%s2 位电脑玩家）"
+"TF_ScoreBoard_Players_And_Bot"		"%s1 位玩家（%s2 位电脑玩家）"
+"TF_ScoreBoard_Player_And_Bots"		"%s1 位玩家（%s2 位电脑玩家）"
+"TF_ScoreBoard_Players_And_Bots"	"%s1 位玩家（%s2 位电脑玩家）"
 
 "ScoreBoard_Spectator"				"%s1 位观察者：%s2"
 "ScoreBoard_Spectators"				"%s1 位观察者：%s2"
@@ -1252,12 +1340,16 @@
 
 "TF_Loadout_Close"				"关闭"
 "TF_Loadout_Back"				"返回"
-"TF_Loadout_Defaults"			"默认配置"
+"TF_Loadout_Defaults"			"重置"
 
 // Reset inventory
-"TF_ConfirmDefaultInventory_Title"		"默认配置"
+"TF_ConfirmDefaultInventory_Title"		"重置配置"
 "TF_ConfirmDefaultInventory_Message"	"你确定要把此兵种的配置改为默认配置吗？"
 "TF_ConfirmDefaultInventory_OK"			"确定"
+
+// Quickswitch Loadout
+"TF_Loadout_Respawning"				"重生为 %s1"
+"TF_Loadout_Changing_Class"			"更换兵种为 %s1" 
 
 // ----------------------------------------------------------------
 // Options
@@ -1430,7 +1522,7 @@
 "TF_AlternativeTimer"             "使用替代的游戏内倒计时界面"
 "TF_AlternativeTimer_Tip"         "若选中此选项，将使用另一种等宽字体显示倒计时界面。"
 "TF_DisableDropShadow"            "禁用阴影"
-"TF_DisableDropShadow_Tip"        "若选中此选项，将从大部分文本和图像中移除阴影效果。"
+"TF_DisableDropShadow_Tip"        "若选中此选项，将移除文本和图像中的阴影效果。"
 "TF_DeathNoticeMax"               "死亡信息 - 最大显示数量"
 "TF_DeathNoticeMax_Tip"           "设置同一时间内显示死亡信息条目的最大数量。"
 "TF_DeathNoticeTime"              "死亡信息 - 显示时间（单位：秒）"
@@ -1609,7 +1701,7 @@
 "TF2C_ACHIEVEMENT_VIP_TEAMMATE_KILLSTREAK_DESC"			"让获得你的雨伞增益效果的队友击杀 3 名敌人。"
 "TF2C_ACHIEVEMENT_KILL_VIP_DAMAGERS_NAME"				"看好小矮子"
 "TF2C_ACHIEVEMENT_KILL_VIP_DAMAGERS_DESC"				"在你的 VIP 还活着的情况下杀死 20 个最近攻击他的敌人。"
-"TF2C_ACHIEVEMENT_REVOLVER_KILLS_SINGLE_LIFE_NAME"		"我，詹姆斯·邦德"
+"TF2C_ACHIEVEMENT_REVOLVER_KILLS_SINGLE_LIFE_NAME"		"我，詹姆斯-邦德"
 "TF2C_ACHIEVEMENT_REVOLVER_KILLS_SINGLE_LIFE_DESC"		"在一次生命内使用左轮手枪击杀 3 名敌人。"
 "TF2C_ACHIEVEMENT_FIRE_AXE_DEATH_AFTERBURN_NAME"		"余烬的回响"
 "TF2C_ACHIEVEMENT_FIRE_AXE_DEATH_AFTERBURN_DESC"		"作为火焰兵，在你死后造成 1000 点后续燃烧伤害。"
