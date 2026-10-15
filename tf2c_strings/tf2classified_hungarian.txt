@@ -753,7 +753,7 @@
 "Attrib_Mod_Horizontal_Spread"						"A töltényeknek széles vízszintes szóródása van"
 "Attrib_ApplySelfKnockback"							"Lövéskor hátralöki a használóját"
 "Attrib_WeaponEnemyKnockback_Bonus"					"+%s1% visszalökés az ellenfélen"
-"Attrib_LifestealCrit"								"Találatkor: életerő elszívása a célponttól amíg a mérce tele van"
+"Attrib_LifestealCrit"								"A feltöltött találatok több ellenfelet találnak el, és meggyógyítanak téged"
 "Attrib_FlatHealOnAfterburn_Active"					"+%s1 életerő nyereség továbbégés sebzésütemenként amikor aktív"
 "Attrib_RememberTargetsRemainingAfterburn"			"Követi az elesett célpontokon hátralévő továbbégést"
 "Attrib_OnDeathRemoveTargetsAfterburn"				"Halálkor: az általad felgyújtott ellenségek eloltódnak"
@@ -874,7 +874,6 @@
 "Attrib_Minelayer_Explain_1"						"A botlóaknák láncreakcióra képesek"
 "Attrib_Minelayer_Explain_2"						"A botlóaknáknak megnövelt sugara és sebzése van"
 "Attrib_Minelayer_Explain_3"						"Max. 4 botlóakna lehet aktív"
-"Attrib_Harvester_Explain_1"						"A feltöltött találatok több ellenfelet találnak el, és meggyógyítanak téged"
 
 // ----------------------------------------------------------------
 // Map strings
