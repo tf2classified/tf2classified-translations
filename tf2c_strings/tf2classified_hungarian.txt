@@ -98,19 +98,75 @@
 // Classes
 // ----------------------------------------------------------------
 
-"TF_Special"	"KÜLÖNLEGES"
+"TF_Special"				"KÜLÖNLEGES"
+
+// Scout
+"ClassTips_1_Count"			"1"
+"ClassTips_1_1"				"Ugorj duplán, míg a levegőben vagy!"
+
+"ClassTips_1_Count_Escort"	"1"
+"ClassTips_1_1_Escort"		"A többi osztálynál gyorsabban tolod a bombát!"
+
+"ClassTips_1_Count_default"	"1"
+"ClassTips_1_1_default"		"A többi osztálynál gyorsabban foglalsz pontokat!"
+
+// Sniper
+"ClassTips_2_Count"			"2"
+"ClassTips_2_1"				"A mesterlövész puskád feltöltődik és többet sebez, míg rá van közelítve!"
+"ClassTips_2_2"				"Kritikus találatokhoz célozz fejre!"
+
+// Soldier
+"ClassTips_3_Count"			"2"
+"ClassTips_3_1"				"Lődd a rakétát az ellenség lábához!"
+"ClassTips_3_2"				"Használd a rakétavetődet rakétaugráshoz!"
+
+// Demoman
+"ClassTips_4_Count"			"2"
+"ClassTips_4_1"				"Robbantsd fel a tapadóbombákat távvezérléssel, mikor ellenség van a közelükben!"
+"ClassTips_4_2"				"Tapadóbomba-ugráshoz állj rá egyre, és ugorj, miközben felrobbantod!"
+
+// Medic
+"ClassTips_5_Count"			"3"
+"ClassTips_5_1"				"Gyűjtsd az ÜberTöltésed csapattársaid gyógyításával!"
+"ClassTips_5_2"				"Használd a teli ÜberTöltést magad és gyógyított célpontod sebezhetetlenné tételére!"
+"ClassTips_5_3"				"Regeneráld passzívan az életerőd!"
+
+// Heavy
+"ClassTips_6_Count"			"2"
+"ClassTips_6_1"				"Daráld le az ellenfeleidet a gépágyúddal!"
+"ClassTips_6_2"				"Pörgesd a gépágyúdat tüzelés nélkül, hogy készen állj az ellenfelek érkezésére!"
+
+// Pyro
+"ClassTips_7_Count"			"2"
+"ClassTips_7_1"				"Használd a lángszóródat, hogy megégesd az ellenfeleidet!"
+"ClassTips_7_2"				"Használd a léglöketedet ellenfelek és lövedékek ellökésére, vagy csapattársak eloltására!"
+
+// Spy
+"ClassTips_8_Count"			"4"
+"ClassTips_8_1"				"Öltsd magadra egy ellenség jelmezét, és szivárogj be a bázisukra!"
+"ClassTips_8_2"				"Álcázd magad, hogy ne láthassanak meg!"
+"ClassTips_8_3"				"Döfd hátba ellenségeid késeddel, és azonnal meghalnak!"
+"ClassTips_8_4"				"Helyezz mentesítőket az ellenség épületeire az elpusztításukhoz!"
+
+// Engineer
+"ClassTips_9_Count"			"4"
+"ClassTips_9_1"				"Készíts őrtornyokat a bázisod védelmére! Fejleszd őket 3. szintre!"
+"ClassTips_9_2"				"Az adagolóid ingyen életerővel és lőszerrel látnak el!"
+"ClassTips_9_3"				"Építs teleportokat, hogy segíts társaidnak eljutni a frontvonalra!"
+"ClassTips_9_4"				"Gyűjts vasat az elejtett fegyverekből, és építkezz belőle!"
 
 // Civilian
 "TF_Civilian" 				"CIVIL"
 "TF_Class_Name_Civilian" 	"Civil"
 
-"ClassTips_10_Count"	"3"
-"ClassTips_10_1"		"Erősítsd a csapattársad, és adj neki előnyt a csatában!"
-"ClassTips_10_1_Icon"	"chalf_circle"
-"ClassTips_10_2"		"Maradj közel a csapattársaidhoz, hogy sebzésellenállást és passzív gyógyítást adj nekik!"
-"ClassTips_10_2_Icon"	"chalf_circle"
-"ClassTips_10_3"		"Légy védtelen a harcokban!"
-"ClassTips_10_3_Icon"	"chalf_circle"
+"ClassTips_10_Count"		"3"
+"ClassTips_10_1"			"Erősítsd a csapattársad, és adj neki előnyt a csatában!"
+"ClassTips_10_2"			"Maradj közel a csapattársaidhoz, hogy sebzésellenállást és passzív gyógyítást adj nekik!"
+"ClassTips_10_3"			"Légy védtelen a harcokban!"
+
+// Random
+"ClassTips_12_Count"		"1"
+"ClassTips_12_1"			"A játék válasszon osztályt véletlenszerűen."
 
 // ----------------------------------------------------------------
 // Target ID
@@ -194,6 +250,7 @@
 "DeathMsg_Suicide_Freeze"		"szilárdra fagyott"
 "DeathMsg_Suicide_Fizzle"		"felvillanyozódott"
 "DeathMsg_Suicide_Disappear"	"eltűnt"
+"DeathMsg_Suicide_Toss"			"el lett dobva"
 
 // ----------------------------------------------------------------
 // Voice Menu
@@ -641,7 +698,7 @@
 "TF_Weapon_HealGrenadeLauncher"		"Gyógygránát-vető"
 "TF_Weapon_LunchBox"				"Uzsonnás doboz"
 "TF_Weapon_PDA"						"PDA"
-"TF_Weapon_ProximityMineLauncher"	"Távakna-vető"
+"TF_Weapon_TripmineLauncher"		"Botlóakna-vető"
 "TF_Weapon_Scythe"					"Kasza"
 "TF_Weapon_Syringe"					"Fecskendő"
 "TF_Weapon_Taser"					"Elektromos sokkoló"
@@ -714,11 +771,11 @@
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Az ön-visszalökést befolyásolja a sebzésnövelés"
 "Attrib_ApplySelfKnockbackSwing"					"Ütéskor hátralöki a használóját"
 "Attrib_AirblastSelfKnockback"						"A léglöket visszalöki a használót"
-"Attrib_ProximityMine"								"A távaknák felrobbannak közeli ellenfeleknél"
-"Attrib_AltFire_FizzleMines"						"Alternatív tűz: távaknák elporlasztása"
+"Attrib_ProximityMine"								"A botlóaknák felrobbannak ha a lézer megtörik"
+"Attrib_AltFire_FizzleMines"						"Alternatív tűz: botlóaknák elporlasztása"
 "Attrib_NoStickyChargeTime"							"A tapadóbombákat nem lehet feltölteni"
 "Attrib_BlastSplashDamage_Decreased"				"%s1% robbanási területi sebzéscsökkentés"
-"Attrib_BurningTargetsChargeCrit"					"Az égő célpontok feltöltik a krit mércét amikor aktív"
+"Attrib_BurningTargetsChargeCrit"					"A továbbégés sebzése feltölti a krit mércét"
 "Attrib_LimitedRange"								"A fegyvernek korlátozott a hatótávja"
 "Attrib_GainStoredCritsOnKill"						"Öléskor: %s1 kritikus találat raktározása"
 "Attrib_HealOnKillCrit"								"+%s1 életerő visszatöltődik krites öléskor"
@@ -806,6 +863,18 @@
 "Attrib_AutoJumping"								"A viselő automatikusan ugrik, ha az ugrás gombot lenyomva tartja"
 "Attrib_SpreadScalesSpeed"							"Akár %s1%-kal pontosabb az aktuális sebesség alapján"
 "Attrib_DuckJumping"								"A viselő guggolva tud ugrani"
+"Attrib_NoZoom"										"Nem képes ráközelíteni"
+"Attrib_PostFireDelayScoped"						"%s1%-kal lassabb tüzelési sebesség ráközelítve"
+"Attrib_NoDmgFalloff"								"Nincs sebzéscsökkentés távolról lövéskor"
+"Attrib_ReloadTimeDecreasedWhileRJ"					"%s1%-kal gyorsabb újratöltés rakétaugrás közben"
+"Attrib_DmgCritFalloff"								"A kritikus sebzést befolyásolja a távolság"
+"Attrib_BurnTimeSelf"								"%s1% továbbégés időtartam minden fegyveren"
+"Attrib_HuntingRevolver_Explain_1"					"Ráközelítéstől függetlenül képes fejbelőni"
+"Attrib_HuntingRevolver_Explain_2"					"A fejlövések mini-kritet sebeznek ha nincs ráközelítve"
+"Attrib_Minelayer_Explain_1"						"A botlóaknák láncreakcióra képesek"
+"Attrib_Minelayer_Explain_2"						"A botlóaknáknak megnövelt sugara és sebzése van"
+"Attrib_Minelayer_Explain_3"						"Max. 4 botlóakna lehet aktív"
+"Attrib_Harvester_Explain_1"						"A feltöltött találatok több ellenfelet találnak el, és meggyógyítanak téged"
 
 // ----------------------------------------------------------------
 // Map strings
@@ -1017,6 +1086,21 @@ Bármely csapat meg tudja állítani egy ellenőrzőpont foglalási állapotát,
 
 Hirtelen Halálkor, öld meg az ellenséges VIP-t, hogy nyerj!"
 
+// VIPR Drizzle Event
+"vipr_drizzle_event_description"    "Feladat:
+Az a csapat nyer, aki elkíséri a VIP-t az ellenőrzőpontokat követően a menekülőzónához. Öld meg az ellenséges VIP-t, hogy nullázd az általa elfoglalt ellenőrzőpontokat.
+
+Óvakodj a CIDRIS CIVILEK!-től!
+
+Egyéb megjegyzések:
+A CIDRIS CIVILEK megijesztik az előttük álló ellenfeleiket!
+
+Ha a VIP meghal, mindazon ellenőrzőpont elvész, amit előzőleg elfoglalt.
+
+Bármely csapat meg tudja állítani egy ellenőrzőpont foglalási állapotát, ha a VIP-juk nincs jelen.
+
+Hirtelen Halálkor, öld meg az ellenséges VIP-t, hogy nyerj!"
+
 "vipr_setup_goal"		"Kísérjétek a VIP-t az ellenőrzőpontokhoz. Akadályozzátok meg az ellenséges VIP-t, hogy ugyan ezt megtegye!"
 "vipr_setup_goal_4team"	"Kísérjétek a VIP-t az ellenőrzőpontokhoz. Akadályozzátok meg az ellenséges csapatokat, hogy ugyan ezt megtegyék!"
 
@@ -1107,6 +1191,11 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 
 "TF_ScoreBoard_Player"				"%s1 játékos"
 "TF_ScoreBoard_Players"				"%s1 játékos"
+
+"TF_ScoreBoard_Player_And_Bot"		"%s1 játékos (%s2 Bot)"
+"TF_ScoreBoard_Players_And_Bot"		"%s1 játékos (%s2 Bot)"
+"TF_ScoreBoard_Player_And_Bots"		"%s1 játékos (%s2 Bot)"
+"TF_ScoreBoard_Players_And_Bots"	"%s1 játékos (%s2 Bot)"
 
 "ScoreBoard_Spectator"		        "%s1 néző: %s2"
 "ScoreBoard_Spectators"		        "%s1 néző: %s2"
@@ -1258,6 +1347,10 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_ConfirmDefaultInventory_Title"		"Visszaállítás"
 "TF_ConfirmDefaultInventory_Message"	"Biztosan alapértelmezettre szeretnéd állítani ennek az osztálynak a felszerelését?"
 "TF_ConfirmDefaultInventory_OK"			"Visszaállítás"
+
+// Quickswitch Loadout
+"TF_Loadout_Respawning"				"Újraéledés %s1ként"
+"TF_Loadout_Changing_Class"			"Osztályváltás erre: %s1"
 
 // ----------------------------------------------------------------
 // Options
@@ -1430,7 +1523,7 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 "TF_AlternativeTimer"             "Alternatív visszaszámláló használata"
 "TF_AlternativeTimer_Tip"         "Ha be van kapcsolva, a számláló egy fix szélességű betűtípust fog használni"
 "TF_DisableDropShadow"            "Szövegárnyékolás kikapcsolása"
-"TF_DisableDropShadow_Tip"        "Kikapcsolja a legtöbb szövegen és képen az árnyékolást"
+"TF_DisableDropShadow_Tip"        "Kikapcsolja a szövegeken és képeken az árnyékolást"
 "TF_DeathNoticeMax"               "Ölési jelentés - Maximum látható tétel"
 "TF_DeathNoticeMax_Tip"           "Beállítja a max. egyszerre megjeleníthető ölési jelentés tételeket"
 "TF_DeathNoticeTime"              "Ölési jelentés - A jelentések lejárati ideje (másodpercben)"
