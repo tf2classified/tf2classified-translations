@@ -98,7 +98,7 @@
 // Classes
 // ----------------------------------------------------------------
 
-"TF_Special"				"SPECIAL"
+"TF_Special"				"特殊"
 
 // Scout
 "ClassTips_1_Count"			"1"
