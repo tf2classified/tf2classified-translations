@@ -122,8 +122,8 @@
 
 // Demoman
 "ClassTips_4_Count"			"2"
-"ClassTips_4_1"				"敌人靠近粘性炸弹时，远程引爆它!"
-"ClassTips_4_2"				"在脚下放置粘性炸弹，跳起时将其引爆，进行粘弹跳!"
+"ClassTips_4_1"				"敌人靠近粘性炸弹时，远程引爆它！"
+"ClassTips_4_2"				"在脚下放置粘性炸弹，跳起时将其引爆，进行粘弹跳！"
 
 // Medic
 "ClassTips_5_Count"			"3"
@@ -872,7 +872,7 @@
 "Attrib_HuntingRevolver_Explain_1"					"爆头不受瞄准影响"
 "Attrib_HuntingRevolver_Explain_2"					"未瞄准时爆头造成迷你爆击伤害"
 "Attrib_Minelayer_Explain_1"						"绊雷可以造成连锁爆炸"
-"Attrib_Minelayer_Explain_2"						"绊雷的伤害和爆炸范围提高"
+"Attrib_Minelayer_Explain_2"						"绊雷拥有更高的伤害和爆炸范围"
 "Attrib_Minelayer_Explain_3"						"最多可激活 4 枚绊雷"
 
 // ----------------------------------------------------------------
