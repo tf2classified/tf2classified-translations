@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 "Language" "french"
 "Tokens"
@@ -100,17 +100,73 @@
 
 "TF_Special"	"SPÉCIAL"
 
+// Scout
+"ClassTips_1_Count"			"1"
+"ClassTips_1_1"				"Faites un double saut dans les airs !"
+
+"ClassTips_1_Count_Escort"	"1"
+"ClassTips_1_1_Escort"		"Vous êtes le plus rapide pour pousser la charge utile !"
+
+"ClassTips_1_Count_default"	"1"
+"ClassTips_1_1_default"		"Vous êtes le plus rapide pour capturer les points !"
+
+// Sniper
+"ClassTips_2_Count"			"2"
+"ClassTips_2_1"				"La lunette du fusil de sniper décuple votre puissance de tir !"
+"ClassTips_2_2"				"Visez la tête pour faire des coups critiques !"
+
+// Soldier
+"ClassTips_3_Count"			"2"
+"ClassTips_3_1"				"Tirez dans les pieds des ennemis avec votre lance-roquettes !"
+"ClassTips_3_2"				"Utilisez votre lance-roquettes pour faire des sauts propulsés !"
+
+// Demoman
+"ClassTips_4_Count"			"2"
+"ClassTips_4_1"				"Faites sauter vos bombes collantes (et vos ennemis) à distance !"
+"ClassTips_4_2"				"Effectuez un saut explosif en vous plaçant et en sautant sur une bombe collante !"
+
+// Medic
+"ClassTips_5_Count"			"3"
+"ClassTips_5_1"				"Remplissez votre jauge d'ÜberCharge en soignant vos coéquipiers !"
+"ClassTips_5_2"				"Utilisez une Übercharge complète pour devenir invulnérable vous et votre cible !"
+"ClassTips_5_3"				"Régénérez votre santé passivement !"
+
+// Heavy
+"ClassTips_6_Count"			"2"
+"ClassTips_6_1"				"Écrabouillez les lâches avec votre minigun !"
+"ClassTips_6_2"				"Faites tourner les canons du minigun dans un recoin pour bien acceuillir vos ennemis !"
+
+// Pyro
+"ClassTips_7_Count"			"2"
+"ClassTips_7_1"				"Utilisez votre lance-flammes pour infliger des dégats de postcombustion à vos ennemis !"
+"ClassTips_7_2"				"Le tir d'air comprimé dévie les projectiles, ou éteint vos coéquipiers en feu !"
+
+// Spy
+"ClassTips_8_Count"			"4"
+"ClassTips_8_1"				"Déguisez-vous en ennemi et infiltrez leur base incognito !"
+"ClassTips_8_2"				"Devenez invisible afin d'éviter d'être repéré !"
+"ClassTips_8_3"				"Poignardez vos ennemis dans le dos pour une mort instantanée !"
+"ClassTips_8_4"				"Placez des saboteurs sur les constructions adverses pour les détruire !"
+
+// Engineer
+"ClassTips_9_Count"			"4"
+"ClassTips_9_1"				"Montez des mitrailleuses pour défendre votre base ! Améliorez-les jusqu'au niveau 3 !"
+"ClassTips_9_2"				"Vos distributeurs génèrent de la santé et des munitions gratuitement !"
+"ClassTips_9_3"				"Montez des téléporteurs pour aider vos coéquipiers à atteindre le front !"
+"ClassTips_9_4"				"Récupérez du métal grâce aux boites de munitions perdues pour construire !"
+
 // Civilian
 "TF_Civilian" 				"CIVILIAN"
 "TF_Class_Name_Civilian" 	"Civilian"
 
-"ClassTips_10_Count"	"3"
-"ClassTips_10_1"		"Octroyez un bonus à un coéquipier pour lui donner un avantage au combat !"
-"ClassTips_10_1_Icon"	"chalf_circle"
-"ClassTips_10_2"		"Restez près de vos coéquipiers pour leur donner une résistance aux dégâts et des soins passifs !"
-"ClassTips_10_2_Icon"	"chalf_circle"
-"ClassTips_10_3"		"Soyez sans défense au combat !"
-"ClassTips_10_3_Icon"	"chalf_circle"
+"ClassTips_10_Count"		"3"
+"ClassTips_10_1"		    "Octroyez un bonus à un coéquipier pour lui donner un avantage au combat !"
+"ClassTips_10_2"		    "Restez près de vos coéquipiers pour leur donner une résistance aux dégâts et des soins passifs !"
+"ClassTips_10_3"		    "Soyez sans défense au combat !"
+
+// Random
+"ClassTips_12_Count"		"1"
+"ClassTips_12_1"			"Laisser le jeu choisir une classe de manière aléatoire."
 
 // ----------------------------------------------------------------
 // Target ID
@@ -172,7 +228,7 @@
 "game_respawntime_in_secs"		"Réapparition dans %s1 secondes"
 "game_respawntime_stalemate"	"Pas de réapparition en Mort Subite"
 "game_respawntime_next_round"	"Réapparition à la prochaine manche"
-"TF_Arena_NoRespawning"			"Pas de réapparition en Mort Subite"
+"TF_Arena_NoRespawning"			"Pas de réapparition en mode Arena"
 
 // ----------------------------------------------------------------
 // Kill feed
@@ -194,6 +250,7 @@
 "DeathMsg_Suicide_Freeze"		"est resté de glace"
 "DeathMsg_Suicide_Fizzle"		"a été électrocuté !"
 "DeathMsg_Suicide_Disappear"	"a disparu"
+"DeathMsg_Suicide_Toss"			"a été tout chamboulé !"
 
 // ----------------------------------------------------------------
 // Voice Menu
@@ -639,7 +696,7 @@
 "TF_Weapon_HealGrenadeLauncher"		"Lanceur de grenades salutaires"
 "TF_Weapon_LunchBox"				"Panier déjeuner"
 "TF_Weapon_PDA"						"Assistant numérique personnel"
-"TF_Weapon_ProximityMineLauncher"	"Lanceur de mines terrestres"
+"TF_Weapon_TripmineLauncher"		"Lanceur de mines terrestres"
 "TF_Weapon_Scythe"					"Faux"
 "TF_Weapon_Syringe"					"Seringue"
 "TF_Weapon_Taser"					"Taser"
@@ -712,7 +769,7 @@
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Le contrecoup est affecté par le bonus de dégâts"
 "Attrib_ApplySelfKnockbackSwing"					"Applique du contrecoup sur soi à chaque coup"
 "Attrib_AirblastSelfKnockback"						"Les tirs d'air comprimé de l'utilisateur provoque un contrecoup"
-"Attrib_ProximityMine"								"Les mines terrestres explosent près des ennemis"
+"Attrib_ProximityMine"								"Les mines terrestre explosent lorsque le faisceau laser est franchi"
 "Attrib_AltFire_FizzleMines"						"Tir secondaire : neutralise les mines terrestres"
 "Attrib_NoStickyChargeTime"							"Les bombes collantes ne peuvent pas être chargées"
 "Attrib_BlastSplashDamage_Decreased"				"%s1% de dégats d'explosions"
@@ -804,6 +861,17 @@
 "Attrib_AutoJumping"								"Le porteur peut sauter automatiquement en maintenant le bouton de saut enfoncé"
 "Attrib_SpreadScalesSpeed"							"Jusqu'à %s1% de précision supplémentaire en fonction de la vitesse actuelle"
 "Attrib_DuckJumping"								"Le porteur peut sauter en étant accroupi"
+"Attrib_NoZoom"										"Impossible de zoomer avec cette arme"
+"Attrib_PostFireDelayScoped"						"Cadence de tir %s1%  plus lente en zoomant"
+"Attrib_NoDmgFalloff"								"Aucune réduction des dégâts en fonction de la distance"
+"Attrib_ReloadTimeDecreasedWhileRJ"					"Rechargement %s1% plus rapide lors d'un saut propulsé"
+"Attrib_DmgCritFalloff"								"Les coups critiques sont influencés par la distance"
+"Attrib_BurnTimeSelf"								"Durée de %s1%  de la postcombustion pour toutes les armes"
+"Attrib_HuntingRevolver_Explain_1"					"Possibilité de faire des tirs en pleine tête sans zoomer"
+"Attrib_HuntingRevolver_Explain_2"					"Tirs en pleine tête sans zoomer inflige des mini-crits"
+"Attrib_Minelayer_Explain_1"						"Les mines terrestres sont capables de provoquer des réactions en chaîne."
+"Attrib_Minelayer_Explain_2"						"Les terrestres ont un rayon et des dégâts accrus."
+"Attrib_Minelayer_Explain_3"						"Seules 4 mines terrestres actives en même temps"
 
 // ----------------------------------------------------------------
 // Map strings
@@ -960,24 +1028,24 @@ Les plus vertueux relèveront le défi à l'épée !"
 
 // Domination
 "default_dom_description"	"Objectif :
-Pour gagner, chaque équipe doit capturer et tenir les points de contrôle pour marquer des points. Plus vous tenez de points de contrôle, plus vite vous obtenez les points.
+Pour gagner, chaque équipe doit capturer et tenir les points de contrôle pour marquer des points. Plus vous tenez de points de contrôle, plus vite vous marquez des points.
 
 Note additionnelle :
 Un point de contrôle en état de capture ne génère pas de points.
 
-Si votre équipe est en retard, capturer l'ensemble des points de contrôle offrira un bonus de points."
+Si votre équipe est en retard, capturer l'ensemble des points de contrôle vous offrira un bonus de rattrapage."
 
-"domination_setup_goal"	"Capturez des points pour récupérer du score au fil du temps. En capturer plusieurs augmente vos chances de gagner !"
+"domination_setup_goal"	"Capturez des points pour augmenter votre score au fil du temps. En capturer plusieurs augmente vos chances de gagner !"
 
 // VIP
 "default_vip_description"	"Objectif :
-L'équipe BLU gagne en escortant le VIP vers la zone d'évacuation avant que le temps ne soit écoulé. L'équipe RED gagne en l'empêchant d'atteindre la zone d'évacuation.
+L'équipe BLU gagne en escortant le VIP vers la zone d’exfiltration avant que le temps ne soit écoulé. L'équipe RED gagne en l'empêchant d'atteindre cet échappatoire !
 
 Note additionnelle :
 L'équipe BLU peut geler la progression de capture d'un point de contrôle si le VIP n'est pas présent."
 
-"vip_setup_goal_offense"	"Escortez le VIP vers la zone d'évacuation."
-"vip_setup_goal_defense"	"Tuez le VIP de l'équipe adverse pour l'empếcher d'atteindre la zone d'évacuation."
+"vip_setup_goal_offense"	"Escortez le VIP vers la zone d’exfiltration."
+"vip_setup_goal_defense"	"Tuez le VIP de l'équipe adverse pour l'empếcher d'atteindre la zone d’exfiltration."
 
 "TF_VIP_Assigned"				"%s1 est maintenant le VIP !"
 "TF_VIP_Tutorial_Annotation_2"	"Il octroie un bonus défensif à ceux qui l'entourent, et peut aussi\ntemporairement donner un bonus spécial à un membre de son équipe !"
@@ -987,27 +1055,42 @@ L'équipe BLU peut geler la progression de capture d'un point de contrôle si le
 "Cant_cap_civilian_only_frozen"	"Gèle\nde la prise\n.Seul le VIP peut\n capturer ce point."
 
 // VIP (Lives)
-"vipl_setup_goal_offense"	"Escortez le VIP vers la zone d'évacuation. Empêchez-le d'être éliminé."
-"vipl_setup_goal_defense"	"uez le VIP de l'équipe adverse ou empêchez-le d'atteindre la zone d'évacuation pour gagner."
+"vipl_setup_goal_offense"	"Escortez le VIP vers la zone d’exfiltration. Empêchez-le de trépasser !"
+"vipl_setup_goal_defense"	"Éliminez le VIP de l'équipe adverse ou empêchez-le d'atteindre la zone d’exfiltration pour gagner."
 
 // VIP (Flags)
 "vip_bring_flag_here"	"Apportez l'appareil ici !"
 "vip_bring_flag"		"Apportez l'appareil à la salle de contrôle !"
 
 "TF_VIP_TakeDeviceToPoint"		"Emmenez l'appareil vers la salle de contrôle !"
-"TF_VIP_TeamDeviceReturned"		"L'appareil réinitialisé ! Récupérez-le !"
-"TF_VIP_EnemyDeviceReturned"	"L'appareil réinitialisé ! Défendez le site de dépôt !"
+"TF_VIP_TeamDeviceReturned"		"Appareil réinitialisé ! Récupérez-le !"
+"TF_VIP_EnemyDeviceReturned"	"Appareil réinitialisé ! Défendez le site de dépôt !"
 
 // VIP Race
 "default_vipr_description"	"Objectif :
-Escortez votre VIP vers les points de contrôle, puis à la zone d'évacuation pour gagner. Tuez le VIP ennemi pour réinitialiser les points de contrôle qu'il a pu capturer.
+Escortez votre VIP vers les points de contrôle, puis vers la zone d’exfiltration pour remporter la victoire. Éliminez le VIP adverse pour réinitialiser les points de contrôle qu’il a capturés.
 
 Note additionnelle :
 Si votre VIP meurt, les points de contrôle capturés seront perdus.
 
 Les équipes peuvent geler la progression de capture d'un point de contrôle lorsque leur VIP n'est pas présent.
 
-En Mort Subite, tuez le VIP des ennemis pour instantanément gagner la partie !"
+En Mort Subite, éliminez le VIP adverse pour remporter la manche instantanément !"
+
+// VIPR Drizzle Event
+"vipr_drizzle_event_description"    "Objectif :
+Escortez votre VIP vers les points de contrôle, puis vers la zone d’exfiltration pour remporter la victoire. Éliminez le VIP adverse pour réinitialiser les points de contrôle qu’il a capturés.
+
+Beware the GHOSTLY CIVILIANS!
+
+Autres remarques :
+Les CIVILIANS FANTÔMES effraient les ennemis qui se trouvent juste devant eux !
+
+Si votre VIP meurt, les points de contrôle capturés seront perdus.
+
+Les équipes peuvent geler la progression de capture d'un point de contrôle lorsque leur VIP n'est pas présent.
+
+En Mort Subite, éliminez le VIP adverse pour remporter la manche instantanément !"
 
 "vipr_setup_goal"		"Escortez votre VIP vers les points de contrôle. Empêchez-les de faire de même !"
 "vipr_setup_goal_4team"	"Escortez votre VIP vers les points de contrôle. Empêchez-les de faire de même !"
@@ -1029,14 +1112,14 @@ En Mort Subite, tuez le VIP des ennemis pour instantanément gagner la partie !
 "vipr_ylw_civ_death"	"Le VIP des YLW a été éliminé !"
 "vipr_grn_civ_death"	"Le VIP des GRN a été éliminé !"
 
-"vipr_escape_zone"	"la zone d'évacuation"
+"vipr_escape_zone"	"la zone d’exfiltration"
 
 // Territorial Domination
 "default_td_description"			"Objectif :
-Pour gagner, chaque équipe doit prendre tous les points de contrôle.
+Pour gagner, chaque équipe doit capturer tous les points de contrôle.
 
 Note additionnelle :
-Vous réapparaîtrez aux points de contrôle que vous possédez.
+Vous réapparaîtrez près des points de contrôle que vous possédez.
 
 La possession des points de contrôle est aléatoire au début de chaque manche."
 
@@ -1062,7 +1145,7 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 
 // Randomizer
 "TF_CantChangeClassDuringClassRandomizer"	"Vous ne pouvez pas changer de classe tant qu'elles sont aléatoires."
-"Hint_randomizer_check_loadout"				"Appuyez sur la %s1 pour voir l'équipement aléatoire."
+"Hint_randomizer_check_loadout"				"Appuyez sur la %s1 pour voir votre équipement aléatoire."
 
 // ----------------------------------------------------------------
 // Intro movies
@@ -1198,11 +1281,11 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 
 "TF_Friends_Title"					            "Amis (%friend_count%)"
 "TF_Friends_Status_InTF2C"			            "Joue à TF2C"
-"TF_Friends_Status_Idle_InTF2C"		            "AFK sur TF2C"
+"TF_Friends_Status_Idle_InTF2C"		            "Inactif sur TF2C"
 "TF_Friends_Status_InMod"			            "Joue à un autre mod"
-"TF_Friends_Status_Idle_InMod"		            "AFK sur un autre mod"
+"TF_Friends_Status_Idle_InMod"		            "Inactif sur un autre mod"
 "TF_Friends_Status_InGame"			            "Joue à un autre jeu"
-"TF_Friends_Status_Idle"			            "AFK sur un autre jeu"
+"TF_Friends_Status_Idle"			            "Inactif sur un autre jeu"
 "TF_Friends_Status_Online"			            "En ligne"
 "TF_Friends_Status_Away"			            "Absent"
 "TF_Friends_Status_Offline"			            "Hors ligne"
@@ -1237,8 +1320,8 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 "TF_Loadout_Slot_Melee"			"Corps à corps"
 "TF_Loadout_Slot_Utility"		"Utilitaire"
 "TF_Loadout_Slot_Building"		"Construction"
-"TF_Loadout_Slot_PDA1"			"PDA"
-"TF_Loadout_Slot_PDA2"			"PDA2"
+"TF_Loadout_Slot_PDA1"			"Assistant numérique personnel"
+"TF_Loadout_Slot_PDA2"			"Assistant numérique personnel n°2"
 
 // Item slot vanity names
 "TF_Loadout_Slot_Secondary_Medic"	"Medigun"
@@ -1292,7 +1375,7 @@ La possession des points de contrôle est aléatoire au début de chaque manche.
 "TF_RightClick_Enable_Mouse"			"Clic-droit pour activer la souris"
 
 // UI options
-"TF_Open_Charinfo"						"Ouvrir équipement perso"
+"TF_Open_Charinfo"						"Ouvrir l'équipement perso"
 
 "TF2c_EnableGamepad"					"Activer la manette"
 
