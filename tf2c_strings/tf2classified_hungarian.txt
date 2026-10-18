@@ -324,7 +324,7 @@
 // Demoman
 "Tip_4_Count"	"15"
 // Generic
-"Tip_4_1"		"Robbantósként a jelenleg összes aktív tapadóbombáidat felrobbanthatod, vagy a távaknáidat semlegesítheted a(z) %attack2% megnyomásával."
+"Tip_4_1"		"Robbantósként a jelenleg összes aktív tapadóbombáidat felrobbanthatod, vagy a botlóaknáidat semlegesítheted a(z) %attack2% megnyomásával."
 "Tip_4_2"		"Robbantósként robbantsd fel a robbanószereidet a lábad alatt, hogy nagy távokat tehess meg."
 "Tip_4_3"		"Robbantósként guggolj le, amikor robbanóugrásra készülsz, hogy maximális ugrási magasságot érj el."
 // Stock
@@ -337,7 +337,7 @@
 "Tip_4_9"		"Robbantósként dobd a Dinamitcsomódat ellenőrzőpontokra, hogy elüldözd róluk az ellenséget."
 "Tip_4_10"		"Robbantósként a Dinamitcsomódat hatástalanítani tudják az ellenséges Mérnökök. Vedd ezt figyelembe, ha egy Őrtorony-fészekbe dobdnád."
 "Tip_4_11"		"Robbantósként az Acélbetétes jelentősen csökkenti a tapadóbomba-ugrásból származó sebződésed. Használd akkor, amikor a helyezkedés és mozgékonyság különösen fontos."
-"Tip_4_12"		"Robbantósként az Aknavető távérzékeny aknákat lő amik azonnal felrobbannak ha egy ellenség áll közel hozzá. Használd automatikus védekezésre!"
+"Tip_4_12"		"Robbantósként az Aknavető botlasztóaknákat lő, amik azonnal felrobbannak, ha egy ellenség megtöri a lézersugarukat. Használd automatikus védekezésre!"
 // Double Down
 "Tip_4_13"		"Robbantósként a Küklopsz impulzusgránátjai csak akkor élesítenek, ha hagyod őket. Használd ezt egy jól időzített robbanóugrásra, vagy egy halálos csapda aktiválására."
 "Tip_4_14"		"Robbantósként a Küklopsz azonnal élesíti a saját robbanószereidet. Használd fel halálos csapdákhoz, vagy egy agresszív kombós gyilkosságra!"
@@ -1767,6 +1767,15 @@ Az ellenőrzőpontok csapatbirtoklása minden kör elején véletlenszerűen les
 
 "TF_Welcome_birthday"			"Üdvözlet és boldog születésnapot TF2!"
 "TF_Welcome_qwtf_birthday"		"Üdvözlet és boldog születésnapot QWTF!"
+
+// ----------------------------------------------------------------
+// Lore overrides
+// ----------------------------------------------------------------
+"TF_HALLOWEEN_BOSS_DEATHCAM_NAME"			"A Lovatlan Fejetlen Lovas"
+"TF_HALLOWEEN_BOSS_WARN_AGGRO"				"Feldühítetted a Lovatlan Fejetlen Lovast!"
+"TF_Halloween_Boss_Appeared"		"A Lovatlan Fejetlen Lovas megjelent!\n"
+"TF_Halloween_Boss_Killed"			"A Lovatlan Fejetlen Lovast legyőzték!\n"
+"TF_Halloween_Boss_Killers"			"%s1 legyőzte a Lovatlan Fejetlen Lovast!\n"
 
 // ----------------------------------------------------------------
 // RETRANSLATIONS BELOW
