@@ -98,19 +98,75 @@
 // Classes
 // ----------------------------------------------------------------
 
-"TF_Special"	"ÖZEL"
+"TF_Special"				"ÖZEL"
+
+// Scout
+"ClassTips_1_Count"			"1"
+"ClassTips_1_1"				"Havadayken iki kere zıpla!"
+
+"ClassTips_1_Count_Escort"	"1"
+"ClassTips_1_1_Escort"		"Yük vagonlarını diğer sınıflardan daha hızlı ilerletirsin!"
+
+"ClassTips_1_Count_default"	"1"
+"ClassTips_1_1_default"		"Noktaları diğer sınıflardan daha hızlı ele geçirirsin!"
+
+// Sniper
+"ClassTips_2_Count"			"2"
+"ClassTips_2_1"				"Tüfeğin hasarını artırmak için dürbününü aç!" 
+"ClassTips_2_2"				"Kritik vuruşlar yapmak için kafaya nişan al!"
+
+// Soldier
+"ClassTips_3_Count"			"2"
+"ClassTips_3_1"				"Roketatarınla düşmanın ayaklarına ateş et!"
+"ClassTips_3_2"				"Roket zıplaması yapmak için roketatarını ayağına ateş et!"
+
+// Demoman
+"ClassTips_4_Count"			"2"
+"ClassTips_4_1"				"Yapışkan bombaları düşmanlar yakınındayken patlat!"
+"ClassTips_4_2"				"Yapışkan bomba zıplaması yapmak için ayağının altında yapışkan bombaları patlat!"
+
+// Medic
+"ClassTips_5_Count"			"3"
+"ClassTips_5_1"				"Takım arkadaşlarını iyileştirerek ÜberŞarj'ını doldur!"
+"ClassTips_5_2"				"Kendine ve Sıhhi Silah hedefine ölümsüzlük kazandırmak için dolu Überşarj'ını kullan!"
+"ClassTips_5_3"				"Sağlığın pasif olarak yenilenir!"
+
+// Heavy
+"ClassTips_6_Count"			"2"
+"ClassTips_6_1"				"Minigun'ınla düşmanları tara!"
+"ClassTips_6_2"				"Minigun'ını köşelerin etrafında ateşlemeye hazır bir şekilde bekleterek yaklaşan düşmanlara hazır ol!"
+
+// Pyro
+"ClassTips_7_Count"			"2"
+"ClassTips_7_1"				"Alev Silahı'nla düşmanları yakarak hasar ver!"
+"ClassTips_7_2"				"Hava patlamasıyla düşmanları ve bombaları püskürt veya yanan takım arkadaşlarını söndür!"
+
+// Spy
+"ClassTips_8_Count"			"4"
+"ClassTips_8_1"				"Bir düşmanın kılığına gir ve düşman üssüne sız!"
+"ClassTips_8_2"				"Görünmemek için görünmez ol!"
+"ClassTips_8_3"				"Düşmanını anında öldürmek için arkadan bıçakla!"
+"ClassTips_8_4"				"Düşman yapılarını yok etmek için onlara Bozucu yerleştir!"
+
+// Engineer
+"ClassTips_9_Count"			"4"
+"ClassTips_9_1"				"Üssünü korumak için Taretler kur! Onları seviye 3'e kadar geliştir!"
+"ClassTips_9_2"				"Otomatların ücretsiz sağlık ve cephane üretir!"
+"ClassTips_9_3"				"Takım arkadaşlarının ön saflara daha hızlı varması için Işınlayıcılar kur!"
+"ClassTips_9_4"				"Düşen silahlardan metal toplayarak yapı kurmak için kullan!"
 
 // Civilian
 "TF_Civilian" 				"CIVILIAN"
 "TF_Class_Name_Civilian" 	"Civilian"
 
-"ClassTips_10_Count"	"3"
-"ClassTips_10_1"		"Takım arkadaşlarından birisine takviye yaparak ona çatışmada üstünlük sağla!"
-"ClassTips_10_1_Icon"	"chalf_circle"
-"ClassTips_10_2"		"Takım arkadaşlarının etrafında bulunarak onlara hasar dayanıklığı ve pasif sağlık yenilemesinde bulun!"
-"ClassTips_10_2_Icon"	"chalf_circle"
-"ClassTips_10_3"		"Çatışmaların ortasında aciz ol!"
-"ClassTips_10_3_Icon"	"chalf_circle"
+"ClassTips_10_Count"    	"3"
+"ClassTips_10_1"    		"Takım arkadaşlarından birisine takviye yaparak ona çatışmada üstünlük sağla!"
+"ClassTips_10_2"		    "Takım arkadaşlarının etrafında bulunarak onlara hasar dayanıklığı ve pasif sağlık yenilemesinde bulun!"
+"ClassTips_10_3"		    "Çatışmaların ortasında aciz ol!"
+
+// Random
+"ClassTips_12_Count"		"1"
+"ClassTips_12_1"			"Oyun senin için rastgele bir sınıf seçsin."
 
 // ----------------------------------------------------------------
 // Target ID
@@ -194,6 +250,7 @@
 "DeathMsg_Suicide_Freeze"		"buz gibi dondu"
 "DeathMsg_Suicide_Fizzle"		"elektriklendi!"
 "DeathMsg_Suicide_Disappear"	"yok oldu"
+"DeathMsg_Suicide_Toss"			"oradan oraya savruldu"
 
 // ----------------------------------------------------------------
 // Voice Menu
@@ -641,7 +698,7 @@
 "TF_Weapon_HealGrenadeLauncher"		"İyileştirici Bomba Atar"
 "TF_Weapon_LunchBox"				"Beslenme Çantası"
 "TF_Weapon_PDA"						"PDA"
-"TF_Weapon_ProximityMineLauncher"	"Yakın Mesafeli Mayın Atar"
+"TF_Weapon_TripmineLauncher"	    "Lazerli Mayın Atar"
 "TF_Weapon_Scythe"					"Tırpan"
 "TF_Weapon_Syringe"					"Şırınga"
 "TF_Weapon_Taser"					"Elektroşok Cihazı"
@@ -696,7 +753,7 @@
 "Attrib_Mod_Horizontal_Spread"						"Mermilerin geniş ve yatay dağılımı vardır"
 "Attrib_ApplySelfKnockback"							"Atış halinde kendi kendini geri itme uygular"
 "Attrib_WeaponEnemyKnockback_Bonus"					"Düşmanlara karşı +%s1% geri itme"
-"Attrib_LifestealCrit"								"İsabet Hâlinde: Kritik vuruş doluyken kurbanının sağlığını emersin"
+"Attrib_LifestealCrit"								"Sarjlı saldırılar birden fazla düşmanı vurabilir ve sağlık kazandırır"
 "Attrib_FlatHealOnAfterburn_Active"					"Aktif iken her yanma hasarı tikinde +%s1 sağlık kazanımı"
 "Attrib_RememberTargetsRemainingAfterburn"			"Ölmüş hedeflerin kalan yanma hasarını izler"
 "Attrib_OnDeathRemoveTargetsAfterburn"				"Öldüğün zaman yaktığın düşmanlar söndürülür"
@@ -714,11 +771,11 @@
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Kendini geri itme hasar artışından etkilenir"
 "Attrib_ApplySelfKnockbackSwing"					"Savurduğun zaman kendi kendini geri itme uygular"
 "Attrib_AirblastSelfKnockback"						"Hava püskürtmesi kullanıcıya geri itme uygular"
-"Attrib_ProximityMine"								"Mayınlar düşmanların yakınında patlar"
-"Attrib_AltFire_FizzleMines"						"Alternatif Atış: Mayınları yok et"
+"Attrib_ProximityMine"								"Mayınlar lazer geçildiği zaman patlar"
+"Attrib_AltFire_FizzleMines"						"Alternatif Atış: Bütün mayınları yok et"
 "Attrib_NoStickyChargeTime"							"Yapışkan bomba şarj süresi yok"
 "Attrib_BlastSplashDamage_Decreased"				"%s1% patlama çapı hasarı"
-"Attrib_BurningTargetsChargeCrit"					"Aktif iken yanan hedefler kritik vuruşu şarj eder"
+"Attrib_BurningTargetsChargeCrit"					"Yanma hasarı kritik vuruşu şarj eder"
 "Attrib_LimitedRange"								"Silahın kısıtlı menzili var"
 "Attrib_GainStoredCritsOnKill"						"Her öldürüşte %s1 kritik vuruş depola"
 "Attrib_HealOnKillCrit"								"Her kritik hasarlı öldürüşte +%s1 sağlık restore edilir"
@@ -806,6 +863,17 @@
 "Attrib_AutoJumping"								"Kuşanan kişi zıplama tuşuna basılı tutarak otomatikman zıplayabilir"
 "Attrib_SpreadScalesSpeed"							"Mevcut hıza bağlı olarak %s1% daha isabetli"
 "Attrib_DuckJumping"								"Kuşanan kişi çömelirken zıplayabilir"
+"Attrib_NoZoom"										"Yakınlaştırma yapamaz"
+"Attrib_PostFireDelayScoped"						"Yakınlaştırma yapıldığında %s1% daha az ateş etme hızı"
+"Attrib_NoDmgFalloff"								"Mesafe hasarı azaltmaz"
+"Attrib_ReloadTimeDecreasedWhileRJ"					"Roket zıplaması yaparken %s1% daha hızlı silah doldurma hızı" 
+"Attrib_DmgCritFalloff"								"Mesafe kritik hasarı etkiler"
+"Attrib_BurnTimeSelf"								"Bütün silahlarda %s1% yanma süresi"
+"Attrib_HuntingRevolver_Explain_1"					"Yakınlaştırma yapmadan kafadan vuruş yapabilir"
+"Attrib_HuntingRevolver_Explain_2"					"Yakınlaştırma yapmıyorken kafadan vuruşlar mini-kritik olur"
+"Attrib_Minelayer_Explain_1"						"Lazerli mayınlar zincirleme tepkimeye girebilir"
+"Attrib_Minelayer_Explain_2"						"Lazerli mayınların artırılmış etki alanı ve hasarı vardır"
+"Attrib_Minelayer_Explain_3"						"En fazla 4 mayın aktif olabilir"
 
 // ----------------------------------------------------------------
 // Map strings
@@ -1015,6 +1083,21 @@ Eğer VIP mevcut değilse herhangi bir takım kontrol noktasının ele geçirme 
 
 Eğer Ani Ölüm meydana gelirse, raundu kazanmak için düşman VIP öldürülebilir!"
 
+// VIPR Drizzle Event
+"vipr_drizzle_event_description"    "Amaç:
+Kazanmak için VIP'nizi kontrol noktalarına ve ardından kaçış bölgesine kadar götür. Düşman VIP'yi ele geçirdiği herhangi bir kontrol noktasını sıfırlamak için öldür.
+
+HAYALETİMSİ CIVILIAN'lara dikkat!
+
+Diğer Notlar:
+HAYALETİMSİ CIVILIAN'lar doğrudan önlerindeki düşmanları korkuturlar!
+
+Eğer VIP'niz ölürse, ele geçirdiğiniz herhangi kontrol koktasını kaybedersiniz.
+
+Eğer VIP mevcut değilse herhangi bir takım kontrol noktasının ele geçirme ilerlemesini dondurabilir
+
+Eğer Ani Ölüm meydana gelirse, raundu kazanmak için düşman VIP öldürülebilir!"
+
 "vipr_setup_goal"		"VIP'nizi Kontrol Noktalarına kadar götür. Aynısını düşman VIP'nin yapmasına izin verme!"
 "vipr_setup_goal_4team"	"VIP'nizi Kontrol Noktalarına kadar götür. Aynısını düşman takımların yapmasına izin verme!"
 
@@ -1105,6 +1188,11 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 
 "TF_ScoreBoard_Player"				"%s1 Oyuncu"
 "TF_ScoreBoard_Players"				"%s1 Oyuncu"
+
+"TF_ScoreBoard_Player_And_Bot"		"%s1 Oyuncu (%s2 Bot)"
+"TF_ScoreBoard_Players_And_Bot"		"%s1 Oyuncu (%s2 Bot)"
+"TF_ScoreBoard_Player_And_Bots"		"%s1 Oyuncu (%s2 Bot)"
+"TF_ScoreBoard_Players_And_Bots"	"%s1 Oyuncu (%s2 Bot)"
 
 "ScoreBoard_Spectator"				"%s1 İzleyici: %s2"
 "ScoreBoard_Spectators"				"%s1 İzleyici: %s2"
@@ -1250,12 +1338,16 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 
 "TF_Loadout_Close"				"Kapat"
 "TF_Loadout_Back"				"Geri"
-"TF_Loadout_Defaults"			"Varsayılan"
+"TF_Loadout_Defaults"			"Sıfırla"
 
 // Reset inventory
-"TF_ConfirmDefaultInventory_Title"		"Varsayılan Ekipman"
+"TF_ConfirmDefaultInventory_Title"		"Ekipmanı Sıfırla"
 "TF_ConfirmDefaultInventory_Message"	"Bu sınıf için varsayılan eşyalara dönmek istediğinden emin misin?"
 "TF_ConfirmDefaultInventory_OK"			"Evet"
+
+// Quickswitch Loadout
+"TF_Loadout_Respawning"				"%s1 olarak canlanacaksın"
+"TF_Loadout_Changing_Class"			"Sınıf %s1 olarak değiştiriliyor" 
 
 // ----------------------------------------------------------------
 // Options
@@ -1428,7 +1520,7 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 "TF_AlternativeTimer"             "Alternatif oyun içi zamanlayıcı kullan"
 "TF_AlternativeTimer_Tip"         "Eğer seçiliyse, alternatif bir eşaralıklı (mono) yazı tipi zamanlayıcısı kullanılır."
 "TF_DisableDropShadow"            "Bırakma gölgesini devre dışı bırak"
-"TF_DisableDropShadow_Tip"        "Eğer seçiliyse, çoğu metin ve imgelerden bırakma gölgesini kaldırır."
+"TF_DisableDropShadow_Tip"        "Eğer seçiliyse, metinler ve imgelerden bırakma gölgesini kaldırır."
 "TF_DeathNoticeMax"               "Ölüm Duyurusu - Azami görünür sayısı"
 "TF_DeathNoticeMax_Tip"           "Aynı anda gözükecek azami ölüm duyurusu sayısını belirler."
 "TF_DeathNoticeTime"              "Ölüm Duyurusu - Duyuruların geçerlilik süresi (saniye olarak)"
@@ -1673,6 +1765,15 @@ Kontrol noktalarının takım sahipliği her raundun başında rastgellenir."
 
 "TF_Welcome_birthday"			"Hoş Geldiniz ve Doğum Günün Kutlu Olsun TF2!"
 "TF_Welcome_qwtf_birthday"		"Hoş Geldiniz ve Doğum Günün Kutlu Olsun QWTF!"
+
+// ----------------------------------------------------------------
+// Lore overrides
+// ----------------------------------------------------------------
+"TF_HALLOWEEN_BOSS_DEATHCAM_NAME"			"Horseless Headless Horseman"
+"TF_HALLOWEEN_BOSS_WARN_AGGRO"				"Horseless Headless Horseman'ı kızdırdın!"
+"TF_Halloween_Boss_Appeared"		"Horseless Headless Horseman ortaya çıktı!\n"
+"TF_Halloween_Boss_Killed"			"Horseless Headless Horseman bozguna uğratıldı!\n"
+"TF_Halloween_Boss_Killers"			"%s1, Horseless Headless Horseman'ı bozguna uğrattı!\n"
 
 // ----------------------------------------------------------------
 // Live TF2 Retranslations
