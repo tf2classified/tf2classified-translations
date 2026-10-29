@@ -128,7 +128,7 @@
 // Medic
 "ClassTips_5_Count"			"3"
 "ClassTips_5_1"				"治疗你的队友可以补充你的 UberCharge！"
-"ClassTips_5_2"				"释放充能完毕的 UberCharge 可以使你医疗枪的治疗对象无敌！"
+"ClassTips_5_2"				"释放充能完毕的 UberCharge 可以使你和医疗枪的治疗对象同时无敌！"
 "ClassTips_5_3"				"你能够被动恢复生命值！"
 
 // Heavy
@@ -441,7 +441,7 @@
 "Tip_9_2"		"作为工程师，除了维修你的建筑，你还可以做更多的事情。使用你的霰弹枪和手枪来协助战斗和保护你的建筑。"
 "Tip_9_3"		"作为工程师，请留意敌方间谍是否在本方建筑中放置了电子工兵。用你的扳手移除工兵。"
 "Tip_9_4"		"作为工程师，记得升级你的建筑物。升级后的建筑可以更高效地辅助你和你的队伍！"
-"Tip_9_5"		"作为工程师，安置建筑之前，按 %attack2% 可以改变建筑物的朝向。使步哨枪和传送器更高效地辅助你的队伍！"
+"Tip_9_5"		"作为工程师，安置建筑之前，按 %attack2% 可以改变建筑物的朝向。使步哨枪和传送装置更高效地辅助你的队伍！"
 // Stock
 "Tip_9_6"		"作为工程师，你的手枪有大量的后备弹药。用它将敌人引向你的步哨枪，或者采取更具进攻性的方法。"
 "Tip_9_7"		"作为工程师，你可以使用扳手敲击集束炸药来拆除它。"
@@ -768,7 +768,7 @@
 "Attrib_TranqOnHit"									"击中时：给予受害者色盲效果，并在 %s1 秒内降低目标的移动速度和武器开火速度\n被麻醉的敌人受到近战攻击必定造成爆击伤害"
 "Attrib_CloakRegenDisabled"							"不会主动恢复隐身能量"
 "Attrib_FishwhackerSweep"							"对附近的敌人产生击退"
-"Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"对自身的击退作用受增益伤害影响"
+"Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"对自身的击退作用受伤害增益影响"
 "Attrib_ApplySelfKnockbackSwing"					"挥舞时给自己一个反向击退"
 "Attrib_AirblastSelfKnockback"						"压缩空气对使用者造成击退"
 "Attrib_ProximityMine"								"绊雷在敌人接触到激光时引爆"
@@ -1097,21 +1097,6 @@
 如果你的 VIP 阵亡，你将失去 VIP 占领的任何控制点。
 
 如果我方 VIP 不在场，任何一支团队都可以冻结控制点的占领进度。
-
-在骤死赛下，杀死敌方 VIP 即可赢得本回合！"
-
-// VIPR Drizzle Event
-"vipr_drizzle_event_description"    "目标：
-护送 VIP 抵达控制点，然后前往撤离区域即可获胜。击杀敌方 VIP 可以重置他们占领的控制点。
-
-小心幽灵平民！
-
-其他说明：
-幽灵平民会惊吓到正前方的敌人！
-
-如果你的 VIP 阵亡，你将失去 VIP 占领的任何控制点。
-
-如果自己的 VIP 不在场，任何一名团队都可以冻结控制点的占领进度。
 
 在骤死赛下，杀死敌方 VIP 即可赢得本回合！"
 
@@ -1522,8 +1507,8 @@
 "TF_TopRight"                     "右上角"
 "TF_BottomLeft"                   "左下角"
 "TF_BottomRight"                  "右下角"
-"TF_OverlayToastInsetHoriz"       "Steam 游戏内通知显示水平线边距"
-"TF_OverlayToastInsetVert"        "Steam 游戏内通知显示垂直线边距"
+"TF_OverlayToastInsetHoriz"       "Steam 游戏内通知显示水平边距"
+"TF_OverlayToastInsetVert"        "Steam 游戏内通知显示垂直边距"
 "TF_TargetID_Floating_Health"	  "目标ID - 启用悬浮生命值图标"
 "TF_TargetID_Floating_Health_Tip" "若选中此选项，会在角色上方显示生命值图标。"
 "TF_TargetID_Floating_Health_Offset" 		"悬浮生命值图标位置"
@@ -1632,10 +1617,10 @@
 // ----------------------------------------------------------------
 
 // Achievement groups
-"Achievement_Group_3000"	"进攻兵种（%s1 项中已达成 %s2）"
-"Achievement_Group_3100"	"防守兵种（%s1 项中已达成 %s2）"
-"Achievement_Group_3200"	"支援兵种（%s1 项中已达成 %s2）"
-"Achievement_Group_3300"	"地图和游戏模式（%s1 项中已达成 %s2）"
+"Achievement_Group_3000"	"进攻兵种（%s2 项中已达成 %s1）"
+"Achievement_Group_3100"	"防守兵种（%s2 项中已达成 %s1）"
+"Achievement_Group_3200"	"支援兵种（%s2 项中已达成 %s1）"
+"Achievement_Group_3300"	"地图和游戏模式（%s2 项中已达成 %s1）"
 
 // Launch achievements
 "TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_NAME"			"一场精心策划的事故"
