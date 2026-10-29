@@ -127,8 +127,8 @@
 
 // Medic
 "ClassTips_5_Count"			"3"
-"ClassTips_5_1"				"治疗你的队友可以补充你的 UberCharge 能量！"
-"ClassTips_5_2"				"释放蓄能完毕的 UberCharge 可以让你和你的治疗对象无敌！"
+"ClassTips_5_1"				"治疗你的队友可以补充你的 UberCharge！"
+"ClassTips_5_2"				"释放充能完毕的 UberCharge 可以使你医疗枪的治疗对象无敌！"
 "ClassTips_5_3"				"你能够被动恢复生命值！"
 
 // Heavy
@@ -337,7 +337,7 @@
 "Tip_4_9"		"作为爆破手，把你的集束炸药扔到控制点上来清除敌人。"
 "Tip_4_10"		"作为爆破手，你的集束炸药可以被敌方工程师拆除。将其投掷进步哨枪群之前记得留意敌方工程师！"
 "Tip_4_11"		"作为爆破手，炮艇能极大地减少由爆炸跳跃带来的伤害。这在占据有利点位和移动的时候尤为重要。"
-"Tip_4_12"		"作为爆破手，地雷布设器可以发射感应式地雷，当敌人站在地雷附近时就会引爆。使用它进行自动化防御！"
+"Tip_4_12"		"作为爆破手，地雷布设器可以发射绊线地雷，当敌人碰到激光绊线时地雷就会引爆。使用它进行自动化防御！"
 // Double Down
 "Tip_4_13"		"作为爆破手，独眼巨炮的榴弹只会在你引爆时爆炸，在引爆时把握时机进行爆炸跳跃或者用来布置致命陷阱！"
 "Tip_4_14"		"作为爆破手，独眼巨炮会瞬间引爆你自己发射的爆炸物和集束炸药。大胆发动进攻，试着使用连续爆破击杀敌人！"
@@ -382,7 +382,7 @@
 "Tip_6_10"		"作为机枪手，你的高生命值能让你在大多数近战中解决向你靠近的敌人。不要害怕使用拳头！"
 // Death & Taxes
 "Tip_6_11"		"作为机枪手，一定要找一个安全的地方享用三明治，否则可能会被敌人粗暴地打断。"
-"Tip_6_12"		"作为机枪手，你可以食用若干次三明治来恢复你的生命值。不过按 %attack2% 把它分享给队友会使它进入冷却。"
+"Tip_6_12"		"作为机枪手，你可以无限制地食用三明治来恢复你的生命值。不过按 %attack2% 把它分享给队友会使它进入冷却。"
 "Tip_6_13"		"作为机枪手，把你的三明治扔出去时要小心。队友和敌人都可以用它回复 50%% 的生命值！"
 // Fight or Flight
 "Tip_6_14"		"作为机枪手，你的高射炮能造成高爆发伤害，是应对聚集敌人和清理掩体背后目标的理想武器。"
@@ -468,7 +468,7 @@
 "Tip_10_2"		"作为平民，你是游戏中最矮的兵种。在队友身后躲避攻击时非常有用。"
 "Tip_10_3"		"作为平民，你是唯一能在护送VIP模式与护送VIP竞赛模式下占领控制点的兵种。"
 "Tip_10_4"		"作为平民，时刻留意敌方狙击手和间谍，因为他们能立即杀死你。"
-"Tip_10_5"		"作为平民，附近的队友会受到你提供的护盾增益降低受到的伤害并回复生命值。请试着避开敌人的视线，与团队共同行动。"
+"Tip_10_5"		"作为平民，附近的队友会受到你提供的士气增益降低受到的伤害并回复生命值。请试着避开敌人的视线，与团队共同行动。"
 "Tip_10_6"		"作为平民，对队友按下 %attack2% 可以给予他们增益，让他们在战斗中获得巨大优势。"
 // Stock
 "Tip_10_7"		"作为平民，你的雨伞除了挡雨与血外并不是一件合格的武器。命令你的队友为你战斗吧。"
@@ -755,11 +755,11 @@
 "Attrib_WeaponEnemyKnockback_Bonus"					"+%s1% 击退作用"
 "Attrib_LifestealCrit"								"满蓄能攻击可以击中多名敌人并恢复生命值"
 "Attrib_FlatHealOnAfterburn_Active"					"手持时：后续燃烧时生命值每刻 +%s1"
-"Attrib_RememberTargetsRemainingAfterburn"			"记录处于后续燃烧的目标并充能"
+"Attrib_RememberTargetsRemainingAfterburn"			"目标死亡后，剩余的后续燃烧时间会记录并充能"
 "Attrib_OnDeathRemoveTargetsAfterburn"				"死亡时：被你燃烧的敌人将会熄灭身上的火焰"
 "Attrib_Explosive_Bullets"							"发射爆炸子弹"
 "Attrib_CannotUseStoredCrits"						"该武器不能使用积累的爆击"
-"Attrib_GainStoredCritsOnHit"						"击中时：得到 %s1 个爆击"
+"Attrib_GainStoredCritsOnHit"						"击中时：储存 %s1 次爆击"
 "Attrib_AlwaysCritsFullStoredCrits"					"该武器只在攒满时才能使用积攒的爆击"
 "Attrib_LoseStoredCritsOnMiss"						"未命中时：失去 %s1 个积累的爆击"
 "Attrib_MeleeTakenBecomesCritWearer"				"穿戴时：受到的近战伤害会转为爆击"
@@ -768,7 +768,7 @@
 "Attrib_TranqOnHit"									"击中时：给予受害者色盲效果，并在 %s1 秒内降低目标的移动速度和武器开火速度\n被麻醉的敌人受到近战攻击必定造成爆击伤害"
 "Attrib_CloakRegenDisabled"							"不会主动恢复隐身能量"
 "Attrib_FishwhackerSweep"							"对附近的敌人产生击退"
-"Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"击退作用受武器伤害影响"
+"Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"对自身的击退作用受增益伤害影响"
 "Attrib_ApplySelfKnockbackSwing"					"挥舞时给自己一个反向击退"
 "Attrib_AirblastSelfKnockback"						"压缩空气对使用者造成击退"
 "Attrib_ProximityMine"								"绊雷在敌人接触到激光时引爆"
@@ -777,7 +777,7 @@
 "Attrib_BlastSplashDamage_Decreased"				"%s1% 溅射爆炸伤害"
 "Attrib_BurningTargetsChargeCrit"					"燃烧目标会积攒能量条获得爆击"
 "Attrib_LimitedRange"								"此武器拥有距离限制"
-"Attrib_GainStoredCritsOnKill"						"击杀时：得到 %s1 个爆击"
+"Attrib_GainStoredCritsOnKill"						"击杀时：储存 %s1 次爆击"
 "Attrib_HealOnKillCrit"								"爆击击杀时生命值 +%s1"
 "Attrib_InstantReloadOnDirectHit"					"精确命中时：立马填装 %s1 发弹药"
 "Attrib_InstantReloadOnHit"							"击中时：立马填装 %s1 发弹药"
@@ -799,13 +799,13 @@
 "Attrib_UpgradeCost"								"建筑物需要 %s1 金属来升级"
 "Attrib_Dispenser_Build_Rate"						"补给器建造速度提升 %s1%"
 "Attrib_JumpPad_Build_Rate"							"跳板建造速度提升 %s1%"
-"Attrib_DispenserBuildCost"							"补给器建造只需要 %s1% 金属"
-"Attrib_SentrygunBuildCost"							"步哨枪建造只需要 %s1% 金属"
-"Attrib_JumpPadBuildCost"							"跳板建造只需要 %s1% 金属"
+"Attrib_DispenserBuildCost"							"补给器建造金属消耗 %s1%"
+"Attrib_SentrygunBuildCost"							"步哨枪建造金属消耗 %s1%"
+"Attrib_JumpPadBuildCost"							"跳板建造金属消耗 %s1%"
 "Attrib_NoPrimaryAmmoFromDispensersAlways"			"补给器不提供弹药"
 "Attrib_MetalOnSentryKill"							"步哨击杀：+%s1 金属"
 "Attrib_SentryKnockback_Increased"					"步哨枪击退效果 +%s1%"
-"Attrib_SentryKnockback_Decreased"					"步哨枪击退效果减少 %s1% "
+"Attrib_SentryKnockback_Decreased"					"步哨枪击退效果 %s1% "
 "Attrib_SentryTurnRate_Increased"					"步哨枪转向锁定速度 +%s1%"
 "Attrib_SentryTurnRate_Decreased"					"步哨枪转向锁定速度减少 %s1%"
 "Attrib_HealingMedigunReceivedBonus"				"穿戴时：受到医疗枪的治疗量 +%s1%"
@@ -868,7 +868,7 @@
 "Attrib_NoDmgFalloff"								"伤害不会受到距离衰减"
 "Attrib_ReloadTimeDecreasedWhileRJ"					"火箭跳时装填速度提高 %s1%"
 "Attrib_DmgCritFalloff"								"爆击伤害受距离影响"
-"Attrib_BurnTimeSelf"								"所有武器的后续燃烧时间缩短 %s1% "
+"Attrib_BurnTimeSelf"								"所有武器的后续燃烧时间 %s1% "
 "Attrib_HuntingRevolver_Explain_1"					"爆头不受瞄准影响"
 "Attrib_HuntingRevolver_Explain_2"					"未瞄准时爆头造成迷你爆击伤害"
 "Attrib_Minelayer_Explain_1"						"绊雷可以造成连锁爆炸"
@@ -901,7 +901,7 @@
 "Mineside_setup_goal_red"	"杀死VIP并阻止他抵达撤离区域。防止他拿到公文包装置！"
 "Mineside_setup_goal_blu"	"护送VIP前往撤离区域。将公文包装置送到控制室，打开大门。"
 
-"Mineside_escape_zone"	"撤离区域"
+"Mineside_escape_zone"	"隧道撤离区域"
 
 // dom_oilcanyon
 "Oilcanyon_cap_A"	"控制点A，峡谷"
@@ -918,14 +918,14 @@
 
 // 4dom_krepost
 "dom_krepost_description"	"目标：
-获胜条件：每个团队都必须占领并守住控制点以获得分数。占领的控制点越多，得分就越快。
+获胜条件：每个团队都必须占领并守住控制点以获得分数。
 
-被占领的控制点每 60 秒后会随机切换到其他团队的基地。
+当前开放的控制点每 60 秒后会随机切换到其他团队的基地。
 
 其他说明：
 争夺控制点可以阻止敌人获得分数。
 
-选择新控制点时，被占领的控制点将锁定。
+选择新控制点时，当前开放的控制点将会被锁定。
 
 仅限近战武器，徒手保卫你的荣耀！"
 
@@ -998,25 +998,25 @@
 "Gametype_RCTF"						"反向夺旗"
 "Gametype_FF"						"要塞永恒"
 
-"Gametype_FourTeam"			        "四支队伍模式"
+"Gametype_FourTeam"			        "四支团队模式"
 
-"Gametype_Arena_FourTeam"			"竞技场（四支队伍）"
-"Gametype_AttackDefense_FourTeam"	"进攻/防御（四支队伍）"
-"Gametype_CP_FourTeam"				"控制点（四支队伍）"
-"Gametype_CTF_FourTeam"				"夺旗（四支队伍）"
-"Gametype_Domination_FourTeam"		"统治（四支队伍）"
-"Gametype_MedDomination_FourTeam"	"统治（四支队伍-中世纪）"
-"Gametype_KOTF_FourTeam"			"旗帜之王（四支队伍）"
-"Gametype_Koth_FourTeam"			"山丘之王（四支队伍）"
-"Gametype_Escort_FourTeam"			"推车（四支队伍）"
-"Gametype_EscortRace_FourTeam"		"推车竞赛（四支队伍）"
-"Gametype_SD_FourTeam"				"速递（四支队伍）"
-"Gametype_TD_FourTeam"				"领土统治（四支队伍）"
-"Gametype_Training_FourTeam"		"训练模式（四支队伍）"
-"Gametype_VIP_FourTeam"				"护送VIP（四支队伍）"
-"Gametype_VIPRace_FourTeam"			"护送VIP竞赛（四支队伍）"
-"Gametype_TDM_FourTeam"				"团队死亡竞赛（四支队伍）"
-"Gametype_RCTF_FourTeam"			"反向夺旗（四支队伍）"
+"Gametype_Arena_FourTeam"			"竞技场（四支团队）"
+"Gametype_AttackDefense_FourTeam"	"进攻/防御（四支团队）"
+"Gametype_CP_FourTeam"				"控制点（四支团队）"
+"Gametype_CTF_FourTeam"				"夺旗（四支团队）"
+"Gametype_Domination_FourTeam"		"统治（四支团队）"
+"Gametype_MedDomination_FourTeam"	"统治（四支团队-中世纪）"
+"Gametype_KOTF_FourTeam"			"旗帜之王（四支团队）"
+"Gametype_Koth_FourTeam"			"山丘之王（四支团队）"
+"Gametype_Escort_FourTeam"			"推车（四支团队）"
+"Gametype_EscortRace_FourTeam"		"推车竞赛（四支团队）"
+"Gametype_SD_FourTeam"				"速递（四支团队）"
+"Gametype_TD_FourTeam"				"领土统治（四支团队）"
+"Gametype_Training_FourTeam"		"训练模式（四支团队）"
+"Gametype_VIP_FourTeam"				"护送VIP（四支团队）"
+"Gametype_VIPRace_FourTeam"			"护送VIP竞赛（四支团队）"
+"Gametype_TDM_FourTeam"				"团队死亡竞赛（四支团队）"
+"Gametype_RCTF_FourTeam"			"反向夺旗（四支团队）"
 
 // Offline practice descriptions
 "TF_GameModeDesc_VIP"			    "蓝队必须护送平民前往控制点，红队则需要阻止他们。"
@@ -1054,7 +1054,7 @@
 "vip_setup_goal_offense"	"护送VIP前往撤离区域。"
 "vip_setup_goal_defense"	"杀死敌方的VIP，阻止他抵达撤离区域。"
 
-"TF_VIP_Tutorial_Annotation_2"	"他为身边的人提供护盾增益\n还能给予队友迷你爆击！"
+"TF_VIP_Tutorial_Annotation_2"	"他为身边的人提供士气增益\n还能给予队友迷你爆击！"
 "TF_VIP_Tutorial_Annotation_3"	"请记住，他的生命比你的生命更重要，所以不要让他被刺杀！"
 
 "Cant_cap_civilian_only"		"只有VIP才能\n占领这个控制点。"
@@ -1081,7 +1081,22 @@
 其他说明：
 如果你的 VIP 阵亡，你将失去 VIP 占领的任何控制点。
 
-如果自己的 VIP 不在场，任何一名团队都可以冻结控制点的占领进度。
+如果我方 VIP 不在场，任何一支团队都可以冻结控制点的占领进度。
+
+在骤死赛下，杀死敌方 VIP 即可赢得本回合！"
+
+// VIPR Drizzle Event
+"vipr_drizzle_event_description"    "目标：
+护送 VIP 抵达控制点，然后前往撤离区域即可获胜。击杀敌方 VIP 可以重置他们占领的控制点。
+
+小心幽灵平民！
+
+其他说明：
+幽灵平民会惊吓到正前方的敌人！
+
+如果你的 VIP 阵亡，你将失去 VIP 占领的任何控制点。
+
+如果我方 VIP 不在场，任何一支团队都可以冻结控制点的占领进度。
 
 在骤死赛下，杀死敌方 VIP 即可赢得本回合！"
 
@@ -1316,7 +1331,7 @@
 
 // Loadout gamemode indicator
 "TF_Loadout_Modifier_StockItemsOnly"		"仅限基础武器！"
-"TF_Loadout_Modifier_MedievalItemsOnly"		"\"中世纪\" 仅限部分物品！"
+"TF_Loadout_Modifier_MedievalItemsOnly"		"仅限\"中世纪\"物品！"
 "TF_Loadout_Modifier_RandomizerClasses"		"随机兵种！"
 "TF_Loadout_Modifier_RandomizerItems"		"随机物品！"
 "TF_Loadout_Modifier_RandomizerAttributes"	"随机属性！"
@@ -1472,8 +1487,8 @@
 "TF2C_Option_CalloutBubbles"				"启用语音指令气泡"
 "TF2C_Tooltip_CalloutBubbles"				"若选中此选项，将会在大多数语音菜单指令上显示人物语音气泡。"
 
-"TF_CenterFirePreference"         	"首选从中心区域发射子弹"
-"TF_CenterFirePreference_Tip"    	"若选中此选项，玩家的子弹生成位置将变为中心位置发射；需要玩家重新连接或处于旁观状态才能应用。"
+"TF_CenterFirePreference"         	"首选从中心区域发射投射物"
+"TF_CenterFirePreference_Tip"    	"若选中此选项，玩家的投射物生成位置将变为中心位置发射；需要玩家重新连接或处于旁观状态才能应用。"
 "TF_BurningDeathAnim"				"启用燃烧死亡动画"
 "TF_BurningDeathAnim_Tip"			"若选中此选项，在被火烧死时布娃娃将会播放一段特殊的死亡动画。"
 "TF_CombatTextBatchingWindow"		"伤害数值文本累积时间"
@@ -1483,7 +1498,7 @@
 
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"爆破手：启用独眼巨炮双击引爆"
-"TF_CyclopsDoubleTap_Tip"        	"若选中此选项，独眼巨炮的榴弹需要双击两次才会引爆，而不是松开开火键。"
+"TF_CyclopsDoubleTap_Tip"        	"若选中此选项，独眼巨炮的榴弹发射时需要再次按下开火键才会引爆，而不是松开开火键。"
 "TF_SniperBell"					    "狙击步枪完全充能时播放提示音"
 "TF_SniperBell_Tip"					"当狙击步枪完全充能时会播放提示音效。"
 "TF_ZoomSensitivityRatio"			"狙击手：狙击枪瞄准镜缩放灵敏度"
@@ -1507,8 +1522,8 @@
 "TF_TopRight"                     "右上角"
 "TF_BottomLeft"                   "左下角"
 "TF_BottomRight"                  "右下角"
-"TF_OverlayToastInsetHoriz"       "Steam 游戏内通知显示水平线方向"
-"TF_OverlayToastInsetVert"        "Steam 游戏内通知显示垂直线方向"
+"TF_OverlayToastInsetHoriz"       "Steam 游戏内通知显示水平线边距"
+"TF_OverlayToastInsetVert"        "Steam 游戏内通知显示垂直线边距"
 "TF_TargetID_Floating_Health"	  "目标ID - 启用悬浮生命值图标"
 "TF_TargetID_Floating_Health_Tip" "若选中此选项，会在角色上方显示生命值图标。"
 "TF_TargetID_Floating_Health_Offset" 		"悬浮生命值图标位置"
@@ -1617,10 +1632,10 @@
 // ----------------------------------------------------------------
 
 // Achievement groups
-"Achievement_Group_3000"	"进攻兵种（%s1 到 %s2）"
-"Achievement_Group_3100"	"防守兵种（%s1 到 %s2）"
-"Achievement_Group_3200"	"支援兵种（%s1 到 %s2）"
-"Achievement_Group_3300"	"地图和游戏模式（%s1 到 %s2）"
+"Achievement_Group_3000"	"进攻兵种（%s1 项中已达成 %s2）"
+"Achievement_Group_3100"	"防守兵种（%s1 项中已达成 %s2）"
+"Achievement_Group_3200"	"支援兵种（%s1 项中已达成 %s2）"
+"Achievement_Group_3300"	"地图和游戏模式（%s1 项中已达成 %s2）"
 
 // Launch achievements
 "TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_NAME"			"一场精心策划的事故"
@@ -1681,7 +1696,7 @@
 "TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_NAME"					"禽类清除计划"
 "TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_DESC"					"追逐一只鸡并利用环境杀死它。"
 "TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_NAME"					"碟中谍之三无间"
-"TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_DESC"					"在一轮四支队伍游戏模式中背刺其余三支队伍的玩家。"
+"TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_DESC"					"在一轮四支团队游戏模式中背刺其余三支队伍的玩家。"
 "TF2C_ACHIEVEMENT_HOLD_ALLPOINTS_DOMINATION_NAME"		"全面统治"
 "TF2C_ACHIEVEMENT_HOLD_ALLPOINTS_DOMINATION_DESC"		"在一轮统治模式中，使你的队伍拥有每个控制点。"
 "TF2C_ACHIEVEMENT_SHAME_NAME"							"耻辱勋章"
@@ -1734,7 +1749,7 @@
 "ServerBrowser_PlayerCount"         "%s1/%s2"
 "ServerBrowser_LatencyDetail"       "延迟: %s1"
 "ServerBrowser_IPAddressDetail"     "IP地址: %s1"
-"ServerBrowser_PlayerListHeading"   "(玩家数：%s1/%s2, %s3位电脑玩家):"
+"ServerBrowser_PlayerListHeading"   "玩家（%s1/%s2, %s3名电脑玩家）："
 "ServerBrowser_NotFullFilter"       "服务器未满"
 "ServerBrowser_HasPlayersFilter"    "有玩家游玩"
 "ServerBrowser_NoPasswordFilter"    "没有密码"
@@ -1766,6 +1781,6 @@
 // ----------------------------------------------------------------
 
 "TF_Welcome_birthday"			"欢迎，祝军团要塞2生日快乐！"
-"TF_Welcome_qwtf_birthday"		"欢迎，祝雷神之锤军团要塞生日快乐！"
+"TF_Welcome_qwtf_birthday"		"欢迎，祝 QWTF 生日快乐！"
 }
 }
