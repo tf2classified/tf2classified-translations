@@ -244,7 +244,7 @@
 "Tip_3_9"		"Kanonierki znacznie redukują utratę zdrowia podczas rakietowych skoków. Używaj ich, gdy mobilność i dobra pozycja są najważniejsze."
 "Tip_3_10"		"Rakiety z R.P.G. lecą po łuku i mogą wylądować za osłoną wroga. Pamiętaj, by dokładnie celować!"
 // Double Down
-"Tip_3_11"		"Obrażenia od trzęsienia ziemi, jakie zadaje Kotwica Admiralicji, skalują się wraz z czasem jej dobycia. Dobądź ją, znajdując się jak najwyżej nad ziemią podczas rakietowego skoku!"
+"Tip_3_11"		"Obrażenia od trzęsienia ziemi, jakie zadaje Kotwica admiralicji, skalują się wraz z czasem jej dobycia. Dobądź ją, znajdując się jak najwyżej nad ziemią podczas rakietowego skoku!"
 "Tip_3_12"		"Wyposażenie się w Kotwicę Admiralicji sprawia, że ​​jesteś podatny na obrażenia krytyczne od pocisków, kiedy jesteś w powietrzu. Uważaj podczas wzbijania się."
 
 // Demoman
@@ -312,7 +312,7 @@
 "Tip_6_13"		"Uważaj, gdzie rzucasz swoją Kanapkę. Zarówno sojusznicy, jak i wrogowie mogą ją podnieść, by przywrócić sobie 50% maksymalnego zdrowia!"
 // Fight or Flight
 "Tip_6_14"		"Działo przeciwlotnicze zadaje duże obrażenia w krótkim czasie. Sprawdza się idealnie do eliminowania grup wrogów i radzenia sobie z zagrożeniami czyhającymi za osłonami."
-"Tip_6_15"		"Działo przeciwlotnicze zadaje obrażenia minikrytyczne wrogom, którzy znajdują się w powietrzu. Używaj go, by zestrzeliwać z nieba Żołnierzy wykonujących rakietowe skoki i wrogów używających Skoczni!"
+"Tip_6_15"		"Działo przeciwlotnicze zadaje obrażenia minikrytyczne wrogom, którzy znajdują się w powietrzu. Używaj go, by zestrzeliwać z nieba Żołnierzy wykonujących rakietowe skoki i wrogów używających odskoczni!"
 "Tip_6_16"		"Cios Czechowa przechowuje jedno trafienie krytyczne za każde udane trafienie we wroga. Zgromadzone trafienia krytyczne mogą być użyte z dowolną bronią!"
 "Tip_6_17"		"Wyposażenie się w Cios Czechowa sprawia, że otrzymujesz obrażenia krytyczne od ataków wręcz. Zachowaj ostrożność podczas walki w zwarciu."
 
@@ -384,8 +384,8 @@
 "Tip_9_17"		"W pełni naładowane strzały z Cewkownika odbijają się od ścian i zadają większe obrażenia."
 "Tip_9_18"		"Cewkownik, gdy zostanie przeciążony, spowoduje mały wybuch. Używaj go, by dotrzeć do wcześniej niedostępnych miejsc."
 // Fight or Flight
-"Tip_9_19"		"Skocznie pozwalają twojej drużynie dosięgnąć trudno dostępnych miejsc. Postaw je tak, by mniej sprawni członkowie drużyny mogli dostać się na gzymsy i dachy!"
-"Tip_9_20"		"Skocznie pozwalają członkom drużyny skakać naprzód z dużą prędkością. Stawiaj je na otwartym terenie, który pozwala na szybkie przemieszczanie się."
+"Tip_9_19"		"Odskocznie pozwalają twojej drużynie dosięgnąć trudno dostępnych miejsc. Postaw je tak, by mniej sprawni członkowie drużyny mogli dostać się na gzymsy i dachy!"
+"Tip_9_20"		"Odskocznie pozwalają członkom drużyny skakać naprzód z dużą prędkością. Stawiaj je na otwartym terenie, który pozwala na szybkie przemieszczanie się."
 
 // Civilian
 "Tip_10_Count"	"11"
@@ -490,7 +490,7 @@
 // PDA: Teleporter (Construction PDA)
 "TF_Weapon_ConstructionPDA"				"PDA budowy"
 "TF_Weapon_ConstructionPDA_Desc"		"W tym małym cudeńku mam wszystko, czego trzeba Inżynierowi."
-"TF_Weapon_PDATeleporter"				"PDA: Teleport"
+"TF_Weapon_PDATeleporter"				"PDA: teleport"
 // Destruction PDA
 "TF_Weapon_DestructionPDA"				"PDA destrukcji"
 // Disguise Kit
@@ -581,7 +581,7 @@
 "TF_Weapon_AntiAircraftCannon"			"Działo przeciwlotnicze"
 "TF_Weapon_AntiAircraftCannon_Desc"		"Którą część ciebie Gruby ma wysłać do twojej mamusi?"
 // PDA: Jump Pad
-"TF_Weapon_PDAJumpPad"					"PDA: Skocznia"
+"TF_Weapon_PDAJumpPad"					"PDA: odskocznia"
 "TF_Weapon_PDAJumpPad_Desc"				"Zaufaj mi, stary. Skok, którego nie zapomnisz."
 // Harvester
 "TF_Weapon_Harvester"					"Żniwiarz"
@@ -598,7 +598,7 @@
 "TF_Weapon_Rejuvenator"				"Rewitalizator"
 "TF_Weapon_Rejuvenator_Desc"		"Staraj się unikać kontaktu z ustami i oczami."
 // Admiralty Anchor
-"TF_Weapon_AdmiraltyAnchor"			"Kotwica Admiralicji"
+"TF_Weapon_AdmiraltyAnchor"			"Kotwica admiralicji"
 "TF_Weapon_AdmiraltyAnchor_Desc"	"Żadnych tanich żartów o marynarce w mojej jednostce."
 // Derby Cane
 "TF_Weapon_DerbyCane"				"Laska z Derby"
@@ -650,13 +650,13 @@
 // Building Status
 "Building_hud_hauling"					"Przenoszenie..."
 "Building_hud_upgrading"				"Ulepszanie..."
-"Building_hud_jumppad_a_not_built"		"Skocznia A\nniezbudowana"
-"Building_hud_jumppad_b_not_built"		"Skocznia B\nniezbudowana"
+"Building_hud_jumppad_a_not_built"		"Odskoczni A\nniezbudowana"
+"Building_hud_jumppad_b_not_built"		"Odskoczni B\nniezbudowana"
 
 // Jump Pad
-"TF_Object_Jump"			"Skocznia"
-"TF_Object_Jump_A"			"Skocznia A"
-"TF_Object_Jump_B"			"Skocznia B"
+"TF_Object_Jump"			"Odskocznia"
+"TF_Object_Jump_A"			"Odskocznia A"
+"TF_Object_Jump_B"			"Odskocznia B"
 "TF_JumpPad_Mode_A"			"A"
 "TF_JumpPad_Mode_B"			"B"
 
@@ -673,18 +673,18 @@
 "Attrib_CreatesEarthquakeFallDamage"					"Gdy broń jest dobyta, wywołuje trzęsienie ziemi po otrzymaniu obrażeń od upadku"
 "Attrib_TakeProjectileCritsAirborne"					"Noszący otrzymuje obrażenia krytyczne od pocisków, gdy znajduje się w powietrzu"
 "Attrib_Gravity_Active_Increased"						"Gdy broń jest dobyta, +%s1% siły grawitacji"
-"Attrib_TeleporterJumpPad"								"Zamienia wejście i wyjście Teleportu na Skocznie"
+"Attrib_TeleporterJumpPad"								"Zamienia wejście i wyjście teleportu na odskocznie"
 "Attrib_Mod_Horizontal_Spread"							"Wystrzeliwuje śrut ze stałym, szerokim rozrzutem"
 "Attrib_ApplySelfKnockback"								"Stosuje odwrotny efekt samoodrzucenia przy strzale"
 "Attrib_WeaponEnemyKnockback_Bonus"						"+%s1% siły odrzutu wroga"
 "Attrib_LifestealCrit"									"Przy trafieniu we wroga: Ukradnij zdrowie swojej ofierze, gdy wskaźnik jest pełny"
 "Attrib_FlatHealOnAfterburn_Active"						"Gdy broń jest dobyta, +%s1 pkt. przywracanego zdrowia od podpalenia na instancję"
-"Attrib_RememberTargetsRemainingAfterburn"				"Śledzi pozostały czas trwania podpalenia martywch wrogów"
+"Attrib_RememberTargetsRemainingAfterburn"				"Śledzi pozostały czas trwania podpalenia martwych wrogów"
 "Attrib_OnDeathRemoveTargetsAfterburn"					"Podpaleni wrogowie zostają ugaszeni po śmierci noszącego"
 "Attrib_Explosive_Bullets"								"Wystrzeliwuje wybuchowe pociski"
 "Attrib_CannotUseStoredCrits"							"Przechowywane trafienia krytyczne nie mogą być użyte z tą bronią"
 "Attrib_GainStoredCritsOnHit"							"Przy trafieniu we wroga: Zachowaj %s1 trafienie krytyczne"
-"Attrib_AlwaysCritsFullStoredCrits"						"Zgromadzone trafienia krytyczne nie mogą być użyte z tą bronia, chyba że posiada maks. ilość ładunków"
+"Attrib_AlwaysCritsFullStoredCrits"						"Zgromadzone trafienia krytyczne nie mogą być użyte z tą bronią, chyba że posiada maks. ilość ładunków"
 "Attrib_LoseStoredCritsOnMiss"							"Przy chybieniu: Tracisz %s1 zgromadzone trafienie krytyczne"
 "Attrib_MeleeTakenBecomesCritWearer"					"Noszący otrzymuje obrażenia krytyczne od broni do walki wręcz"
 "Attrib_MoveSpeed_Bonus_Cloaked"						"+%s1% szybkości poruszanie się będąc niewidzialnym"
@@ -709,9 +709,9 @@
 "Attrib_ViewPunchOnHit"									"Przy trafieniu we wroga: Wstrząśnij widokiem ofiary"
 "Attrib_FlinchDecrease"									"%s1% miejsze drgania"
 "Attrib_FlinchIncrease"									"+%s1% większe drgania"
-"Attrib_FlinchDecreaseWearer"							"%s1% miejsze drgania dla noszącego"
+"Attrib_FlinchDecreaseWearer"							"%s1% mniejsze drgania dla noszącego"
 "Attrib_FlinchIncreaseWearer"							"+%s1% większe drgania większe drgania"
-"Attrib_FlinchDecreaseAiming"							"%s1% miejsze drgania podczas celowania"
+"Attrib_FlinchDecreaseAiming"							"%s1% mniejsze drgania podczas celowania"
 "Attrib_FlinchIncreaseAiming"							"+%s1% większe drgania podczas celowania"
 "Attrib_CritVsBleed"									"Zadawane obrażenia są krytyczne, gdy wróg krwawi"
 "Attrib_MinicritWhileDisguised"							"Zadawane obrażenia są minikrytyczne, gdy noszący jest przebrany"
@@ -721,10 +721,10 @@
 "Attrib_BuildingsMaxLevel"								"Konstrukcje posiadają %s1 maks. poziom"
 "Attrib_UpgradeCost"									"Konstrukcje wymagają %s1 metalu, by je ulepszyć"
 "Attrib_Dispenser_Build_Rate"							"%s1% zwiększona szybkość budowania zasobnika"
-"Attrib_JumpPad_Build_Rate"								"%s1% zwiększona szybkość budowania Skoczni"
+"Attrib_JumpPad_Build_Rate"								"%s1% zwiększona szybkość budowania odskoczni"
 "Attrib_DispenserBuildCost"								"%s1% kosztu budowy zasobnika"
 "Attrib_SentrygunBuildCost"								"%s1% kosztu budowy działka strażniczego"
-"Attrib_JumpPadBuildCost"								"%s1% kosztu budowy Skoczni"
+"Attrib_JumpPadBuildCost"								"%s1% kosztu budowy odskoczni"
 "Attrib_NoPrimaryAmmoFromDispensersAlways"				"Zasobniki nie przyznają amunicji"
 "Attrib_MetalOnSentryKill"								"Przy zabiciu wroga działkiem: +%s1 metalu"
 "Attrib_SentryKnockback_Increased"						"+%s1% siły odpychania przez działko strażnicze"
@@ -779,7 +779,7 @@
 "Attrib_DisabledByWrench"								"Może zostać rozbrojona przy pomocy klucza"
 "Attrib_Coilgun"										"W pełni naładowane strzały rykoszetują od ścian, a przeciążenie broni spowoduje eksplozję."
 "Attrib_DamageAffectedByCharge"							"Zadawane obrażenia zależą od aktualnego poziomu naładowania"
-"Attrib_JumpPadNoUpgrade"								"Skocznie nie mogą być ulepszane."
+"Attrib_JumpPadNoUpgrade"								"Odskocznie nie mogą być ulepszane"
 "Attrib_AltFire_HasteBoost"								"Atak alternatywny: zwiększa szybkość ataku i ruchu sojusznika"
 "Attrib_AltFire_UberBubble"								"Atak alternatywny: rozmieszcza urządzenie generujące pole, które zapewnia niezniszczalność w jego zasięgu"
 
@@ -1423,14 +1423,14 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 
 "TF_NextTip"				"Następna wskazówka"
 
-"Stat_PadJumps"				"SKOCZNIE"
+"Stat_PadJumps"				"ODSKOCZNIE"
 
-"StatPanel_Label_PadJumps"		"# użyto Skoczni: "
+"StatPanel_Label_PadJumps"		"# użyto odskoczni: "
 
 "TF_ClassRecord_MostUbercharges"		"Naj. Überów:"
 "TF_ClassRecord_Alt_MostUbercharges"	"Über(ów)"
-"TF_ClassRecord_MostPadJumps"			"Naj. skoków na Skoczni:"
-"TF_ClassRecord_Alt_MostPadJumps"		"skok(ów) na Skoczni"
+"TF_ClassRecord_MostPadJumps"			"Naj. skoków na odskoczni:"
+"TF_ClassRecord_Alt_MostPadJumps"		"skok(ów) na odskoczni"
 
 "StatPanel_Ubercharges_Best"			"W tej rundzie udało ci się pobić rekord w liczbie użytych ładunków ÜberCharge."
 "StatPanel_Ubercharges_Tie"				"W tej rundzie udało ci się wyrównać rekord w liczbie użytych ładunków ÜberCharge."
@@ -1439,12 +1439,12 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 "StatPanel_MVM_Ubercharges_Tie"			"W tej rundzie Mann vs Maszyny udało ci się wyrównać rekord w liczbie użytych ładunków ÜberCharge."
 "StatPanel_MVM_Ubercharges_Close"		"W tej rundzie Mann vs Maszyny udało ci się zbliżyć do rekordu w liczbie użytych ładunków ÜberCharge."
 
-"StatPanel_PadJumps_Best"			"W tej rundzie udało ci się pobić rekord w liczbie skoków na Skoczni."
-"StatPanel_PadJumps_Tie"			"W tej rundzie udało ci się wyrównać rekord w liczbie skoków na Skoczni."
-"StatPanel_PadJumps_Close"			"W tej rundzie udało ci się zbliżyć do rekordu w liczbie skoków na Skoczni."
-"StatPanel_MVM_PadJumps_Best"		"W tej rundzie Mann vs Maszyny udało ci się pobić rekord w liczbie skoków na Skoczni."
-"StatPanel_MVM_PadJumps_Tie"		"W tej rundzie Mann vs Maszyny udało ci się wyrównać rekord w liczbie skoków na Skoczni."
-"StatPanel_MVM_PadJumps_Close"		"W tej rundzie Mann vs Maszyny udało ci się zbliżyć do rekordu w liczbie skoków na Skoczni."
+"StatPanel_PadJumps_Best"			"W tej rundzie udało ci się pobić rekord w liczbie skoków na odskoczni."
+"StatPanel_PadJumps_Tie"			"W tej rundzie udało ci się wyrównać rekord w liczbie skoków na odskoczni."
+"StatPanel_PadJumps_Close"			"W tej rundzie udało ci się zbliżyć do rekordu w liczbie skoków na odskoczni."
+"StatPanel_MVM_PadJumps_Best"		"W tej rundzie Mann vs Maszyny udało ci się pobić rekord w liczbie skoków na odskoczni."
+"StatPanel_MVM_PadJumps_Tie"		"W tej rundzie Mann vs Maszyny udało ci się wyrównać rekord w liczbie skoków na odskoczni."
+"StatPanel_MVM_PadJumps_Close"		"W tej rundzie Mann vs Maszyny udało ci się zbliżyć do rekordu w liczbie skoków na odskoczni."
 
 // ----------------------------------------------------------------
 // Achievements
@@ -1495,7 +1495,7 @@ Własność punktów kontrolnych przez drużyny jest losowana na początku każd
 "TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_NAME"						"Przygotowanie na rozliczenie"
 "TF2C_ACHIEVEMENT_CHEKHOV_CRIT_KILL_DESC"						"Jako Gruby, zdobądź krytyczne zabójstwo za pomocą Ciosu Czechowa z pełnym zapasem trafień krytycznych."
 "TF2C_ACHIEVEMENT_JUMPPAD_STOMP_NAME"							"Prędkość graniczna"
-"TF2C_ACHIEVEMENT_JUMPPAD_STOMP_DESC"							"Zabij wroga, lądując na nim po użyciu Skoczni."
+"TF2C_ACHIEVEMENT_JUMPPAD_STOMP_DESC"							"Zabij wroga, lądując na nim po użyciu odskoczni."
 "TF2C_ACHIEVEMENT_EXTEND_UBER_NAME"								"Maraton chirurgiczny"
 "TF2C_ACHIEVEMENT_EXTEND_UBER_DESC"								"Jako Medyk, wydłuż czas trwania ÜberCharge Rewitalizatora do 12 sekund."
 "TF2C_ACHIEVEMENT_CHEKHOV_SHOCK_NAME"							"To nie żyje!"
