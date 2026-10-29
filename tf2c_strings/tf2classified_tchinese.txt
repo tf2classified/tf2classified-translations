@@ -98,19 +98,75 @@
 // Classes
 // ----------------------------------------------------------------
 
-"TF_Special"	"特殊"
+"TF_Special"				"特殊"
+
+// Scout
+"ClassTips_1_Count"			"1"
+"ClassTips_1_1"				"在空中可以二連跳！"
+
+"ClassTips_1_Count_Escort"	"1"
+"ClassTips_1_1_Escort"		"你推車的速度比其他兵種快！"
+
+"ClassTips_1_Count_default"	"1"
+"ClassTips_1_1_default"		"你佔領控制點的速度比其他兵種快！"
+
+// Sniper
+"ClassTips_2_Count"			"2"
+"ClassTips_2_1"				"利用狙擊鏡瞄準可以提高狙擊槍的威力！"
+"ClassTips_2_2"				"瞄準頭部以產生致命一擊！"
+
+// Soldier
+"ClassTips_3_Count"			"2"
+"ClassTips_3_1"				"將火箭發射器朝敵人的腳射擊！"
+"ClassTips_3_2"				"使用你的火箭發射器火箭跳！"
+
+// Demoman
+"ClassTips_4_Count"			"2"
+"ClassTips_4_1"				"敵人靠近黏性炸彈時，遠端引爆黏彈！"
+"ClassTips_4_2"				"在引爆黏彈的時候站在黏彈上面以做出黏彈跳！"
+
+// Medic
+"ClassTips_5_Count"			"3"
+"ClassTips_5_1"				"治療你的隊友即可補充 UberCharge！"
+"ClassTips_5_2"				"使用 UberCharge 來你您和你的治療目標無敵！"
+"ClassTips_5_3"				"你的生命值能夠被動恢復！"
+
+// Heavy
+"ClassTips_6_Count"			"2"
+"ClassTips_6_1"				"旋轉你的格林機槍但不開火，準備對付接近的敵人！"
+"ClassTips_6_2"				"在拐角處預熱你的格林機槍，讓敵人措手不及！"
+
+// Pyro
+"ClassTips_7_Count"			"2"
+"ClassTips_7_1"				"你的火焰噴射器離目標越近，傷害效果就越好！"
+"ClassTips_7_2"				"對敵人和投射物發射壓縮氣爆，將其擊退或者給隊友滅火！"
+
+// Spy
+"ClassTips_8_Count"			"4"
+"ClassTips_8_1"				"將自己偽裝成敵方，滲透敵方基地！"
+"ClassTips_8_2"				"將自己隱形以避免被發現！"
+"ClassTips_8_3"				"用刀子背刺敵人，瞬間殺掉它們！"
+"ClassTips_8_4"				"在敵方步哨防禦槍上放置電子破壞器來破壞它們！"
+
+// Engineer
+"ClassTips_9_Count"			"4"
+"ClassTips_9_1"				"建造步哨來防守基地！將它們升級到等級三！"
+"ClassTips_9_2"				"你的補給器能夠給予隊友免費治療和彈藥！"
+"ClassTips_9_3"				"建造傳送裝置幫助隊友抵達前線！"
+"ClassTips_9_4"				"從掉落的武器收集金屬建造進築物！"
 
 // Civilian
 "TF_Civilian" 				"平民"
 "TF_Class_Name_Civilian" 	"平民"
 
-"ClassTips_10_Count"	"3"
-"ClassTips_10_1"		"給隊友提供加成，讓他們在戰鬥中更具優勢!"
-"ClassTips_10_1_Icon"	"chalf_circle"
-"ClassTips_10_2"		"緊跟隊友，給予他們傷害減免與被動治療效果!"
-"ClassTips_10_2_Icon"	"chalf_circle"
-"ClassTips_10_3"		"面對戰鬥時，你幾乎毫無還手能力!"
-"ClassTips_10_3_Icon"	"chalf_circle"
+"ClassTips_10_Count"		"3"
+"ClassTips_10_1"			"給隊友提供加成，讓他們在戰鬥中更具優勢"
+"ClassTips_10_2"			"緊跟隊友，給予他們傷害減免與被動治療效果！"
+"ClassTips_10_3"			"面對戰鬥時，你幾乎毫無還手能力！"
+
+// Random
+"ClassTips_12_Count"		"1"
+"ClassTips_12_1"			"讓遊戲隨機挑選兵種。"
 
 // ----------------------------------------------------------------
 // Target ID
@@ -194,18 +250,19 @@
 "DeathMsg_Suicide_Freeze"		"凍成冰塊了！"
 "DeathMsg_Suicide_Fizzle"		"電成焦炭了！"
 "DeathMsg_Suicide_Disappear"	"憑空消失了！"
+"DeathMsg_Suicide_Toss"			"被原地拋射！"
 
 // ----------------------------------------------------------------
 // Voice Menu
 // ----------------------------------------------------------------
 
-"Voice_Menu_ChargeReady"				    "（醫護兵）UberCharge 就绪"
-"Voice_Menu_ChargeReadySubtitle"		    "UberCharge 就绪！（100%）"
+"Voice_Menu_ChargeReady"				    "（醫護兵）UberCharge 就緒"
+"Voice_Menu_ChargeReadySubtitle"		    "UberCharge 就緒！（100%）"
 "Voice_Menu_ChargeAlmostReadySubtitle"	    "UberCharge 差不多就緒了（%s1%）"
 "Voice_Menu_ChargeNotReadySubtitle"		    "UberCharge 還未就緒！（%s1%）"
 
-"Voice_Menu_SingleChargeReadySubtitle"		"UberCharge 就绪！（已充能 %s1）"
-"Voice_Menu_MultipleChargesReadySubtitle"	"UberCharge 就绪！（已充能 %s1）"
+"Voice_Menu_SingleChargeReadySubtitle"		"UberCharge 就緒！（已充能 %s1）"
+"Voice_Menu_MultipleChargesReadySubtitle"	"UberCharge 就緒！（已充能 %s1）"
 
 // ----------------------------------------------------------------
 // Class tips
@@ -641,7 +698,7 @@
 "TF_Weapon_HealGrenadeLauncher"		"治療榴彈發射器"
 "TF_Weapon_LunchBox"				"午餐盒"
 "TF_Weapon_PDA"						"PDA"
-"TF_Weapon_ProximityMineLauncher"	"感應式地雷佈署器"
+"TF_Weapon_TripmineLauncher"	    "絆雷發射器"
 "TF_Weapon_Scythe"					"鐮刀"
 "TF_Weapon_Syringe"					"注射器"
 "TF_Weapon_Taser"					"電擊槍"
@@ -696,7 +753,7 @@
 "Attrib_Mod_Horizontal_Spread"						"擁有水平線武器散射"
 "Attrib_ApplySelfKnockback"							"擊中時給自己一個反向擊退"
 "Attrib_WeaponEnemyKnockback_Bonus"					"+%s1% 擊退作用"
-"Attrib_LifestealCrit"								"爆擊時：會迅速吸收被害者的生命值"
+"Attrib_LifestealCrit"								"滿充能時：攻擊可以擊中多個敵人並恢復生命值"
 "Attrib_FlatHealOnAfterburn_Active"					"手持時：餘火傷害時生命值每刻 +%s1"
 "Attrib_RememberTargetsRemainingAfterburn"			"標記處於著火傷害的目標"
 "Attrib_OnDeathRemoveTargetsAfterburn"				"死亡時：敵人將會滅火"
@@ -714,11 +771,11 @@
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"擊退作用受武器傷害影響"
 "Attrib_ApplySelfKnockbackSwing"					"揮舞時給自己一個反向擊退"
 "Attrib_AirblastSelfKnockback"						"壓縮氣爆對使用者造成擊退"
-"Attrib_ProximityMine"								"敵人靠近時自動引爆"
-"Attrib_AltFire_FizzleMines"						"次要攻擊：清除已部署的地雷"
+"Attrib_ProximityMine"								"敵人觸發絆雷的激光絆線時引爆"
+"Attrib_AltFire_FizzleMines"						"次要攻擊：清除所有的絆雷"
 "Attrib_NoStickyChargeTime"							"無粘彈蓄力時間"
 "Attrib_BlastSplashDamage_Decreased"				"%s1% 濺射爆炸傷害"
-"Attrib_BurningTargetsChargeCrit"					"手持時：燃燒目標會積攢爆擊能量條"
+"Attrib_BurningTargetsChargeCrit"					"燃燒目標會積攢爆擊能量條"
 "Attrib_LimitedRange"								"武器擁有射擊距離限制"
 "Attrib_GainStoredCritsOnKill"						"擊殺時：得到 %s1 個爆擊"
 "Attrib_HealOnKillCrit"								"爆擊擊殺時生命值 +%s1"
@@ -806,6 +863,17 @@
 "Attrib_AutoJumping"                                "持續按住跳躍鍵即可自動跳躍"
 "Attrib_SpreadScalesSpeed"                          "根據目前速度，最多提高 %s1% 精準度"
 "Attrib_DuckJumping"                                "蹲下時可以跳躍"
+"Attrib_NoZoom"										"無法使用瞄準鏡"
+"Attrib_PostFireDelayScoped"						"瞄準時射速降低 %s1%"
+"Attrib_NoDmgFalloff"								"傷害不會隨距離衰減"
+"Attrib_ReloadTimeDecreasedWhileRJ"					"火箭跳躍時裝填速度提高 %s1%"
+"Attrib_DmgCritFalloff"								"爆擊傷害會隨距離衰減"
+"Attrib_BurnTimeSelf"								"所有武器的餘火持續時間縮短 %s1%"
+"Attrib_HuntingRevolver_Explain_1"					"無論是否使用瞄準鏡，都可以爆頭"
+"Attrib_HuntingRevolver_Explain_2"					"未瞄準時，爆頭會造成小爆擊"
+"Attrib_Minelayer_Explain_1"						"絆雷可以引發連鎖爆炸"
+"Attrib_Minelayer_Explain_2"						"絆雷的爆炸範圍與傷害提高"
+"Attrib_Minelayer_Explain_3"						"最多可同時激活 4 枚絆雷"
 
 // ----------------------------------------------------------------
 // Map strings
@@ -1017,6 +1085,21 @@
 
 在驟死戰中，擊殺敵方 VIP 即可獲勝！"
 
+// VIPR Drizzle Event
+"vipr_drizzle_event_description"    "目標：
+護送 VIP 抵達控制點，然後前往撤離區以贏得勝利；擊殺敵方 VIP 可重置他們已佔領的控制點。
+
+小心可怕的幽靈平民！
+
+其他注意事項：
+幽靈平民會嚇到任何面對他的敵人！
+
+若你的 VIP 陣亡，所有已佔領的控制點將被奪回。
+
+若己方 VIP 不在場，任何隊伍皆可凍結控制點佔領進度。
+
+在驟死戰中，擊殺敵方 VIP 即可獲勝！"
+
 "vipr_setup_goal"		"護送你的 VIP 到控制點，別讓敵方 VIP 搶先一步！"
 "vipr_setup_goal_4team"	"送你的 VIP 到控制點，別讓敵方 VIP 搶先一步！"
 
@@ -1107,6 +1190,11 @@
 
 "TF_ScoreBoard_Player"				"%s1 位玩家"
 "TF_ScoreBoard_Players"				"%s1 位玩家"
+
+"TF_ScoreBoard_Player_And_Bot"		"%s1 位玩家（%s2 位電腦玩家）"
+"TF_ScoreBoard_Players_And_Bot"		"%s1 位玩家（%s2 位電腦玩家）"
+"TF_ScoreBoard_Player_And_Bots"		"%s1 位玩家（%s2 位電腦玩家）"
+"TF_ScoreBoard_Players_And_Bots"	"%s1 位玩家（%s2 位電腦玩家）"
 
 "ScoreBoard_Spectator"				"%s1 位旁觀者：%s2"
 "ScoreBoard_Spectators"				"%s1 位旁觀者：%s2"
@@ -1252,12 +1340,16 @@
 
 "TF_Loadout_Close"			    "關閉"
 "TF_Loadout_Back"			    "返回"
-"TF_Loadout_Defaults"			"預設"
+"TF_Loadout_Defaults"			"重置"
 
 // Reset inventory
-"TF_ConfirmDefaultInventory_Title"		"預設物品"
+"TF_ConfirmDefaultInventory_Title"		"重置物品"
 "TF_ConfirmDefaultInventory_Message"	"你確定要將此兵種的物品恢復為預設物品嗎？"
 "TF_ConfirmDefaultInventory_OK"			"確認"
+
+// Quickswitch Loadout
+"TF_Loadout_Respawning"				"作為 %s1 重生"
+"TF_Loadout_Changing_Class"			"更改兵種為 %s1" 
 
 // ----------------------------------------------------------------
 // Options
@@ -1405,7 +1497,7 @@
 
 // HUD
 "TF_LoadoutGrid"                  "啟用配置網格"
-"TF_LoadoutGrid_Tip"              "若勾選，背包配置頁面將以網格形式顯示。"
+"TF_LoadoutGrid_Tip"              "若勾選，揹包配置頁面將以網格形式顯示。"
 "TF_HighlightAmmo"				  "在掉落的武器上顯示發光效果"
 "TF_HighlightAmmo_Tip"			  "若勾選，遊戲中掉落的武器將顯示發光效果。"
 "TF_ScoreBoardShowAvatars"		  "記分板顯示頭像"
@@ -1430,7 +1522,7 @@
 "TF_AlternativeTimer"             "使用替代遊戲內計時器"
 "TF_AlternativeTimer_Tip"         "若勾選，使用替代的等寬字型計時器。"
 "TF_DisableDropShadow"            "禁用陰影效果"
-"TF_DisableDropShadow_Tip"        "若勾選，大部分文字和圖片將不顯示陰影"
+"TF_DisableDropShadow_Tip"        "若勾選，文字和圖片將不顯示陰影"
 "TF_DeathNoticeMax"               "殺人圖示 - 最大顯示數量"
 "TF_DeathNoticeMax_Tip"           "設定同時顯示的殺人圖示上限。"
 "TF_DeathNoticeTime"              "殺人圖示 - 顯示時間（秒）"
@@ -1589,7 +1681,7 @@
 "TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_NAME"					"雞不可失"
 "TF2C_ACHIEVEMENT_CHICKEN_ENVKILL_DESC"					"追逐一隻雞，並利用環境將牠殺死。"
 "TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_NAME"					"三面間諜"
-"TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_DESC"					"在四隊制模式的一回合中，背刺來自其餘三個敵對隊伍的玩家。"
+"TF2C_ACHIEVEMENT_4TEAM_BACKSTAB_DESC"					"在四隊制模式的一回閤中，背刺來自其餘三個敵對隊伍的玩家。"
 "TF2C_ACHIEVEMENT_HOLD_ALLPOINTS_DOMINATION_NAME"		"全面統治"
 "TF2C_ACHIEVEMENT_HOLD_ALLPOINTS_DOMINATION_DESC"		"在一回合統治模式中，讓你的隊伍擁有所有控制點。"
 "TF2C_ACHIEVEMENT_SHAME_NAME"							"恥辱徽章"

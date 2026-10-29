@@ -35,7 +35,7 @@
 // Chat Printouts
 "TF_Joined_Game"				"%s1 entrou na partida"
 "TF_Left_Game"					"%s1 saiu da partida (%s2)"
-"TF_Joined_Team"				"%s1 entrou para a equipe %s2"
+"TF_Joined_Team"				"%s1 entrou na equipe %s2"
 "TF_Name_Change"				"* %s1 mudou o nome para %s2"
 
 "TF_Team_Balanced"				"%s1 foi movido(a) para a equipe %s2"
@@ -88,7 +88,7 @@
 "TF_Other_Name"						"INIMIGOS"
 
 // Disguise Kit global disguise
-"Hud_Menu_Disguise_GlobalTeam"		"Disfarce Global: Todos os inimigos irão te ver como parte da sua própria equipe."
+"Hud_Menu_Disguise_GlobalTeam"		"Disfarce global: Todos os inimigos te verão como parte da sua própria equipe."
 
 // Autobalance
 "TF_teamswitch_green"				"Você agora está na equipe GRN!"
@@ -102,17 +102,73 @@
 
 "TF_Special"	"ESPECIAL"
 
+// Scout
+"ClassTips_1_Count"			"1"
+"ClassTips_1_1"				"Dê pulos duplos enquanto estiver no ar!"
+
+"ClassTips_1_Count_Escort"	"1"
+"ClassTips_1_1_Escort"		"Você empurra carrinhos mais rápido do que outras classes!"
+
+"ClassTips_1_Count_default"	"1"
+"ClassTips_1_1_default"		"Você captura pontos mais rápido do que outras classes!"
+
+// Sniper
+"ClassTips_2_Count"			"2"
+"ClassTips_2_1"				"Carregue o disparo do rifle de precisão para causar mais dano!"
+"ClassTips_2_2"				"Mire na cabeça para causar críticos!"
+
+// Soldier
+"ClassTips_3_Count"			"2"
+"ClassTips_3_1"				"Atire com o lança-foguetes nos pés de inimigos!"
+"ClassTips_3_2"				"Use o lança-foguetes para dar um salto com foguete!"
+
+// Demoman
+"ClassTips_4_Count"			"2"
+"ClassTips_4_1"				"Detone remotamente as suas stickybombs quando os inimigos se aproximarem delas!"
+"ClassTips_4_2"				"Dê um salto explosivo ao ficar em cima de uma ou mais stickybombs e pular ao detoná-las!"
+
+// Medic
+"ClassTips_5_Count"			"3"
+"ClassTips_5_1"				"Carregue a ÜberCarga ao curar aliados!"
+"ClassTips_5_2"				"Ative a ÜberCarga para aplicar um efeito poderoso a você e ao alvo da sua cura!"
+"ClassTips_5_3"				"Regenere sua vida passivamente!"
+
+// Heavy
+"ClassTips_6_Count"			"2"
+"ClassTips_6_1"				"Dilacere inimigos com sua metralhadora giratória!"
+"ClassTips_6_2"				"Mantenha a sua metralhadora girando sem atirar para estar preparado contra ataques iminentes!"
+
+// Pyro
+"ClassTips_7_Count"			"2"
+"ClassTips_7_1"				"Use o seu lança-chamas para queimar os seus inimigos!"
+"ClassTips_7_2"				"A rajada de ar do lança-chamas pode empurrar inimigos e projéteis para longe e também pode extinguir aliados em chamas!"
+
+// Spy
+"ClassTips_8_Count"			"4"
+"ClassTips_8_1"				"Disfarce-se como um inimigo e infiltre-se na base deles!"
+"ClassTips_8_2"				"Camufle-se para evitar ser visto!"
+"ClassTips_8_3"				"Esfaqueie inimigos nas costas para matá-los instantaneamente!"
+"ClassTips_8_4"				"Coloque sabotadores em construções inimigas para destruí-las!"
+
+// Engineer
+"ClassTips_9_Count"			"4"
+"ClassTips_9_1"				"Construa Sentinelas para defender a sua base! Aprimore-as para o nível 3!"
+"ClassTips_9_2"				"Seus Fornecedores fornecem vida e munição!"
+"ClassTips_9_3"				"Construa Teletransportadores para levar aliados às linhas de frente!"
+"ClassTips_9_4"				"Colete metal de armas largadas no chão para erguer e aprimorar construções!"
+
 // Civilian
 "TF_Civilian" 				"CIVILIAN"
 "TF_Class_Name_Civilian" 	"Civilian"
 
 "ClassTips_10_Count"	"3"
 "ClassTips_10_1"		"Banque o poder de um aliado para dar a ele uma vantagem na batalha!"
-"ClassTips_10_1_Icon"	"chalf_circle"
-"ClassTips_10_2"		"Fique perto dos seus aliados para dar à eles resistência a dano e cura passiva!"
-"ClassTips_10_2_Icon"	"chalf_circle"
+"ClassTips_10_2"		"Fique próximo de seus aliados para dar à eles resistência a dano e cura passiva!"
 "ClassTips_10_3"		"Sem relevância nas lutas!"
-"ClassTips_10_3_Icon"	"chalf_circle"
+
+// Random
+"ClassTips_12_Count"		"1"
+"ClassTips_12_1"			"Deixe que o jogo escolha uma classe aleatória para você."
 
 // ----------------------------------------------------------------
 // Target ID
@@ -129,8 +185,8 @@
 "TF_playerid_wpn_ammo_clip"				"%s1\nMunição: %s2 / %s3"
 
 // Boosts
-"TF_playerid_healer"					"Cura por "
-"TF_playerid_healtarget"				"Curando "
+"TF_playerid_healer"					"Cura por: "
+"TF_playerid_healtarget"				"Curando: "
 "TF_playerid_mediccharge"				"ÜberCarga: %s1%"
 "TF_playerid_mediccharge_wpn"			"ÜberCarga: %s2% (%s1)"
 "TF_playerid_civiliancharge"			"Bancando: %s1"
@@ -195,6 +251,7 @@
 "DeathMsg_Suicide_Freeze"		"congelou-se!"
 "DeathMsg_Suicide_Fizzle"		"foi eletrocutado!"
 "DeathMsg_Suicide_Disappear"	"desapareceu!"
+"DeathMsg_Suicide_Toss"			"perguntou se no céu tem pão"
 
 // ----------------------------------------------------------------
 // Voice Menu
@@ -642,7 +699,7 @@
 "TF_Weapon_HealGrenadeLauncher"		"Lança-Granadas de Cura"
 "TF_Weapon_LunchBox"				"Lancheira"
 "TF_Weapon_PDA"						"PDA"
-"TF_Weapon_ProximityMineLauncher"	"Lançador de Minas de Proximidade"
+"TF_Weapon_TripmineLauncher"	"Lançador de Minas Terrestres"
 "TF_Weapon_Scythe"					"Foice"
 "TF_Weapon_Syringe"					"Seringa"
 "TF_Weapon_Taser"					"Taser"
@@ -696,7 +753,7 @@
 "Attrib_Mod_Horizontal_Spread"						"As balas têm dispersão ampla e horizontal"
 "Attrib_ApplySelfKnockback"							"Aplica recuo reverso em um tiro"
 "Attrib_WeaponEnemyKnockback_Bonus"					"+%s1% de repulsão no inimigo"
-"Attrib_LifestealCrit"								"Ao acertar: roube a vida de sua vítima enquanto a barra de crítico estiver cheia"
+"Attrib_LifestealCrit"								"Ataques carregados atingem vários inimigos e curam o usuário"
 "Attrib_FlatHealOnAfterburn_Active"					"+%s1 de ganho de vida por pulso de queimadura enquanto empunhada"
 "Attrib_RememberTargetsRemainingAfterburn"			"Rastros de queima residual em alvos destruídos"
 "Attrib_OnDeathRemoveTargetsAfterburn"				"Inimigos em chamas são extinguidos ao morrer"
@@ -714,11 +771,11 @@
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Auto-Recuo é afetado pelo aumento de dano"
 "Attrib_ApplySelfKnockbackSwing"					"Aplica recuo reverso em si mesmo ao atacar"
 "Attrib_AirblastSelfKnockback"						"Rajada de Ar causa empurrão no usuário"
-"Attrib_ProximityMine"								"Minas de proximidade explodem em inimigos próximos"
-"Attrib_AltFire_FizzleMines"						"Disparo-alt: desativa as minas de proximidade"
+"Attrib_ProximityMine"								"As minas explodem ao acionar o laser de tração"
+"Attrib_AltFire_FizzleMines"						"Disparo-alt: desativa as minas terrestres"
 "Attrib_NoStickyChargeTime"							"Sem tempo de carregamento da Stickybomb"
 "Attrib_BlastSplashDamage_Decreased"				"%s1% de dano por explosão"
-"Attrib_BurningTargetsChargeCrit"					"Vítimas em chamas preencherão a barra de crítico enquanto empunhada"
+"Attrib_BurningTargetsChargeCrit"					"Dano incendiário preenche a barra de crítico"
 "Attrib_LimitedRange"								"Esta arma tem alcance limitado"
 "Attrib_GainStoredCritsOnKill"						"Ao Matar: Armazene %s1 de acerto crítico"
 "Attrib_HealOnKillCrit"								"+%s1 de vida restaurada ao matar com um golpe crítico"
@@ -806,6 +863,17 @@
 "Attrib_AutoJumping"								"Usuário pode pular automaticamente ao segurar o botão de pular"
 "Attrib_SpreadScalesSpeed"							"Até %s1% mais preciso com base na velocidade atual"
 "Attrib_DuckJumping"								"Usuário pode pular enquanto estiver agachando"
+"Attrib_NoZoom"										"Não pode usar a luneta"
+"Attrib_PostFireDelayScoped"						"Velocidade de tiro %s1% mais lenta enquanto usa a luneta"
+"Attrib_NoDmgFalloff"								"O dano não é reduzido em relação a distância"
+"Attrib_ReloadTimeDecreasedWhileRJ"					"Recarga %s1% mais rápida enquanto realiza um salto com foguete"
+"Attrib_DmgCritFalloff"								"Dano crítico é reduzido em relação a distância"
+"Attrib_BurnTimeSelf"								"%s1% de duração da queima em todas as armas"
+"Attrib_HuntingRevolver_Explain_1"					"Pode acertar tiros na cabeça mesmo sem a luneta"
+"Attrib_HuntingRevolver_Explain_2"					"Tiros na cabeça causam minicrits sem a luneta"
+"Attrib_Minelayer_Explain_1"						"Minas terrestres podem causar reação em cadeia"
+"Attrib_Minelayer_Explain_2"						"Minas terrestres possuem alcance e dano aumentados"
+"Attrib_Minelayer_Explain_3"						"Máximo de 4 minas ativas simultâneamente"
 
 // ----------------------------------------------------------------
 // Map strings
@@ -1007,14 +1075,29 @@ A equipe BLU pode congelar o progresso da captura de um Ponto de Controle se o V
 
 // VIP Race
 "default_vipr_description"	"Objetivo:
-Para vencer, escolte seu VIP até os Pontos de Controle e, em seguida, até a Zona de Fuga. Elimine o VIP inimigo para redefinir os Pontos de Controle que ele já tenha conquistado.
+Para vencer, escolte seu VIP até os Pontos de Controle e, em seguida, até a Zona de Fuga. Elimine o VIP inimigo para redefinir os Pontos de Controle que eles já tenham conquistado.
 
 Outras observações:
 Se o seu VIP morrer, você perde todos os Pontos de Controle que ele capturou.
 
 Qualquer uma das equipes pode congelar o progresso da captura de um Ponto de Controle se seu VIP não estiver presente.
 
-Se ocorrer Morte Súbita, o VIP inimigo pode ser eliminado para vencer a rodada!"
+Caso ocorra uma Morte Súbita, o VIP inimigo pode ser eliminado para vencer a rodada!"
+
+// VIPR Drizzle Event
+"vipr_drizzle_event_description"    "Objetivo:
+Para vencer, escolte seu VIP até os Pontos de Controle e, em seguida, até a Zona de Fuga. Elimine o VIP inimigo para redefinir os Pontos de Controle que eles já tenham conquistado.
+
+Tome cuidado com CIVILIANS FANTASMAGÓRICOS!
+
+Outras observações:
+CIVILIANS FANTASMAGÓRICOS amedrontam inimigos na sua frente!
+
+Se o seu VIP morrer, você perde todos os Pontos de Controle que ele capturou.
+
+Qualquer uma das equipes pode congelar o progresso da captura de um Ponto de Controle se seu VIP não estiver presente.
+
+Caso ocorra uma Morte Súbita, o VIP inimigo pode ser eliminado para vencer a rodada!"
 
 "vipr_setup_goal"		"Escolte seu VIP até os Pontos de Controle. Impeça o VIP inimigo de fazer o mesmo!"
 "vipr_setup_goal_4team"	"Escolte seu VIP até os Pontos de Controle. Impeça que as equipes inimigas façam o mesmo!"
@@ -1108,6 +1191,11 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF_ScoreBoard_Player"				"%s1 jogador"
 "TF_ScoreBoard_Players"				"%s1 jogadores"
 
+"TF_ScoreBoard_Player_And_Bot"		"%s1 jogador (%s2 bot)"
+"TF_ScoreBoard_Players_And_Bot"		"%s1 jogadores (%s2 bot)"
+"TF_ScoreBoard_Player_And_Bots"		"%s1 jogador (%s2 bots)"
+"TF_ScoreBoard_Players_And_Bots"	"%s1 jogadores (%s2 bots)"
+
 "ScoreBoard_Spectator"				"%s1 espectador: %s2"
 "ScoreBoard_Spectators"				"%s1 espectadores: %s2"
 
@@ -1131,9 +1219,9 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF_ScoreBoard_HeadshotsLabel"		"Tiros na cabeça:"
 "TF_ScoreBoard_BackstabsLabel"		"Facadas nas costas:"
 
-"TF_Medal_Developer"				"TF2C - Desenvolvedor"
-"TF_Medal_Contributor"				"TF2C - Colaborador"
-"TF_Medal_Playtester"				"TF2C - Testador"
+"TF_Medal_Developer"				"Desenvolvedor - TF2C"
+"TF_Medal_Contributor"				"Colaborador - TF2C"
+"TF_Medal_Playtester"				"Ajudante de Testes - TF2C"
 
 // ----------------------------------------------------------------
 // Win Panel
@@ -1156,12 +1244,12 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "Winpanel_YellowWins"		"VITÓRIA DA EQUIPE YLW!"
 "Winpanel_YellowAdvances"	"A EQUIPE YLW DOMINA A ÁREA"
 "Winpanel_YellowDefends"	"A EQUIPE YLW DEFENDEU!"
-"Winpanel_GreenMVPs"		"Os Melhores da Equipe:"
-"Winpanel_YellowMVPs"		"Os Melhores da Equipe:"
+"Winpanel_GreenMVPs"		"Os melhores da equipe:"
+"Winpanel_YellowMVPs"		"Os melhores da equipe:"
 
-"Winreason_KOTHPointHeld"		"A equipe %s1 defendeu o Ponto de Controle com sucesso até o tempo acabar"
+"Winreason_KOTHPointHeld"		"A equipe %s1 defendeu o ponto de controle com sucesso até o tempo acabar"
 "Winreason_PayloadPushed"		"A equipe %s1 empurrou a carga ao ponto final"
-"Winreason_ArenaPointCaptured"	"A equipe %s1 capturou o Ponto de Controle"
+"Winreason_ArenaPointCaptured"	"A equipe %s1 capturou o ponto de controle"
 "Winreason_RoundScoreLimit"		"A equipe %s1 venceu ao alcançar %s2 pontos"
 "Winreason_VIPEscaped"			"O VIP escapou"
 "Winreason_VIPKilled"			"O VIP foi eliminado"
@@ -1170,7 +1258,7 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 // Main Menu
 // ----------------------------------------------------------------
 
-"TF_Menu_Welcome"			"Bem-vindo(a) de novo,"
+"TF_Menu_Welcome"			"Bem-vindo(a) novamente,"
 "TF_Menu_Name"				"%playername%"
 
 "TF_Menu_StreamerMode"		"Modo de streamer"
@@ -1253,12 +1341,16 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 
 "TF_Loadout_Close"				"Fechar"
 "TF_Loadout_Back"				"Voltar"
-"TF_Loadout_Defaults"			"Padrão"
+"TF_Loadout_Defaults"			"Redefinir"
 
 // Reset inventory
-"TF_ConfirmDefaultInventory_Title"		"Equipamentos padrão"
+"TF_ConfirmDefaultInventory_Title"		"Redefinir equipamento"
 "TF_ConfirmDefaultInventory_Message"	"Tem certeza de que deseja equipar os itens padrão desta classe?"
 "TF_ConfirmDefaultInventory_OK"			"Sim"
+
+// Quickswitch Loadout
+"TF_Loadout_Respawning"				"Renascendo como %s1"
+"TF_Loadout_Changing_Class"			"Mudando de classe para %s1" 
 
 // ----------------------------------------------------------------
 // Options
@@ -1428,7 +1520,7 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 "TF_AlternativeTimer"             "Usar cronômetro alternativo no jogo"
 "TF_AlternativeTimer_Tip"         "Se ativada, usará um temporizador alternativo com fonte monocromática."
 "TF_DisableDropShadow"            "Desativar sombra projetada"
-"TF_DisableDropShadow_Tip"        "Se ativada, remove a sombra projetada da maioria dos textos e imagens."
+"TF_DisableDropShadow_Tip"        "Ative para remover a sombra projetada de textos e imagens."
 "TF_DeathNoticeMax"               "Aviso de Morte - Valor máximo visível"
 "TF_DeathNoticeMax_Tip"           "Define o número máximo de registros de mortes simultâneas."
 "TF_DeathNoticeTime"              "Aviso de Morte – Tempo de expiração das entradas (em segundos)"
@@ -1680,5 +1772,14 @@ A posse dos Pontos de Controle por cada equipe é aleatorizada no início de cad
 
 "TF_Welcome_birthday"			"Bem-vindo(a) e feliz aniversário, TF2!"
 "TF_Welcome_qwtf_birthday"		"Bem-vindo(a) e feliz aniversário, QWTF!"
+
+// ----------------------------------------------------------------
+// Lore overrides
+// ----------------------------------------------------------------
+"TF_HALLOWEEN_BOSS_DEATHCAM_NAME"			"O Cavaleiro Carente de Cavalo e Cabeça"
+"TF_HALLOWEEN_BOSS_WARN_AGGRO"				"Você enfureceu o Cavaleiro Carente de Cavalo e Cabeça!"
+"TF_Halloween_Boss_Appeared"		"O Cavaleiro Carente de Cavalo e Cabeça apareceu!\n"
+"TF_Halloween_Boss_Killed"			"O Cavaleiro Carente de Cavalo e Cabeça foi derrotado!\n"
+"TF_Halloween_Boss_Killers"			"%s1 derrotou o Cavaleiro Carente de Cavalo e Cabeça!\n"
 }
 }

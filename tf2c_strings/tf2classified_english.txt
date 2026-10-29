@@ -98,19 +98,75 @@
 // Classes
 // ----------------------------------------------------------------
 
-"TF_Special"	"SPECIAL"
+"TF_Special"				"SPECIAL"
+
+// Scout
+"ClassTips_1_Count"			"1"
+"ClassTips_1_1"				"Double jump while in the air!"
+
+"ClassTips_1_Count_Escort"	"1"
+"ClassTips_1_1_Escort"		"Push payload carts faster than other classes!"
+
+"ClassTips_1_Count_default"	"1"
+"ClassTips_1_1_default"		"Capture points faster than other classes!"
+
+// Sniper
+"ClassTips_2_Count"			"2"
+"ClassTips_2_1"				"Scope in with your Sniper Rifle to charge up damage!"
+"ClassTips_2_2"				"Aim for the head to do critical hits!"
+
+// Soldier
+"ClassTips_3_Count"			"2"
+"ClassTips_3_1"				"Shoot explosive rockets at enemies' feet!"
+"ClassTips_3_2"				"Shoot your Rocket Launcher at your feet while jumping to rocket jump!"
+
+// Demoman
+"ClassTips_4_Count"			"2"
+"ClassTips_4_1"				"Remote detonate your Stickybombs when enemies are near them!"
+"ClassTips_4_2"				"Detonate a Stickybomb at your feet while jumping to Stickybomb jump!"
+
+// Medic
+"ClassTips_5_Count"			"3"
+"ClassTips_5_1"				"Heal your teammates and fill your ÜberCharge meter!"
+"ClassTips_5_2"				"Use a full ÜberCharge to gain invulnerability for you and your Medi Gun target!"
+"ClassTips_5_3"				"Regenerate your own health passively!"
+
+// Heavy
+"ClassTips_6_Count"			"2"
+"ClassTips_6_1"				"Mow down enemies with your Minigun!"
+"ClassTips_6_2"				"Spin up your Minigun around corners to be ready for approaching enemies!"
+
+// Pyro
+"ClassTips_7_Count"			"2"
+"ClassTips_7_1"				"Use your Flame Thrower to deal burning damage your enemies!"
+"ClassTips_7_2"				"Airblast enemies and projectiles to push them away, or extinguish teammates!"
+
+// Spy
+"ClassTips_8_Count"			"4"
+"ClassTips_8_1"				"Disguise yourself as an enemy and infiltrate the enemy base!"
+"ClassTips_8_2"				"Cloak yourself to avoid being seen!"
+"ClassTips_8_3"				"Backstab your enemies with your Knife for an instant kill!"
+"ClassTips_8_4"				"Plant Sappers on enemy buildings to destroy them!"
+
+// Engineer
+"ClassTips_9_Count"			"4"
+"ClassTips_9_1"				"Build Sentry Guns to defend your base! Upgrade them to level 3!"
+"ClassTips_9_2"				"Your Dispensers generate free health and ammo!"
+"ClassTips_9_3"				"Build Teleporters to help teammates get to the front lines faster!"
+"ClassTips_9_4"				"Collect metal from fallen weapons to build with!"
 
 // Civilian
 "TF_Civilian" 				"CIVILIAN"
 "TF_Class_Name_Civilian" 	"Civilian"
 
-"ClassTips_10_Count"	"3"
-"ClassTips_10_1"		"Boost a teammate to give them an advantage in battle!"
-"ClassTips_10_1_Icon"	"chalf_circle"
-"ClassTips_10_2"		"Stay near teammates to give them damage resistance and passive healing!"
-"ClassTips_10_2_Icon"	"chalf_circle"
-"ClassTips_10_3"		"Be helpless in fights!"
-"ClassTips_10_3_Icon"	"chalf_circle"
+"ClassTips_10_Count"		"3"
+"ClassTips_10_1"			"Boost a teammate to give them an advantage in battle!"
+"ClassTips_10_2"			"Stay near teammates to give them damage resistance and passive healing!"
+"ClassTips_10_3"			"Be helpless in fights!"
+
+// Random
+"ClassTips_12_Count"		"1"
+"ClassTips_12_1"			"Let the game randomly choose a class for you."
 
 // ----------------------------------------------------------------
 // Target ID
@@ -194,6 +250,7 @@
 "DeathMsg_Suicide_Freeze"		"froze solid"
 "DeathMsg_Suicide_Fizzle"		"was electrified!"
 "DeathMsg_Suicide_Disappear"	"disappeared"
+"DeathMsg_Suicide_Toss"			"got all tossed up"
 
 // ----------------------------------------------------------------
 // Voice Menu
@@ -641,7 +698,7 @@
 "TF_Weapon_HealGrenadeLauncher"		"Heal Grenade Launcher"
 "TF_Weapon_LunchBox"				"Lunch Box"
 "TF_Weapon_PDA"						"PDA"
-"TF_Weapon_ProximityMineLauncher"	"Proximity Mine Launcher"
+"TF_Weapon_TripmineLauncher"		"Tripmine Launcher"
 "TF_Weapon_Scythe"					"Scythe"
 "TF_Weapon_Syringe"					"Syringe"
 "TF_Weapon_Taser"					"Taser"
@@ -696,7 +753,7 @@
 "Attrib_Mod_Horizontal_Spread"						"Bullets have a wide, horizontal spread"
 "Attrib_ApplySelfKnockback"							"Applies reverse self-knockback on a shot"
 "Attrib_WeaponEnemyKnockback_Bonus"					"+%s1% knockback on enemy"
-"Attrib_LifestealCrit"								"On Hit: Steal health from your victim while meter is full"
+"Attrib_LifestealCrit"								"Charged attacks hit multiple enemies and provide healing"
 "Attrib_FlatHealOnAfterburn_Active"					"+%s1 health gain per afterburn tick while active"
 "Attrib_RememberTargetsRemainingAfterburn"			"Tracks remaining afterburn off dead targets"
 "Attrib_OnDeathRemoveTargetsAfterburn"				"On Death: Burning victims are extinguished"
@@ -714,11 +771,11 @@
 "Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"Self-Knockback is affected by damage boost"
 "Attrib_ApplySelfKnockbackSwing"					"Applies reverse self-knockback on a swing"
 "Attrib_AirblastSelfKnockback"						"Airblast deals knockback on user"
-"Attrib_ProximityMine"								"Proximity mines explode near enemies"
-"Attrib_AltFire_FizzleMines"						"Alt-Fire: Fizzle proximity mines"
+"Attrib_ProximityMine"								"Tripmines explode when laser is crossed"
+"Attrib_AltFire_FizzleMines"						"Alt-Fire: Fizzle all tripmines"
 "Attrib_NoStickyChargeTime"							"No Stickybomb charge time"
 "Attrib_BlastSplashDamage_Decreased"				"%s1% explosion splash damage"
-"Attrib_BurningTargetsChargeCrit"					"Burning victims fill crit meter while active"
+"Attrib_BurningTargetsChargeCrit"					"Afterburn damage fills meter"
 "Attrib_LimitedRange"								"Weapon has limited range"
 "Attrib_GainStoredCritsOnKill"						"On Kill: Store %s1 critical hit"
 "Attrib_HealOnKillCrit"								"+%s1 health restored on crit kill"
@@ -806,6 +863,17 @@
 "Attrib_AutoJumping"								"Wearer can automatically jump by holding the jump button"
 "Attrib_SpreadScalesSpeed"							"Up to %s1% more accurate based on current speed"
 "Attrib_DuckJumping"								"Wearer can jump while crouching"
+"Attrib_NoZoom"										"Cannot use zoom"
+"Attrib_PostFireDelayScoped"						"%s1% slower firing speed while zoomed"
+"Attrib_NoDmgFalloff"								"No damage reduction with range"
+"Attrib_ReloadTimeDecreasedWhileRJ"					"%s1% faster reload time while rocket jumping"
+"Attrib_DmgCritFalloff"								"Critical damage is affected by range"
+"Attrib_BurnTimeSelf"								"%s1% afterburn duration on all weapons"
+"Attrib_HuntingRevolver_Explain_1"					"Can headshot regardless of zoom"
+"Attrib_HuntingRevolver_Explain_2"					"Headshots mini-crit while un-zoomed"
+"Attrib_Minelayer_Explain_1"						"Tripmines are able to chain-react"
+"Attrib_Minelayer_Explain_2"						"Tripmines have increased radius and damage"
+"Attrib_Minelayer_Explain_3"						"4 max tripmines active"
 
 // ----------------------------------------------------------------
 // Map strings
@@ -1017,6 +1085,21 @@ Either team can freeze the capture progress of a Control Point if their VIP isn'
 
 If Sudden Death occurs, the enemy VIP can be killed to win the round!"
 
+// VIPR Drizzle Event
+"vipr_drizzle_event_description"    "Objective:
+Escort your VIP to the Control Points followed by the Escape Zone to win. Kill the enemy VIP to reset any Control Points they have claimed.
+
+Beware the GHOSTLY CIVILIANS!
+
+Other Notes:
+GHOSTLY CIVILIANS scare enemies directly in front of them!
+
+If your VIP dies, you lose any Control Points your VIP has captured.
+
+Either team can freeze the capture progress of a Control Point if their VIP isn't present.
+
+If Sudden Death occurs, the enemy VIP can be killed to win the round!"
+
 "vipr_setup_goal"		"Escort your VIP to the Control Points. Stop the enemy VIP from doing the same!"
 "vipr_setup_goal_4team"	"Escort your VIP to the Control Points. Stop the enemy teams from doing the same!"
 
@@ -1107,6 +1190,11 @@ Team ownership of Control Points is randomized at the start of each round."
 
 "TF_ScoreBoard_Player"				"%s1 Player"
 "TF_ScoreBoard_Players"				"%s1 Players"
+
+"TF_ScoreBoard_Player_And_Bot"		"%s1 Player (%s2 Bot)"
+"TF_ScoreBoard_Players_And_Bot"		"%s1 Players (%s2 Bot)"
+"TF_ScoreBoard_Player_And_Bots"		"%s1 Player (%s2 Bots)"
+"TF_ScoreBoard_Players_And_Bots"	"%s1 Players (%s2 Bots)"
 
 "ScoreBoard_Spectator"				"%s1 Spectator: %s2"
 "ScoreBoard_Spectators"				"%s1 Spectators: %s2"
@@ -1252,12 +1340,16 @@ Team ownership of Control Points is randomized at the start of each round."
 
 "TF_Loadout_Close"				"Close"
 "TF_Loadout_Back"				"Back"
-"TF_Loadout_Defaults"			"Default"
+"TF_Loadout_Defaults"			"Reset"
 
 // Reset inventory
-"TF_ConfirmDefaultInventory_Title"		"Default Loadout"
+"TF_ConfirmDefaultInventory_Title"		"Reset Loadout"
 "TF_ConfirmDefaultInventory_Message"	"Are you sure you want to return to default items for this class?"
 "TF_ConfirmDefaultInventory_OK"			"Yes"
+
+// Quickswitch Loadout
+"TF_Loadout_Respawning"				"Respawning as %s1"
+"TF_Loadout_Changing_Class"			"Changing class to %s1" 
 
 // ----------------------------------------------------------------
 // Options
@@ -1430,7 +1522,7 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF_AlternativeTimer"             "Use alternative in-game timer"
 "TF_AlternativeTimer_Tip"         "If set, will use an alternative mono font timer."
 "TF_DisableDropShadow"            "Disable drop shadow"
-"TF_DisableDropShadow_Tip"        "If set, removes drop shadow from most text and images."
+"TF_DisableDropShadow_Tip"        "If set, removes drop shadow from text and images."
 "TF_DeathNoticeMax"               "Death Notice - Maximum visible amount"
 "TF_DeathNoticeMax_Tip"           "Sets the max amount of death notice entries at the same time."
 "TF_DeathNoticeTime"              "Death Notice - Expiry time for entries (in seconds)"
@@ -1675,5 +1767,14 @@ Team ownership of Control Points is randomized at the start of each round."
 
 "TF_Welcome_birthday"			"Welcome and Happy Birthday TF2!"
 "TF_Welcome_qwtf_birthday"		"Welcome and Happy Birthday QWTF!"
+
+// ----------------------------------------------------------------
+// Lore overrides
+// ----------------------------------------------------------------
+"TF_HALLOWEEN_BOSS_DEATHCAM_NAME"			"The Horseless Headless Horseman"
+"TF_HALLOWEEN_BOSS_WARN_AGGRO"				"You have angered the Horseless Headless Horseman!"
+"TF_Halloween_Boss_Appeared"		"The Horseless Headless Horseman has appeared!\n"
+"TF_Halloween_Boss_Killed"			"The Horseless Headless Horseman has been defeated!\n"
+"TF_Halloween_Boss_Killers"			"%s1 has defeated the Horseless Headless Horseman!\n"
 }
 }
