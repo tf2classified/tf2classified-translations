@@ -1767,5 +1767,14 @@ Team ownership of Control Points is randomized at the start of each round."
 
 "TF_Welcome_birthday"			"Welcome and Happy Birthday TF2!"
 "TF_Welcome_qwtf_birthday"		"Welcome and Happy Birthday QWTF!"
+
+// ----------------------------------------------------------------
+// Lore overrides
+// ----------------------------------------------------------------
+"TF_HALLOWEEN_BOSS_DEATHCAM_NAME"			"The Horseless Headless Horseman"
+"TF_HALLOWEEN_BOSS_WARN_AGGRO"				"You have angered the Horseless Headless Horseman!"
+"TF_Halloween_Boss_Appeared"		"The Horseless Headless Horseman has appeared!\n"
+"TF_Halloween_Boss_Killed"			"The Horseless Headless Horseman has been defeated!\n"
+"TF_Halloween_Boss_Killers"			"%s1 has defeated the Horseless Headless Horseman!\n"
 }
 }
