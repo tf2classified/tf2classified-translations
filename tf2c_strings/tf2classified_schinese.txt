@@ -723,7 +723,7 @@
 // ----------------------------------------------------------------
 
 // Building Status
-"Building_hud_hauling"				"建造中..."
+"Building_hud_hauling"				"搬运中..."
 "Building_hud_upgrading"			"正在升级..."
 "Building_hud_ready"				"就绪"
 "Building_hud_jumppad_a_not_built"	"跳板 A\n未建造"
