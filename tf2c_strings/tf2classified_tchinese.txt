@@ -88,7 +88,7 @@
 "TF_Other_Name"	                    "其他隊伍"
 
 // Disguise Kit global disguise
-"Hud_Menu_Disguise_GlobalTeam"	    "全局偽裝：每名隊伍的敵人都會把你當成自己人。"
+"Hud_Menu_Disguise_GlobalTeam"	    "全局偽裝：所有隊伍的敵人都會把你當成自己人。"
 
 // Autobalance
 "TF_teamswitch_green"			    "你現在是綠隊！"
@@ -468,7 +468,7 @@
 "Tip_10_2"		"身為平民，你是遊戲中最矮的兵種。躲在隊友身後能有效避開攻擊。"
 "Tip_10_3"		"身為平民，你是唯一能在 VIP 模式或 VIP 比賽模式佔領控制點的兵種。"
 "Tip_10_4"		"身為平民，時刻注意敵方間諜和狙擊手，他們可以瞬間擊殺你。"
-"Tip_10_5"		"身為平民，附近隊友會受到你的護盾加成，減少傷害並回復生命。與隊伍保持協作，避開敵人視線。"
+"Tip_10_5"		"身為平民，附近隊友會受到你的士氣加成，減少傷害並回復生命。與隊伍保持協作，避開敵人視線。"
 "Tip_10_6"		"身為平民，對隊友按下 %attack2% 可提供加成，讓他們在戰鬥中更有優勢。"
 // Stock
 "Tip_10_7"		"身為平民，你的雨傘除了擋雨和血以外並不適合作為武器。讓隊友為你戰鬥吧。"
@@ -723,7 +723,7 @@
 // ----------------------------------------------------------------
 
 // Building Status
-"Building_hud_hauling"				"建造中..."
+"Building_hud_hauling"				"搬運中..."
 "Building_hud_upgrading"			"升級中..."
 "Building_hud_ready"				"就緒"
 "Building_hud_jumppad_a_not_built"	"彈射板 A\n未建造"
@@ -751,24 +751,24 @@
 "Attrib_Gravity_Active_Increased"					"手持時：重力增加 +%s1%"
 "Attrib_TeleporterJumpPad"							"建造彈射板取代傳送裝置"
 "Attrib_Mod_Horizontal_Spread"						"擁有水平線武器散射"
-"Attrib_ApplySelfKnockback"							"擊中時給自己一個反向擊退"
+"Attrib_ApplySelfKnockback"							"開火時給自己一個反向擊退"
 "Attrib_WeaponEnemyKnockback_Bonus"					"+%s1% 擊退作用"
 "Attrib_LifestealCrit"								"滿充能時：攻擊可以擊中多個敵人並恢復生命值"
 "Attrib_FlatHealOnAfterburn_Active"					"手持時：餘火傷害時生命值每刻 +%s1"
-"Attrib_RememberTargetsRemainingAfterburn"			"標記處於著火傷害的目標"
+"Attrib_RememberTargetsRemainingAfterburn"			"標記死亡的目標著火傷害並充能"
 "Attrib_OnDeathRemoveTargetsAfterburn"				"死亡時：敵人將會滅火"
 "Attrib_Explosive_Bullets"							"子彈會爆炸"
 "Attrib_CannotUseStoredCrits"						"該武器不能使用積累的爆擊"
-"Attrib_GainStoredCritsOnHit"						"擊中時：得到 %s1 個爆擊"
+"Attrib_GainStoredCritsOnHit"						"擊中時：積攢 %s1 個爆擊"
 "Attrib_AlwaysCritsFullStoredCrits"					"該武器只在全滿的情況下才能使用積攢的爆擊"
 "Attrib_LoseStoredCritsOnMiss"						"未命中時：失去 %s1 個積累的爆擊"
 "Attrib_MeleeTakenBecomesCritWearer"				"穿戴時：受到的近戰傷害造成爆擊"
 "Attrib_MoveSpeed_Bonus_Cloaked"					"隱形時移動速度 +%s1%"
 "Attrib_LoseCloakOnDamage"							"隱形時受傷會失去 -%s1% 能量"
-"Attrib_TranqOnHit"									"擊中時：使目標色盲、移動速度降低，並在 %s1 秒內減少遠程武器傷害\n近戰攻擊被麻醉的敵人時，必定造成爆擊。"
+"Attrib_TranqOnHit"									"擊中時：使目標色盲、移動速度降低，並在 %s1 秒內減少遠程武器傷害\n近戰攻擊被麻醉的敵人時，必定造成爆擊"
 "Attrib_CloakRegenDisabled"							"不會被動恢復隱形能量"
 "Attrib_FishwhackerSweep"							"對附近的敵人產生擊退"
-"Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"擊退作用受武器傷害影響"
+"Attrib_SelfKnockbackAffectedByDamageBoostModifier"	"擊退作用受武器加成傷害影響"
 "Attrib_ApplySelfKnockbackSwing"					"揮舞時給自己一個反向擊退"
 "Attrib_AirblastSelfKnockback"						"壓縮氣爆對使用者造成擊退"
 "Attrib_ProximityMine"								"敵人觸發絆雷的激光絆線時引爆"
@@ -777,7 +777,7 @@
 "Attrib_BlastSplashDamage_Decreased"				"%s1% 濺射爆炸傷害"
 "Attrib_BurningTargetsChargeCrit"					"燃燒目標會積攢爆擊能量條"
 "Attrib_LimitedRange"								"武器擁有射擊距離限制"
-"Attrib_GainStoredCritsOnKill"						"擊殺時：得到 %s1 個爆擊"
+"Attrib_GainStoredCritsOnKill"						"擊殺時：積攢 %s1 個爆擊"
 "Attrib_HealOnKillCrit"								"爆擊擊殺時生命值 +%s1"
 "Attrib_InstantReloadOnDirectHit"					"精確命中時：立馬填裝 %s1 發彈匣"
 "Attrib_InstantReloadOnHit"							"擊中時：立馬填裝 %s1 發彈匣"
@@ -786,10 +786,10 @@
 "Attrib_ViewPunchOnHit"								"擊中時：搖晃目標視角"
 "Attrib_FlinchDecrease"								"受擊晃動降低 %s1%"
 "Attrib_FlinchIncrease"								"受擊晃動提高 +%s1%"
-"Attrib_FlinchDecreaseWearer"						"穿戴者的受擊晃動降低 %s1%"
-"Attrib_FlinchIncreaseWearer"						"穿戴者的受擊晃動提高 +%s1%"
-"Attrib_FlinchDecreaseAiming"						"瞄準時的受擊晃動降低 %s1%"
-"Attrib_FlinchIncreaseAiming"						"瞄準時的受擊晃動提高 +%s1%"
+"Attrib_FlinchDecreaseWearer"						"穿戴者的受擊晃動 %s1%"
+"Attrib_FlinchIncreaseWearer"						"穿戴者的受擊晃動 +%s1%"
+"Attrib_FlinchDecreaseAiming"						"瞄準時的受擊晃動 %s1%"
+"Attrib_FlinchIncreaseAiming"						"瞄準時的受擊晃動 +%s1%"
 "Attrib_CritVsBleed"								"對流血目標必定爆擊"
 "Attrib_MinicritWhileDisguised"						"偽裝時攻擊造成小爆擊"
 "Attrib_TakeMinicritsWhileDisguised"				"偽裝時受傷造成小爆擊"
@@ -868,7 +868,7 @@
 "Attrib_NoDmgFalloff"								"傷害不會隨距離衰減"
 "Attrib_ReloadTimeDecreasedWhileRJ"					"火箭跳躍時裝填速度提高 %s1%"
 "Attrib_DmgCritFalloff"								"爆擊傷害會隨距離衰減"
-"Attrib_BurnTimeSelf"								"所有武器的餘火持續時間縮短 %s1%"
+"Attrib_BurnTimeSelf"								"所有武器的餘火持續時間 %s1%"
 "Attrib_HuntingRevolver_Explain_1"					"無論是否使用瞄準鏡，都可以爆頭"
 "Attrib_HuntingRevolver_Explain_2"					"未瞄準時，爆頭會造成小爆擊"
 "Attrib_Minelayer_Explain_1"						"絆雷可以引發連鎖爆炸"
@@ -1054,7 +1054,7 @@
 "vip_setup_goal_offense"	"護送 VIP 前往撤離區。佔領控制點可獲得額外時間加成。"
 "vip_setup_goal_defense"	"擊殺敵方 VIP，阻止其抵達撤離區。必要時守住控制點！"
 
-"TF_VIP_Tutorial_Annotation_2"	"他會給身邊的隊友護盾加成\n還能給予隊友小爆擊效果！"
+"TF_VIP_Tutorial_Annotation_2"	"他會給身邊的隊友士氣加成\n還能給予隊友小爆擊效果！"
 "TF_VIP_Tutorial_Annotation_3"	"記住，他的生命比你的更重要，別讓刺客得手！"
 
 "Cant_cap_civilian_only"		"無法佔領\n只有VIP才能\n佔領這個控制點。"
@@ -1316,7 +1316,7 @@
 
 // Loadout gamemode indicator
 "TF_Loadout_Modifier_StockItemsOnly"		"僅使用原版武器！"
-"TF_Loadout_Modifier_MedievalItemsOnly"		"\"中世紀\" 僅使用部分武器！"
+"TF_Loadout_Modifier_MedievalItemsOnly"		"僅使用\"中世紀\"武器！"
 "TF_Loadout_Modifier_RandomizerClasses"		"隨機兵種！"
 "TF_Loadout_Modifier_RandomizerItems"		"隨機物品！"
 "TF_Loadout_Modifier_RandomizerAttributes"	"隨機屬性！"
@@ -1455,7 +1455,7 @@
 "GameUI_DontShowThisAgain"               	"不再顯示"
 
 // Combat
-"TF2C_Option_DamageFeedback"					"啟用傷害回饋"
+"TF2C_Option_DamageFeedback"				"啟用傷害回饋"
 "TF2C_Tooltip_DamageFeedback"				"造成或受到不同類型的傷害時播放相應的提示音"
 "TF2C_Option_DamageFeedbackOutgoing"		"啟用造成傷害回饋"
 "TF2C_Tooltip_DamageFeedbackOutgoing"		"對敵人造成傷害時播放傷害回饋提示音"
@@ -1483,7 +1483,7 @@
 
 // ClassSpecific
 "TF_CyclopsDoubleTap"             	"爆破兵：啟用獨眼大炮雙擊引爆"
-"TF_CyclopsDoubleTap_Tip"        	"勾選後，獨眼大砲榴彈需雙擊開火鍵才能引爆，而非鬆開開火鍵。"
+"TF_CyclopsDoubleTap_Tip"        	"勾選後，獨眼大砲射出的榴彈需再次按開火鍵才能引爆，而非鬆開開火鍵。"
 "TF_SniperBell"					    "狙擊手：狙擊槍會在充電完畢時發出提示聲響"
 "TF_SniperBell_Tip"					"狙擊槍充電完畢時播放音效。"
 "TF_ZoomSensitivityRatio"			"狙擊手：瞄準鏡靈敏度比例"
@@ -1617,10 +1617,10 @@
 // ----------------------------------------------------------------
 
 // Achievement groups
-"Achievement_Group_3000"	"進攻兵種（%s1 到 %s2）"
-"Achievement_Group_3100"	"防守兵種（%s1 到 %s2）"
-"Achievement_Group_3200"	"支援兵種（%s1 到 %s2）"
-"Achievement_Group_3300"	"地圖和遊戲模式（%s1 到 %s2）"
+"Achievement_Group_3000"	"進攻兵種（%s1/%s2）"
+"Achievement_Group_3100"	"防守兵種（%s1/%s2）"
+"Achievement_Group_3200"	"支援兵種（%s1/%s2）"
+"Achievement_Group_3300"	"地圖和遊戲模式（%s1/%s2）"
 
 // Launch achievements
 "TF2C_ACHIEVEMENT_KILL_WITH_DISTANTRPG_NAME"			"精心策劃的意外"
@@ -1734,7 +1734,7 @@
 "ServerBrowser_PlayerCount"         "%s1/%s2"
 "ServerBrowser_LatencyDetail"       "延遲：%s1"
 "ServerBrowser_IPAddressDetail"     "IP 位址：%s1"
-"ServerBrowser_PlayerListHeading"   "(玩家數：%s1/%s2, %s3 位電腦玩家)："
+"ServerBrowser_PlayerListHeading"   "玩家數：（%s1/%s2, %s3 名電腦玩家）："
 "ServerBrowser_NotFullFilter"       "伺服器未滿"
 "ServerBrowser_HasPlayersFilter"    "有玩家在伺服器內"
 "ServerBrowser_NoPasswordFilter"    "無伺服器密碼"
@@ -1766,6 +1766,6 @@
 // ----------------------------------------------------------------
 
 "TF_Welcome_birthday"			"歡迎，祝絕地要塞2生日樂!"
-"TF_Welcome_qwtf_birthday"		"歡迎，祝雷神之鎚生日樂!"
+"TF_Welcome_qwtf_birthday"		"歡迎，祝 QWTF 生日樂!"
 }
 }
