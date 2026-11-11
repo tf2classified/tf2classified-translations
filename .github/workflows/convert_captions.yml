@@ -1,0 +1,28 @@
+name: Convert to UTF-16LE ( CCs )
+
+on:
+  push:
+    paths:
+      - "tf2c_captions/**"
+    branches: [ "main" ]
+  pull_request:
+    paths:
+      - "tf2c_captions/**"
+  workflow_dispatch:
+
+jobs:
+  convert:
+    name: Convert to UTF-16LE ( CCs )
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Convert UTF-8 to UTF-16LE
+        run: ./convert.sh tf2c_captions
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tf2c_captions_utf16le
+          path: converted_tf2c_captions/
