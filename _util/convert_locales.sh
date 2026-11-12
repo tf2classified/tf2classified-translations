@@ -2,8 +2,8 @@
 
 set -e
 
-SourceDir="${1:?Usage: $0 <SourceDir>}"
-OutputDir="converted_${SourceDir}"
+SourceDir="$(realpath "${1:?Usage: $0 <SourceDir>}")"
+OutputDir="converted_$(basename "$SourceDir")"
 nErrors=0
 
 mkdir -p "$OutputDir"
@@ -13,7 +13,8 @@ while IFS= read -r -d '' File; do
 	mkdir -p "$(dirname "$Out")"
 
 	if [[ "$File" != *.txt ]]; then
-		cp "$File" "$Out"
+		echo "::error file=$File::Unexpected file $File"
+		(( nErrors+=1 ))
 		continue
 	fi
 
