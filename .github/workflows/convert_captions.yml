@@ -29,5 +29,5 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: tf2c_captions_utf16le
+          name: tf2c_captions_compiled
           path: compiled_converted_tf2c_captions/
