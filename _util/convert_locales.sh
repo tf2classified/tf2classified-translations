@@ -18,7 +18,7 @@ while IFS= read -r -d '' File; do
 		continue
 	fi
 
-	if [ "$(xxd -p -l 3 "$File")" != "efbbbf" ]; then
+	if [[ "$(LC_ALL=C head -c 3 "$File" | od -An -tx1 | tr -d ' \n')" != "efbbbf" ]]; then
 		echo "::error file=$File::$File is not UTF-8-BOM"
 		(( nErrors+=1 ))
 		continue
