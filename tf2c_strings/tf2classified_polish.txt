@@ -205,7 +205,7 @@
 "Tip_1_5"		"Pistolet świetnie nadaje się do likwidowania wrogów z dużej odległości."
 "Tip_1_6"		"Kij zadaje mniej obrażeń niż inne bronie do walki wręcz, lecz pozwala na szybsze zamachy."
 // Death & Taxes
-"Tip_1_7"		"Pistolet na Gwoździe zadaje spore obrażenia, nawet z daleka. Pozostań w ruchu i strzelaj po łuku."
+"Tip_1_7"		"Gwoździarka zadaje spore obrażenia, nawet z daleka. Pozostań w ruchu i strzelaj po łuku."
 "Tip_1_8"		"Niszczenie działek strażniczych Pistoletem na Gwoździe to bułka z masłem. Używaj go, gdy masz do czynienia z trudno dostępnymi działkami."
 // Fight or Flight
 "Tip_1_9"		"Cegła zadaje spore obrażenia i silny odrzut. Odrzuć wrogów w powietrze!"
@@ -537,7 +537,7 @@
 "TF_Weapon_Umbrella"				"Parasol"
 "TF_Weapon_Umbrella_Desc"			"Człowiek z klasą musi pozostawać suchy."
 // Nail Gun
-"TF_Weapon_NailGun"					"Pistolet na Gwoździe"
+"TF_Weapon_NailGun"					"Gwoździarka"
 "TF_Weapon_NailGun_Desc"			"Tia, dość szybko straciłem tę pracę."
 // R.P.G.
 "TF_Weapon_RPG"						"R.P.G."
