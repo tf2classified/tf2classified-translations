@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Convert UTF-8 to UTF-16LE
-        run: ./convert.sh tf2c_strings
+        run: ./_util/convert_locales.sh tf2c_strings
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
