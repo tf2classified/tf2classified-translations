@@ -76,6 +76,12 @@
 "TF_Volume_Generic"			"Volume:"
 
 // ----------------------------------------------------------------
+// Steam Timeline
+// ----------------------------------------------------------------
+
+"TF_Timeline_Ubercharge"		"You deployed Ubercharge"
+
+// ----------------------------------------------------------------
 // Teams
 // ----------------------------------------------------------------
 
@@ -257,6 +263,7 @@
 // ----------------------------------------------------------------
 
 "Voice_Menu_ChargeReady"					"(MEDIC) ÜberCharge Status"
+"Voice_Menu_ChargeDeployedSubtitle"			"ÜberCharge Deployed! Go! Go! Go!"
 "Voice_Menu_ChargeReadySubtitle"			"ÜberCharge Ready! (100%)"
 "Voice_Menu_ChargeAlmostReadySubtitle"		"ÜberCharge Almost Ready (%s1%)"
 "Voice_Menu_ChargeNotReadySubtitle"			"ÜberCharge Isn't Ready! (%s1%)"
@@ -337,7 +344,7 @@
 "Tip_4_9"		"As a Demoman, throw your Dynamite Pack onto busy Control Points in order to clear off any enemies."
 "Tip_4_10"		"As a Demoman, your Dynamite Pack can be disabled by enemy Engineers. Be mindful when hurling it into Sentry Gun nests."
 "Tip_4_11"		"As a Demoman, the Gunboats greatly reduce health loss from explosive jumps. Use them when positioning and mobility are especially important."
-"Tip_4_12"		"As a Demoman, the Mine Layer shoots proximity Mines that automatically detonate if an enemy gets too close. Use it for an automated defense!"
+"Tip_4_12"		"As a Demoman, the Mine Layer shoots tripmines that automatically detonate if an enemy crosses their laser. Use it for an automated defense!"
 // Double Down
 "Tip_4_13"		"As a Demoman, EMP grenades shot from the Cyclops will only detonate when you let them. Use this to time an explosive jump or set off a deadly trap!"
 "Tip_4_14"		"As a Demoman, the Cyclops instantly detonates your own explosives. Go for an aggressive combo kill!"
@@ -1533,6 +1540,7 @@ Team ownership of Control Points is randomized at the start of each round."
 // ViewModel
 "TF_ViewModelFOV"					"Viewmodel field of view"
 "TF_FlipViewModels"					"Flip viewmodels"
+"TF_FlipViewModels_Tip"				"If set, mirrors your viewmodel; requires player to be disconnected or spectating to apply"
 "TF_InvisibleArms"					"Use invisible arm viewmodels"
 "TF_ViewModelOpacity"				"Viewmodel opacity"
 "TF2C_Option_ViewmodelOffset"		"Enable viewmodel offsets"
@@ -1653,7 +1661,7 @@ Team ownership of Control Points is randomized at the start of each round."
 "TF2C_ACHIEVEMENT_CYCLOPS_COMBO_NAME"					"Combo Splatter"
 "TF2C_ACHIEVEMENT_CYCLOPS_COMBO_DESC"					"Kill at least 3 enemies with a single Cyclops combo detonation."
 "TF2C_ACHIEVEMENT_SANDVICH_MINES_NAME"					"Disarmament"
-"TF2C_ACHIEVEMENT_SANDVICH_MINES_DESC"					"As a Heavy, safely trigger an enemy Mine that is at least 5 seconds old without walking near it."
+"TF2C_ACHIEVEMENT_SANDVICH_MINES_DESC"					"As a Heavy, safely trigger an enemy Mine that is at least 5 seconds old without walking through its laser."
 "TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_NAME"					"1, 1, 1, Uhh..."
 "TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_DESC"					"Kill an enemy with an explosives configuration gone wrong."
 "TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_NAME"				"Policy of Containment"
