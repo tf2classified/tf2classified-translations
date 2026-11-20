@@ -76,6 +76,12 @@
 "TF_Volume_Generic"			"音量："
 
 // ----------------------------------------------------------------
+// Steam Timeline
+// ----------------------------------------------------------------
+
+"TF_Timeline_Ubercharge"		"你已经部署了 Ubercharge"
+
+// ----------------------------------------------------------------
 // Teams
 // ----------------------------------------------------------------
 
@@ -257,6 +263,7 @@
 // ----------------------------------------------------------------
 
 "Voice_Menu_ChargeReady"					"（医生）UberCharge 就绪"
+"Voice_Menu_ChargeDeployedSubtitle"			"UberCharge 已部署！冲！冲！冲！"
 "Voice_Menu_ChargeReadySubtitle"			"UberCharge 就绪！（100%）"
 "Voice_Menu_ChargeAlmostReadySubtitle"		"UberCharge 差不多就绪了（%s1%）"
 "Voice_Menu_ChargeNotReadySubtitle"			"UberCharge 还未就绪！（%s1%）"
@@ -409,7 +416,7 @@
 // Fight or Flight
 "Tip_7_12"		"作为火焰兵，双管霰弹枪可以用来拉近你与目标之间的距离。利用后坐力将自己向上推或者推向敌人！"
 "Tip_7_13"		"作为火焰兵，双管霰弹枪的伤害不如霰弹枪可靠。如果你在遭遇战中失利，可以利用它的后坐力来让自己撤退！"
-"Tip_7_14"		"作为火焰兵，手持收割者时可以积攒能量获得爆击，还能让你从燃烧的敌人身上获得治疗。"
+"Tip_7_14"		"作为火焰兵，手持收割者时可以积攒能量获得爆击，还能让你从敌人身上获得治疗。"
 "Tip_7_15"		"作为火焰兵，在装备收割者的情况下死亡将扑灭你点燃的任何敌人。"
 
 // Spy
@@ -1533,6 +1540,7 @@
 // ViewModel
 "TF_ViewModelFOV"				    "模型视图视场"
 "TF_FlipViewModels"				    "翻转模型视图"
+"TF_FlipViewModels_Tip"				"若选中此选项，将镜像化并翻转你的模型视图；需要玩家重新连接或处于旁观状态才能应用。"
 "TF_InvisibleArms"				    "启用模型视图隐形手臂"
 "TF_ViewModelOpacity"			    "模型视图不透明度"
 "TF2C_Option_ViewmodelOffset"		"启用模型视图位置修改"
@@ -1653,7 +1661,7 @@
 "TF2C_ACHIEVEMENT_CYCLOPS_COMBO_NAME"					"连爆飞溅"
 "TF2C_ACHIEVEMENT_CYCLOPS_COMBO_DESC"					"使用独眼巨炮的连击爆炸杀死至少 3 名敌人。"
 "TF2C_ACHIEVEMENT_SANDVICH_MINES_NAME"					"解除武装"
-"TF2C_ACHIEVEMENT_SANDVICH_MINES_DESC"					"作为机枪手，在不靠近敌方地雷的情况下安全触发部署超过 5 秒后的敌方地雷。"
+"TF2C_ACHIEVEMENT_SANDVICH_MINES_DESC"					"作为机枪手，在不穿过敌方地雷激光的情况下安全触发部署超过 5 秒后的敌方地雷。"
 "TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_NAME"					"1, 1, 1, 呃..."
 "TF2C_ACHIEVEMENT_TAUNT_KILL_MIRV_DESC"					"在错误使用集束炸药的情况下炸死一名敌人。"
 "TF2C_ACHIEVEMENT_AA_GUN_CHALLENGE_NAME"				"遏制政策"

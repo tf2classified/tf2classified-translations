@@ -1,5 +1,5 @@
 ﻿setid (required; the id of a set that already exists),brazilian,english,french,german,hungarian,italian,latam,polish,portuguese,russian,schinese,spanish,tchinese,turkish,ukrainian
-1,,Offense Classes,,,,,,,,,,,,,
-2,,Defense Classes,,,,,,,,,,,,,
-3,,Support Classes,,,,,,,,,,,,,
-4,,Maps and Gamemodes,,,,,,,,,,,,,
+1,,Offense Classes,,,,,,,,,进攻兵种,,進攻兵種,,
+2,,Defense Classes,,,,,,,,,防守兵种,,防守兵種,,
+3,,Support Classes,,,,,,,,,支援兵种,,支援兵種,,
+4,,Maps and Gamemodes,,,,,,,,,地图和游戏模式,,地圖和遊戲模式,,
