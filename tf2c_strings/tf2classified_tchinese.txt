@@ -76,6 +76,12 @@
 "TF_Volume_Generic"			"音量："
 
 // ----------------------------------------------------------------
+// Steam Timeline
+// ----------------------------------------------------------------
+
+"TF_Timeline_Ubercharge"		"你部署了 Ubercharge"
+
+// ----------------------------------------------------------------
 // Teams
 // ----------------------------------------------------------------
 
@@ -257,6 +263,7 @@
 // ----------------------------------------------------------------
 
 "Voice_Menu_ChargeReady"				    "（醫護兵）UberCharge 就緒"
+"Voice_Menu_ChargeDeployedSubtitle"			"UberCharge 已部署！快衝！"
 "Voice_Menu_ChargeReadySubtitle"		    "UberCharge 就緒！（100%）"
 "Voice_Menu_ChargeAlmostReadySubtitle"	    "UberCharge 差不多就緒了（%s1%）"
 "Voice_Menu_ChargeNotReadySubtitle"		    "UberCharge 還未就緒！（%s1%）"
@@ -1533,6 +1540,7 @@
 /// ViewModel
 "TF_ViewModelFOV"                    "第一人稱模型視野"
 "TF_FlipViewModels"                  "翻轉第一人稱模型"
+"TF_FlipViewModels_Tip"				 "若勾選，将会镜像化第一人稱模型視野；需要玩家重新連接或處於旁觀狀態才能應用。"
 "TF_InvisibleArms"                   "使用隱形手臂模型"
 "TF_ViewModelOpacity"                "第一人稱模型透明度"
 "TF2C_Option_ViewmodelOffset"        "啟用第一人稱模型位置偏移"
