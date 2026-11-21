@@ -1,0 +1,39 @@
+﻿"lang"
+{
+"Language" "Japanese"
+"Tokens"
+{
+"Tools_Run"						"実行する"
+"Tools_Open"					"開く"
+"Tools_OpenInExplorer"			"エクスプローラーで開く"
+
+"Tools_Applications"			"アプリケーション"
+"Tools_Documentation"			"文書化"
+"Tools_Other"					"他"
+
+"Tools_InvokeInvalid"			"このツールは定義が非推奨、または無効です。ゲームファイルの整合性を確認してください。"
+"Tools_InvokeUnknown"			"このツールの起動中に不明なエラーが発生しました。"
+"Tools_InvokeAlreadyRunning"	"このツールは、同時に1つのインスタンスしか実行できません。"
+"Tools_InvokeWin32Error"		"このツールの呼び出し中にエラーが発生しました:\n\n%s1"
+
+"Tools_UpdateStatusOK"			"OK"
+"Tools_UpdateStatusFailed"		"失敗した"
+"Tools_UpdateStatusChecking"	"アップデートを確認中..."
+"Tools_UpdateStatusDownloading"	"アップデートをダウンロード中..."
+"Tools_UpdateStatusInstalling"	"アップデートをインストール中..."
+
+"Tools_UpdateReasonBadRequest"	"HTTPリクエストの送信に失敗しました。以下を確認してください:\n    - インターネット接続が安定していること。\n    - ファイアウォールがリクエストをブロックしていないこと。\n    - プロバイダ（ISP）がドメインへのアクセスをブロックしていないこと。"
+"Tools_UpdateReasonToolMissing"	"アップデートのダウンロードに失敗しました: 最新のリリースが無効であるか、要求されたツールが含まれていません。詳細はコンソールを確認してください。"
+"Tools_UpdateReasonRateLimit"	"アップデートのダウンロードに失敗しました: レート制限に達しました。最大1時間後に再度お試しください。"
+"Tools_UpdateReasonNoDiskSpace"	"アップデートのインストールに失敗しました: ディスクの空き容量が不足しています。"
+"Tools_UpdateReasonCorrupted"	"アップデートのインストールに失敗しました: ダウンロードしたパッケージが破損しています。"
+
+"Tools_DescHammer"				"マップを作成・編集する"
+"Tools_DescHLMV"				"MDLをロード・プレビューする"
+"Tools_DescFacePoser"			"場面を作成する・振り付ける"
+"Tools_DescEngineTools"			"エンジンツールを起動する"
+"Tools_TitleMapSources"			"マップのソースファイル"
+"Tools_DescMapSources"			"色々TF2CマップのVMF"
+"Tools_TitleScriptSamples"		"VScriptの例え"
+}
+}
